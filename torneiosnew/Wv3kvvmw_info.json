@@ -1,0 +1,180 @@
+{
+  "nbPlayers": 19,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "vonWerlich",
+      "rank": 1,
+      "rating": 2262,
+      "score": 42,
+      "nb": {
+        "game": 13,
+        "berserk": 4,
+        "win": 11
+      },
+      "performance": 2162
+    },
+    {
+      "name": "the-chemist",
+      "rank": 2,
+      "rating": 2288,
+      "score": 33,
+      "nb": {
+        "game": 9,
+        "berserk": 1,
+        "win": 9
+      },
+      "performance": 2450
+    },
+    {
+      "name": "LeonardoLGS",
+      "rank": 3,
+      "rating": 2056,
+      "score": 16,
+      "nb": {
+        "game": 11,
+        "berserk": 5,
+        "win": 5
+      },
+      "performance": 1778
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 60,
+    "moves": 3689,
+    "whiteWins": 31,
+    "blackWins": 27,
+    "draws": 2,
+    "berserks": 15,
+    "averageRating": 1638
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "vonWerlich",
+        "rank": 1,
+        "rating": 2262,
+        "score": 42,
+        "sheet": {
+          "scores": "2045454445320"
+        }
+      },
+      {
+        "name": "the-chemist",
+        "rank": 2,
+        "rating": 2288,
+        "score": 33,
+        "sheet": {
+          "scores": "444445422",
+          "fire": true
+        }
+      },
+      {
+        "name": "LeonardoLGS",
+        "rank": 3,
+        "rating": 2056,
+        "score": 16,
+        "sheet": {
+          "scores": "30313030300"
+        }
+      },
+      {
+        "name": "DantonJosh",
+        "flair": "symbols.rainbow-flag",
+        "rank": 4,
+        "rating": 1388,
+        "score": 13,
+        "sheet": {
+          "scores": "1002020220220"
+        }
+      },
+      {
+        "name": "kronossaurus",
+        "rank": 5,
+        "rating": 2037,
+        "score": 12,
+        "sheet": {
+          "scores": "043302"
+        }
+      },
+      {
+        "name": "NeoMaverWick",
+        "flair": "symbols.fleur-de-lis",
+        "rank": 6,
+        "rating": 1865,
+        "score": 12,
+        "sheet": {
+          "scores": "02222022"
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 7,
+        "rating": 1825,
+        "score": 9,
+        "sheet": {
+          "scores": "10020202020"
+        }
+      },
+      {
+        "name": "taiyihanle",
+        "rank": 8,
+        "rating": 1330,
+        "score": 8,
+        "sheet": {
+          "scores": "0422"
+        }
+      },
+      {
+        "name": "justicechampx",
+        "rank": 9,
+        "rating": 1951,
+        "score": 7,
+        "sheet": {
+          "scores": "0030202"
+        }
+      },
+      {
+        "name": "PedroNEXT",
+        "rank": 10,
+        "rating": 1391,
+        "score": 6,
+        "sheet": {
+          "scores": "020000202"
+        }
+      }
+    ]
+  },
+  "id": "Wv3kvvmw",
+  "createdBy": "the-chemist",
+  "startsAt": "2022-09-16T21:30:00Z",
+  "system": "arena",
+  "fullName": "Sextas Online - GP 2022-2 T12 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 360,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento da ação \"Sextas Online\" do projeto \"Comunidade de Prática Online\" do NexT, sem limite de rating e aberto a todos que se juntarem à equipe do NexT no Lichess. Válido para o Grand Prix 2022-2 nas categorias \"Rating Performance\" e \"Participação\" (maiores informações em: http://nextxadrez.blogspot.com/2022/06/grand-prix-sextas-online.html)",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

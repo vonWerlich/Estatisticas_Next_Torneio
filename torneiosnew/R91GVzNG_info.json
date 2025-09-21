@@ -1,0 +1,35 @@
+{
+  "id": "R91GVzNG",
+  "createdBy": "the-chemist",
+  "startsAt": "2024-11-30T17:30:00Z",
+  "name": "Aberto de Xadrez Blitz 2024-2",
+  "clock": {
+    "limit": 300,
+    "increment": 3
+  },
+  "variant": "standard",
+  "round": 7,
+  "nbRounds": 7,
+  "nbPlayers": 17,
+  "nbOngoing": 0,
+  "status": "finished",
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Play your games",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "rated": true,
+  "stats": {
+    "games": 48,
+    "whiteWins": 50,
+    "blackWins": 42,
+    "draws": 4,
+    "byes": 4,
+    "absences": 15,
+    "averageRating": 1748
+  }
+}

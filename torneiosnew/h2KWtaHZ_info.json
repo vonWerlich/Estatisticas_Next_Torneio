@@ -1,0 +1,35 @@
+{
+  "id": "h2KWtaHZ",
+  "createdBy": "kp-next",
+  "startsAt": "2020-12-12T18:00:00Z",
+  "name": "Campeonato Xadrez Blitz 2020",
+  "clock": {
+    "limit": 300,
+    "increment": 3
+  },
+  "variant": "standard",
+  "round": 9,
+  "nbRounds": 9,
+  "nbPlayers": 64,
+  "nbOngoing": 0,
+  "status": "finished",
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Play your games",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "rated": true,
+  "stats": {
+    "games": 227,
+    "whiteWins": 198,
+    "blackWins": 232,
+    "draws": 24,
+    "byes": 4,
+    "absences": 111,
+    "averageRating": 1629
+  }
+}

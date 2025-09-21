@@ -1,0 +1,180 @@
+{
+  "nbPlayers": 35,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "kronossaurus",
+      "rank": 1,
+      "rating": 2063,
+      "score": 34,
+      "nb": {
+        "game": 14,
+        "berserk": 0,
+        "win": 10
+      },
+      "performance": 1945
+    },
+    {
+      "name": "justicechampx",
+      "rank": 2,
+      "rating": 1930,
+      "score": 31,
+      "nb": {
+        "game": 12,
+        "berserk": 0,
+        "win": 9
+      },
+      "performance": 2072
+    },
+    {
+      "name": "Rubens_Lavor",
+      "rank": 3,
+      "rating": 2070,
+      "score": 24,
+      "nb": {
+        "game": 11,
+        "berserk": 0,
+        "win": 9
+      },
+      "performance": 2078
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 132,
+    "moves": 8475,
+    "whiteWins": 55,
+    "blackWins": 71,
+    "draws": 6,
+    "berserks": 0,
+    "averageRating": 1511
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "kronossaurus",
+        "rank": 1,
+        "rating": 2063,
+        "score": 34,
+        "sheet": {
+          "scores": "02442204444220"
+        }
+      },
+      {
+        "name": "justicechampx",
+        "rank": 2,
+        "rating": 1930,
+        "score": 31,
+        "sheet": {
+          "scores": "120444444220"
+        }
+      },
+      {
+        "name": "Rubens_Lavor",
+        "rank": 3,
+        "rating": 2070,
+        "score": 24,
+        "sheet": {
+          "scores": "42204422022",
+          "fire": true
+        }
+      },
+      {
+        "name": "the-chemist",
+        "rank": 4,
+        "rating": 1887,
+        "score": 20,
+        "sheet": {
+          "scores": "42202222202",
+          "fire": true
+        }
+      },
+      {
+        "name": "Velho_moinho",
+        "rank": 5,
+        "rating": 1640,
+        "score": 18,
+        "sheet": {
+          "scores": "42202022002200",
+          "fire": true
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 6,
+        "rating": 1730,
+        "score": 16,
+        "sheet": {
+          "scores": "2104221202"
+        }
+      },
+      {
+        "name": "linofff",
+        "rank": 7,
+        "rating": 1802,
+        "score": 16,
+        "sheet": {
+          "scores": "042202002022"
+        }
+      },
+      {
+        "name": "KP-NexT",
+        "flair": "symbols.fleur-de-lis",
+        "rank": 8,
+        "rating": 1787,
+        "score": 14,
+        "sheet": {
+          "scores": "202222202"
+        }
+      },
+      {
+        "name": "FFF3",
+        "rank": 9,
+        "rating": 1836,
+        "score": 13,
+        "sheet": {
+          "scores": "2222021200"
+        }
+      },
+      {
+        "name": "chape",
+        "rank": 10,
+        "rating": 2007,
+        "score": 12,
+        "sheet": {
+          "scores": "0202020222"
+        }
+      }
+    ]
+  },
+  "id": "7FeDZEBR",
+  "createdBy": "kp-next",
+  "startsAt": "2020-05-15T21:30:52Z",
+  "system": "arena",
+  "fullName": "NexT Quarentena Online - T2 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "blitz",
+    "name": "Blitz",
+    "icon": ")"
+  },
+  "clock": {
+    "limit": 300,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio Amistoso de Treinamento do Projeto \"NexT Quarentena Online\", aberto a todos os membros inscritos no Clube Virtual Online do NexT (a Comunidade de Prática Online do Núcleo de Estudos em Xadrez & Tecnologias da UDESC no Lichess).",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

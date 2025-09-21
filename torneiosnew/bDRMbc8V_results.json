@@ -1,0 +1,238 @@
+[
+  {
+    "rank": 1,
+    "points": 7,
+    "tieBreak": 36.5,
+    "rating": 2152,
+    "username": "the-chemist",
+    "performance": 2180
+  },
+  {
+    "rank": 2,
+    "points": 7,
+    "tieBreak": 35,
+    "rating": 2256,
+    "username": "Rorschlock",
+    "performance": 2184
+  },
+  {
+    "rank": 3,
+    "points": 7,
+    "tieBreak": 31.5,
+    "rating": 2091,
+    "username": "Adechess1",
+    "performance": 2168
+  },
+  {
+    "rank": 4,
+    "points": 6.5,
+    "tieBreak": 33,
+    "rating": 1973,
+    "username": "Eusekevin",
+    "performance": 2132
+  },
+  {
+    "rank": 5,
+    "points": 5.5,
+    "tieBreak": 18.5,
+    "rating": 1819,
+    "username": "Modestovic",
+    "performance": 1689
+  },
+  {
+    "rank": 6,
+    "points": 5,
+    "tieBreak": 18.5,
+    "rating": 1930,
+    "username": "NotBrazilian",
+    "performance": 1903
+  },
+  {
+    "rank": 7,
+    "points": 5,
+    "tieBreak": 18,
+    "rating": 1867,
+    "username": "sergio-uhh",
+    "performance": 1732,
+    "absent": true
+  },
+  {
+    "rank": 8,
+    "points": 5,
+    "tieBreak": 18,
+    "rating": 1595,
+    "username": "kislex",
+    "performance": 1713
+  },
+  {
+    "rank": 9,
+    "points": 5,
+    "tieBreak": 17.75,
+    "rating": 2061,
+    "username": "vonWerlich",
+    "performance": 1878
+  },
+  {
+    "rank": 10,
+    "points": 5,
+    "tieBreak": 16.75,
+    "rating": 1242,
+    "username": "RafaBabu",
+    "performance": 1555
+  },
+  {
+    "rank": 11,
+    "points": 4.5,
+    "tieBreak": 18,
+    "rating": 1519,
+    "username": "DuuDragao_Next",
+    "performance": 1664
+  },
+  {
+    "rank": 12,
+    "points": 4.5,
+    "tieBreak": 15.75,
+    "rating": 1622,
+    "username": "DanielChamposki",
+    "performance": 1671,
+    "absent": true
+  },
+  {
+    "rank": 13,
+    "points": 4.5,
+    "tieBreak": 14.75,
+    "rating": 1326,
+    "username": "jaop",
+    "performance": 1446
+  },
+  {
+    "rank": 14,
+    "points": 4,
+    "tieBreak": 11,
+    "rating": 1686,
+    "username": "nrerfanian",
+    "performance": 1395
+  },
+  {
+    "rank": 15,
+    "points": 4,
+    "tieBreak": 9.5,
+    "rating": 1427,
+    "username": "Gustavo972",
+    "performance": 1429
+  },
+  {
+    "rank": 16,
+    "points": 4,
+    "tieBreak": 9,
+    "rating": 1265,
+    "username": "PedroNEXT",
+    "performance": 1490
+  },
+  {
+    "rank": 17,
+    "points": 4,
+    "tieBreak": 5,
+    "rating": 1067,
+    "username": "ncc_bee",
+    "performance": 1425
+  },
+  {
+    "rank": 18,
+    "points": 3,
+    "tieBreak": 12.75,
+    "rating": 1999,
+    "username": "FFF3",
+    "performance": 1999,
+    "absent": true
+  },
+  {
+    "rank": 19,
+    "points": 3,
+    "tieBreak": 5,
+    "rating": 1355,
+    "username": "IgorRafael",
+    "performance": 1143,
+    "absent": true
+  },
+  {
+    "rank": 20,
+    "points": 3,
+    "tieBreak": 4,
+    "rating": 1142,
+    "username": "DantonJosh",
+    "performance": 1135
+  },
+  {
+    "rank": 21,
+    "points": 2,
+    "tieBreak": 7,
+    "rating": 1695,
+    "username": "Diiieferson",
+    "performance": 1562,
+    "absent": true
+  },
+  {
+    "rank": 22,
+    "points": 1.5,
+    "tieBreak": 0,
+    "rating": 1334,
+    "username": "Matheus447",
+    "performance": 1213,
+    "absent": true
+  },
+  {
+    "rank": 23,
+    "points": 1,
+    "tieBreak": 0,
+    "rating": 953,
+    "username": "gusCamargo",
+    "performance": 858,
+    "absent": true
+  },
+  {
+    "rank": 24,
+    "points": 0,
+    "tieBreak": 0,
+    "rating": 1582,
+    "username": "MagnusLagessen",
+    "performance": 1619,
+    "absent": true
+  },
+  {
+    "rank": 25,
+    "points": 0,
+    "tieBreak": 0,
+    "rating": 1427,
+    "username": "LeonardoBatis",
+    "performance": 1437,
+    "absent": true
+  },
+  {
+    "rank": 26,
+    "points": 0,
+    "tieBreak": 0,
+    "rating": 1547,
+    "username": "thomarr",
+    "performance": 1161,
+    "absent": true
+  },
+  {
+    "rank": 27,
+    "points": 0,
+    "tieBreak": 0,
+    "rating": 2005,
+    "username": "Sissy_Secretary",
+    "performance": 927,
+    "absent": true
+  },
+  {
+    "rank": 28,
+    "points": 0,
+    "tieBreak": 0,
+    "rating": 1629,
+    "username": "ernestomh",
+    "performance": 544,
+    "absent": true
+  }
+]

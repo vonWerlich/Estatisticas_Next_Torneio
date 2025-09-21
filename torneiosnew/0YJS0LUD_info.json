@@ -1,0 +1,178 @@
+{
+  "nbPlayers": 18,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "vonWerlich",
+      "rank": 1,
+      "rating": 2105,
+      "score": 24,
+      "nb": {
+        "game": 14,
+        "berserk": 0,
+        "win": 12
+      },
+      "performance": 2011
+    },
+    {
+      "name": "justicechampx",
+      "rank": 2,
+      "rating": 1962,
+      "score": 20,
+      "nb": {
+        "game": 13,
+        "berserk": 0,
+        "win": 10
+      },
+      "performance": 1980
+    },
+    {
+      "name": "Modestovic",
+      "rank": 3,
+      "rating": 1677,
+      "score": 14,
+      "nb": {
+        "game": 15,
+        "berserk": 0,
+        "win": 7
+      },
+      "performance": 1650
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 66,
+    "moves": 3568,
+    "whiteWins": 35,
+    "blackWins": 31,
+    "draws": 0,
+    "berserks": 0,
+    "averageRating": 1579
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "vonWerlich",
+        "rank": 1,
+        "rating": 2105,
+        "score": 24,
+        "sheet": {
+          "scores": "22222202220222"
+        }
+      },
+      {
+        "name": "justicechampx",
+        "rank": 2,
+        "rating": 1962,
+        "score": 20,
+        "sheet": {
+          "scores": "2202222222002"
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 3,
+        "rating": 1677,
+        "score": 14,
+        "sheet": {
+          "scores": "002002020022220"
+        }
+      },
+      {
+        "name": "Maycon_Schlickmann",
+        "rank": 4,
+        "rating": 1701,
+        "score": 10,
+        "sheet": {
+          "scores": "2022022"
+        }
+      },
+      {
+        "name": "MrWickBrokeTheRules",
+        "rank": 5,
+        "rating": 1650,
+        "score": 8,
+        "sheet": {
+          "scores": "22020020"
+        }
+      },
+      {
+        "name": "AlexanderMAVC",
+        "rank": 6,
+        "rating": 1487,
+        "score": 8,
+        "sheet": {
+          "scores": "0022202"
+        }
+      },
+      {
+        "name": "Gustavo972",
+        "rank": 7,
+        "rating": 1438,
+        "score": 8,
+        "sheet": {
+          "scores": "2202020"
+        }
+      },
+      {
+        "name": "DantonJosh",
+        "flair": "symbols.rainbow-flag",
+        "rank": 8,
+        "rating": 1169,
+        "score": 8,
+        "sheet": {
+          "scores": "00002000200022"
+        }
+      },
+      {
+        "name": "botest",
+        "rank": 9,
+        "rating": 2190,
+        "score": 6,
+        "sheet": {
+          "scores": "222"
+        }
+      },
+      {
+        "name": "jaop",
+        "rank": 10,
+        "rating": 1334,
+        "score": 6,
+        "sheet": {
+          "scores": "02002200"
+        }
+      }
+    ]
+  },
+  "id": "0YJS0LUD",
+  "createdBy": "the-chemist",
+  "startsAt": "2021-09-17T21:30:55Z",
+  "system": "arena",
+  "fullName": "NexT Quarentena Online - T65 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "blitz",
+    "name": "Blitz",
+    "icon": ")"
+  },
+  "clock": {
+    "limit": 300,
+    "increment": 3
+  },
+  "variant": "standard",
+  "rated": true,
+  "noStreak": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento do projeto \"Quarentena Online\", sem limite de rating, aberto a todos que se juntarem à equipe do NexT no Lichess (Clube Virtual Online do NexT).",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

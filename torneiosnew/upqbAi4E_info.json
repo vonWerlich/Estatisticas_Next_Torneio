@@ -1,0 +1,180 @@
+{
+  "nbPlayers": 32,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "justicechampx",
+      "rank": 1,
+      "rating": 1989,
+      "score": 33,
+      "nb": {
+        "game": 10,
+        "berserk": 0,
+        "win": 9
+      },
+      "performance": 2242
+    },
+    {
+      "name": "DontWorryBeHappy11",
+      "rank": 2,
+      "rating": 1749,
+      "score": 20,
+      "nb": {
+        "game": 10,
+        "berserk": 0,
+        "win": 7
+      },
+      "performance": 1872
+    },
+    {
+      "name": "gmedsondias",
+      "rank": 3,
+      "rating": 1749,
+      "score": 20,
+      "nb": {
+        "game": 13,
+        "berserk": 0,
+        "win": 8
+      },
+      "performance": 1729
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 96,
+    "moves": 5924,
+    "whiteWins": 49,
+    "blackWins": 43,
+    "draws": 4,
+    "berserks": 0,
+    "averageRating": 1565
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "justicechampx",
+        "rank": 1,
+        "rating": 1989,
+        "score": 33,
+        "sheet": {
+          "scores": "4444444221",
+          "fire": true
+        }
+      },
+      {
+        "name": "DontWorryBeHappy11",
+        "rank": 2,
+        "rating": 1749,
+        "score": 20,
+        "sheet": {
+          "scores": "0220044422"
+        }
+      },
+      {
+        "name": "gmedsondias",
+        "rank": 3,
+        "rating": 1749,
+        "score": 20,
+        "sheet": {
+          "scores": "2044220200022"
+        }
+      },
+      {
+        "name": "BillBond007",
+        "rank": 4,
+        "rating": 1824,
+        "score": 18,
+        "sheet": {
+          "scores": "004442202"
+        },
+        "provisional": true
+      },
+      {
+        "name": "the-chemist",
+        "rank": 5,
+        "rating": 1929,
+        "score": 16,
+        "sheet": {
+          "scores": "020222422"
+        }
+      },
+      {
+        "name": "FelipeBM",
+        "rank": 6,
+        "rating": 1912,
+        "score": 16,
+        "sheet": {
+          "scores": "044422"
+        }
+      },
+      {
+        "name": "Ronnieryb",
+        "rank": 7,
+        "rating": 1777,
+        "score": 16,
+        "sheet": {
+          "scores": "2000442202"
+        }
+      },
+      {
+        "name": "vonWerlich",
+        "rank": 8,
+        "rating": 1798,
+        "score": 14,
+        "sheet": {
+          "scores": "2202202022",
+          "fire": true
+        }
+      },
+      {
+        "name": "peddroariel",
+        "rank": 9,
+        "rating": 1708,
+        "score": 10,
+        "sheet": {
+          "scores": "220020220",
+          "fire": true
+        }
+      },
+      {
+        "name": "Rcstarpvp",
+        "rank": 10,
+        "rating": 1439,
+        "score": 10,
+        "sheet": {
+          "scores": "00202020202"
+        }
+      }
+    ]
+  },
+  "id": "upqbAi4E",
+  "createdBy": "kp-next",
+  "startsAt": "2020-05-22T21:30:35Z",
+  "system": "arena",
+  "fullName": "NexT Quarentena Online - T3 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "blitz",
+    "name": "Blitz",
+    "icon": ")"
+  },
+  "clock": {
+    "limit": 300,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento do Projeto \"Quarentena Online\", aberto a todos os membros inscritos no Clube Virtual Online do NexT (a Comunidade de Prática Online do Núcleo de Estudos em Xadrez & Tecnologias da UDESC no Lichess).",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

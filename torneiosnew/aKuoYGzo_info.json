@@ -1,0 +1,181 @@
+{
+  "nbPlayers": 26,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "brunouss",
+      "rank": 1,
+      "rating": 1500,
+      "score": 18,
+      "provisional": true,
+      "nb": {
+        "game": 11,
+        "berserk": 0,
+        "win": 9
+      },
+      "performance": 1802
+    },
+    {
+      "name": "Claudio1414",
+      "rank": 2,
+      "rating": 1550,
+      "score": 16,
+      "nb": {
+        "game": 11,
+        "berserk": 0,
+        "win": 8
+      },
+      "performance": 1712
+    },
+    {
+      "name": "DanielChamposki",
+      "rank": 3,
+      "rating": 1572,
+      "score": 15,
+      "nb": {
+        "game": 12,
+        "berserk": 0,
+        "win": 7
+      },
+      "performance": 1626
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 87,
+    "moves": 5105,
+    "whiteWins": 38,
+    "blackWins": 45,
+    "draws": 4,
+    "berserks": 0,
+    "averageRating": 1599
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "brunouss",
+        "rank": 1,
+        "rating": 1500,
+        "score": 18,
+        "sheet": {
+          "scores": "22222220220"
+        },
+        "provisional": true
+      },
+      {
+        "name": "Claudio1414",
+        "rank": 2,
+        "rating": 1550,
+        "score": 16,
+        "sheet": {
+          "scores": "22202222020"
+        }
+      },
+      {
+        "name": "DanielChamposki",
+        "rank": 3,
+        "rating": 1572,
+        "score": 15,
+        "sheet": {
+          "scores": "222200220021"
+        }
+      },
+      {
+        "name": "DuuNexT",
+        "rank": 4,
+        "rating": 1769,
+        "score": 15,
+        "sheet": {
+          "scores": "02020200221202"
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 5,
+        "rating": 1801,
+        "score": 13,
+        "sheet": {
+          "scores": "02222122"
+        }
+      },
+      {
+        "name": "jaop",
+        "rank": 6,
+        "rating": 1475,
+        "score": 13,
+        "sheet": {
+          "scores": "022000202122"
+        }
+      },
+      {
+        "name": "brunovic",
+        "rank": 7,
+        "rating": 1804,
+        "score": 12,
+        "sheet": {
+          "scores": "0222202200"
+        }
+      },
+      {
+        "name": "calebeklazzarotti",
+        "flair": "symbols.japanese-symbol-for-beginner",
+        "rank": 8,
+        "rating": 2005,
+        "score": 10,
+        "sheet": {
+          "scores": "222202"
+        }
+      },
+      {
+        "name": "NotBrazilian",
+        "rank": 9,
+        "rating": 1972,
+        "score": 9,
+        "sheet": {
+          "scores": "02212002"
+        },
+        "provisional": true
+      },
+      {
+        "name": "vonWerlich",
+        "rank": 10,
+        "rating": 2123,
+        "score": 8,
+        "sheet": {
+          "scores": "2222"
+        }
+      }
+    ]
+  },
+  "id": "aKuoYGzo",
+  "createdBy": "kp-next",
+  "startsAt": "2021-03-08T21:30:46Z",
+  "system": "arena",
+  "fullName": "Quarentena do Aprendiz - T35 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 360,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": false,
+  "noStreak": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento do projeto \"Quarentena Online\" do NexT, para Aprendizes (rating rápido sugerido de até 2000 pontos). Para participar basta se juntar à equipe do NexT no Lichess.",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

@@ -1,0 +1,189 @@
+{
+  "nbPlayers": 62,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "the-chemist",
+      "rank": 1,
+      "rating": 2054,
+      "score": 50,
+      "nb": {
+        "game": 18,
+        "berserk": 11,
+        "win": 14
+      },
+      "performance": 2057
+    },
+    {
+      "name": "PlayForTeam",
+      "flair": "people.brain",
+      "rank": 2,
+      "rating": 1946,
+      "score": 45,
+      "nb": {
+        "game": 12,
+        "berserk": 7,
+        "win": 11
+      },
+      "performance": 1958
+    },
+    {
+      "name": "vonWerlich",
+      "rank": 3,
+      "rating": 2160,
+      "score": 44,
+      "nb": {
+        "game": 17,
+        "berserk": 7,
+        "win": 12
+      },
+      "performance": 2055
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 261,
+    "moves": 13399,
+    "whiteWins": 119,
+    "blackWins": 128,
+    "draws": 14,
+    "berserks": 25,
+    "averageRating": 1411
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "the-chemist",
+        "rank": 1,
+        "rating": 2054,
+        "score": 50,
+        "sheet": {
+          "scores": "320445433013055422",
+          "fire": true
+        }
+      },
+      {
+        "name": "PlayForTeam",
+        "flair": "people.brain",
+        "rank": 2,
+        "rating": 1946,
+        "score": 45,
+        "sheet": {
+          "scores": "545545232433",
+          "fire": true
+        }
+      },
+      {
+        "name": "vonWerlich",
+        "rank": 3,
+        "rating": 2160,
+        "score": 44,
+        "sheet": {
+          "scores": "33030212254555220",
+          "fire": true
+        }
+      },
+      {
+        "name": "Balzabouth",
+        "flair": "people.love-you-gesture-light-skin-tone",
+        "rank": 4,
+        "rating": 1733,
+        "score": 36,
+        "sheet": {
+          "scores": "2020444444422"
+        }
+      },
+      {
+        "name": "ReneDeVilla",
+        "rank": 5,
+        "rating": 1760,
+        "score": 34,
+        "sheet": {
+          "scores": "000442200220422020422"
+        }
+      },
+      {
+        "name": "gadottL",
+        "rank": 6,
+        "rating": 1855,
+        "score": 26,
+        "sheet": {
+          "scores": "42204220204220",
+          "fire": true
+        }
+      },
+      {
+        "name": "PedroNEXT",
+        "rank": 7,
+        "rating": 1512,
+        "score": 26,
+        "sheet": {
+          "scores": "4442202004220",
+          "fire": true
+        }
+      },
+      {
+        "name": "JuanPFLMA252B",
+        "rank": 8,
+        "rating": 1543,
+        "score": 21,
+        "sheet": {
+          "scores": "02210204422020"
+        },
+        "provisional": true
+      },
+      {
+        "name": "VItorAmonRa",
+        "rank": 9,
+        "rating": 1636,
+        "score": 20,
+        "sheet": {
+          "scores": "2202022042202",
+          "fire": true
+        },
+        "provisional": true
+      },
+      {
+        "name": "VitorBLMA252B",
+        "rank": 10,
+        "rating": 1575,
+        "score": 18,
+        "sheet": {
+          "scores": "022020442200"
+        },
+        "provisional": true
+      }
+    ]
+  },
+  "id": "DeZdTiKp",
+  "createdBy": "the-chemist",
+  "startsAt": "2025-08-22T21:30:00Z",
+  "system": "arena",
+  "fullName": "NexT FullChess Series 25-2 T01 Arena",
+  "minutes": 90,
+  "perf": {
+    "key": "blitz",
+    "name": "Blitz",
+    "icon": ")"
+  },
+  "clock": {
+    "limit": 180,
+    "increment": 2
+  },
+  "variant": "standard",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio válido para o Circuito NexT FullChess Series 25-2 (válido apenas para contas que não violarem os Termos de Serviço do Lichess e/ou não tiverem sido encerradas)",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

@@ -1,0 +1,183 @@
+{
+  "nbPlayers": 16,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "vonWerlich",
+      "rank": 1,
+      "rating": 2332,
+      "score": 67,
+      "nb": {
+        "game": 16,
+        "berserk": 8,
+        "win": 16
+      },
+      "performance": 2171
+    },
+    {
+      "name": "LeonardoLGS",
+      "rank": 2,
+      "rating": 2061,
+      "score": 24,
+      "nb": {
+        "game": 8,
+        "berserk": 5,
+        "win": 6
+      },
+      "performance": 2003
+    },
+    {
+      "name": "MrWickBrokeTheRules",
+      "rank": 3,
+      "rating": 1947,
+      "score": 18,
+      "provisional": true,
+      "nb": {
+        "game": 9,
+        "berserk": 0,
+        "win": 7
+      },
+      "performance": 1864
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 62,
+    "moves": 3124,
+    "whiteWins": 35,
+    "blackWins": 25,
+    "draws": 2,
+    "berserks": 20,
+    "averageRating": 1667
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "vonWerlich",
+        "rank": 1,
+        "rating": 2332,
+        "score": 67,
+        "sheet": {
+          "scores": "4544445554545432",
+          "fire": true
+        }
+      },
+      {
+        "name": "LeonardoLGS",
+        "rank": 2,
+        "rating": 2061,
+        "score": 24,
+        "sheet": {
+          "scores": "30255432"
+        }
+      },
+      {
+        "name": "MrWickBrokeTheRules",
+        "rank": 3,
+        "rating": 1947,
+        "score": 18,
+        "sheet": {
+          "scores": "422042202",
+          "fire": true
+        },
+        "provisional": true
+      },
+      {
+        "name": "Modestovic",
+        "rank": 4,
+        "rating": 1877,
+        "score": 17,
+        "sheet": {
+          "scores": "220001020422020",
+          "fire": true
+        }
+      },
+      {
+        "name": "FuntimeChica",
+        "rank": 5,
+        "rating": 1578,
+        "score": 9,
+        "sheet": {
+          "scores": "02001200202"
+        }
+      },
+      {
+        "name": "IaagoAriel",
+        "rank": 6,
+        "rating": 2126,
+        "score": 9,
+        "sheet": {
+          "scores": "30033"
+        }
+      },
+      {
+        "name": "lemos96",
+        "rank": 7,
+        "rating": 1767,
+        "score": 6,
+        "sheet": {
+          "scores": "2022"
+        }
+      },
+      {
+        "name": "DantonJosh",
+        "flair": "symbols.rainbow-flag",
+        "rank": 8,
+        "rating": 1353,
+        "score": 6,
+        "sheet": {
+          "scores": "020200000200"
+        }
+      },
+      {
+        "name": "Marcionir",
+        "rank": 9,
+        "rating": 1401,
+        "score": 6,
+        "sheet": {
+          "scores": "001000020030"
+        }
+      },
+      {
+        "name": "PedroNEXT",
+        "rank": 10,
+        "rating": 1353,
+        "score": 6,
+        "sheet": {
+          "scores": "0002000022"
+        }
+      }
+    ]
+  },
+  "id": "iwg3Dzml",
+  "createdBy": "the-chemist",
+  "startsAt": "2022-05-06T21:30:00Z",
+  "system": "arena",
+  "fullName": "Sextas Xadrez Online - T24 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 360,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento da ação \"Sextas Xadrez Online\" do projeto \"Comunidade de Prática Online\" do NexT, sem limite de rating, aberto a todos que se juntarem à equipe do NexT no Lichess (Clube Virtual Online do NexT).",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

@@ -1,0 +1,184 @@
+{
+  "nbPlayers": 18,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "the-chemist",
+      "rank": 1,
+      "rating": 2327,
+      "score": 22,
+      "nb": {
+        "game": 10,
+        "berserk": 3,
+        "win": 7
+      },
+      "performance": 2240
+    },
+    {
+      "name": "vonWerlich",
+      "rank": 2,
+      "rating": 2287,
+      "score": 22,
+      "nb": {
+        "game": 11,
+        "berserk": 2,
+        "win": 8
+      },
+      "performance": 2128
+    },
+    {
+      "name": "NeoMaverWick",
+      "flair": "symbols.fleur-de-lis",
+      "rank": 3,
+      "rating": 1935,
+      "score": 12,
+      "nb": {
+        "game": 11,
+        "berserk": 0,
+        "win": 6
+      },
+      "performance": 1954
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 55,
+    "moves": 3384,
+    "whiteWins": 27,
+    "blackWins": 25,
+    "draws": 3,
+    "berserks": 7,
+    "averageRating": 1769
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "the-chemist",
+        "rank": 1,
+        "rating": 2327,
+        "score": 22,
+        "sheet": {
+          "scores": "3224422030",
+          "fire": true
+        }
+      },
+      {
+        "name": "vonWerlich",
+        "rank": 2,
+        "rating": 2287,
+        "score": 22,
+        "sheet": {
+          "scores": "02202304432"
+        }
+      },
+      {
+        "name": "NeoMaverWick",
+        "flair": "symbols.fleur-de-lis",
+        "rank": 3,
+        "rating": 1935,
+        "score": 12,
+        "sheet": {
+          "scores": "22002202200",
+          "fire": true
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 4,
+        "rating": 1878,
+        "score": 11,
+        "sheet": {
+          "scores": "2200022102",
+          "fire": true
+        }
+      },
+      {
+        "name": "torneido",
+        "rank": 5,
+        "rating": 1929,
+        "score": 10,
+        "sheet": {
+          "scores": "22020220",
+          "fire": true
+        }
+      },
+      {
+        "name": "Pocototop",
+        "rank": 6,
+        "rating": 2254,
+        "score": 8,
+        "sheet": {
+          "scores": "022112"
+        }
+      },
+      {
+        "name": "Claudio1414",
+        "rank": 7,
+        "rating": 1600,
+        "score": 8,
+        "sheet": {
+          "scores": "0220202"
+        }
+      },
+      {
+        "name": "l1na",
+        "rank": 8,
+        "rating": 1913,
+        "score": 5,
+        "sheet": {
+          "scores": "0221"
+        }
+      },
+      {
+        "name": "Finark",
+        "rank": 9,
+        "rating": 1819,
+        "score": 4,
+        "sheet": {
+          "scores": "022"
+        }
+      },
+      {
+        "name": "AlexanderMAVC",
+        "rank": 10,
+        "rating": 1779,
+        "score": 4,
+        "sheet": {
+          "scores": "22",
+          "fire": true
+        }
+      }
+    ]
+  },
+  "id": "7jbK9Vyt",
+  "createdBy": "the-chemist",
+  "startsAt": "2023-02-10T21:30:00Z",
+  "system": "arena",
+  "fullName": "Sextas Online - GP 2023-1 T01 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 360,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento da ação \"Sextas Online\" do projeto \"Comunidade de Prática Online\" do NexT, sem limite de rating e aberto a todos que se juntarem à equipe do NexT no Lichess. Válido para o Grand Prix 2023-1 nas categorias \"Rating Performance\" e \"Participação\". Maiores informações em: \r\nhttps://nextxadrez.blogspot.com/2023/02/grand-prix-sextas-online-2-edicao.html",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

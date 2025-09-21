@@ -1,0 +1,35 @@
+{
+  "id": "bDRMbc8V",
+  "createdBy": "the-chemist",
+  "startsAt": "2021-07-24T18:00:00Z",
+  "name": "Aberto de Xadrez Blitz 2021-1",
+  "clock": {
+    "limit": 300,
+    "increment": 3
+  },
+  "variant": "standard",
+  "round": 9,
+  "nbRounds": 9,
+  "nbPlayers": 28,
+  "nbOngoing": 0,
+  "status": "finished",
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Play your games",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "rated": true,
+  "stats": {
+    "games": 94,
+    "whiteWins": 88,
+    "blackWins": 88,
+    "draws": 12,
+    "byes": 5,
+    "absences": 55,
+    "averageRating": 1627
+  }
+}

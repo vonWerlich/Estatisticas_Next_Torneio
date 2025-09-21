@@ -1,0 +1,180 @@
+{
+  "nbPlayers": 21,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "lferko",
+      "flair": "people.deaf-man-medium-light-skin-tone",
+      "rank": 1,
+      "rating": 1955,
+      "score": 20,
+      "nb": {
+        "game": 11,
+        "berserk": 0,
+        "win": 10
+      },
+      "performance": 2081
+    },
+    {
+      "name": "DuuNexT",
+      "rank": 2,
+      "rating": 1724,
+      "score": 16,
+      "nb": {
+        "game": 12,
+        "berserk": 0,
+        "win": 7
+      },
+      "performance": 1614
+    },
+    {
+      "name": "Modestovic",
+      "rank": 3,
+      "rating": 1845,
+      "score": 14,
+      "nb": {
+        "game": 11,
+        "berserk": 0,
+        "win": 7
+      },
+      "performance": 1847
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 79,
+    "moves": 4941,
+    "whiteWins": 35,
+    "blackWins": 40,
+    "draws": 4,
+    "berserks": 0,
+    "averageRating": 1506
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "lferko",
+        "flair": "people.deaf-man-medium-light-skin-tone",
+        "rank": 1,
+        "rating": 1955,
+        "score": 20,
+        "sheet": {
+          "scores": "22202222222"
+        }
+      },
+      {
+        "name": "DuuNexT",
+        "rank": 2,
+        "rating": 1724,
+        "score": 16,
+        "sheet": {
+          "scores": "122222202001"
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 3,
+        "rating": 1845,
+        "score": 14,
+        "sheet": {
+          "scores": "00222022220"
+        }
+      },
+      {
+        "name": "Velho_moinho",
+        "rank": 4,
+        "rating": 1559,
+        "score": 14,
+        "sheet": {
+          "scores": "02220220202"
+        },
+        "provisional": true
+      },
+      {
+        "name": "proneer",
+        "rank": 5,
+        "rating": 1572,
+        "score": 14,
+        "sheet": {
+          "scores": "2222202020"
+        }
+      },
+      {
+        "name": "Gustavo972",
+        "rank": 6,
+        "rating": 1399,
+        "score": 13,
+        "sheet": {
+          "scores": "221002222"
+        }
+      },
+      {
+        "name": "brunovic",
+        "rank": 7,
+        "rating": 1765,
+        "score": 12,
+        "sheet": {
+          "scores": "000222222"
+        }
+      },
+      {
+        "name": "rafaelfrug",
+        "rank": 8,
+        "rating": 1745,
+        "score": 12,
+        "sheet": {
+          "scores": "2020222020"
+        }
+      },
+      {
+        "name": "Kazalysson",
+        "rank": 9,
+        "rating": 1546,
+        "score": 12,
+        "sheet": {
+          "scores": "002122002201"
+        }
+      },
+      {
+        "name": "jaop",
+        "rank": 10,
+        "rating": 1475,
+        "score": 8,
+        "sheet": {
+          "scores": "20202020"
+        }
+      }
+    ]
+  },
+  "id": "m9oRW69c",
+  "createdBy": "kp-next",
+  "startsAt": "2021-04-26T21:30:05Z",
+  "system": "arena",
+  "fullName": "Quarentena do Aprendiz - T42 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 360,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": false,
+  "noStreak": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento do projeto \"Quarentena Online\" do NexT, para Aprendizes (rating rápido sugerido de até 2000 pontos). Para participar basta se juntar à equipe do NexT no Lichess.",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

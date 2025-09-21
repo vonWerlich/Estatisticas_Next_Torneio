@@ -1,0 +1,183 @@
+{
+  "nbPlayers": 19,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "vonWerlich",
+      "rank": 1,
+      "rating": 2257,
+      "score": 32,
+      "nb": {
+        "game": 10,
+        "berserk": 3,
+        "win": 8
+      },
+      "performance": 2306
+    },
+    {
+      "name": "NeoMaverWick",
+      "flair": "symbols.fleur-de-lis",
+      "rank": 2,
+      "rating": 1876,
+      "score": 32,
+      "nb": {
+        "game": 13,
+        "berserk": 0,
+        "win": 11
+      },
+      "performance": 1941
+    },
+    {
+      "name": "the-chemist",
+      "rank": 3,
+      "rating": 2368,
+      "score": 20,
+      "nb": {
+        "game": 12,
+        "berserk": 3,
+        "win": 7
+      },
+      "performance": 1957
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 63,
+    "moves": 3382,
+    "whiteWins": 34,
+    "blackWins": 26,
+    "draws": 3,
+    "berserks": 10,
+    "averageRating": 1636
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "vonWerlich",
+        "rank": 1,
+        "rating": 2257,
+        "score": 32,
+        "sheet": {
+          "scores": "0444545231"
+        }
+      },
+      {
+        "name": "NeoMaverWick",
+        "flair": "symbols.fleur-de-lis",
+        "rank": 2,
+        "rating": 1876,
+        "score": 32,
+        "sheet": {
+          "scores": "4220220444422",
+          "fire": true
+        }
+      },
+      {
+        "name": "the-chemist",
+        "rank": 3,
+        "rating": 2368,
+        "score": 20,
+        "sheet": {
+          "scores": "522020203031",
+          "fire": true
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 4,
+        "rating": 1801,
+        "score": 20,
+        "sheet": {
+          "scores": "2022244220"
+        }
+      },
+      {
+        "name": "DantonJosh",
+        "flair": "symbols.rainbow-flag",
+        "rank": 5,
+        "rating": 1428,
+        "score": 10,
+        "sheet": {
+          "scores": "02020020202000"
+        }
+      },
+      {
+        "name": "taiyihanle",
+        "rank": 6,
+        "rating": 1383,
+        "score": 9,
+        "sheet": {
+          "scores": "202002000201"
+        }
+      },
+      {
+        "name": "LeonardoLGS",
+        "rank": 7,
+        "rating": 2062,
+        "score": 8,
+        "sheet": {
+          "scores": "2330"
+        }
+      },
+      {
+        "name": "PedroNEXT",
+        "rank": 8,
+        "rating": 1397,
+        "score": 8,
+        "sheet": {
+          "scores": "0002020000202"
+        }
+      },
+      {
+        "name": "Claudio1414",
+        "rank": 9,
+        "rating": 1573,
+        "score": 8,
+        "sheet": {
+          "scores": "202202000"
+        }
+      },
+      {
+        "name": "Balzabouth",
+        "flair": "people.love-you-gesture-light-skin-tone",
+        "rank": 10,
+        "rating": 2025,
+        "score": 5,
+        "sheet": {
+          "scores": "0320"
+        }
+      }
+    ]
+  },
+  "id": "ebJPp5BG",
+  "createdBy": "the-chemist",
+  "startsAt": "2022-11-04T21:30:00Z",
+  "system": "arena",
+  "fullName": "Sextas Online - GP 2022-2 T19 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 360,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento da ação \"Sextas Online\" do projeto \"Comunidade de Prática Online\" do NexT, sem limite de rating e aberto a todos que se juntarem à equipe do NexT no Lichess. Válido para o Grand Prix 2022-2 nas categorias \"Rating Performance\" e \"Participação\" (maiores informações em: http://nextxadrez.blogspot.com/2022/06/grand-prix-sextas-online.html)",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

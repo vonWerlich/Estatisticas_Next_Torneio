@@ -1,0 +1,185 @@
+{
+  "nbPlayers": 22,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "the-chemist",
+      "rank": 1,
+      "rating": 1941,
+      "score": 20,
+      "provisional": true,
+      "nb": {
+        "game": 10,
+        "berserk": 0,
+        "win": 10
+      },
+      "performance": 2192
+    },
+    {
+      "name": "Gullermo_Lovera",
+      "rank": 2,
+      "rating": 1689,
+      "score": 14,
+      "nb": {
+        "game": 9,
+        "berserk": 0,
+        "win": 7
+      },
+      "performance": 1779
+    },
+    {
+      "name": "KP-NexT",
+      "flair": "symbols.fleur-de-lis",
+      "rank": 3,
+      "rating": 1941,
+      "score": 14,
+      "nb": {
+        "game": 13,
+        "berserk": 0,
+        "win": 7
+      },
+      "performance": 1516
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 72,
+    "moves": 4124,
+    "whiteWins": 35,
+    "blackWins": 32,
+    "draws": 5,
+    "berserks": 0,
+    "averageRating": 1581
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "the-chemist",
+        "rank": 1,
+        "rating": 1941,
+        "score": 20,
+        "sheet": {
+          "scores": "2222222222"
+        },
+        "provisional": true
+      },
+      {
+        "name": "Gullermo_Lovera",
+        "rank": 2,
+        "rating": 1689,
+        "score": 14,
+        "sheet": {
+          "scores": "220222220"
+        }
+      },
+      {
+        "name": "KP-NexT",
+        "flair": "symbols.fleur-de-lis",
+        "rank": 3,
+        "rating": 1941,
+        "score": 14,
+        "sheet": {
+          "scores": "0220222000202"
+        }
+      },
+      {
+        "name": "DuuDragao_Next",
+        "rank": 4,
+        "rating": 1500,
+        "score": 13,
+        "sheet": {
+          "scores": "20122120012"
+        },
+        "provisional": true
+      },
+      {
+        "name": "jaop",
+        "rank": 5,
+        "rating": 1475,
+        "score": 11,
+        "sheet": {
+          "scores": "20220212"
+        }
+      },
+      {
+        "name": "Diiieferson",
+        "rank": 6,
+        "rating": 1688,
+        "score": 10,
+        "sheet": {
+          "scores": "22222"
+        }
+      },
+      {
+        "name": "PedroNEXT",
+        "rank": 7,
+        "rating": 1263,
+        "score": 10,
+        "sheet": {
+          "scores": "002002222"
+        }
+      },
+      {
+        "name": "lferko",
+        "flair": "people.deaf-man-medium-light-skin-tone",
+        "rank": 8,
+        "rating": 2001,
+        "score": 9,
+        "sheet": {
+          "scores": "12202200"
+        }
+      },
+      {
+        "name": "Gustavo972",
+        "rank": 9,
+        "rating": 1507,
+        "score": 8,
+        "sheet": {
+          "scores": "2000002022"
+        }
+      },
+      {
+        "name": "DantonJosh",
+        "flair": "symbols.rainbow-flag",
+        "rank": 10,
+        "rating": 1060,
+        "score": 8,
+        "sheet": {
+          "scores": "2200002020"
+        },
+        "provisional": true
+      }
+    ]
+  },
+  "id": "MkGKgrQ7",
+  "createdBy": "the-chemist",
+  "startsAt": "2021-07-05T21:30:29Z",
+  "system": "arena",
+  "fullName": "Quarentena do Aprendiz - T52 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 360,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": false,
+  "noStreak": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento do projeto \"Quarentena Online\" do NexT, para Aprendizes (rating rápido sugerido de até 2000 pontos). Para participar basta se juntar à equipe do NexT no Lichess.",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

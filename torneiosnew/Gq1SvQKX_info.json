@@ -1,0 +1,35 @@
+{
+  "id": "Gq1SvQKX",
+  "createdBy": "the-chemist",
+  "startsAt": "2021-07-10T18:00:00Z",
+  "name": "Aberto de Xadrez Rápido 2021-1",
+  "clock": {
+    "limit": 360,
+    "increment": 4
+  },
+  "variant": "standard",
+  "round": 7,
+  "nbRounds": 7,
+  "nbPlayers": 39,
+  "nbOngoing": 0,
+  "status": "finished",
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Play your games",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "rated": true,
+  "stats": {
+    "games": 101,
+    "whiteWins": 88,
+    "blackWins": 102,
+    "draws": 12,
+    "byes": 4,
+    "absences": 63,
+    "averageRating": 1628
+  }
+}

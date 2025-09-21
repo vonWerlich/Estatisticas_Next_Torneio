@@ -1,0 +1,35 @@
+{
+  "id": "sli7pJoe",
+  "createdBy": "the-chemist",
+  "startsAt": "2021-12-17T21:30:00Z",
+  "name": "Aberto de Xadrez Blitz 2021-2",
+  "clock": {
+    "limit": 300,
+    "increment": 3
+  },
+  "variant": "standard",
+  "round": 9,
+  "nbRounds": 9,
+  "nbPlayers": 45,
+  "nbOngoing": 0,
+  "status": "finished",
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Play your games",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "rated": true,
+  "stats": {
+    "games": 123,
+    "whiteWins": 120,
+    "blackWins": 106,
+    "draws": 20,
+    "byes": 4,
+    "absences": 146,
+    "averageRating": 1643
+  }
+}

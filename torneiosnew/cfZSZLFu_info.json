@@ -1,0 +1,178 @@
+{
+  "nbPlayers": 19,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "the-chemist",
+      "rank": 1,
+      "rating": 2222,
+      "score": 26,
+      "nb": {
+        "game": 13,
+        "berserk": 0,
+        "win": 13
+      },
+      "performance": 2133
+    },
+    {
+      "name": "JohnWick-NexT",
+      "rank": 2,
+      "rating": 2130,
+      "score": 18,
+      "nb": {
+        "game": 12,
+        "berserk": 0,
+        "win": 9
+      },
+      "performance": 1882
+    },
+    {
+      "name": "vonWerlich",
+      "rank": 3,
+      "rating": 2075,
+      "score": 15,
+      "nb": {
+        "game": 11,
+        "berserk": 0,
+        "win": 7
+      },
+      "performance": 1901
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 82,
+    "moves": 4892,
+    "whiteWins": 40,
+    "blackWins": 38,
+    "draws": 4,
+    "berserks": 0,
+    "averageRating": 1487
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "the-chemist",
+        "rank": 1,
+        "rating": 2222,
+        "score": 26,
+        "sheet": {
+          "scores": "2222222222222"
+        }
+      },
+      {
+        "name": "JohnWick-NexT",
+        "rank": 2,
+        "rating": 2130,
+        "score": 18,
+        "sheet": {
+          "scores": "022222222002"
+        }
+      },
+      {
+        "name": "vonWerlich",
+        "rank": 3,
+        "rating": 2075,
+        "score": 15,
+        "sheet": {
+          "scores": "22022202120"
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 4,
+        "rating": 1732,
+        "score": 13,
+        "sheet": {
+          "scores": "20202012202"
+        }
+      },
+      {
+        "name": "LeonardoLGS",
+        "rank": 5,
+        "rating": 1637,
+        "score": 12,
+        "sheet": {
+          "scores": "020220222"
+        }
+      },
+      {
+        "name": "RafaBabu",
+        "rank": 6,
+        "rating": 1222,
+        "score": 11,
+        "sheet": {
+          "scores": "020220001202"
+        }
+      },
+      {
+        "name": "DantonJosh",
+        "flair": "symbols.rainbow-flag",
+        "rank": 7,
+        "rating": 1142,
+        "score": 11,
+        "sheet": {
+          "scores": "200002220200001"
+        }
+      },
+      {
+        "name": "DuuDragao_Next",
+        "rank": 8,
+        "rating": 1719,
+        "score": 10,
+        "sheet": {
+          "scores": "02222020"
+        }
+      },
+      {
+        "name": "Gustavo972",
+        "rank": 9,
+        "rating": 1371,
+        "score": 9,
+        "sheet": {
+          "scores": "02021220"
+        }
+      },
+      {
+        "name": "Maycon_Schlickmann",
+        "rank": 10,
+        "rating": 1675,
+        "score": 8,
+        "sheet": {
+          "scores": "022202"
+        }
+      }
+    ]
+  },
+  "id": "cfZSZLFu",
+  "createdBy": "the-chemist",
+  "startsAt": "2021-06-25T21:30:58Z",
+  "system": "arena",
+  "fullName": "NexT Quarentena Online - T53 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "blitz",
+    "name": "Blitz",
+    "icon": ")"
+  },
+  "clock": {
+    "limit": 300,
+    "increment": 3
+  },
+  "variant": "standard",
+  "rated": true,
+  "noStreak": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento do projeto \"Quarentena Online\", sem limite de rating, aberto a todos que se juntarem à equipe do NexT no Lichess (Clube Virtual Online do NexT).",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

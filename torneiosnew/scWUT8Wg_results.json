@@ -1,0 +1,104 @@
+[
+  {
+    "rank": 1,
+    "score": 26,
+    "rating": 2243,
+    "username": "the-chemist",
+    "performance": 1999
+  },
+  {
+    "rank": 2,
+    "score": 22,
+    "rating": 2262,
+    "username": "vonWerlich",
+    "performance": 2299
+  },
+  {
+    "rank": 3,
+    "score": 22,
+    "rating": 2283,
+    "username": "foxtopdomate",
+    "performance": 2134
+  },
+  {
+    "rank": 4,
+    "score": 10,
+    "rating": 1949,
+    "username": "NeoMaverWick",
+    "flair": "symbols.fleur-de-lis",
+    "performance": 1996
+  },
+  {
+    "rank": 5,
+    "score": 8,
+    "rating": 1503,
+    "username": "DantonJosh",
+    "flair": "symbols.rainbow-flag",
+    "performance": 1657
+  },
+  {
+    "rank": 6,
+    "score": 6,
+    "rating": 1675,
+    "username": "Claudio1414",
+    "performance": 1887
+  },
+  {
+    "rank": 7,
+    "score": 4,
+    "rating": 1421,
+    "username": "guile_mig",
+    "performance": 1686
+  },
+  {
+    "rank": 8,
+    "score": 2,
+    "rating": 1934,
+    "username": "M4m4m14",
+    "performance": 1792
+  },
+  {
+    "rank": 9,
+    "score": 2,
+    "rating": 1397,
+    "username": "PedroNEXT",
+    "performance": 1368
+  },
+  {
+    "rank": 10,
+    "score": 0,
+    "rating": 2028,
+    "username": "DanielSantosB",
+    "flair": "nature.rainbow",
+    "performance": 0
+  },
+  {
+    "rank": 11,
+    "score": 0,
+    "rating": 1583,
+    "username": "FFF3",
+    "performance": 0
+  },
+  {
+    "rank": 12,
+    "score": 0,
+    "rating": 1668,
+    "username": "Frankwillyan",
+    "flair": "smileys.alien",
+    "performance": 1464
+  },
+  {
+    "rank": 13,
+    "score": 0,
+    "rating": 1638,
+    "username": "venanccio",
+    "performance": 1429
+  },
+  {
+    "rank": 14,
+    "score": 0,
+    "rating": 1142,
+    "username": "Olivars",
+    "performance": 957
+  }
+]

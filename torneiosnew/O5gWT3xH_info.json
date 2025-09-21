@@ -1,0 +1,182 @@
+{
+  "nbPlayers": 26,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "Re2_Re7",
+      "rank": 1,
+      "rating": 2030,
+      "score": 20,
+      "provisional": true,
+      "nb": {
+        "game": 10,
+        "berserk": 0,
+        "win": 10
+      },
+      "performance": 2031
+    },
+    {
+      "name": "ShaolimMataPorco",
+      "rank": 2,
+      "rating": 1680,
+      "score": 20,
+      "provisional": true,
+      "nb": {
+        "game": 13,
+        "berserk": 0,
+        "win": 9
+      },
+      "performance": 1681
+    },
+    {
+      "name": "DuuNexT",
+      "rank": 3,
+      "rating": 1696,
+      "score": 17,
+      "nb": {
+        "game": 12,
+        "berserk": 0,
+        "win": 8
+      },
+      "performance": 1701
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 91,
+    "moves": 5402,
+    "whiteWins": 34,
+    "blackWins": 53,
+    "draws": 4,
+    "berserks": 0,
+    "averageRating": 1472
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "Re2_Re7",
+        "rank": 1,
+        "rating": 2030,
+        "score": 20,
+        "sheet": {
+          "scores": "2222222222"
+        },
+        "provisional": true
+      },
+      {
+        "name": "ShaolimMataPorco",
+        "rank": 2,
+        "rating": 1680,
+        "score": 20,
+        "sheet": {
+          "scores": "0211222202222"
+        },
+        "provisional": true
+      },
+      {
+        "name": "DuuNexT",
+        "rank": 3,
+        "rating": 1696,
+        "score": 17,
+        "sheet": {
+          "scores": "012222222002"
+        }
+      },
+      {
+        "name": "Claudio1414",
+        "rank": 4,
+        "rating": 1546,
+        "score": 17,
+        "sheet": {
+          "scores": "20200201222220"
+        }
+      },
+      {
+        "name": "rlemos",
+        "rank": 5,
+        "rating": 1702,
+        "score": 16,
+        "sheet": {
+          "scores": "2220222220"
+        }
+      },
+      {
+        "name": "franfilth",
+        "rank": 6,
+        "rating": 1535,
+        "score": 10,
+        "sheet": {
+          "scores": "002202220"
+        }
+      },
+      {
+        "name": "Bohr274",
+        "rank": 7,
+        "rating": 1313,
+        "score": 8,
+        "sheet": {
+          "scores": "012002210"
+        }
+      },
+      {
+        "name": "DantonJosh",
+        "flair": "symbols.rainbow-flag",
+        "rank": 8,
+        "rating": 1014,
+        "score": 8,
+        "sheet": {
+          "scores": "02200202000"
+        }
+      },
+      {
+        "name": "Matheus447",
+        "rank": 9,
+        "rating": 1623,
+        "score": 7,
+        "sheet": {
+          "scores": "20122"
+        }
+      },
+      {
+        "name": "proneer",
+        "rank": 10,
+        "rating": 1578,
+        "score": 6,
+        "sheet": {
+          "scores": "0222"
+        }
+      }
+    ]
+  },
+  "id": "O5gWT3xH",
+  "createdBy": "kp-next",
+  "startsAt": "2020-12-14T21:30:43Z",
+  "system": "arena",
+  "fullName": "Quarentena do Aprendiz - T29 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 420,
+    "increment": 5
+  },
+  "variant": "standard",
+  "rated": true,
+  "noStreak": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento do projeto \"Quarentena Online\" do NexT, para Aprendizes (rating rápido sugerido de até 1800 pontos). Para participar basta estar inscrito na equipe do NexT no Lichess.",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

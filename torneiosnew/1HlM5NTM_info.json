@@ -1,0 +1,179 @@
+{
+  "nbPlayers": 20,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "the-chemist",
+      "rank": 1,
+      "rating": 2145,
+      "score": 65,
+      "nb": {
+        "game": 18,
+        "berserk": 7,
+        "win": 17
+      },
+      "performance": 2125
+    },
+    {
+      "name": "vonWerlich",
+      "rank": 2,
+      "rating": 2175,
+      "score": 34,
+      "nb": {
+        "game": 15,
+        "berserk": 7,
+        "win": 11
+      },
+      "performance": 1780
+    },
+    {
+      "name": "torneido",
+      "rank": 3,
+      "rating": 1760,
+      "score": 26,
+      "nb": {
+        "game": 11,
+        "berserk": 0,
+        "win": 8
+      },
+      "performance": 2017
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 94,
+    "moves": 4834,
+    "whiteWins": 47,
+    "blackWins": 44,
+    "draws": 3,
+    "berserks": 26,
+    "averageRating": 1529
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "the-chemist",
+        "rank": 1,
+        "rating": 2145,
+        "score": 65,
+        "sheet": {
+          "scores": "454545445422045422",
+          "fire": true
+        }
+      },
+      {
+        "name": "vonWerlich",
+        "rank": 2,
+        "rating": 2175,
+        "score": 34,
+        "sheet": {
+          "scores": "320544522022030",
+          "fire": true
+        }
+      },
+      {
+        "name": "torneido",
+        "rank": 3,
+        "rating": 1760,
+        "score": 26,
+        "sheet": {
+          "scores": "02202444422"
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 4,
+        "rating": 1764,
+        "score": 23,
+        "sheet": {
+          "scores": "0200021204422020020"
+        }
+      },
+      {
+        "name": "leonardomarques1",
+        "rank": 5,
+        "rating": 1563,
+        "score": 19,
+        "sheet": {
+          "scores": "003202000020422000002"
+        }
+      },
+      {
+        "name": "Diiieferson",
+        "rank": 6,
+        "rating": 1806,
+        "score": 16,
+        "sheet": {
+          "scores": "304522"
+        }
+      },
+      {
+        "name": "AdilioLessa",
+        "rank": 7,
+        "rating": 1796,
+        "score": 16,
+        "sheet": {
+          "scores": "00452302"
+        }
+      },
+      {
+        "name": "PedroNEXT",
+        "rank": 8,
+        "rating": 1365,
+        "score": 14,
+        "sheet": {
+          "scores": "2000042202020"
+        }
+      },
+      {
+        "name": "MrWickBrokeTheRules",
+        "rank": 9,
+        "rating": 1759,
+        "score": 12,
+        "sheet": {
+          "scores": "202002002022"
+        }
+      },
+      {
+        "name": "LeonardoBatis",
+        "rank": 10,
+        "rating": 1624,
+        "score": 8,
+        "sheet": {
+          "scores": "00220022"
+        }
+      }
+    ]
+  },
+  "id": "1HlM5NTM",
+  "createdBy": "the-chemist",
+  "startsAt": "2021-12-10T21:30:00Z",
+  "system": "arena",
+  "fullName": "Sextas Xadrez Online - T11 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "blitz",
+    "name": "Blitz",
+    "icon": ")"
+  },
+  "clock": {
+    "limit": 300,
+    "increment": 3
+  },
+  "variant": "standard",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento da ação \"Sextas Xadrez Online\" do projeto \"Comunidade de Prática Online\" do NexT, sem limite de rating, aberto a todos que se juntarem à equipe do NexT no Lichess (Clube Virtual Online do NexT.",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "9gtn9qUw",
+  "createdBy": "the-chemist",
+  "startsAt": "2023-01-14T17:30:00Z",
+  "name": "Prep. Floripa Team Open 2023",
+  "clock": {
+    "limit": 900,
+    "increment": 5
+  },
+  "variant": "standard",
+  "round": 7,
+  "nbRounds": 7,
+  "nbPlayers": 48,
+  "nbOngoing": 0,
+  "status": "finished",
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Play your games",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "rated": true,
+  "stats": {
+    "games": 86,
+    "whiteWins": 80,
+    "blackWins": 84,
+    "draws": 8,
+    "byes": 4,
+    "absences": 144,
+    "averageRating": 1757
+  }
+}

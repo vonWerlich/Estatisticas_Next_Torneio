@@ -1,0 +1,183 @@
+{
+  "nbPlayers": 19,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "justicechampx",
+      "rank": 1,
+      "rating": 2117,
+      "score": 37,
+      "nb": {
+        "game": 13,
+        "berserk": 5,
+        "win": 10
+      },
+      "performance": 2102
+    },
+    {
+      "name": "M4m4m14",
+      "rank": 2,
+      "rating": 1925,
+      "score": 33,
+      "nb": {
+        "game": 9,
+        "berserk": 7,
+        "win": 8
+      },
+      "performance": 1884
+    },
+    {
+      "name": "Balzabouth",
+      "flair": "people.love-you-gesture-light-skin-tone",
+      "rank": 3,
+      "rating": 1999,
+      "score": 23,
+      "nb": {
+        "game": 10,
+        "berserk": 0,
+        "win": 7
+      },
+      "performance": 2173
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 70,
+    "moves": 4560,
+    "whiteWins": 28,
+    "blackWins": 37,
+    "draws": 5,
+    "berserks": 18,
+    "averageRating": 1733
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "justicechampx",
+        "rank": 1,
+        "rating": 2117,
+        "score": 37,
+        "sheet": {
+          "scores": "2455222533022"
+        }
+      },
+      {
+        "name": "M4m4m14",
+        "rank": 2,
+        "rating": 1925,
+        "score": 33,
+        "sheet": {
+          "scores": "555552303",
+          "fire": true
+        }
+      },
+      {
+        "name": "Balzabouth",
+        "flair": "people.love-you-gesture-light-skin-tone",
+        "rank": 3,
+        "rating": 1999,
+        "score": 23,
+        "sheet": {
+          "scores": "2122444220"
+        }
+      },
+      {
+        "name": "kronossaurus",
+        "rank": 4,
+        "rating": 2122,
+        "score": 21,
+        "sheet": {
+          "scores": "3305532",
+          "fire": true
+        }
+      },
+      {
+        "name": "vonWerlich",
+        "rank": 5,
+        "rating": 2305,
+        "score": 19,
+        "sheet": {
+          "scores": "221204422",
+          "fire": true
+        }
+      },
+      {
+        "name": "FFF3",
+        "rank": 6,
+        "rating": 1411,
+        "score": 10,
+        "sheet": {
+          "scores": "020422"
+        }
+      },
+      {
+        "name": "the-chemist",
+        "rank": 7,
+        "rating": 2234,
+        "score": 9,
+        "sheet": {
+          "scores": "20202001020"
+        }
+      },
+      {
+        "name": "guile_mig",
+        "rank": 8,
+        "rating": 1151,
+        "score": 8,
+        "sheet": {
+          "scores": "00020200202"
+        }
+      },
+      {
+        "name": "DantonJosh",
+        "flair": "symbols.rainbow-flag",
+        "rank": 9,
+        "rating": 1523,
+        "score": 8,
+        "sheet": {
+          "scores": "200020220000"
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 10,
+        "rating": 1814,
+        "score": 8,
+        "sheet": {
+          "scores": "000042200"
+        }
+      }
+    ]
+  },
+  "id": "vy6dbD0q",
+  "createdBy": "the-chemist",
+  "startsAt": "2023-05-05T21:30:00Z",
+  "system": "arena",
+  "fullName": "Sextas Online - GP 2023-1 T10 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 360,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento da ação \"Sextas Online\" do projeto \"Comunidade de Prática Online\" do NexT, sem limite de rating e aberto a todos que se juntarem à equipe do NexT no Lichess. Válido para o Grand Prix 2023-1 nas categorias \"Rating Performance\" e \"Participação\". Maiores informações em:\r\nnextxadrez.blogspot.com/2023/02/grand-prix-sextas-online-2-edicao.html",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

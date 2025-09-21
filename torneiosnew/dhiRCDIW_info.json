@@ -1,0 +1,178 @@
+{
+  "nbPlayers": 30,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "vonWerlich",
+      "rank": 1,
+      "rating": 2029,
+      "score": 23,
+      "nb": {
+        "game": 14,
+        "berserk": 0,
+        "win": 11
+      },
+      "performance": 1802
+    },
+    {
+      "name": "Modestovic",
+      "rank": 2,
+      "rating": 1732,
+      "score": 22,
+      "nb": {
+        "game": 14,
+        "berserk": 0,
+        "win": 10
+      },
+      "performance": 1803
+    },
+    {
+      "name": "DuuNexT",
+      "rank": 3,
+      "rating": 1629,
+      "score": 16,
+      "nb": {
+        "game": 11,
+        "berserk": 0,
+        "win": 8
+      },
+      "performance": 1729
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 116,
+    "moves": 7549,
+    "whiteWins": 64,
+    "blackWins": 47,
+    "draws": 5,
+    "berserks": 0,
+    "averageRating": 1397
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "vonWerlich",
+        "rank": 1,
+        "rating": 2029,
+        "score": 23,
+        "sheet": {
+          "scores": "22222022222012"
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 2,
+        "rating": 1732,
+        "score": 22,
+        "sheet": {
+          "scores": "02222220212212"
+        }
+      },
+      {
+        "name": "DuuNexT",
+        "rank": 3,
+        "rating": 1629,
+        "score": 16,
+        "sheet": {
+          "scores": "20202222022"
+        }
+      },
+      {
+        "name": "brunouss",
+        "rank": 4,
+        "rating": 1627,
+        "score": 16,
+        "sheet": {
+          "scores": "2022020202220"
+        },
+        "provisional": true
+      },
+      {
+        "name": "oslect",
+        "rank": 5,
+        "rating": 1691,
+        "score": 14,
+        "sheet": {
+          "scores": "22222022"
+        }
+      },
+      {
+        "name": "brunovic",
+        "rank": 6,
+        "rating": 1566,
+        "score": 14,
+        "sheet": {
+          "scores": "20222022002"
+        }
+      },
+      {
+        "name": "Laerte3",
+        "rank": 7,
+        "rating": 1689,
+        "score": 11,
+        "sheet": {
+          "scores": "2022102020"
+        }
+      },
+      {
+        "name": "thomarr",
+        "rank": 8,
+        "rating": 1512,
+        "score": 10,
+        "sheet": {
+          "scores": "0222022"
+        }
+      },
+      {
+        "name": "Gustavo972",
+        "rank": 9,
+        "rating": 1101,
+        "score": 10,
+        "sheet": {
+          "scores": "02202000022"
+        }
+      },
+      {
+        "name": "ShaolimMataPorco",
+        "rank": 10,
+        "rating": 1739,
+        "score": 10,
+        "sheet": {
+          "scores": "00202020220"
+        }
+      }
+    ]
+  },
+  "id": "dhiRCDIW",
+  "createdBy": "kp-next",
+  "startsAt": "2021-03-12T21:30:22Z",
+  "system": "arena",
+  "fullName": "NexT Quarentena Online - T38 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "blitz",
+    "name": "Blitz",
+    "icon": ")"
+  },
+  "clock": {
+    "limit": 300,
+    "increment": 3
+  },
+  "variant": "standard",
+  "rated": true,
+  "noStreak": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento do projeto \"Quarentena Online\", sem limite de rating, aberto a todos que se juntarem à equipe do NexT no Lichess (Clube Virtual Online do NexT).",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

@@ -1,0 +1,179 @@
+{
+  "nbPlayers": 29,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "foguetada",
+      "rank": 1,
+      "rating": 2245,
+      "score": 26,
+      "nb": {
+        "game": 14,
+        "berserk": 0,
+        "win": 13
+      },
+      "performance": 1970
+    },
+    {
+      "name": "brunovic",
+      "rank": 2,
+      "rating": 1552,
+      "score": 19,
+      "nb": {
+        "game": 14,
+        "berserk": 0,
+        "win": 9
+      },
+      "performance": 1642
+    },
+    {
+      "name": "zorro81",
+      "title": "CM",
+      "rank": 3,
+      "rating": 2153,
+      "score": 18,
+      "nb": {
+        "game": 10,
+        "berserk": 0,
+        "win": 9
+      },
+      "performance": 2057
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 126,
+    "moves": 7088,
+    "whiteWins": 68,
+    "blackWins": 57,
+    "draws": 1,
+    "berserks": 0,
+    "averageRating": 1393
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "foguetada",
+        "rank": 1,
+        "rating": 2245,
+        "score": 26,
+        "sheet": {
+          "scores": "22222222022222"
+        }
+      },
+      {
+        "name": "brunovic",
+        "rank": 2,
+        "rating": 1552,
+        "score": 19,
+        "sheet": {
+          "scores": "12022022202220"
+        }
+      },
+      {
+        "name": "zorro81",
+        "title": "CM",
+        "rank": 3,
+        "rating": 2153,
+        "score": 18,
+        "sheet": {
+          "scores": "2222222220"
+        }
+      },
+      {
+        "name": "vonWerlich",
+        "rank": 4,
+        "rating": 2036,
+        "score": 18,
+        "sheet": {
+          "scores": "0220202202222"
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 5,
+        "rating": 1768,
+        "score": 18,
+        "sheet": {
+          "scores": "200222020202022"
+        }
+      },
+      {
+        "name": "DuuNexT",
+        "rank": 6,
+        "rating": 1544,
+        "score": 17,
+        "sheet": {
+          "scores": "120202220200022"
+        }
+      },
+      {
+        "name": "gilbertomenegatti",
+        "rank": 7,
+        "rating": 1579,
+        "score": 14,
+        "sheet": {
+          "scores": "2222202002"
+        }
+      },
+      {
+        "name": "Rubens_Lavor",
+        "rank": 8,
+        "rating": 2087,
+        "score": 12,
+        "sheet": {
+          "scores": "22020222"
+        }
+      },
+      {
+        "name": "RafaBabu",
+        "rank": 9,
+        "rating": 1049,
+        "score": 12,
+        "sheet": {
+          "scores": "000202002020202"
+        }
+      },
+      {
+        "name": "thomarr",
+        "rank": 10,
+        "rating": 1459,
+        "score": 10,
+        "sheet": {
+          "scores": "020022202"
+        }
+      }
+    ]
+  },
+  "id": "eD603hJ7",
+  "createdBy": "kp-next",
+  "startsAt": "2021-03-05T21:30:37Z",
+  "system": "arena",
+  "fullName": "NexT Quarentena Online - T37 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "blitz",
+    "name": "Blitz",
+    "icon": ")"
+  },
+  "clock": {
+    "limit": 300,
+    "increment": 3
+  },
+  "variant": "standard",
+  "rated": true,
+  "noStreak": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento do projeto \"Quarentena Online\", sem limite de rating, aberto a todos que se juntarem à equipe do NexT no Lichess (Clube Virtual Online do NexT).",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

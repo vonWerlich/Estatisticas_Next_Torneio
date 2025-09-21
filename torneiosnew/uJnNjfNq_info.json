@@ -1,0 +1,186 @@
+{
+  "nbPlayers": 18,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "Balzabouth",
+      "flair": "people.love-you-gesture-light-skin-tone",
+      "rank": 1,
+      "rating": 1792,
+      "score": 56,
+      "nb": {
+        "game": 15,
+        "berserk": 7,
+        "win": 14
+      },
+      "performance": 2060
+    },
+    {
+      "name": "vonWerlich",
+      "rank": 2,
+      "rating": 2109,
+      "score": 19,
+      "nb": {
+        "game": 13,
+        "berserk": 1,
+        "win": 9
+      },
+      "performance": 1895
+    },
+    {
+      "name": "NATANFOX2015",
+      "rank": 3,
+      "rating": 2112,
+      "score": 19,
+      "nb": {
+        "game": 10,
+        "berserk": 0,
+        "win": 6
+      },
+      "performance": 1816
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 67,
+    "moves": 4101,
+    "whiteWins": 31,
+    "blackWins": 33,
+    "draws": 3,
+    "berserks": 9,
+    "averageRating": 1506
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "Balzabouth",
+        "flair": "people.love-you-gesture-light-skin-tone",
+        "rank": 1,
+        "rating": 1792,
+        "score": 56,
+        "sheet": {
+          "scores": "444444455553302",
+          "fire": true
+        }
+      },
+      {
+        "name": "vonWerlich",
+        "rank": 2,
+        "rating": 2109,
+        "score": 19,
+        "sheet": {
+          "scores": "2302202022022",
+          "fire": true
+        }
+      },
+      {
+        "name": "NATANFOX2015",
+        "rank": 3,
+        "rating": 2112,
+        "score": 19,
+        "sheet": {
+          "scores": "0204442210"
+        }
+      },
+      {
+        "name": "the-chemist",
+        "rank": 4,
+        "rating": 2218,
+        "score": 17,
+        "sheet": {
+          "scores": "021204422"
+        }
+      },
+      {
+        "name": "fumecador",
+        "rank": 5,
+        "rating": 1858,
+        "score": 16,
+        "sheet": {
+          "scores": "444220",
+          "fire": true
+        }
+      },
+      {
+        "name": "DantonJosh",
+        "flair": "symbols.rainbow-flag",
+        "rank": 6,
+        "rating": 1287,
+        "score": 10,
+        "sheet": {
+          "scores": "000200022022"
+        }
+      },
+      {
+        "name": "igorgomess",
+        "flair": "smileys.alien",
+        "rank": 7,
+        "rating": 1669,
+        "score": 9,
+        "sheet": {
+          "scores": "220100220000",
+          "fire": true
+        }
+      },
+      {
+        "name": "Murilost23",
+        "rank": 8,
+        "rating": 1587,
+        "score": 8,
+        "sheet": {
+          "scores": "00000422"
+        }
+      },
+      {
+        "name": "Frankwillyan",
+        "flair": "smileys.alien",
+        "rank": 9,
+        "rating": 1505,
+        "score": 8,
+        "sheet": {
+          "scores": "00422"
+        }
+      },
+      {
+        "name": "MarioDeGasperi",
+        "rank": 10,
+        "rating": 1250,
+        "score": 5,
+        "sheet": {
+          "scores": "00202100"
+        }
+      }
+    ]
+  },
+  "id": "uJnNjfNq",
+  "createdBy": "the-chemist",
+  "startsAt": "2024-06-28T21:30:00Z",
+  "system": "arena",
+  "fullName": "Sextas Online - GP 2024-1 T16 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "blitz",
+    "name": "Blitz",
+    "icon": ")"
+  },
+  "clock": {
+    "limit": 300,
+    "increment": 3
+  },
+  "variant": "standard",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento da ação \"Sextas Online\" do projeto \"Comunidade de Prática Online\" do NexT, sem limite de rating e aberto a todos que se juntarem à equipe do NexT no Lichess. Válido para o Grand Prix 2024-1 nas categorias \"Rating Performance\" e \"Participação\" (válido para contas que não violarem os Termos de Serviço do Lichess e ou não tiverem sido encerradas).",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

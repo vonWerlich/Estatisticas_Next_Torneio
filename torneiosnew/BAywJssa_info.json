@@ -1,0 +1,181 @@
+{
+  "nbPlayers": 16,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "vonWerlich",
+      "rank": 1,
+      "rating": 2242,
+      "score": 31,
+      "nb": {
+        "game": 12,
+        "berserk": 1,
+        "win": 10
+      },
+      "performance": 2005
+    },
+    {
+      "name": "LeonardoLGS",
+      "rank": 2,
+      "rating": 2058,
+      "score": 14,
+      "nb": {
+        "game": 4,
+        "berserk": 2,
+        "win": 4
+      },
+      "performance": 2205
+    },
+    {
+      "name": "AlexanderMAVC",
+      "rank": 3,
+      "rating": 1734,
+      "score": 12,
+      "nb": {
+        "game": 8,
+        "berserk": 0,
+        "win": 5
+      },
+      "performance": 1885
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 44,
+    "moves": 2491,
+    "whiteWins": 23,
+    "blackWins": 21,
+    "draws": 0,
+    "berserks": 4,
+    "averageRating": 1632
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "vonWerlich",
+        "rank": 1,
+        "rating": 2242,
+        "score": 31,
+        "sheet": {
+          "scores": "204230444422"
+        }
+      },
+      {
+        "name": "LeonardoLGS",
+        "rank": 2,
+        "rating": 2058,
+        "score": 14,
+        "sheet": {
+          "scores": "4523",
+          "fire": true
+        }
+      },
+      {
+        "name": "AlexanderMAVC",
+        "rank": 3,
+        "rating": 1734,
+        "score": 12,
+        "sheet": {
+          "scores": "20020422"
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 4,
+        "rating": 1809,
+        "score": 12,
+        "sheet": {
+          "scores": "022002022020"
+        }
+      },
+      {
+        "name": "NeoMaverWick",
+        "flair": "symbols.fleur-de-lis",
+        "rank": 5,
+        "rating": 1810,
+        "score": 10,
+        "sheet": {
+          "scores": "0202020022"
+        }
+      },
+      {
+        "name": "justicechampx",
+        "rank": 6,
+        "rating": 1985,
+        "score": 9,
+        "sheet": {
+          "scores": "4230",
+          "fire": true
+        }
+      },
+      {
+        "name": "DantonJosh",
+        "flair": "symbols.rainbow-flag",
+        "rank": 7,
+        "rating": 1386,
+        "score": 8,
+        "sheet": {
+          "scores": "0020002000022"
+        }
+      },
+      {
+        "name": "PedroNEXT",
+        "rank": 8,
+        "rating": 1391,
+        "score": 6,
+        "sheet": {
+          "scores": "0200220"
+        }
+      },
+      {
+        "name": "PhillipBrasil",
+        "rank": 9,
+        "rating": 1432,
+        "score": 4,
+        "sheet": {
+          "scores": "0022"
+        }
+      },
+      {
+        "name": "taiyihanle",
+        "rank": 10,
+        "rating": 1349,
+        "score": 2,
+        "sheet": {
+          "scores": "2000"
+        }
+      }
+    ]
+  },
+  "id": "BAywJssa",
+  "createdBy": "the-chemist",
+  "startsAt": "2022-10-07T21:30:00Z",
+  "system": "arena",
+  "fullName": "Sextas Online - GP 2022-2 T15 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 360,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento da ação \"Sextas Online\" do projeto \"Comunidade de Prática Online\" do NexT, sem limite de rating e aberto a todos que se juntarem à equipe do NexT no Lichess. Válido para o Grand Prix 2022-2 nas categorias \"Rating Performance\" e \"Participação\" (maiores informações em: http://nextxadrez.blogspot.com/2022/06/grand-prix-sextas-online.html)",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

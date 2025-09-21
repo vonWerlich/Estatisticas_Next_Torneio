@@ -1,0 +1,187 @@
+{
+  "nbPlayers": 17,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "kronossaurus",
+      "rank": 1,
+      "rating": 2148,
+      "score": 25,
+      "nb": {
+        "game": 10,
+        "berserk": 5,
+        "win": 8
+      },
+      "performance": 2127
+    },
+    {
+      "name": "lferko",
+      "flair": "people.deaf-man-medium-light-skin-tone",
+      "rank": 2,
+      "rating": 2236,
+      "score": 20,
+      "nb": {
+        "game": 6,
+        "berserk": 0,
+        "win": 6
+      },
+      "performance": 2513
+    },
+    {
+      "name": "vonWerlich",
+      "rank": 3,
+      "rating": 2229,
+      "score": 13,
+      "nb": {
+        "game": 11,
+        "berserk": 3,
+        "win": 5
+      },
+      "performance": 1893
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 48,
+    "moves": 3231,
+    "whiteWins": 33,
+    "blackWins": 15,
+    "draws": 0,
+    "berserks": 13,
+    "averageRating": 1925
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "kronossaurus",
+        "rank": 1,
+        "rating": 2148,
+        "score": 25,
+        "sheet": {
+          "scores": "3205230532",
+          "fire": true
+        }
+      },
+      {
+        "name": "lferko",
+        "flair": "people.deaf-man-medium-light-skin-tone",
+        "rank": 2,
+        "rating": 2236,
+        "score": 20,
+        "sheet": {
+          "scores": "444422",
+          "fire": true
+        }
+      },
+      {
+        "name": "vonWerlich",
+        "rank": 3,
+        "rating": 2229,
+        "score": 13,
+        "sheet": {
+          "scores": "00302004220"
+        }
+      },
+      {
+        "name": "Balzabouth",
+        "flair": "people.love-you-gesture-light-skin-tone",
+        "rank": 4,
+        "rating": 1941,
+        "score": 12,
+        "sheet": {
+          "scores": "42202002",
+          "fire": true
+        }
+      },
+      {
+        "name": "the-chemist",
+        "rank": 5,
+        "rating": 2266,
+        "score": 9,
+        "sheet": {
+          "scores": "0302022"
+        }
+      },
+      {
+        "name": "M4m4m14",
+        "rank": 6,
+        "rating": 1957,
+        "score": 8,
+        "sheet": {
+          "scores": "0030203"
+        }
+      },
+      {
+        "name": "DanielSantosB",
+        "flair": "nature.rainbow",
+        "rank": 7,
+        "rating": 2033,
+        "score": 7,
+        "sheet": {
+          "scores": "2023"
+        }
+      },
+      {
+        "name": "Claudio1414",
+        "rank": 8,
+        "rating": 1650,
+        "score": 6,
+        "sheet": {
+          "scores": "202020"
+        }
+      },
+      {
+        "name": "NeoMaverWick",
+        "flair": "symbols.fleur-de-lis",
+        "rank": 9,
+        "rating": 1958,
+        "score": 6,
+        "sheet": {
+          "scores": "2020020"
+        }
+      },
+      {
+        "name": "PERSEOSGO",
+        "rank": 10,
+        "rating": 1600,
+        "score": 4,
+        "sheet": {
+          "scores": "22",
+          "fire": true
+        },
+        "provisional": true
+      }
+    ]
+  },
+  "id": "eX2rjs64",
+  "createdBy": "the-chemist",
+  "startsAt": "2023-08-04T21:30:00Z",
+  "system": "arena",
+  "fullName": "Sextas Online - GP 2023-2 T01 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 360,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento da ação \"Sextas Online\" do projeto \"Comunidade de Prática Online\" do NexT, sem limite de rating e aberto a todos que se juntarem à equipe do NexT no Lichess. Válido para o Grand Prix 2023-2 nas categorias \"Rating Performance\" e \"Participação\". Maiores informações em:\r\nnextxadrez.blogspot.com/2023/02/grand-prix-sextas-online-2-edicao.html",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "rank": 1,
+    "points": 3.5,
+    "tieBreak": 6.75,
+    "rating": 1568,
+    "username": "the-chemist",
+    "performance": 1771
+  },
+  {
+    "rank": 2,
+    "points": 3.5,
+    "tieBreak": 4.75,
+    "rating": 1611,
+    "username": "DuuDragao_Next",
+    "performance": 1604
+  },
+  {
+    "rank": 3,
+    "points": 2,
+    "tieBreak": 1,
+    "rating": 1273,
+    "username": "Daniil_Prokofev42443",
+    "performance": 1183
+  },
+  {
+    "rank": 4,
+    "points": 2,
+    "tieBreak": 0.5,
+    "rating": 1304,
+    "username": "Lamego06",
+    "performance": 1214
+  },
+  {
+    "rank": 5,
+    "points": 1,
+    "tieBreak": 1,
+    "rating": 1203,
+    "username": "Mano-NexT-xadrez",
+    "performance": 1205
+  },
+  {
+    "rank": 6,
+    "points": 0,
+    "tieBreak": 0,
+    "rating": 934,
+    "username": "PedroNEXT",
+    "performance": 961,
+    "absent": true
+  }
+]

@@ -1,0 +1,184 @@
+{
+  "nbPlayers": 22,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "calebeklazzarotti",
+      "flair": "symbols.japanese-symbol-for-beginner",
+      "rank": 1,
+      "rating": 2044,
+      "score": 17,
+      "nb": {
+        "game": 9,
+        "berserk": 0,
+        "win": 8
+      },
+      "performance": 2003
+    },
+    {
+      "name": "PietroZottis",
+      "flair": "activity.boxing-glove",
+      "rank": 2,
+      "rating": 1761,
+      "score": 17,
+      "nb": {
+        "game": 10,
+        "berserk": 0,
+        "win": 8
+      },
+      "performance": 1797
+    },
+    {
+      "name": "ShaolimMataPorco",
+      "rank": 3,
+      "rating": 1624,
+      "score": 16,
+      "provisional": true,
+      "nb": {
+        "game": 13,
+        "berserk": 0,
+        "win": 8
+      },
+      "performance": 1671
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 83,
+    "moves": 5135,
+    "whiteWins": 36,
+    "blackWins": 44,
+    "draws": 3,
+    "berserks": 0,
+    "averageRating": 1507
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "calebeklazzarotti",
+        "flair": "symbols.japanese-symbol-for-beginner",
+        "rank": 1,
+        "rating": 2044,
+        "score": 17,
+        "sheet": {
+          "scores": "212222222"
+        }
+      },
+      {
+        "name": "PietroZottis",
+        "flair": "activity.boxing-glove",
+        "rank": 2,
+        "rating": 1761,
+        "score": 17,
+        "sheet": {
+          "scores": "2012222222"
+        }
+      },
+      {
+        "name": "ShaolimMataPorco",
+        "rank": 3,
+        "rating": 1624,
+        "score": 16,
+        "sheet": {
+          "scores": "0000202222222"
+        },
+        "provisional": true
+      },
+      {
+        "name": "Modestovic",
+        "rank": 4,
+        "rating": 1790,
+        "score": 14,
+        "sheet": {
+          "scores": "202022002022"
+        }
+      },
+      {
+        "name": "Marinhobj",
+        "flair": "objects.books",
+        "rank": 5,
+        "rating": 1704,
+        "score": 13,
+        "sheet": {
+          "scores": "20222201020"
+        }
+      },
+      {
+        "name": "PedroNEXT",
+        "rank": 6,
+        "rating": 1263,
+        "score": 11,
+        "sheet": {
+          "scores": "22220021"
+        }
+      },
+      {
+        "name": "rolimx",
+        "rank": 7,
+        "rating": 1094,
+        "score": 11,
+        "sheet": {
+          "scores": "02200020200102"
+        }
+      },
+      {
+        "name": "Gullermo_Lovera",
+        "rank": 8,
+        "rating": 1687,
+        "score": 10,
+        "sheet": {
+          "scores": "202020002200"
+        }
+      },
+      {
+        "name": "jaop",
+        "rank": 9,
+        "rating": 1475,
+        "score": 8,
+        "sheet": {
+          "scores": "00002222"
+        }
+      },
+      {
+        "name": "DuuNexT",
+        "rank": 10,
+        "rating": 1731,
+        "score": 8,
+        "sheet": {
+          "scores": "002022000200"
+        }
+      }
+    ]
+  },
+  "id": "ozWgCImV",
+  "createdBy": "kp-next",
+  "startsAt": "2021-04-05T21:30:06Z",
+  "system": "arena",
+  "fullName": "Quarentena do Aprendiz - T39 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 360,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": false,
+  "noStreak": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento do projeto \"Quarentena Online\" do NexT, para Aprendizes (rating rápido sugerido de até 2000 pontos). Para participar basta se juntar à equipe do NexT no Lichess.",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

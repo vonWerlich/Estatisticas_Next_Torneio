@@ -1,0 +1,183 @@
+{
+  "nbPlayers": 20,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "vonWerlich",
+      "rank": 1,
+      "rating": 2287,
+      "score": 36,
+      "nb": {
+        "game": 14,
+        "berserk": 6,
+        "win": 11
+      },
+      "performance": 2149
+    },
+    {
+      "name": "torneido",
+      "rank": 2,
+      "rating": 1882,
+      "score": 33,
+      "nb": {
+        "game": 13,
+        "berserk": 3,
+        "win": 10
+      },
+      "performance": 1894
+    },
+    {
+      "name": "yusanamignoni",
+      "rank": 3,
+      "rating": 2206,
+      "score": 26,
+      "provisional": true,
+      "nb": {
+        "game": 10,
+        "berserk": 0,
+        "win": 8
+      },
+      "performance": 2151
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 84,
+    "moves": 4534,
+    "whiteWins": 47,
+    "blackWins": 33,
+    "draws": 4,
+    "berserks": 17,
+    "averageRating": 1585
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "vonWerlich",
+        "rank": 1,
+        "rating": 2287,
+        "score": 36,
+        "sheet": {
+          "scores": "45423033004422",
+          "fire": true
+        }
+      },
+      {
+        "name": "torneido",
+        "rank": 2,
+        "rating": 1882,
+        "score": 33,
+        "sheet": {
+          "scores": "4442305422030",
+          "fire": true
+        }
+      },
+      {
+        "name": "yusanamignoni",
+        "rank": 3,
+        "rating": 2206,
+        "score": 26,
+        "sheet": {
+          "scores": "0204444422"
+        },
+        "provisional": true
+      },
+      {
+        "name": "Modestovic",
+        "rank": 4,
+        "rating": 1901,
+        "score": 24,
+        "sheet": {
+          "scores": "4423022022030",
+          "fire": true
+        }
+      },
+      {
+        "name": "seanlachef",
+        "rank": 5,
+        "rating": 1781,
+        "score": 21,
+        "sheet": {
+          "scores": "12002202004422"
+        }
+      },
+      {
+        "name": "epsei",
+        "rank": 6,
+        "rating": 1970,
+        "score": 20,
+        "sheet": {
+          "scores": "12052204220"
+        }
+      },
+      {
+        "name": "DantonJosh",
+        "flair": "symbols.rainbow-flag",
+        "rank": 7,
+        "rating": 1399,
+        "score": 14,
+        "sheet": {
+          "scores": "002202042200"
+        }
+      },
+      {
+        "name": "ncc_bee",
+        "rank": 8,
+        "rating": 1157,
+        "score": 10,
+        "sheet": {
+          "scores": "020220202"
+        }
+      },
+      {
+        "name": "lemos96",
+        "rank": 9,
+        "rating": 1805,
+        "score": 10,
+        "sheet": {
+          "scores": "020220220"
+        }
+      },
+      {
+        "name": "inciante34",
+        "rank": 10,
+        "rating": 1442,
+        "score": 7,
+        "sheet": {
+          "scores": "200000000000002003"
+        }
+      }
+    ]
+  },
+  "id": "otMFMBd2",
+  "createdBy": "kp-next",
+  "startsAt": "2022-07-01T21:30:00Z",
+  "system": "arena",
+  "fullName": "Sextas Online - GP 2022-2 T01 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 360,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento da ação \"Sextas Online\" do projeto \"Comunidade de Prática Online\" do NexT, sem limite de rating e aberto a todos que se juntarem à equipe do NexT no Lichess. Válido para o Grand Prix 2022-2 nas categorias \"Rating Performance\" e \"Participação\" (maiores informações em: http://nextxadrez.blogspot.com/2022/06/grand-prix-sextas-online.html)",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

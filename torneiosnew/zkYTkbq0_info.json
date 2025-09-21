@@ -1,0 +1,189 @@
+{
+  "nbPlayers": 61,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "MarcusZulu",
+      "rank": 1,
+      "rating": 1989,
+      "score": 24,
+      "provisional": true,
+      "nb": {
+        "game": 9,
+        "berserk": 1,
+        "win": 8
+      },
+      "performance": 2129
+    },
+    {
+      "name": "the-chemist",
+      "rank": 2,
+      "rating": 2023,
+      "score": 23,
+      "nb": {
+        "game": 10,
+        "berserk": 4,
+        "win": 8
+      },
+      "performance": 2060
+    },
+    {
+      "name": "Modestovic",
+      "rank": 3,
+      "rating": 1560,
+      "score": 23,
+      "nb": {
+        "game": 11,
+        "berserk": 0,
+        "win": 7
+      },
+      "performance": 1873
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 196,
+    "moves": 11694,
+    "whiteWins": 93,
+    "blackWins": 84,
+    "draws": 19,
+    "berserks": 14,
+    "averageRating": 1483
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "MarcusZulu",
+        "rank": 1,
+        "rating": 1989,
+        "score": 24,
+        "sheet": {
+          "scores": "442204422",
+          "fire": true
+        },
+        "provisional": true
+      },
+      {
+        "name": "the-chemist",
+        "rank": 2,
+        "rating": 2023,
+        "score": 23,
+        "sheet": {
+          "scores": "4320523022",
+          "fire": true
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 3,
+        "rating": 1560,
+        "score": 23,
+        "sheet": {
+          "scores": "44422012220",
+          "fire": true
+        }
+      },
+      {
+        "name": "duartes322",
+        "rank": 4,
+        "rating": 2008,
+        "score": 22,
+        "sheet": {
+          "scores": "444221203",
+          "fire": true
+        },
+        "provisional": true
+      },
+      {
+        "name": "vonWerlich",
+        "rank": 5,
+        "rating": 1952,
+        "score": 22,
+        "sheet": {
+          "scores": "202020444220"
+        }
+      },
+      {
+        "name": "GabrielNLMAB251",
+        "rank": 6,
+        "rating": 1720,
+        "score": 18,
+        "sheet": {
+          "scores": "204220220220"
+        },
+        "provisional": true
+      },
+      {
+        "name": "AndreHLLMAB251",
+        "rank": 7,
+        "rating": 1931,
+        "score": 15,
+        "sheet": {
+          "scores": "304422"
+        },
+        "provisional": true
+      },
+      {
+        "name": "LFNishi",
+        "rank": 8,
+        "rating": 1921,
+        "score": 12,
+        "sheet": {
+          "scores": "4422",
+          "fire": true
+        },
+        "provisional": true
+      },
+      {
+        "name": "Kyru_Arks",
+        "rank": 9,
+        "rating": 1765,
+        "score": 12,
+        "sheet": {
+          "scores": "0022022022"
+        },
+        "provisional": true
+      },
+      {
+        "name": "ManoelBPLMAB251",
+        "rank": 10,
+        "rating": 1746,
+        "score": 12,
+        "sheet": {
+          "scores": "0220422"
+        },
+        "provisional": true
+      }
+    ]
+  },
+  "id": "zkYTkbq0",
+  "createdBy": "the-chemist",
+  "startsAt": "2025-03-28T21:30:00Z",
+  "system": "arena",
+  "fullName": "NexT FullChess Series 25-1 T02 Arena",
+  "minutes": 90,
+  "perf": {
+    "key": "chess960",
+    "name": "Chess960"
+  },
+  "clock": {
+    "limit": 300,
+    "increment": 3
+  },
+  "variant": "chess960",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio válido para o Circuito NexT FullChess Series 25-1 (válido apenas para contas que não violarem os Termos de Serviço do Lichess e/ou não tiverem sido encerradas).",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

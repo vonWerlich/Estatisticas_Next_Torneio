@@ -1,0 +1,183 @@
+{
+  "nbPlayers": 14,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "vonWerlich",
+      "rank": 1,
+      "rating": 2235,
+      "score": 30,
+      "nb": {
+        "game": 10,
+        "berserk": 0,
+        "win": 9
+      },
+      "performance": 2358
+    },
+    {
+      "name": "the-chemist",
+      "rank": 2,
+      "rating": 2221,
+      "score": 22,
+      "nb": {
+        "game": 11,
+        "berserk": 1,
+        "win": 7
+      },
+      "performance": 2023
+    },
+    {
+      "name": "AlexanderMAVC",
+      "rank": 3,
+      "rating": 1789,
+      "score": 14,
+      "nb": {
+        "game": 9,
+        "berserk": 0,
+        "win": 6
+      },
+      "performance": 1940
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 51,
+    "moves": 3181,
+    "whiteWins": 26,
+    "blackWins": 24,
+    "draws": 1,
+    "berserks": 3,
+    "averageRating": 1778
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "vonWerlich",
+        "rank": 1,
+        "rating": 2235,
+        "score": 30,
+        "sheet": {
+          "scores": "4444442202",
+          "fire": true
+        }
+      },
+      {
+        "name": "the-chemist",
+        "rank": 2,
+        "rating": 2221,
+        "score": 22,
+        "sheet": {
+          "scores": "04422024220"
+        }
+      },
+      {
+        "name": "AlexanderMAVC",
+        "rank": 3,
+        "rating": 1789,
+        "score": 14,
+        "sheet": {
+          "scores": "422002022",
+          "fire": true
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 4,
+        "rating": 1800,
+        "score": 14,
+        "sheet": {
+          "scores": "00042202022"
+        }
+      },
+      {
+        "name": "DanielSantosB",
+        "flair": "nature.rainbow",
+        "rank": 5,
+        "rating": 2055,
+        "score": 10,
+        "sheet": {
+          "scores": "523",
+          "fire": true
+        }
+      },
+      {
+        "name": "NeoMaverWick",
+        "flair": "symbols.fleur-de-lis",
+        "rank": 6,
+        "rating": 1933,
+        "score": 10,
+        "sheet": {
+          "scores": "20422000"
+        }
+      },
+      {
+        "name": "Claudio1414",
+        "rank": 7,
+        "rating": 1647,
+        "score": 7,
+        "sheet": {
+          "scores": "000022120"
+        }
+      },
+      {
+        "name": "gilbertomenegatti",
+        "rank": 8,
+        "rating": 1832,
+        "score": 6,
+        "sheet": {
+          "scores": "02202"
+        }
+      },
+      {
+        "name": "chessnomaster35",
+        "rank": 9,
+        "rating": 1707,
+        "score": 6,
+        "sheet": {
+          "scores": "020202"
+        }
+      },
+      {
+        "name": "DantonJosh",
+        "flair": "symbols.rainbow-flag",
+        "rank": 10,
+        "rating": 1410,
+        "score": 6,
+        "sheet": {
+          "scores": "2002000000020"
+        }
+      }
+    ]
+  },
+  "id": "5OgOYZJ6",
+  "createdBy": "the-chemist",
+  "startsAt": "2023-10-06T21:30:00Z",
+  "system": "arena",
+  "fullName": "Sextas Online - GP 2022-2 T09 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 360,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento da ação \"Sextas Online\" do projeto \"Comunidade de Prática Online\" do NexT, sem limite de rating e aberto a todos que se juntarem à equipe do NexT no Lichess. Válido para o Grand Prix 2023-2 nas categorias \"Rating Performance\" e \"Participação\". Maiores informações em:\r\nnextxadrez.blogspot.com/2023/02/grand-prix-sextas-online-2-edicao.html",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

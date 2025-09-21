@@ -1,0 +1,184 @@
+{
+  "nbPlayers": 13,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "samuelperuw",
+      "rank": 1,
+      "rating": 1524,
+      "score": 16,
+      "nb": {
+        "game": 11,
+        "berserk": 0,
+        "win": 8
+      },
+      "performance": 1689
+    },
+    {
+      "name": "Edu_Rocha",
+      "rank": 2,
+      "rating": 1560,
+      "score": 12,
+      "nb": {
+        "game": 9,
+        "berserk": 0,
+        "win": 5
+      },
+      "performance": 1611
+    },
+    {
+      "name": "Rcstarpvp",
+      "rank": 3,
+      "rating": 1500,
+      "score": 11,
+      "nb": {
+        "game": 12,
+        "berserk": 0,
+        "win": 5
+      },
+      "performance": 1418
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 36,
+    "moves": 2436,
+    "whiteWins": 19,
+    "blackWins": 15,
+    "draws": 2,
+    "berserks": 0,
+    "averageRating": 1385
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "samuelperuw",
+        "rank": 1,
+        "rating": 1524,
+        "score": 16,
+        "sheet": {
+          "scores": "02022220222"
+        }
+      },
+      {
+        "name": "Edu_Rocha",
+        "rank": 2,
+        "rating": 1560,
+        "score": 12,
+        "sheet": {
+          "scores": "122202201"
+        }
+      },
+      {
+        "name": "Rcstarpvp",
+        "rank": 3,
+        "rating": 1500,
+        "score": 11,
+        "sheet": {
+          "scores": "102200202020"
+        }
+      },
+      {
+        "name": "NegroMestrovisk",
+        "rank": 4,
+        "rating": 1555,
+        "score": 10,
+        "sheet": {
+          "scores": "202022002"
+        }
+      },
+      {
+        "name": "Gumbtt",
+        "rank": 5,
+        "rating": 1489,
+        "score": 6,
+        "sheet": {
+          "scores": "22200"
+        }
+      },
+      {
+        "name": "DanielChamposki",
+        "rank": 6,
+        "rating": 1513,
+        "score": 5,
+        "sheet": {
+          "scores": "0221"
+        }
+      },
+      {
+        "name": "jaop",
+        "rank": 7,
+        "rating": 1293,
+        "score": 4,
+        "sheet": {
+          "scores": "0220"
+        }
+      },
+      {
+        "name": "PedroNEXT",
+        "rank": 8,
+        "rating": 1277,
+        "score": 4,
+        "sheet": {
+          "scores": "000020020"
+        }
+      },
+      {
+        "name": "feliperuivofuga",
+        "rank": 9,
+        "rating": 1420,
+        "score": 2,
+        "sheet": {
+          "scores": "020"
+        }
+      },
+      {
+        "name": "diogoasus18",
+        "rank": 10,
+        "rating": 1375,
+        "score": 2,
+        "sheet": {
+          "scores": "0002"
+        }
+      }
+    ]
+  },
+  "id": "QiYqTOS3",
+  "createdBy": "kp-next",
+  "startsAt": "2020-06-01T21:30:55Z",
+  "system": "arena",
+  "fullName": "Quarentena do Aprendiz - T1 Arena",
+  "minutes": 150,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 600,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": true,
+  "noStreak": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Rated ≤ 1600 in Rapid for the last week",
+        "verdict": "ok"
+      },
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento do projeto \"Quarentena Online\" do NexT, para o público mais iniciante (jogadores com força de jogo de até 1600 pontos de rating - xadrez rápido). Para participar é necessário estar inscrito no Clube Virtual Online do NexT.",
+  "maxRating": {
+    "rating": 1600
+  },
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

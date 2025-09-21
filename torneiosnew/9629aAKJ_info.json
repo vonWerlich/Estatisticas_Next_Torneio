@@ -1,0 +1,182 @@
+{
+  "nbPlayers": 18,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "InsaneChessBrazil",
+      "rank": 1,
+      "rating": 2300,
+      "score": 40,
+      "nb": {
+        "game": 13,
+        "berserk": 9,
+        "win": 10
+      },
+      "performance": 2090
+    },
+    {
+      "name": "vonWerlich",
+      "rank": 2,
+      "rating": 2165,
+      "score": 21,
+      "nb": {
+        "game": 12,
+        "berserk": 7,
+        "win": 7
+      },
+      "performance": 1946
+    },
+    {
+      "name": "Claudio1414",
+      "rank": 3,
+      "rating": 1586,
+      "score": 20,
+      "nb": {
+        "game": 10,
+        "berserk": 0,
+        "win": 7
+      },
+      "performance": 1812
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 68,
+    "moves": 4761,
+    "whiteWins": 33,
+    "blackWins": 30,
+    "draws": 5,
+    "berserks": 25,
+    "averageRating": 1751
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "InsaneChessBrazil",
+        "rank": 1,
+        "rating": 2300,
+        "score": 40,
+        "sheet": {
+          "scores": "2555330305423"
+        }
+      },
+      {
+        "name": "vonWerlich",
+        "rank": 2,
+        "rating": 2165,
+        "score": 21,
+        "sheet": {
+          "scores": "230004330330",
+          "fire": true
+        }
+      },
+      {
+        "name": "Claudio1414",
+        "rank": 3,
+        "rating": 1586,
+        "score": 20,
+        "sheet": {
+          "scores": "4220442200",
+          "fire": true
+        }
+      },
+      {
+        "name": "justicechampx",
+        "rank": 4,
+        "rating": 2009,
+        "score": 15,
+        "sheet": {
+          "scores": "203022303"
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 5,
+        "rating": 1790,
+        "score": 14,
+        "sheet": {
+          "scores": "220200220220",
+          "fire": true
+        }
+      },
+      {
+        "name": "Labadessa",
+        "rank": 6,
+        "rating": 1772,
+        "score": 14,
+        "sheet": {
+          "scores": "0000442202"
+        },
+        "provisional": true
+      },
+      {
+        "name": "AlexanderMAVC",
+        "rank": 7,
+        "rating": 1770,
+        "score": 13,
+        "sheet": {
+          "scores": "2202210202",
+          "fire": true
+        }
+      },
+      {
+        "name": "Finark",
+        "rank": 8,
+        "rating": 1782,
+        "score": 10,
+        "sheet": {
+          "scores": "0222112"
+        }
+      },
+      {
+        "name": "Molchat",
+        "rank": 9,
+        "rating": 1526,
+        "score": 7,
+        "sheet": {
+          "scores": "000200030020"
+        }
+      },
+      {
+        "name": "the-chemist",
+        "rank": 10,
+        "rating": 2348,
+        "score": 6,
+        "sheet": {
+          "scores": "20022"
+        }
+      }
+    ]
+  },
+  "id": "9629aAKJ",
+  "createdBy": "the-chemist",
+  "startsAt": "2022-12-16T21:30:00Z",
+  "system": "arena",
+  "fullName": "Sextas Online - T25 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 360,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento da ação \"Sextas Online\" do projeto \"Comunidade de Prática Online\" do NexT, sem limite de rating e aberto a todos que se juntarem à equipe do NexT no Lichess.",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

@@ -1,0 +1,184 @@
+{
+  "nbPlayers": 16,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "the-chemist",
+      "rank": 1,
+      "rating": 2171,
+      "score": 40,
+      "nb": {
+        "game": 12,
+        "berserk": 0,
+        "win": 11
+      },
+      "performance": 2036
+    },
+    {
+      "name": "vonWerlich",
+      "rank": 2,
+      "rating": 2124,
+      "score": 22,
+      "nb": {
+        "game": 13,
+        "berserk": 3,
+        "win": 8
+      },
+      "performance": 1797
+    },
+    {
+      "name": "NeoMaverWick",
+      "flair": "symbols.fleur-de-lis",
+      "rank": 3,
+      "rating": 1617,
+      "score": 14,
+      "nb": {
+        "game": 14,
+        "berserk": 0,
+        "win": 7
+      },
+      "performance": 1584
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 63,
+    "moves": 3468,
+    "whiteWins": 28,
+    "blackWins": 35,
+    "draws": 0,
+    "berserks": 18,
+    "averageRating": 1648
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "the-chemist",
+        "rank": 1,
+        "rating": 2171,
+        "score": 40,
+        "sheet": {
+          "scores": "444444444220",
+          "fire": true
+        }
+      },
+      {
+        "name": "vonWerlich",
+        "rank": 2,
+        "rating": 2124,
+        "score": 22,
+        "sheet": {
+          "scores": "0032023004422"
+        }
+      },
+      {
+        "name": "NeoMaverWick",
+        "flair": "symbols.fleur-de-lis",
+        "rank": 3,
+        "rating": 1617,
+        "score": 14,
+        "sheet": {
+          "scores": "20020220200202"
+        }
+      },
+      {
+        "name": "Balzabouth",
+        "flair": "people.love-you-gesture-light-skin-tone",
+        "rank": 4,
+        "rating": 1759,
+        "score": 13,
+        "sheet": {
+          "scores": "030020422000"
+        }
+      },
+      {
+        "name": "rafakb",
+        "rank": 5,
+        "rating": 1544,
+        "score": 8,
+        "sheet": {
+          "scores": "00422"
+        },
+        "provisional": true
+      },
+      {
+        "name": "DantonJosh",
+        "flair": "symbols.rainbow-flag",
+        "rank": 6,
+        "rating": 1356,
+        "score": 8,
+        "sheet": {
+          "scores": "0220000220000"
+        }
+      },
+      {
+        "name": "Frankwillyan",
+        "flair": "smileys.alien",
+        "rank": 7,
+        "rating": 1479,
+        "score": 6,
+        "sheet": {
+          "scores": "2000002200"
+        }
+      },
+      {
+        "name": "luzgus",
+        "rank": 8,
+        "rating": 1411,
+        "score": 4,
+        "sheet": {
+          "scores": "0022"
+        }
+      },
+      {
+        "name": "Bruschini",
+        "rank": 9,
+        "rating": 1436,
+        "score": 4,
+        "sheet": {
+          "scores": "02200"
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 10,
+        "rating": 1697,
+        "score": 4,
+        "sheet": {
+          "scores": "000220"
+        }
+      }
+    ]
+  },
+  "id": "4Pajfkrr",
+  "createdBy": "the-chemist",
+  "startsAt": "2024-03-01T21:30:00Z",
+  "system": "arena",
+  "fullName": "Sextas Online - GP 2024-1 T01 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "blitz",
+    "name": "Blitz",
+    "icon": ")"
+  },
+  "clock": {
+    "limit": 300,
+    "increment": 3
+  },
+  "variant": "standard",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento da ação \"Sextas Online\" do projeto \"Comunidade de Prática Online\" do NexT, sem limite de rating e aberto a todos que se juntarem à equipe do NexT no Lichess. Válido para o Grand Prix 2024-1 nas categorias \"Rating Performance\" e \"Participação\".",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

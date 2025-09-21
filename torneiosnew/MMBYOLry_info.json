@@ -1,0 +1,35 @@
+{
+  "id": "MMBYOLry",
+  "createdBy": "the-chemist",
+  "startsAt": "2024-06-08T17:30:00Z",
+  "name": "Aberto de Xadrez Blitz 2024-1",
+  "clock": {
+    "limit": 300,
+    "increment": 3
+  },
+  "variant": "standard",
+  "round": 7,
+  "nbRounds": 7,
+  "nbPlayers": 18,
+  "nbOngoing": 0,
+  "status": "finished",
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Play your games",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "rated": true,
+  "stats": {
+    "games": 43,
+    "whiteWins": 44,
+    "blackWins": 42,
+    "draws": 0,
+    "byes": 6,
+    "absences": 33,
+    "averageRating": 1606
+  }
+}

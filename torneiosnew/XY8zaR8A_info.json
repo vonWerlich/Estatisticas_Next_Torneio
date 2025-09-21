@@ -1,0 +1,180 @@
+{
+  "nbPlayers": 19,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "the-chemist",
+      "rank": 1,
+      "rating": 2193,
+      "score": 34,
+      "nb": {
+        "game": 11,
+        "berserk": 0,
+        "win": 10
+      },
+      "performance": 2242
+    },
+    {
+      "name": "circuitoblitzCbx1",
+      "rank": 2,
+      "rating": 2018,
+      "score": 34,
+      "nb": {
+        "game": 16,
+        "berserk": 0,
+        "win": 12
+      },
+      "performance": 2033
+    },
+    {
+      "name": "vonWerlich",
+      "rank": 3,
+      "rating": 2082,
+      "score": 30,
+      "nb": {
+        "game": 16,
+        "berserk": 8,
+        "win": 9
+      },
+      "performance": 1772
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 87,
+    "moves": 5448,
+    "whiteWins": 47,
+    "blackWins": 39,
+    "draws": 1,
+    "berserks": 14,
+    "averageRating": 1615
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "the-chemist",
+        "rank": 1,
+        "rating": 2193,
+        "score": 34,
+        "sheet": {
+          "scores": "20444444422"
+        }
+      },
+      {
+        "name": "circuitoblitzCbx1",
+        "rank": 2,
+        "rating": 2018,
+        "score": 34,
+        "sheet": {
+          "scores": "4444422020202202",
+          "fire": true
+        }
+      },
+      {
+        "name": "vonWerlich",
+        "rank": 3,
+        "rating": 2082,
+        "score": 30,
+        "sheet": {
+          "scores": "0555320300202300"
+        }
+      },
+      {
+        "name": "NeoMaverWick",
+        "flair": "symbols.fleur-de-lis",
+        "rank": 4,
+        "rating": 1784,
+        "score": 18,
+        "sheet": {
+          "scores": "20022044220"
+        }
+      },
+      {
+        "name": "Frankwillyan",
+        "flair": "smileys.alien",
+        "rank": 5,
+        "rating": 1540,
+        "score": 18,
+        "sheet": {
+          "scores": "02044220220"
+        }
+      },
+      {
+        "name": "duartes322",
+        "rank": 6,
+        "rating": 1667,
+        "score": 13,
+        "sheet": {
+          "scores": "0422023"
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 7,
+        "rating": 1719,
+        "score": 13,
+        "sheet": {
+          "scores": "20020021202002"
+        }
+      },
+      {
+        "name": "Ronnieryb",
+        "rank": 8,
+        "rating": 1787,
+        "score": 13,
+        "sheet": {
+          "scores": "02303003002"
+        }
+      },
+      {
+        "name": "Lindousodomate",
+        "rank": 9,
+        "rating": 2175,
+        "score": 11,
+        "sheet": {
+          "scores": "120422"
+        }
+      },
+      {
+        "name": "LFNishi",
+        "rank": 10,
+        "rating": 1675,
+        "score": 8,
+        "sheet": {
+          "scores": "000202022"
+        }
+      }
+    ]
+  },
+  "id": "XY8zaR8A",
+  "createdBy": "the-chemist",
+  "startsAt": "2024-03-08T21:30:00Z",
+  "system": "arena",
+  "fullName": "Sextas Online - GP 2024-1 T02 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "blitz",
+    "name": "Blitz",
+    "icon": ")"
+  },
+  "clock": {
+    "limit": 300,
+    "increment": 3
+  },
+  "variant": "standard",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento da ação \"Sextas Online\" do projeto \"Comunidade de Prática Online\" do NexT, sem limite de rating e aberto a todos que se juntarem à equipe do NexT no Lichess. Válido para o Grand Prix 2024-1 nas categorias \"Rating Performance\" e \"Participação\".",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}
