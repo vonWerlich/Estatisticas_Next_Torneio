@@ -5,6 +5,7 @@ from filters import *
 from visualizations import *
 from components import *
 from layout import *
+from pathlib import Path
 
 DATA_DIR = "torneiosnew"  # pasta onde estão todos os torneios
 
@@ -16,7 +17,8 @@ st.set_page_config(
 )
 
 try:
-    logo_base64 = img_to_base64("logo.png")
+    caminho_logo = Path(__file__).parent / "logo.png"
+    logo_base64 = img_to_base64(caminho_logo)
     aplicar_estilos_globais(logo_base64)  #  ESTILOS 
 
 except FileNotFoundError:
