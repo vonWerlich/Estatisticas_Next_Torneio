@@ -115,4 +115,21 @@ def aplicar_estilos_globais(logo_base64: str):
         unsafe_allow_html=True,
     )
 
+    # bloco para responsividade em celulares
+    st.markdown("""
+    <style>
+        /* Essas regras só se aplicam em telas com largura máxima de 768px (celulares e tablets em modo retrato) */
+        @media (max-width: 768px) {
+            header[data-testid="stHeader"]::before {
+                /* Reduz o tamanho do título em telas pequenas */
+                font-size: 18px;
+                /* Permite que o texto quebre a linha */
+                white-space: normal;
+                /* Reduz a margem para dar mais espaço */
+                margin-left: 10px;
+            }
+        }
+    </style>
+    """, unsafe_allow_html=True)
+
 __all__ = ["ajustar_layout_principal", "aplicar_estilos_globais"]
