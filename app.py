@@ -16,14 +16,9 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-try:
-    caminho_logo = Path(__file__).parent / "logo.png"
-    logo_base64 = img_to_base64(caminho_logo)
-    aplicar_estilos_globais(logo_base64)  #  ESTILOS 
-
-except FileNotFoundError:
-    st.title("Análise de Dados dos Torneios do NEXT")
-    st.error("Arquivo 'logo.png' não encontrado. Alguns estilos não foram aplicados.")
+caminho_logo = Path(__file__).parent / "logo.png"
+logo_base64 = img_to_base64(caminho_logo)
+aplicar_estilos_globais(logo_base64)
 
 ajustar_layout_principal(padding_top_rem=0, margin_top_rem=0)  # Controla o espaço no topo em rem 
 
