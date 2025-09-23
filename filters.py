@@ -2,25 +2,28 @@ import pandas as pd
 
 def aplicar_filtros(df, tipos, conjuntos, datas):
     # Filtro de datas
-    if isinstance(datas, tuple):
-        data_ini, data_fim = datas
-    else:
-        data_ini = data_fim = datas
-    data_ini = pd.to_datetime(data_ini).tz_localize("America/Sao_Paulo")
-    data_fim = pd.to_datetime(data_fim).tz_localize("America/Sao_Paulo")
+    data_ini, data_fim = datas # A entrada agora é sempre um intervalo
+
+    # Garante que o filtro comece à meia-noite do primeiro dia
+    data_ini = pd.to_datetime(data_ini).normalize().tz_localize("America/Sao_Paulo")
+    # Garante que o filtro termine no último segundo do dia final
+    data_fim = pd.to_datetime(data_fim).normalize().tz_localize("America/Sao_Paulo") + pd.Timedelta(days=1, seconds=-1)
+
     df_filtrado = df[df["data"].between(data_ini, data_fim)]
 
-    # Filtro de tipos
+    # Filtro de tipos (continua igual)
     if tipos:
         df_filtrado = df_filtrado[df_filtrado["tipo"].isin(tipos)]
 
-    # Filtro de conjuntos
+    # Filtro de conjuntos (continua igual)
     if conjuntos:
         nomes_do_conjunto = []
         if "Torneios grandes" in conjuntos:
             nomes_do_conjunto += df[df["jogadores"] >= 50]["nome"].tolist()
         if "Torneios recentes" in conjuntos:
-            nomes_do_conjunto += df[df["data"] >= pd.Timestamp.now(tz="America/Sao_Paulo") - pd.Timedelta(days=30)]["nome"].tolist()
+            # Corrigido para usar a data de agora com fuso horário correto
+            agora = pd.Timestamp.now(tz="America/Sao_Paulo")
+            nomes_do_conjunto += df[df["data"] >= agora - pd.Timedelta(days=30)]["nome"].tolist()
         if "Meus favoritos" in conjuntos:
             nomes_do_conjunto += ["Torneio X", "Torneio Y"]
         df_filtrado = df_filtrado[df_filtrado["nome"].isin(nomes_do_conjunto)]

@@ -9,12 +9,21 @@ from pathlib import Path
 
 DATA_DIR = "torneiosnew"  # pasta onde estão todos os torneios
 
-st.set_page_config(
-    page_title="Estatísticas NEXT",
-    page_icon="logo.png",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
+try: 
+    caminho_logo = Path(__file__).parent / "logo.PNG"
+    st.set_page_config(
+        page_title="Estatísticas NEXT",
+        page_icon=caminho_logo,
+        layout="wide",
+        initial_sidebar_state="expanded"
+    )
+except FileNotFoundError:
+    st.set_page_config(
+        page_title="Estatísticas NEXT",
+        page_icon="logo.png",
+        layout="wide",
+        initial_sidebar_state="expanded"
+    )
 
 try:
     caminho_logo = Path(__file__).parent / "logo.PNG"
@@ -90,10 +99,9 @@ if "datas_key" not in st.session_state:
 datas = st.sidebar.date_input(
     "Intervalo de datas",
     min_value=data_min,
-    max_value=data_max,
+    # max_value=data_max, # se estiver ativo, não deixa colocar datas posteriores ao ultimo torneio
     key="datas_key"
 )
-
 
 #  Botão Clear 
 st.sidebar.button("❌ Limpar tudo", on_click=reset_filtros, args=(df_torneios,), key="limpar_filtros_button")
@@ -128,7 +136,7 @@ if df_filtrado.empty:
 if st.session_state['view_key'] == 'Visão Geral':
     st.subheader("📂 Torneios disponíveis")
     # Nota: Corrigido de width='stretch' para a opção correta que discutimos
-    st.dataframe(df_filtrado.copy(), use_container_width=True)
+    st.dataframe(df_filtrado.copy(), width='stretch')
 
 elif st.session_state['view_key'] == 'Estatísticas':
     st.subheader("📈 Estatísticas dos torneios selecionados")

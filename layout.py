@@ -83,8 +83,6 @@ def aplicar_estilos_globais(logo_base64: str):
                 background-size: 170px;
                 padding-left: 120px;
                 min-height: 140px;
-                padding-top: 10px;
-                padding-bottom: 10px;
                 border-bottom: 2px solid #3a3f4e;
             }}
         </style>
