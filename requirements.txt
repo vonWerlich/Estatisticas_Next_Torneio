@@ -3,5 +3,4 @@ streamlit
 ndjson
 streamlit-aggrid
 streamlit-elements
-berserk
 requests
