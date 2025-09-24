@@ -8,6 +8,10 @@ on:
 jobs:
   fetch-and-commit:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
