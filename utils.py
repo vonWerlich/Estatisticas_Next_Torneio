@@ -3,17 +3,21 @@ import ndjson
 import os
 import pandas as pd
 import base64
+import streamlit as st
 
+@st.cache_data(ttl="180d")
 def carregar_info(path):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
+@st.cache_data(ttl="180d")
 def carregar_results(path):
     if not os.path.exists(path):
         return None
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
+@st.cache_data(ttl="180d")
 def carregar_games(path):
     if not os.path.exists(path):
         return None

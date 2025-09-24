@@ -38,7 +38,7 @@ ajustar_layout_principal(padding_top_rem=0, margin_top_rem=0)  # Controla o espa
 
 # ---------- Carregar dados ----------
 
-@st.cache_data # <-- cache para atualização mais rápida
+@st.cache_data(ttl="4d") # <-- cache para atualização mais rápida, dura 4 dias
 def carregar_todos_os_torneios(data_dir):
     """Lê todos os arquivos da pasta e retorna um DataFrame, usando cache."""
     torneios = listar_torneios(data_dir)
