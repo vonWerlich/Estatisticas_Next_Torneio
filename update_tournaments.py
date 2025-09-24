@@ -6,7 +6,7 @@ import sys
 # --- CONFIGURAÇÃO ---
 # ID correto da equipe, conforme seu script que já funciona.
 TEAM_ID = "next-nucleo-de-estudos-em-xadrez--tecnologias"
-DATA_DIR = "torneiosteste"
+DATA_DIR = "torneiosnew"
 
 # Garante que o diretório de dados exista.
 os.makedirs(DATA_DIR, exist_ok=True)
