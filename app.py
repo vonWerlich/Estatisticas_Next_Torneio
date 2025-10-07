@@ -61,7 +61,10 @@ def carregar_todos_os_torneios(data_dir):
     df = pd.DataFrame(info_list)
     return df, torneios 
 
-df_torneios, torneios = carregar_todos_os_torneios(DATA_DIR)
+with st.spinner("Aguarde, preparando as estatísticas de todos os torneios... 🏋️‍♂️"):
+    #nova mensagem de erro
+    df_torneios, torneios = carregar_todos_os_torneios(DATA_DIR)
+
 if df_torneios.empty:
     st.error("Nenhum torneio encontrado na pasta `torneiosnew/`.")
     st.stop()
