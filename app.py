@@ -170,6 +170,26 @@ else:
 
     elif st.session_state['view_key'] == 'Detalhes do Torneio':
         st.subheader("🔎 Detalhes de um torneio")
+
+        # Controle de ordenação (renderizado na página principal)
+        sort_option = st.radio(
+            "Ordenar lista de torneios por:",
+            options=["Mais Recentes", "Mais Antigos", "Nome (A-Z)", "Mais Jogadores"],
+            horizontal=True,
+            key="sort_tournaments_key"
+        )        
+
+        # Lógica de ordenação (não visual, apenas prepara os dados)
+        if sort_option == 'Mais Recentes':
+            df_ordenado = df_filtrado.sort_values(by="data", ascending=False)
+        elif sort_option == 'Mais Antigos':
+            df_ordenado = df_filtrado.sort_values(by="data", ascending=True)
+        elif sort_option == 'Nome (A-Z)':
+            df_ordenado = df_filtrado.sort_values(by="nome", ascending=True)
+        else: # 'Mais Jogadores'
+            df_ordenado = df_filtrado.sort_values(by="jogadores", ascending=False)
+        
+        st.divider()
         
         opcao = st.selectbox(
             "Selecione um torneio para ver os detalhes:", 
