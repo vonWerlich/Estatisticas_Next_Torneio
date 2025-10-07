@@ -38,7 +38,7 @@ ajustar_layout_principal(padding_top_rem=0, margin_top_rem=0)  # Controla o espa
 
 # ---------- Carregar dados ----------
 
-@st.cache_data(ttl="4d") # <-- cache para atualização mais rápida, dura 4 dias
+@st.cache_data(ttl="4d", show_spinner=False) # <-- cache para atualização mais rápida, dura 4 dias
 def carregar_todos_os_torneios(data_dir):
     """Lê todos os arquivos da pasta e retorna um DataFrame, usando cache."""
     torneios = listar_torneios(data_dir)
@@ -61,7 +61,7 @@ def carregar_todos_os_torneios(data_dir):
     df = pd.DataFrame(info_list)
     return df, torneios 
 
-with st.spinner("Aguarde, preparando as estatísticas de todos os torneios... 🏋️‍♂️"):
+with st.spinner("♙♘♗♖♕♔ Aguarde, preparando as estatísticas de todos os torneios... ♟♞♝♜♛♚"):
     #nova mensagem de erro
     df_torneios, torneios = carregar_todos_os_torneios(DATA_DIR)
 
@@ -190,16 +190,16 @@ else:
             df_ordenado = df_filtrado.sort_values(by="jogadores", ascending=False)
         
         st.divider()
-        
+
         opcao = st.selectbox(
             "Selecione um torneio para ver os detalhes:", 
-            df_filtrado["nome"],
+            df_ordenado["nome"],
             index=None, # Faz com que a seleção inicial seja vazia
             placeholder="Escolha um torneio..."
         )
 
         if opcao:
-            tid = df_filtrado[df_filtrado["nome"] == opcao]["id"].iloc[0]
+            tid = df_ordenado[df_ordenado["nome"] == opcao]["id"].iloc[0]
             paths = torneios[tid]
             info = carregar_info(paths["info"])
             results = carregar_results(paths["results"])
@@ -214,10 +214,11 @@ else:
             if results:
                 results_df = pd.DataFrame(results)
                 st.subheader("🏆 Classificação final")
-                st.dataframe(results_df, use_container_width=True)
+                df_para_exibir = results_df.drop(columns=['flair'], errors='ignore')
+                st.dataframe(df_para_exibir, width='stretch')
                 if "score" in results_df:
                     st.bar_chart(results_df.set_index("username")["score"])
 
             if games is not None and not games.empty:
                 st.subheader("♟️ Jogos (primeiros 10)")
-                st.dataframe(games.head(10), use_container_width=True)
+                st.dataframe(games.head(10), width='stretch')
