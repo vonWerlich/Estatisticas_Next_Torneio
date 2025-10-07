@@ -158,8 +158,10 @@ else:
     # Agora, use a seleção da sidebar para renderizar a visão correta
     if st.session_state['view_key'] == 'Visão Geral':
         st.subheader("📂 Torneios disponíveis")
+
+        df_ordenado_visao_geral = df_filtrado.copy().sort_values(by="data", ascending=False)
         # Nota: Corrigido de width='stretch' para a opção correta que discutimos
-        st.dataframe(df_filtrado.copy(), width='stretch')
+        st.dataframe(df_ordenado_visao_geral, width='stretch')
 
     elif st.session_state['view_key'] == 'Estatísticas':
         st.subheader("📈 Estatísticas dos torneios selecionados")
