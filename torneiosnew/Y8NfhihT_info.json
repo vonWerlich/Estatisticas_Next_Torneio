@@ -1,0 +1,187 @@
+{
+  "nbPlayers": 57,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "vonWerlich",
+      "rank": 1,
+      "rating": 2090,
+      "score": 39,
+      "nb": {
+        "game": 12,
+        "berserk": 1,
+        "win": 11
+      },
+      "performance": 2205
+    },
+    {
+      "name": "the-chemist",
+      "rank": 2,
+      "rating": 2043,
+      "score": 35,
+      "nb": {
+        "game": 12,
+        "berserk": 3,
+        "win": 10
+      },
+      "performance": 1930
+    },
+    {
+      "name": "Murilost23",
+      "rank": 3,
+      "rating": 1845,
+      "score": 34,
+      "nb": {
+        "game": 13,
+        "berserk": 4,
+        "win": 10
+      },
+      "performance": 1904
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 196,
+    "moves": 9858,
+    "whiteWins": 96,
+    "blackWins": 81,
+    "draws": 19,
+    "berserks": 30,
+    "averageRating": 1482
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "vonWerlich",
+        "rank": 1,
+        "rating": 2090,
+        "score": 39,
+        "sheet": {
+          "scores": "304444444422"
+        }
+      },
+      {
+        "name": "the-chemist",
+        "rank": 2,
+        "rating": 2043,
+        "score": 35,
+        "sheet": {
+          "scores": "230444454320",
+          "fire": true
+        }
+      },
+      {
+        "name": "Murilost23",
+        "rank": 3,
+        "rating": 1845,
+        "score": 34,
+        "sheet": {
+          "scores": "4442302054231",
+          "fire": true
+        }
+      },
+      {
+        "name": "Balzabouth",
+        "flair": "people.love-you-gesture-light-skin-tone",
+        "rank": 4,
+        "rating": 1945,
+        "score": 24,
+        "sheet": {
+          "scores": "4444422",
+          "fire": true
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 5,
+        "rating": 1731,
+        "score": 20,
+        "sheet": {
+          "scores": "444422",
+          "fire": true
+        }
+      },
+      {
+        "name": "ReneDeVilla",
+        "rank": 6,
+        "rating": 1652,
+        "score": 16,
+        "sheet": {
+          "scores": "2000202020422"
+        }
+      },
+      {
+        "name": "RaulGLMA252A",
+        "flair": "smileys.alien",
+        "rank": 7,
+        "rating": 1542,
+        "score": 14,
+        "sheet": {
+          "scores": "4422020",
+          "fire": true
+        },
+        "provisional": true
+      },
+      {
+        "name": "tarcipad",
+        "rank": 8,
+        "rating": 1953,
+        "score": 12,
+        "sheet": {
+          "scores": "422022",
+          "fire": true
+        },
+        "provisional": true
+      },
+      {
+        "name": "PedroNEXT",
+        "rank": 9,
+        "rating": 1779,
+        "score": 12,
+        "sheet": {
+          "scores": "2200422",
+          "fire": true
+        }
+      },
+      {
+        "name": "JohnWick-NexT",
+        "rank": 10,
+        "rating": 1875,
+        "score": 12,
+        "sheet": {
+          "scores": "020422020"
+        }
+      }
+    ]
+  },
+  "id": "Y8NfhihT",
+  "createdBy": "the-chemist",
+  "startsAt": "2025-10-10T21:30:00Z",
+  "system": "arena",
+  "fullName": "NexT FullChess Series 25-2 T08 Arena",
+  "minutes": 90,
+  "perf": {
+    "key": "chess960",
+    "name": "Chess960"
+  },
+  "clock": {
+    "limit": 360,
+    "increment": 2
+  },
+  "variant": "chess960",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio válido para o Circuito NexT FullChess Series 25-2 (válido apenas para contas que não violarem os Termos de Serviço do Lichess e/ou não tiverem sido encerradas",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}
