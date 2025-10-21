@@ -120,7 +120,7 @@ with view_container:
     st.header("Selecionar Análise") 
     view_selection = st.radio(
         "**Visualizar**",
-        options=['Visão Geral', 'Estatísticas', 'Detalhes do Torneio'],
+        options=['Visão Geral', 'Número de Participantes', 'Detalhes do Torneio'],
         key='view_key',
         label_visibility="collapsed", # Este parâmetro esconde o rótulo "Selecione uma visualização" da tela
     )
@@ -163,12 +163,28 @@ else:
         # Nota: Corrigido de width='stretch' para a opção correta que discutimos
         st.dataframe(df_ordenado_visao_geral, width='stretch')
 
-    elif st.session_state['view_key'] == 'Estatísticas':
-        st.subheader("📈 Estatísticas dos torneios selecionados")
+    elif st.session_state['view_key'] == 'Número de Participantes':
+        st.subheader("📈 Total de Jogadores nos Torneios Selecionados")
+        # --- CORREÇÃO DAS ESTATÍSTICAS (veja o próximo ponto) ---
         st.write(f"Número de torneios: {len(df_filtrado)}")
         st.write(f"Total de jogos: {df_filtrado['jogos'].sum(skipna=True)}")
-        st.write(f"Total de jogadores (soma): {df_filtrado['jogadores'].sum(skipna=True)}")
-        st.bar_chart(df_filtrado.set_index("nome")["jogos"])
+        # Corrigindo o rótulo para ser mais honesto
+        st.write(f"Total de participações: {df_filtrado['jogadores'].sum(skipna=True)}")
+        
+        # --- CORREÇÃO DO GRÁFICO ---
+        
+        # 1. Cria uma cópia ordenada do DataFrame, do mais antigo para o mais recente
+        df_grafico = df_filtrado.sort_values(by="data", ascending=True)
+        
+        # 2. Define a DATA como o índice do gráfico
+        df_grafico = df_grafico.set_index("data")
+
+        st.subheader("Jogadores por Torneio (em ordem cronológica)")
+        st.bar_chart(df_grafico["jogadores"], use_container_width=True) # <-- CORRIGIDO
+        
+        st.subheader("Jogos por Torneio (em ordem cronológica)")
+        st.bar_chart(df_grafico["jogos"], use_container_width=True) # <-- CORRIGIDO
+
 
     elif st.session_state['view_key'] == 'Detalhes do Torneio':
         st.subheader("🔎 Detalhes de um torneio")
