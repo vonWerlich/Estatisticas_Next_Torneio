@@ -69,13 +69,13 @@ def fetch_all_team_tournaments(team_id):
 
 def download_tournament_files(tournament_info, directory):
     """
-    Baixa os arquivos de info, results e games para um único torneio.
-    Esta função combina a lógica do seu 'getTorneiosFromLichessAPIbyLinksinCSV.py'.
+    Baixa os arquivos de info, results e games para um único torneio,
+    APENAS SE o torneio já estiver "finished".
     """
     tid = tournament_info["id"]
     tipo = tournament_info["type"]
     
-    print(f"\n📥 Baixando detalhes para o novo torneio: {tournament_info['fullName']} ({tid}) [{tipo}]")
+    print(f"\n📥 Verificando status de: {tournament_info['fullName']} ({tid}) [{tipo}]")
 
     try:
         # Define as URLs baseadas no tipo de torneio
@@ -91,28 +91,41 @@ def download_tournament_files(tournament_info, directory):
             print(f"!!! Tipo de torneio desconhecido: '{tipo}'. Ignorando.")
             return False
 
-        # 1. Baixar Metadados (info)
+        # 1. Baixar Metadados (info) - MAS NÃO SALVAR AINDA
         info_req = requests.get(url_info)
         info_req.raise_for_status()
+        info_data = info_req.json()
+
+        # 2. VERIFICAR O STATUS (A LÓGICA CORRIGIDA)
+        status = info_data.get("status")
+        if status != "finished":
+            print(f"  -> Torneio {tid} ainda não finalizado (Status: {status}). Pulando por enquanto.")
+            # Retorna False e NÃO salva NENHUM arquivo.
+            # Na próxima execução, o torneio ainda será "novo" e será verificado novamente.
+            return False 
+
+        # 3. Se chegou aqui, o torneio está 'finished'. AGORA PODE SALVAR.
         with open(os.path.join(directory, f"{tid}_info.json"), "w", encoding="utf-8") as f:
-            json.dump(info_req.json(), f, ensure_ascii=False, indent=2)
+            json.dump(info_data, f, ensure_ascii=False, indent=2)
         print(f"  -> Metadados salvos.")
 
-        # 2. Baixar Resultados (results)
+        # 4. Baixar Resultados (com o fix para arquivos vazios)
         results_req = requests.get(url_results, headers={"Accept": "application/x-ndjson"})
         results_req.raise_for_status()
+        # Adiciona 'if line.strip()' para pular linhas vazias
         results_data = [json.loads(line) for line in results_req.text.strip().split('\n') if line.strip()]
         with open(os.path.join(directory, f"{tid}_results.json"), "w", encoding="utf-8") as f:
             json.dump(results_data, f, ensure_ascii=False, indent=2)
         print(f"  -> Resultados salvos.")
 
-        # 3. Baixar Partidas (games)
+        # 5. Baixar Partidas (com o fix para arquivos vazios)
         games_req = requests.get(url_games, stream=True, headers={"Accept": "application/x-ndjson"})
         games_req.raise_for_status()
         with open(os.path.join(directory, f"{tid}_games.ndjson"), "w", encoding="utf-8") as f:
             for line in games_req.iter_lines():
-                if line:
-                    f.write(line.decode('utf-8') + '\n')
+                decoded_line = line.decode('utf-8').strip() # Garante que a linha não é vazia
+                if decoded_line:
+                    f.write(decoded_line + '\n')
         print(f"  -> Partidas salvas.")
         
         print(f"✔ Download de '{tournament_info['fullName']}' concluído.")
@@ -120,11 +133,8 @@ def download_tournament_files(tournament_info, directory):
 
     except requests.exceptions.RequestException as e:
         print(f"!!! Erro ao baixar detalhes para o torneio {tid}: {e}")
-        # Se houve um erro, limpa arquivos parcialmente baixados para este torneio
-        for suffix in ["_info.json", "_results.json", "_games.ndjson"]:
-            partial_file = os.path.join(directory, f"{tid}{suffix}")
-            if os.path.exists(partial_file):
-                os.remove(partial_file)
+        # O bloco de limpeza de arquivos parciais não é mais estritamente necessário
+        # para o _info.json, pois ele só é salvo após a checagem.
         return False
 
 # --- FLUXO PRINCIPAL ---
