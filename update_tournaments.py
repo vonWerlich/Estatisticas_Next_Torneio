@@ -101,7 +101,7 @@ def download_tournament_files(tournament_info, directory):
         # 2. Baixar Resultados (results)
         results_req = requests.get(url_results, headers={"Accept": "application/x-ndjson"})
         results_req.raise_for_status()
-        results_data = [json.loads(line) for line in results_req.text.strip().split('\n')]
+        results_data = [json.loads(line) for line in results_req.text.strip().split('\n') if line.strip()]
         with open(os.path.join(directory, f"{tid}_results.json"), "w", encoding="utf-8") as f:
             json.dump(results_data, f, ensure_ascii=False, indent=2)
         print(f"  -> Resultados salvos.")
