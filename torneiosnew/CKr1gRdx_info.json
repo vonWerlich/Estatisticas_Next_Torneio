@@ -1,0 +1,51 @@
+{
+  "nbPlayers": 1,
+  "duels": [],
+  "secondsToStart": 457748,
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "PedroNEXT",
+        "rank": 1,
+        "rating": 1779,
+        "score": 0,
+        "sheet": {
+          "scores": ""
+        }
+      }
+    ]
+  },
+  "id": "CKr1gRdx",
+  "createdBy": "the-chemist",
+  "startsAt": "2025-11-07T21:30:00Z",
+  "system": "arena",
+  "fullName": "NexT FullChess Series 25-2 T12 Arena",
+  "minutes": 90,
+  "perf": {
+    "key": "chess960",
+    "name": "Chess960"
+  },
+  "clock": {
+    "limit": 360,
+    "increment": 2
+  },
+  "variant": "chess960",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "quote": {
+    "text": "I am both sad and pleased that in his last tournament, Rashid Gibiatovich came to my home in Latvia. He did not take first place, but the prize for beauty, as always, he took with him. Players die, tournaments are forgotten, but the works of great artists are left behind them to live on forever. (on Nezhmetdinov)",
+    "author": "Mikhail Tal"
+  },
+  "description": "Torneio válido para o Circuito NexT FullChess Series 25-2 (válido apenas para contas que não violarem os Termos de Serviço do Lichess e/ou não tiverem sido encerradas.",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}
