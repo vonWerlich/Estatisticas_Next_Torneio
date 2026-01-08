@@ -11,7 +11,6 @@ try:
 except Exception:
     pass
 
-TEAM_ID = "next-nucleo-de-estudos-em-xadrez--tecnologias"
 DATA_DIR_PLAYERS = "player_data"
 
 FILES_CONFIG = {
@@ -43,27 +42,34 @@ def chunk_list(lst, n):
 
 def processar_lote(api_users, master_map, requested_batch_ids):
     """
-    Atualiza dados de quem existe E marca closed_account=True em quem sumiu.
+    Lógica 'Agressiva' para detectar contas fechadas.
     """
     count_updated = 0
     received_ids = set()
     
-    # 1. ATUALIZA QUEM O LICHESS RESPONDEU
+    # 1. PROCESSAR QUEM O LICHESS RESPONDEU
     for api_data in api_users:
-        uid = api_data.get("id") # ID sempre vem minúsculo da API
+        uid = api_data.get("id")
         received_ids.add(uid)
         local_obj = master_map.get(uid)
         
         if local_obj:
             count_updated += 1
             
-            # --- DEFINIÇÃO DA FLAG (TRUE/FALSE) ---
-            # Se 'disabled': true, a conta está fechada.
-            # Se 'disabled' não vier, assumimos False (Aberta).
-            local_obj["closed_account"] = api_data.get("disabled", False)
+            # --- DETECTOR DE ZUMBIS (Respondeu, mas veio vazio?) ---
+            # Contas fechadas as vezes retornam sem 'perfs' (ratings) e sem 'createdAt'
+            tem_ratings = bool(api_data.get("perfs"))
+            tem_criacao = bool(api_data.get("createdAt"))
+            esta_desativada = api_data.get("disabled", False)
 
-            # Atualiza dados cadastrais
-            local_obj["username"] = api_data.get("username")
+            # Se estiver desativada OU (não tem ratings E não tem data de criação) -> FECHADA
+            if esta_desativada or (not tem_ratings and not tem_criacao):
+                local_obj["closed_account"] = True
+            else:
+                local_obj["closed_account"] = False
+
+            # --- ATUALIZAÇÃO DE DADOS ---
+            local_obj["username"] = api_data.get("username", local_obj.get("username"))
             local_obj["title"] = api_data.get("title")
             local_obj["country"] = api_data.get("profile", {}).get("country")
             
@@ -71,11 +77,12 @@ def processar_lote(api_users, master_map, requested_batch_ids):
             if api_data.get("tosViolation"):
                 local_obj["status"] = "banned"
             else:
-                # Se não é banido, limpamos o status 'banned' se existir
+                # Se não é banido, removemos status 'banned' antigo
                 if local_obj.get("status") == "banned":
                     local_obj["status"] = "active"
                 
             local_obj["last_seen_api_timestamp"] = api_data.get("seenAt")
+            local_obj["created_at"] = api_data.get("createdAt")
             
             # Ratings & Stats
             perfs = api_data.get("perfs", {})
@@ -88,42 +95,47 @@ def processar_lote(api_users, master_map, requested_batch_ids):
             local_obj["total_games"] = cnt.get("all")
             local_obj["total_wins"] = cnt.get("win")
 
-    # 2. MARCA QUEM O LICHESS IGNOROU (CONTAS DELETADAS)
-    # Se pedimos o ID e ele não veio na resposta, a conta não existe mais.
+    # 2. DETECTOR DE FANTASMAS (Quem eu pedi e NÃO veio)
+    # Se o ID foi solicitado no lote, mas não está em 'received_ids', a conta não existe.
     for req_id in requested_batch_ids:
         if req_id not in received_ids:
             local_obj = master_map.get(req_id)
             if local_obj:
-                # FORÇA A FLAG PARA TRUE
+                # Marca explicitamente como fechada
                 local_obj["closed_account"] = True
                 
-                # Se não veio nada, não temos ratings novos, mantemos os velhos.
+                # Se não tem ratings (nunca teve), garante que fiquem null ou 0
+                # Isso limpa a sujeira visual
+                if not local_obj.get("rating_blitz"):
+                    local_obj["status"] = "closed" # Força status closed visualmente também
 
     return count_updated
 
 def verificar_inatividade_time(user_list):
-    """Marca status 'inactive' apenas para quem está com conta aberta e limpa."""
+    """Marca inatividade apenas em contas VÁLIDAS."""
     now = datetime.now(timezone.utc)
     limit = timedelta(days=TEAM_INACTIVITY_DAYS)
     
     for p in user_list:
-        # Só marcamos inatividade se a conta não estiver banida nem fechada
-        if p.get("status") != "banned" and p.get("closed_account") is not True:
-            ls_str = p.get("last_seen_team_date")
-            if ls_str:
-                try:
-                    ls_dt = datetime.fromisoformat(ls_str.replace('Z', '+00:00'))
-                    if (now - ls_dt) > limit:
-                        p["status"] = "inactive"
-                    elif p.get("status") == "inactive":
-                        p["status"] = "active"
-                except: pass
+        # Pula banidos e fechados
+        if p.get("status") == "banned" or p.get("closed_account") is True:
+            continue
+
+        ls_str = p.get("last_seen_team_date")
+        if ls_str:
+            try:
+                ls_dt = datetime.fromisoformat(ls_str.replace('Z', '+00:00'))
+                if (now - ls_dt) > limit:
+                    p["status"] = "inactive"
+                elif p.get("status") == "inactive":
+                    p["status"] = "active"
+            except: pass
 
 def main():
-    print("--- ATUALIZAÇÃO MENSAL (LÓGICA CORRIGIDA) ---")
+    print("--- ATUALIZAÇÃO MENSAL: LIMPEZA PROFUNDA ---")
     start_time = time.time()
 
-    # 1. Carregar Tudo
+    # 1. Carregar Dados
     db_players = carregar_json(FILES_CONFIG["players"])
     db_lurkers = carregar_json(FILES_CONFIG["lurkers"])
     db_ex = carregar_json(FILES_CONFIG["ex_members"])
@@ -131,8 +143,8 @@ def main():
     master_map = {}
     ids_to_fetch = []
 
-    # --- CORREÇÃO AQUI: INICIALIZAÇÃO SEGURA ---
-    def indexar_lista(lista):
+    def indexar_lista(lista, nome_arquivo):
+        print(f"   Indexando {nome_arquivo} ({len(lista)} registros)...")
         for p in lista:
             uid = p.get("id_lichess")
             if not uid: uid = p.get("username")
@@ -140,25 +152,28 @@ def main():
                 uid = uid.lower()
                 p["id_lichess"] = uid
                 
-                # Garante que o campo closed_account exista como False por padrão
-                # Se já for True, mantém True. Se não existir, vira False.
+                # INICIALIZAÇÃO CORRETIVA:
+                # Se não tem o campo, cria como False.
+                # Se já tem True, mantém.
                 if "closed_account" not in p:
                     p["closed_account"] = False
                 
                 master_map[uid] = p
                 ids_to_fetch.append(uid)
 
-    print("📂 Carregando e Inicializando Dados...")
-    indexar_lista(db_players)
-    indexar_lista(db_lurkers)
-    indexar_lista(db_ex)
+    print("📂 Preparando memória...")
+    indexar_lista(db_players, "players")
+    indexar_lista(db_lurkers, "lurkers")
+    indexar_lista(db_ex, "ex_members")
     
     unique_ids = list(set(ids_to_fetch))
-    print(f"   Total para verificar: {len(unique_ids)}")
+    print(f"   Total de IDs únicos: {len(unique_ids)}")
 
     # 2. Consultar API
     chunks = list(chunk_list(unique_ids, BATCH_SIZE))
-    print(f"\n📡 Verificando API ({len(chunks)} lotes)...")
+    print(f"\n📡 Consultando Lichess em {len(chunks)} lotes...")
+
+    total_closed_detected = 0
 
     for i, batch in enumerate(chunks):
         print(f"   Lote {i+1}... ", end="")
@@ -168,42 +183,45 @@ def main():
             if resp.status_code == 200:
                 data = resp.json()
                 processar_lote(data, master_map, batch)
-                print(f"Ok. (Retorno: {len(data)}/{len(batch)})")
+                print(f"Ok. (Retornados: {len(data)} / Pedidos: {len(batch)})")
+                
+                # Diferença = Contas Fechadas
+                diff = len(batch) - len(data)
+                if diff > 0:
+                    total_closed_detected += diff
             else:
                 print(f"Erro API: {resp.status_code}")
                 
         except Exception as e:
             print(f"Erro Conexão: {e}")
         
-        time.sleep(1.2)
+        time.sleep(1.2) # Pausa para não tomar Rate Limit
 
-    # 3. Verificar Inatividade
+    print(f"\n💀 Contas fantasmas detectadas e fechadas neste ciclo: {total_closed_detected}")
+
+    # 3. Verificar Inatividade (Só nos ativos)
+    print("⏳ Verificando inatividade temporal...")
     verificar_inatividade_time(db_players)
 
     # 4. Salvar
-    print("\n💾 Salvando arquivos...")
+    print("💾 Salvando arquivos limpos...")
     salvar_json(FILES_CONFIG["players"], db_players)
     salvar_json(FILES_CONFIG["lurkers"], db_lurkers)
     salvar_json(FILES_CONFIG["ex_members"], db_ex)
     
-    # Relatórios
+    # Gerar listas auxiliares para o site
     all_users = db_players + db_lurkers + db_ex
     
-    # Contagem corrigida usando a flag
-    closed_count = sum(1 for u in all_users if u.get("closed_account") is True)
-    banned_count = sum(1 for u in all_users if u.get("status") == "banned")
-    inactive_count = sum(1 for u in all_users if u.get("status") == "inactive")
-
-    salvar_json(BANNED_FILE, [u["username"] for u in all_users if u.get("status") == "banned"])
-    salvar_json(INACTIVE_FILE, [u["username"] for u in all_users if u.get("status") == "inactive"])
+    # Agora a contagem deve bater
+    banned_names = [u["username"] for u in all_users if u.get("status") == "banned"]
+    inactive_names = [u["username"] for u in all_users if u.get("status") == "inactive"]
     
+    salvar_json(BANNED_FILE, banned_names)
+    salvar_json(INACTIVE_FILE, inactive_names)
     salvar_json(METADATA_FILE, {"last_api_check": datetime.now(timezone.utc).isoformat()})
 
     duration = (time.time() - start_time) / 60
     print(f"✅ Concluído em {duration:.2f} min.")
-    print(f"   - Contas Fechadas: {closed_count}")
-    print(f"   - Banidos: {banned_count}")
-    print(f"   - Inativos: {inactive_count}")
 
 if __name__ == "__main__":
     main()
