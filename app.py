@@ -8,6 +8,7 @@ from layout import *
 from pathlib import Path
 
 DATA_DIR = "torneiosnew"  # pasta onde estão todos os torneios
+PLAYERS_DIR = "player_data" # pasta dos jogadores
 
 try: 
     caminho_logo = Path(__file__).parent / "logo.PNG"
@@ -120,7 +121,7 @@ with view_container:
     st.header("Selecionar Análise") 
     view_selection = st.radio(
         "**Visualizar**",
-        options=['Visão Geral', 'Número de Participantes', 'Detalhes do Torneio'],
+        options=['Visão Geral', 'Número de Participantes', 'Detalhes do Torneio', "Jogadores"],
         key='view_key',
         label_visibility="collapsed", # Este parâmetro esconde o rótulo "Selecione uma visualização" da tela
     )
@@ -240,3 +241,95 @@ else:
             if games is not None and not games.empty:
                 st.subheader("♟️ Jogos (primeiros 10)")
                 st.dataframe(games.head(10), width='stretch')
+    elif st.session_state['view_key'] == 'Jogadores':
+        st.title("🗂️ Diretório de Jogadores")
+        
+        # Chama a função que criamos no utils.py
+        df_players = carregar_dados_jogadores(PLAYERS_DIR)
+        
+        if not df_players.empty:
+            # --- BARRA LATERAL (FILTROS ESPECÍFICOS DESTA PÁGINA) ---
+            st.sidebar.divider()
+            st.sidebar.header("Filtros de Jogadores")
+            
+            # 1. Filtro de Status (Ativo, Banido, Fechado...)
+            if "status" in df_players.columns:
+                status_unicos = df_players["status"].unique().tolist()
+                status_selecionados = st.sidebar.multiselect(
+                    "Status da Conta:",
+                    options=status_unicos,
+                    default=["active"], # Por padrão esconde banidos/inativos
+                    format_func=lambda x: x.capitalize()
+                )
+            else:
+                status_selecionados = []
+            
+            # 2. Busca por Nome
+            busca_nome = st.sidebar.text_input("Buscar por nome:", placeholder="Ex: the-chemist")
+            
+            # 3. Filtro de Participação (Slider)
+            max_p = int(df_players["participacoes"].max()) if "participacoes" in df_players.columns else 10
+            min_part = st.sidebar.slider("Mínimo de torneios jogados:", 0, max_p, 0)
+
+            # --- APLICANDO OS FILTROS ---
+            df_view = df_players.copy()
+            
+            # Filtra Status
+            if status_selecionados:
+                df_view = df_view[df_view["status"].isin(status_selecionados)]
+                
+            # Filtra Nome
+            if busca_nome:
+                # 'na=False' garante que não quebre se tiver nome vazio
+                df_view = df_view[df_view["username"].str.contains(busca_nome, case=False, na=False)]
+                
+            # Filtra Participações
+            if "participacoes" in df_view.columns:
+                df_view = df_view[df_view["participacoes"] >= min_part]
+
+            # --- EXIBIÇÃO ---
+            
+            # Métricas no topo da página
+            c1, c2, c3 = st.columns(3)
+            c1.metric("Jogadores Listados", len(df_view))
+            # c2 e c3 podem ser usados para ratings médios no futuro
+            if "participacoes" in df_view.columns:
+                 c3.metric("Média de Torneios", f"{df_view['participacoes'].mean():.1f}")
+
+            st.divider()
+
+            # Configuração da Tabela (Beleza Visual)
+            st.dataframe(
+                df_view,
+                column_config={
+                    "username": st.column_config.TextColumn(
+                        "Jogador",
+                        help="Nome de usuário no Lichess"
+                    ),
+                    "status": st.column_config.SelectboxColumn(
+                        "Status",
+                        options=["active", "inactive", "closed", "banned"],
+                        width="small"
+                    ),
+                    "participacoes": st.column_config.ProgressColumn(
+                        "Torneios Jogados",
+                        format="%d",
+                        min_value=0,
+                        max_value=max_p,
+                    ),
+                    "last_seen_api_timestamp": st.column_config.DatetimeColumn(
+                        "Visto por último",
+                        format="D MMM YYYY, HH:mm"
+                    ),
+                    # Oculta colunas técnicas que não interessam ao usuário
+                    "id": None, 
+                    "first_seen_team_date": None,
+                    "last_seen_team_date": None
+                },
+                hide_index=True,
+                use_container_width=True,
+                height=600
+            )
+            
+        else:
+            st.info("Nenhum dado de jogador encontrado. Certifique-se de ter rodado o 'fix_history.py' para popular o banco de dados.")

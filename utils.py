@@ -47,4 +47,52 @@ def img_to_base64(img_path):
             return base64.b64encode(f.read()).decode()
     return ""
 
-__all__ = ["carregar_info", "carregar_results", "carregar_games", "listar_torneios", "img_to_base64"]
+# stats dos players
+
+@st.cache_data(ttl="1h")
+def carregar_dados_jogadores(data_dir_players):
+    """
+    Carrega players.json e tournament_participants.json.
+    Retorna um DataFrame consolidado com contagem de participações.
+    """
+    path_players = os.path.join(data_dir_players, "players.json")
+    path_parts = os.path.join(data_dir_players, "tournament_participants.json")
+    
+    if not os.path.exists(path_players):
+        return pd.DataFrame()
+
+    # 1. Carrega Jogadores
+    with open(path_players, "r", encoding="utf-8") as f:
+        players = json.load(f)
+    
+    df = pd.DataFrame(players)
+    
+    # 2. Carrega Participações e Conta
+    if os.path.exists(path_parts):
+        with open(path_parts, "r", encoding="utf-8") as f:
+            parts_map = json.load(f)
+        
+        # Conta quantas vezes cada ID aparece nas listas de torneios
+        from collections import Counter
+        all_ids = []
+        for tid, p_ids in parts_map.items():
+            all_ids.extend(p_ids)
+            
+        counts = Counter(all_ids)
+        
+        # Mapeia a contagem para o DataFrame (usando a coluna 'id')
+        df["participacoes"] = df["id"].map(counts).fillna(0).astype(int)
+    else:
+        df["participacoes"] = 0
+
+    # 3. Adiciona colunas de Placeholder para Ratings (Futuro)
+    # Isso garante que a tabela já tenha a "cara" final
+    cols_futuras = ["rating_blitz", "rating_bullet", "rating_rapid"]
+    for col in cols_futuras:
+        if col not in df.columns:
+            df[col] = None # Vazio por enquanto
+
+    return df
+
+__all__ = ["carregar_info", "carregar_results", "carregar_games", "listar_torneios", "img_to_base64",
+           "carregar_dados_jogadores", ]
