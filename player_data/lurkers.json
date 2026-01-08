@@ -7,14 +7,15 @@
     "title": null,
     "country": null,
     "location": null,
-    "last_seen_api_timestamp": 1767897494659,
+    "last_seen_api_timestamp": 1767898152141,
     "created_at": 1586829753008,
     "rating_blitz": 2503,
     "rating_rapid": 2202,
-    "rating_bullet": 2323,
+    "rating_bullet": 2311,
     "rating_puzzle": 2174,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "BillySnick",
@@ -31,7 +32,8 @@
     "rating_bullet": 1796,
     "rating_puzzle": 2023,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Martinez84",
@@ -48,7 +50,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "HenriqueXadrezJlle",
@@ -65,7 +68,8 @@
     "rating_bullet": 1041,
     "rating_puzzle": 1140,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "CakraChess77",
@@ -82,7 +86,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "lucatrix777",
@@ -99,7 +104,8 @@
     "rating_bullet": 1206,
     "rating_puzzle": 1159,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Tardu17",
@@ -116,7 +122,8 @@
     "rating_bullet": 1058,
     "rating_puzzle": 1664,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "HEliasP",
@@ -133,7 +140,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1792,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "AbelCOLMA252B",
@@ -150,7 +158,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "M_Mallorca",
@@ -167,7 +176,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "panky2012",
@@ -184,7 +194,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "VinyciusZ",
@@ -201,7 +212,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "nascimentoeric",
@@ -218,7 +230,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Felipe-R",
@@ -235,7 +248,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "vieroBruno",
@@ -252,7 +266,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "otavio_nandi",
@@ -269,7 +284,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "PedroJBH",
@@ -286,7 +302,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1291,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "jandicard",
@@ -303,7 +320,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "amilka-lilian",
@@ -320,7 +338,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "LorenzoGadotti",
@@ -337,7 +356,8 @@
     "rating_bullet": 1042,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "joaovdelgado",
@@ -354,7 +374,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Leonardo_Nunes_Muniz",
@@ -371,7 +392,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1470,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "dani3l77",
@@ -388,7 +410,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "LBachh",
@@ -405,7 +428,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "JoaoSpezia",
@@ -422,7 +446,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "lbr5539",
@@ -439,7 +464,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "filipezimmermann",
@@ -456,7 +482,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "carolina_almeida",
@@ -473,7 +500,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1280,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Maria_Schossler",
@@ -490,7 +518,8 @@
     "rating_bullet": 1303,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "victorloh8",
@@ -507,7 +536,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Igrzin",
@@ -524,7 +554,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Ju_Schoma",
@@ -541,7 +572,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "joao_2",
@@ -558,7 +590,8 @@
     "rating_bullet": 1119,
     "rating_puzzle": 1864,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "GabrielGabas",
@@ -575,7 +608,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "CleaSouza13",
@@ -592,7 +626,8 @@
     "rating_bullet": 1354,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "JoseAugusto543",
@@ -609,7 +644,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "vjuann",
@@ -626,7 +662,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "shinigami-Ace",
@@ -643,7 +680,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1160,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "iaggo",
@@ -660,7 +698,8 @@
     "rating_bullet": 1127,
     "rating_puzzle": 2046,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "YHBA",
@@ -677,7 +716,8 @@
     "rating_bullet": 1123,
     "rating_puzzle": 1942,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Deepakgopi",
@@ -695,7 +735,8 @@
     "rating_bullet": 986,
     "rating_puzzle": 3121,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Chesgros157",
@@ -712,7 +753,8 @@
     "rating_bullet": 1783,
     "rating_puzzle": 1266,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Gorilcho",
@@ -729,7 +771,8 @@
     "rating_bullet": 884,
     "rating_puzzle": 1575,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "tssn1",
@@ -746,7 +789,8 @@
     "rating_bullet": 1224,
     "rating_puzzle": 2028,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Darshan0703",
@@ -763,7 +807,8 @@
     "rating_bullet": 1550,
     "rating_puzzle": 2234,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Priyansh-85_44",
@@ -780,7 +825,8 @@
     "rating_bullet": 1381,
     "rating_puzzle": 1616,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "RaYzA",
@@ -797,7 +843,8 @@
     "rating_bullet": 1911,
     "rating_puzzle": 2173,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Mike_Ticona",
@@ -814,7 +861,8 @@
     "rating_bullet": 1561,
     "rating_puzzle": 1588,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "FilipeSDLMAB251",
@@ -831,7 +879,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "fepiets",
@@ -848,7 +897,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "MandyNhaaa",
@@ -865,7 +915,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Skyloox",
@@ -882,7 +933,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "andreeduschmitz",
@@ -899,7 +951,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "isapiets",
@@ -916,7 +969,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "RuanDC",
@@ -933,7 +987,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Daniboy25",
@@ -950,7 +1005,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "inara_ribeiro",
@@ -967,7 +1023,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "RodzCosta",
@@ -984,7 +1041,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "NunesErick",
@@ -1001,7 +1059,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "jwrdwn",
@@ -1018,7 +1077,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Flavin_do_pineu",
@@ -1035,7 +1095,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "NomiGusta",
@@ -1052,7 +1113,8 @@
     "rating_bullet": 1362,
     "rating_puzzle": 1429,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "ikechess1",
@@ -1069,7 +1131,8 @@
     "rating_bullet": 1377,
     "rating_puzzle": 1565,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "andrebolivia",
@@ -1086,7 +1149,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "badrik1",
@@ -1103,7 +1167,8 @@
     "rating_bullet": 1741,
     "rating_puzzle": 2248,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Maximiano_Souza",
@@ -1120,7 +1185,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Murilomartins589",
@@ -1137,7 +1203,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Gabrielk1978X",
@@ -1154,7 +1221,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Andreluisch",
@@ -1171,7 +1239,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1471,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "ulrik05",
@@ -1188,7 +1257,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 2167,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Duque_de_Iguataua",
@@ -1205,7 +1275,8 @@
     "rating_bullet": 1104,
     "rating_puzzle": 1948,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "SFA_Raphael",
@@ -1222,7 +1293,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "PandaAnonimo",
@@ -1239,7 +1311,8 @@
     "rating_bullet": 1317,
     "rating_puzzle": 1519,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "ValeraV-2072",
@@ -1256,7 +1329,8 @@
     "rating_bullet": 1612,
     "rating_puzzle": 2950,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "soaresbizarro",
@@ -1273,7 +1347,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1885,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "dttvghost",
@@ -1290,7 +1365,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Davidoff40",
@@ -1307,7 +1383,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1776,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "davidavidavi01",
@@ -1324,7 +1401,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1538,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Lucas28209",
@@ -1341,7 +1419,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Laragabriellychess",
@@ -1358,7 +1437,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1282,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Gabrielhenrhridodk",
@@ -1375,7 +1455,8 @@
     "rating_bullet": 1754,
     "rating_puzzle": 1133,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "CircuitoBlitzCbx2024",
@@ -1393,7 +1474,8 @@
     "rating_bullet": 1932,
     "rating_puzzle": 2280,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "ldittrich",
@@ -1410,7 +1492,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1543,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "NatanHenrique",
@@ -1427,7 +1510,8 @@
     "rating_bullet": 1362,
     "rating_puzzle": 1885,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Bkornetoff",
@@ -1444,7 +1528,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 835,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "JoaoOtavioStobe1",
@@ -1461,7 +1546,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "mhm81",
@@ -1478,7 +1564,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 2220,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Jobel62",
@@ -1495,7 +1582,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "PauloSunao",
@@ -1512,7 +1600,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1859,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "BFGomes1992",
@@ -1529,7 +1618,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1707,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "jupannek",
@@ -1546,7 +1636,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Idonline",
@@ -1563,7 +1654,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Elves_Moreira",
@@ -1573,14 +1665,15 @@
     "title": null,
     "country": null,
     "location": null,
-    "last_seen_api_timestamp": 1767897108479,
+    "last_seen_api_timestamp": 1767898052027,
     "created_at": 1648115406224,
     "rating_blitz": 1368,
-    "rating_rapid": 1560,
+    "rating_rapid": 1651,
     "rating_bullet": 1242,
     "rating_puzzle": 1709,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Gubio",
@@ -1597,7 +1690,8 @@
     "rating_bullet": 2008,
     "rating_puzzle": 1869,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "yanp1962",
@@ -1614,7 +1708,8 @@
     "rating_bullet": 1297,
     "rating_puzzle": 971,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Ricardo_Krok",
@@ -1631,7 +1726,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "nanamoon42",
@@ -1648,7 +1744,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "SthiflerLuzzi22",
@@ -1665,7 +1762,8 @@
     "rating_bullet": 1816,
     "rating_puzzle": 1678,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "AntonioMarcioSantos",
@@ -1682,7 +1780,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Regis_marques",
@@ -1699,7 +1798,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1655,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "GabrielleTamy",
@@ -1716,7 +1816,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1787,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "xXRyujinXx",
@@ -1733,7 +1834,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1578,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "aiofuse",
@@ -1750,7 +1852,8 @@
     "rating_bullet": 1522,
     "rating_puzzle": 1512,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "LEFG",
@@ -1767,7 +1870,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "alexmaxado09",
@@ -1784,7 +1888,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "slvcristian",
@@ -1801,7 +1906,8 @@
     "rating_bullet": 1377,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "neumann2000",
@@ -1818,7 +1924,8 @@
     "rating_bullet": 929,
     "rating_puzzle": 1248,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "FAKNAKVRA",
@@ -1835,7 +1942,8 @@
     "rating_bullet": 1764,
     "rating_puzzle": 1683,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "beatrizbruns",
@@ -1852,7 +1960,8 @@
     "rating_bullet": 1245,
     "rating_puzzle": 1346,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "MHorner",
@@ -1869,7 +1978,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 2034,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Vhyz",
@@ -1886,7 +1996,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Kr1m1",
@@ -1904,7 +2015,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1014,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "kianjabbari",
@@ -1921,7 +2033,8 @@
     "rating_bullet": 1105,
     "rating_puzzle": 2456,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "MRyogat",
@@ -1938,7 +2051,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1419,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Absadyk_Jansultan16",
@@ -1955,7 +2069,8 @@
     "rating_bullet": 1112,
     "rating_puzzle": 1623,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Tony_Pizzakano",
@@ -1973,7 +2088,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Memzzchi",
@@ -1990,7 +2106,8 @@
     "rating_bullet": 755,
     "rating_puzzle": 1220,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "CarloDela29",
@@ -2008,7 +2125,8 @@
     "rating_bullet": 1976,
     "rating_puzzle": 1812,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Zylog",
@@ -2025,7 +2143,8 @@
     "rating_bullet": 1289,
     "rating_puzzle": 1828,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Gabi_7",
@@ -2042,7 +2161,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Rafael_Marcuzzo",
@@ -2059,7 +2179,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1288,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Matheusbrplay",
@@ -2076,7 +2197,8 @@
     "rating_bullet": 996,
     "rating_puzzle": 1733,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "go3z",
@@ -2093,7 +2215,8 @@
     "rating_bullet": 1013,
     "rating_puzzle": 2120,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Frantor73",
@@ -2110,7 +2233,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "MaxKorzh",
@@ -2127,7 +2251,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "ViniciusCoelho",
@@ -2144,7 +2269,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1401,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "FHansenn",
@@ -2161,7 +2287,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1238,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Maximus5",
@@ -2178,7 +2305,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1311,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "izackiis",
@@ -2195,7 +2323,8 @@
     "rating_bullet": 1898,
     "rating_puzzle": 2238,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "meteno",
@@ -2212,7 +2341,8 @@
     "rating_bullet": 1932,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "DaileS16",
@@ -2230,7 +2360,8 @@
     "rating_bullet": 1516,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "DarcioAlberico",
@@ -2247,7 +2378,8 @@
     "rating_bullet": 2005,
     "rating_puzzle": 2418,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "alexchmendes",
@@ -2264,7 +2396,8 @@
     "rating_bullet": 1178,
     "rating_puzzle": 1632,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "SrOnofri",
@@ -2281,7 +2414,8 @@
     "rating_bullet": 1163,
     "rating_puzzle": 1446,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "DontKnowWhatImDoing2",
@@ -2298,7 +2432,8 @@
     "rating_bullet": 1085,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Arthur_Ayres",
@@ -2315,7 +2450,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1597,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Petryzao",
@@ -2332,7 +2468,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Antoni02",
@@ -2349,7 +2486,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Salmos_37_8",
@@ -2366,7 +2504,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "GuiIrai",
@@ -2383,7 +2522,8 @@
     "rating_bullet": 1116,
     "rating_puzzle": 1368,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "IsraelCarvalho",
@@ -2400,7 +2540,8 @@
     "rating_bullet": 744,
     "rating_puzzle": 1637,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "GilRodrigues",
@@ -2417,7 +2558,8 @@
     "rating_bullet": 1294,
     "rating_puzzle": 2052,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Viksri2010",
@@ -2434,7 +2576,8 @@
     "rating_bullet": 667,
     "rating_puzzle": 1020,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "kauesr99",
@@ -2451,7 +2594,8 @@
     "rating_bullet": 816,
     "rating_puzzle": 1188,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Viatri27",
@@ -2468,7 +2612,8 @@
     "rating_bullet": 1350,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "gimenesc",
@@ -2485,7 +2630,8 @@
     "rating_bullet": 1156,
     "rating_puzzle": 1980,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "chaitanyajain",
@@ -2502,7 +2648,8 @@
     "rating_bullet": 567,
     "rating_puzzle": 1067,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "duduMT13",
@@ -2519,7 +2666,8 @@
     "rating_bullet": 1649,
     "rating_puzzle": 1814,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "MagicJ77",
@@ -2536,7 +2684,8 @@
     "rating_bullet": 2212,
     "rating_puzzle": 2009,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Grimshaw_Eden",
@@ -2553,7 +2702,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "jppcel",
@@ -2570,7 +2720,8 @@
     "rating_bullet": 1196,
     "rating_puzzle": 1389,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "funtimefredy",
@@ -2588,7 +2739,8 @@
     "rating_bullet": 1129,
     "rating_puzzle": 1272,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "alan22",
@@ -2606,7 +2758,8 @@
     "rating_bullet": 1389,
     "rating_puzzle": 1654,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "d0n4th",
@@ -2623,7 +2776,8 @@
     "rating_bullet": 1434,
     "rating_puzzle": 1900,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "CapoeiraPlaymobil",
@@ -2640,7 +2794,8 @@
     "rating_bullet": 1266,
     "rating_puzzle": 2186,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "tavinmouse1234",
@@ -2657,7 +2812,8 @@
     "rating_bullet": 1486,
     "rating_puzzle": 1588,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "PsychoaktivesKoffein",
@@ -2674,7 +2830,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1220,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "DiegoLeu",
@@ -2691,7 +2848,8 @@
     "rating_bullet": 1264,
     "rating_puzzle": 1464,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Jafarbek2012",
@@ -2708,7 +2866,8 @@
     "rating_bullet": 1799,
     "rating_puzzle": 2076,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Bialipinski",
@@ -2725,7 +2884,8 @@
     "rating_bullet": 1101,
     "rating_puzzle": 1297,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Ghouleh",
@@ -2742,7 +2902,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "ArYt_8502",
@@ -2759,7 +2920,8 @@
     "rating_bullet": 1245,
     "rating_puzzle": 1127,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "LeoSanSil",
@@ -2776,7 +2938,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "levimilton",
@@ -2793,7 +2956,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "GabrielJD",
@@ -2810,7 +2974,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "AlexNovitz",
@@ -2827,7 +2992,8 @@
     "rating_bullet": 2307,
     "rating_puzzle": 2393,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Srael-Amil",
@@ -2844,7 +3010,8 @@
     "rating_bullet": 2001,
     "rating_puzzle": 2535,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "lucasaq",
@@ -2861,7 +3028,8 @@
     "rating_bullet": 1275,
     "rating_puzzle": 1765,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "JJAS_07",
@@ -2878,7 +3046,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1470,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "OswaldoSoares",
@@ -2895,7 +3064,8 @@
     "rating_bullet": 1082,
     "rating_puzzle": 1799,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "theNewOrder",
@@ -2912,7 +3082,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "BRCristian",
@@ -2929,7 +3100,8 @@
     "rating_bullet": 851,
     "rating_puzzle": 1301,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "guiddiel",
@@ -2946,7 +3118,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1467,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "JaisonNeppel",
@@ -2963,7 +3136,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1506,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "MaxTS",
@@ -2980,7 +3154,8 @@
     "rating_bullet": 1342,
     "rating_puzzle": 1948,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Favokres",
@@ -2997,7 +3172,8 @@
     "rating_bullet": 1783,
     "rating_puzzle": 2236,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Junior_folle",
@@ -3014,7 +3190,8 @@
     "rating_bullet": 1155,
     "rating_puzzle": 1164,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "yungtk",
@@ -3031,7 +3208,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1422,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "JOAOMATECOMTOMATE",
@@ -3048,7 +3226,8 @@
     "rating_bullet": 1118,
     "rating_puzzle": 2104,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "naissinger",
@@ -3065,7 +3244,8 @@
     "rating_bullet": 2189,
     "rating_puzzle": 1972,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "DiegoXDZ",
@@ -3083,7 +3263,8 @@
     "rating_bullet": 1382,
     "rating_puzzle": 1692,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "rodrigoalexandre",
@@ -3100,7 +3281,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1639,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "capistrano",
@@ -3117,7 +3299,8 @@
     "rating_bullet": 828,
     "rating_puzzle": 1383,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "pato_jlle",
@@ -3134,7 +3317,8 @@
     "rating_bullet": 2091,
     "rating_puzzle": 2279,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "GabrielAlex",
@@ -3151,7 +3335,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1756,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "MK2017",
@@ -3168,7 +3353,8 @@
     "rating_bullet": 663,
     "rating_puzzle": 1583,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Jranhaia",
@@ -3185,7 +3371,8 @@
     "rating_bullet": 1547,
     "rating_puzzle": 1321,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Valdoni",
@@ -3202,7 +3389,8 @@
     "rating_bullet": 1675,
     "rating_puzzle": 2152,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "leoacr",
@@ -3219,7 +3407,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1423,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "jabnobre",
@@ -3236,7 +3425,8 @@
     "rating_bullet": 1229,
     "rating_puzzle": 1812,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "combatente",
@@ -3253,7 +3443,8 @@
     "rating_bullet": 1798,
     "rating_puzzle": 2029,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "aquiles88",
@@ -3270,7 +3461,8 @@
     "rating_bullet": 2381,
     "rating_puzzle": 2417,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Sucyalg",
@@ -3287,7 +3479,8 @@
     "rating_bullet": 1793,
     "rating_puzzle": 1860,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "casadoxadrezdosreis",
@@ -3304,7 +3497,8 @@
     "rating_bullet": 1866,
     "rating_puzzle": 2194,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "devoschess",
@@ -3321,7 +3515,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 2008,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Prof-miguel",
@@ -3338,7 +3533,8 @@
     "rating_bullet": 1631,
     "rating_puzzle": 1658,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "adeilton10",
@@ -3355,7 +3551,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1744,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "dstrobel",
@@ -3372,7 +3569,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1787,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Aldebarandetouro",
@@ -3389,7 +3587,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "brunodOut",
@@ -3406,7 +3605,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1881,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "bethina_next",
@@ -3423,7 +3623,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "zanella01",
@@ -3440,7 +3641,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "ederogata",
@@ -3457,7 +3659,8 @@
     "rating_bullet": 997,
     "rating_puzzle": 1831,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "cws_jlle",
@@ -3474,7 +3677,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "montoyalogannm",
@@ -3491,7 +3695,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "leandrojosebernardii",
@@ -3508,7 +3713,8 @@
     "rating_bullet": 1120,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "keanu_jeeves",
@@ -3525,7 +3731,8 @@
     "rating_bullet": 1305,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "ugoalencar",
@@ -3542,7 +3749,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1826,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "haislan",
@@ -3559,7 +3767,8 @@
     "rating_bullet": 786,
     "rating_puzzle": 1390,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "paulorfarah",
@@ -3576,7 +3785,8 @@
     "rating_bullet": 1013,
     "rating_puzzle": 1725,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "moisesferber",
@@ -3593,7 +3803,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "b-2007",
@@ -3610,7 +3821,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "cristianquadros07",
@@ -3627,7 +3839,8 @@
     "rating_bullet": 1145,
     "rating_puzzle": 2200,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "viggianord",
@@ -3644,7 +3857,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1439,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "ImproveTatics",
@@ -3661,7 +3875,8 @@
     "rating_bullet": 2425,
     "rating_puzzle": 2276,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "SABBJeNnIe",
@@ -3679,7 +3894,8 @@
     "rating_bullet": 1203,
     "rating_puzzle": 1997,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "thiagomeisor",
@@ -3696,7 +3912,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1861,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "alessandrocarvalhaes",
@@ -3713,7 +3930,8 @@
     "rating_bullet": 2027,
     "rating_puzzle": 1961,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "marcospdss",
@@ -3730,7 +3948,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1526,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Dmitry2010",
@@ -3747,7 +3966,8 @@
     "rating_bullet": 1563,
     "rating_puzzle": 2839,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "vinigasparini",
@@ -3764,7 +3984,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1981,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "bmx81",
@@ -3781,7 +4002,8 @@
     "rating_bullet": 1503,
     "rating_puzzle": 2028,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "HUGOKERMA",
@@ -3798,7 +4020,8 @@
     "rating_bullet": 1176,
     "rating_puzzle": 1027,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "whalelife",
@@ -3815,7 +4038,8 @@
     "rating_bullet": 1557,
     "rating_puzzle": 2249,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Ahmetyagiz2010",
@@ -3832,7 +4056,8 @@
     "rating_bullet": 865,
     "rating_puzzle": 1386,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "davis14",
@@ -3850,7 +4075,8 @@
     "rating_bullet": 1223,
     "rating_puzzle": 2051,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "MarconiSantos",
@@ -3867,7 +4093,8 @@
     "rating_bullet": 1582,
     "rating_puzzle": 2397,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "MiklosBajay",
@@ -3884,7 +4111,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Shibatagabriel",
@@ -3901,7 +4129,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "stoklosa",
@@ -3918,7 +4147,8 @@
     "rating_bullet": 800,
     "rating_puzzle": 1440,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "eraldojr",
@@ -3935,7 +4165,8 @@
     "rating_bullet": 1168,
     "rating_puzzle": 1526,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "SemHumildade",
@@ -3952,7 +4183,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "FranciscoTomaz",
@@ -3969,7 +4201,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "SamaSampa",
@@ -3979,14 +4212,15 @@
     "title": null,
     "country": null,
     "location": null,
-    "last_seen_api_timestamp": 1767894665972,
+    "last_seen_api_timestamp": 1767897932622,
     "created_at": 1505667536508,
     "rating_blitz": 2104,
     "rating_rapid": 2181,
     "rating_bullet": 1330,
     "rating_puzzle": 2539,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "FUSCALDO",
@@ -4003,7 +4237,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "LForster",
@@ -4020,7 +4255,8 @@
     "rating_bullet": 1008,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "dose10",
@@ -4037,7 +4273,8 @@
     "rating_bullet": 1147,
     "rating_puzzle": 1707,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "GustavoBueno12",
@@ -4054,7 +4291,8 @@
     "rating_bullet": 1383,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "davi_wollmann",
@@ -4071,7 +4309,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "japabuda",
@@ -4088,7 +4327,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1587,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Boscardingui",
@@ -4105,7 +4345,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Gioo",
@@ -4122,7 +4363,8 @@
     "rating_bullet": 1428,
     "rating_puzzle": 2073,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Vitorms5",
@@ -4139,7 +4381,8 @@
     "rating_bullet": 1583,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "le-griffith",
@@ -4156,7 +4399,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Josneiriva",
@@ -4173,7 +4417,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1970,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "DomGaspar",
@@ -4190,7 +4435,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1272,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Jose_sperry",
@@ -4207,7 +4453,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Zorranos",
@@ -4224,7 +4471,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Olinda1401",
@@ -4241,7 +4489,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "MaxwellEdindson",
@@ -4258,7 +4507,8 @@
     "rating_bullet": 2449,
     "rating_puzzle": 2153,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "helderg",
@@ -4275,7 +4525,8 @@
     "rating_bullet": 1112,
     "rating_puzzle": 1735,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "silvp51",
@@ -4292,7 +4543,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1518,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "brazilpunk",
@@ -4309,7 +4561,8 @@
     "rating_bullet": 989,
     "rating_puzzle": 1789,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "GabeRegina",
@@ -4326,7 +4579,8 @@
     "rating_bullet": 1265,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "pollhein",
@@ -4343,7 +4597,8 @@
     "rating_bullet": 1735,
     "rating_puzzle": 1614,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "reklamcedula",
@@ -4360,7 +4615,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "EraldoLeal",
@@ -4377,7 +4633,8 @@
     "rating_bullet": 943,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Metantropia",
@@ -4394,7 +4651,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "ppnegao",
@@ -4412,7 +4670,8 @@
     "rating_bullet": 1978,
     "rating_puzzle": 2046,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "rogerotario",
@@ -4429,7 +4688,8 @@
     "rating_bullet": 1295,
     "rating_puzzle": 1356,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Startdust",
@@ -4446,7 +4706,8 @@
     "rating_bullet": 1652,
     "rating_puzzle": 1745,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "MiGAzureKite",
@@ -4463,7 +4724,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 2557,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "rafaelcarreiro",
@@ -4480,7 +4742,8 @@
     "rating_bullet": 1406,
     "rating_puzzle": 2124,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "kukko",
@@ -4497,7 +4760,8 @@
     "rating_bullet": 1073,
     "rating_puzzle": 1664,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Poleao",
@@ -4514,7 +4778,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "pelizza",
@@ -4531,7 +4796,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "HugoHagemann",
@@ -4548,7 +4814,8 @@
     "rating_bullet": 1353,
     "rating_puzzle": 1472,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "alemeirelles",
@@ -4565,7 +4832,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1252,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "AmandaMello",
@@ -4582,7 +4850,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 2302,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "guilhermebox",
@@ -4599,7 +4868,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "grazitomasini",
@@ -4616,7 +4886,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Gil_Anderson",
@@ -4633,7 +4904,8 @@
     "rating_bullet": 1423,
     "rating_puzzle": 2196,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "cristian_gaedtke",
@@ -4650,7 +4922,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Robson75",
@@ -4667,7 +4940,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "jv_vitor",
@@ -4684,7 +4958,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "felipepaupitz",
@@ -4701,7 +4976,8 @@
     "rating_bullet": 1271,
     "rating_puzzle": 1740,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "andrevaldir",
@@ -4718,7 +4994,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1380,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Ultra7M78",
@@ -4735,7 +5012,8 @@
     "rating_bullet": 2128,
     "rating_puzzle": 2081,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "EduNGo",
@@ -4752,7 +5030,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1467,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Alvaro_Augusto_Zago",
@@ -4769,7 +5048,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "P-33",
@@ -4786,7 +5066,8 @@
     "rating_bullet": 1675,
     "rating_puzzle": 1933,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "rei-nert",
@@ -4803,7 +5084,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Olorin-Narya",
@@ -4820,7 +5102,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "claujunior",
@@ -4837,7 +5120,8 @@
     "rating_bullet": 2017,
     "rating_puzzle": 1908,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "beto2791",
@@ -4854,7 +5138,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "TOstetto",
@@ -4871,7 +5156,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "IP-NexT",
@@ -4888,7 +5174,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "pinguinzao",
@@ -4905,7 +5192,8 @@
     "rating_bullet": 1108,
     "rating_puzzle": 1788,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "wchess64",
@@ -4922,7 +5210,8 @@
     "rating_bullet": 1301,
     "rating_puzzle": 1749,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "MandySteffen",
@@ -4939,7 +5228,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "egogargula",
@@ -4956,7 +5246,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "celestinogabriel",
@@ -4973,7 +5264,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Erasmo1976",
@@ -4990,7 +5282,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "dduardaa",
@@ -5007,7 +5300,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Diego_dc",
@@ -5024,7 +5318,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "lucaswendorf",
@@ -5041,7 +5336,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "ChiqueMat",
@@ -5058,7 +5354,8 @@
     "rating_bullet": 1143,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "wallace_mielniczki",
@@ -5075,7 +5372,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "carlos-miranda",
@@ -5092,7 +5390,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Kricheldorf",
@@ -5109,7 +5408,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1059,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "agal79",
@@ -5126,7 +5426,8 @@
     "rating_bullet": 2297,
     "rating_puzzle": 2415,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "akemczinski",
@@ -5143,7 +5444,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "genunasumus",
@@ -5160,7 +5462,8 @@
     "rating_bullet": 2454,
     "rating_puzzle": 2278,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Scriptuser",
@@ -5177,6 +5480,7 @@
     "rating_bullet": 2420,
     "rating_puzzle": 2544,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   }
 ]

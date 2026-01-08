@@ -3,7 +3,8 @@
     "username": "iniciante34",
     "status_db": "active",
     "last_seen_team": "2022-07-08T21:30:00+00:00",
-    "id_lichess": "iniciante34"
+    "id_lichess": "iniciante34",
+    "closed_account": true
   },
   {
     "username": "Gustavo972",
@@ -20,19 +21,22 @@
     "rating_bullet": 1133,
     "rating_puzzle": 1729,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Cramnique",
     "status_db": "active",
     "last_seen_team": "2020-11-16T21:30:38+00:00",
-    "id_lichess": "cramnique"
+    "id_lichess": "cramnique",
+    "closed_account": true
   },
   {
     "username": "xadrezcontrole",
     "status_db": "active",
     "last_seen_team": "2020-10-30T21:30:34+00:00",
-    "id_lichess": "xadrezcontrole"
+    "id_lichess": "xadrezcontrole",
+    "closed_account": true
   },
   {
     "username": "jmpoffo",
@@ -49,7 +53,8 @@
     "rating_bullet": 1374,
     "rating_puzzle": 2043,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "ThiagoEhlers",
@@ -66,7 +71,8 @@
     "rating_bullet": 1536,
     "rating_puzzle": 1593,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "kronossaurus",
@@ -83,37 +89,43 @@
     "rating_bullet": 2137,
     "rating_puzzle": 2207,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "gmds2023",
     "status_db": "active",
     "last_seen_team": "2022-12-09T21:30:00+00:00",
-    "id_lichess": "gmds2023"
+    "id_lichess": "gmds2023",
+    "closed_account": true
   },
   {
     "username": "wilianfaust",
     "status_db": "active",
     "last_seen_team": "2020-06-19T21:30:16+00:00",
-    "id_lichess": "wilianfaust"
+    "id_lichess": "wilianfaust",
+    "closed_account": true
   },
   {
     "username": "BillBond007",
     "status_db": "active",
     "last_seen_team": "2020-06-26T21:30:18+00:00",
-    "id_lichess": "billbond007"
+    "id_lichess": "billbond007",
+    "closed_account": true
   },
   {
     "username": "botest",
     "status_db": "active",
     "last_seen_team": "2021-11-19T21:30:00+00:00",
-    "id_lichess": "botest"
+    "id_lichess": "botest",
+    "closed_account": true
   },
   {
     "username": "Pizzex",
     "status_db": "active",
     "last_seen_team": "2021-09-17T21:30:55+00:00",
-    "id_lichess": "pizzex"
+    "id_lichess": "pizzex",
+    "closed_account": true
   },
   {
     "username": "lucabieging",
@@ -130,13 +142,15 @@
     "rating_bullet": 2418,
     "rating_puzzle": 2778,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "chesseyeless",
     "status_db": "active",
     "last_seen_team": "2021-02-15T21:30:16+00:00",
-    "id_lichess": "chesseyeless"
+    "id_lichess": "chesseyeless",
+    "closed_account": true
   },
   {
     "username": "MyRookIsBigger",
@@ -153,19 +167,22 @@
     "rating_bullet": 1809,
     "rating_puzzle": 2495,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Magnusete72",
     "status_db": "active",
     "last_seen_team": "2022-11-04T21:30:00+00:00",
-    "id_lichess": "magnusete72"
+    "id_lichess": "magnusete72",
+    "closed_account": true
   },
   {
     "username": "TarcisioCura",
     "status_db": "active",
     "last_seen_team": "2021-08-13T21:30:18+00:00",
-    "id_lichess": "tarcisiocura"
+    "id_lichess": "tarcisiocura",
+    "closed_account": true
   },
   {
     "username": "calebeklazzarotti",
@@ -182,13 +199,15 @@
     "rating_bullet": 2561,
     "rating_puzzle": 2837,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "circuitoblitzCbx1",
     "status_db": "active",
     "last_seen_team": "2024-03-08T21:30:00+00:00",
-    "id_lichess": "circuitoblitzcbx1"
+    "id_lichess": "circuitoblitzcbx1",
+    "closed_account": true
   },
   {
     "username": "dudumello",
@@ -206,73 +225,85 @@
     "rating_bullet": 1618,
     "rating_puzzle": 2021,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Destiny_Player",
     "status_db": "active",
     "last_seen_team": "2020-09-21T21:30:15+00:00",
-    "id_lichess": "destiny_player"
+    "id_lichess": "destiny_player",
+    "closed_account": true
   },
   {
     "username": "JonasBLMAA251",
     "status_db": "active",
     "last_seen_team": "2025-06-27T21:30:00+00:00",
-    "id_lichess": "jonasblmaa251"
+    "id_lichess": "jonasblmaa251",
+    "closed_account": true
   },
   {
     "username": "KauaRodLMAB251",
     "status_db": "active",
     "last_seen_team": "2025-06-13T21:30:00+00:00",
-    "id_lichess": "kauarodlmab251"
+    "id_lichess": "kauarodlmab251",
+    "closed_account": true
   },
   {
     "username": "brenoGGlmaa251",
     "status_db": "active",
     "last_seen_team": "2025-06-27T21:30:00+00:00",
-    "id_lichess": "brenogglmaa251"
+    "id_lichess": "brenogglmaa251",
+    "closed_account": true
   },
   {
     "username": "SarahTRSBLMAA251",
     "status_db": "active",
     "last_seen_team": "2025-04-11T21:30:00+00:00",
-    "id_lichess": "sarahtrsblmaa251"
+    "id_lichess": "sarahtrsblmaa251",
+    "closed_account": true
   },
   {
     "username": "NicoleMSantosLMAA251",
     "status_db": "active",
     "last_seen_team": "2025-06-06T21:30:00+00:00",
-    "id_lichess": "nicolemsantoslmaa251"
+    "id_lichess": "nicolemsantoslmaa251",
+    "closed_account": true
   },
   {
     "username": "GustavoPedrotti",
     "status_db": "active",
     "last_seen_team": "2023-09-15T21:30:00+00:00",
-    "id_lichess": "gustavopedrotti"
+    "id_lichess": "gustavopedrotti",
+    "closed_account": true
   },
   {
     "username": "MagnusLagessen",
     "status_db": "active",
     "last_seen_team": "2021-12-17T21:30:00+00:00",
-    "id_lichess": "magnuslagessen"
+    "id_lichess": "magnuslagessen",
+    "closed_account": true
   },
   {
     "username": "imchesss",
     "status_db": "active",
     "last_seen_team": "2023-07-07T21:30:00+00:00",
-    "id_lichess": "imchesss"
+    "id_lichess": "imchesss",
+    "closed_account": true
   },
   {
     "username": "ElricK_one",
     "status_db": "active",
     "last_seen_team": "2020-06-05T21:30:31+00:00",
-    "id_lichess": "elrick_one"
+    "id_lichess": "elrick_one",
+    "closed_account": true
   },
   {
     "username": "RogerRScar",
     "status_db": "active",
     "last_seen_team": "2021-09-06T21:30:34+00:00",
-    "id_lichess": "rogerrscar"
+    "id_lichess": "rogerrscar",
+    "closed_account": true
   },
   {
     "username": "Eusekevin",
@@ -289,7 +320,8 @@
     "rating_bullet": 1623,
     "rating_puzzle": 1937,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "lilvinicius99",
@@ -306,61 +338,71 @@
     "rating_bullet": 2525,
     "rating_puzzle": 2516,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Dummy_4",
     "status_db": "active",
     "last_seen_team": "2021-06-21T21:30:29+00:00",
-    "id_lichess": "dummy_4"
+    "id_lichess": "dummy_4",
+    "closed_account": true
   },
   {
     "username": "Fabiopavao",
     "status_db": "active",
     "last_seen_team": "2021-05-14T21:30:55+00:00",
-    "id_lichess": "fabiopavao"
+    "id_lichess": "fabiopavao",
+    "closed_account": true
   },
   {
     "username": "alicelarabiasi",
     "status_db": "active",
     "last_seen_team": "2021-05-14T21:30:55+00:00",
-    "id_lichess": "alicelarabiasi"
+    "id_lichess": "alicelarabiasi",
+    "closed_account": true
   },
   {
     "username": "Fuerte_Suerte",
     "status_db": "active",
     "last_seen_team": "2020-12-11T21:30:03+00:00",
-    "id_lichess": "fuerte_suerte"
+    "id_lichess": "fuerte_suerte",
+    "closed_account": true
   },
   {
     "username": "gabrielsouza35",
     "status_db": "active",
     "last_seen_team": "2024-05-24T21:30:00+00:00",
-    "id_lichess": "gabrielsouza35"
+    "id_lichess": "gabrielsouza35",
+    "closed_account": true
   },
   {
     "username": "kushana",
     "status_db": "active",
     "last_seen_team": "2020-09-07T21:30:53+00:00",
-    "id_lichess": "kushana"
+    "id_lichess": "kushana",
+    "closed_account": true
   },
   {
     "username": "inciante34",
     "status_db": "active",
     "last_seen_team": "2022-07-01T21:30:00+00:00",
-    "id_lichess": "inciante34"
+    "id_lichess": "inciante34",
+    "closed_account": true
   },
   {
     "username": "Gabriel-souza",
     "status_db": "active",
     "last_seen_team": "2020-05-08T21:30:00+00:00",
-    "id_lichess": "gabriel-souza"
+    "id_lichess": "gabriel-souza",
+    "closed_account": true
   },
   {
     "username": "Senun",
     "status_db": "active",
     "last_seen_team": "2020-05-29T21:30:19+00:00",
-    "id_lichess": "senun"
+    "id_lichess": "senun",
+    "closed_account": true
   },
   {
     "username": "Drunknoboom",
@@ -377,13 +419,15 @@
     "rating_bullet": 2341,
     "rating_puzzle": 2344,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "FIDE1434",
     "status_db": "active",
     "last_seen_team": "2023-11-25T17:30:00+00:00",
-    "id_lichess": "fide1434"
+    "id_lichess": "fide1434",
+    "closed_account": true
   },
   {
     "username": "fredibieging",
@@ -400,7 +444,8 @@
     "rating_bullet": 1650,
     "rating_puzzle": 2064,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Bcarrieres",
@@ -417,7 +462,8 @@
     "rating_bullet": 1895,
     "rating_puzzle": 2145,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Paolo9",
@@ -434,13 +480,15 @@
     "rating_bullet": 1738,
     "rating_puzzle": 2133,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Badrinath1812",
     "status_db": "active",
     "last_seen_team": "2024-11-30T17:30:00+00:00",
-    "id_lichess": "badrinath1812"
+    "id_lichess": "badrinath1812",
+    "closed_account": true
   },
   {
     "username": "Dimon-nikolya",
@@ -450,14 +498,15 @@
     "title": null,
     "country": null,
     "location": "Челябинск",
-    "last_seen_api_timestamp": 1767896881363,
+    "last_seen_api_timestamp": 1767897700453,
     "created_at": 1700864137131,
     "rating_blitz": 1522,
     "rating_rapid": 1732,
     "rating_bullet": 1500,
     "rating_puzzle": 1677,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "nrerfanian",
@@ -474,19 +523,22 @@
     "rating_bullet": 1414,
     "rating_puzzle": 1720,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "elchape",
     "status_db": "active",
     "last_seen_team": "2023-06-30T21:30:00+00:00",
-    "id_lichess": "elchape"
+    "id_lichess": "elchape",
+    "closed_account": true
   },
   {
     "username": "c0nt4d3m3rd4",
     "status_db": "active",
     "last_seen_team": "2021-08-30T21:30:43+00:00",
-    "id_lichess": "c0nt4d3m3rd4"
+    "id_lichess": "c0nt4d3m3rd4",
+    "closed_account": true
   },
   {
     "username": "marcosmolina",
@@ -503,25 +555,29 @@
     "rating_bullet": 1300,
     "rating_puzzle": 1905,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "facs2",
     "status_db": "active",
     "last_seen_team": "2023-01-14T17:30:00+00:00",
-    "id_lichess": "facs2"
+    "id_lichess": "facs2",
+    "closed_account": true
   },
   {
     "username": "TC2001",
     "status_db": "active",
     "last_seen_team": "2020-05-22T21:30:35+00:00",
-    "id_lichess": "tc2001"
+    "id_lichess": "tc2001",
+    "closed_account": true
   },
   {
     "username": "THCeSilva",
     "status_db": "active",
     "last_seen_team": "2020-10-23T21:30:36+00:00",
-    "id_lichess": "thcesilva"
+    "id_lichess": "thcesilva",
+    "closed_account": true
   },
   {
     "username": "Erwinbwcv",
@@ -538,7 +594,8 @@
     "rating_bullet": 1938,
     "rating_puzzle": 2143,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Oduma",
@@ -555,13 +612,15 @@
     "rating_bullet": 1538,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "TurniriTolko",
     "status_db": "active",
     "last_seen_team": "2025-06-28T16:30:00+00:00",
-    "id_lichess": "turniritolko"
+    "id_lichess": "turniritolko",
+    "closed_account": true
   },
   {
     "username": "Bahtiyar_Shahmater",
@@ -578,25 +637,29 @@
     "rating_bullet": 1657,
     "rating_puzzle": 1749,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "PavaoMisterioso",
     "status_db": "active",
     "last_seen_team": "2020-12-21T21:30:01+00:00",
-    "id_lichess": "pavaomisterioso"
+    "id_lichess": "pavaomisterioso",
+    "closed_account": true
   },
   {
     "username": "antonioU270819",
     "status_db": "active",
     "last_seen_team": "2022-04-29T21:30:00+00:00",
-    "id_lichess": "antoniou270819"
+    "id_lichess": "antoniou270819",
+    "closed_account": true
   },
   {
     "username": "AnatovKarpoly",
     "status_db": "active",
     "last_seen_team": "2022-02-11T21:30:00+00:00",
-    "id_lichess": "anatovkarpoly"
+    "id_lichess": "anatovkarpoly",
+    "closed_account": true
   },
   {
     "username": "carlosmaia",
@@ -613,7 +676,8 @@
     "rating_bullet": 1806,
     "rating_puzzle": 1844,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "SlowLearner69",
@@ -630,13 +694,15 @@
     "rating_bullet": 1970,
     "rating_puzzle": 2003,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "GESSE_IC",
     "status_db": "active",
     "last_seen_team": "2024-10-11T21:30:00+00:00",
-    "id_lichess": "gesse_ic"
+    "id_lichess": "gesse_ic",
+    "closed_account": true
   },
   {
     "username": "MacroKiller",
@@ -653,7 +719,8 @@
     "rating_bullet": 2122,
     "rating_puzzle": 2195,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "JLEnamorado",
@@ -670,13 +737,15 @@
     "rating_bullet": 1500,
     "rating_puzzle": 2455,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "PedroGR",
     "status_db": "active",
     "last_seen_team": "2020-12-19T18:00:00+00:00",
-    "id_lichess": "pedrogr"
+    "id_lichess": "pedrogr",
+    "closed_account": true
   },
   {
     "username": "MartinSlaby",
@@ -693,13 +762,15 @@
     "rating_bullet": 2239,
     "rating_puzzle": 2332,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "WhiteRabbit00",
     "status_db": "active",
     "last_seen_team": "2020-12-12T18:00:00+00:00",
-    "id_lichess": "whiterabbit00"
+    "id_lichess": "whiterabbit00",
+    "closed_account": true
   },
   {
     "username": "SidGord",
@@ -716,67 +787,78 @@
     "rating_bullet": 1500,
     "rating_puzzle": 2088,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "atalaiaronaldo",
     "status_db": "active",
     "last_seen_team": "2020-12-12T18:00:00+00:00",
-    "id_lichess": "atalaiaronaldo"
+    "id_lichess": "atalaiaronaldo",
+    "closed_account": true
   },
   {
     "username": "chessnomaster35",
     "status_db": "active",
     "last_seen_team": "2023-10-06T21:30:00+00:00",
-    "id_lichess": "chessnomaster35"
+    "id_lichess": "chessnomaster35",
+    "closed_account": true
   },
   {
     "username": "JuJuburizigi",
     "status_db": "active",
     "last_seen_team": "2023-11-25T17:30:00+00:00",
-    "id_lichess": "jujuburizigi"
+    "id_lichess": "jujuburizigi",
+    "closed_account": true
   },
   {
     "username": "LPSupi_sac",
     "status_db": "active",
     "last_seen_team": "2020-12-11T21:30:03+00:00",
-    "id_lichess": "lpsupi_sac"
+    "id_lichess": "lpsupi_sac",
+    "closed_account": true
   },
   {
     "username": "Krammnik",
     "status_db": "active",
     "last_seen_team": "2022-04-29T21:30:00+00:00",
-    "id_lichess": "krammnik"
+    "id_lichess": "krammnik",
+    "closed_account": true
   },
   {
     "username": "gamerwithoutsuccess",
     "status_db": "active",
     "last_seen_team": "2022-04-29T21:30:00+00:00",
-    "id_lichess": "gamerwithoutsuccess"
+    "id_lichess": "gamerwithoutsuccess",
+    "closed_account": true
   },
   {
     "username": "Semen_Baryshnikov",
     "status_db": "active",
     "last_seen_team": "2022-07-16T18:00:00+00:00",
-    "id_lichess": "semen_baryshnikov"
+    "id_lichess": "semen_baryshnikov",
+    "closed_account": true
   },
   {
     "username": "troiano98",
     "status_db": "active",
     "last_seen_team": "2022-07-15T21:30:00+00:00",
-    "id_lichess": "troiano98"
+    "id_lichess": "troiano98",
+    "closed_account": true
   },
   {
     "username": "chessleee35",
     "status_db": "active",
     "last_seen_team": "2023-06-16T21:30:00+00:00",
-    "id_lichess": "chessleee35"
+    "id_lichess": "chessleee35",
+    "closed_account": true
   },
   {
     "username": "chessevolution33",
     "status_db": "active",
     "last_seen_team": "2021-12-03T21:30:00+00:00",
-    "id_lichess": "chessevolution33"
+    "id_lichess": "chessevolution33",
+    "closed_account": true
   },
   {
     "username": "gustavospi",
@@ -794,7 +876,8 @@
     "rating_bullet": 1161,
     "rating_puzzle": 1703,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Tinolaurio2020",
@@ -811,31 +894,36 @@
     "rating_bullet": 2103,
     "rating_puzzle": 2046,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "Eg0r2012",
     "status_db": "active",
     "last_seen_team": "2020-12-19T18:00:00+00:00",
-    "id_lichess": "eg0r2012"
+    "id_lichess": "eg0r2012",
+    "closed_account": true
   },
   {
     "username": "Ana-Lu",
     "status_db": "active",
     "last_seen_team": "2021-07-10T18:00:00+00:00",
-    "id_lichess": "ana-lu"
+    "id_lichess": "ana-lu",
+    "closed_account": true
   },
   {
     "username": "lehanys",
     "status_db": "active",
     "last_seen_team": "2023-01-14T17:30:00+00:00",
-    "id_lichess": "lehanys"
+    "id_lichess": "lehanys",
+    "closed_account": true
   },
   {
     "username": "VadimML2010",
     "status_db": "active",
     "last_seen_team": "2023-01-14T17:30:00+00:00",
-    "id_lichess": "vadimml2010"
+    "id_lichess": "vadimml2010",
+    "closed_account": true
   },
   {
     "username": "Makr_Kravchenko2015",
@@ -853,7 +941,8 @@
     "rating_bullet": 1168,
     "rating_puzzle": 1092,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "sultanrumon",
@@ -870,13 +959,15 @@
     "rating_bullet": 1644,
     "rating_puzzle": 1862,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "iwannadienowidk",
     "status_db": "active",
     "last_seen_team": "2023-01-14T17:30:00+00:00",
-    "id_lichess": "iwannadienowidk"
+    "id_lichess": "iwannadienowidk",
+    "closed_account": true
   },
   {
     "username": "Drhmdi",
@@ -893,7 +984,8 @@
     "rating_bullet": 1530,
     "rating_puzzle": 2344,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "bearandfox",
@@ -910,13 +1002,15 @@
     "rating_bullet": 1219,
     "rating_puzzle": 1669,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "xgabredeirosx",
     "status_db": "active",
     "last_seen_team": "2023-01-14T17:30:00+00:00",
-    "id_lichess": "xgabredeirosx"
+    "id_lichess": "xgabredeirosx",
+    "closed_account": true
   },
   {
     "username": "Nih4t007",
@@ -933,13 +1027,15 @@
     "rating_bullet": 1313,
     "rating_puzzle": 1559,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "SaHmAtVeZiR123",
     "status_db": "active",
     "last_seen_team": "2023-01-14T17:30:00+00:00",
-    "id_lichess": "sahmatvezir123"
+    "id_lichess": "sahmatvezir123",
+    "closed_account": true
   },
   {
     "username": "interio_44",
@@ -956,19 +1052,22 @@
     "rating_bullet": 1389,
     "rating_puzzle": 1611,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "mbhh",
     "status_db": "active",
     "last_seen_team": "2025-06-28T18:00:00+00:00",
-    "id_lichess": "mbhh"
+    "id_lichess": "mbhh",
+    "closed_account": true
   },
   {
     "username": "XEPOBACTEHbKO",
     "status_db": "active",
     "last_seen_team": "2023-06-17T17:30:00+00:00",
-    "id_lichess": "xepobactehbko"
+    "id_lichess": "xepobactehbko",
+    "closed_account": true
   },
   {
     "username": "Ches_PACHMIN",
@@ -985,7 +1084,8 @@
     "rating_bullet": 1780,
     "rating_puzzle": 2047,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "mesem01",
@@ -1002,25 +1102,29 @@
     "rating_bullet": 1796,
     "rating_puzzle": 1772,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "chessgms35",
     "status_db": "active",
     "last_seen_team": "2023-06-17T17:30:00+00:00",
-    "id_lichess": "chessgms35"
+    "id_lichess": "chessgms35",
+    "closed_account": true
   },
   {
     "username": "Aliyahars06",
     "status_db": "active",
     "last_seen_team": "2023-06-17T17:30:00+00:00",
-    "id_lichess": "aliyahars06"
+    "id_lichess": "aliyahars06",
+    "closed_account": true
   },
   {
     "username": "Soumyadeep_295",
     "status_db": "active",
     "last_seen_team": "2023-06-17T17:30:00+00:00",
-    "id_lichess": "soumyadeep_295"
+    "id_lichess": "soumyadeep_295",
+    "closed_account": true
   },
   {
     "username": "zeomax",
@@ -1037,7 +1141,8 @@
     "rating_bullet": 1606,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "vddmitrik1973",
@@ -1054,19 +1159,22 @@
     "rating_bullet": 1238,
     "rating_puzzle": 1854,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "jogador34",
     "status_db": "active",
     "last_seen_team": "2022-11-18T21:30:00+00:00",
-    "id_lichess": "jogador34"
+    "id_lichess": "jogador34",
+    "closed_account": true
   },
   {
     "username": "Daniil_Prokofev42443",
     "status_db": "active",
     "last_seen_team": "2024-07-07T17:00:00+00:00",
-    "id_lichess": "daniil_prokofev42443"
+    "id_lichess": "daniil_prokofev42443",
+    "closed_account": true
   },
   {
     "username": "marmas",
@@ -1083,13 +1191,15 @@
     "rating_bullet": 1738,
     "rating_puzzle": 2307,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "irmaododaniel",
     "status_db": "active",
     "last_seen_team": "2021-06-07T21:30:24+00:00",
-    "id_lichess": "irmaododaniel"
+    "id_lichess": "irmaododaniel",
+    "closed_account": true
   },
   {
     "username": "renmy500",
@@ -1106,13 +1216,15 @@
     "rating_bullet": 1168,
     "rating_puzzle": 1539,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "martin_reid",
     "status_db": "active",
     "last_seen_team": "2021-12-17T21:30:00+00:00",
-    "id_lichess": "martin_reid"
+    "id_lichess": "martin_reid",
+    "closed_account": true
   },
   {
     "username": "MARKbravewarrior2008",
@@ -1130,13 +1242,15 @@
     "rating_bullet": 1273,
     "rating_puzzle": 2573,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "rosivansantos",
     "status_db": "active",
     "last_seen_team": "2023-06-30T21:30:00+00:00",
-    "id_lichess": "rosivansantos"
+    "id_lichess": "rosivansantos",
+    "closed_account": true
   },
   {
     "username": "ReiAlex",
@@ -1154,19 +1268,22 @@
     "rating_bullet": 1422,
     "rating_puzzle": 1771,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "username": "gmsjlle",
     "status_db": "active",
     "last_seen_team": "2021-02-19T21:30:40+00:00",
-    "id_lichess": "gmsjlle"
+    "id_lichess": "gmsjlle",
+    "closed_account": true
   },
   {
     "username": "ribirth11",
     "status_db": "active",
     "last_seen_team": "2022-04-01T21:30:00+00:00",
-    "id_lichess": "ribirth11"
+    "id_lichess": "ribirth11",
+    "closed_account": true
   },
   {
     "username": "luchasco",
@@ -1183,6 +1300,7 @@
     "rating_bullet": 1716,
     "rating_puzzle": 862,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   }
 ]

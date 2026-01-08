@@ -16,7 +16,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 2,
@@ -35,7 +36,8 @@
     "rating_bullet": 838,
     "rating_puzzle": 1658,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 3,
@@ -54,7 +56,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 2110,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 4,
@@ -73,7 +76,8 @@
     "rating_bullet": 1319,
     "rating_puzzle": 2160,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 5,
@@ -92,7 +96,8 @@
     "rating_bullet": 1347,
     "rating_puzzle": 1869,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 6,
@@ -111,7 +116,8 @@
     "rating_bullet": 1205,
     "rating_puzzle": 1854,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 7,
@@ -130,7 +136,8 @@
     "rating_bullet": 1473,
     "rating_puzzle": 2143,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 8,
@@ -149,7 +156,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1295,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 9,
@@ -168,7 +176,8 @@
     "rating_bullet": 1308,
     "rating_puzzle": 1604,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 10,
@@ -187,7 +196,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1254,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 11,
@@ -206,7 +216,8 @@
     "rating_bullet": 1373,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 12,
@@ -225,7 +236,8 @@
     "rating_bullet": 1183,
     "rating_puzzle": 1467,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 13,
@@ -244,7 +256,8 @@
     "rating_bullet": 1186,
     "rating_puzzle": 1931,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 14,
@@ -263,14 +276,15 @@
     "rating_bullet": 624,
     "rating_puzzle": 1325,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 15,
     "username": "vonWerlich",
     "first_seen_team_date": "2020-05-08T21:30:00+00:00",
     "last_seen_team_date": "2025-11-22T16:30:00+00:00",
-    "last_seen_api_timestamp": 1767893067694,
+    "last_seen_api_timestamp": 1767897705203,
     "status": "active",
     "id_lichess": "vonwerlich",
     "title": null,
@@ -282,7 +296,8 @@
     "rating_bullet": 2299,
     "rating_puzzle": 2187,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 16,
@@ -301,7 +316,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1847,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 17,
@@ -320,7 +336,8 @@
     "rating_bullet": 1889,
     "rating_puzzle": 2100,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 18,
@@ -339,7 +356,8 @@
     "rating_bullet": 2054,
     "rating_puzzle": 2503,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 19,
@@ -367,7 +385,8 @@
     "rating_bullet": 1318,
     "rating_puzzle": 1431,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 21,
@@ -386,7 +405,8 @@
     "rating_bullet": 1606,
     "rating_puzzle": 1799,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 22,
@@ -405,7 +425,8 @@
     "rating_bullet": 1374,
     "rating_puzzle": 1832,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 23,
@@ -424,7 +445,8 @@
     "rating_bullet": 1330,
     "rating_puzzle": 1789,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 24,
@@ -443,7 +465,8 @@
     "rating_bullet": 1254,
     "rating_puzzle": 1024,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 25,
@@ -462,7 +485,8 @@
     "rating_bullet": 1182,
     "rating_puzzle": 1153,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 26,
@@ -481,7 +505,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1466,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 27,
@@ -500,7 +525,8 @@
     "rating_bullet": 1300,
     "rating_puzzle": 1767,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 28,
@@ -519,7 +545,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1842,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 29,
@@ -538,7 +565,8 @@
     "rating_bullet": 1506,
     "rating_puzzle": 1889,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 30,
@@ -557,7 +585,8 @@
     "rating_bullet": 712,
     "rating_puzzle": 1126,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 31,
@@ -576,7 +605,8 @@
     "rating_bullet": 770,
     "rating_puzzle": 1557,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 32,
@@ -595,7 +625,8 @@
     "rating_bullet": 1378,
     "rating_puzzle": 2369,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 33,
@@ -614,7 +645,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 2093,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 34,
@@ -633,7 +665,8 @@
     "rating_bullet": 1033,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 35,
@@ -652,7 +685,8 @@
     "rating_bullet": 1263,
     "rating_puzzle": 1619,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 36,
@@ -671,7 +705,8 @@
     "rating_bullet": 1471,
     "rating_puzzle": 1820,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 37,
@@ -685,12 +720,13 @@
     "country": null,
     "location": "chapeco",
     "created_at": 1457575343109,
-    "rating_blitz": 2168,
+    "rating_blitz": 2161,
     "rating_rapid": 2339,
     "rating_bullet": 2417,
     "rating_puzzle": 2326,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 38,
@@ -709,7 +745,8 @@
     "rating_bullet": 820,
     "rating_puzzle": 1474,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 39,
@@ -728,7 +765,8 @@
     "rating_bullet": 1363,
     "rating_puzzle": 2319,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 40,
@@ -747,7 +785,8 @@
     "rating_bullet": 1315,
     "rating_puzzle": 1861,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 41,
@@ -766,7 +805,8 @@
     "rating_bullet": 1030,
     "rating_puzzle": 1418,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 42,
@@ -785,7 +825,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1132,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 43,
@@ -804,7 +845,8 @@
     "rating_bullet": 667,
     "rating_puzzle": 1167,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 44,
@@ -823,7 +865,8 @@
     "rating_bullet": 1096,
     "rating_puzzle": 1752,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 45,
@@ -842,7 +885,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1814,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 46,
@@ -861,7 +905,8 @@
     "rating_bullet": 2074,
     "rating_puzzle": 2113,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 47,
@@ -889,7 +934,8 @@
     "rating_bullet": 1141,
     "rating_puzzle": 1590,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 49,
@@ -908,7 +954,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 50,
@@ -927,7 +974,8 @@
     "rating_bullet": 1312,
     "rating_puzzle": 1943,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 51,
@@ -946,7 +994,8 @@
     "rating_bullet": 808,
     "rating_puzzle": 1470,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 52,
@@ -965,7 +1014,8 @@
     "rating_bullet": 1432,
     "rating_puzzle": 1717,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 53,
@@ -984,7 +1034,8 @@
     "rating_bullet": 1036,
     "rating_puzzle": 1896,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 54,
@@ -1003,7 +1054,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 2402,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 55,
@@ -1031,7 +1083,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 57,
@@ -1050,7 +1103,8 @@
     "rating_bullet": 2005,
     "rating_puzzle": 2415,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 58,
@@ -1069,7 +1123,8 @@
     "rating_bullet": 1122,
     "rating_puzzle": 1404,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 59,
@@ -1106,7 +1161,8 @@
     "rating_bullet": 2148,
     "rating_puzzle": 1900,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 62,
@@ -1125,7 +1181,8 @@
     "rating_bullet": 1416,
     "rating_puzzle": 1737,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 63,
@@ -1144,7 +1201,8 @@
     "rating_bullet": 1416,
     "rating_puzzle": 1860,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 64,
@@ -1163,7 +1221,8 @@
     "rating_bullet": 1952,
     "rating_puzzle": 2352,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 65,
@@ -1182,7 +1241,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 2513,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 66,
@@ -1201,7 +1261,8 @@
     "rating_bullet": 1705,
     "rating_puzzle": 1768,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 67,
@@ -1220,7 +1281,8 @@
     "rating_bullet": 1572,
     "rating_puzzle": 1807,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 68,
@@ -1239,7 +1301,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1470,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 69,
@@ -1258,7 +1321,8 @@
     "rating_bullet": 1415,
     "rating_puzzle": 1954,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 70,
@@ -1286,7 +1350,8 @@
     "rating_bullet": 2084,
     "rating_puzzle": 2106,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 72,
@@ -1305,7 +1370,8 @@
     "rating_bullet": 1651,
     "rating_puzzle": 1658,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 73,
@@ -1324,7 +1390,8 @@
     "rating_bullet": 1709,
     "rating_puzzle": 1953,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 74,
@@ -1343,7 +1410,8 @@
     "rating_bullet": 1624,
     "rating_puzzle": 2125,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 75,
@@ -1371,7 +1439,8 @@
     "rating_bullet": 1412,
     "rating_puzzle": 2008,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 77,
@@ -1390,7 +1459,8 @@
     "rating_bullet": 1387,
     "rating_puzzle": 2256,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 78,
@@ -1418,7 +1488,8 @@
     "rating_bullet": 1672,
     "rating_puzzle": 2558,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 80,
@@ -1437,7 +1508,8 @@
     "rating_bullet": 1086,
     "rating_puzzle": 1658,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 81,
@@ -1456,7 +1528,8 @@
     "rating_bullet": 1451,
     "rating_puzzle": 1504,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 82,
@@ -1475,7 +1548,8 @@
     "rating_bullet": 1682,
     "rating_puzzle": 2128,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 83,
@@ -1494,7 +1568,8 @@
     "rating_bullet": 1306,
     "rating_puzzle": 1845,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 84,
@@ -1513,7 +1588,8 @@
     "rating_bullet": 1213,
     "rating_puzzle": 1548,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 85,
@@ -1532,7 +1608,8 @@
     "rating_bullet": 1571,
     "rating_puzzle": 1732,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 86,
@@ -1551,7 +1628,8 @@
     "rating_bullet": 1886,
     "rating_puzzle": 2492,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 87,
@@ -1570,7 +1648,8 @@
     "rating_bullet": 1602,
     "rating_puzzle": 2098,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 88,
@@ -1595,10 +1674,11 @@
     "created_at": 1588169534554,
     "rating_blitz": 1044,
     "rating_rapid": 1240,
-    "rating_bullet": 1316,
+    "rating_bullet": 1309,
     "rating_puzzle": 1139,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 90,
@@ -1617,7 +1697,8 @@
     "rating_bullet": 2328,
     "rating_puzzle": 2229,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 91,
@@ -1645,7 +1726,8 @@
     "rating_bullet": 1124,
     "rating_puzzle": 1957,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 93,
@@ -1664,7 +1746,8 @@
     "rating_bullet": 2153,
     "rating_puzzle": 2241,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 94,
@@ -1683,7 +1766,8 @@
     "rating_bullet": 1019,
     "rating_puzzle": 1608,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 95,
@@ -1702,7 +1786,8 @@
     "rating_bullet": 2138,
     "rating_puzzle": 2282,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 96,
@@ -1721,7 +1806,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 2116,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 97,
@@ -1740,7 +1826,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 98,
@@ -1759,7 +1846,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1510,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 99,
@@ -1796,7 +1884,8 @@
     "rating_bullet": 1505,
     "rating_puzzle": 1820,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 102,
@@ -1824,7 +1913,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 104,
@@ -1843,7 +1933,8 @@
     "rating_bullet": 2205,
     "rating_puzzle": 1947,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 105,
@@ -1862,7 +1953,8 @@
     "rating_bullet": 1634,
     "rating_puzzle": 1907,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 106,
@@ -1881,7 +1973,8 @@
     "rating_bullet": 1334,
     "rating_puzzle": 1640,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 107,
@@ -1918,7 +2011,8 @@
     "rating_bullet": 1937,
     "rating_puzzle": 2363,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 110,
@@ -1937,7 +2031,8 @@
     "rating_bullet": 1605,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 111,
@@ -1956,7 +2051,8 @@
     "rating_bullet": 1805,
     "rating_puzzle": 2455,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 112,
@@ -1975,7 +2071,8 @@
     "rating_bullet": 1806,
     "rating_puzzle": 1859,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 113,
@@ -1994,7 +2091,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 114,
@@ -2013,7 +2111,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1275,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 115,
@@ -2041,7 +2140,8 @@
     "rating_bullet": 1275,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 117,
@@ -2060,7 +2160,8 @@
     "rating_bullet": 1810,
     "rating_puzzle": 2037,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 118,
@@ -2088,7 +2189,8 @@
     "rating_bullet": 1518,
     "rating_puzzle": 1054,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 120,
@@ -2107,7 +2209,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1410,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 121,
@@ -2126,7 +2229,8 @@
     "rating_bullet": 1508,
     "rating_puzzle": 1898,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 122,
@@ -2145,7 +2249,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 123,
@@ -2164,14 +2269,15 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 124,
     "username": "LeonardoBatis",
     "first_seen_team_date": "2021-07-23T21:30:00+00:00",
     "last_seen_team_date": "2022-09-02T21:30:00+00:00",
-    "last_seen_api_timestamp": 1767894953417,
+    "last_seen_api_timestamp": 1767898258667,
     "status": "inactive",
     "id_lichess": "leonardobatis",
     "title": null,
@@ -2183,7 +2289,8 @@
     "rating_bullet": 2309,
     "rating_puzzle": 2292,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 125,
@@ -2202,7 +2309,8 @@
     "rating_bullet": 1913,
     "rating_puzzle": 2180,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 126,
@@ -2221,7 +2329,8 @@
     "rating_bullet": 1265,
     "rating_puzzle": 1649,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 127,
@@ -2240,7 +2349,8 @@
     "rating_bullet": 1447,
     "rating_puzzle": 2141,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 128,
@@ -2259,7 +2369,8 @@
     "rating_bullet": 2015,
     "rating_puzzle": 2577,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 129,
@@ -2278,7 +2389,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 130,
@@ -2297,7 +2409,8 @@
     "rating_bullet": 1627,
     "rating_puzzle": 2054,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 131,
@@ -2316,7 +2429,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1823,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 132,
@@ -2335,7 +2449,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1632,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 133,
@@ -2354,7 +2469,8 @@
     "rating_bullet": 1584,
     "rating_puzzle": 1761,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 134,
@@ -2373,7 +2489,8 @@
     "rating_bullet": 1023,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 135,
@@ -2392,7 +2509,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 136,
@@ -2411,7 +2529,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 137,
@@ -2430,7 +2549,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 138,
@@ -2449,7 +2569,8 @@
     "rating_bullet": 1686,
     "rating_puzzle": 1920,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 139,
@@ -2477,7 +2598,8 @@
     "rating_bullet": 1292,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 141,
@@ -2496,7 +2618,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1738,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 142,
@@ -2512,7 +2635,7 @@
     "username": "guile_mig",
     "first_seen_team_date": "2023-05-05T21:30:00+00:00",
     "last_seen_team_date": "2024-11-22T21:30:00+00:00",
-    "last_seen_api_timestamp": 1767897210077,
+    "last_seen_api_timestamp": 1767898275262,
     "status": "active",
     "id_lichess": "guile_mig",
     "title": null,
@@ -2524,7 +2647,8 @@
     "rating_bullet": 1177,
     "rating_puzzle": 1531,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 144,
@@ -2543,7 +2667,8 @@
     "rating_bullet": 1677,
     "rating_puzzle": 2051,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 145,
@@ -2562,7 +2687,8 @@
     "rating_bullet": 1386,
     "rating_puzzle": 2153,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 146,
@@ -2581,7 +2707,8 @@
     "rating_bullet": 2120,
     "rating_puzzle": 2465,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 147,
@@ -2600,7 +2727,8 @@
     "rating_bullet": 1389,
     "rating_puzzle": 2002,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 148,
@@ -2637,7 +2765,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 151,
@@ -2656,7 +2785,8 @@
     "rating_bullet": 1714,
     "rating_puzzle": 1657,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 152,
@@ -2675,7 +2805,8 @@
     "rating_bullet": 1827,
     "rating_puzzle": 1965,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 153,
@@ -2694,7 +2825,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1780,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 154,
@@ -2713,7 +2845,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 155,
@@ -2732,14 +2865,15 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 156,
     "username": "ElGremistaSC",
     "first_seen_team_date": "2020-12-12T18:00:00+00:00",
     "last_seen_team_date": "2025-11-07T21:30:00+00:00",
-    "last_seen_api_timestamp": 1767826898480,
+    "last_seen_api_timestamp": 1767898090420,
     "status": "active",
     "id_lichess": "elgremistasc",
     "title": null,
@@ -2751,7 +2885,8 @@
     "rating_bullet": 2390,
     "rating_puzzle": 2337,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 157,
@@ -2770,7 +2905,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1158,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 158,
@@ -2789,7 +2925,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 653,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 159,
@@ -2808,7 +2945,8 @@
     "rating_bullet": 1377,
     "rating_puzzle": 1518,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 160,
@@ -2827,7 +2965,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 161,
@@ -2846,7 +2985,8 @@
     "rating_bullet": 1018,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 162,
@@ -2865,7 +3005,8 @@
     "rating_bullet": 426,
     "rating_puzzle": 800,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 163,
@@ -2884,7 +3025,8 @@
     "rating_bullet": 1305,
     "rating_puzzle": 2127,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 164,
@@ -2903,7 +3045,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 165,
@@ -2922,7 +3065,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 166,
@@ -2941,7 +3085,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 167,
@@ -2960,7 +3105,8 @@
     "rating_bullet": 1534,
     "rating_puzzle": 1588,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 168,
@@ -2997,7 +3143,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 171,
@@ -3025,7 +3172,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 173,
@@ -3044,7 +3192,8 @@
     "rating_bullet": 875,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 174,
@@ -3063,7 +3212,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 175,
@@ -3082,7 +3232,8 @@
     "rating_bullet": 1067,
     "rating_puzzle": 1375,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 176,
@@ -3101,7 +3252,8 @@
     "rating_bullet": 849,
     "rating_puzzle": 923,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 177,
@@ -3120,7 +3272,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1062,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 178,
@@ -3139,7 +3292,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 179,
@@ -3158,7 +3312,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1260,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 180,
@@ -3177,7 +3332,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 181,
@@ -3196,7 +3352,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 182,
@@ -3215,7 +3372,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 183,
@@ -3234,7 +3392,8 @@
     "rating_bullet": 1712,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 184,
@@ -3253,7 +3412,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 185,
@@ -3272,7 +3432,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 186,
@@ -3291,7 +3452,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 187,
@@ -3310,7 +3472,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1172,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 188,
@@ -3329,7 +3492,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1135,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 189,
@@ -3348,7 +3512,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 190,
@@ -3367,7 +3532,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1056,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 191,
@@ -3386,7 +3552,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 192,
@@ -3405,7 +3572,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 193,
@@ -3424,7 +3592,8 @@
     "rating_bullet": 642,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 194,
@@ -3443,7 +3612,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1249,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 195,
@@ -3462,7 +3632,8 @@
     "rating_bullet": 2109,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 196,
@@ -3481,7 +3652,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 197,
@@ -3500,7 +3672,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 198,
@@ -3519,7 +3692,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1162,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 199,
@@ -3538,7 +3712,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1528,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 200,
@@ -3557,7 +3732,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 201,
@@ -3576,7 +3752,8 @@
     "rating_bullet": 1164,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 202,
@@ -3595,7 +3772,8 @@
     "rating_bullet": 1324,
     "rating_puzzle": 1457,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 203,
@@ -3614,7 +3792,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 204,
@@ -3633,7 +3812,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 205,
@@ -3652,7 +3832,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 206,
@@ -3671,7 +3852,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1127,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 207,
@@ -3699,7 +3881,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1108,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 209,
@@ -3715,7 +3898,7 @@
     "username": "MarcusZulu",
     "first_seen_team_date": "2024-09-27T21:30:00+00:00",
     "last_seen_team_date": "2025-11-07T21:30:00+00:00",
-    "last_seen_api_timestamp": 1767883553629,
+    "last_seen_api_timestamp": 1767898142935,
     "status": "active",
     "id_lichess": "marcuszulu",
     "title": null,
@@ -3727,7 +3910,8 @@
     "rating_bullet": 1902,
     "rating_puzzle": 1884,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 211,
@@ -3746,7 +3930,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 212,
@@ -3765,7 +3950,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 213,
@@ -3784,7 +3970,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 214,
@@ -3803,7 +3990,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 215,
@@ -3822,7 +4010,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 216,
@@ -3841,7 +4030,8 @@
     "rating_bullet": 1680,
     "rating_puzzle": 2326,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 217,
@@ -3860,7 +4050,8 @@
     "rating_bullet": 1092,
     "rating_puzzle": 1585,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 218,
@@ -3879,7 +4070,8 @@
     "rating_bullet": 2026,
     "rating_puzzle": 2393,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 219,
@@ -3898,7 +4090,8 @@
     "rating_bullet": 1084,
     "rating_puzzle": 2023,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 220,
@@ -3940,11 +4133,12 @@
     "location": null,
     "created_at": 1469051956650,
     "rating_blitz": 1906,
-    "rating_rapid": 2020,
+    "rating_rapid": 2017,
     "rating_bullet": 1950,
     "rating_puzzle": 2083,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 224,
@@ -3963,7 +4157,8 @@
     "rating_bullet": 2050,
     "rating_puzzle": 2245,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 225,
@@ -3982,7 +4177,8 @@
     "rating_bullet": 1669,
     "rating_puzzle": 1739,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 226,
@@ -4001,7 +4197,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 227,
@@ -4020,7 +4217,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 228,
@@ -4039,7 +4237,8 @@
     "rating_bullet": 1180,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 229,
@@ -4058,7 +4257,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 230,
@@ -4077,7 +4277,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1165,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 231,
@@ -4096,7 +4297,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1206,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 232,
@@ -4115,7 +4317,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 233,
@@ -4134,7 +4337,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1099,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 234,
@@ -4153,7 +4357,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 235,
@@ -4172,7 +4377,8 @@
     "rating_bullet": 1296,
     "rating_puzzle": 1517,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 236,
@@ -4191,7 +4397,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 237,
@@ -4210,7 +4417,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 238,
@@ -4229,7 +4437,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 239,
@@ -4248,7 +4457,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 240,
@@ -4267,7 +4477,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 241,
@@ -4286,7 +4497,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 242,
@@ -4305,7 +4517,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 243,
@@ -4324,7 +4537,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 244,
@@ -4343,7 +4557,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1558,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 245,
@@ -4362,7 +4577,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 246,
@@ -4381,7 +4597,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1542,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 247,
@@ -4400,7 +4617,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 248,
@@ -4419,7 +4637,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1434,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 249,
@@ -4438,7 +4657,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 250,
@@ -4457,7 +4677,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 251,
@@ -4476,7 +4697,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 252,
@@ -4495,7 +4717,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 253,
@@ -4514,7 +4737,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 254,
@@ -4533,7 +4757,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 255,
@@ -4552,7 +4777,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 256,
@@ -4571,7 +4797,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 257,
@@ -4590,7 +4817,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 258,
@@ -4609,7 +4837,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 259,
@@ -4628,7 +4857,8 @@
     "rating_bullet": 1259,
     "rating_puzzle": 2014,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 260,
@@ -4647,7 +4877,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 261,
@@ -4666,7 +4897,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 262,
@@ -4685,7 +4917,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 263,
@@ -4704,7 +4937,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 264,
@@ -4723,7 +4957,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 265,
@@ -4742,7 +4977,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 266,
@@ -4761,7 +4997,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1221,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 267,
@@ -4780,7 +5017,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 268,
@@ -4799,7 +5037,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 269,
@@ -4818,7 +5057,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 270,
@@ -4837,7 +5077,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 271,
@@ -4856,7 +5097,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1504,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 272,
@@ -4875,7 +5117,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 273,
@@ -4894,7 +5137,8 @@
     "rating_bullet": 1332,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 274,
@@ -4913,7 +5157,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 275,
@@ -4950,7 +5195,8 @@
     "rating_bullet": 1584,
     "rating_puzzle": 1677,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 278,
@@ -4969,7 +5215,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 279,
@@ -4988,7 +5235,8 @@
     "rating_bullet": 1168,
     "rating_puzzle": 1592,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 280,
@@ -5007,7 +5255,8 @@
     "rating_bullet": 769,
     "rating_puzzle": 1836,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 281,
@@ -5026,7 +5275,8 @@
     "rating_bullet": 1088,
     "rating_puzzle": 1471,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 282,
@@ -5045,7 +5295,8 @@
     "rating_bullet": 929,
     "rating_puzzle": 1874,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 283,
@@ -5073,7 +5324,8 @@
     "rating_bullet": 1148,
     "rating_puzzle": 1617,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 285,
@@ -5092,7 +5344,8 @@
     "rating_bullet": 2058,
     "rating_puzzle": 2191,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 286,
@@ -5111,7 +5364,8 @@
     "rating_bullet": 1068,
     "rating_puzzle": 1569,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 287,
@@ -5139,7 +5393,8 @@
     "rating_bullet": 788,
     "rating_puzzle": 973,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 289,
@@ -5158,7 +5413,8 @@
     "rating_bullet": 2255,
     "rating_puzzle": 2023,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 290,
@@ -5177,7 +5433,8 @@
     "rating_bullet": 2000,
     "rating_puzzle": 2149,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 291,
@@ -5196,7 +5453,8 @@
     "rating_bullet": 1290,
     "rating_puzzle": 2132,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 292,
@@ -5215,7 +5473,8 @@
     "rating_bullet": 1281,
     "rating_puzzle": 1841,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 293,
@@ -5234,7 +5493,8 @@
     "rating_bullet": 2001,
     "rating_puzzle": 2418,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 294,
@@ -5253,7 +5513,8 @@
     "rating_bullet": 1322,
     "rating_puzzle": 1697,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 295,
@@ -5272,7 +5533,8 @@
     "rating_bullet": 942,
     "rating_puzzle": 1205,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 296,
@@ -5291,7 +5553,8 @@
     "rating_bullet": 1918,
     "rating_puzzle": 2424,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 297,
@@ -5328,7 +5591,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1445,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 300,
@@ -5356,7 +5620,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1449,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 302,
@@ -5375,7 +5640,8 @@
     "rating_bullet": 1358,
     "rating_puzzle": 2008,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 303,
@@ -5394,7 +5660,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 304,
@@ -5413,7 +5680,8 @@
     "rating_bullet": 1828,
     "rating_puzzle": 1269,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 305,
@@ -5432,14 +5700,15 @@
     "rating_bullet": 1598,
     "rating_puzzle": 2167,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 306,
     "username": "ducereto",
     "first_seen_team_date": "2020-11-20T21:30:47+00:00",
     "last_seen_team_date": "2021-05-21T21:30:10+00:00",
-    "last_seen_api_timestamp": 1767896435479,
+    "last_seen_api_timestamp": 1767898115208,
     "status": "inactive",
     "id_lichess": "ducereto",
     "title": null,
@@ -5451,7 +5720,8 @@
     "rating_bullet": 1567,
     "rating_puzzle": 1825,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 307,
@@ -5470,7 +5740,8 @@
     "rating_bullet": 1583,
     "rating_puzzle": 2523,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 308,
@@ -5489,7 +5760,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 309,
@@ -5508,7 +5780,8 @@
     "rating_bullet": 1558,
     "rating_puzzle": 1998,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 310,
@@ -5527,7 +5800,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 311,
@@ -5546,7 +5820,8 @@
     "rating_bullet": 1366,
     "rating_puzzle": 1168,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 312,
@@ -5574,7 +5849,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 314,
@@ -5593,7 +5869,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1566,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 315,
@@ -5612,7 +5889,8 @@
     "rating_bullet": 1286,
     "rating_puzzle": 1983,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 316,
@@ -5631,7 +5909,8 @@
     "rating_bullet": 1084,
     "rating_puzzle": 1551,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 317,
@@ -5650,7 +5929,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 318,
@@ -5678,7 +5958,8 @@
     "rating_bullet": 1573,
     "rating_puzzle": 1916,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 320,
@@ -5706,7 +5987,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 322,
@@ -5725,7 +6007,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1846,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 323,
@@ -5744,7 +6027,8 @@
     "rating_bullet": 1472,
     "rating_puzzle": 2055,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 324,
@@ -5763,7 +6047,8 @@
     "rating_bullet": 1442,
     "rating_puzzle": 1880,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 325,
@@ -5782,7 +6067,8 @@
     "rating_bullet": 1069,
     "rating_puzzle": 1801,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 326,
@@ -5801,7 +6087,8 @@
     "rating_bullet": 1696,
     "rating_puzzle": 1811,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 327,
@@ -5820,7 +6107,8 @@
     "rating_bullet": 1769,
     "rating_puzzle": 2254,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 328,
@@ -5839,7 +6127,8 @@
     "rating_bullet": 1242,
     "rating_puzzle": 1640,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 329,
@@ -5858,7 +6147,8 @@
     "rating_bullet": 1407,
     "rating_puzzle": 1652,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 330,
@@ -5877,7 +6167,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 331,
@@ -5896,7 +6187,8 @@
     "rating_bullet": 1200,
     "rating_puzzle": 1745,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 332,
@@ -5915,7 +6207,8 @@
     "rating_bullet": 1746,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 333,
@@ -5934,7 +6227,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 334,
@@ -5953,7 +6247,8 @@
     "rating_bullet": 996,
     "rating_puzzle": 1320,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 335,
@@ -5972,7 +6267,8 @@
     "rating_bullet": 1282,
     "rating_puzzle": 1416,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 336,
@@ -5991,7 +6287,8 @@
     "rating_bullet": 1351,
     "rating_puzzle": 1999,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 337,
@@ -6010,7 +6307,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1797,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 338,
@@ -6029,7 +6327,8 @@
     "rating_bullet": 1075,
     "rating_puzzle": 1884,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 339,
@@ -6048,7 +6347,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 340,
@@ -6067,7 +6367,8 @@
     "rating_bullet": 1022,
     "rating_puzzle": 1773,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 341,
@@ -6095,7 +6396,8 @@
     "rating_bullet": 1846,
     "rating_puzzle": 1896,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 343,
@@ -6114,7 +6416,8 @@
     "rating_bullet": 1219,
     "rating_puzzle": 1781,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 344,
@@ -6133,7 +6436,8 @@
     "rating_bullet": 1308,
     "rating_puzzle": 1470,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 345,
@@ -6152,7 +6456,8 @@
     "rating_bullet": 1279,
     "rating_puzzle": 1647,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 346,
@@ -6180,7 +6485,8 @@
     "rating_bullet": 2119,
     "rating_puzzle": 2138,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 348,
@@ -6199,7 +6505,8 @@
     "rating_bullet": 1623,
     "rating_puzzle": 2169,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 349,
@@ -6218,7 +6525,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1933,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 350,
@@ -6237,7 +6545,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 351,
@@ -6256,7 +6565,8 @@
     "rating_bullet": 1044,
     "rating_puzzle": 1443,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 352,
@@ -6275,7 +6585,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1623,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 353,
@@ -6294,7 +6605,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1950,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 354,
@@ -6313,7 +6625,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1112,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 355,
@@ -6332,7 +6645,8 @@
     "rating_bullet": 1330,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 356,
@@ -6351,7 +6665,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1600,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 357,
@@ -6370,7 +6685,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1150,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 358,
@@ -6389,7 +6705,8 @@
     "rating_bullet": 1429,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 359,
@@ -6408,7 +6725,8 @@
     "rating_bullet": 2530,
     "rating_puzzle": 2570,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 360,
@@ -6427,7 +6745,8 @@
     "rating_bullet": 1203,
     "rating_puzzle": 1922,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 361,
@@ -6446,7 +6765,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 362,
@@ -6465,7 +6785,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 363,
@@ -6484,7 +6805,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 364,
@@ -6503,7 +6825,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 365,
@@ -6522,7 +6845,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1861,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 366,
@@ -6541,7 +6865,8 @@
     "rating_bullet": 1685,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 367,
@@ -6569,7 +6894,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 369,
@@ -6588,7 +6914,8 @@
     "rating_bullet": 1790,
     "rating_puzzle": 1763,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 370,
@@ -6607,7 +6934,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 371,
@@ -6626,7 +6954,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 372,
@@ -6645,7 +6974,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 373,
@@ -6664,7 +6994,8 @@
     "rating_bullet": 2128,
     "rating_puzzle": 2226,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 374,
@@ -6683,7 +7014,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 375,
@@ -6702,7 +7034,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1947,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 376,
@@ -6721,7 +7054,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 894,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 377,
@@ -6740,7 +7074,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1710,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 378,
@@ -6759,7 +7094,8 @@
     "rating_bullet": 2051,
     "rating_puzzle": 2823,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 379,
@@ -6778,7 +7114,8 @@
     "rating_bullet": 1061,
     "rating_puzzle": 1565,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 380,
@@ -6797,7 +7134,8 @@
     "rating_bullet": 1511,
     "rating_puzzle": 1172,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 381,
@@ -6816,7 +7154,8 @@
     "rating_bullet": 2200,
     "rating_puzzle": 2420,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 382,
@@ -6835,7 +7174,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 383,
@@ -6854,7 +7194,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 384,
@@ -6873,7 +7214,8 @@
     "rating_bullet": 782,
     "rating_puzzle": 1474,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 385,
@@ -6901,7 +7243,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 387,
@@ -6920,7 +7263,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 388,
@@ -6939,7 +7283,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 389,
@@ -6958,7 +7303,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 390,
@@ -6977,7 +7323,8 @@
     "rating_bullet": 1467,
     "rating_puzzle": 1843,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 391,
@@ -6996,7 +7343,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 392,
@@ -7015,7 +7363,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 393,
@@ -7034,7 +7383,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1484,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 394,
@@ -7053,7 +7403,8 @@
     "rating_bullet": 1151,
     "rating_puzzle": 1618,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 395,
@@ -7072,7 +7423,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 396,
@@ -7091,7 +7443,8 @@
     "rating_bullet": 1256,
     "rating_puzzle": 2019,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 397,
@@ -7110,7 +7463,8 @@
     "rating_bullet": 1239,
     "rating_puzzle": 1582,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 398,
@@ -7129,7 +7483,8 @@
     "rating_bullet": 1265,
     "rating_puzzle": 1459,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 399,
@@ -7148,7 +7503,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 400,
@@ -7167,7 +7523,8 @@
     "rating_bullet": 1160,
     "rating_puzzle": 1488,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 401,
@@ -7186,7 +7543,8 @@
     "rating_bullet": 2074,
     "rating_puzzle": 1957,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 402,
@@ -7205,7 +7563,8 @@
     "rating_bullet": 981,
     "rating_puzzle": 1492,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 403,
@@ -7224,7 +7583,8 @@
     "rating_bullet": 908,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 404,
@@ -7243,7 +7603,8 @@
     "rating_bullet": 1891,
     "rating_puzzle": 2311,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 405,
@@ -7271,7 +7632,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 407,
@@ -7290,7 +7652,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1939,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 408,
@@ -7309,7 +7672,8 @@
     "rating_bullet": 1522,
     "rating_puzzle": 1689,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 409,
@@ -7337,7 +7701,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 411,
@@ -7356,7 +7721,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 412,
@@ -7375,7 +7741,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1778,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 413,
@@ -7394,7 +7761,8 @@
     "rating_bullet": 1076,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 414,
@@ -7413,7 +7781,8 @@
     "rating_bullet": 1038,
     "rating_puzzle": 1361,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 415,
@@ -7432,7 +7801,8 @@
     "rating_bullet": 896,
     "rating_puzzle": 1826,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 416,
@@ -7451,7 +7821,8 @@
     "rating_bullet": 1186,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 417,
@@ -7479,7 +7850,8 @@
     "rating_bullet": 1280,
     "rating_puzzle": 1383,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 419,
@@ -7498,7 +7870,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 420,
@@ -7517,7 +7890,8 @@
     "rating_bullet": 2132,
     "rating_puzzle": 2186,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 421,
@@ -7536,7 +7910,8 @@
     "rating_bullet": 1655,
     "rating_puzzle": 1989,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 422,
@@ -7564,7 +7939,8 @@
     "rating_bullet": 1320,
     "rating_puzzle": 1517,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 424,
@@ -7583,7 +7959,8 @@
     "rating_bullet": 1691,
     "rating_puzzle": 1909,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 425,
@@ -7602,7 +7979,8 @@
     "rating_bullet": 1760,
     "rating_puzzle": 2082,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 426,
@@ -7621,7 +7999,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 427,
@@ -7649,7 +8028,8 @@
     "rating_bullet": 685,
     "rating_puzzle": 1259,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 429,
@@ -7668,7 +8048,8 @@
     "rating_bullet": 1199,
     "rating_puzzle": 922,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 430,
@@ -7687,7 +8068,8 @@
     "rating_bullet": 1356,
     "rating_puzzle": 1195,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 431,
@@ -7706,7 +8088,8 @@
     "rating_bullet": 1088,
     "rating_puzzle": 1727,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 432,
@@ -7725,7 +8108,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1068,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 433,
@@ -7744,7 +8128,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 434,
@@ -7763,7 +8148,8 @@
     "rating_bullet": 686,
     "rating_puzzle": 1542,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 435,
@@ -7782,7 +8168,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 436,
@@ -7801,7 +8188,8 @@
     "rating_bullet": 1297,
     "rating_puzzle": 1674,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 437,
@@ -7820,7 +8208,8 @@
     "rating_bullet": 1416,
     "rating_puzzle": 2085,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 438,
@@ -7848,7 +8237,8 @@
     "rating_bullet": 1241,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 440,
@@ -7885,7 +8275,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1603,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 443,
@@ -7904,7 +8295,8 @@
     "rating_bullet": 2140,
     "rating_puzzle": 2641,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 444,
@@ -7923,7 +8315,8 @@
     "rating_bullet": 1555,
     "rating_puzzle": 2453,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 445,
@@ -7942,7 +8335,8 @@
     "rating_bullet": 1254,
     "rating_puzzle": 1494,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 446,
@@ -7961,7 +8355,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 2419,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 447,
@@ -7980,7 +8375,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1366,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 448,
@@ -7999,7 +8395,8 @@
     "rating_bullet": 1530,
     "rating_puzzle": 1928,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 449,
@@ -8018,7 +8415,8 @@
     "rating_bullet": 1311,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 450,
@@ -8037,7 +8435,8 @@
     "rating_bullet": 1216,
     "rating_puzzle": 1901,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 451,
@@ -8056,7 +8455,8 @@
     "rating_bullet": 1548,
     "rating_puzzle": 1827,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 452,
@@ -8075,7 +8475,8 @@
     "rating_bullet": 1295,
     "rating_puzzle": 1928,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 453,
@@ -8094,7 +8495,8 @@
     "rating_bullet": 1848,
     "rating_puzzle": 2417,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 454,
@@ -8113,7 +8515,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 455,
@@ -8132,7 +8535,8 @@
     "rating_bullet": 1081,
     "rating_puzzle": 1229,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 456,
@@ -8151,7 +8555,8 @@
     "rating_bullet": 1653,
     "rating_puzzle": 1998,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 457,
@@ -8170,7 +8575,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 458,
@@ -8189,7 +8595,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 459,
@@ -8208,7 +8615,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 460,
@@ -8227,7 +8635,8 @@
     "rating_bullet": 1515,
     "rating_puzzle": 1166,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 461,
@@ -8246,7 +8655,8 @@
     "rating_bullet": 859,
     "rating_puzzle": 755,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 462,
@@ -8265,7 +8675,8 @@
     "rating_bullet": 1785,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 463,
@@ -8284,7 +8695,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1275,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 464,
@@ -8303,7 +8715,8 @@
     "rating_bullet": 2118,
     "rating_puzzle": 2332,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 465,
@@ -8322,7 +8735,8 @@
     "rating_bullet": 1237,
     "rating_puzzle": 1781,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 466,
@@ -8341,7 +8755,8 @@
     "rating_bullet": 1714,
     "rating_puzzle": 1983,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 467,
@@ -8360,7 +8775,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 468,
@@ -8397,7 +8813,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 471,
@@ -8416,7 +8833,8 @@
     "rating_bullet": 1170,
     "rating_puzzle": 1324,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 472,
@@ -8435,7 +8853,8 @@
     "rating_bullet": 1024,
     "rating_puzzle": 1078,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 473,
@@ -8454,7 +8873,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 474,
@@ -8473,7 +8893,8 @@
     "rating_bullet": 1710,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 475,
@@ -8501,7 +8922,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 477,
@@ -8529,7 +8951,8 @@
     "rating_bullet": 2215,
     "rating_puzzle": 2247,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 479,
@@ -8557,7 +8980,8 @@
     "rating_bullet": 1582,
     "rating_puzzle": 2010,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 481,
@@ -8603,7 +9027,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 2101,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 485,
@@ -8622,7 +9047,8 @@
     "rating_bullet": 885,
     "rating_puzzle": 1210,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 486,
@@ -8641,7 +9067,8 @@
     "rating_bullet": 1555,
     "rating_puzzle": 1679,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 487,
@@ -8660,7 +9087,8 @@
     "rating_bullet": 1684,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 488,
@@ -8679,7 +9107,8 @@
     "rating_bullet": 1367,
     "rating_puzzle": 2027,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 489,
@@ -8707,7 +9136,8 @@
     "rating_bullet": 1084,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 491,
@@ -8726,7 +9156,8 @@
     "rating_bullet": 1369,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 492,
@@ -8745,7 +9176,8 @@
     "rating_bullet": 1408,
     "rating_puzzle": 1780,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 493,
@@ -8764,7 +9196,8 @@
     "rating_bullet": 1976,
     "rating_puzzle": 2071,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 494,
@@ -8783,7 +9216,8 @@
     "rating_bullet": 1803,
     "rating_puzzle": 2454,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 495,
@@ -8811,7 +9245,8 @@
     "rating_bullet": 1177,
     "rating_puzzle": 1942,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 497,
@@ -8830,7 +9265,8 @@
     "rating_bullet": 1551,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 498,
@@ -8849,7 +9285,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 499,
@@ -8868,7 +9305,8 @@
     "rating_bullet": 1531,
     "rating_puzzle": 1907,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 500,
@@ -8887,7 +9325,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 501,
@@ -8906,7 +9345,8 @@
     "rating_bullet": 1078,
     "rating_puzzle": 1703,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 502,
@@ -8925,7 +9365,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1881,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 503,
@@ -8944,7 +9385,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1415,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 504,
@@ -8963,7 +9405,8 @@
     "rating_bullet": 1832,
     "rating_puzzle": 2202,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 505,
@@ -8982,7 +9425,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 506,
@@ -9001,7 +9445,8 @@
     "rating_bullet": 1360,
     "rating_puzzle": 1633,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 507,
@@ -9020,7 +9465,8 @@
     "rating_bullet": 1082,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 508,
@@ -9048,7 +9494,8 @@
     "rating_bullet": 1436,
     "rating_puzzle": 1653,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 510,
@@ -9067,7 +9514,8 @@
     "rating_bullet": 1077,
     "rating_puzzle": 1717,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 511,
@@ -9086,7 +9534,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 512,
@@ -9105,7 +9554,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 513,
@@ -9124,7 +9574,8 @@
     "rating_bullet": 1165,
     "rating_puzzle": 1823,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 514,
@@ -9143,7 +9594,8 @@
     "rating_bullet": 1290,
     "rating_puzzle": 2075,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 515,
@@ -9162,7 +9614,8 @@
     "rating_bullet": 1457,
     "rating_puzzle": 2215,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 516,
@@ -9181,7 +9634,8 @@
     "rating_bullet": 1332,
     "rating_puzzle": 1858,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 517,
@@ -9200,7 +9654,8 @@
     "rating_bullet": 1069,
     "rating_puzzle": 1948,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 518,
@@ -9219,7 +9674,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1973,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 519,
@@ -9238,7 +9694,8 @@
     "rating_bullet": 1665,
     "rating_puzzle": 2383,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 520,
@@ -9257,7 +9714,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 521,
@@ -9276,7 +9734,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 522,
@@ -9295,7 +9754,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1262,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 523,
@@ -9314,7 +9774,8 @@
     "rating_bullet": 1024,
     "rating_puzzle": 1479,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 524,
@@ -9342,7 +9803,8 @@
     "rating_bullet": 1421,
     "rating_puzzle": 1839,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 526,
@@ -9361,7 +9823,8 @@
     "rating_bullet": 1227,
     "rating_puzzle": 1514,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 527,
@@ -9380,7 +9843,8 @@
     "rating_bullet": 1250,
     "rating_puzzle": 1781,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 528,
@@ -9399,7 +9863,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 529,
@@ -9418,7 +9883,8 @@
     "rating_bullet": 1921,
     "rating_puzzle": 1919,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 530,
@@ -9437,7 +9903,8 @@
     "rating_bullet": 1521,
     "rating_puzzle": 1582,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 531,
@@ -9456,7 +9923,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1559,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 532,
@@ -9475,7 +9943,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 533,
@@ -9503,7 +9972,8 @@
     "rating_bullet": 1099,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 535,
@@ -9522,7 +9992,8 @@
     "rating_bullet": 1475,
     "rating_puzzle": 1684,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 536,
@@ -9541,7 +10012,8 @@
     "rating_bullet": 1870,
     "rating_puzzle": 2245,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 537,
@@ -9560,7 +10032,8 @@
     "rating_bullet": 1118,
     "rating_puzzle": 1427,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 538,
@@ -9579,7 +10052,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 539,
@@ -9598,7 +10072,8 @@
     "rating_bullet": 1342,
     "rating_puzzle": 2005,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 540,
@@ -9617,7 +10092,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1438,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 541,
@@ -9636,7 +10112,8 @@
     "rating_bullet": 1887,
     "rating_puzzle": 1979,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 542,
@@ -9655,7 +10132,8 @@
     "rating_bullet": 1623,
     "rating_puzzle": 1895,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 543,
@@ -9674,7 +10152,8 @@
     "rating_bullet": 1152,
     "rating_puzzle": 1493,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 544,
@@ -9693,7 +10172,8 @@
     "rating_bullet": 1486,
     "rating_puzzle": 2202,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 545,
@@ -9712,7 +10192,8 @@
     "rating_bullet": 1275,
     "rating_puzzle": 1463,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 546,
@@ -9731,7 +10212,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 800,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 547,
@@ -9750,7 +10232,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 2010,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 548,
@@ -9769,7 +10252,8 @@
     "rating_bullet": 1024,
     "rating_puzzle": 1693,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 549,
@@ -9788,7 +10272,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 550,
@@ -9807,14 +10292,15 @@
     "rating_bullet": 1516,
     "rating_puzzle": 2049,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 551,
     "username": "Hiltoyou",
     "first_seen_team_date": "2021-07-23T21:30:00+00:00",
     "last_seen_team_date": "2025-06-27T21:30:00+00:00",
-    "last_seen_api_timestamp": 1767895441554,
+    "last_seen_api_timestamp": 1767898032812,
     "status": "active",
     "id_lichess": "hiltoyou",
     "title": null,
@@ -9826,7 +10312,8 @@
     "rating_bullet": 1834,
     "rating_puzzle": 2014,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 552,
@@ -9845,7 +10332,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1560,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 553,
@@ -9864,7 +10352,8 @@
     "rating_bullet": 1693,
     "rating_puzzle": 1904,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 554,
@@ -9892,7 +10381,8 @@
     "rating_bullet": 2098,
     "rating_puzzle": 2138,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 556,
@@ -9911,7 +10401,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 557,
@@ -9930,7 +10421,8 @@
     "rating_bullet": 1236,
     "rating_puzzle": 1659,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 558,
@@ -9958,7 +10450,8 @@
     "rating_bullet": 1545,
     "rating_puzzle": 1427,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 560,
@@ -9977,7 +10470,8 @@
     "rating_bullet": 1002,
     "rating_puzzle": 1287,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 561,
@@ -9996,7 +10490,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 562,
@@ -10015,7 +10510,8 @@
     "rating_bullet": 1503,
     "rating_puzzle": 1701,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 563,
@@ -10034,7 +10530,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 862,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 564,
@@ -10053,7 +10550,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 565,
@@ -10072,7 +10570,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1781,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 566,
@@ -10100,7 +10599,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 568,
@@ -10119,7 +10619,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 569,
@@ -10138,7 +10639,8 @@
     "rating_bullet": 1564,
     "rating_puzzle": 1512,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 570,
@@ -10166,7 +10668,8 @@
     "rating_bullet": 1383,
     "rating_puzzle": 1761,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 572,
@@ -10185,7 +10688,8 @@
     "rating_bullet": 2603,
     "rating_puzzle": 2126,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 573,
@@ -10204,7 +10708,8 @@
     "rating_bullet": 1138,
     "rating_puzzle": 1397,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 574,
@@ -10223,7 +10728,8 @@
     "rating_bullet": 1523,
     "rating_puzzle": 2280,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 575,
@@ -10242,7 +10748,8 @@
     "rating_bullet": 2323,
     "rating_puzzle": 2070,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 576,
@@ -10256,12 +10763,13 @@
     "country": null,
     "location": null,
     "created_at": 1441156678958,
-    "rating_blitz": 1921,
+    "rating_blitz": 1920,
     "rating_rapid": 2243,
     "rating_bullet": 1614,
     "rating_puzzle": 2288,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 577,
@@ -10289,7 +10797,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 579,
@@ -10308,7 +10817,8 @@
     "rating_bullet": 1189,
     "rating_puzzle": 1211,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 580,
@@ -10354,7 +10864,8 @@
     "rating_bullet": 1747,
     "rating_puzzle": 2342,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 584,
@@ -10373,7 +10884,8 @@
     "rating_bullet": 1837,
     "rating_puzzle": 2471,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 585,
@@ -10392,7 +10904,8 @@
     "rating_bullet": 2289,
     "rating_puzzle": 2077,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 586,
@@ -10411,7 +10924,8 @@
     "rating_bullet": 970,
     "rating_puzzle": 1538,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 587,
@@ -10439,7 +10953,8 @@
     "rating_bullet": 1482,
     "rating_puzzle": 1765,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 589,
@@ -10458,7 +10973,8 @@
     "rating_bullet": 1196,
     "rating_puzzle": 1752,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 590,
@@ -10486,7 +11002,8 @@
     "rating_bullet": 1346,
     "rating_puzzle": 1401,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 592,
@@ -10505,7 +11022,8 @@
     "rating_bullet": 2102,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 593,
@@ -10524,7 +11042,8 @@
     "rating_bullet": 1217,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 594,
@@ -10543,7 +11062,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1683,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 595,
@@ -10562,7 +11082,8 @@
     "rating_bullet": 2029,
     "rating_puzzle": 1980,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 596,
@@ -10590,7 +11111,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1100,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 598,
@@ -10609,7 +11131,8 @@
     "rating_bullet": 1974,
     "rating_puzzle": 2267,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 599,
@@ -10628,7 +11151,8 @@
     "rating_bullet": 1348,
     "rating_puzzle": 1843,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 600,
@@ -10647,7 +11171,8 @@
     "rating_bullet": 1550,
     "rating_puzzle": 2801,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 601,
@@ -10675,7 +11200,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 603,
@@ -10694,7 +11220,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 2137,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 604,
@@ -10713,7 +11240,8 @@
     "rating_bullet": 718,
     "rating_puzzle": 1402,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 605,
@@ -10732,7 +11260,8 @@
     "rating_bullet": 1706,
     "rating_puzzle": 2221,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 606,
@@ -10751,7 +11280,8 @@
     "rating_bullet": 1400,
     "rating_puzzle": 1998,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 607,
@@ -10770,7 +11300,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 608,
@@ -10798,7 +11329,8 @@
     "rating_bullet": 1022,
     "rating_puzzle": 1085,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 610,
@@ -10817,7 +11349,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1492,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 611,
@@ -10836,7 +11369,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1643,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 612,
@@ -10855,7 +11389,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 613,
@@ -10892,7 +11427,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 616,
@@ -10911,7 +11447,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 617,
@@ -10930,7 +11467,8 @@
     "rating_bullet": 1455,
     "rating_puzzle": 2270,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 618,
@@ -10949,7 +11487,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 619,
@@ -10965,19 +11504,20 @@
     "username": "sergiulpt",
     "first_seen_team_date": "2022-07-16T18:00:00+00:00",
     "last_seen_team_date": "2022-07-16T18:00:00+00:00",
-    "last_seen_api_timestamp": 1767896985440,
+    "last_seen_api_timestamp": 1767897770873,
     "status": "inactive",
     "id_lichess": "sergiulpt",
     "title": null,
     "country": null,
     "location": null,
     "created_at": 1654188070028,
-    "rating_blitz": 2202,
+    "rating_blitz": 2200,
     "rating_rapid": 1500,
     "rating_bullet": 1500,
     "rating_puzzle": 2398,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 621,
@@ -10996,7 +11536,8 @@
     "rating_bullet": 1169,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 622,
@@ -11015,7 +11556,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1387,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 623,
@@ -11034,7 +11576,8 @@
     "rating_bullet": 1138,
     "rating_puzzle": 1801,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 624,
@@ -11053,7 +11596,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 625,
@@ -11072,7 +11616,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 626,
@@ -11091,7 +11636,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 627,
@@ -11110,7 +11656,8 @@
     "rating_bullet": 1739,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 628,
@@ -11129,7 +11676,8 @@
     "rating_bullet": 1285,
     "rating_puzzle": 1642,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 629,
@@ -11148,7 +11696,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 630,
@@ -11167,7 +11716,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1876,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 631,
@@ -11195,7 +11745,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 633,
@@ -11214,7 +11765,8 @@
     "rating_bullet": 2165,
     "rating_puzzle": 2329,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 634,
@@ -11233,7 +11785,8 @@
     "rating_bullet": 2100,
     "rating_puzzle": 2337,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 635,
@@ -11252,7 +11805,8 @@
     "rating_bullet": 2098,
     "rating_puzzle": 2170,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 636,
@@ -11271,7 +11825,8 @@
     "rating_bullet": 1433,
     "rating_puzzle": 1825,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 637,
@@ -11290,7 +11845,8 @@
     "rating_bullet": 1152,
     "rating_puzzle": 1956,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 638,
@@ -11309,7 +11865,8 @@
     "rating_bullet": 1221,
     "rating_puzzle": 1374,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 639,
@@ -11328,7 +11885,8 @@
     "rating_bullet": 1183,
     "rating_puzzle": 1467,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 640,
@@ -11347,7 +11905,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 641,
@@ -11384,7 +11943,8 @@
     "rating_bullet": 960,
     "rating_puzzle": 1703,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 644,
@@ -11403,7 +11963,8 @@
     "rating_bullet": 1432,
     "rating_puzzle": 1733,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 645,
@@ -11422,7 +11983,8 @@
     "rating_bullet": 1555,
     "rating_puzzle": 2086,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 646,
@@ -11441,7 +12003,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 647,
@@ -11460,7 +12023,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 648,
@@ -11479,7 +12043,8 @@
     "rating_bullet": 1332,
     "rating_puzzle": 1523,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 649,
@@ -11498,7 +12063,8 @@
     "rating_bullet": 1638,
     "rating_puzzle": 2154,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 650,
@@ -11517,7 +12083,8 @@
     "rating_bullet": 1701,
     "rating_puzzle": 2296,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 651,
@@ -11554,7 +12121,8 @@
     "rating_bullet": 1769,
     "rating_puzzle": 1996,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 654,
@@ -11573,7 +12141,8 @@
     "rating_bullet": 1124,
     "rating_puzzle": 1386,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 655,
@@ -11592,7 +12161,8 @@
     "rating_bullet": 1203,
     "rating_puzzle": 1555,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 656,
@@ -11620,7 +12190,8 @@
     "rating_bullet": 1708,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 658,
@@ -11639,7 +12210,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1981,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 659,
@@ -11667,7 +12239,8 @@
     "rating_bullet": 1813,
     "rating_puzzle": 1566,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 661,
@@ -11686,7 +12259,8 @@
     "rating_bullet": 1362,
     "rating_puzzle": 2097,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 662,
@@ -11705,7 +12279,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 663,
@@ -11724,7 +12299,8 @@
     "rating_bullet": 1503,
     "rating_puzzle": 1870,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 664,
@@ -11743,7 +12319,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 665,
@@ -11762,7 +12339,8 @@
     "rating_bullet": 1392,
     "rating_puzzle": 2011,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 666,
@@ -11781,7 +12359,8 @@
     "rating_bullet": 1751,
     "rating_puzzle": 1967,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 667,
@@ -11800,7 +12379,8 @@
     "rating_bullet": 1587,
     "rating_puzzle": 1690,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 668,
@@ -11819,7 +12399,8 @@
     "rating_bullet": 1642,
     "rating_puzzle": 1991,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 669,
@@ -11838,7 +12419,8 @@
     "rating_bullet": 1634,
     "rating_puzzle": 1940,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 670,
@@ -11857,7 +12439,8 @@
     "rating_bullet": 1357,
     "rating_puzzle": 1956,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 671,
@@ -11876,7 +12459,8 @@
     "rating_bullet": 1915,
     "rating_puzzle": 2294,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 672,
@@ -11913,7 +12497,8 @@
     "rating_bullet": 1504,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 675,
@@ -11950,7 +12535,8 @@
     "rating_bullet": 1678,
     "rating_puzzle": 1637,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 678,
@@ -11975,7 +12561,7 @@
     "username": "Ettorino1",
     "first_seen_team_date": "2023-01-14T17:30:00+00:00",
     "last_seen_team_date": "2023-01-14T17:30:00+00:00",
-    "last_seen_api_timestamp": 1767895532063,
+    "last_seen_api_timestamp": 1767897848069,
     "status": "inactive",
     "id_lichess": "ettorino1",
     "title": null,
@@ -11987,7 +12573,8 @@
     "rating_bullet": 1132,
     "rating_puzzle": 1859,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 681,
@@ -12006,7 +12593,8 @@
     "rating_bullet": 2420,
     "rating_puzzle": 2573,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 682,
@@ -12025,7 +12613,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 2532,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 683,
@@ -12044,7 +12633,8 @@
     "rating_bullet": 2144,
     "rating_puzzle": 2285,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 684,
@@ -12063,7 +12653,8 @@
     "rating_bullet": 1234,
     "rating_puzzle": 1884,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 685,
@@ -12082,7 +12673,8 @@
     "rating_bullet": 1292,
     "rating_puzzle": 1673,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 686,
@@ -12101,7 +12693,8 @@
     "rating_bullet": 784,
     "rating_puzzle": 1100,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 687,
@@ -12120,7 +12713,8 @@
     "rating_bullet": 1560,
     "rating_puzzle": 1769,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 688,
@@ -12175,7 +12769,8 @@
     "rating_bullet": 1637,
     "rating_puzzle": 2090,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 693,
@@ -12194,7 +12789,8 @@
     "rating_bullet": 2074,
     "rating_puzzle": 2138,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 694,
@@ -12222,7 +12818,8 @@
     "rating_bullet": 1290,
     "rating_puzzle": 2088,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 696,
@@ -12241,7 +12838,8 @@
     "rating_bullet": 2298,
     "rating_puzzle": 2416,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 697,
@@ -12260,7 +12858,8 @@
     "rating_bullet": 1841,
     "rating_puzzle": 2251,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 698,
@@ -12279,7 +12878,8 @@
     "rating_bullet": 1382,
     "rating_puzzle": 1659,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 699,
@@ -12298,7 +12898,8 @@
     "rating_bullet": 1496,
     "rating_puzzle": 1555,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 700,
@@ -12317,7 +12918,8 @@
     "rating_bullet": 1249,
     "rating_puzzle": 1852,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 701,
@@ -12336,7 +12938,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 702,
@@ -12355,7 +12958,8 @@
     "rating_bullet": 2287,
     "rating_puzzle": 2525,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 703,
@@ -12374,7 +12978,8 @@
     "rating_bullet": 1843,
     "rating_puzzle": 2108,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 704,
@@ -12402,7 +13007,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 706,
@@ -12421,7 +13027,8 @@
     "rating_bullet": 1278,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 707,
@@ -12440,7 +13047,8 @@
     "rating_bullet": 1794,
     "rating_puzzle": 2268,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 708,
@@ -12459,7 +13067,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 709,
@@ -12505,7 +13114,8 @@
     "rating_bullet": 1142,
     "rating_puzzle": 954,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 713,
@@ -12542,7 +13152,8 @@
     "rating_bullet": 1481,
     "rating_puzzle": 1916,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 716,
@@ -12588,7 +13199,8 @@
     "rating_bullet": 1605,
     "rating_puzzle": 1402,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 720,
@@ -12607,7 +13219,8 @@
     "rating_bullet": 1048,
     "rating_puzzle": 1817,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 721,
@@ -12626,7 +13239,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 722,
@@ -12645,7 +13259,8 @@
     "rating_bullet": 1703,
     "rating_puzzle": 2001,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 723,
@@ -12664,7 +13279,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 724,
@@ -12683,7 +13299,8 @@
     "rating_bullet": 1139,
     "rating_puzzle": 2014,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 725,
@@ -12702,7 +13319,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1176,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 726,
@@ -12721,7 +13339,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 727,
@@ -12740,7 +13359,8 @@
     "rating_bullet": 1826,
     "rating_puzzle": 2456,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 728,
@@ -12759,7 +13379,8 @@
     "rating_bullet": 1397,
     "rating_puzzle": 1296,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 729,
@@ -12778,7 +13399,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 2152,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 730,
@@ -12797,7 +13419,8 @@
     "rating_bullet": 992,
     "rating_puzzle": 1254,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 731,
@@ -12825,7 +13448,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 733,
@@ -12844,7 +13468,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 734,
@@ -12863,7 +13488,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 735,
@@ -12882,7 +13508,8 @@
     "rating_bullet": 1106,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 736,
@@ -12901,7 +13528,8 @@
     "rating_bullet": 1335,
     "rating_puzzle": 1765,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 737,
@@ -12920,7 +13548,8 @@
     "rating_bullet": 1590,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 738,
@@ -12939,7 +13568,8 @@
     "rating_bullet": 1258,
     "rating_puzzle": 1813,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 739,
@@ -12958,7 +13588,8 @@
     "rating_bullet": 1350,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 740,
@@ -12977,7 +13608,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 741,
@@ -13005,7 +13637,8 @@
     "rating_bullet": 2132,
     "rating_puzzle": 2604,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 743,
@@ -13033,7 +13666,8 @@
     "rating_bullet": 1073,
     "rating_puzzle": 2127,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 745,
@@ -13052,7 +13686,8 @@
     "rating_bullet": 1391,
     "rating_puzzle": 1353,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 746,
@@ -13080,7 +13715,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 748,
@@ -13099,7 +13735,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 840,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 749,
@@ -13118,7 +13755,8 @@
     "rating_bullet": 1604,
     "rating_puzzle": 2129,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 750,
@@ -13137,7 +13775,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 751,
@@ -13156,7 +13795,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 752,
@@ -13175,7 +13815,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 753,
@@ -13194,7 +13835,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1377,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 754,
@@ -13213,7 +13855,8 @@
     "rating_bullet": 1564,
     "rating_puzzle": 2466,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 755,
@@ -13232,7 +13875,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 756,
@@ -13251,7 +13895,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 757,
@@ -13270,7 +13915,8 @@
     "rating_bullet": 1311,
     "rating_puzzle": 1350,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 758,
@@ -13289,7 +13935,8 @@
     "rating_bullet": 1310,
     "rating_puzzle": 1745,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 759,
@@ -13305,7 +13952,7 @@
     "username": "Osama4188",
     "first_seen_team_date": "2021-12-17T21:30:00+00:00",
     "last_seen_team_date": "2021-12-17T21:30:00+00:00",
-    "last_seen_api_timestamp": 1767896541094,
+    "last_seen_api_timestamp": 1767898311551,
     "status": "inactive",
     "id_lichess": "osama4188",
     "title": null,
@@ -13317,7 +13964,8 @@
     "rating_bullet": 1419,
     "rating_puzzle": 1822,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 761,
@@ -13336,7 +13984,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 762,
@@ -13355,7 +14004,8 @@
     "rating_bullet": 1310,
     "rating_puzzle": 2075,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 763,
@@ -13374,7 +14024,8 @@
     "rating_bullet": 1907,
     "rating_puzzle": 2107,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 764,
@@ -13393,7 +14044,8 @@
     "rating_bullet": 1875,
     "rating_puzzle": 2190,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 765,
@@ -13412,7 +14064,8 @@
     "rating_bullet": 1258,
     "rating_puzzle": 2348,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 766,
@@ -13431,7 +14084,8 @@
     "rating_bullet": 1544,
     "rating_puzzle": 1723,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 767,
@@ -13459,7 +14113,8 @@
     "rating_bullet": 930,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 769,
@@ -13478,7 +14133,8 @@
     "rating_bullet": 1164,
     "rating_puzzle": 1703,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 770,
@@ -13506,7 +14162,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 772,
@@ -13525,7 +14182,8 @@
     "rating_bullet": 1307,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 773,
@@ -13544,7 +14202,8 @@
     "rating_bullet": 1177,
     "rating_puzzle": 1900,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 774,
@@ -13563,7 +14222,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 775,
@@ -13582,7 +14242,8 @@
     "rating_bullet": 924,
     "rating_puzzle": 1849,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 776,
@@ -13601,7 +14262,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 777,
@@ -13620,7 +14282,8 @@
     "rating_bullet": 601,
     "rating_puzzle": 1888,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 778,
@@ -13648,7 +14311,8 @@
     "rating_bullet": 2145,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 780,
@@ -13667,7 +14331,8 @@
     "rating_bullet": 1910,
     "rating_puzzle": 1574,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 781,
@@ -13686,7 +14351,8 @@
     "rating_bullet": 2213,
     "rating_puzzle": 1947,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 782,
@@ -13705,7 +14371,8 @@
     "rating_bullet": 2067,
     "rating_puzzle": 1925,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 783,
@@ -13724,7 +14391,8 @@
     "rating_bullet": 1224,
     "rating_puzzle": 1765,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 784,
@@ -13752,7 +14420,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1244,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 786,
@@ -13771,7 +14440,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 787,
@@ -13790,7 +14460,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 788,
@@ -13809,7 +14480,8 @@
     "rating_bullet": 2220,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 789,
@@ -13828,7 +14500,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 790,
@@ -13856,7 +14529,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 792,
@@ -13875,7 +14549,8 @@
     "rating_bullet": 1153,
     "rating_puzzle": 1759,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 793,
@@ -13894,7 +14569,8 @@
     "rating_bullet": 1275,
     "rating_puzzle": 1307,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 794,
@@ -13913,7 +14589,8 @@
     "rating_bullet": 2208,
     "rating_puzzle": 2274,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 795,
@@ -13932,7 +14609,8 @@
     "rating_bullet": 1673,
     "rating_puzzle": 2178,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 796,
@@ -13951,7 +14629,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 797,
@@ -13970,7 +14649,8 @@
     "rating_bullet": 778,
     "rating_puzzle": 1655,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 798,
@@ -13989,7 +14669,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 799,
@@ -14008,7 +14689,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 800,
@@ -14036,7 +14718,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 2022,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 802,
@@ -14055,7 +14738,8 @@
     "rating_bullet": 1315,
     "rating_puzzle": 2000,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 803,
@@ -14083,7 +14767,8 @@
     "rating_bullet": 1845,
     "rating_puzzle": 1814,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 805,
@@ -14102,7 +14787,8 @@
     "rating_bullet": 1112,
     "rating_puzzle": null,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 806,
@@ -14121,7 +14807,8 @@
     "rating_bullet": 1955,
     "rating_puzzle": 2156,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 807,
@@ -14140,7 +14827,8 @@
     "rating_bullet": 1522,
     "rating_puzzle": 2064,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 808,
@@ -14159,7 +14847,8 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1271,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   },
   {
     "id": 809,
@@ -14178,6 +14867,7 @@
     "rating_bullet": 1500,
     "rating_puzzle": 1428,
     "total_games": null,
-    "total_wins": null
+    "total_wins": null,
+    "closed_account": false
   }
 ]
