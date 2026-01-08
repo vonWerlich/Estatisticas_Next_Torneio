@@ -25,7 +25,7 @@ BATCH_SIZE = 300
 TEAM_INACTIVITY_DAYS = 547
 
 HEADERS = {
-    "User-Agent": "StatusChecker/1.1 (hybrid)",
+    "User-Agent": "StatusChecker/1.2 (hybrid-fixed)",
     "Accept": "application/json"
 }
 
@@ -87,19 +87,20 @@ def update_status_from_bulk(api_users, master):
         uid = uid.lower()
         seen.add(uid)
 
-        local = master.get(uid)
-        if not local:
+        entry = master.get(uid)
+        if not entry:
             continue
 
-        # Conta EXISTE
-        local["closed_account"] = False
+        # Conta existe
+        for ref in entry["refs"]:
+            ref["closed_account"] = False
 
-        if u.get("tosViolation"):
-            local["status"] = "banned"
-        else:
-            local["status"] = local.get("status", "inactive")
+            if u.get("tosViolation"):
+                ref["status"] = "banned"
+            else:
+                ref.setdefault("status", "inactive")
 
-        local["last_seen_api"] = u.get("seenAt")
+            ref["last_seen_api_timestamp"] = u.get("seenAt")
 
     return seen
 
@@ -132,8 +133,11 @@ def main():
 
     all_lists = players + lurkers + ex_members
 
+    # master[uid] = { "refs": [obj1, obj2, ...] }
     master = {}
     ids = []
+
+    # ===== NORMALIZAÇÃO =====
 
     for p in all_lists:
         uid = (p.get("id_lichess") or p.get("username") or "").lower()
@@ -141,15 +145,19 @@ def main():
             continue
 
         p["id_lichess"] = uid
-        p["closed_account"] = None   # <- estado desconhecido
+        p["closed_account"] = None
         p.setdefault("status", "inactive")
+        p.setdefault("last_seen_api_timestamp", None)
 
-        master[uid] = p
-        ids.append(uid)
+        if uid not in master:
+            master[uid] = {"refs": []}
+            ids.append(uid)
+
+        master[uid]["refs"].append(p)
 
     ids = list(set(ids))
 
-    print(f"🔍 Total de usuários únicos: {len(ids)}")
+    print(f"🔍 Usuários únicos: {len(ids)}")
 
     # ===== BULK =====
 
@@ -164,8 +172,8 @@ def main():
     # ===== SUSPEITOS =====
 
     suspects = [
-        uid for uid, p in master.items()
-        if p["closed_account"] is None
+        uid for uid, entry in master.items()
+        if all(ref["closed_account"] is None for ref in entry["refs"])
     ]
 
     print(f"⚠️ Suspeitos de conta fechada: {len(suspects)}")
@@ -174,8 +182,16 @@ def main():
 
     for uid in suspects:
         closed = check_closed_individual(uid)
-        master[uid]["closed_account"] = closed
+        for ref in master[uid]["refs"]:
+            ref["closed_account"] = closed
         time.sleep(0.25)
+
+    # ===== GARANTIA FINAL (SEM NULL) =====
+
+    for entry in master.values():
+        for ref in entry["refs"]:
+            if ref["closed_account"] is None:
+                ref["closed_account"] = False
 
     # ===== STATUS LOCAL =====
 
@@ -187,7 +203,7 @@ def main():
     save_json(FILES["lurkers"], lurkers)
     save_json(FILES["ex_members"], ex_members)
 
-    print("✅ Verificação híbrida concluída")
+    print("✅ Verificação híbrida concluída sem NULLs")
 
 if __name__ == "__main__":
     main()
