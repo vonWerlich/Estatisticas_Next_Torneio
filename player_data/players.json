@@ -17,7 +17,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1709933323306
   },
   {
     "id": 2,
@@ -37,7 +38,8 @@
     "rating_puzzle": 1658,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767886385044
   },
   {
     "id": 3,
@@ -57,7 +59,8 @@
     "rating_puzzle": 2110,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1757242049110
   },
   {
     "id": 4,
@@ -77,7 +80,8 @@
     "rating_puzzle": 2160,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1715773042546
   },
   {
     "id": 5,
@@ -97,7 +101,8 @@
     "rating_puzzle": 1869,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766441767001
   },
   {
     "id": 6,
@@ -117,7 +122,8 @@
     "rating_puzzle": 1854,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767374080751
   },
   {
     "id": 7,
@@ -137,7 +143,8 @@
     "rating_puzzle": 2143,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1757719717376
   },
   {
     "id": 8,
@@ -157,7 +164,8 @@
     "rating_puzzle": 1295,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1724896057896
   },
   {
     "id": 9,
@@ -177,7 +185,8 @@
     "rating_puzzle": 1604,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1765575019736
   },
   {
     "id": 10,
@@ -197,7 +206,8 @@
     "rating_puzzle": 1254,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1687562510217
   },
   {
     "id": 11,
@@ -217,7 +227,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1686780810705
   },
   {
     "id": 12,
@@ -237,7 +248,8 @@
     "rating_puzzle": 1467,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766628122122
   },
   {
     "id": 13,
@@ -257,7 +269,8 @@
     "rating_puzzle": 1931,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767812794641
   },
   {
     "id": 14,
@@ -277,7 +290,8 @@
     "rating_puzzle": 1325,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1734786510314
   },
   {
     "id": 15,
@@ -297,7 +311,8 @@
     "rating_puzzle": 2187,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767912833399
   },
   {
     "id": 16,
@@ -317,7 +332,8 @@
     "rating_puzzle": 1847,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1750856835403
   },
   {
     "id": 17,
@@ -337,7 +353,8 @@
     "rating_puzzle": 2100,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1708377623927
   },
   {
     "id": 18,
@@ -357,7 +374,8 @@
     "rating_puzzle": 2503,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767733588300
   },
   {
     "id": 19,
@@ -367,7 +385,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "iniciante34",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 20,
@@ -387,7 +405,8 @@
     "rating_puzzle": 1431,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1662832562713
   },
   {
     "id": 21,
@@ -407,7 +426,8 @@
     "rating_puzzle": 1799,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767898407620
   },
   {
     "id": 22,
@@ -427,7 +447,8 @@
     "rating_puzzle": 1832,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767875094621
   },
   {
     "id": 23,
@@ -447,7 +468,8 @@
     "rating_puzzle": 1789,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767911986938
   },
   {
     "id": 24,
@@ -467,7 +489,8 @@
     "rating_puzzle": 1024,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1750901204682
   },
   {
     "id": 25,
@@ -487,7 +510,8 @@
     "rating_puzzle": 1153,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766358084752
   },
   {
     "id": 26,
@@ -507,7 +531,8 @@
     "rating_puzzle": 1466,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767018578922
   },
   {
     "id": 27,
@@ -527,7 +552,8 @@
     "rating_puzzle": 1767,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1765029350434
   },
   {
     "id": 28,
@@ -547,7 +573,8 @@
     "rating_puzzle": 1842,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766228692943
   },
   {
     "id": 29,
@@ -567,7 +594,8 @@
     "rating_puzzle": 1889,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1745598827286
   },
   {
     "id": 30,
@@ -587,7 +615,8 @@
     "rating_puzzle": 1126,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766969886862
   },
   {
     "id": 31,
@@ -607,7 +636,8 @@
     "rating_puzzle": 1557,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767912294942
   },
   {
     "id": 32,
@@ -627,7 +657,8 @@
     "rating_puzzle": 2369,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767913524905
   },
   {
     "id": 33,
@@ -647,7 +678,8 @@
     "rating_puzzle": 2093,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1672347806949
   },
   {
     "id": 34,
@@ -667,7 +699,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1615587363887
   },
   {
     "id": 35,
@@ -687,7 +720,8 @@
     "rating_puzzle": 1619,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767712033223
   },
   {
     "id": 36,
@@ -707,7 +741,8 @@
     "rating_puzzle": 1820,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767887015528
   },
   {
     "id": 37,
@@ -727,7 +762,8 @@
     "rating_puzzle": 2326,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767906712675
   },
   {
     "id": 38,
@@ -747,7 +783,8 @@
     "rating_puzzle": 1474,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1714615122146
   },
   {
     "id": 39,
@@ -767,7 +804,8 @@
     "rating_puzzle": 2319,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767370574475
   },
   {
     "id": 40,
@@ -787,7 +825,8 @@
     "rating_puzzle": 1861,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1736767964560
   },
   {
     "id": 41,
@@ -807,7 +846,8 @@
     "rating_puzzle": 1418,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767872397566
   },
   {
     "id": 42,
@@ -827,7 +867,8 @@
     "rating_puzzle": 1132,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1713307729937
   },
   {
     "id": 43,
@@ -847,7 +888,8 @@
     "rating_puzzle": 1167,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1648790003070
   },
   {
     "id": 44,
@@ -867,7 +909,8 @@
     "rating_puzzle": 1752,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766337885172
   },
   {
     "id": 45,
@@ -887,7 +930,8 @@
     "rating_puzzle": 1814,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767786019695
   },
   {
     "id": 46,
@@ -907,7 +951,8 @@
     "rating_puzzle": 2113,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767731306550
   },
   {
     "id": 47,
@@ -917,7 +962,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "gustavo972",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 48,
@@ -937,7 +982,8 @@
     "rating_puzzle": 1590,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767718393253
   },
   {
     "id": 49,
@@ -957,7 +1003,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1615588611364
   },
   {
     "id": 50,
@@ -977,7 +1024,8 @@
     "rating_puzzle": 1943,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767843198852
   },
   {
     "id": 51,
@@ -997,7 +1045,8 @@
     "rating_puzzle": 1470,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767724504107
   },
   {
     "id": 52,
@@ -1017,7 +1066,8 @@
     "rating_puzzle": 1717,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1764541331597
   },
   {
     "id": 53,
@@ -1037,7 +1087,8 @@
     "rating_puzzle": 1896,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767800204477
   },
   {
     "id": 54,
@@ -1057,7 +1108,8 @@
     "rating_puzzle": 2402,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1764508608430
   },
   {
     "id": 55,
@@ -1067,7 +1119,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "cramnique",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 56,
@@ -1087,7 +1139,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1614610244283
   },
   {
     "id": 57,
@@ -1107,7 +1160,8 @@
     "rating_puzzle": 2415,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1609101518354
   },
   {
     "id": 58,
@@ -1127,7 +1181,8 @@
     "rating_puzzle": 1404,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767844830315
   },
   {
     "id": 59,
@@ -1137,7 +1192,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "xadrezcontrole",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 60,
@@ -1147,7 +1202,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "jmpoffo",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 61,
@@ -1167,7 +1222,8 @@
     "rating_puzzle": 1900,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767913824976
   },
   {
     "id": 62,
@@ -1187,7 +1243,8 @@
     "rating_puzzle": 1737,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767913431142
   },
   {
     "id": 63,
@@ -1207,7 +1264,8 @@
     "rating_puzzle": 1860,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767900883245
   },
   {
     "id": 64,
@@ -1227,7 +1285,8 @@
     "rating_puzzle": 2352,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1757938353434
   },
   {
     "id": 65,
@@ -1247,7 +1306,8 @@
     "rating_puzzle": 2513,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1732739234000
   },
   {
     "id": 66,
@@ -1267,7 +1327,8 @@
     "rating_puzzle": 1768,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766387230054
   },
   {
     "id": 67,
@@ -1287,7 +1348,8 @@
     "rating_puzzle": 1807,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767403219696
   },
   {
     "id": 68,
@@ -1307,7 +1369,8 @@
     "rating_puzzle": 1470,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1638567884657
   },
   {
     "id": 69,
@@ -1327,7 +1390,8 @@
     "rating_puzzle": 1954,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1650033410553
   },
   {
     "id": 70,
@@ -1337,7 +1401,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "thiagoehlers",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 71,
@@ -1357,7 +1421,8 @@
     "rating_puzzle": 2106,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767656710250
   },
   {
     "id": 72,
@@ -1377,7 +1442,8 @@
     "rating_puzzle": 1658,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767105537694
   },
   {
     "id": 73,
@@ -1397,7 +1463,8 @@
     "rating_puzzle": 1953,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1745950992142
   },
   {
     "id": 74,
@@ -1417,7 +1484,8 @@
     "rating_puzzle": 2125,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1725319767568
   },
   {
     "id": 75,
@@ -1427,7 +1495,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "kronossaurus",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 76,
@@ -1447,7 +1515,8 @@
     "rating_puzzle": 2008,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1704576752589
   },
   {
     "id": 77,
@@ -1467,7 +1536,8 @@
     "rating_puzzle": 2256,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767737009643
   },
   {
     "id": 78,
@@ -1477,7 +1547,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "gmds2023",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 79,
@@ -1497,7 +1567,8 @@
     "rating_puzzle": 2558,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1743294765019
   },
   {
     "id": 80,
@@ -1517,7 +1588,8 @@
     "rating_puzzle": 1658,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1735425650967
   },
   {
     "id": 81,
@@ -1537,7 +1609,8 @@
     "rating_puzzle": 1504,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1765359163085
   },
   {
     "id": 82,
@@ -1557,7 +1630,8 @@
     "rating_puzzle": 2128,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766966040758
   },
   {
     "id": 83,
@@ -1577,7 +1651,8 @@
     "rating_puzzle": 1845,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1697799301100
   },
   {
     "id": 84,
@@ -1597,7 +1672,8 @@
     "rating_puzzle": 1548,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1751160338174
   },
   {
     "id": 85,
@@ -1617,7 +1693,8 @@
     "rating_puzzle": 1732,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1751162282268
   },
   {
     "id": 86,
@@ -1637,7 +1714,8 @@
     "rating_puzzle": 2492,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1741376076786
   },
   {
     "id": 87,
@@ -1657,7 +1735,8 @@
     "rating_puzzle": 2098,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1614311384204
   },
   {
     "id": 88,
@@ -1667,7 +1746,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "wilianfaust",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 89,
@@ -1687,7 +1766,8 @@
     "rating_puzzle": 1139,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767897019800
   },
   {
     "id": 90,
@@ -1707,7 +1787,8 @@
     "rating_puzzle": 2229,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767903493358
   },
   {
     "id": 91,
@@ -1717,7 +1798,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "billbond007",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 92,
@@ -1737,7 +1818,8 @@
     "rating_puzzle": 1957,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767745363441
   },
   {
     "id": 93,
@@ -1757,7 +1839,8 @@
     "rating_puzzle": 2241,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1748635814205
   },
   {
     "id": 94,
@@ -1777,7 +1860,8 @@
     "rating_puzzle": 1608,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767053920678
   },
   {
     "id": 95,
@@ -1797,7 +1881,8 @@
     "rating_puzzle": 2282,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766623496088
   },
   {
     "id": 96,
@@ -1817,7 +1902,8 @@
     "rating_puzzle": 2116,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1738896137352
   },
   {
     "id": 97,
@@ -1837,7 +1923,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1763149507808
   },
   {
     "id": 98,
@@ -1857,7 +1944,8 @@
     "rating_puzzle": 1510,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1752356917391
   },
   {
     "id": 99,
@@ -1867,7 +1955,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "botest",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 100,
@@ -1877,7 +1965,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "pizzex",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 101,
@@ -1897,7 +1985,8 @@
     "rating_puzzle": 1820,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767408436709
   },
   {
     "id": 102,
@@ -1907,7 +1996,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "lucabieging",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 103,
@@ -1927,7 +2016,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1743806754061
   },
   {
     "id": 104,
@@ -1947,7 +2037,8 @@
     "rating_puzzle": 1947,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1757681319429
   },
   {
     "id": 105,
@@ -1967,7 +2058,8 @@
     "rating_puzzle": 1907,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767894860021
   },
   {
     "id": 106,
@@ -1987,7 +2079,8 @@
     "rating_puzzle": 1640,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1737156714530
   },
   {
     "id": 107,
@@ -1997,7 +2090,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "chesseyeless",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 108,
@@ -2007,7 +2100,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "myrookisbigger",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 109,
@@ -2027,7 +2120,8 @@
     "rating_puzzle": 2363,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767878427422
   },
   {
     "id": 110,
@@ -2047,7 +2141,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1617756425340
   },
   {
     "id": 111,
@@ -2067,7 +2162,8 @@
     "rating_puzzle": 2455,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767818669776
   },
   {
     "id": 112,
@@ -2087,7 +2183,8 @@
     "rating_puzzle": 1859,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767911926213
   },
   {
     "id": 113,
@@ -2107,7 +2204,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1673402861351
   },
   {
     "id": 114,
@@ -2127,7 +2225,8 @@
     "rating_puzzle": 1275,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1757529839437
   },
   {
     "id": 115,
@@ -2137,7 +2236,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "magnusete72",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 116,
@@ -2157,7 +2256,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1677706699869
   },
   {
     "id": 117,
@@ -2177,7 +2277,8 @@
     "rating_puzzle": 2037,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1738959235872
   },
   {
     "id": 118,
@@ -2187,7 +2288,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "tarcisiocura",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 119,
@@ -2207,7 +2308,8 @@
     "rating_puzzle": 1054,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767841421710
   },
   {
     "id": 120,
@@ -2227,7 +2329,8 @@
     "rating_puzzle": 1410,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1624112909823
   },
   {
     "id": 121,
@@ -2247,7 +2350,8 @@
     "rating_puzzle": 1898,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1665612528096
   },
   {
     "id": 122,
@@ -2267,7 +2371,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1634332040020
   },
   {
     "id": 123,
@@ -2287,7 +2392,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767550253168
   },
   {
     "id": 124,
@@ -2307,7 +2413,8 @@
     "rating_puzzle": 2292,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767898258667
   },
   {
     "id": 125,
@@ -2327,7 +2434,8 @@
     "rating_puzzle": 2180,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1761327276676
   },
   {
     "id": 126,
@@ -2347,7 +2455,8 @@
     "rating_puzzle": 1649,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1720405901895
   },
   {
     "id": 127,
@@ -2367,7 +2476,8 @@
     "rating_puzzle": 2141,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1696888636076
   },
   {
     "id": 128,
@@ -2387,7 +2497,8 @@
     "rating_puzzle": 2577,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767774006895
   },
   {
     "id": 129,
@@ -2407,7 +2518,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1748299993072
   },
   {
     "id": 130,
@@ -2427,7 +2539,8 @@
     "rating_puzzle": 2054,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767888492269
   },
   {
     "id": 131,
@@ -2447,7 +2560,8 @@
     "rating_puzzle": 1823,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1686860615473
   },
   {
     "id": 132,
@@ -2467,7 +2581,8 @@
     "rating_puzzle": 1632,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767540702220
   },
   {
     "id": 133,
@@ -2487,7 +2602,8 @@
     "rating_puzzle": 1761,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762292492700
   },
   {
     "id": 134,
@@ -2507,7 +2623,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1700257422448
   },
   {
     "id": 135,
@@ -2527,7 +2644,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1663971885614
   },
   {
     "id": 136,
@@ -2547,7 +2665,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1707778412637
   },
   {
     "id": 137,
@@ -2567,7 +2686,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1618011187740
   },
   {
     "id": 138,
@@ -2587,7 +2707,8 @@
     "rating_puzzle": 1920,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1726588946021
   },
   {
     "id": 139,
@@ -2597,7 +2718,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "calebeklazzarotti",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 140,
@@ -2617,7 +2738,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1728692394756
   },
   {
     "id": 141,
@@ -2637,7 +2759,8 @@
     "rating_puzzle": 1738,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767838808411
   },
   {
     "id": 142,
@@ -2647,7 +2770,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "circuitoblitzcbx1",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 143,
@@ -2667,7 +2790,8 @@
     "rating_puzzle": 1531,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767911583713
   },
   {
     "id": 144,
@@ -2687,7 +2811,8 @@
     "rating_puzzle": 2051,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1748016516903
   },
   {
     "id": 145,
@@ -2707,7 +2832,8 @@
     "rating_puzzle": 2153,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767883446564
   },
   {
     "id": 146,
@@ -2727,7 +2853,8 @@
     "rating_puzzle": 2465,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767746006216
   },
   {
     "id": 147,
@@ -2747,7 +2874,8 @@
     "rating_puzzle": 2002,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767724541648
   },
   {
     "id": 148,
@@ -2757,7 +2885,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "dudumello",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 149,
@@ -2767,7 +2895,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "destiny_player",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 150,
@@ -2787,7 +2915,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1694816298779
   },
   {
     "id": 151,
@@ -2807,7 +2936,8 @@
     "rating_puzzle": 1657,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767575912128
   },
   {
     "id": 152,
@@ -2827,7 +2957,8 @@
     "rating_puzzle": 1965,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1714609386695
   },
   {
     "id": 153,
@@ -2847,7 +2978,8 @@
     "rating_puzzle": 1780,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1711158596447
   },
   {
     "id": 154,
@@ -2867,7 +2999,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1665876669880
   },
   {
     "id": 155,
@@ -2887,7 +3020,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1751071941027
   },
   {
     "id": 156,
@@ -2907,7 +3041,8 @@
     "rating_puzzle": 2337,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767912841358
   },
   {
     "id": 157,
@@ -2927,7 +3062,8 @@
     "rating_puzzle": 1158,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1761245247653
   },
   {
     "id": 158,
@@ -2947,7 +3083,8 @@
     "rating_puzzle": 653,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1761875757799
   },
   {
     "id": 159,
@@ -2967,7 +3104,8 @@
     "rating_puzzle": 1518,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766517679266
   },
   {
     "id": 160,
@@ -2987,7 +3125,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1749246152569
   },
   {
     "id": 161,
@@ -3007,7 +3146,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1750887561468
   },
   {
     "id": 162,
@@ -3027,7 +3167,8 @@
     "rating_puzzle": 800,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1750104508788
   },
   {
     "id": 163,
@@ -3047,7 +3188,8 @@
     "rating_puzzle": 2127,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767907321543
   },
   {
     "id": 164,
@@ -3067,7 +3209,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1749852640740
   },
   {
     "id": 165,
@@ -3087,7 +3230,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1750183980221
   },
   {
     "id": 166,
@@ -3107,7 +3251,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1751062178674
   },
   {
     "id": 167,
@@ -3127,7 +3272,8 @@
     "rating_puzzle": 1588,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1750812963040
   },
   {
     "id": 168,
@@ -3137,7 +3283,7 @@
     "last_seen_api_timestamp": null,
     "status": "active",
     "id_lichess": "jonasblmaa251",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 169,
@@ -3147,7 +3293,7 @@
     "last_seen_api_timestamp": null,
     "status": "active",
     "id_lichess": "kauarodlmab251",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 170,
@@ -3167,7 +3313,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1751062659239
   },
   {
     "id": 171,
@@ -3177,7 +3324,7 @@
     "last_seen_api_timestamp": null,
     "status": "active",
     "id_lichess": "brenogglmaa251",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 172,
@@ -3197,7 +3344,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1749248578111
   },
   {
     "id": 173,
@@ -3217,7 +3365,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1755291422708
   },
   {
     "id": 174,
@@ -3237,7 +3386,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1751062910392
   },
   {
     "id": 175,
@@ -3257,7 +3407,8 @@
     "rating_puzzle": 1375,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1756317078666
   },
   {
     "id": 176,
@@ -3277,7 +3428,8 @@
     "rating_puzzle": 923,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1756750113806
   },
   {
     "id": 177,
@@ -3297,7 +3449,8 @@
     "rating_puzzle": 1062,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1749464994793
   },
   {
     "id": 178,
@@ -3317,7 +3470,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1748953871583
   },
   {
     "id": 179,
@@ -3337,7 +3491,8 @@
     "rating_puzzle": 1260,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1751236407193
   },
   {
     "id": 180,
@@ -3357,7 +3512,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1751063757474
   },
   {
     "id": 181,
@@ -3377,7 +3533,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1763156630103
   },
   {
     "id": 182,
@@ -3397,7 +3554,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1752879443836
   },
   {
     "id": 183,
@@ -3417,7 +3575,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767043187498
   },
   {
     "id": 184,
@@ -3437,7 +3596,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1749854230815
   },
   {
     "id": 185,
@@ -3457,7 +3617,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1751204341105
   },
   {
     "id": 186,
@@ -3477,7 +3638,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1749851746842
   },
   {
     "id": 187,
@@ -3497,7 +3659,8 @@
     "rating_puzzle": 1172,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1758212855880
   },
   {
     "id": 188,
@@ -3517,7 +3680,8 @@
     "rating_puzzle": 1135,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1749248016767
   },
   {
     "id": 189,
@@ -3537,7 +3701,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767906006663
   },
   {
     "id": 190,
@@ -3557,7 +3722,8 @@
     "rating_puzzle": 1056,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1755223957104
   },
   {
     "id": 191,
@@ -3577,7 +3743,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1751064369843
   },
   {
     "id": 192,
@@ -3597,7 +3764,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1750954171297
   },
   {
     "id": 193,
@@ -3617,7 +3785,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1751061985814
   },
   {
     "id": 194,
@@ -3637,7 +3806,8 @@
     "rating_puzzle": 1249,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1751062683418
   },
   {
     "id": 195,
@@ -3657,7 +3827,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767649396708
   },
   {
     "id": 196,
@@ -3677,7 +3848,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1751476347503
   },
   {
     "id": 197,
@@ -3697,7 +3869,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1749864859662
   },
   {
     "id": 198,
@@ -3717,7 +3890,8 @@
     "rating_puzzle": 1162,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767911889014
   },
   {
     "id": 199,
@@ -3737,7 +3911,8 @@
     "rating_puzzle": 1528,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1701065423274
   },
   {
     "id": 200,
@@ -3757,7 +3932,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1751072476720
   },
   {
     "id": 201,
@@ -3777,7 +3953,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1761047381511
   },
   {
     "id": 202,
@@ -3797,7 +3974,8 @@
     "rating_puzzle": 1457,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1744414181795
   },
   {
     "id": 203,
@@ -3817,7 +3995,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1749866543872
   },
   {
     "id": 204,
@@ -3837,7 +4016,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1750032965696
   },
   {
     "id": 205,
@@ -3857,7 +4037,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1761344633126
   },
   {
     "id": 206,
@@ -3877,7 +4058,8 @@
     "rating_puzzle": 1127,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1749503160508
   },
   {
     "id": 207,
@@ -3887,7 +4069,7 @@
     "last_seen_api_timestamp": null,
     "status": "active",
     "id_lichess": "sarahtrsblmaa251",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 208,
@@ -3907,7 +4089,8 @@
     "rating_puzzle": 1108,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1763242660176
   },
   {
     "id": 209,
@@ -3917,7 +4100,7 @@
     "last_seen_api_timestamp": null,
     "status": "active",
     "id_lichess": "nicolemsantoslmaa251",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 210,
@@ -3937,7 +4120,8 @@
     "rating_puzzle": 1884,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767898142935
   },
   {
     "id": 211,
@@ -3957,7 +4141,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1748045739153
   },
   {
     "id": 212,
@@ -3977,7 +4162,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1749250693929
   },
   {
     "id": 213,
@@ -3997,7 +4183,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1747858284721
   },
   {
     "id": 214,
@@ -4017,7 +4204,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1749250792561
   },
   {
     "id": 215,
@@ -4037,7 +4225,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1709326645518
   },
   {
     "id": 216,
@@ -4057,7 +4246,8 @@
     "rating_puzzle": 2326,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1709903984666
   },
   {
     "id": 217,
@@ -4077,7 +4267,8 @@
     "rating_puzzle": 1585,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767896853397
   },
   {
     "id": 218,
@@ -4097,7 +4288,8 @@
     "rating_puzzle": 2393,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767887461145
   },
   {
     "id": 219,
@@ -4117,7 +4309,8 @@
     "rating_puzzle": 2023,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1755291139466
   },
   {
     "id": 220,
@@ -4127,7 +4320,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "gustavopedrotti",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 221,
@@ -4137,7 +4330,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "magnuslagessen",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 222,
@@ -4147,7 +4340,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "imchesss",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 223,
@@ -4167,7 +4360,8 @@
     "rating_puzzle": 2083,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767903287872
   },
   {
     "id": 224,
@@ -4187,7 +4381,8 @@
     "rating_puzzle": 2245,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767635193973
   },
   {
     "id": 225,
@@ -4207,7 +4402,8 @@
     "rating_puzzle": 1739,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767481216577
   },
   {
     "id": 226,
@@ -4227,7 +4423,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762479697420
   },
   {
     "id": 227,
@@ -4247,7 +4444,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762553413784
   },
   {
     "id": 228,
@@ -4267,7 +4465,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1763942593603
   },
   {
     "id": 229,
@@ -4287,7 +4486,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1761950289798
   },
   {
     "id": 230,
@@ -4307,7 +4507,8 @@
     "rating_puzzle": 1165,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1763178166535
   },
   {
     "id": 231,
@@ -4327,7 +4528,8 @@
     "rating_puzzle": 1206,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767724380117
   },
   {
     "id": 232,
@@ -4347,7 +4549,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1764842735128
   },
   {
     "id": 233,
@@ -4367,7 +4570,8 @@
     "rating_puzzle": 1099,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1764709662511
   },
   {
     "id": 234,
@@ -4387,7 +4591,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1758926922963
   },
   {
     "id": 235,
@@ -4407,7 +4612,8 @@
     "rating_puzzle": 1517,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762554735187
   },
   {
     "id": 236,
@@ -4427,7 +4633,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762555655480
   },
   {
     "id": 237,
@@ -4447,7 +4654,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762642231979
   },
   {
     "id": 238,
@@ -4467,7 +4675,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1763832143316
   },
   {
     "id": 239,
@@ -4487,7 +4696,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762552986189
   },
   {
     "id": 240,
@@ -4507,7 +4717,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762556188334
   },
   {
     "id": 241,
@@ -4527,7 +4738,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766620118258
   },
   {
     "id": 242,
@@ -4547,7 +4759,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762553259678
   },
   {
     "id": 243,
@@ -4567,7 +4780,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1761948644225
   },
   {
     "id": 244,
@@ -4587,7 +4801,8 @@
     "rating_puzzle": 1558,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762554940689
   },
   {
     "id": 245,
@@ -4607,7 +4822,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762553871958
   },
   {
     "id": 246,
@@ -4627,7 +4843,8 @@
     "rating_puzzle": 1542,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1763168746934
   },
   {
     "id": 247,
@@ -4647,7 +4864,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762553311560
   },
   {
     "id": 248,
@@ -4667,7 +4885,8 @@
     "rating_puzzle": 1434,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767149683669
   },
   {
     "id": 249,
@@ -4687,7 +4906,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762555243468
   },
   {
     "id": 250,
@@ -4707,7 +4927,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1760739056754
   },
   {
     "id": 251,
@@ -4727,7 +4948,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762987908015
   },
   {
     "id": 252,
@@ -4747,7 +4969,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1760740084596
   },
   {
     "id": 253,
@@ -4767,7 +4990,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1763036234762
   },
   {
     "id": 254,
@@ -4787,7 +5011,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762553660105
   },
   {
     "id": 255,
@@ -4807,7 +5032,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1763164665475
   },
   {
     "id": 256,
@@ -4827,7 +5053,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762553900408
   },
   {
     "id": 257,
@@ -4847,7 +5074,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1761064653457
   },
   {
     "id": 258,
@@ -4867,7 +5095,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762553980381
   },
   {
     "id": 259,
@@ -4887,7 +5116,8 @@
     "rating_puzzle": 2014,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767913485016
   },
   {
     "id": 260,
@@ -4907,7 +5137,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762553672993
   },
   {
     "id": 261,
@@ -4927,7 +5158,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1765579975002
   },
   {
     "id": 262,
@@ -4947,7 +5179,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762589085605
   },
   {
     "id": 263,
@@ -4967,7 +5200,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762559262255
   },
   {
     "id": 264,
@@ -4987,7 +5221,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1761343002055
   },
   {
     "id": 265,
@@ -5007,7 +5242,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1761618290897
   },
   {
     "id": 266,
@@ -5027,7 +5263,8 @@
     "rating_puzzle": 1221,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766167736901
   },
   {
     "id": 267,
@@ -5047,7 +5284,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1763833951480
   },
   {
     "id": 268,
@@ -5067,7 +5305,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762566816270
   },
   {
     "id": 269,
@@ -5087,7 +5326,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762553512898
   },
   {
     "id": 270,
@@ -5107,7 +5347,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762552432324
   },
   {
     "id": 271,
@@ -5127,7 +5368,8 @@
     "rating_puzzle": 1504,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1765646424817
   },
   {
     "id": 272,
@@ -5147,7 +5389,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1654578105788
   },
   {
     "id": 273,
@@ -5167,7 +5410,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1621266245510
   },
   {
     "id": 274,
@@ -5187,7 +5431,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1594776127596
   },
   {
     "id": 275,
@@ -5197,7 +5442,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "elrick_one",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 276,
@@ -5207,7 +5452,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "rogerrscar",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 277,
@@ -5227,7 +5472,8 @@
     "rating_puzzle": 1677,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1616188296087
   },
   {
     "id": 278,
@@ -5247,7 +5493,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1623795423082
   },
   {
     "id": 279,
@@ -5267,7 +5514,8 @@
     "rating_puzzle": 1592,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1610458139978
   },
   {
     "id": 280,
@@ -5287,7 +5535,8 @@
     "rating_puzzle": 1836,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1765282553515
   },
   {
     "id": 281,
@@ -5307,7 +5556,8 @@
     "rating_puzzle": 1471,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1711334119446
   },
   {
     "id": 282,
@@ -5327,7 +5577,8 @@
     "rating_puzzle": 1874,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1751137044832
   },
   {
     "id": 283,
@@ -5337,7 +5588,7 @@
     "last_seen_api_timestamp": null,
     "status": "active",
     "id_lichess": "eusekevin",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 284,
@@ -5357,7 +5608,8 @@
     "rating_puzzle": 1617,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1759081619151
   },
   {
     "id": 285,
@@ -5377,7 +5629,8 @@
     "rating_puzzle": 2191,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767899882092
   },
   {
     "id": 286,
@@ -5397,7 +5650,8 @@
     "rating_puzzle": 1569,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1727520413013
   },
   {
     "id": 287,
@@ -5407,7 +5661,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "lilvinicius99",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 288,
@@ -5427,7 +5681,8 @@
     "rating_puzzle": 973,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1629489404393
   },
   {
     "id": 289,
@@ -5447,7 +5702,8 @@
     "rating_puzzle": 2023,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1765320479762
   },
   {
     "id": 290,
@@ -5467,7 +5723,8 @@
     "rating_puzzle": 2149,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1765817384396
   },
   {
     "id": 291,
@@ -5487,7 +5744,8 @@
     "rating_puzzle": 2132,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1689856125781
   },
   {
     "id": 292,
@@ -5507,7 +5765,8 @@
     "rating_puzzle": 1841,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1675709588794
   },
   {
     "id": 293,
@@ -5527,7 +5786,8 @@
     "rating_puzzle": 2418,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1743002872182
   },
   {
     "id": 294,
@@ -5547,7 +5807,8 @@
     "rating_puzzle": 1697,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1750538738439
   },
   {
     "id": 295,
@@ -5567,7 +5828,8 @@
     "rating_puzzle": 1205,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1697847614817
   },
   {
     "id": 296,
@@ -5587,7 +5849,8 @@
     "rating_puzzle": 2424,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767743203327
   },
   {
     "id": 297,
@@ -5597,7 +5860,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "dummy_4",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 298,
@@ -5607,7 +5870,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "fabiopavao",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 299,
@@ -5627,7 +5890,8 @@
     "rating_puzzle": 1445,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1627673842669
   },
   {
     "id": 300,
@@ -5637,7 +5901,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "alicelarabiasi",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 301,
@@ -5657,7 +5921,8 @@
     "rating_puzzle": 1449,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1637804075759
   },
   {
     "id": 302,
@@ -5677,7 +5942,8 @@
     "rating_puzzle": 2008,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1755948777062
   },
   {
     "id": 303,
@@ -5697,7 +5963,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1720046543707
   },
   {
     "id": 304,
@@ -5717,7 +5984,8 @@
     "rating_puzzle": 1269,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767912241491
   },
   {
     "id": 305,
@@ -5737,7 +6005,8 @@
     "rating_puzzle": 2167,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766917374477
   },
   {
     "id": 306,
@@ -5757,7 +6026,8 @@
     "rating_puzzle": 1825,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767900481807
   },
   {
     "id": 307,
@@ -5777,7 +6047,8 @@
     "rating_puzzle": 2523,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1641803091230
   },
   {
     "id": 308,
@@ -5797,7 +6068,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1663366057263
   },
   {
     "id": 309,
@@ -5817,7 +6089,8 @@
     "rating_puzzle": 1998,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766959156781
   },
   {
     "id": 310,
@@ -5837,7 +6110,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1607122447879
   },
   {
     "id": 311,
@@ -5857,7 +6131,8 @@
     "rating_puzzle": 1168,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1719973633254
   },
   {
     "id": 312,
@@ -5867,7 +6142,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "fuerte_suerte",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 313,
@@ -5887,7 +6162,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1758316027539
   },
   {
     "id": 314,
@@ -5907,7 +6183,8 @@
     "rating_puzzle": 1566,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1751072789860
   },
   {
     "id": 315,
@@ -5927,7 +6204,8 @@
     "rating_puzzle": 1983,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1755284705974
   },
   {
     "id": 316,
@@ -5947,7 +6225,8 @@
     "rating_puzzle": 1551,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1609970409834
   },
   {
     "id": 317,
@@ -5967,7 +6246,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1715478055670
   },
   {
     "id": 318,
@@ -5977,7 +6257,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "gabrielsouza35",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 319,
@@ -5997,7 +6277,8 @@
     "rating_puzzle": 1916,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1738326379610
   },
   {
     "id": 320,
@@ -6007,7 +6288,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "kushana",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 321,
@@ -6027,7 +6308,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1635648974847
   },
   {
     "id": 322,
@@ -6047,7 +6329,8 @@
     "rating_puzzle": 1846,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1759237057417
   },
   {
     "id": 323,
@@ -6067,7 +6350,8 @@
     "rating_puzzle": 2055,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766786934948
   },
   {
     "id": 324,
@@ -6087,7 +6371,8 @@
     "rating_puzzle": 1880,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767562921490
   },
   {
     "id": 325,
@@ -6107,7 +6392,8 @@
     "rating_puzzle": 1801,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762722903261
   },
   {
     "id": 326,
@@ -6127,7 +6413,8 @@
     "rating_puzzle": 1811,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767741179867
   },
   {
     "id": 327,
@@ -6147,7 +6434,8 @@
     "rating_puzzle": 2254,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1765576005670
   },
   {
     "id": 328,
@@ -6167,7 +6455,8 @@
     "rating_puzzle": 1640,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1682744600527
   },
   {
     "id": 329,
@@ -6187,7 +6476,8 @@
     "rating_puzzle": 1652,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767209935290
   },
   {
     "id": 330,
@@ -6207,7 +6497,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1635196776290
   },
   {
     "id": 331,
@@ -6227,7 +6518,8 @@
     "rating_puzzle": 1745,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1726530595481
   },
   {
     "id": 332,
@@ -6247,7 +6539,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1624899448872
   },
   {
     "id": 333,
@@ -6267,7 +6560,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1620689368826
   },
   {
     "id": 334,
@@ -6287,7 +6581,8 @@
     "rating_puzzle": 1320,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1765725305446
   },
   {
     "id": 335,
@@ -6307,7 +6602,8 @@
     "rating_puzzle": 1416,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1721865324965
   },
   {
     "id": 336,
@@ -6327,7 +6623,8 @@
     "rating_puzzle": 1999,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1651843872548
   },
   {
     "id": 337,
@@ -6347,7 +6644,8 @@
     "rating_puzzle": 1797,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1745612919916
   },
   {
     "id": 338,
@@ -6367,7 +6665,8 @@
     "rating_puzzle": 1884,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1758566871365
   },
   {
     "id": 339,
@@ -6387,7 +6686,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1656716924538
   },
   {
     "id": 340,
@@ -6407,7 +6707,8 @@
     "rating_puzzle": 1773,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1734753653246
   },
   {
     "id": 341,
@@ -6417,7 +6718,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "inciante34",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 342,
@@ -6437,7 +6738,8 @@
     "rating_puzzle": 1896,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1765457622401
   },
   {
     "id": 343,
@@ -6457,7 +6759,8 @@
     "rating_puzzle": 1781,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1740146411098
   },
   {
     "id": 344,
@@ -6477,7 +6780,8 @@
     "rating_puzzle": 1470,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1722716378922
   },
   {
     "id": 345,
@@ -6497,7 +6801,8 @@
     "rating_puzzle": 1647,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767174209127
   },
   {
     "id": 346,
@@ -6507,7 +6812,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "gabriel-souza",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 347,
@@ -6527,7 +6832,8 @@
     "rating_puzzle": 2138,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767910666100
   },
   {
     "id": 348,
@@ -6547,7 +6853,8 @@
     "rating_puzzle": 2169,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767913759273
   },
   {
     "id": 349,
@@ -6567,7 +6874,8 @@
     "rating_puzzle": 1933,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1743713630350
   },
   {
     "id": 350,
@@ -6587,7 +6895,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1595859816378
   },
   {
     "id": 351,
@@ -6607,7 +6916,8 @@
     "rating_puzzle": 1443,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1733771041496
   },
   {
     "id": 352,
@@ -6627,7 +6937,8 @@
     "rating_puzzle": 1623,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1684462147126
   },
   {
     "id": 353,
@@ -6647,7 +6958,8 @@
     "rating_puzzle": 1950,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1761534267395
   },
   {
     "id": 354,
@@ -6667,7 +6979,8 @@
     "rating_puzzle": 1112,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1757083316945
   },
   {
     "id": 355,
@@ -6687,7 +7000,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1592857706878
   },
   {
     "id": 356,
@@ -6707,7 +7021,8 @@
     "rating_puzzle": 1600,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1603557462281
   },
   {
     "id": 357,
@@ -6727,7 +7042,8 @@
     "rating_puzzle": 1150,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1707911886061
   },
   {
     "id": 358,
@@ -6747,7 +7063,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1610768366558
   },
   {
     "id": 359,
@@ -6767,7 +7084,8 @@
     "rating_puzzle": 2570,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1658454059433
   },
   {
     "id": 360,
@@ -6787,7 +7105,8 @@
     "rating_puzzle": 1922,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1758921311187
   },
   {
     "id": 361,
@@ -6807,7 +7126,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1588763472403
   },
   {
     "id": 362,
@@ -6827,7 +7147,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1623092384413
   },
   {
     "id": 363,
@@ -6847,7 +7168,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1670377634878
   },
   {
     "id": 364,
@@ -6867,7 +7189,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1588978695531
   },
   {
     "id": 365,
@@ -6887,7 +7210,8 @@
     "rating_puzzle": 1861,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1609594459153
   },
   {
     "id": 366,
@@ -6907,7 +7231,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1597960732594
   },
   {
     "id": 367,
@@ -6917,7 +7242,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "senun",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 368,
@@ -6937,7 +7262,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1588974959343
   },
   {
     "id": 369,
@@ -6957,7 +7283,8 @@
     "rating_puzzle": 1763,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767302815354
   },
   {
     "id": 370,
@@ -6977,7 +7304,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1624924126710
   },
   {
     "id": 371,
@@ -6997,7 +7325,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1616493006699
   },
   {
     "id": 372,
@@ -7017,7 +7346,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1751135131462
   },
   {
     "id": 373,
@@ -7037,7 +7367,8 @@
     "rating_puzzle": 2226,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767912147554
   },
   {
     "id": 374,
@@ -7057,7 +7388,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1623706904170
   },
   {
     "id": 375,
@@ -7077,7 +7409,8 @@
     "rating_puzzle": 1947,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1671280028872
   },
   {
     "id": 376,
@@ -7097,7 +7430,8 @@
     "rating_puzzle": 894,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1655953424307
   },
   {
     "id": 377,
@@ -7117,7 +7451,8 @@
     "rating_puzzle": 1710,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1628622059550
   },
   {
     "id": 378,
@@ -7137,7 +7472,8 @@
     "rating_puzzle": 2823,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767906632783
   },
   {
     "id": 379,
@@ -7157,7 +7493,8 @@
     "rating_puzzle": 1565,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1740477529961
   },
   {
     "id": 380,
@@ -7177,7 +7514,8 @@
     "rating_puzzle": 1172,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1764760746739
   },
   {
     "id": 381,
@@ -7197,7 +7535,8 @@
     "rating_puzzle": 2420,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767836665130
   },
   {
     "id": 382,
@@ -7217,7 +7556,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1757718629060
   },
   {
     "id": 383,
@@ -7237,7 +7577,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1761343457349
   },
   {
     "id": 384,
@@ -7257,7 +7598,8 @@
     "rating_puzzle": 1474,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762556633489
   },
   {
     "id": 385,
@@ -7267,7 +7609,7 @@
     "last_seen_api_timestamp": null,
     "status": "active",
     "id_lichess": "vitoramonra",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 386,
@@ -7287,7 +7629,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1756506011577
   },
   {
     "id": 387,
@@ -7307,7 +7650,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762552998267
   },
   {
     "id": 388,
@@ -7327,7 +7671,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762554864081
   },
   {
     "id": 389,
@@ -7347,7 +7692,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1760739205341
   },
   {
     "id": 390,
@@ -7367,7 +7713,8 @@
     "rating_puzzle": 1843,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766780290809
   },
   {
     "id": 391,
@@ -7387,7 +7734,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1761346873432
   },
   {
     "id": 392,
@@ -7407,7 +7755,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1763762905853
   },
   {
     "id": 393,
@@ -7427,7 +7776,8 @@
     "rating_puzzle": 1484,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762620668006
   },
   {
     "id": 394,
@@ -7447,7 +7797,8 @@
     "rating_puzzle": 1618,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1748977365038
   },
   {
     "id": 395,
@@ -7467,7 +7818,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1745618415331
   },
   {
     "id": 396,
@@ -7487,7 +7839,8 @@
     "rating_puzzle": 2019,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767908426205
   },
   {
     "id": 397,
@@ -7507,7 +7860,8 @@
     "rating_puzzle": 1582,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1763874972901
   },
   {
     "id": 398,
@@ -7527,7 +7881,8 @@
     "rating_puzzle": 1459,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1725140304088
   },
   {
     "id": 399,
@@ -7547,7 +7902,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1699299750078
   },
   {
     "id": 400,
@@ -7567,7 +7923,8 @@
     "rating_puzzle": 1488,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1758826993266
   },
   {
     "id": 401,
@@ -7587,7 +7944,8 @@
     "rating_puzzle": 1957,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767896172781
   },
   {
     "id": 402,
@@ -7607,7 +7965,8 @@
     "rating_puzzle": 1492,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767528206187
   },
   {
     "id": 403,
@@ -7627,7 +7986,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1732320075629
   },
   {
     "id": 404,
@@ -7647,7 +8007,8 @@
     "rating_puzzle": 2311,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767830003036
   },
   {
     "id": 405,
@@ -7657,7 +8018,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "drunknoboom",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 406,
@@ -7677,7 +8038,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1656113215916
   },
   {
     "id": 407,
@@ -7697,7 +8059,8 @@
     "rating_puzzle": 1939,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1729960850649
   },
   {
     "id": 408,
@@ -7717,7 +8080,8 @@
     "rating_puzzle": 1689,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1765977113274
   },
   {
     "id": 409,
@@ -7727,7 +8091,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "fide1434",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 410,
@@ -7747,7 +8111,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1725214047316
   },
   {
     "id": 411,
@@ -7767,7 +8132,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1749302813852
   },
   {
     "id": 412,
@@ -7787,7 +8153,8 @@
     "rating_puzzle": 1778,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762553729414
   },
   {
     "id": 413,
@@ -7807,7 +8174,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1750859036573
   },
   {
     "id": 414,
@@ -7827,7 +8195,8 @@
     "rating_puzzle": 1361,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766362927062
   },
   {
     "id": 415,
@@ -7847,7 +8216,8 @@
     "rating_puzzle": 1826,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1729900385435
   },
   {
     "id": 416,
@@ -7867,7 +8237,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1730916941630
   },
   {
     "id": 417,
@@ -7877,7 +8248,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "fredibieging",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 418,
@@ -7897,7 +8268,8 @@
     "rating_puzzle": 1383,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1715726718698
   },
   {
     "id": 419,
@@ -7917,7 +8289,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1621596917148
   },
   {
     "id": 420,
@@ -7937,7 +8310,8 @@
     "rating_puzzle": 2202,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767903860594
   },
   {
     "id": 421,
@@ -7957,7 +8331,8 @@
     "rating_puzzle": 1989,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1755092682403
   },
   {
     "id": 422,
@@ -7967,7 +8342,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "bcarrieres",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 423,
@@ -7987,7 +8362,8 @@
     "rating_puzzle": 1517,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1657488357603
   },
   {
     "id": 424,
@@ -8007,7 +8383,8 @@
     "rating_puzzle": 1909,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767910138473
   },
   {
     "id": 425,
@@ -8027,7 +8404,8 @@
     "rating_puzzle": 2082,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1760899940768
   },
   {
     "id": 426,
@@ -8047,7 +8425,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1634393171534
   },
   {
     "id": 427,
@@ -8057,7 +8436,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "paolo9",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 428,
@@ -8077,7 +8456,8 @@
     "rating_puzzle": 1259,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1663547470265
   },
   {
     "id": 429,
@@ -8097,7 +8477,8 @@
     "rating_puzzle": 922,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767911725475
   },
   {
     "id": 430,
@@ -8117,7 +8498,8 @@
     "rating_puzzle": 1195,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1667399483810
   },
   {
     "id": 431,
@@ -8137,7 +8519,8 @@
     "rating_puzzle": 1727,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1728684144366
   },
   {
     "id": 432,
@@ -8157,7 +8540,8 @@
     "rating_puzzle": 1068,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1710822941123
   },
   {
     "id": 433,
@@ -8177,7 +8561,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1682738336115
   },
   {
     "id": 434,
@@ -8197,7 +8582,8 @@
     "rating_puzzle": 1542,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1753219421842
   },
   {
     "id": 435,
@@ -8217,7 +8603,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1682695089368
   },
   {
     "id": 436,
@@ -8237,7 +8624,8 @@
     "rating_puzzle": 1674,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766872686356
   },
   {
     "id": 437,
@@ -8257,7 +8645,8 @@
     "rating_puzzle": 2085,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766788180929
   },
   {
     "id": 438,
@@ -8267,7 +8656,7 @@
     "last_seen_api_timestamp": null,
     "status": "active",
     "id_lichess": "badrinath1812",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 439,
@@ -8287,7 +8676,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1758238312973
   },
   {
     "id": 440,
@@ -8297,7 +8687,7 @@
     "last_seen_api_timestamp": null,
     "status": "active",
     "id_lichess": "dimon-nikolya",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 441,
@@ -8307,7 +8697,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "nrerfanian",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 442,
@@ -8327,7 +8717,8 @@
     "rating_puzzle": 1603,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1717729923269
   },
   {
     "id": 443,
@@ -8347,7 +8738,8 @@
     "rating_puzzle": 2641,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767798276521
   },
   {
     "id": 444,
@@ -8367,7 +8759,8 @@
     "rating_puzzle": 2453,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767033723361
   },
   {
     "id": 445,
@@ -8387,7 +8780,8 @@
     "rating_puzzle": 1494,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1749774551246
   },
   {
     "id": 446,
@@ -8407,7 +8801,8 @@
     "rating_puzzle": 2419,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1680443260732
   },
   {
     "id": 447,
@@ -8427,7 +8822,8 @@
     "rating_puzzle": 1366,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1759714051207
   },
   {
     "id": 448,
@@ -8447,7 +8843,8 @@
     "rating_puzzle": 1928,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767148714380
   },
   {
     "id": 449,
@@ -8467,7 +8864,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1761219511845
   },
   {
     "id": 450,
@@ -8487,7 +8885,8 @@
     "rating_puzzle": 1901,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1729791414517
   },
   {
     "id": 451,
@@ -8507,7 +8906,8 @@
     "rating_puzzle": 1827,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1765052238569
   },
   {
     "id": 452,
@@ -8527,7 +8927,8 @@
     "rating_puzzle": 1928,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767908004617
   },
   {
     "id": 453,
@@ -8547,7 +8948,8 @@
     "rating_puzzle": 2417,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1763752726109
   },
   {
     "id": 454,
@@ -8567,7 +8969,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1726270649882
   },
   {
     "id": 455,
@@ -8587,7 +8990,8 @@
     "rating_puzzle": 1229,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1724543647975
   },
   {
     "id": 456,
@@ -8607,7 +9011,8 @@
     "rating_puzzle": 1998,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767881394428
   },
   {
     "id": 457,
@@ -8627,7 +9032,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1763830329841
   },
   {
     "id": 458,
@@ -8647,7 +9053,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1763834672909
   },
   {
     "id": 459,
@@ -8667,7 +9074,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1761343058678
   },
   {
     "id": 460,
@@ -8687,7 +9095,8 @@
     "rating_puzzle": 1166,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767315183637
   },
   {
     "id": 461,
@@ -8707,7 +9116,8 @@
     "rating_puzzle": 755,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767833426083
   },
   {
     "id": 462,
@@ -8727,7 +9137,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767894642609
   },
   {
     "id": 463,
@@ -8747,7 +9158,8 @@
     "rating_puzzle": 1275,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762967800217
   },
   {
     "id": 464,
@@ -8767,7 +9179,8 @@
     "rating_puzzle": 2332,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767905426171
   },
   {
     "id": 465,
@@ -8787,7 +9200,8 @@
     "rating_puzzle": 1781,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767811563405
   },
   {
     "id": 466,
@@ -8807,7 +9221,8 @@
     "rating_puzzle": 1983,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1764213770128
   },
   {
     "id": 467,
@@ -8827,7 +9242,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1687803175612
   },
   {
     "id": 468,
@@ -8837,7 +9253,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "elchape",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 469,
@@ -8847,7 +9263,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "c0nt4d3m3rd4",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 470,
@@ -8867,7 +9283,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1676071085174
   },
   {
     "id": 471,
@@ -8887,7 +9304,8 @@
     "rating_puzzle": 1324,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767904596457
   },
   {
     "id": 472,
@@ -8907,7 +9325,8 @@
     "rating_puzzle": 1078,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1757175715350
   },
   {
     "id": 473,
@@ -8927,7 +9346,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1726874081303
   },
   {
     "id": 474,
@@ -8947,7 +9367,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1729292531448
   },
   {
     "id": 475,
@@ -8957,7 +9378,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "marcosmolina",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 476,
@@ -8977,7 +9398,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1595278010241
   },
   {
     "id": 477,
@@ -8987,7 +9409,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "facs2",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 478,
@@ -9007,7 +9429,8 @@
     "rating_puzzle": 2247,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1758389339616
   },
   {
     "id": 479,
@@ -9017,7 +9440,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "tc2001",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 480,
@@ -9037,7 +9460,8 @@
     "rating_puzzle": 2010,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1608568312684
   },
   {
     "id": 481,
@@ -9047,7 +9471,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "thcesilva",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 482,
@@ -9057,7 +9481,7 @@
     "last_seen_api_timestamp": null,
     "status": "active",
     "id_lichess": "erwinbwcv",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 483,
@@ -9067,7 +9491,7 @@
     "last_seen_api_timestamp": null,
     "status": "active",
     "id_lichess": "oduma",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 484,
@@ -9087,7 +9511,8 @@
     "rating_puzzle": 2101,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766129221840
   },
   {
     "id": 485,
@@ -9107,7 +9532,8 @@
     "rating_puzzle": 1210,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1765376378529
   },
   {
     "id": 486,
@@ -9127,7 +9553,8 @@
     "rating_puzzle": 1679,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767700908727
   },
   {
     "id": 487,
@@ -9147,7 +9574,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766540085254
   },
   {
     "id": 488,
@@ -9167,7 +9595,8 @@
     "rating_puzzle": 2027,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767856099552
   },
   {
     "id": 489,
@@ -9177,7 +9606,7 @@
     "last_seen_api_timestamp": null,
     "status": "active",
     "id_lichess": "turniritolko",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 490,
@@ -9197,7 +9626,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1755156878170
   },
   {
     "id": 491,
@@ -9217,7 +9647,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1751177409972
   },
   {
     "id": 492,
@@ -9237,7 +9668,8 @@
     "rating_puzzle": 1780,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762175933134
   },
   {
     "id": 493,
@@ -9257,7 +9689,8 @@
     "rating_puzzle": 2071,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767873006885
   },
   {
     "id": 494,
@@ -9277,7 +9710,8 @@
     "rating_puzzle": 2454,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767904951975
   },
   {
     "id": 495,
@@ -9287,7 +9721,7 @@
     "last_seen_api_timestamp": null,
     "status": "active",
     "id_lichess": "bahtiyar_shahmater",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 496,
@@ -9307,7 +9741,8 @@
     "rating_puzzle": 1942,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1756835111439
   },
   {
     "id": 497,
@@ -9327,7 +9762,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1750807560021
   },
   {
     "id": 498,
@@ -9347,7 +9783,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1733526242939
   },
   {
     "id": 499,
@@ -9367,7 +9804,8 @@
     "rating_puzzle": 1907,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1733528162362
   },
   {
     "id": 500,
@@ -9387,7 +9825,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1696029774951
   },
   {
     "id": 501,
@@ -9407,7 +9846,8 @@
     "rating_puzzle": 1703,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1669003386239
   },
   {
     "id": 502,
@@ -9427,7 +9867,8 @@
     "rating_puzzle": 1881,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1598050565816
   },
   {
     "id": 503,
@@ -9447,7 +9888,8 @@
     "rating_puzzle": 1415,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1619982484302
   },
   {
     "id": 504,
@@ -9467,7 +9909,8 @@
     "rating_puzzle": 2202,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767900720470
   },
   {
     "id": 505,
@@ -9487,7 +9930,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1625511456824
   },
   {
     "id": 506,
@@ -9507,7 +9951,8 @@
     "rating_puzzle": 1633,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766161342794
   },
   {
     "id": 507,
@@ -9527,7 +9972,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1644762930710
   },
   {
     "id": 508,
@@ -9537,7 +9983,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "pavaomisterioso",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 509,
@@ -9557,7 +10003,8 @@
     "rating_puzzle": 1653,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1722027865335
   },
   {
     "id": 510,
@@ -9577,7 +10024,8 @@
     "rating_puzzle": 1717,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1726975352480
   },
   {
     "id": 511,
@@ -9597,7 +10045,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1688327109215
   },
   {
     "id": 512,
@@ -9617,7 +10066,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1663803978597
   },
   {
     "id": 513,
@@ -9637,7 +10087,8 @@
     "rating_puzzle": 1823,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1761842406839
   },
   {
     "id": 514,
@@ -9657,7 +10108,8 @@
     "rating_puzzle": 2075,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1752422750698
   },
   {
     "id": 515,
@@ -9677,7 +10129,8 @@
     "rating_puzzle": 2215,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767871875448
   },
   {
     "id": 516,
@@ -9697,7 +10150,8 @@
     "rating_puzzle": 1858,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762559404427
   },
   {
     "id": 517,
@@ -9717,7 +10171,8 @@
     "rating_puzzle": 1948,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767798363064
   },
   {
     "id": 518,
@@ -9737,7 +10192,8 @@
     "rating_puzzle": 1973,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1652685207464
   },
   {
     "id": 519,
@@ -9757,7 +10213,8 @@
     "rating_puzzle": 2383,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1687561650422
   },
   {
     "id": 520,
@@ -9777,7 +10234,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1757108627646
   },
   {
     "id": 521,
@@ -9797,7 +10255,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1758234512456
   },
   {
     "id": 522,
@@ -9817,7 +10276,8 @@
     "rating_puzzle": 1262,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1765259975539
   },
   {
     "id": 523,
@@ -9837,7 +10297,8 @@
     "rating_puzzle": 1479,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1759526188158
   },
   {
     "id": 524,
@@ -9847,7 +10308,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "antoniou270819",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 525,
@@ -9867,7 +10328,8 @@
     "rating_puzzle": 1839,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1765845085313
   },
   {
     "id": 526,
@@ -9887,7 +10349,8 @@
     "rating_puzzle": 1514,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1652386283043
   },
   {
     "id": 527,
@@ -9907,7 +10370,8 @@
     "rating_puzzle": 1781,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766866100331
   },
   {
     "id": 528,
@@ -9927,7 +10391,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1731179993459
   },
   {
     "id": 529,
@@ -9947,7 +10412,8 @@
     "rating_puzzle": 1919,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767903834340
   },
   {
     "id": 530,
@@ -9967,7 +10433,8 @@
     "rating_puzzle": 1582,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766786879036
   },
   {
     "id": 531,
@@ -9987,7 +10454,8 @@
     "rating_puzzle": 1559,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1666296827799
   },
   {
     "id": 532,
@@ -10007,7 +10475,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1684553726212
   },
   {
     "id": 533,
@@ -10017,7 +10486,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "anatovkarpoly",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 534,
@@ -10037,7 +10506,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1595821747225
   },
   {
     "id": 535,
@@ -10057,7 +10527,8 @@
     "rating_puzzle": 1684,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762878257208
   },
   {
     "id": 536,
@@ -10077,7 +10548,8 @@
     "rating_puzzle": 2245,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767853303386
   },
   {
     "id": 537,
@@ -10097,7 +10569,8 @@
     "rating_puzzle": 1427,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767309938083
   },
   {
     "id": 538,
@@ -10117,7 +10590,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1758589440290
   },
   {
     "id": 539,
@@ -10137,7 +10611,8 @@
     "rating_puzzle": 2005,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767903225460
   },
   {
     "id": 540,
@@ -10157,7 +10632,8 @@
     "rating_puzzle": 1438,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1633360714905
   },
   {
     "id": 541,
@@ -10177,7 +10653,8 @@
     "rating_puzzle": 1979,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1708101953742
   },
   {
     "id": 542,
@@ -10197,7 +10674,8 @@
     "rating_puzzle": 1895,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1737646329072
   },
   {
     "id": 543,
@@ -10217,7 +10695,8 @@
     "rating_puzzle": 1493,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1725997009821
   },
   {
     "id": 544,
@@ -10237,7 +10716,8 @@
     "rating_puzzle": 2202,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1753796877070
   },
   {
     "id": 545,
@@ -10257,7 +10737,8 @@
     "rating_puzzle": 1463,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1742423892530
   },
   {
     "id": 546,
@@ -10277,7 +10758,8 @@
     "rating_puzzle": 800,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1764816428049
   },
   {
     "id": 547,
@@ -10297,7 +10779,8 @@
     "rating_puzzle": 2010,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1621639752922
   },
   {
     "id": 548,
@@ -10317,7 +10800,8 @@
     "rating_puzzle": 1693,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1628096061236
   },
   {
     "id": 549,
@@ -10337,7 +10821,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1621896608065
   },
   {
     "id": 550,
@@ -10357,7 +10842,8 @@
     "rating_puzzle": 2049,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766553142177
   },
   {
     "id": 551,
@@ -10377,7 +10863,8 @@
     "rating_puzzle": 2014,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767899697219
   },
   {
     "id": 552,
@@ -10397,7 +10884,8 @@
     "rating_puzzle": 1560,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1698342370827
   },
   {
     "id": 553,
@@ -10417,7 +10905,8 @@
     "rating_puzzle": 1904,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1672072867312
   },
   {
     "id": 554,
@@ -10427,7 +10916,7 @@
     "last_seen_api_timestamp": null,
     "status": "active",
     "id_lichess": "carlosmaia",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 555,
@@ -10447,7 +10936,8 @@
     "rating_puzzle": 2138,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1735772181516
   },
   {
     "id": 556,
@@ -10467,7 +10957,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1615592129453
   },
   {
     "id": 557,
@@ -10487,7 +10978,8 @@
     "rating_puzzle": 1659,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1711598274654
   },
   {
     "id": 558,
@@ -10497,7 +10989,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "slowlearner69",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 559,
@@ -10517,7 +11009,8 @@
     "rating_puzzle": 1427,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1618364894853
   },
   {
     "id": 560,
@@ -10537,7 +11030,8 @@
     "rating_puzzle": 1287,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1763133394748
   },
   {
     "id": 561,
@@ -10557,7 +11051,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1626737551018
   },
   {
     "id": 562,
@@ -10577,7 +11072,8 @@
     "rating_puzzle": 1701,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1700406772585
   },
   {
     "id": 563,
@@ -10597,7 +11093,8 @@
     "rating_puzzle": 862,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1700090346537
   },
   {
     "id": 564,
@@ -10617,7 +11114,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767142007214
   },
   {
     "id": 565,
@@ -10637,7 +11135,8 @@
     "rating_puzzle": 1781,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1744762750751
   },
   {
     "id": 566,
@@ -10647,7 +11146,7 @@
     "last_seen_api_timestamp": null,
     "status": "active",
     "id_lichess": "gesse_ic",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 567,
@@ -10667,7 +11166,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1606174095784
   },
   {
     "id": 568,
@@ -10687,7 +11187,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1607799016286
   },
   {
     "id": 569,
@@ -10707,7 +11208,8 @@
     "rating_puzzle": 1512,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1699206638864
   },
   {
     "id": 570,
@@ -10717,7 +11219,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "macrokiller",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 571,
@@ -10737,7 +11239,8 @@
     "rating_puzzle": 1761,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1765918077131
   },
   {
     "id": 572,
@@ -10757,7 +11260,8 @@
     "rating_puzzle": 2126,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767895794924
   },
   {
     "id": 573,
@@ -10777,7 +11281,8 @@
     "rating_puzzle": 1397,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1730142960436
   },
   {
     "id": 574,
@@ -10797,7 +11302,8 @@
     "rating_puzzle": 2280,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1721365745974
   },
   {
     "id": 575,
@@ -10817,7 +11323,8 @@
     "rating_puzzle": 2070,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1740867788581
   },
   {
     "id": 576,
@@ -10837,7 +11344,8 @@
     "rating_puzzle": 2288,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767909483428
   },
   {
     "id": 577,
@@ -10847,7 +11355,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "jlenamorado",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 578,
@@ -10867,7 +11375,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1607804763850
   },
   {
     "id": 579,
@@ -10887,7 +11396,8 @@
     "rating_puzzle": 1211,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766939526004
   },
   {
     "id": 580,
@@ -10897,7 +11407,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "pedrogr",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 581,
@@ -10907,7 +11417,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "martinslaby",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 582,
@@ -10917,7 +11427,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "whiterabbit00",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 583,
@@ -10937,7 +11447,8 @@
     "rating_puzzle": 2342,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766737749743
   },
   {
     "id": 584,
@@ -10957,7 +11468,8 @@
     "rating_puzzle": 2471,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1750347298433
   },
   {
     "id": 585,
@@ -10977,7 +11489,8 @@
     "rating_puzzle": 2077,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1742649016171
   },
   {
     "id": 586,
@@ -10997,7 +11510,8 @@
     "rating_puzzle": 1538,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1758390290443
   },
   {
     "id": 587,
@@ -11007,7 +11521,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "sidgord",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 588,
@@ -11027,7 +11541,8 @@
     "rating_puzzle": 1765,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1763723003679
   },
   {
     "id": 589,
@@ -11047,7 +11562,8 @@
     "rating_puzzle": 1752,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1616885480399
   },
   {
     "id": 590,
@@ -11057,7 +11573,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "atalaiaronaldo",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 591,
@@ -11077,7 +11593,8 @@
     "rating_puzzle": 1401,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767561041929
   },
   {
     "id": 592,
@@ -11097,7 +11614,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1754156033298
   },
   {
     "id": 593,
@@ -11117,7 +11635,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1756562457899
   },
   {
     "id": 594,
@@ -11137,7 +11656,8 @@
     "rating_puzzle": 1683,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1617313496709
   },
   {
     "id": 595,
@@ -11157,7 +11677,8 @@
     "rating_puzzle": 1980,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1751200094695
   },
   {
     "id": 596,
@@ -11167,7 +11688,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "chessnomaster35",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 597,
@@ -11187,7 +11708,8 @@
     "rating_puzzle": 1100,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1761588695636
   },
   {
     "id": 598,
@@ -11207,7 +11729,8 @@
     "rating_puzzle": 2267,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766884559371
   },
   {
     "id": 599,
@@ -11227,7 +11750,8 @@
     "rating_puzzle": 1843,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1731772320641
   },
   {
     "id": 600,
@@ -11247,7 +11771,8 @@
     "rating_puzzle": 2801,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767795167967
   },
   {
     "id": 601,
@@ -11257,7 +11782,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "jujuburizigi",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 602,
@@ -11277,7 +11802,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1700939450225
   },
   {
     "id": 603,
@@ -11297,7 +11823,8 @@
     "rating_puzzle": 2137,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1714787688358
   },
   {
     "id": 604,
@@ -11317,7 +11844,8 @@
     "rating_puzzle": 1402,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767899828269
   },
   {
     "id": 605,
@@ -11337,7 +11865,8 @@
     "rating_puzzle": 2221,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767792695261
   },
   {
     "id": 606,
@@ -11357,7 +11886,8 @@
     "rating_puzzle": 1998,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762544756204
   },
   {
     "id": 607,
@@ -11377,7 +11907,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1618010339446
   },
   {
     "id": 608,
@@ -11387,7 +11918,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "lpsupi_sac",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 609,
@@ -11407,7 +11938,8 @@
     "rating_puzzle": 1085,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1715782472190
   },
   {
     "id": 610,
@@ -11427,7 +11959,8 @@
     "rating_puzzle": 1492,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1734397744056
   },
   {
     "id": 611,
@@ -11447,7 +11980,8 @@
     "rating_puzzle": 1643,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1715782423648
   },
   {
     "id": 612,
@@ -11467,7 +12001,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1715784456540
   },
   {
     "id": 613,
@@ -11477,7 +12012,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "krammnik",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 614,
@@ -11487,7 +12022,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "gamerwithoutsuccess",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 615,
@@ -11507,7 +12042,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1675733550736
   },
   {
     "id": 616,
@@ -11527,7 +12063,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1717770089405
   },
   {
     "id": 617,
@@ -11547,7 +12084,8 @@
     "rating_puzzle": 2270,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767895059474
   },
   {
     "id": 618,
@@ -11567,7 +12105,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1677781144150
   },
   {
     "id": 619,
@@ -11577,7 +12116,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "semen_baryshnikov",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 620,
@@ -11597,7 +12136,8 @@
     "rating_puzzle": 2398,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767906355177
   },
   {
     "id": 621,
@@ -11617,7 +12157,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1726018106539
   },
   {
     "id": 622,
@@ -11637,7 +12178,8 @@
     "rating_puzzle": 1387,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1735305403873
   },
   {
     "id": 623,
@@ -11657,7 +12199,8 @@
     "rating_puzzle": 1801,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1750262161401
   },
   {
     "id": 624,
@@ -11677,7 +12220,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1591660828029
   },
   {
     "id": 625,
@@ -11697,7 +12241,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1590764963558
   },
   {
     "id": 626,
@@ -11717,7 +12262,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1591389839377
   },
   {
     "id": 627,
@@ -11737,7 +12283,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767786919967
   },
   {
     "id": 628,
@@ -11757,7 +12304,8 @@
     "rating_puzzle": 1642,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1765303230768
   },
   {
     "id": 629,
@@ -11777,7 +12325,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1697852104338
   },
   {
     "id": 630,
@@ -11797,7 +12346,8 @@
     "rating_puzzle": 1876,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767741990825
   },
   {
     "id": 631,
@@ -11807,7 +12357,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "troiano98",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 632,
@@ -11827,7 +12377,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1685744849230
   },
   {
     "id": 633,
@@ -11847,7 +12398,8 @@
     "rating_puzzle": 2329,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767912329082
   },
   {
     "id": 634,
@@ -11867,7 +12419,8 @@
     "rating_puzzle": 2337,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766017263703
   },
   {
     "id": 635,
@@ -11887,7 +12440,8 @@
     "rating_puzzle": 2170,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767866637084
   },
   {
     "id": 636,
@@ -11907,7 +12461,8 @@
     "rating_puzzle": 1825,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1629060239168
   },
   {
     "id": 637,
@@ -11927,7 +12482,8 @@
     "rating_puzzle": 1956,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1714504226836
   },
   {
     "id": 638,
@@ -11947,7 +12503,8 @@
     "rating_puzzle": 1374,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1671227794084
   },
   {
     "id": 639,
@@ -11967,7 +12524,8 @@
     "rating_puzzle": 1467,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1722970575621
   },
   {
     "id": 640,
@@ -11987,7 +12545,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1686951013073
   },
   {
     "id": 641,
@@ -11997,7 +12556,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "chessleee35",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 642,
@@ -12007,7 +12566,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "chessevolution33",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 643,
@@ -12027,7 +12586,8 @@
     "rating_puzzle": 1703,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766592908087
   },
   {
     "id": 644,
@@ -12047,7 +12607,8 @@
     "rating_puzzle": 1733,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1763522876944
   },
   {
     "id": 645,
@@ -12067,7 +12628,8 @@
     "rating_puzzle": 2086,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1762392136912
   },
   {
     "id": 646,
@@ -12087,7 +12649,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1608409356631
   },
   {
     "id": 647,
@@ -12107,7 +12670,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1608408973272
   },
   {
     "id": 648,
@@ -12127,7 +12691,8 @@
     "rating_puzzle": 1523,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1761049295950
   },
   {
     "id": 649,
@@ -12147,7 +12712,8 @@
     "rating_puzzle": 2154,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767642057757
   },
   {
     "id": 650,
@@ -12167,7 +12733,8 @@
     "rating_puzzle": 2296,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767117639307
   },
   {
     "id": 651,
@@ -12177,7 +12744,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "gustavospi",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 652,
@@ -12187,7 +12754,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "tinolaurio2020",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 653,
@@ -12207,7 +12774,8 @@
     "rating_puzzle": 1996,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1675986307753
   },
   {
     "id": 654,
@@ -12227,7 +12795,8 @@
     "rating_puzzle": 1386,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1720286661899
   },
   {
     "id": 655,
@@ -12247,7 +12816,8 @@
     "rating_puzzle": 1555,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1754255599950
   },
   {
     "id": 656,
@@ -12257,7 +12827,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "eg0r2012",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 657,
@@ -12277,7 +12847,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1655688839150
   },
   {
     "id": 658,
@@ -12297,7 +12868,8 @@
     "rating_puzzle": 1981,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1733705666381
   },
   {
     "id": 659,
@@ -12307,7 +12879,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "ana-lu",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 660,
@@ -12327,7 +12899,8 @@
     "rating_puzzle": 1566,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1754135396009
   },
   {
     "id": 661,
@@ -12347,7 +12920,8 @@
     "rating_puzzle": 2097,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1712836111473
   },
   {
     "id": 662,
@@ -12367,7 +12941,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1625946704897
   },
   {
     "id": 663,
@@ -12387,7 +12962,8 @@
     "rating_puzzle": 1870,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1714247558182
   },
   {
     "id": 664,
@@ -12407,7 +12983,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1625938810360
   },
   {
     "id": 665,
@@ -12427,7 +13004,8 @@
     "rating_puzzle": 2011,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1663972229240
   },
   {
     "id": 666,
@@ -12447,7 +13025,8 @@
     "rating_puzzle": 1863,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767905033733
   },
   {
     "id": 667,
@@ -12467,7 +13046,8 @@
     "rating_puzzle": 1690,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1756817621267
   },
   {
     "id": 668,
@@ -12487,7 +13067,8 @@
     "rating_puzzle": 1991,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1746969765791
   },
   {
     "id": 669,
@@ -12507,7 +13088,8 @@
     "rating_puzzle": 1940,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767574035939
   },
   {
     "id": 670,
@@ -12527,7 +13109,8 @@
     "rating_puzzle": 1956,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767209522712
   },
   {
     "id": 671,
@@ -12547,7 +13130,8 @@
     "rating_puzzle": 2294,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767482271763
   },
   {
     "id": 672,
@@ -12557,7 +13141,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "lehanys",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 673,
@@ -12567,7 +13151,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "vadimml2010",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 674,
@@ -12587,7 +13171,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767912188569
   },
   {
     "id": 675,
@@ -12597,7 +13182,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "makr_kravchenko2015",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 676,
@@ -12607,7 +13192,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "sultanrumon",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 677,
@@ -12627,7 +13212,8 @@
     "rating_puzzle": 1637,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767885785286
   },
   {
     "id": 678,
@@ -12637,7 +13223,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "iwannadienowidk",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 679,
@@ -12647,7 +13233,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "drhmdi",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 680,
@@ -12667,7 +13253,8 @@
     "rating_puzzle": 1859,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767898604485
   },
   {
     "id": 681,
@@ -12687,7 +13274,8 @@
     "rating_puzzle": 2573,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767912906506
   },
   {
     "id": 682,
@@ -12707,7 +13295,8 @@
     "rating_puzzle": 2532,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1758722560645
   },
   {
     "id": 683,
@@ -12727,7 +13316,8 @@
     "rating_puzzle": 2285,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767547941856
   },
   {
     "id": 684,
@@ -12747,7 +13337,8 @@
     "rating_puzzle": 1884,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1694451148041
   },
   {
     "id": 685,
@@ -12767,7 +13358,8 @@
     "rating_puzzle": 1673,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1675611551519
   },
   {
     "id": 686,
@@ -12787,7 +13379,8 @@
     "rating_puzzle": 1100,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767783390074
   },
   {
     "id": 687,
@@ -12807,7 +13400,8 @@
     "rating_puzzle": 1769,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767894259944
   },
   {
     "id": 688,
@@ -12817,7 +13411,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "bearandfox",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 689,
@@ -12827,7 +13421,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "xgabredeirosx",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 690,
@@ -12837,7 +13431,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "nih4t007",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 691,
@@ -12847,7 +13441,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "sahmatvezir123",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 692,
@@ -12867,7 +13461,8 @@
     "rating_puzzle": 2090,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1765156894103
   },
   {
     "id": 693,
@@ -12887,7 +13482,8 @@
     "rating_puzzle": 2138,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767836055424
   },
   {
     "id": 694,
@@ -12897,7 +13493,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "interio_44",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 695,
@@ -12917,7 +13513,8 @@
     "rating_puzzle": 2088,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767654763537
   },
   {
     "id": 696,
@@ -12937,7 +13534,8 @@
     "rating_puzzle": 2416,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767902344129
   },
   {
     "id": 697,
@@ -12957,7 +13555,8 @@
     "rating_puzzle": 2251,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766941539936
   },
   {
     "id": 698,
@@ -12977,7 +13576,8 @@
     "rating_puzzle": 1659,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1722553924528
   },
   {
     "id": 699,
@@ -12997,7 +13597,8 @@
     "rating_puzzle": 1555,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1681493988207
   },
   {
     "id": 700,
@@ -13017,7 +13618,8 @@
     "rating_puzzle": 1852,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1734462468815
   },
   {
     "id": 701,
@@ -13037,7 +13639,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1704345290516
   },
   {
     "id": 702,
@@ -13057,7 +13660,8 @@
     "rating_puzzle": 2525,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767886636917
   },
   {
     "id": 703,
@@ -13077,7 +13681,8 @@
     "rating_puzzle": 2108,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767603808698
   },
   {
     "id": 704,
@@ -13087,7 +13692,7 @@
     "last_seen_api_timestamp": null,
     "status": "active",
     "id_lichess": "mbhh",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 705,
@@ -13107,7 +13712,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1614344266357
   },
   {
     "id": 706,
@@ -13127,7 +13733,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1698499640549
   },
   {
     "id": 707,
@@ -13147,7 +13754,8 @@
     "rating_puzzle": 2268,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1765290546792
   },
   {
     "id": 708,
@@ -13167,7 +13775,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1626141022637
   },
   {
     "id": 709,
@@ -13177,7 +13786,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "xepobactehbko",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 710,
@@ -13187,7 +13796,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "ches_pachmin",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 711,
@@ -13197,7 +13806,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "mesem01",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 712,
@@ -13217,7 +13826,8 @@
     "rating_puzzle": 954,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1724919383155
   },
   {
     "id": 713,
@@ -13227,7 +13837,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "chessgms35",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 714,
@@ -13237,7 +13847,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "aliyahars06",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 715,
@@ -13257,7 +13867,8 @@
     "rating_puzzle": 1916,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1706439011263
   },
   {
     "id": 716,
@@ -13267,7 +13878,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "soumyadeep_295",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 717,
@@ -13277,7 +13888,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "zeomax",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 718,
@@ -13287,7 +13898,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "vddmitrik1973",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 719,
@@ -13307,7 +13918,8 @@
     "rating_puzzle": 1402,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767735183059
   },
   {
     "id": 720,
@@ -13327,7 +13939,8 @@
     "rating_puzzle": 1817,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1676784672929
   },
   {
     "id": 721,
@@ -13347,7 +13960,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1607509306732
   },
   {
     "id": 722,
@@ -13367,7 +13981,8 @@
     "rating_puzzle": 2001,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1764119950673
   },
   {
     "id": 723,
@@ -13387,7 +14002,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1622860027617
   },
   {
     "id": 724,
@@ -13407,7 +14023,8 @@
     "rating_puzzle": 2014,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1646754238664
   },
   {
     "id": 725,
@@ -13427,7 +14044,8 @@
     "rating_puzzle": 1176,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1622908419674
   },
   {
     "id": 726,
@@ -13447,7 +14065,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1653694229962
   },
   {
     "id": 727,
@@ -13467,7 +14086,8 @@
     "rating_puzzle": 2456,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767891354441
   },
   {
     "id": 728,
@@ -13487,7 +14107,8 @@
     "rating_puzzle": 1296,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1648752831973
   },
   {
     "id": 729,
@@ -13507,7 +14128,8 @@
     "rating_puzzle": 2152,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1608520847979
   },
   {
     "id": 730,
@@ -13527,7 +14149,8 @@
     "rating_puzzle": 1254,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1647353523536
   },
   {
     "id": 731,
@@ -13537,7 +14160,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "jogador34",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 732,
@@ -13557,7 +14180,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1613171014706
   },
   {
     "id": 733,
@@ -13577,7 +14201,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1613232053051
   },
   {
     "id": 734,
@@ -13597,7 +14222,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1666648570167
   },
   {
     "id": 735,
@@ -13617,7 +14243,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1653356386351
   },
   {
     "id": 736,
@@ -13637,7 +14264,8 @@
     "rating_puzzle": 1765,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1748384055329
   },
   {
     "id": 737,
@@ -13657,7 +14285,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1715983381530
   },
   {
     "id": 738,
@@ -13677,7 +14306,8 @@
     "rating_puzzle": 1813,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767905780107
   },
   {
     "id": 739,
@@ -13697,7 +14327,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1686316974788
   },
   {
     "id": 740,
@@ -13717,7 +14348,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1725404200116
   },
   {
     "id": 741,
@@ -13727,7 +14359,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "daniil_prokofev42443",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 742,
@@ -13747,7 +14379,8 @@
     "rating_puzzle": 2604,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767866551861
   },
   {
     "id": 743,
@@ -13757,7 +14390,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "marmas",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 744,
@@ -13777,7 +14410,8 @@
     "rating_puzzle": 2127,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1758524549830
   },
   {
     "id": 745,
@@ -13797,7 +14431,8 @@
     "rating_puzzle": 1353,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1673977808772
   },
   {
     "id": 746,
@@ -13807,7 +14442,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "irmaododaniel",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 747,
@@ -13827,7 +14462,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1646112474171
   },
   {
     "id": 748,
@@ -13847,7 +14483,8 @@
     "rating_puzzle": 840,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1733781922850
   },
   {
     "id": 749,
@@ -13867,7 +14504,8 @@
     "rating_puzzle": 2129,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1745355397606
   },
   {
     "id": 750,
@@ -13887,7 +14525,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1600470214114
   },
   {
     "id": 751,
@@ -13907,7 +14546,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1680438549947
   },
   {
     "id": 752,
@@ -13927,7 +14567,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1714868127984
   },
   {
     "id": 753,
@@ -13947,7 +14588,8 @@
     "rating_puzzle": 1377,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1698506143538
   },
   {
     "id": 754,
@@ -13967,7 +14609,8 @@
     "rating_puzzle": 2466,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1683342591940
   },
   {
     "id": 755,
@@ -13987,7 +14630,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1624053032901
   },
   {
     "id": 756,
@@ -14007,7 +14651,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1677881017149
   },
   {
     "id": 757,
@@ -14027,7 +14672,8 @@
     "rating_puzzle": 1350,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1673368413945
   },
   {
     "id": 758,
@@ -14047,7 +14693,8 @@
     "rating_puzzle": 1745,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767833771466
   },
   {
     "id": 759,
@@ -14057,7 +14704,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "renmy500",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 760,
@@ -14077,7 +14724,8 @@
     "rating_puzzle": 1822,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767898311551
   },
   {
     "id": 761,
@@ -14097,7 +14745,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1682546623588
   },
   {
     "id": 762,
@@ -14117,7 +14766,8 @@
     "rating_puzzle": 2075,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1717433456531
   },
   {
     "id": 763,
@@ -14137,7 +14787,8 @@
     "rating_puzzle": 2107,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766829214173
   },
   {
     "id": 764,
@@ -14157,7 +14808,8 @@
     "rating_puzzle": 2190,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1756574558285
   },
   {
     "id": 765,
@@ -14177,7 +14829,8 @@
     "rating_puzzle": 2348,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1651472067974
   },
   {
     "id": 766,
@@ -14197,7 +14850,8 @@
     "rating_puzzle": 1723,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1736174400544
   },
   {
     "id": 767,
@@ -14207,7 +14861,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "martin_reid",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 768,
@@ -14227,7 +14881,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1639776473253
   },
   {
     "id": 769,
@@ -14247,7 +14902,8 @@
     "rating_puzzle": 1703,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767910713267
   },
   {
     "id": 770,
@@ -14257,7 +14913,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "markbravewarrior2008",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 771,
@@ -14277,7 +14933,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1650766043196
   },
   {
     "id": 772,
@@ -14297,7 +14954,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1650746192647
   },
   {
     "id": 773,
@@ -14317,7 +14975,8 @@
     "rating_puzzle": 1900,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1726525237612
   },
   {
     "id": 774,
@@ -14337,7 +14996,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1676656961999
   },
   {
     "id": 775,
@@ -14357,7 +15017,8 @@
     "rating_puzzle": 1849,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1738017041333
   },
   {
     "id": 776,
@@ -14377,7 +15038,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1614977848754
   },
   {
     "id": 777,
@@ -14397,7 +15059,8 @@
     "rating_puzzle": 1888,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1766059284279
   },
   {
     "id": 778,
@@ -14407,7 +15070,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "rosivansantos",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 779,
@@ -14427,7 +15090,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1731387122087
   },
   {
     "id": 780,
@@ -14447,7 +15111,8 @@
     "rating_puzzle": 1574,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767833894981
   },
   {
     "id": 781,
@@ -14467,7 +15132,8 @@
     "rating_puzzle": 1947,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767910260729
   },
   {
     "id": 782,
@@ -14487,7 +15153,8 @@
     "rating_puzzle": 1925,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767498510252
   },
   {
     "id": 783,
@@ -14507,7 +15174,8 @@
     "rating_puzzle": 1765,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767885603402
   },
   {
     "id": 784,
@@ -14517,7 +15185,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "reialex",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 785,
@@ -14537,7 +15205,8 @@
     "rating_puzzle": 1244,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767781161554
   },
   {
     "id": 786,
@@ -14557,7 +15226,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1742774948740
   },
   {
     "id": 787,
@@ -14577,7 +15247,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1750723391794
   },
   {
     "id": 788,
@@ -14597,7 +15268,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1729894850962
   },
   {
     "id": 789,
@@ -14617,7 +15289,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1615409066264
   },
   {
     "id": 790,
@@ -14627,7 +15300,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "gmsjlle",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 791,
@@ -14647,7 +15320,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1681513781296
   },
   {
     "id": 792,
@@ -14667,7 +15341,8 @@
     "rating_puzzle": 1759,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1763824477001
   },
   {
     "id": 793,
@@ -14687,7 +15362,8 @@
     "rating_puzzle": 1307,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1715992537017
   },
   {
     "id": 794,
@@ -14707,7 +15383,8 @@
     "rating_puzzle": 2274,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1736038585087
   },
   {
     "id": 795,
@@ -14727,7 +15404,8 @@
     "rating_puzzle": 2178,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1655410053489
   },
   {
     "id": 796,
@@ -14747,7 +15425,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1765648124370
   },
   {
     "id": 797,
@@ -14767,7 +15446,8 @@
     "rating_puzzle": 1655,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767867721771
   },
   {
     "id": 798,
@@ -14787,7 +15467,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767904635460
   },
   {
     "id": 799,
@@ -14807,7 +15488,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767486873243
   },
   {
     "id": 800,
@@ -14817,7 +15499,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "ribirth11",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 801,
@@ -14837,7 +15519,8 @@
     "rating_puzzle": 2022,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1751056590646
   },
   {
     "id": 802,
@@ -14857,7 +15540,8 @@
     "rating_puzzle": 2000,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1764955848398
   },
   {
     "id": 803,
@@ -14867,7 +15551,7 @@
     "last_seen_api_timestamp": null,
     "status": "inactive",
     "id_lichess": "luchasco",
-    "closed_account": false
+    "closed_account": null
   },
   {
     "id": 804,
@@ -14887,7 +15571,8 @@
     "rating_puzzle": 1814,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1755974603140
   },
   {
     "id": 805,
@@ -14907,7 +15592,8 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767716064321
   },
   {
     "id": 806,
@@ -14927,7 +15613,8 @@
     "rating_puzzle": 2156,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767347252472
   },
   {
     "id": 807,
@@ -14947,7 +15634,8 @@
     "rating_puzzle": 2064,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1767910772640
   },
   {
     "id": 808,
@@ -14967,7 +15655,8 @@
     "rating_puzzle": 1271,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1745986279671
   },
   {
     "id": 809,
@@ -14987,6 +15676,7 @@
     "rating_puzzle": 1428,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "last_seen_api": 1717018240551
   }
 ]

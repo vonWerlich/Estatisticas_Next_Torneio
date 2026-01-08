@@ -2,7 +2,7 @@
   {
     "username": "enriquekiki",
     "id_lichess": "enriquekiki",
-    "last_seen_api": null,
+    "last_seen_api": 1767902355337,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -15,12 +15,13 @@
     "rating_puzzle": 2174,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "BillySnick",
     "id_lichess": "billysnick",
-    "last_seen_api": null,
+    "last_seen_api": 1767808978548,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -33,12 +34,13 @@
     "rating_puzzle": 2023,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Martinez84",
     "id_lichess": "martinez84",
-    "last_seen_api": null,
+    "last_seen_api": 1765206535565,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -51,12 +53,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "HenriqueXadrezJlle",
     "id_lichess": "henriquexadrezjlle",
-    "last_seen_api": null,
+    "last_seen_api": 1767203803403,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -69,12 +72,13 @@
     "rating_puzzle": 1140,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "CakraChess77",
     "id_lichess": "cakrachess77",
-    "last_seen_api": null,
+    "last_seen_api": 1767074626913,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -87,12 +91,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "lucatrix777",
     "id_lichess": "lucatrix777",
-    "last_seen_api": null,
+    "last_seen_api": 1766194777627,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -105,12 +110,13 @@
     "rating_puzzle": 1159,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Tardu17",
     "id_lichess": "tardu17",
-    "last_seen_api": null,
+    "last_seen_api": 1767881215214,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -123,12 +129,13 @@
     "rating_puzzle": 1664,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "HEliasP",
     "id_lichess": "heliasp",
-    "last_seen_api": null,
+    "last_seen_api": 1767371758886,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -141,12 +148,13 @@
     "rating_puzzle": 1792,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "AbelCOLMA252B",
     "id_lichess": "abelcolma252b",
-    "last_seen_api": null,
+    "last_seen_api": 1759502640730,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -159,12 +167,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "M_Mallorca",
     "id_lichess": "m_mallorca",
-    "last_seen_api": null,
+    "last_seen_api": 1759255024427,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -177,12 +186,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "panky2012",
     "id_lichess": "panky2012",
-    "last_seen_api": null,
+    "last_seen_api": 1759417316245,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -195,12 +205,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "VinyciusZ",
     "id_lichess": "vinyciusz",
-    "last_seen_api": null,
+    "last_seen_api": 1756838550390,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -213,12 +224,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "nascimentoeric",
     "id_lichess": "nascimentoeric",
-    "last_seen_api": null,
+    "last_seen_api": 1756834999383,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -231,12 +243,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Felipe-R",
     "id_lichess": "felipe-r",
-    "last_seen_api": null,
+    "last_seen_api": 1756770833286,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -249,12 +262,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "vieroBruno",
     "id_lichess": "vierobruno",
-    "last_seen_api": null,
+    "last_seen_api": 1760050131856,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -267,12 +281,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "otavio_nandi",
     "id_lichess": "otavio_nandi",
-    "last_seen_api": null,
+    "last_seen_api": 1756380193905,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -285,12 +300,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "PedroJBH",
     "id_lichess": "pedrojbh",
-    "last_seen_api": null,
+    "last_seen_api": 1760550086674,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -303,12 +319,13 @@
     "rating_puzzle": 1291,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "jandicard",
     "id_lichess": "jandicard",
-    "last_seen_api": null,
+    "last_seen_api": 1756346186229,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -321,12 +338,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "amilka-lilian",
     "id_lichess": "amilka-lilian",
-    "last_seen_api": null,
+    "last_seen_api": 1756342255441,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -339,12 +357,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "LorenzoGadotti",
     "id_lichess": "lorenzogadotti",
-    "last_seen_api": null,
+    "last_seen_api": 1759339670668,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -357,12 +376,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "joaovdelgado",
     "id_lichess": "joaovdelgado",
-    "last_seen_api": null,
+    "last_seen_api": 1756333689242,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -375,12 +395,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Leonardo_Nunes_Muniz",
     "id_lichess": "leonardo_nunes_muniz",
-    "last_seen_api": null,
+    "last_seen_api": 1756332774027,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -393,12 +414,13 @@
     "rating_puzzle": 1470,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "dani3l77",
     "id_lichess": "dani3l77",
-    "last_seen_api": null,
+    "last_seen_api": 1756332166911,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -411,12 +433,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "LBachh",
     "id_lichess": "lbachh",
-    "last_seen_api": null,
+    "last_seen_api": 1756342809365,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -429,12 +452,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "JoaoSpezia",
     "id_lichess": "joaospezia",
-    "last_seen_api": null,
+    "last_seen_api": 1756297138071,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -447,12 +471,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "lbr5539",
     "id_lichess": "lbr5539",
-    "last_seen_api": null,
+    "last_seen_api": 1756267362201,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -465,12 +490,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "filipezimmermann",
     "id_lichess": "filipezimmermann",
-    "last_seen_api": null,
+    "last_seen_api": 1756862023590,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -483,12 +509,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "carolina_almeida",
     "id_lichess": "carolina_almeida",
-    "last_seen_api": null,
+    "last_seen_api": 1759886146860,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -501,12 +528,13 @@
     "rating_puzzle": 1280,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Maria_Schossler",
     "id_lichess": "maria_schossler",
-    "last_seen_api": null,
+    "last_seen_api": 1756253875250,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -519,12 +547,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "victorloh8",
     "id_lichess": "victorloh8",
-    "last_seen_api": null,
+    "last_seen_api": 1761170300450,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -537,12 +566,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Igrzin",
     "id_lichess": "igrzin",
-    "last_seen_api": null,
+    "last_seen_api": 1760403684058,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -555,12 +585,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Ju_Schoma",
     "id_lichess": "ju_schoma",
-    "last_seen_api": null,
+    "last_seen_api": 1756774767616,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -573,12 +604,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "joao_2",
     "id_lichess": "joao_2",
-    "last_seen_api": null,
+    "last_seen_api": 1756257935297,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -591,12 +623,13 @@
     "rating_puzzle": 1864,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "GabrielGabas",
     "id_lichess": "gabrielgabas",
-    "last_seen_api": null,
+    "last_seen_api": 1756245255566,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -609,12 +642,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "CleaSouza13",
     "id_lichess": "cleasouza13",
-    "last_seen_api": null,
+    "last_seen_api": 1757979555271,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -627,12 +661,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "JoseAugusto543",
     "id_lichess": "joseaugusto543",
-    "last_seen_api": null,
+    "last_seen_api": 1756256650081,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -645,12 +680,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "vjuann",
     "id_lichess": "vjuann",
-    "last_seen_api": null,
+    "last_seen_api": 1756403643635,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -663,12 +699,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "shinigami-Ace",
     "id_lichess": "shinigami-ace",
-    "last_seen_api": null,
+    "last_seen_api": 1764914192312,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -681,12 +718,13 @@
     "rating_puzzle": 1160,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "iaggo",
     "id_lichess": "iaggo",
-    "last_seen_api": null,
+    "last_seen_api": 1762378111439,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -699,12 +737,13 @@
     "rating_puzzle": 2046,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "YHBA",
     "id_lichess": "yhba",
-    "last_seen_api": null,
+    "last_seen_api": 1751431285293,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -717,12 +756,13 @@
     "rating_puzzle": 1942,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Deepakgopi",
     "id_lichess": "deepakgopi",
-    "last_seen_api": null,
+    "last_seen_api": 1766074874019,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -741,7 +781,7 @@
   {
     "username": "Chesgros157",
     "id_lichess": "chesgros157",
-    "last_seen_api": null,
+    "last_seen_api": 1767893834462,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -754,12 +794,13 @@
     "rating_puzzle": 1266,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Gorilcho",
     "id_lichess": "gorilcho",
-    "last_seen_api": null,
+    "last_seen_api": 1767812133242,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -772,12 +813,13 @@
     "rating_puzzle": 1575,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "tssn1",
     "id_lichess": "tssn1",
-    "last_seen_api": null,
+    "last_seen_api": 1767883028559,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -790,12 +832,13 @@
     "rating_puzzle": 2028,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Darshan0703",
     "id_lichess": "darshan0703",
-    "last_seen_api": null,
+    "last_seen_api": 1767885154462,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -808,12 +851,13 @@
     "rating_puzzle": 2234,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Priyansh-85_44",
     "id_lichess": "priyansh-85_44",
-    "last_seen_api": null,
+    "last_seen_api": 1754848839026,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -826,12 +870,13 @@
     "rating_puzzle": 1616,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "RaYzA",
     "id_lichess": "rayza",
-    "last_seen_api": null,
+    "last_seen_api": 1767747778285,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -844,12 +889,13 @@
     "rating_puzzle": 2173,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Mike_Ticona",
     "id_lichess": "mike_ticona",
-    "last_seen_api": null,
+    "last_seen_api": 1767568158143,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -862,12 +908,13 @@
     "rating_puzzle": 1588,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "FilipeSDLMAB251",
     "id_lichess": "filipesdlmab251",
-    "last_seen_api": null,
+    "last_seen_api": 1748642928831,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -880,12 +927,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "fepiets",
     "id_lichess": "fepiets",
-    "last_seen_api": null,
+    "last_seen_api": 1745968121477,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -898,12 +946,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "MandyNhaaa",
     "id_lichess": "mandynhaaa",
-    "last_seen_api": null,
+    "last_seen_api": 1745970459853,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -916,12 +965,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Skyloox",
     "id_lichess": "skyloox",
-    "last_seen_api": null,
+    "last_seen_api": 1745967729027,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -934,12 +984,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "andreeduschmitz",
     "id_lichess": "andreeduschmitz",
-    "last_seen_api": null,
+    "last_seen_api": 1745967739505,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -952,12 +1003,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "isapiets",
     "id_lichess": "isapiets",
-    "last_seen_api": null,
+    "last_seen_api": 1745970342078,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -970,12 +1022,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "RuanDC",
     "id_lichess": "ruandc",
-    "last_seen_api": null,
+    "last_seen_api": 1745967898867,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -988,12 +1041,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Daniboy25",
     "id_lichess": "daniboy25",
-    "last_seen_api": null,
+    "last_seen_api": 1746011053162,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1006,12 +1060,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "inara_ribeiro",
     "id_lichess": "inara_ribeiro",
-    "last_seen_api": null,
+    "last_seen_api": 1745967445981,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1024,12 +1079,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "RodzCosta",
     "id_lichess": "rodzcosta",
-    "last_seen_api": null,
+    "last_seen_api": 1745973039096,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1042,12 +1098,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "NunesErick",
     "id_lichess": "nuneserick",
-    "last_seen_api": null,
+    "last_seen_api": 1745970585451,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1060,12 +1117,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "jwrdwn",
     "id_lichess": "jwrdwn",
-    "last_seen_api": null,
+    "last_seen_api": 1745968336336,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1078,12 +1136,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Flavin_do_pineu",
     "id_lichess": "flavin_do_pineu",
-    "last_seen_api": null,
+    "last_seen_api": 1745968387675,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1096,12 +1155,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "NomiGusta",
     "id_lichess": "nomigusta",
-    "last_seen_api": null,
+    "last_seen_api": 1767610555654,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1114,12 +1174,13 @@
     "rating_puzzle": 1429,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "ikechess1",
     "id_lichess": "ikechess1",
-    "last_seen_api": null,
+    "last_seen_api": 1745634026537,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1132,12 +1193,13 @@
     "rating_puzzle": 1565,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "andrebolivia",
     "id_lichess": "andrebolivia",
-    "last_seen_api": null,
+    "last_seen_api": 1736050079693,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1150,12 +1212,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "badrik1",
     "id_lichess": "badrik1",
-    "last_seen_api": null,
+    "last_seen_api": 1741199215305,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1168,12 +1231,13 @@
     "rating_puzzle": 2248,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Maximiano_Souza",
     "id_lichess": "maximiano_souza",
-    "last_seen_api": null,
+    "last_seen_api": 1732667004699,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1186,12 +1250,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Murilomartins589",
     "id_lichess": "murilomartins589",
-    "last_seen_api": null,
+    "last_seen_api": 1730858662910,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1204,12 +1269,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Gabrielk1978X",
     "id_lichess": "gabrielk1978x",
-    "last_seen_api": null,
+    "last_seen_api": 1730587614077,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1222,12 +1288,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Andreluisch",
     "id_lichess": "andreluisch",
-    "last_seen_api": null,
+    "last_seen_api": 1766957282839,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1240,12 +1307,13 @@
     "rating_puzzle": 1471,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "ulrik05",
     "id_lichess": "ulrik05",
-    "last_seen_api": null,
+    "last_seen_api": 1725052866223,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1258,12 +1326,13 @@
     "rating_puzzle": 2167,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Duque_de_Iguataua",
     "id_lichess": "duque_de_iguataua",
-    "last_seen_api": null,
+    "last_seen_api": 1767899944574,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1276,12 +1345,13 @@
     "rating_puzzle": 1948,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "SFA_Raphael",
     "id_lichess": "sfa_raphael",
-    "last_seen_api": null,
+    "last_seen_api": 1744378247947,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1294,12 +1364,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "PandaAnonimo",
     "id_lichess": "pandaanonimo",
-    "last_seen_api": null,
+    "last_seen_api": 1767752937839,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1312,12 +1383,13 @@
     "rating_puzzle": 1519,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "ValeraV-2072",
     "id_lichess": "valerav-2072",
-    "last_seen_api": null,
+    "last_seen_api": 1767881333891,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1330,12 +1402,13 @@
     "rating_puzzle": 2950,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "soaresbizarro",
     "id_lichess": "soaresbizarro",
-    "last_seen_api": null,
+    "last_seen_api": 1766622638082,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1348,12 +1421,13 @@
     "rating_puzzle": 1885,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "dttvghost",
     "id_lichess": "dttvghost",
-    "last_seen_api": null,
+    "last_seen_api": 1716589521030,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1366,12 +1440,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Davidoff40",
     "id_lichess": "davidoff40",
-    "last_seen_api": null,
+    "last_seen_api": 1767150479285,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1384,12 +1459,13 @@
     "rating_puzzle": 1776,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "davidavidavi01",
     "id_lichess": "davidavidavi01",
-    "last_seen_api": null,
+    "last_seen_api": 1732281098453,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1402,12 +1478,13 @@
     "rating_puzzle": 1538,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Lucas28209",
     "id_lichess": "lucas28209",
-    "last_seen_api": null,
+    "last_seen_api": 1753893706178,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1420,12 +1497,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Laragabriellychess",
     "id_lichess": "laragabriellychess",
-    "last_seen_api": null,
+    "last_seen_api": 1712720987493,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1438,12 +1516,13 @@
     "rating_puzzle": 1282,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Gabrielhenrhridodk",
     "id_lichess": "gabrielhenrhridodk",
-    "last_seen_api": null,
+    "last_seen_api": 1709932567707,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1456,12 +1535,13 @@
     "rating_puzzle": 1133,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "CircuitoBlitzCbx2024",
     "id_lichess": "circuitoblitzcbx2024",
-    "last_seen_api": null,
+    "last_seen_api": 1709303406035,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1480,7 +1560,7 @@
   {
     "username": "ldittrich",
     "id_lichess": "ldittrich",
-    "last_seen_api": null,
+    "last_seen_api": 1755375473479,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1493,12 +1573,13 @@
     "rating_puzzle": 1543,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "NatanHenrique",
     "id_lichess": "natanhenrique",
-    "last_seen_api": null,
+    "last_seen_api": 1759666266830,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1511,12 +1592,13 @@
     "rating_puzzle": 1885,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Bkornetoff",
     "id_lichess": "bkornetoff",
-    "last_seen_api": null,
+    "last_seen_api": 1763095892941,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1529,12 +1611,13 @@
     "rating_puzzle": 835,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "JoaoOtavioStobe1",
     "id_lichess": "joaootaviostobe1",
-    "last_seen_api": null,
+    "last_seen_api": 1708606189314,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1547,12 +1630,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "mhm81",
     "id_lichess": "mhm81",
-    "last_seen_api": null,
+    "last_seen_api": 1755696344167,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1565,12 +1649,13 @@
     "rating_puzzle": 2220,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Jobel62",
     "id_lichess": "jobel62",
-    "last_seen_api": null,
+    "last_seen_api": 1701393063577,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1583,12 +1668,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "PauloSunao",
     "id_lichess": "paulosunao",
-    "last_seen_api": null,
+    "last_seen_api": 1767545186350,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1601,12 +1687,13 @@
     "rating_puzzle": 1859,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "BFGomes1992",
     "id_lichess": "bfgomes1992",
-    "last_seen_api": null,
+    "last_seen_api": 1723132370038,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1619,12 +1706,13 @@
     "rating_puzzle": 1707,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "jupannek",
     "id_lichess": "jupannek",
-    "last_seen_api": null,
+    "last_seen_api": 1697774191549,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1637,12 +1725,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Idonline",
     "id_lichess": "idonline",
-    "last_seen_api": null,
+    "last_seen_api": 1693594699667,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1655,12 +1744,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Elves_Moreira",
     "id_lichess": "elves_moreira",
-    "last_seen_api": null,
+    "last_seen_api": 1767906093407,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1673,12 +1763,13 @@
     "rating_puzzle": 1709,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Gubio",
     "id_lichess": "gubio",
-    "last_seen_api": null,
+    "last_seen_api": 1767629368728,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1691,12 +1782,13 @@
     "rating_puzzle": 1869,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "yanp1962",
     "id_lichess": "yanp1962",
-    "last_seen_api": null,
+    "last_seen_api": 1767846333886,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1709,12 +1801,13 @@
     "rating_puzzle": 971,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Ricardo_Krok",
     "id_lichess": "ricardo_krok",
-    "last_seen_api": null,
+    "last_seen_api": 1686958975788,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1727,12 +1820,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "nanamoon42",
     "id_lichess": "nanamoon42",
-    "last_seen_api": null,
+    "last_seen_api": 1685122800493,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1745,12 +1839,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "SthiflerLuzzi22",
     "id_lichess": "sthiflerluzzi22",
-    "last_seen_api": null,
+    "last_seen_api": 1721868866412,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1763,12 +1858,13 @@
     "rating_puzzle": 1678,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "AntonioMarcioSantos",
     "id_lichess": "antoniomarciosantos",
-    "last_seen_api": null,
+    "last_seen_api": 1683996570554,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1781,12 +1877,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Regis_marques",
     "id_lichess": "regis_marques",
-    "last_seen_api": null,
+    "last_seen_api": 1764925884500,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1799,12 +1896,13 @@
     "rating_puzzle": 1655,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "GabrielleTamy",
     "id_lichess": "gabrielletamy",
-    "last_seen_api": null,
+    "last_seen_api": 1686751253299,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1817,12 +1915,13 @@
     "rating_puzzle": 1787,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "xXRyujinXx",
     "id_lichess": "xxryujinxx",
-    "last_seen_api": null,
+    "last_seen_api": 1741920521121,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1835,12 +1934,13 @@
     "rating_puzzle": 1578,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "aiofuse",
     "id_lichess": "aiofuse",
-    "last_seen_api": null,
+    "last_seen_api": 1684605636210,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1853,12 +1953,13 @@
     "rating_puzzle": 1512,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "LEFG",
     "id_lichess": "lefg",
-    "last_seen_api": null,
+    "last_seen_api": 1682734052940,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1871,12 +1972,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "alexmaxado09",
     "id_lichess": "alexmaxado09",
-    "last_seen_api": null,
+    "last_seen_api": 1701653439144,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1889,12 +1991,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "slvcristian",
     "id_lichess": "slvcristian",
-    "last_seen_api": null,
+    "last_seen_api": 1685735788073,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1907,12 +2010,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "neumann2000",
     "id_lichess": "neumann2000",
-    "last_seen_api": null,
+    "last_seen_api": 1685058685899,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1925,12 +2029,13 @@
     "rating_puzzle": 1248,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "FAKNAKVRA",
     "id_lichess": "faknakvra",
-    "last_seen_api": null,
+    "last_seen_api": 1701549904558,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1943,12 +2048,13 @@
     "rating_puzzle": 1683,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "beatrizbruns",
     "id_lichess": "beatrizbruns",
-    "last_seen_api": null,
+    "last_seen_api": 1765768009301,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1961,12 +2067,13 @@
     "rating_puzzle": 1346,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "MHorner",
     "id_lichess": "mhorner",
-    "last_seen_api": null,
+    "last_seen_api": 1735610418373,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1979,12 +2086,13 @@
     "rating_puzzle": 2034,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Vhyz",
     "id_lichess": "vhyz",
-    "last_seen_api": null,
+    "last_seen_api": 1696945731807,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -1997,12 +2105,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Kr1m1",
     "id_lichess": "kr1m1",
-    "last_seen_api": null,
+    "last_seen_api": 1674397234292,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2021,7 +2130,7 @@
   {
     "username": "kianjabbari",
     "id_lichess": "kianjabbari",
-    "last_seen_api": null,
+    "last_seen_api": 1733303355047,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2034,12 +2143,13 @@
     "rating_puzzle": 2456,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "MRyogat",
     "id_lichess": "mryogat",
-    "last_seen_api": null,
+    "last_seen_api": 1675265603017,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2052,12 +2162,13 @@
     "rating_puzzle": 1419,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Absadyk_Jansultan16",
     "id_lichess": "absadyk_jansultan16",
-    "last_seen_api": null,
+    "last_seen_api": 1767068968116,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2070,12 +2181,13 @@
     "rating_puzzle": 1623,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Tony_Pizzakano",
     "id_lichess": "tony_pizzakano",
-    "last_seen_api": null,
+    "last_seen_api": 1673965212053,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2094,7 +2206,7 @@
   {
     "username": "Memzzchi",
     "id_lichess": "memzzchi",
-    "last_seen_api": null,
+    "last_seen_api": 1754224566854,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2107,12 +2219,13 @@
     "rating_puzzle": 1220,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "CarloDela29",
     "id_lichess": "carlodela29",
-    "last_seen_api": null,
+    "last_seen_api": 1673101638661,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2131,7 +2244,7 @@
   {
     "username": "Zylog",
     "id_lichess": "zylog",
-    "last_seen_api": null,
+    "last_seen_api": 1767753037228,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2144,12 +2257,13 @@
     "rating_puzzle": 1828,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Gabi_7",
     "id_lichess": "gabi_7",
-    "last_seen_api": null,
+    "last_seen_api": 1668813344043,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2162,12 +2276,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Rafael_Marcuzzo",
     "id_lichess": "rafael_marcuzzo",
-    "last_seen_api": null,
+    "last_seen_api": 1767901700495,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2180,12 +2295,13 @@
     "rating_puzzle": 1288,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Matheusbrplay",
     "id_lichess": "matheusbrplay",
-    "last_seen_api": null,
+    "last_seen_api": 1667607226451,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2198,12 +2314,13 @@
     "rating_puzzle": 1733,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "go3z",
     "id_lichess": "go3z",
-    "last_seen_api": null,
+    "last_seen_api": 1767900952274,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2216,12 +2333,13 @@
     "rating_puzzle": 2120,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Frantor73",
     "id_lichess": "frantor73",
-    "last_seen_api": null,
+    "last_seen_api": 1664922412159,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2234,12 +2352,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "MaxKorzh",
     "id_lichess": "maxkorzh",
-    "last_seen_api": null,
+    "last_seen_api": 1664317179871,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2252,12 +2371,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "ViniciusCoelho",
     "id_lichess": "viniciuscoelho",
-    "last_seen_api": null,
+    "last_seen_api": 1667590007567,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2270,12 +2390,13 @@
     "rating_puzzle": 1401,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "FHansenn",
     "id_lichess": "fhansenn",
-    "last_seen_api": null,
+    "last_seen_api": 1740501740384,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2288,12 +2409,13 @@
     "rating_puzzle": 1238,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Maximus5",
     "id_lichess": "maximus5",
-    "last_seen_api": null,
+    "last_seen_api": 1695595869057,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2306,12 +2428,13 @@
     "rating_puzzle": 1311,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "izackiis",
     "id_lichess": "izackiis",
-    "last_seen_api": null,
+    "last_seen_api": 1763827646880,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2324,12 +2447,13 @@
     "rating_puzzle": 2238,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "meteno",
     "id_lichess": "meteno",
-    "last_seen_api": null,
+    "last_seen_api": 1658338332082,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2342,12 +2466,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "DaileS16",
     "id_lichess": "dailes16",
-    "last_seen_api": null,
+    "last_seen_api": 1658045000940,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2366,7 +2491,7 @@
   {
     "username": "DarcioAlberico",
     "id_lichess": "darcioalberico",
-    "last_seen_api": null,
+    "last_seen_api": 1700471975027,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2379,12 +2504,13 @@
     "rating_puzzle": 2418,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "alexchmendes",
     "id_lichess": "alexchmendes",
-    "last_seen_api": null,
+    "last_seen_api": 1659791155020,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2397,12 +2523,13 @@
     "rating_puzzle": 1632,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "SrOnofri",
     "id_lichess": "sronofri",
-    "last_seen_api": null,
+    "last_seen_api": 1714598927948,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2415,12 +2542,13 @@
     "rating_puzzle": 1446,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "DontKnowWhatImDoing2",
     "id_lichess": "dontknowwhatimdoing2",
-    "last_seen_api": null,
+    "last_seen_api": 1649023730249,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2433,12 +2561,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Arthur_Ayres",
     "id_lichess": "arthur_ayres",
-    "last_seen_api": null,
+    "last_seen_api": 1650328410102,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2451,12 +2580,13 @@
     "rating_puzzle": 1597,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Petryzao",
     "id_lichess": "petryzao",
-    "last_seen_api": null,
+    "last_seen_api": 1646710374568,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2469,12 +2599,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Antoni02",
     "id_lichess": "antoni02",
-    "last_seen_api": null,
+    "last_seen_api": 1645822203985,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2487,12 +2618,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Salmos_37_8",
     "id_lichess": "salmos_37_8",
-    "last_seen_api": null,
+    "last_seen_api": 1643676327614,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2505,12 +2637,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "GuiIrai",
     "id_lichess": "guiirai",
-    "last_seen_api": null,
+    "last_seen_api": 1740963067786,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2523,12 +2656,13 @@
     "rating_puzzle": 1368,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "IsraelCarvalho",
     "id_lichess": "israelcarvalho",
-    "last_seen_api": null,
+    "last_seen_api": 1767879006847,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2541,12 +2675,13 @@
     "rating_puzzle": 1637,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "GilRodrigues",
     "id_lichess": "gilrodrigues",
-    "last_seen_api": null,
+    "last_seen_api": 1767699886179,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2559,12 +2694,13 @@
     "rating_puzzle": 2052,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Viksri2010",
     "id_lichess": "viksri2010",
-    "last_seen_api": null,
+    "last_seen_api": 1721669362753,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2577,12 +2713,13 @@
     "rating_puzzle": 1020,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "kauesr99",
     "id_lichess": "kauesr99",
-    "last_seen_api": null,
+    "last_seen_api": 1760712387176,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2595,12 +2732,13 @@
     "rating_puzzle": 1188,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Viatri27",
     "id_lichess": "viatri27",
-    "last_seen_api": null,
+    "last_seen_api": 1640190053169,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2613,12 +2751,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "gimenesc",
     "id_lichess": "gimenesc",
-    "last_seen_api": null,
+    "last_seen_api": 1767297370217,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2631,12 +2770,13 @@
     "rating_puzzle": 1980,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "chaitanyajain",
     "id_lichess": "chaitanyajain",
-    "last_seen_api": null,
+    "last_seen_api": 1763889701449,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2649,12 +2789,13 @@
     "rating_puzzle": 1067,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "duduMT13",
     "id_lichess": "dudumt13",
-    "last_seen_api": null,
+    "last_seen_api": 1717389310143,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2667,12 +2808,13 @@
     "rating_puzzle": 1814,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "MagicJ77",
     "id_lichess": "magicj77",
-    "last_seen_api": null,
+    "last_seen_api": 1767106307724,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2685,12 +2827,13 @@
     "rating_puzzle": 2009,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Grimshaw_Eden",
     "id_lichess": "grimshaw_eden",
-    "last_seen_api": null,
+    "last_seen_api": 1638313299663,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2703,12 +2846,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "jppcel",
     "id_lichess": "jppcel",
-    "last_seen_api": null,
+    "last_seen_api": 1762989175122,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2721,12 +2865,13 @@
     "rating_puzzle": 1389,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "funtimefredy",
     "id_lichess": "funtimefredy",
-    "last_seen_api": null,
+    "last_seen_api": 1767712762699,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2745,7 +2890,7 @@
   {
     "username": "alan22",
     "id_lichess": "alan22",
-    "last_seen_api": null,
+    "last_seen_api": 1636746984892,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2764,7 +2909,7 @@
   {
     "username": "d0n4th",
     "id_lichess": "d0n4th",
-    "last_seen_api": null,
+    "last_seen_api": 1767740825267,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2777,12 +2922,13 @@
     "rating_puzzle": 1900,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "CapoeiraPlaymobil",
     "id_lichess": "capoeiraplaymobil",
-    "last_seen_api": null,
+    "last_seen_api": 1767734643358,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2795,12 +2941,13 @@
     "rating_puzzle": 2186,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "tavinmouse1234",
     "id_lichess": "tavinmouse1234",
-    "last_seen_api": null,
+    "last_seen_api": 1637704270791,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2813,12 +2960,13 @@
     "rating_puzzle": 1588,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "PsychoaktivesKoffein",
     "id_lichess": "psychoaktiveskoffein",
-    "last_seen_api": null,
+    "last_seen_api": 1628924445845,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2831,12 +2979,13 @@
     "rating_puzzle": 1220,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "DiegoLeu",
     "id_lichess": "diegoleu",
-    "last_seen_api": null,
+    "last_seen_api": 1692031020752,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2849,12 +2998,13 @@
     "rating_puzzle": 1464,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Jafarbek2012",
     "id_lichess": "jafarbek2012",
-    "last_seen_api": null,
+    "last_seen_api": 1767175656975,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2867,12 +3017,13 @@
     "rating_puzzle": 2076,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Bialipinski",
     "id_lichess": "bialipinski",
-    "last_seen_api": null,
+    "last_seen_api": 1636402429785,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2885,12 +3036,13 @@
     "rating_puzzle": 1297,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Ghouleh",
     "id_lichess": "ghouleh",
-    "last_seen_api": null,
+    "last_seen_api": 1625938844300,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2903,12 +3055,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "ArYt_8502",
     "id_lichess": "aryt_8502",
-    "last_seen_api": null,
+    "last_seen_api": 1710347678600,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2921,12 +3074,13 @@
     "rating_puzzle": 1127,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "LeoSanSil",
     "id_lichess": "leosansil",
-    "last_seen_api": null,
+    "last_seen_api": 1626030446497,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2939,12 +3093,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "levimilton",
     "id_lichess": "levimilton",
-    "last_seen_api": null,
+    "last_seen_api": 1640921981526,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2957,12 +3112,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "GabrielJD",
     "id_lichess": "gabrieljd",
-    "last_seen_api": null,
+    "last_seen_api": 1625835537940,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -2975,12 +3131,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "AlexNovitz",
     "id_lichess": "alexnovitz",
-    "last_seen_api": null,
+    "last_seen_api": 1767832884215,
     "joined_team": true,
     "title": "NM",
     "country": null,
@@ -2993,12 +3150,13 @@
     "rating_puzzle": 2393,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Srael-Amil",
     "id_lichess": "srael-amil",
-    "last_seen_api": null,
+    "last_seen_api": 1687547673302,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3011,12 +3169,13 @@
     "rating_puzzle": 2535,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "lucasaq",
     "id_lichess": "lucasaq",
-    "last_seen_api": null,
+    "last_seen_api": 1767891979313,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3029,12 +3188,13 @@
     "rating_puzzle": 1765,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "JJAS_07",
     "id_lichess": "jjas_07",
-    "last_seen_api": null,
+    "last_seen_api": 1717081437570,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3047,12 +3207,13 @@
     "rating_puzzle": 1470,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "OswaldoSoares",
     "id_lichess": "oswaldosoares",
-    "last_seen_api": null,
+    "last_seen_api": 1766853207651,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3065,12 +3226,13 @@
     "rating_puzzle": 1799,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "theNewOrder",
     "id_lichess": "theneworder",
-    "last_seen_api": null,
+    "last_seen_api": 1623453282491,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3083,12 +3245,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "BRCristian",
     "id_lichess": "brcristian",
-    "last_seen_api": null,
+    "last_seen_api": 1632095710035,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3101,12 +3264,13 @@
     "rating_puzzle": 1301,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "guiddiel",
     "id_lichess": "guiddiel",
-    "last_seen_api": null,
+    "last_seen_api": 1621960173644,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3119,12 +3283,13 @@
     "rating_puzzle": 1467,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "JaisonNeppel",
     "id_lichess": "jaisonneppel",
-    "last_seen_api": null,
+    "last_seen_api": 1748731283482,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3137,12 +3302,13 @@
     "rating_puzzle": 1506,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "MaxTS",
     "id_lichess": "maxts",
-    "last_seen_api": null,
+    "last_seen_api": 1757349835663,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3155,12 +3321,13 @@
     "rating_puzzle": 1948,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Favokres",
     "id_lichess": "favokres",
-    "last_seen_api": null,
+    "last_seen_api": 1764783435120,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3173,12 +3340,13 @@
     "rating_puzzle": 2236,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Junior_folle",
     "id_lichess": "junior_folle",
-    "last_seen_api": null,
+    "last_seen_api": 1767879681558,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3191,12 +3359,13 @@
     "rating_puzzle": 1164,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "yungtk",
     "id_lichess": "yungtk",
-    "last_seen_api": null,
+    "last_seen_api": 1683322293508,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3209,12 +3378,13 @@
     "rating_puzzle": 1422,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "JOAOMATECOMTOMATE",
     "id_lichess": "joaomatecomtomate",
-    "last_seen_api": null,
+    "last_seen_api": 1759770895565,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3227,12 +3397,13 @@
     "rating_puzzle": 2104,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "naissinger",
     "id_lichess": "naissinger",
-    "last_seen_api": null,
+    "last_seen_api": 1767834925762,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3245,12 +3416,13 @@
     "rating_puzzle": 1972,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "DiegoXDZ",
     "id_lichess": "diegoxdz",
-    "last_seen_api": null,
+    "last_seen_api": 1618007487385,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3269,7 +3441,7 @@
   {
     "username": "rodrigoalexandre",
     "id_lichess": "rodrigoalexandre",
-    "last_seen_api": null,
+    "last_seen_api": 1673898249018,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3282,12 +3454,13 @@
     "rating_puzzle": 1639,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "capistrano",
     "id_lichess": "capistrano",
-    "last_seen_api": null,
+    "last_seen_api": 1735958344657,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3300,12 +3473,13 @@
     "rating_puzzle": 1383,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "pato_jlle",
     "id_lichess": "pato_jlle",
-    "last_seen_api": null,
+    "last_seen_api": 1619624124209,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3318,12 +3492,13 @@
     "rating_puzzle": 2279,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "GabrielAlex",
     "id_lichess": "gabrielalex",
-    "last_seen_api": null,
+    "last_seen_api": 1622694321988,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3336,12 +3511,13 @@
     "rating_puzzle": 1756,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "MK2017",
     "id_lichess": "mk2017",
-    "last_seen_api": null,
+    "last_seen_api": 1767900826034,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3354,12 +3530,13 @@
     "rating_puzzle": 1583,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Jranhaia",
     "id_lichess": "jranhaia",
-    "last_seen_api": null,
+    "last_seen_api": 1739939980446,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3372,12 +3549,13 @@
     "rating_puzzle": 1321,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Valdoni",
     "id_lichess": "valdoni",
-    "last_seen_api": null,
+    "last_seen_api": 1741819481927,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3390,12 +3568,13 @@
     "rating_puzzle": 2152,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "leoacr",
     "id_lichess": "leoacr",
-    "last_seen_api": null,
+    "last_seen_api": 1616293932876,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3408,12 +3587,13 @@
     "rating_puzzle": 1423,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "jabnobre",
     "id_lichess": "jabnobre",
-    "last_seen_api": null,
+    "last_seen_api": 1767908817849,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3426,12 +3606,13 @@
     "rating_puzzle": 1812,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "combatente",
     "id_lichess": "combatente",
-    "last_seen_api": null,
+    "last_seen_api": 1767894645046,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3444,12 +3625,13 @@
     "rating_puzzle": 2029,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "aquiles88",
     "id_lichess": "aquiles88",
-    "last_seen_api": null,
+    "last_seen_api": 1767199117367,
     "joined_team": true,
     "title": "NM",
     "country": null,
@@ -3462,12 +3644,13 @@
     "rating_puzzle": 2417,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Sucyalg",
     "id_lichess": "sucyalg",
-    "last_seen_api": null,
+    "last_seen_api": 1767878330108,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3480,12 +3663,13 @@
     "rating_puzzle": 1860,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "casadoxadrezdosreis",
     "id_lichess": "casadoxadrezdosreis",
-    "last_seen_api": null,
+    "last_seen_api": 1767424661013,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3498,12 +3682,13 @@
     "rating_puzzle": 2194,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "devoschess",
     "id_lichess": "devoschess",
-    "last_seen_api": null,
+    "last_seen_api": 1767201114609,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3516,12 +3701,13 @@
     "rating_puzzle": 2008,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Prof-miguel",
     "id_lichess": "prof-miguel",
-    "last_seen_api": null,
+    "last_seen_api": 1660570924939,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3534,12 +3720,13 @@
     "rating_puzzle": 1658,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "adeilton10",
     "id_lichess": "adeilton10",
-    "last_seen_api": null,
+    "last_seen_api": 1767837196760,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3552,12 +3739,13 @@
     "rating_puzzle": 1744,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "dstrobel",
     "id_lichess": "dstrobel",
-    "last_seen_api": null,
+    "last_seen_api": 1746747841150,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3570,12 +3758,13 @@
     "rating_puzzle": 1787,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Aldebarandetouro",
     "id_lichess": "aldebarandetouro",
-    "last_seen_api": null,
+    "last_seen_api": 1615684785683,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3588,12 +3777,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "brunodOut",
     "id_lichess": "brunodout",
-    "last_seen_api": null,
+    "last_seen_api": 1633279172749,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3606,12 +3796,13 @@
     "rating_puzzle": 1881,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "bethina_next",
     "id_lichess": "bethina_next",
-    "last_seen_api": null,
+    "last_seen_api": 1614028902861,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3624,12 +3815,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "zanella01",
     "id_lichess": "zanella01",
-    "last_seen_api": null,
+    "last_seen_api": 1617400983223,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3642,12 +3834,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "ederogata",
     "id_lichess": "ederogata",
-    "last_seen_api": null,
+    "last_seen_api": 1706020354002,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3660,12 +3853,13 @@
     "rating_puzzle": 1831,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "cws_jlle",
     "id_lichess": "cws_jlle",
-    "last_seen_api": null,
+    "last_seen_api": 1613168211281,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3678,12 +3872,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "montoyalogannm",
     "id_lichess": "montoyalogannm",
-    "last_seen_api": null,
+    "last_seen_api": 1617416236102,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3696,12 +3891,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "leandrojosebernardii",
     "id_lichess": "leandrojosebernardii",
-    "last_seen_api": null,
+    "last_seen_api": 1612922970434,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3714,12 +3910,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "keanu_jeeves",
     "id_lichess": "keanu_jeeves",
-    "last_seen_api": null,
+    "last_seen_api": 1638758628732,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3732,12 +3929,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "ugoalencar",
     "id_lichess": "ugoalencar",
-    "last_seen_api": null,
+    "last_seen_api": 1613848380887,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3750,12 +3948,13 @@
     "rating_puzzle": 1826,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "haislan",
     "id_lichess": "haislan",
-    "last_seen_api": null,
+    "last_seen_api": 1754613437759,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3768,12 +3967,13 @@
     "rating_puzzle": 1390,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "paulorfarah",
     "id_lichess": "paulorfarah",
-    "last_seen_api": null,
+    "last_seen_api": 1752348504694,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3786,12 +3986,13 @@
     "rating_puzzle": 1725,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "moisesferber",
     "id_lichess": "moisesferber",
-    "last_seen_api": null,
+    "last_seen_api": 1747309920975,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3804,12 +4005,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "b-2007",
     "id_lichess": "b-2007",
-    "last_seen_api": null,
+    "last_seen_api": 1610207912161,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3822,12 +4024,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "cristianquadros07",
     "id_lichess": "cristianquadros07",
-    "last_seen_api": null,
+    "last_seen_api": 1762824755817,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3840,12 +4043,13 @@
     "rating_puzzle": 2200,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "viggianord",
     "id_lichess": "viggianord",
-    "last_seen_api": null,
+    "last_seen_api": 1757366268778,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3858,12 +4062,13 @@
     "rating_puzzle": 1439,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "ImproveTatics",
     "id_lichess": "improvetatics",
-    "last_seen_api": null,
+    "last_seen_api": 1750304489258,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3876,12 +4081,13 @@
     "rating_puzzle": 2276,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "SABBJeNnIe",
     "id_lichess": "sabbjennie",
-    "last_seen_api": null,
+    "last_seen_api": 1645986010737,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3900,7 +4106,7 @@
   {
     "username": "thiagomeisor",
     "id_lichess": "thiagomeisor",
-    "last_seen_api": null,
+    "last_seen_api": 1733885129340,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3913,12 +4119,13 @@
     "rating_puzzle": 1861,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "alessandrocarvalhaes",
     "id_lichess": "alessandrocarvalhaes",
-    "last_seen_api": null,
+    "last_seen_api": 1767909422675,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3931,12 +4138,13 @@
     "rating_puzzle": 1961,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "marcospdss",
     "id_lichess": "marcospdss",
-    "last_seen_api": null,
+    "last_seen_api": 1719144502926,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3949,12 +4157,13 @@
     "rating_puzzle": 1526,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Dmitry2010",
     "id_lichess": "dmitry2010",
-    "last_seen_api": null,
+    "last_seen_api": 1698590240565,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3967,12 +4176,13 @@
     "rating_puzzle": 2839,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "vinigasparini",
     "id_lichess": "vinigasparini",
-    "last_seen_api": null,
+    "last_seen_api": 1694548169452,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -3985,12 +4195,13 @@
     "rating_puzzle": 1981,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "bmx81",
     "id_lichess": "bmx81",
-    "last_seen_api": null,
+    "last_seen_api": 1767911554799,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4003,12 +4214,13 @@
     "rating_puzzle": 2028,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "HUGOKERMA",
     "id_lichess": "hugokerma",
-    "last_seen_api": null,
+    "last_seen_api": 1632669339502,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4021,12 +4233,13 @@
     "rating_puzzle": 1027,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "whalelife",
     "id_lichess": "whalelife",
-    "last_seen_api": null,
+    "last_seen_api": 1760599033834,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4039,12 +4252,13 @@
     "rating_puzzle": 2249,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Ahmetyagiz2010",
     "id_lichess": "ahmetyagiz2010",
-    "last_seen_api": null,
+    "last_seen_api": 1682658046496,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4057,12 +4271,13 @@
     "rating_puzzle": 1386,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "davis14",
     "id_lichess": "davis14",
-    "last_seen_api": null,
+    "last_seen_api": 1608140882886,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4081,7 +4296,7 @@
   {
     "username": "MarconiSantos",
     "id_lichess": "marconisantos",
-    "last_seen_api": null,
+    "last_seen_api": 1742907433035,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4094,12 +4309,13 @@
     "rating_puzzle": 2397,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "MiklosBajay",
     "id_lichess": "miklosbajay",
-    "last_seen_api": null,
+    "last_seen_api": 1632599345334,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4112,12 +4328,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Shibatagabriel",
     "id_lichess": "shibatagabriel",
-    "last_seen_api": null,
+    "last_seen_api": 1607560423174,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4130,12 +4347,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "stoklosa",
     "id_lichess": "stoklosa",
-    "last_seen_api": null,
+    "last_seen_api": 1618237629764,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4148,12 +4366,13 @@
     "rating_puzzle": 1440,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "eraldojr",
     "id_lichess": "eraldojr",
-    "last_seen_api": null,
+    "last_seen_api": 1647697996898,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4166,12 +4385,13 @@
     "rating_puzzle": 1526,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "SemHumildade",
     "id_lichess": "semhumildade",
-    "last_seen_api": null,
+    "last_seen_api": 1607116122030,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4184,12 +4404,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "FranciscoTomaz",
     "id_lichess": "franciscotomaz",
-    "last_seen_api": null,
+    "last_seen_api": 1624548840081,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4202,12 +4423,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "SamaSampa",
     "id_lichess": "samasampa",
-    "last_seen_api": null,
+    "last_seen_api": 1767897932622,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4220,12 +4442,13 @@
     "rating_puzzle": 2539,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "FUSCALDO",
     "id_lichess": "fuscaldo",
-    "last_seen_api": null,
+    "last_seen_api": 1606225207317,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4238,12 +4461,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "LForster",
     "id_lichess": "lforster",
-    "last_seen_api": null,
+    "last_seen_api": 1652307924477,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4256,12 +4480,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "dose10",
     "id_lichess": "dose10",
-    "last_seen_api": null,
+    "last_seen_api": 1654300566145,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4274,12 +4499,13 @@
     "rating_puzzle": 1707,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "GustavoBueno12",
     "id_lichess": "gustavobueno12",
-    "last_seen_api": null,
+    "last_seen_api": 1607053164771,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4292,12 +4518,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "davi_wollmann",
     "id_lichess": "davi_wollmann",
-    "last_seen_api": null,
+    "last_seen_api": 1695216091433,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4310,12 +4537,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "japabuda",
     "id_lichess": "japabuda",
-    "last_seen_api": null,
+    "last_seen_api": 1606422256470,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4328,12 +4556,13 @@
     "rating_puzzle": 1587,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Boscardingui",
     "id_lichess": "boscardingui",
-    "last_seen_api": null,
+    "last_seen_api": 1746659851436,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4346,12 +4575,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Gioo",
     "id_lichess": "gioo",
-    "last_seen_api": null,
+    "last_seen_api": 1767095322166,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4364,12 +4594,13 @@
     "rating_puzzle": 2073,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Vitorms5",
     "id_lichess": "vitorms5",
-    "last_seen_api": null,
+    "last_seen_api": 1632963032978,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4382,12 +4613,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "le-griffith",
     "id_lichess": "le-griffith",
-    "last_seen_api": null,
+    "last_seen_api": 1601915944890,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4400,12 +4632,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Josneiriva",
     "id_lichess": "josneiriva",
-    "last_seen_api": null,
+    "last_seen_api": 1626743360776,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4418,12 +4651,13 @@
     "rating_puzzle": 1970,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "DomGaspar",
     "id_lichess": "domgaspar",
-    "last_seen_api": null,
+    "last_seen_api": 1724499255279,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4436,12 +4670,13 @@
     "rating_puzzle": 1272,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Jose_sperry",
     "id_lichess": "jose_sperry",
-    "last_seen_api": null,
+    "last_seen_api": 1599511000473,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4454,12 +4689,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Zorranos",
     "id_lichess": "zorranos",
-    "last_seen_api": null,
+    "last_seen_api": 1598263371042,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4472,12 +4708,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Olinda1401",
     "id_lichess": "olinda1401",
-    "last_seen_api": null,
+    "last_seen_api": 1597278466759,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4490,12 +4727,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "MaxwellEdindson",
     "id_lichess": "maxwelledindson",
-    "last_seen_api": null,
+    "last_seen_api": 1767762005050,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4508,12 +4746,13 @@
     "rating_puzzle": 2153,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "helderg",
     "id_lichess": "helderg",
-    "last_seen_api": null,
+    "last_seen_api": 1726881460041,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4526,12 +4765,13 @@
     "rating_puzzle": 1735,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "silvp51",
     "id_lichess": "silvp51",
-    "last_seen_api": null,
+    "last_seen_api": 1767886280524,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4544,12 +4784,13 @@
     "rating_puzzle": 1518,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "brazilpunk",
     "id_lichess": "brazilpunk",
-    "last_seen_api": null,
+    "last_seen_api": 1603003258438,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4562,12 +4803,13 @@
     "rating_puzzle": 1789,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "GabeRegina",
     "id_lichess": "gaberegina",
-    "last_seen_api": null,
+    "last_seen_api": 1595285803299,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4580,12 +4822,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "pollhein",
     "id_lichess": "pollhein",
-    "last_seen_api": null,
+    "last_seen_api": 1767872946018,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4598,12 +4841,13 @@
     "rating_puzzle": 1614,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "reklamcedula",
     "id_lichess": "reklamcedula",
-    "last_seen_api": null,
+    "last_seen_api": 1592947424796,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4616,12 +4860,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "EraldoLeal",
     "id_lichess": "eraldoleal",
-    "last_seen_api": null,
+    "last_seen_api": 1619537992691,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4634,12 +4879,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Metantropia",
     "id_lichess": "metantropia",
-    "last_seen_api": null,
+    "last_seen_api": 1592223889203,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4652,12 +4898,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "ppnegao",
     "id_lichess": "ppnegao",
-    "last_seen_api": null,
+    "last_seen_api": 1758380142768,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4676,7 +4923,7 @@
   {
     "username": "rogerotario",
     "id_lichess": "rogerotario",
-    "last_seen_api": null,
+    "last_seen_api": 1748211493021,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4689,12 +4936,13 @@
     "rating_puzzle": 1356,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Startdust",
     "id_lichess": "startdust",
-    "last_seen_api": null,
+    "last_seen_api": 1767068214051,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4707,12 +4955,13 @@
     "rating_puzzle": 1745,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "MiGAzureKite",
     "id_lichess": "migazurekite",
-    "last_seen_api": null,
+    "last_seen_api": 1702670524371,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4725,12 +4974,13 @@
     "rating_puzzle": 2557,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "rafaelcarreiro",
     "id_lichess": "rafaelcarreiro",
-    "last_seen_api": null,
+    "last_seen_api": 1766788412441,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4743,12 +4993,13 @@
     "rating_puzzle": 2124,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "kukko",
     "id_lichess": "kukko",
-    "last_seen_api": null,
+    "last_seen_api": 1750292373970,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4761,12 +5012,13 @@
     "rating_puzzle": 1664,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Poleao",
     "id_lichess": "poleao",
-    "last_seen_api": null,
+    "last_seen_api": 1606515270500,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4779,12 +5031,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "pelizza",
     "id_lichess": "pelizza",
-    "last_seen_api": null,
+    "last_seen_api": 1590869118208,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4797,12 +5050,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "HugoHagemann",
     "id_lichess": "hugohagemann",
-    "last_seen_api": null,
+    "last_seen_api": 1767640984883,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4815,12 +5069,13 @@
     "rating_puzzle": 1472,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "alemeirelles",
     "id_lichess": "alemeirelles",
-    "last_seen_api": null,
+    "last_seen_api": 1719108343368,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4833,12 +5088,13 @@
     "rating_puzzle": 1252,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "AmandaMello",
     "id_lichess": "amandamello",
-    "last_seen_api": null,
+    "last_seen_api": 1666481777804,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4851,12 +5107,13 @@
     "rating_puzzle": 2302,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "guilhermebox",
     "id_lichess": "guilhermebox",
-    "last_seen_api": null,
+    "last_seen_api": 1591903184879,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4869,12 +5126,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "grazitomasini",
     "id_lichess": "grazitomasini",
-    "last_seen_api": null,
+    "last_seen_api": 1596846944709,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4887,12 +5145,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Gil_Anderson",
     "id_lichess": "gil_anderson",
-    "last_seen_api": null,
+    "last_seen_api": 1699472927249,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4905,12 +5164,13 @@
     "rating_puzzle": 2196,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "cristian_gaedtke",
     "id_lichess": "cristian_gaedtke",
-    "last_seen_api": null,
+    "last_seen_api": 1602098179973,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4923,12 +5183,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Robson75",
     "id_lichess": "robson75",
-    "last_seen_api": null,
+    "last_seen_api": 1589713518886,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4941,12 +5202,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "jv_vitor",
     "id_lichess": "jv_vitor",
-    "last_seen_api": null,
+    "last_seen_api": 1589579787844,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4959,12 +5221,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "felipepaupitz",
     "id_lichess": "felipepaupitz",
-    "last_seen_api": null,
+    "last_seen_api": 1767882867317,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4977,12 +5240,13 @@
     "rating_puzzle": 1740,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "andrevaldir",
     "id_lichess": "andrevaldir",
-    "last_seen_api": null,
+    "last_seen_api": 1588976928509,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -4995,12 +5259,13 @@
     "rating_puzzle": 1380,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Ultra7M78",
     "id_lichess": "ultra7m78",
-    "last_seen_api": null,
+    "last_seen_api": 1767738638733,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -5013,12 +5278,13 @@
     "rating_puzzle": 2081,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "EduNGo",
     "id_lichess": "edungo",
-    "last_seen_api": null,
+    "last_seen_api": 1589503518756,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -5031,12 +5297,13 @@
     "rating_puzzle": 1467,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Alvaro_Augusto_Zago",
     "id_lichess": "alvaro_augusto_zago",
-    "last_seen_api": null,
+    "last_seen_api": 1588611933658,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -5049,12 +5316,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "P-33",
     "id_lichess": "p-33",
-    "last_seen_api": null,
+    "last_seen_api": 1750195013735,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -5067,12 +5335,13 @@
     "rating_puzzle": 1933,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "rei-nert",
     "id_lichess": "rei-nert",
-    "last_seen_api": null,
+    "last_seen_api": 1588531670209,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -5085,12 +5354,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Olorin-Narya",
     "id_lichess": "olorin-narya",
-    "last_seen_api": null,
+    "last_seen_api": 1667963483746,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -5103,12 +5373,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "claujunior",
     "id_lichess": "claujunior",
-    "last_seen_api": null,
+    "last_seen_api": 1767826609857,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -5121,12 +5392,13 @@
     "rating_puzzle": 1908,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "beto2791",
     "id_lichess": "beto2791",
-    "last_seen_api": null,
+    "last_seen_api": 1589039196547,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -5139,12 +5411,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "TOstetto",
     "id_lichess": "tostetto",
-    "last_seen_api": null,
+    "last_seen_api": 1588566663215,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -5157,12 +5430,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "IP-NexT",
     "id_lichess": "ip-next",
-    "last_seen_api": null,
+    "last_seen_api": 1628989825972,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -5175,12 +5449,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "pinguinzao",
     "id_lichess": "pinguinzao",
-    "last_seen_api": null,
+    "last_seen_api": 1700750549524,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -5193,12 +5468,13 @@
     "rating_puzzle": 1788,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "wchess64",
     "id_lichess": "wchess64",
-    "last_seen_api": null,
+    "last_seen_api": 1754946907157,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -5211,12 +5487,13 @@
     "rating_puzzle": 1749,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "MandySteffen",
     "id_lichess": "mandysteffen",
-    "last_seen_api": null,
+    "last_seen_api": 1588296273533,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -5229,12 +5506,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "egogargula",
     "id_lichess": "egogargula",
-    "last_seen_api": null,
+    "last_seen_api": 1664554852061,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -5247,12 +5525,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "celestinogabriel",
     "id_lichess": "celestinogabriel",
-    "last_seen_api": null,
+    "last_seen_api": 1588281893128,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -5265,12 +5544,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Erasmo1976",
     "id_lichess": "erasmo1976",
-    "last_seen_api": null,
+    "last_seen_api": 1588306308085,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -5283,12 +5563,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "dduardaa",
     "id_lichess": "dduardaa",
-    "last_seen_api": null,
+    "last_seen_api": 1588195329975,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -5301,12 +5582,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Diego_dc",
     "id_lichess": "diego_dc",
-    "last_seen_api": null,
+    "last_seen_api": 1644919832984,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -5319,12 +5601,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "lucaswendorf",
     "id_lichess": "lucaswendorf",
-    "last_seen_api": null,
+    "last_seen_api": 1588377330211,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -5337,12 +5620,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "ChiqueMat",
     "id_lichess": "chiquemat",
-    "last_seen_api": null,
+    "last_seen_api": 1678482260588,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -5355,12 +5639,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "wallace_mielniczki",
     "id_lichess": "wallace_mielniczki",
-    "last_seen_api": null,
+    "last_seen_api": 1617297560409,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -5373,12 +5658,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "carlos-miranda",
     "id_lichess": "carlos-miranda",
-    "last_seen_api": null,
+    "last_seen_api": 1731159917709,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -5391,12 +5677,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Kricheldorf",
     "id_lichess": "kricheldorf",
-    "last_seen_api": null,
+    "last_seen_api": 1588076211282,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -5409,12 +5696,13 @@
     "rating_puzzle": 1059,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "agal79",
     "id_lichess": "agal79",
-    "last_seen_api": null,
+    "last_seen_api": 1767909458843,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -5427,12 +5715,13 @@
     "rating_puzzle": 2415,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "akemczinski",
     "id_lichess": "akemczinski",
-    "last_seen_api": null,
+    "last_seen_api": 1588020063005,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -5445,12 +5734,13 @@
     "rating_puzzle": null,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "genunasumus",
     "id_lichess": "genunasumus",
-    "last_seen_api": null,
+    "last_seen_api": 1767913397016,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -5463,12 +5753,13 @@
     "rating_puzzle": 2278,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   },
   {
     "username": "Scriptuser",
     "id_lichess": "scriptuser",
-    "last_seen_api": null,
+    "last_seen_api": 1754180113447,
     "joined_team": true,
     "title": null,
     "country": null,
@@ -5481,6 +5772,7 @@
     "rating_puzzle": 2544,
     "total_games": null,
     "total_wins": null,
-    "closed_account": false
+    "closed_account": false,
+    "status": "inactive"
   }
 ]
