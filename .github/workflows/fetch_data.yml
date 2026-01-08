@@ -2,8 +2,8 @@ name: Fetch Lichess Tournament Data
 
 on:
   schedule:
-    - cron: '0 12 * * 0' # Executa todo Domingo às 12:00 UTC (09:00 BRT)
-  workflow_dispatch: # Mantemos isso para poder rodar manualmente
+    - cron: '0 12 * * 0' # Todo Domingo às 12:00 UTC
+  workflow_dispatch:
 
 jobs:
   fetch-and-commit:
@@ -22,15 +22,15 @@ jobs:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install requests pandas ndjson
 
-      - name: Run data fetching script
-        run: python update_tournaments.py # <-- Não precisa mais do bloco 'env'
+      - name: Run lightweight update script
+        run: python update_tournaments.py
 
-      - name: Commit and push if there are changes
+      - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "feat: Add new tournament data"
+          commit_message: "chore: Weekly tournament data update (add data)"
           commit_user_name: "GitHub Actions Bot"
           commit_user_email: "actions@github.com"
           commit_author: "GitHub Actions Bot <actions@github.com>"
