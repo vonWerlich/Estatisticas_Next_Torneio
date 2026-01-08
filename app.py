@@ -181,7 +181,7 @@ else:
         df_grafico = df_grafico.set_index("data")
 
         st.subheader("Jogadores por Torneio (em ordem cronológica)")
-        st.bar_chart(df_grafico["jogadores"], use_container_width=True) # <-- CORRIGIDO
+        st.bar_chart(df_grafico["jogadores"], width='stretch') # <-- CORRIGIDO
         
         st.subheader("Jogos por Torneio (em ordem cronológica)")
         st.bar_chart(df_grafico["jogos"], use_container_width=True) # <-- CORRIGIDO
@@ -327,7 +327,7 @@ else:
                     "last_seen_team_date": None
                 },
                 hide_index=True,
-                use_container_width=True,
+                width='stretch',
                 height=600
             )
             
