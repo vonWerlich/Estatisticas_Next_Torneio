@@ -6,7 +6,6 @@ import time
 from datetime import datetime, timedelta, timezone
 
 # --- CONFIGURAÇÃO ---
-# (Sem mudanças aqui, tudo igual)
 TEAM_ID = "next-nucleo-de-estudos-em-xadrez--tecnologias"
 DATA_DIR_TORNEIOS = "torneiosnew"
 DATA_DIR_PLAYERS = "player_data"
@@ -16,6 +15,10 @@ PARTICIPANTS_MAP_FILE = os.path.join(DATA_DIR_PLAYERS, "tournament_participants.
 BANNED_PLAYERS_FILE = os.path.join(DATA_DIR_PLAYERS, "banned_players.json")
 INACTIVE_PLAYERS_FILE = os.path.join(DATA_DIR_PLAYERS, "inactive_players.json")
 STATUS_METADATA_FILE = os.path.join(DATA_DIR_PLAYERS, "status_metadata.json")
+
+# Data do primeiro torneio conforme solicitado. Torneios anteriores a isso seriam ignorados na checagem de fantasmas.
+# Formato ISO 8601 com Fuso Horário (-03:00)
+DEFAULT_GHOST_CHECK_CUTOFF = "2020-05-08T18:30:00-03:00"
 
 API_CHECK_INTERVAL_DAYS = 30
 TEAM_INACTIVITY_DAYS = 547
@@ -50,37 +53,53 @@ def converter_data_para_iso(data_valor):
     if data_valor is None:
         return None
     
-    # Caso 1: É um timestamp (int ou float)
     if isinstance(data_valor, (int, float)):
         try:
             dt = datetime.fromtimestamp(data_valor / 1000, tz=timezone.utc)
             return dt.isoformat()
         except Exception as e:
-            print(f"  -> ⚠ Erro ao converter timestamp {data_valor}: {e}")
             return None
     
-    # Caso 2: É uma string (formato ISO)
     if isinstance(data_valor, str):
         try:
-            # Tenta converter a string para um objeto datetime
             dt = datetime.fromisoformat(data_valor.replace('Z', '+00:00'))
-            
-            # Se a string não tiver fuso horário, assume UTC
             if dt.tzinfo is None:
                 dt = dt.replace(tzinfo=timezone.utc)
-            
-            # Converte de volta para string ISO UTC padronizada
             return dt.isoformat()
         except Exception as e:
-            print(f"  -> ⚠ Erro ao converter string de data {data_valor}: {e}")
             return None
-    
-    # Outros tipos
     return None
 
-# --- PARTE 1: ATUALIZAÇÃO DE TORNEIOS (SEMPRE RODA) ---
-# (Sem mudanças aqui, get_existing_tournament_ids, fetch_all_team_tournaments,
-# download_tournament_files, update_player_databases)
+# --- NOVA FUNÇÃO: EXTRAÇÃO DE JOGADORES DAS PARTIDAS ---
+
+def extrair_jogadores_dos_games(games_file_path):
+    """Lê o ndjson de jogos e retorna um SET com os usernames únicos que jogaram."""
+    players_in_games = set()
+    if not os.path.exists(games_file_path):
+        return players_in_games
+
+    try:
+        with open(games_file_path, "r", encoding="utf-8") as f:
+            for line in f:
+                if not line.strip(): continue
+                try:
+                    game = json.loads(line)
+                    # Extrai White
+                    white_user = game.get('players', {}).get('white', {}).get('user', {}).get('name')
+                    if white_user: players_in_games.add(white_user)
+                    
+                    # Extrai Black
+                    black_user = game.get('players', {}).get('black', {}).get('user', {}).get('name')
+                    if black_user: players_in_games.add(black_user)
+                except json.JSONDecodeError:
+                    continue
+    except Exception as e:
+        print(f"⚠ Erro ao ler jogos em {games_file_path}: {e}")
+    
+    return players_in_games
+
+# --- PARTE 1: ATUALIZAÇÃO DE TORNEIOS (CORE) ---
+
 def get_existing_tournament_ids(directory):
     existing_ids = set()
     for filename in os.listdir(directory):
@@ -148,88 +167,99 @@ def download_tournament_files(t_info, directory):
         print(f"!!! Erro ao baixar {tid}: {e}")
         return None, None
 
-def update_player_databases(t_id, t_date_ms, results_data, players_db, username_to_id_map, participants_map):
-    """Atualiza o 'players.json' e 'participants_map.json' (em memória),
-       garantindo a ordem cronológica correta para first_seen e last_seen."""
-    if not results_data:
+def _upsert_player(username, t_date_iso, t_date_dt, players_db, username_to_id_map, next_player_id):
+    """Função auxiliar para criar ou atualizar jogador (reutilizada para ghosts e normais)"""
+    player_id = username_to_id_map.get(username)
+
+    if player_id is None:
+        # Novo
+        player_id = next_player_id
+        new_player = {
+            "id": player_id, "username": username,
+            "first_seen_team_date": t_date_iso,
+            "last_seen_team_date": t_date_iso,
+            "last_seen_api_timestamp": None, "status": "active"
+        }
+        players_db.append(new_player)
+        username_to_id_map[username] = player_id
+    else:
+        # Existente - Atualiza datas
+        player_obj = next((p for p in players_db if p['id'] == player_id), None)
+        if player_obj and t_date_dt:
+            # First Seen
+            current_first = player_obj.get("first_seen_team_date")
+            update_first = False
+            if not current_first: update_first = True
+            else:
+                try:
+                    if t_date_dt < datetime.fromisoformat(current_first.replace('Z', '+00:00')): update_first = True
+                except: update_first = True
+            if update_first: player_obj["first_seen_team_date"] = t_date_iso
+
+            # Last Seen
+            current_last = player_obj.get("last_seen_team_date")
+            update_last = False
+            if not current_last: update_last = True
+            else:
+                try:
+                    if t_date_dt > datetime.fromisoformat(current_last.replace('Z', '+00:00')): update_last = True
+                except: update_last = True
+            if update_last: player_obj["last_seen_team_date"] = t_date_iso
+            
+    return player_id
+
+def update_player_databases(t_id, t_date_ms, results_data, players_db, username_to_id_map, participants_map, games_file_path=None, check_ghosts=False):
+    """
+    Atualiza players.json. 
+    Se check_ghosts=True, compara quem jogou (games) com quem classificou (results)
+    para encontrar jogadores removidos (possíveis trapaceiros/banidos).
+    """
+    if not results_data and not check_ghosts:
         return
 
-    # Converte a data do torneio para objeto datetime (para comparação)
+    t_date_iso = converter_data_para_iso(t_date_ms)
     t_date_dt = None
-    t_date_iso = converter_data_para_iso(t_date_ms) # Usa a função corrigida
     if t_date_iso:
         try:
-            # Converte a string ISO de volta para datetime para poder comparar
             t_date_dt = datetime.fromisoformat(t_date_iso.replace('Z', '+00:00'))
-        except ValueError:
-            print(f"  -> ⚠ Erro ao re-converter data ISO {t_date_iso} para datetime.")
-            t_date_dt = None # Trata como se não tivesse data se a conversão falhar
-
-    # Aviso se ainda assim não tiver data
-    if t_date_dt is None:
-        print(f"  -> ⚠ Aviso: Torneio {t_id} não tem data válida. 'Seen' dates não serão atualizadas.")
+        except ValueError: pass
 
     participant_ids = []
-    next_player_id = max([p['id'] for p in players_db] + [0]) + 1
+    # Determina o próximo ID livre
+    if players_db:
+        next_player_id = max([p['id'] for p in players_db]) + 1
+    else:
+        next_player_id = 1
+    
+    results_usernames = set()
 
+    # 1. PROCESSA RESULTADOS OFICIAIS
     for entry in results_data:
         username = entry.get("username")
-        if not username:
-            continue
-
-        player_id = username_to_id_map.get(username)
-
-        if player_id is None:
-            # --- Jogador Novo ---
-            player_id = next_player_id
-            new_player = {
-                "id": player_id, "username": username,
-                # Define ambas as datas inicialmente com a data deste torneio
-                "first_seen_team_date": t_date_iso,
-                "last_seen_team_date": t_date_iso,
-                "last_seen_api_timestamp": None, "status": "active"
-            }
-            players_db.append(new_player)
-            username_to_id_map[username] = player_id
-            next_player_id += 1
-        else:
-            # --- Jogador Existente ---
-            player_obj = next((p for p in players_db if p['id'] == player_id), None)
-            if player_obj and t_date_dt: # Só atualiza se tivermos uma data válida para comparar
-
-                # 1. Atualiza first_seen SE a data atual for MAIS ANTIGA
-                current_first_seen_str = player_obj.get("first_seen_team_date")
-                needs_first_seen_update = False
-                if current_first_seen_str:
-                    try:
-                        current_first_seen_dt = datetime.fromisoformat(current_first_seen_str.replace('Z', '+00:00'))
-                        if t_date_dt < current_first_seen_dt:
-                            needs_first_seen_update = True
-                    except ValueError:
-                        needs_first_seen_update = True # Se a data antiga for inválida, atualiza
-                else:
-                    needs_first_seen_update = True # Se não tinha data antiga, atualiza
-
-                if needs_first_seen_update:
-                    player_obj["first_seen_team_date"] = t_date_iso
-
-                # 2. Atualiza last_seen SE a data atual for MAIS NOVA
-                current_last_seen_str = player_obj.get("last_seen_team_date")
-                needs_last_seen_update = False
-                if current_last_seen_str:
-                    try:
-                        current_last_seen_dt = datetime.fromisoformat(current_last_seen_str.replace('Z', '+00:00'))
-                        if t_date_dt > current_last_seen_dt:
-                            needs_last_seen_update = True
-                    except ValueError:
-                        needs_last_seen_update = True # Se a data antiga for inválida, atualiza
-                else:
-                    needs_last_seen_update = True # Se não tinha data antiga, atualiza
-
-                if needs_last_seen_update:
-                    player_obj["last_seen_team_date"] = t_date_iso
-
+        if not username: continue
+        results_usernames.add(username)
+        
+        player_id = _upsert_player(username, t_date_iso, t_date_dt, players_db, username_to_id_map, next_player_id)
+        if player_id == next_player_id: next_player_id += 1
         participant_ids.append(player_id)
+
+    # 2. PROCESSA FANTASMAS (CHECK_GHOSTS)
+    if check_ghosts and games_file_path:
+        print(f"  -> 👻 Investigando jogadores fantasmas (removidos)...")
+        games_usernames = extrair_jogadores_dos_games(games_file_path)
+        
+        # Quem jogou MAS não está no resultado
+        ghost_usernames = games_usernames - results_usernames
+        
+        if ghost_usernames:
+            print(f"  -> ⚠ Encontrados {len(ghost_usernames)} fantasmas: {', '.join(list(ghost_usernames)[:5])}...")
+            for ghost_user in ghost_usernames:
+                # Adiciona o fantasma ao DB. Não marca como banned ainda (API fará isso).
+                p_id = _upsert_player(ghost_user, t_date_iso, t_date_dt, players_db, username_to_id_map, next_player_id)
+                if p_id == next_player_id: next_player_id += 1
+                participant_ids.append(p_id)
+        else:
+            print("  -> Nenhum fantasma encontrado.")
 
     participants_map[t_id] = list(set(participant_ids))
     print(f"  -> Mapa de jogadores atualizado para {t_id}.")
@@ -241,6 +271,16 @@ def run_tournament_update():
     players_db = carregar_json(PLAYER_DB_FILE, [])
     participants_map = carregar_json(PARTICIPANTS_MAP_FILE, {})
     username_to_id_map = {p['username']: p['id'] for p in players_db}
+    
+    # Prepara data de corte
+    metadata = carregar_json(STATUS_METADATA_FILE, {})
+    ghost_cutoff_str = metadata.get("ghost_check_cutoff", DEFAULT_GHOST_CHECK_CUTOFF)
+    try:
+        ghost_cutoff_dt = datetime.fromisoformat(ghost_cutoff_str.replace('Z', '+00:00'))
+    except:
+        ghost_cutoff_dt = datetime.fromisoformat(DEFAULT_GHOST_CHECK_CUTOFF.replace('Z', '+00:00'))
+
+    print(f"📅 Data de corte para verificação de fantasmas: {ghost_cutoff_dt.isoformat()}")
     
     existing_ids = get_existing_tournament_ids(DATA_DIR_TORNEIOS)
     all_lichess_tournaments = fetch_all_team_tournaments(TEAM_ID)
@@ -255,7 +295,7 @@ def run_tournament_update():
     if not tournaments_to_process:
         print("\n✅ Nenhum torneio novo ou não mapeado para processar.")
         print("--- PARTE 1 CONCLUÍDA ---")
-        return False # Retorna False se nada foi atualizado
+        return False
 
     print(f"\n✨ {len(new_tournaments)} novos torneios para baixar.")
     print(f"✨ {len(unmapped_tournaments)} torneios existentes para mapear.")
@@ -273,7 +313,20 @@ def run_tournament_update():
         
         if info_data and results_data:
             t_date_ms = info_data.get("startsAt")
-            update_player_databases(tid, t_date_ms, results_data, players_db, username_to_id_map, participants_map)
+            
+            # --- LÓGICA DE DATA PARA FANTASMAS ---
+            should_check_ghosts = False
+            t_date_iso = converter_data_para_iso(t_date_ms)
+            if t_date_iso:
+                try:
+                    t_dt = datetime.fromisoformat(t_date_iso.replace('Z', '+00:00'))
+                    if t_dt >= ghost_cutoff_dt:
+                        should_check_ghosts = True
+                except: pass
+            
+            games_path = os.path.join(DATA_DIR_TORNEIOS, f"{tid}_games.ndjson")
+            
+            update_player_databases(tid, t_date_ms, results_data, players_db, username_to_id_map, participants_map, games_file_path=games_path, check_ghosts=should_check_ghosts)
             changes_made = True
         else:
             print(f"!!! Falha ao processar {tid}. Pulando.")
@@ -283,6 +336,11 @@ def run_tournament_update():
         salvar_json(PLAYER_DB_FILE, players_db)
         print(f"💾 Salvando {len(participants_map)} mapas de torneio em '{PARTICIPANTS_MAP_FILE}'...")
         salvar_json(PARTICIPANTS_MAP_FILE, participants_map)
+        
+        # Salva o cutoff usado se não existir
+        if "ghost_check_cutoff" not in metadata:
+            metadata["ghost_check_cutoff"] = DEFAULT_GHOST_CHECK_CUTOFF
+            salvar_json(STATUS_METADATA_FILE, metadata)
     
     print("--- PARTE 1 CONCLUÍDA ---")
     return changes_made
@@ -302,22 +360,19 @@ def check_api_timer():
             days_since_last_check = (now - last_check_dt).days
             if days_since_last_check < API_CHECK_INTERVAL_DAYS:
                 print(f"✅ Checagem de API realizada há {days_since_last_check} dias. Timer não expirado.")
-                return False # Timer NÃO expirou
+                return False 
             else:
                 print(f"🗓️ Timer expirado! Última checagem há {days_since_last_check} dias.")
-                return True # Timer expirou
+                return True 
         except ValueError:
             print("⚠ Data de última checagem inválida. Disparando checagem...")
-            return True # Força a checagem se a data for inválida
+            return True 
     else:
         print("ℹ️ Nenhuma checagem anterior registrada. Disparando checagem...")
-        return True # Força a checagem se nunca rodou
+        return True 
 
 def run_api_status_check():
-    """
-    Executa a Parte 2: Checa API do Lichess para status (banido/fechado/visto por último)
-    e atualiza status de inatividade da equipe. Roda condicionalmente.
-    """
+    """Executa a Parte 2: Checa API do Lichess para status."""
     print("\n--- INICIANDO PARTE 2: CHECAGEM DE STATUS DA API ---")
     print(f"⏳ Iniciando varredura da API...")
 
@@ -327,32 +382,21 @@ def run_api_status_check():
         print("--- PARTE 2 CONCLUÍDA ---")
         return
 
-    # Carrega as listas atuais para referência, mas elas serão recriadas
-    current_banned = set(carregar_json(BANNED_PLAYERS_FILE, []))
-    current_inactive = set(carregar_json(INACTIVE_PLAYERS_FILE, []))
-
     new_banned_list = []
     new_inactive_list = []
-    # Poderíamos ter uma new_closed_list, mas por ora, só o status no players.json basta.
-
     today_dt = datetime.now(tz=timezone.utc)
     inactivity_threshold = timedelta(days=TEAM_INACTIVITY_DAYS)
-
     total_players = len(players_db)
     api_call_count = 0
     start_time = time.time()
 
     for i, player in enumerate(players_db):
         username = player["username"]
-        original_status = player.get("status", "active") # Pega status atual ou assume 'active'
-        player_updated = False # Flag para saber se houve mudança
+        original_status = player.get("status", "active") 
+        player_updated = False 
 
         print(f"  -> Checando jogador {i+1}/{total_players}: {username} (Status atual: {original_status})", end="")
 
-        # --- Etapa 1: Checagem de API (Banido/Fechado/LastSeen) ---
-        # Pula APENAS se já sabemos que está banido (tosViolation)
-        # Contas fechadas ('closed') podem ser reabertas ou renomeadas (raro, mas possível),
-        # então vale a pena checar de vez em quando.
         if original_status != "banned":
             try:
                 print(" (API...)", end="")
@@ -363,7 +407,6 @@ def run_api_status_check():
                     api_data = response.json()
                     player["last_seen_api_timestamp"] = api_data.get("seenAt")
 
-                    # LÓGICA DE STATUS: Prioridade para Banido > Fechado
                     if api_data.get("tosViolation"):
                         if original_status != "banned":
                             player["status"] = "banned"
@@ -374,35 +417,27 @@ def run_api_status_check():
                             player["status"] = "closed"
                             print(" -> CONTA FECHADA")
                             player_updated = True
-                    # Se não está banido nem fechado, ele está 'ok' na API.
-                    # A inatividade será tratada na próxima etapa. Se ele estava 'closed' antes, volta a 'active'.
                     elif original_status == "closed":
-                         player["status"] = "active" # Conta reaberta!
+                         player["status"] = "active" 
                          print(" -> CONTA REABERTA!")
                          player_updated = True
 
                 elif response.status_code == 404:
-                    # Se a conta não existe mais, consideramos como fechada permanentemente
                     if original_status != "closed":
-                        player["status"] = "closed" # Ou 'banned' se preferir tratar 404 assim
+                        player["status"] = "closed"
                         print(" -> 404 (CONTA INEXISTENTE/FECHADA)")
                         player_updated = True
                 else:
-                    # Mantém o status original em caso de erro da API
                     print(f" -> ERRO API ({response.status_code}). Mantendo status.")
-
-                # A PAUSA CRÍTICA
                 time.sleep(LICHESS_API_PAUSE)
 
             except Exception as e:
                 print(f" -> ERRO INESPERADO: {e}. Mantendo status.")
-                # Pausa mesmo em erro para não bombardear a API
                 time.sleep(LICHESS_API_PAUSE)
         else:
             print(" (skip API: já banido)")
 
-        # --- Etapa 2: Checagem de Inatividade (Equipe) ---
-        # Só executa se o jogador NÃO estiver banido ou fechado pela API
+        # Checagem de Inatividade (Equipe)
         if player.get("status") not in ["banned", "closed"]:
             last_seen_team_str = player.get("last_seen_team_date")
             if last_seen_team_str:
@@ -414,75 +449,51 @@ def run_api_status_check():
                            print(" -> INATIVO (Equipe)")
                            player_updated = True
                     else:
-                        if original_status == "inactive": # Se estava inativo e voltou
+                        if original_status == "inactive": 
                             player["status"] = "active"
                             print(" -> REATIVADO (Equipe)")
                             player_updated = True
-                        elif original_status == "closed": # Se estava fechado e jogou
+                        elif original_status == "closed":
                             player["status"] = "active"
-                            print(" -> REATIVADO (Equipe, estava fechado?)") # Log estranho
+                            print(" -> REATIVADO (Equipe)") 
                             player_updated = True
-                        # Se já estava 'active', não precisa mudar
                 except ValueError:
-                    # Se a data for inválida, não podemos determinar inatividade, assume active
                     if original_status != "active":
                         player["status"] = "active"
                         player_updated = True
             else:
-                 # Se nunca foi visto em torneio com data, assume active
                  if original_status != "active":
                     player["status"] = "active"
                     player_updated = True
 
-        # Se não houve mudança de status detectada, imprime (ok)
         if not player_updated and original_status != "banned":
              print(" (ok)")
 
-        # --- Etapa 3: Atualiza as listas de acesso rápido ---
         final_status = player.get("status", "active")
         if final_status == "banned":
             new_banned_list.append(username)
         elif final_status == "inactive":
             new_inactive_list.append(username)
-        # Não precisamos de uma lista rápida para 'closed', a menos que você queira
 
-    # --- Etapa 4: Salvar tudo ---
     end_time = time.time()
     duration_minutes = (end_time - start_time) / 60
     print(f"\n📊 Varredura de API concluída em {duration_minutes:.2f} minutos ({api_call_count} chamadas).")
 
     print("\n💾 Salvando banco de dados de jogadores com status atualizado...")
     salvar_json(PLAYER_DB_FILE, players_db)
-
     print("💾 Salvando lista de acesso rápido de banidos...")
     salvar_json(BANNED_PLAYERS_FILE, new_banned_list)
-
     print("💾 Salvando lista de acesso rápido de inativos...")
     salvar_json(INACTIVE_PLAYERS_FILE, new_inactive_list)
-
     print("💾 Atualizando data da última checagem de API...")
     salvar_json(STATUS_METADATA_FILE, {"last_api_check": datetime.now(timezone.utc).isoformat()})
-
     print("--- PARTE 2 CONCLUÍDA ---")
 
-
-# --- FLUXO PRINCIPAL ---
 if __name__ == "__main__":
+    houve_mudancas = run_tournament_update()
+    timer_expirou = check_api_timer()
     
-    # Executa a Parte 1 e armazena se ela fez alguma mudança
-    houve_mudancas_nos_torneios = run_tournament_update()
-    
-    # Executa a checagem do timer
-    timer_da_api_expirou = check_api_timer()
-    
-    # A LÓGICA DO "OU" QUE VOCÊ PEDIU:
-    if houve_mudancas_nos_torneios or timer_da_api_expirou:
-        if houve_mudancas_nos_torneios:
-            print("\n>> GATILHO: Novos torneios foram processados.")
-        if timer_da_api_expirou:
-            print("\n>> GATILHO: Timer de 30 dias da API expirou.")
-            
-        # Executa a Parte 2 (o trabalho caro)
+    if houve_mudancas or timer_expirou:
         run_api_status_check()
     else:
         print("\n✅ Nenhum gatilho ativado. Pulando checagem de API (Parte 2).")
