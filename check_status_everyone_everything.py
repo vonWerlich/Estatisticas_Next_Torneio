@@ -48,8 +48,7 @@ def marcar_lote_como_fechado(master_map, requested_batch_ids):
     """
     PASSO 1: O MASSACRE
     Marca preventivamente todos os IDs do lote atual como 'closed_account = True'.
-    Se a API retornar os dados deles depois, nós mudamos para False.
-    Se a API falhar ou eles não existirem mais, o True permanece.
+    Isso acontece ANTES da requisição. Se a requisição falhar, eles ficam como fechados.
     """
     for req_id in requested_batch_ids:
         local_obj = master_map.get(req_id)
@@ -127,7 +126,7 @@ def verificar_inatividade_time(user_list):
             except: pass
 
 def main():
-    print("--- ATUALIZAÇÃO MENSAL: LÓGICA CORRIGIDA ---")
+    print("--- ATUALIZAÇÃO MENSAL: LÓGICA CORRIGIDA (User-Agent + Ordem Certa) ---")
     start_time = time.time()
 
     # 1. Carregar
