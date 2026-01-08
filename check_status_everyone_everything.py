@@ -13,6 +13,10 @@ except Exception:
 
 DATA_DIR_PLAYERS = "player_data"
 
+# Garante que a pasta existe
+if not os.path.exists(DATA_DIR_PLAYERS):
+    os.makedirs(DATA_DIR_PLAYERS)
+
 FILES_CONFIG = {
     "players": os.path.join(DATA_DIR_PLAYERS, "players.json"),
     "lurkers": os.path.join(DATA_DIR_PLAYERS, "lurkers.json"),
@@ -40,46 +44,50 @@ def chunk_list(lst, n):
     for i in range(0, len(lst), n):
         yield lst[i:i + n]
 
-def processar_lote_invertido(api_users, master_map, requested_batch_ids):
+def marcar_lote_como_fechado(master_map, requested_batch_ids):
     """
-    Lógica Simplificada (Sugestão do Usuário):
-    1. Marca TODOS do lote como 'closed_account = True'.
-    2. Quem a API retornar, atualizamos e marcamos como 'False' (se não estiver disabled).
+    PASSO 1: O MASSACRE
+    Marca preventivamente todos os IDs do lote atual como 'closed_account = True'.
+    Se a API retornar os dados deles depois, nós mudamos para False.
+    Se a API falhar ou eles não existirem mais, o True permanece.
     """
-    count_updated = 0
-    
-    # --- PASSO 1: O MASSACRE (Marca todo mundo do lote como fechado preventivamente) ---
     for req_id in requested_batch_ids:
         local_obj = master_map.get(req_id)
         if local_obj:
-            local_obj["closed_account"] = True 
-            # Se a API não devolver esse cara, ele já fica como True. Fim.
+            local_obj["closed_account"] = True
 
-    # --- PASSO 2: A RESSURREIÇÃO (Quem a API devolveu, a gente "abre" a conta) ---
+def atualizar_com_resposta_api(api_users, master_map):
+    """
+    PASSO 2: A RESSURREIÇÃO
+    Processa apenas quem a API retornou com sucesso.
+    """
+    count_updated = 0
+    
     for api_data in api_users:
-        uid = api_data.get("id")
+        uid = api_data.get("id") # Lichess retorna ID em minúsculo
         local_obj = master_map.get(uid)
         
         if local_obj:
             count_updated += 1
             
-            # Checa se a API diz explicitamente que está fechada
+            # Checa se a API diz explicitamente que está fechada (campo 'disabled')
             esta_desativada = api_data.get("disabled", False)
             
-            # Se NÃO estiver desativada na API, ressuscitamos (False)
-            # Se estiver desativada, mantemos o True que definimos no Passo 1
+            # Se a conta existe e NÃO está desativada, nós "abrimos" ela novamente.
+            # Se 'disabled' for True, mantemos o closed_account=True definido no Passo 1.
             if not esta_desativada:
                 local_obj["closed_account"] = False
 
-            # --- Atualização de Dados (Igual antes) ---
+            # --- Atualização de Dados ---
             local_obj["username"] = api_data.get("username", local_obj.get("username"))
             local_obj["title"] = api_data.get("title")
             local_obj["country"] = api_data.get("profile", {}).get("country")
             
-            # Status Banido
+            # Status Banido (tosViolation)
             if api_data.get("tosViolation"):
                 local_obj["status"] = "banned"
             else:
+                # Se estava banido antes mas a API não diz mais nada, volta para active
                 if local_obj.get("status") == "banned":
                     local_obj["status"] = "active"
                 
@@ -110,6 +118,7 @@ def verificar_inatividade_time(user_list):
         ls_str = p.get("last_seen_team_date")
         if ls_str:
             try:
+                # Trata formato ISO com ou sem Z
                 ls_dt = datetime.fromisoformat(ls_str.replace('Z', '+00:00'))
                 if (now - ls_dt) > limit:
                     p["status"] = "inactive"
@@ -118,7 +127,7 @@ def verificar_inatividade_time(user_list):
             except: pass
 
 def main():
-    print("--- ATUALIZAÇÃO MENSAL: LÓGICA INVERTIDA ---")
+    print("--- ATUALIZAÇÃO MENSAL: LÓGICA CORRIGIDA ---")
     start_time = time.time()
 
     # 1. Carregar
@@ -148,43 +157,69 @@ def main():
     chunks = list(chunk_list(unique_ids, BATCH_SIZE))
     print(f"📡 Verificando {len(unique_ids)} usuários em {len(chunks)} lotes...")
 
+    # Cabeçalho para evitar bloqueio da API (User-Agent é obrigatório/boa prática)
+    headers = {
+        'User-Agent': 'ScriptVerificacaoStatus/1.0 (admin_contact: seu_email@exemplo.com)',
+        'Accept': 'application/json'
+    }
+
     total_processed = 0
+    
     for i, batch in enumerate(chunks):
         print(f"   Lote {i+1}... ", end="")
+        
+        # --- MUDANÇA CRUCIAL: Marca como fechado ANTES da requisição ---
+        marcar_lote_como_fechado(master_map, batch)
+
         try:
-            resp = requests.post("https://lichess.org/api/users", data=','.join(batch))
+            resp = requests.post(
+                "https://lichess.org/api/users", 
+                data=','.join(batch),
+                headers=headers
+            )
             
             if resp.status_code == 200:
                 data = resp.json()
-                # AQUI ESTÁ A MUDANÇA: Passamos o batch para marcar todos como fechados antes
-                processar_lote_invertido(data, master_map, batch)
-                print(f"Ok. (Retorno: {len(data)} / Lote: {len(batch)})")
+                # Processa quem voltou vivo
+                qtd_atualizados = atualizar_com_resposta_api(data, master_map)
+                print(f"Ok. (Retorno API: {len(data)} / Atualizados: {qtd_atualizados})")
                 total_processed += len(data)
             else:
-                print(f"Erro API: {resp.status_code} - Lote ignorado (ninguém alterado)")
+                # Se der erro, eles continuam marcados como closed=True (segurança)
+                print(f"Erro API: {resp.status_code} - Mantendo lote como fechado/indisponível.")
                 
         except Exception as e:
-            print(f"Erro Conexão: {e}")
+            print(f"Erro Conexão: {e} - Mantendo lote como fechado/indisponível.")
         
-        time.sleep(1.2)
+        # Delay respeitoso para a API
+        time.sleep(1.5)
 
-    # 3. Regras de Negócio Locais
-    print("⏳ Atualizando inatividade...")
+    # 3. Regras de Negócio Locais (Inatividade do time)
+    print("⏳ Atualizando inatividade por tempo...")
     verificar_inatividade_time(db_players)
 
     # 4. Salvar
-    print("💾 Salvando...")
+    print("💾 Salvando arquivos...")
     salvar_json(FILES_CONFIG["players"], db_players)
     salvar_json(FILES_CONFIG["lurkers"], db_lurkers)
     salvar_json(FILES_CONFIG["ex_members"], db_ex)
     
-    # Metadados
+    # Gerar Metadados Auxiliares
     all_users = db_players + db_lurkers + db_ex
-    salvar_json(BANNED_FILE, [u["username"] for u in all_users if u.get("status") == "banned"])
-    salvar_json(INACTIVE_FILE, [u["username"] for u in all_users if u.get("status") == "inactive"])
-    salvar_json(METADATA_FILE, {"last_api_check": datetime.now(timezone.utc).isoformat()})
+    
+    banned_list = [u["username"] for u in all_users if u.get("status") == "banned"]
+    inactive_list = [u["username"] for u in all_users if u.get("status") == "inactive"]
+    
+    salvar_json(BANNED_FILE, banned_list)
+    salvar_json(INACTIVE_FILE, inactive_list)
+    
+    salvar_json(METADATA_FILE, {
+        "last_api_check": datetime.now(timezone.utc).isoformat(),
+        "total_checked": len(unique_ids),
+        "total_active_api": total_processed
+    })
 
-    print(f"✅ Feito em {(time.time() - start_time)/60:.2f} min.")
+    print(f"✅ Processo finalizado em {(time.time() - start_time)/60:.2f} min.")
 
 if __name__ == "__main__":
     main()
