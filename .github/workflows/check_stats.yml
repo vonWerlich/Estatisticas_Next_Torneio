@@ -24,7 +24,7 @@ jobs:
         run: pip install requests
 
       - name: Run Unified Monthly Update
-        run: python monthly_full_update.py
+        run: python check_status_everyone_everything.py
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
