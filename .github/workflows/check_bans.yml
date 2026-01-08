@@ -1,0 +1,35 @@
+name: Monthly Player Status Check
+
+on:
+  schedule:
+    - cron: '0 0 1 * *' # Dia 1 de todo mês à meia-noite
+  workflow_dispatch:
+
+jobs:
+  check-status:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run status check script
+        run: python check_status.py
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: Monthly player status/ban update"
+          commit_user_name: "GitHub Actions Bot"
+          commit_user_email: "actions@github.com"
