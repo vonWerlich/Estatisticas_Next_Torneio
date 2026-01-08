@@ -4,7 +4,8 @@
     "status_db": "active",
     "last_seen_team": "2022-07-08T21:30:00+00:00",
     "id_lichess": "iniciante34",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "Gustavo972",
@@ -29,14 +30,16 @@
     "status_db": "active",
     "last_seen_team": "2020-11-16T21:30:38+00:00",
     "id_lichess": "cramnique",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "xadrezcontrole",
     "status_db": "active",
     "last_seen_team": "2020-10-30T21:30:34+00:00",
     "id_lichess": "xadrezcontrole",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "jmpoffo",
@@ -97,35 +100,40 @@
     "status_db": "active",
     "last_seen_team": "2022-12-09T21:30:00+00:00",
     "id_lichess": "gmds2023",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "wilianfaust",
     "status_db": "active",
     "last_seen_team": "2020-06-19T21:30:16+00:00",
     "id_lichess": "wilianfaust",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "BillBond007",
     "status_db": "active",
     "last_seen_team": "2020-06-26T21:30:18+00:00",
     "id_lichess": "billbond007",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "botest",
     "status_db": "active",
     "last_seen_team": "2021-11-19T21:30:00+00:00",
     "id_lichess": "botest",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "Pizzex",
     "status_db": "active",
     "last_seen_team": "2021-09-17T21:30:55+00:00",
     "id_lichess": "pizzex",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "lucabieging",
@@ -150,7 +158,8 @@
     "status_db": "active",
     "last_seen_team": "2021-02-15T21:30:16+00:00",
     "id_lichess": "chesseyeless",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "MyRookIsBigger",
@@ -175,14 +184,16 @@
     "status_db": "active",
     "last_seen_team": "2022-11-04T21:30:00+00:00",
     "id_lichess": "magnusete72",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "TarcisioCura",
     "status_db": "active",
     "last_seen_team": "2021-08-13T21:30:18+00:00",
     "id_lichess": "tarcisiocura",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "calebeklazzarotti",
@@ -207,7 +218,8 @@
     "status_db": "active",
     "last_seen_team": "2024-03-08T21:30:00+00:00",
     "id_lichess": "circuitoblitzcbx1",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "dudumello",
@@ -233,77 +245,88 @@
     "status_db": "active",
     "last_seen_team": "2020-09-21T21:30:15+00:00",
     "id_lichess": "destiny_player",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "JonasBLMAA251",
     "status_db": "active",
     "last_seen_team": "2025-06-27T21:30:00+00:00",
     "id_lichess": "jonasblmaa251",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "KauaRodLMAB251",
     "status_db": "active",
     "last_seen_team": "2025-06-13T21:30:00+00:00",
     "id_lichess": "kauarodlmab251",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "brenoGGlmaa251",
     "status_db": "active",
     "last_seen_team": "2025-06-27T21:30:00+00:00",
     "id_lichess": "brenogglmaa251",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "SarahTRSBLMAA251",
     "status_db": "active",
     "last_seen_team": "2025-04-11T21:30:00+00:00",
     "id_lichess": "sarahtrsblmaa251",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "NicoleMSantosLMAA251",
     "status_db": "active",
     "last_seen_team": "2025-06-06T21:30:00+00:00",
     "id_lichess": "nicolemsantoslmaa251",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "GustavoPedrotti",
     "status_db": "active",
     "last_seen_team": "2023-09-15T21:30:00+00:00",
     "id_lichess": "gustavopedrotti",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "MagnusLagessen",
     "status_db": "active",
     "last_seen_team": "2021-12-17T21:30:00+00:00",
     "id_lichess": "magnuslagessen",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "imchesss",
     "status_db": "active",
     "last_seen_team": "2023-07-07T21:30:00+00:00",
     "id_lichess": "imchesss",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "ElricK_one",
     "status_db": "active",
     "last_seen_team": "2020-06-05T21:30:31+00:00",
     "id_lichess": "elrick_one",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "RogerRScar",
     "status_db": "active",
     "last_seen_team": "2021-09-06T21:30:34+00:00",
     "id_lichess": "rogerrscar",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "Eusekevin",
@@ -346,63 +369,72 @@
     "status_db": "active",
     "last_seen_team": "2021-06-21T21:30:29+00:00",
     "id_lichess": "dummy_4",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "Fabiopavao",
     "status_db": "active",
     "last_seen_team": "2021-05-14T21:30:55+00:00",
     "id_lichess": "fabiopavao",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "alicelarabiasi",
     "status_db": "active",
     "last_seen_team": "2021-05-14T21:30:55+00:00",
     "id_lichess": "alicelarabiasi",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "Fuerte_Suerte",
     "status_db": "active",
     "last_seen_team": "2020-12-11T21:30:03+00:00",
     "id_lichess": "fuerte_suerte",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "gabrielsouza35",
     "status_db": "active",
     "last_seen_team": "2024-05-24T21:30:00+00:00",
     "id_lichess": "gabrielsouza35",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "kushana",
     "status_db": "active",
     "last_seen_team": "2020-09-07T21:30:53+00:00",
     "id_lichess": "kushana",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "inciante34",
     "status_db": "active",
     "last_seen_team": "2022-07-01T21:30:00+00:00",
     "id_lichess": "inciante34",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "Gabriel-souza",
     "status_db": "active",
     "last_seen_team": "2020-05-08T21:30:00+00:00",
     "id_lichess": "gabriel-souza",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "Senun",
     "status_db": "active",
     "last_seen_team": "2020-05-29T21:30:19+00:00",
     "id_lichess": "senun",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "Drunknoboom",
@@ -427,7 +459,8 @@
     "status_db": "active",
     "last_seen_team": "2023-11-25T17:30:00+00:00",
     "id_lichess": "fide1434",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "fredibieging",
@@ -488,7 +521,8 @@
     "status_db": "active",
     "last_seen_team": "2024-11-30T17:30:00+00:00",
     "id_lichess": "badrinath1812",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "Dimon-nikolya",
@@ -531,14 +565,16 @@
     "status_db": "active",
     "last_seen_team": "2023-06-30T21:30:00+00:00",
     "id_lichess": "elchape",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "c0nt4d3m3rd4",
     "status_db": "active",
     "last_seen_team": "2021-08-30T21:30:43+00:00",
     "id_lichess": "c0nt4d3m3rd4",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "marcosmolina",
@@ -563,21 +599,24 @@
     "status_db": "active",
     "last_seen_team": "2023-01-14T17:30:00+00:00",
     "id_lichess": "facs2",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "TC2001",
     "status_db": "active",
     "last_seen_team": "2020-05-22T21:30:35+00:00",
     "id_lichess": "tc2001",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "THCeSilva",
     "status_db": "active",
     "last_seen_team": "2020-10-23T21:30:36+00:00",
     "id_lichess": "thcesilva",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "Erwinbwcv",
@@ -620,7 +659,8 @@
     "status_db": "active",
     "last_seen_team": "2025-06-28T16:30:00+00:00",
     "id_lichess": "turniritolko",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "Bahtiyar_Shahmater",
@@ -645,21 +685,24 @@
     "status_db": "active",
     "last_seen_team": "2020-12-21T21:30:01+00:00",
     "id_lichess": "pavaomisterioso",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "antonioU270819",
     "status_db": "active",
     "last_seen_team": "2022-04-29T21:30:00+00:00",
     "id_lichess": "antoniou270819",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "AnatovKarpoly",
     "status_db": "active",
     "last_seen_team": "2022-02-11T21:30:00+00:00",
     "id_lichess": "anatovkarpoly",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "carlosmaia",
@@ -702,7 +745,8 @@
     "status_db": "active",
     "last_seen_team": "2024-10-11T21:30:00+00:00",
     "id_lichess": "gesse_ic",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "MacroKiller",
@@ -745,7 +789,8 @@
     "status_db": "active",
     "last_seen_team": "2020-12-19T18:00:00+00:00",
     "id_lichess": "pedrogr",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "MartinSlaby",
@@ -770,7 +815,8 @@
     "status_db": "active",
     "last_seen_team": "2020-12-12T18:00:00+00:00",
     "id_lichess": "whiterabbit00",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "SidGord",
@@ -795,70 +841,80 @@
     "status_db": "active",
     "last_seen_team": "2020-12-12T18:00:00+00:00",
     "id_lichess": "atalaiaronaldo",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "chessnomaster35",
     "status_db": "active",
     "last_seen_team": "2023-10-06T21:30:00+00:00",
     "id_lichess": "chessnomaster35",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "JuJuburizigi",
     "status_db": "active",
     "last_seen_team": "2023-11-25T17:30:00+00:00",
     "id_lichess": "jujuburizigi",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "LPSupi_sac",
     "status_db": "active",
     "last_seen_team": "2020-12-11T21:30:03+00:00",
     "id_lichess": "lpsupi_sac",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "Krammnik",
     "status_db": "active",
     "last_seen_team": "2022-04-29T21:30:00+00:00",
     "id_lichess": "krammnik",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "gamerwithoutsuccess",
     "status_db": "active",
     "last_seen_team": "2022-04-29T21:30:00+00:00",
     "id_lichess": "gamerwithoutsuccess",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "Semen_Baryshnikov",
     "status_db": "active",
     "last_seen_team": "2022-07-16T18:00:00+00:00",
     "id_lichess": "semen_baryshnikov",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "troiano98",
     "status_db": "active",
     "last_seen_team": "2022-07-15T21:30:00+00:00",
     "id_lichess": "troiano98",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "chessleee35",
     "status_db": "active",
     "last_seen_team": "2023-06-16T21:30:00+00:00",
     "id_lichess": "chessleee35",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "chessevolution33",
     "status_db": "active",
     "last_seen_team": "2021-12-03T21:30:00+00:00",
     "id_lichess": "chessevolution33",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "gustavospi",
@@ -902,28 +958,32 @@
     "status_db": "active",
     "last_seen_team": "2020-12-19T18:00:00+00:00",
     "id_lichess": "eg0r2012",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "Ana-Lu",
     "status_db": "active",
     "last_seen_team": "2021-07-10T18:00:00+00:00",
     "id_lichess": "ana-lu",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "lehanys",
     "status_db": "active",
     "last_seen_team": "2023-01-14T17:30:00+00:00",
     "id_lichess": "lehanys",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "VadimML2010",
     "status_db": "active",
     "last_seen_team": "2023-01-14T17:30:00+00:00",
     "id_lichess": "vadimml2010",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "Makr_Kravchenko2015",
@@ -967,7 +1027,8 @@
     "status_db": "active",
     "last_seen_team": "2023-01-14T17:30:00+00:00",
     "id_lichess": "iwannadienowidk",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "Drhmdi",
@@ -1010,7 +1071,8 @@
     "status_db": "active",
     "last_seen_team": "2023-01-14T17:30:00+00:00",
     "id_lichess": "xgabredeirosx",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "Nih4t007",
@@ -1035,7 +1097,8 @@
     "status_db": "active",
     "last_seen_team": "2023-01-14T17:30:00+00:00",
     "id_lichess": "sahmatvezir123",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "interio_44",
@@ -1060,14 +1123,16 @@
     "status_db": "active",
     "last_seen_team": "2025-06-28T18:00:00+00:00",
     "id_lichess": "mbhh",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "XEPOBACTEHbKO",
     "status_db": "active",
     "last_seen_team": "2023-06-17T17:30:00+00:00",
     "id_lichess": "xepobactehbko",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "Ches_PACHMIN",
@@ -1110,21 +1175,24 @@
     "status_db": "active",
     "last_seen_team": "2023-06-17T17:30:00+00:00",
     "id_lichess": "chessgms35",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "Aliyahars06",
     "status_db": "active",
     "last_seen_team": "2023-06-17T17:30:00+00:00",
     "id_lichess": "aliyahars06",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "Soumyadeep_295",
     "status_db": "active",
     "last_seen_team": "2023-06-17T17:30:00+00:00",
     "id_lichess": "soumyadeep_295",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "zeomax",
@@ -1167,14 +1235,16 @@
     "status_db": "active",
     "last_seen_team": "2022-11-18T21:30:00+00:00",
     "id_lichess": "jogador34",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "Daniil_Prokofev42443",
     "status_db": "active",
     "last_seen_team": "2024-07-07T17:00:00+00:00",
     "id_lichess": "daniil_prokofev42443",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "marmas",
@@ -1199,7 +1269,8 @@
     "status_db": "active",
     "last_seen_team": "2021-06-07T21:30:24+00:00",
     "id_lichess": "irmaododaniel",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "renmy500",
@@ -1224,7 +1295,8 @@
     "status_db": "active",
     "last_seen_team": "2021-12-17T21:30:00+00:00",
     "id_lichess": "martin_reid",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "MARKbravewarrior2008",
@@ -1250,7 +1322,8 @@
     "status_db": "active",
     "last_seen_team": "2023-06-30T21:30:00+00:00",
     "id_lichess": "rosivansantos",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "ReiAlex",
@@ -1276,14 +1349,16 @@
     "status_db": "active",
     "last_seen_team": "2021-02-19T21:30:40+00:00",
     "id_lichess": "gmsjlle",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "ribirth11",
     "status_db": "active",
     "last_seen_team": "2022-04-01T21:30:00+00:00",
     "id_lichess": "ribirth11",
-    "closed_account": true
+    "closed_account": true,
+    "status": "closed"
   },
   {
     "username": "luchasco",
