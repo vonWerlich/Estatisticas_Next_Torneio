@@ -1,0 +1,431 @@
+[
+  {
+    "rank": 1,
+    "score": 37,
+    "rating": 2019,
+    "username": "the-chemist",
+    "performance": 2346
+  },
+  {
+    "rank": 2,
+    "score": 32,
+    "rating": 2066,
+    "username": "vonWerlich",
+    "performance": 1980
+  },
+  {
+    "rank": 3,
+    "score": 28,
+    "rating": 1928,
+    "username": "gadottL",
+    "performance": 1997
+  },
+  {
+    "rank": 4,
+    "score": 25,
+    "rating": 2121,
+    "username": "BatoDeGotas",
+    "performance": 2207
+  },
+  {
+    "rank": 5,
+    "score": 23,
+    "rating": 1855,
+    "username": "Murilost23",
+    "performance": 1854
+  },
+  {
+    "rank": 6,
+    "score": 21,
+    "rating": 1572,
+    "username": "Eduardo-14",
+    "performance": 1553
+  },
+  {
+    "rank": 7,
+    "score": 19,
+    "rating": 1652,
+    "username": "sonogrinhas",
+    "performance": 1638
+  },
+  {
+    "rank": 8,
+    "score": 18,
+    "rating": 1663,
+    "username": "vbjnnn",
+    "performance": 1828
+  },
+  {
+    "rank": 9,
+    "score": 16,
+    "rating": 1887,
+    "username": "Balzabouth",
+    "flair": "people.love-you-gesture-light-skin-tone",
+    "performance": 2233
+  },
+  {
+    "rank": 10,
+    "score": 16,
+    "rating": 1684,
+    "username": "Yovannys",
+    "performance": 1745
+  },
+  {
+    "rank": 11,
+    "score": 14,
+    "rating": 1794,
+    "username": "Modestovic",
+    "performance": 1944
+  },
+  {
+    "rank": 12,
+    "score": 12,
+    "rating": 1873,
+    "username": "JohnWick-NexT",
+    "performance": 1696
+  },
+  {
+    "rank": 13,
+    "score": 11,
+    "rating": 1569,
+    "username": "JuanPFLMA252B",
+    "performance": 1648
+  },
+  {
+    "rank": 14,
+    "score": 11,
+    "rating": 1575,
+    "username": "DantonJosh",
+    "flair": "symbols.rainbow-flag",
+    "performance": 1539
+  },
+  {
+    "rank": 15,
+    "score": 11,
+    "rating": 1544,
+    "username": "EduardoAKLMA252B",
+    "performance": 1396
+  },
+  {
+    "rank": 16,
+    "score": 10,
+    "rating": 1708,
+    "username": "tcarpes",
+    "performance": 1675
+  },
+  {
+    "rank": 17,
+    "score": 10,
+    "rating": 1780,
+    "username": "LFNishi",
+    "performance": 1667
+  },
+  {
+    "rank": 18,
+    "score": 10,
+    "rating": 1721,
+    "username": "ramirothiago",
+    "flair": "activity.lichess-variant-antichess",
+    "performance": 1665
+  },
+  {
+    "rank": 19,
+    "score": 9,
+    "rating": 1827,
+    "username": "nic9las05",
+    "performance": 1852
+  },
+  {
+    "rank": 20,
+    "score": 9,
+    "rating": 1795,
+    "username": "Lamego06",
+    "performance": 1748
+  },
+  {
+    "rank": 21,
+    "score": 9,
+    "rating": 1726,
+    "username": "JonArt_25",
+    "performance": 1667
+  },
+  {
+    "rank": 22,
+    "score": 9,
+    "rating": 1640,
+    "username": "ReneDeVilla",
+    "performance": 1635
+  },
+  {
+    "rank": 23,
+    "score": 9,
+    "rating": 1552,
+    "username": "LeonardoMILMA252A",
+    "performance": 1579
+  },
+  {
+    "rank": 24,
+    "score": 8,
+    "rating": 1777,
+    "username": "jonatasrafael",
+    "performance": 1678
+  },
+  {
+    "rank": 25,
+    "score": 8,
+    "rating": 1286,
+    "username": "sofiaBLLMA252B",
+    "performance": 1574
+  },
+  {
+    "rank": 26,
+    "score": 8,
+    "rating": 1498,
+    "username": "SamuelVLMA252A",
+    "performance": 1558
+  },
+  {
+    "rank": 27,
+    "score": 8,
+    "rating": 1311,
+    "username": "JoaolucasAFLMA252A",
+    "flair": "people.mage",
+    "performance": 1558
+  },
+  {
+    "rank": 28,
+    "score": 8,
+    "rating": 1367,
+    "username": "IsabelleSSLMA252A",
+    "performance": 1514
+  },
+  {
+    "rank": 29,
+    "score": 6,
+    "rating": 1546,
+    "username": "MatheusVZLMA252A",
+    "performance": 1582
+  },
+  {
+    "rank": 30,
+    "score": 6,
+    "rating": 1491,
+    "username": "FernandoNCLMA252A",
+    "performance": 1521
+  },
+  {
+    "rank": 31,
+    "score": 6,
+    "rating": 1506,
+    "username": "KauaRdaSLMA252A",
+    "performance": 1441
+  },
+  {
+    "rank": 32,
+    "score": 6,
+    "rating": 1460,
+    "username": "GabrielHMLMA252A",
+    "performance": 1369
+  },
+  {
+    "rank": 33,
+    "score": 6,
+    "rating": 1399,
+    "username": "ArthurFMLMA252B",
+    "performance": 1327
+  },
+  {
+    "rank": 34,
+    "score": 6,
+    "rating": 1402,
+    "username": "Yukizz",
+    "performance": 1322
+  },
+  {
+    "rank": 35,
+    "score": 6,
+    "rating": 1200,
+    "username": "NicoleMSLMA252A",
+    "performance": 1310
+  },
+  {
+    "rank": 36,
+    "score": 6,
+    "rating": 1337,
+    "username": "VitorKMLMA252B",
+    "performance": 1225
+  },
+  {
+    "rank": 37,
+    "score": 6,
+    "rating": 1202,
+    "username": "MyleneGALMA252A",
+    "performance": 1211
+  },
+  {
+    "rank": 38,
+    "score": 5,
+    "rating": 1217,
+    "username": "GustavoPBLMAA251",
+    "performance": 1341
+  },
+  {
+    "rank": 39,
+    "score": 4,
+    "rating": 1722,
+    "username": "Ronnieryb",
+    "performance": 1751
+  },
+  {
+    "rank": 40,
+    "score": 4,
+    "rating": 1783,
+    "username": "Claudio1414",
+    "performance": 1741
+  },
+  {
+    "rank": 41,
+    "score": 4,
+    "rating": 1436,
+    "username": "WillianeVLMA252A",
+    "performance": 1372
+  },
+  {
+    "rank": 42,
+    "score": 4,
+    "rating": 1438,
+    "username": "RaulGLMA252A",
+    "flair": "smileys.alien",
+    "performance": 1350
+  },
+  {
+    "rank": 43,
+    "score": 4,
+    "rating": 1306,
+    "username": "JoaoAFLMA252A",
+    "performance": 1307
+  },
+  {
+    "rank": 44,
+    "score": 4,
+    "rating": 1188,
+    "username": "AdrissonKLMA252B",
+    "performance": 1265
+  },
+  {
+    "rank": 45,
+    "score": 4,
+    "rating": 1192,
+    "username": "HenriqueAFLMA252B",
+    "performance": 1179
+  },
+  {
+    "rank": 46,
+    "score": 4,
+    "rating": 1190,
+    "username": "MelinaRAdaCLMA252B",
+    "performance": 1126
+  },
+  {
+    "rank": 47,
+    "score": 3,
+    "rating": 1634,
+    "username": "Biipityboopity",
+    "flair": "nature.sun",
+    "performance": 1529
+  },
+  {
+    "rank": 48,
+    "score": 3,
+    "rating": 1428,
+    "username": "EduardoPLMA252B",
+    "performance": 1160
+  },
+  {
+    "rank": 49,
+    "score": 3,
+    "rating": 1284,
+    "username": "BrenoGGLMA252B",
+    "performance": 1055
+  },
+  {
+    "rank": 50,
+    "score": 3,
+    "rating": 1083,
+    "username": "AntoniaENOKLMA252A",
+    "performance": 954
+  },
+  {
+    "rank": 51,
+    "score": 2,
+    "rating": 1314,
+    "username": "sorrygmsorry",
+    "performance": 1645
+  },
+  {
+    "rank": 52,
+    "score": 0,
+    "rating": 1917,
+    "username": "MarcusZulu"
+  },
+  {
+    "rank": 53,
+    "score": 0,
+    "rating": 1904,
+    "username": "ElGremistaSC"
+  },
+  {
+    "rank": 54,
+    "score": 0,
+    "rating": 1779,
+    "username": "PedroNEXT"
+  },
+  {
+    "rank": 55,
+    "score": 0,
+    "rating": 1359,
+    "username": "NATANFOX2015"
+  },
+  {
+    "rank": 56,
+    "score": 0,
+    "rating": 1784,
+    "username": "mateoslopes",
+    "performance": 1349
+  },
+  {
+    "rank": 57,
+    "score": 0,
+    "rating": 1734,
+    "username": "NegroMestrovisk",
+    "performance": 1309
+  },
+  {
+    "rank": 58,
+    "score": 0,
+    "rating": 1024,
+    "username": "JoaoVBHLMA252B",
+    "performance": 1194
+  },
+  {
+    "rank": 59,
+    "score": 0,
+    "rating": 1117,
+    "username": "SamuelPLMA252B",
+    "performance": 1072
+  },
+  {
+    "rank": 60,
+    "score": 0,
+    "rating": 1227,
+    "username": "GustavoPLMA252A",
+    "performance": 1067
+  },
+  {
+    "rank": 61,
+    "score": 0,
+    "rating": 890,
+    "username": "LuanaLLMA252B",
+    "performance": 833
+  }
+]
