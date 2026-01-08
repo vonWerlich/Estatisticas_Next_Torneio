@@ -12,12 +12,16 @@ PARTICIPANTS_MAP_FILE = os.path.join(DATA_DIR_PLAYERS, "tournament_participants.
 # Data de corte para ler os jogos (games.ndjson) - Fuso -03:00
 DEFAULT_GHOST_CHECK_CUTOFF = "2020-05-08T18:30:00-03:00"
 
+# --- CORREÇÃO CRÍTICA AQUI: GARANTE QUE AS PASTAS EXISTAM ---
+os.makedirs(DATA_DIR_TORNEIOS, exist_ok=True)
+os.makedirs(DATA_DIR_PLAYERS, exist_ok=True)
+
 try:
     sys.stdout.reconfigure(encoding='utf-8')
 except Exception:
     pass
 
-# --- FUNÇÕES UTILITÁRIAS (Replicadas para manter consistência) ---
+# --- FUNÇÕES UTILITÁRIAS ---
 def carregar_json(filepath, default_value):
     if not os.path.exists(filepath): return default_value
     try:
@@ -25,6 +29,8 @@ def carregar_json(filepath, default_value):
     except: return default_value
 
 def salvar_json(filepath, data):
+    # Garante novamente (redundância de segurança)
+    os.makedirs(os.path.dirname(filepath), exist_ok=True)
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
@@ -32,6 +38,12 @@ def converter_data_para_iso(data_valor):
     if data_valor is None: return None
     if isinstance(data_valor, (int, float)):
         try: return datetime.fromtimestamp(data_valor / 1000, tz=timezone.utc).isoformat()
+        except: return None
+    if isinstance(data_valor, str):
+        try:
+            dt = datetime.fromisoformat(data_valor.replace('Z', '+00:00'))
+            if dt.tzinfo is None: dt = dt.replace(tzinfo=timezone.utc)
+            return dt.isoformat()
         except: return None
     return None
 
@@ -63,16 +75,13 @@ def _upsert_player(username, t_date_iso, t_date_dt, players_db, username_to_id_m
         })
         username_to_id_map[username] = pid
     else:
-        # Lógica de atualização de datas (simplificada para o exemplo)
         p = next((x for x in players_db if x['id'] == pid), None)
         if p and t_date_dt:
-            # Atualiza First Seen
             try:
                 curr = p.get("first_seen_team_date")
                 if not curr or t_date_dt < datetime.fromisoformat(curr.replace('Z','+00:00')):
                     p["first_seen_team_date"] = t_date_iso
             except: pass
-            # Atualiza Last Seen
             try:
                 curr = p.get("last_seen_team_date")
                 if not curr or t_date_dt > datetime.fromisoformat(curr.replace('Z','+00:00')):
@@ -87,11 +96,14 @@ def run_historical_fix():
     participants_map = carregar_json(PARTICIPANTS_MAP_FILE, {})
     username_to_id_map = {p['username']: p['id'] for p in players_db}
     
-    # Prepara data de corte
     try: cutoff_dt = datetime.fromisoformat(DEFAULT_GHOST_CHECK_CUTOFF.replace('Z', '+00:00'))
     except: cutoff_dt = datetime.now(timezone.utc)
 
     # Lista todos os IDs na pasta
+    if not os.path.exists(DATA_DIR_TORNEIOS):
+        print(f"❌ Erro: Pasta {DATA_DIR_TORNEIOS} não encontrada!")
+        return
+
     files_on_disk = [f.split("_")[0] for f in os.listdir(DATA_DIR_TORNEIOS) if f.endswith("_info.json")]
     
     # Filtra apenas os que NÃO estão no mapa (sua "flag")
@@ -104,10 +116,13 @@ def run_historical_fix():
         print("✅ Nada a fazer. Histórico está sincronizado.")
         return
 
-    next_player_id = max([p['id'] for p in players_db] + [0]) + 1
+    if players_db:
+        next_player_id = max([p['id'] for p in players_db] + [0]) + 1
+    else:
+        next_player_id = 1
     
-    for tid in unprocessed_ids:
-        print(f"processando: {tid}...", end="")
+    print("Iniciando varredura...")
+    for i, tid in enumerate(unprocessed_ids):
         info = carregar_json(os.path.join(DATA_DIR_TORNEIOS, f"{tid}_info.json"), {})
         results = carregar_json(os.path.join(DATA_DIR_TORNEIOS, f"{tid}_results.json"), [])
         
@@ -140,9 +155,12 @@ def run_historical_fix():
             p_ids.append(pid)
             
         participants_map[tid] = list(set(p_ids))
-        print(f" ok ({len(users)} jogadores)")
+        
+        # Log simplificado para evitar spam excessivo no log do GitHub Actions
+        if (i+1) % 10 == 0:
+            print(f"  ... {i+1}/{len(unprocessed_ids)} processados.")
 
-    print("💾 Salvando alterações...")
+    print(f"💾 Salvando alterações em {PLAYER_DB_FILE}...")
     salvar_json(PLAYER_DB_FILE, players_db)
     salvar_json(PARTICIPANTS_MAP_FILE, participants_map)
     print("🏁 Histórico corrigido com sucesso!")
