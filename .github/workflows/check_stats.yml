@@ -1,14 +1,13 @@
-name: Monthly Player Status Check
+name: Monthly Full Stats & Status Update
 
 on:
   schedule:
-    - cron: '0 0 1 * *' # Dia 1 de todo mês à meia-noite
-  workflow_dispatch:
+    - cron: '0 0 1 * *' # Dia 1 de cada mês
+  workflow_dispatch:      # Permite rodar manualmente clicando no botão
 
 jobs:
-  check-status:
+  monthly-update:
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
 
@@ -24,8 +23,8 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run status check script
-        run: python check_status.py
+      - name: Run Unified Monthly Update
+        run: python monthly_full_update.py
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
