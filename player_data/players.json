@@ -284,7 +284,7 @@
     "username": "vonWerlich",
     "first_seen_team_date": "2020-05-08T21:30:00+00:00",
     "last_seen_team_date": "2025-11-22T16:30:00+00:00",
-    "last_seen_api_timestamp": 1767897705203,
+    "last_seen_api_timestamp": 1767898907966,
     "status": "active",
     "id_lichess": "vonwerlich",
     "title": null,
@@ -366,7 +366,8 @@
     "last_seen_team_date": "2022-07-08T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "iniciante34"
+    "id_lichess": "iniciante34",
+    "closed_account": false
   },
   {
     "id": 20,
@@ -393,14 +394,14 @@
     "username": "Modestovic",
     "first_seen_team_date": "2020-05-08T21:30:00+00:00",
     "last_seen_team_date": "2025-11-08T16:30:00+00:00",
-    "last_seen_api_timestamp": 1767897096195,
+    "last_seen_api_timestamp": 1767898407620,
     "status": "active",
     "id_lichess": "modestovic",
     "title": null,
     "country": null,
     "location": "joinville - SC",
     "created_at": 1487797370743,
-    "rating_blitz": 1638,
+    "rating_blitz": 1644,
     "rating_rapid": 1780,
     "rating_bullet": 1606,
     "rating_puzzle": 1799,
@@ -713,14 +714,14 @@
     "username": "foguetada",
     "first_seen_team_date": "2020-07-10T21:30:36+00:00",
     "last_seen_team_date": "2022-12-09T21:30:00+00:00",
-    "last_seen_api_timestamp": 1767897253435,
+    "last_seen_api_timestamp": 1767898997596,
     "status": "inactive",
     "id_lichess": "foguetada",
     "title": null,
     "country": null,
     "location": "chapeco",
     "created_at": 1457575343109,
-    "rating_blitz": 2161,
+    "rating_blitz": 2155,
     "rating_rapid": 2339,
     "rating_bullet": 2417,
     "rating_puzzle": 2326,
@@ -915,7 +916,8 @@
     "last_seen_team_date": "2022-04-22T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "gustavo972"
+    "id_lichess": "gustavo972",
+    "closed_account": false
   },
   {
     "id": 48,
@@ -1064,7 +1066,8 @@
     "last_seen_team_date": "2020-11-16T21:30:38+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "cramnique"
+    "id_lichess": "cramnique",
+    "closed_account": false
   },
   {
     "id": 56,
@@ -1133,7 +1136,8 @@
     "last_seen_team_date": "2020-10-30T21:30:34+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "xadrezcontrole"
+    "id_lichess": "xadrezcontrole",
+    "closed_account": false
   },
   {
     "id": 60,
@@ -1142,21 +1146,22 @@
     "last_seen_team_date": "2020-10-30T21:30:34+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "jmpoffo"
+    "id_lichess": "jmpoffo",
+    "closed_account": false
   },
   {
     "id": 61,
     "username": "Balzabouth",
     "first_seen_team_date": "2022-05-27T21:30:00+00:00",
     "last_seen_team_date": "2025-11-08T16:30:00+00:00",
-    "last_seen_api_timestamp": 1767897365640,
+    "last_seen_api_timestamp": 1767899255087,
     "status": "active",
     "id_lichess": "balzabouth",
     "title": null,
     "country": null,
     "location": "Joinville",
     "created_at": 1619142842126,
-    "rating_blitz": 1971,
+    "rating_blitz": 1967,
     "rating_rapid": 2023,
     "rating_bullet": 2148,
     "rating_puzzle": 1900,
@@ -1331,7 +1336,8 @@
     "last_seen_team_date": "2020-08-21T21:30:32+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "thiagoehlers"
+    "id_lichess": "thiagoehlers",
+    "closed_account": false
   },
   {
     "id": 71,
@@ -1420,7 +1426,8 @@
     "last_seen_team_date": "2023-09-15T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "kronossaurus"
+    "id_lichess": "kronossaurus",
+    "closed_account": false
   },
   {
     "id": 76,
@@ -1469,7 +1476,8 @@
     "last_seen_team_date": "2022-12-09T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "gmds2023"
+    "id_lichess": "gmds2023",
+    "closed_account": false
   },
   {
     "id": 79,
@@ -1658,7 +1666,8 @@
     "last_seen_team_date": "2020-06-19T21:30:16+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "wilianfaust"
+    "id_lichess": "wilianfaust",
+    "closed_account": false
   },
   {
     "id": 89,
@@ -1707,7 +1716,8 @@
     "last_seen_team_date": "2020-06-26T21:30:18+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "billbond007"
+    "id_lichess": "billbond007",
+    "closed_account": false
   },
   {
     "id": 92,
@@ -1856,7 +1866,8 @@
     "last_seen_team_date": "2021-11-19T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "botest"
+    "id_lichess": "botest",
+    "closed_account": false
   },
   {
     "id": 100,
@@ -1865,7 +1876,8 @@
     "last_seen_team_date": "2021-09-17T21:30:55+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "pizzex"
+    "id_lichess": "pizzex",
+    "closed_account": false
   },
   {
     "id": 101,
@@ -1894,7 +1906,8 @@
     "last_seen_team_date": "2021-10-01T21:30:09+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "lucabieging"
+    "id_lichess": "lucabieging",
+    "closed_account": false
   },
   {
     "id": 103,
@@ -1983,7 +1996,8 @@
     "last_seen_team_date": "2021-02-15T21:30:16+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "chesseyeless"
+    "id_lichess": "chesseyeless",
+    "closed_account": false
   },
   {
     "id": 108,
@@ -1992,7 +2006,8 @@
     "last_seen_team_date": "2021-02-15T21:30:16+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "myrookisbigger"
+    "id_lichess": "myrookisbigger",
+    "closed_account": false
   },
   {
     "id": 109,
@@ -2121,7 +2136,8 @@
     "last_seen_team_date": "2022-11-04T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "magnusete72"
+    "id_lichess": "magnusete72",
+    "closed_account": false
   },
   {
     "id": 116,
@@ -2170,7 +2186,8 @@
     "last_seen_team_date": "2021-08-13T21:30:18+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "tarcisiocura"
+    "id_lichess": "tarcisiocura",
+    "closed_account": false
   },
   {
     "id": 119,
@@ -2579,7 +2596,8 @@
     "last_seen_team_date": "2021-07-23T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "calebeklazzarotti"
+    "id_lichess": "calebeklazzarotti",
+    "closed_account": false
   },
   {
     "id": 140,
@@ -2628,7 +2646,8 @@
     "last_seen_team_date": "2024-03-08T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "circuitoblitzcbx1"
+    "id_lichess": "circuitoblitzcbx1",
+    "closed_account": false
   },
   {
     "id": 143,
@@ -2644,7 +2663,7 @@
     "created_at": 1683132786352,
     "rating_blitz": 1480,
     "rating_rapid": 1627,
-    "rating_bullet": 1177,
+    "rating_bullet": 1172,
     "rating_puzzle": 1531,
     "total_games": null,
     "total_wins": null,
@@ -2737,7 +2756,8 @@
     "last_seen_team_date": "2020-09-18T21:30:26+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "dudumello"
+    "id_lichess": "dudumello",
+    "closed_account": false
   },
   {
     "id": 149,
@@ -2746,7 +2766,8 @@
     "last_seen_team_date": "2020-09-21T21:30:15+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "destiny_player"
+    "id_lichess": "destiny_player",
+    "closed_account": false
   },
   {
     "id": 150,
@@ -3115,7 +3136,8 @@
     "last_seen_team_date": "2025-06-27T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "active",
-    "id_lichess": "jonasblmaa251"
+    "id_lichess": "jonasblmaa251",
+    "closed_account": false
   },
   {
     "id": 169,
@@ -3124,7 +3146,8 @@
     "last_seen_team_date": "2025-06-13T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "active",
-    "id_lichess": "kauarodlmab251"
+    "id_lichess": "kauarodlmab251",
+    "closed_account": false
   },
   {
     "id": 170,
@@ -3153,7 +3176,8 @@
     "last_seen_team_date": "2025-06-27T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "active",
-    "id_lichess": "brenogglmaa251"
+    "id_lichess": "brenogglmaa251",
+    "closed_account": false
   },
   {
     "id": 172,
@@ -3862,7 +3886,8 @@
     "last_seen_team_date": "2025-04-11T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "active",
-    "id_lichess": "sarahtrsblmaa251"
+    "id_lichess": "sarahtrsblmaa251",
+    "closed_account": false
   },
   {
     "id": 208,
@@ -3891,7 +3916,8 @@
     "last_seen_team_date": "2025-06-06T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "active",
-    "id_lichess": "nicolemsantoslmaa251"
+    "id_lichess": "nicolemsantoslmaa251",
+    "closed_account": false
   },
   {
     "id": 210,
@@ -4100,7 +4126,8 @@
     "last_seen_team_date": "2023-09-15T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "gustavopedrotti"
+    "id_lichess": "gustavopedrotti",
+    "closed_account": false
   },
   {
     "id": 221,
@@ -4109,7 +4136,8 @@
     "last_seen_team_date": "2021-12-17T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "magnuslagessen"
+    "id_lichess": "magnuslagessen",
+    "closed_account": false
   },
   {
     "id": 222,
@@ -4118,7 +4146,8 @@
     "last_seen_team_date": "2023-07-07T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "imchesss"
+    "id_lichess": "imchesss",
+    "closed_account": false
   },
   {
     "id": 223,
@@ -4845,7 +4874,7 @@
     "username": "sonogrinhas",
     "first_seen_team_date": "2025-08-29T21:30:00+00:00",
     "last_seen_team_date": "2025-11-08T16:30:00+00:00",
-    "last_seen_api_timestamp": 1767891465524,
+    "last_seen_api_timestamp": 1767898587490,
     "status": "active",
     "id_lichess": "sonogrinhas",
     "title": null,
@@ -4853,7 +4882,7 @@
     "location": null,
     "created_at": 1755552869450,
     "rating_blitz": 1554,
-    "rating_rapid": 1620,
+    "rating_rapid": 1626,
     "rating_bullet": 1259,
     "rating_puzzle": 2014,
     "total_games": null,
@@ -5167,7 +5196,8 @@
     "last_seen_team_date": "2020-06-05T21:30:31+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "elrick_one"
+    "id_lichess": "elrick_one",
+    "closed_account": false
   },
   {
     "id": 276,
@@ -5176,7 +5206,8 @@
     "last_seen_team_date": "2021-09-06T21:30:34+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "rogerrscar"
+    "id_lichess": "rogerrscar",
+    "closed_account": false
   },
   {
     "id": 277,
@@ -5305,7 +5336,8 @@
     "last_seen_team_date": "2024-10-18T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "active",
-    "id_lichess": "eusekevin"
+    "id_lichess": "eusekevin",
+    "closed_account": false
   },
   {
     "id": 284,
@@ -5374,7 +5406,8 @@
     "last_seen_team_date": "2021-03-19T21:30:03+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "lilvinicius99"
+    "id_lichess": "lilvinicius99",
+    "closed_account": false
   },
   {
     "id": 288,
@@ -5563,7 +5596,8 @@
     "last_seen_team_date": "2021-06-21T21:30:29+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "dummy_4"
+    "id_lichess": "dummy_4",
+    "closed_account": false
   },
   {
     "id": 298,
@@ -5572,7 +5606,8 @@
     "last_seen_team_date": "2021-05-14T21:30:55+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "fabiopavao"
+    "id_lichess": "fabiopavao",
+    "closed_account": false
   },
   {
     "id": 299,
@@ -5601,7 +5636,8 @@
     "last_seen_team_date": "2021-05-14T21:30:55+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "alicelarabiasi"
+    "id_lichess": "alicelarabiasi",
+    "closed_account": false
   },
   {
     "id": 301,
@@ -5715,7 +5751,7 @@
     "country": null,
     "location": null,
     "created_at": 1590886913035,
-    "rating_blitz": 1734,
+    "rating_blitz": 1740,
     "rating_rapid": 1981,
     "rating_bullet": 1567,
     "rating_puzzle": 1825,
@@ -5830,7 +5866,8 @@
     "last_seen_team_date": "2020-12-11T21:30:03+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "fuerte_suerte"
+    "id_lichess": "fuerte_suerte",
+    "closed_account": false
   },
   {
     "id": 313,
@@ -5939,7 +5976,8 @@
     "last_seen_team_date": "2024-05-24T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "gabrielsouza35"
+    "id_lichess": "gabrielsouza35",
+    "closed_account": false
   },
   {
     "id": 319,
@@ -5968,7 +6006,8 @@
     "last_seen_team_date": "2020-09-07T21:30:53+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "kushana"
+    "id_lichess": "kushana",
+    "closed_account": false
   },
   {
     "id": 321,
@@ -6377,7 +6416,8 @@
     "last_seen_team_date": "2022-07-01T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "inciante34"
+    "id_lichess": "inciante34",
+    "closed_account": false
   },
   {
     "id": 342,
@@ -6466,7 +6506,8 @@
     "last_seen_team_date": "2020-05-08T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "gabriel-souza"
+    "id_lichess": "gabriel-souza",
+    "closed_account": false
   },
   {
     "id": 347,
@@ -6875,7 +6916,8 @@
     "last_seen_team_date": "2020-05-29T21:30:19+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "senun"
+    "id_lichess": "senun",
+    "closed_account": false
   },
   {
     "id": 368,
@@ -7224,7 +7266,8 @@
     "last_seen_team_date": "2025-08-22T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "active",
-    "id_lichess": "vitoramonra"
+    "id_lichess": "vitoramonra",
+    "closed_account": false
   },
   {
     "id": 386,
@@ -7613,7 +7656,8 @@
     "last_seen_team_date": "2022-06-24T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "drunknoboom"
+    "id_lichess": "drunknoboom",
+    "closed_account": false
   },
   {
     "id": 406,
@@ -7682,7 +7726,8 @@
     "last_seen_team_date": "2023-11-25T17:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "fide1434"
+    "id_lichess": "fide1434",
+    "closed_account": false
   },
   {
     "id": 410,
@@ -7831,7 +7876,8 @@
     "last_seen_team_date": "2021-10-01T21:30:09+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "fredibieging"
+    "id_lichess": "fredibieging",
+    "closed_account": false
   },
   {
     "id": 418,
@@ -7920,7 +7966,8 @@
     "last_seen_team_date": "2021-12-10T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "bcarrieres"
+    "id_lichess": "bcarrieres",
+    "closed_account": false
   },
   {
     "id": 423,
@@ -8009,7 +8056,8 @@
     "last_seen_team_date": "2021-09-13T21:30:08+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "paolo9"
+    "id_lichess": "paolo9",
+    "closed_account": false
   },
   {
     "id": 428,
@@ -8218,7 +8266,8 @@
     "last_seen_team_date": "2024-11-30T17:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "active",
-    "id_lichess": "badrinath1812"
+    "id_lichess": "badrinath1812",
+    "closed_account": false
   },
   {
     "id": 439,
@@ -8247,7 +8296,8 @@
     "last_seen_team_date": "2024-11-30T17:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "active",
-    "id_lichess": "dimon-nikolya"
+    "id_lichess": "dimon-nikolya",
+    "closed_account": false
   },
   {
     "id": 441,
@@ -8256,7 +8306,8 @@
     "last_seen_team_date": "2021-07-24T18:00:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "nrerfanian"
+    "id_lichess": "nrerfanian",
+    "closed_account": false
   },
   {
     "id": 442,
@@ -8785,7 +8836,8 @@
     "last_seen_team_date": "2023-06-30T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "elchape"
+    "id_lichess": "elchape",
+    "closed_account": false
   },
   {
     "id": 469,
@@ -8794,7 +8846,8 @@
     "last_seen_team_date": "2021-08-30T21:30:43+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "c0nt4d3m3rd4"
+    "id_lichess": "c0nt4d3m3rd4",
+    "closed_account": false
   },
   {
     "id": 470,
@@ -8903,7 +8956,8 @@
     "last_seen_team_date": "2020-08-31T21:30:39+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "marcosmolina"
+    "id_lichess": "marcosmolina",
+    "closed_account": false
   },
   {
     "id": 476,
@@ -8932,7 +8986,8 @@
     "last_seen_team_date": "2023-01-14T17:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "facs2"
+    "id_lichess": "facs2",
+    "closed_account": false
   },
   {
     "id": 478,
@@ -8961,7 +9016,8 @@
     "last_seen_team_date": "2020-05-22T21:30:35+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "tc2001"
+    "id_lichess": "tc2001",
+    "closed_account": false
   },
   {
     "id": 480,
@@ -8990,7 +9046,8 @@
     "last_seen_team_date": "2020-10-23T21:30:36+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "thcesilva"
+    "id_lichess": "thcesilva",
+    "closed_account": false
   },
   {
     "id": 482,
@@ -8999,7 +9056,8 @@
     "last_seen_team_date": "2025-06-28T16:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "active",
-    "id_lichess": "erwinbwcv"
+    "id_lichess": "erwinbwcv",
+    "closed_account": false
   },
   {
     "id": 483,
@@ -9008,7 +9066,8 @@
     "last_seen_team_date": "2025-06-28T16:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "active",
-    "id_lichess": "oduma"
+    "id_lichess": "oduma",
+    "closed_account": false
   },
   {
     "id": 484,
@@ -9117,7 +9176,8 @@
     "last_seen_team_date": "2025-06-28T16:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "active",
-    "id_lichess": "turniritolko"
+    "id_lichess": "turniritolko",
+    "closed_account": false
   },
   {
     "id": 490,
@@ -9226,7 +9286,8 @@
     "last_seen_team_date": "2025-06-28T16:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "active",
-    "id_lichess": "bahtiyar_shahmater"
+    "id_lichess": "bahtiyar_shahmater",
+    "closed_account": false
   },
   {
     "id": 496,
@@ -9475,7 +9536,8 @@
     "last_seen_team_date": "2020-12-21T21:30:01+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "pavaomisterioso"
+    "id_lichess": "pavaomisterioso",
+    "closed_account": false
   },
   {
     "id": 509,
@@ -9784,7 +9846,8 @@
     "last_seen_team_date": "2022-04-29T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "antoniou270819"
+    "id_lichess": "antoniou270819",
+    "closed_account": false
   },
   {
     "id": 525,
@@ -9953,7 +10016,8 @@
     "last_seen_team_date": "2022-02-11T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "anatovkarpoly"
+    "id_lichess": "anatovkarpoly",
+    "closed_account": false
   },
   {
     "id": 534,
@@ -10362,7 +10426,8 @@
     "last_seen_team_date": "2024-09-27T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "active",
-    "id_lichess": "carlosmaia"
+    "id_lichess": "carlosmaia",
+    "closed_account": false
   },
   {
     "id": 555,
@@ -10431,7 +10496,8 @@
     "last_seen_team_date": "2021-03-08T21:30:46+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "slowlearner69"
+    "id_lichess": "slowlearner69",
+    "closed_account": false
   },
   {
     "id": 559,
@@ -10580,7 +10646,8 @@
     "last_seen_team_date": "2024-10-11T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "active",
-    "id_lichess": "gesse_ic"
+    "id_lichess": "gesse_ic",
+    "closed_account": false
   },
   {
     "id": 567,
@@ -10649,7 +10716,8 @@
     "last_seen_team_date": "2020-12-12T18:00:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "macrokiller"
+    "id_lichess": "macrokiller",
+    "closed_account": false
   },
   {
     "id": 571,
@@ -10756,14 +10824,14 @@
     "username": "ValerioBrusamolin",
     "first_seen_team_date": "2020-12-12T18:00:00+00:00",
     "last_seen_team_date": "2020-12-12T18:00:00+00:00",
-    "last_seen_api_timestamp": 1767897493983,
+    "last_seen_api_timestamp": 1767898652225,
     "status": "inactive",
     "id_lichess": "valeriobrusamolin",
     "title": null,
     "country": null,
     "location": null,
     "created_at": 1441156678958,
-    "rating_blitz": 1920,
+    "rating_blitz": 1931,
     "rating_rapid": 2243,
     "rating_bullet": 1614,
     "rating_puzzle": 2288,
@@ -10778,7 +10846,8 @@
     "last_seen_team_date": "2020-12-12T18:00:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "jlenamorado"
+    "id_lichess": "jlenamorado",
+    "closed_account": false
   },
   {
     "id": 578,
@@ -10827,7 +10896,8 @@
     "last_seen_team_date": "2020-12-19T18:00:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "pedrogr"
+    "id_lichess": "pedrogr",
+    "closed_account": false
   },
   {
     "id": 581,
@@ -10836,7 +10906,8 @@
     "last_seen_team_date": "2020-12-12T18:00:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "martinslaby"
+    "id_lichess": "martinslaby",
+    "closed_account": false
   },
   {
     "id": 582,
@@ -10845,7 +10916,8 @@
     "last_seen_team_date": "2020-12-12T18:00:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "whiterabbit00"
+    "id_lichess": "whiterabbit00",
+    "closed_account": false
   },
   {
     "id": 583,
@@ -10934,7 +11006,8 @@
     "last_seen_team_date": "2020-12-12T18:00:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "sidgord"
+    "id_lichess": "sidgord",
+    "closed_account": false
   },
   {
     "id": 588,
@@ -10983,7 +11056,8 @@
     "last_seen_team_date": "2020-12-12T18:00:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "atalaiaronaldo"
+    "id_lichess": "atalaiaronaldo",
+    "closed_account": false
   },
   {
     "id": 591,
@@ -11092,7 +11166,8 @@
     "last_seen_team_date": "2023-10-06T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "chessnomaster35"
+    "id_lichess": "chessnomaster35",
+    "closed_account": false
   },
   {
     "id": 597,
@@ -11181,7 +11256,8 @@
     "last_seen_team_date": "2023-11-25T17:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "jujuburizigi"
+    "id_lichess": "jujuburizigi",
+    "closed_account": false
   },
   {
     "id": 602,
@@ -11310,7 +11386,8 @@
     "last_seen_team_date": "2020-12-11T21:30:03+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "lpsupi_sac"
+    "id_lichess": "lpsupi_sac",
+    "closed_account": false
   },
   {
     "id": 609,
@@ -11399,7 +11476,8 @@
     "last_seen_team_date": "2022-04-29T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "krammnik"
+    "id_lichess": "krammnik",
+    "closed_account": false
   },
   {
     "id": 614,
@@ -11408,7 +11486,8 @@
     "last_seen_team_date": "2022-04-29T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "gamerwithoutsuccess"
+    "id_lichess": "gamerwithoutsuccess",
+    "closed_account": false
   },
   {
     "id": 615,
@@ -11497,21 +11576,22 @@
     "last_seen_team_date": "2022-07-16T18:00:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "semen_baryshnikov"
+    "id_lichess": "semen_baryshnikov",
+    "closed_account": false
   },
   {
     "id": 620,
     "username": "sergiulpt",
     "first_seen_team_date": "2022-07-16T18:00:00+00:00",
     "last_seen_team_date": "2022-07-16T18:00:00+00:00",
-    "last_seen_api_timestamp": 1767897770873,
+    "last_seen_api_timestamp": 1767898769940,
     "status": "inactive",
     "id_lichess": "sergiulpt",
     "title": null,
     "country": null,
     "location": null,
     "created_at": 1654188070028,
-    "rating_blitz": 2200,
+    "rating_blitz": 2206,
     "rating_rapid": 1500,
     "rating_bullet": 1500,
     "rating_puzzle": 2398,
@@ -11726,7 +11806,8 @@
     "last_seen_team_date": "2022-07-15T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "troiano98"
+    "id_lichess": "troiano98",
+    "closed_account": false
   },
   {
     "id": 632,
@@ -11915,7 +11996,8 @@
     "last_seen_team_date": "2023-06-16T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "chessleee35"
+    "id_lichess": "chessleee35",
+    "closed_account": false
   },
   {
     "id": 642,
@@ -11924,7 +12006,8 @@
     "last_seen_team_date": "2021-12-03T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "chessevolution33"
+    "id_lichess": "chessevolution33",
+    "closed_account": false
   },
   {
     "id": 643,
@@ -12093,7 +12176,8 @@
     "last_seen_team_date": "2020-12-19T18:00:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "gustavospi"
+    "id_lichess": "gustavospi",
+    "closed_account": false
   },
   {
     "id": 652,
@@ -12102,7 +12186,8 @@
     "last_seen_team_date": "2020-12-19T18:00:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "tinolaurio2020"
+    "id_lichess": "tinolaurio2020",
+    "closed_account": false
   },
   {
     "id": 653,
@@ -12171,7 +12256,8 @@
     "last_seen_team_date": "2020-12-19T18:00:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "eg0r2012"
+    "id_lichess": "eg0r2012",
+    "closed_account": false
   },
   {
     "id": 657,
@@ -12220,7 +12306,8 @@
     "last_seen_team_date": "2021-07-10T18:00:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "ana-lu"
+    "id_lichess": "ana-lu",
+    "closed_account": false
   },
   {
     "id": 660,
@@ -12469,7 +12556,8 @@
     "last_seen_team_date": "2023-01-14T17:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "lehanys"
+    "id_lichess": "lehanys",
+    "closed_account": false
   },
   {
     "id": 673,
@@ -12478,7 +12566,8 @@
     "last_seen_team_date": "2023-01-14T17:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "vadimml2010"
+    "id_lichess": "vadimml2010",
+    "closed_account": false
   },
   {
     "id": 674,
@@ -12507,7 +12596,8 @@
     "last_seen_team_date": "2023-01-14T17:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "makr_kravchenko2015"
+    "id_lichess": "makr_kravchenko2015",
+    "closed_account": false
   },
   {
     "id": 676,
@@ -12516,7 +12606,8 @@
     "last_seen_team_date": "2023-01-14T17:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "sultanrumon"
+    "id_lichess": "sultanrumon",
+    "closed_account": false
   },
   {
     "id": 677,
@@ -12545,7 +12636,8 @@
     "last_seen_team_date": "2023-01-14T17:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "iwannadienowidk"
+    "id_lichess": "iwannadienowidk",
+    "closed_account": false
   },
   {
     "id": 679,
@@ -12554,14 +12646,15 @@
     "last_seen_team_date": "2023-01-14T17:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "drhmdi"
+    "id_lichess": "drhmdi",
+    "closed_account": false
   },
   {
     "id": 680,
     "username": "Ettorino1",
     "first_seen_team_date": "2023-01-14T17:30:00+00:00",
     "last_seen_team_date": "2023-01-14T17:30:00+00:00",
-    "last_seen_api_timestamp": 1767897848069,
+    "last_seen_api_timestamp": 1767898604485,
     "status": "inactive",
     "id_lichess": "ettorino1",
     "title": null,
@@ -12723,7 +12816,8 @@
     "last_seen_team_date": "2023-01-14T17:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "bearandfox"
+    "id_lichess": "bearandfox",
+    "closed_account": false
   },
   {
     "id": 689,
@@ -12732,7 +12826,8 @@
     "last_seen_team_date": "2023-01-14T17:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "xgabredeirosx"
+    "id_lichess": "xgabredeirosx",
+    "closed_account": false
   },
   {
     "id": 690,
@@ -12741,7 +12836,8 @@
     "last_seen_team_date": "2023-01-14T17:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "nih4t007"
+    "id_lichess": "nih4t007",
+    "closed_account": false
   },
   {
     "id": 691,
@@ -12750,7 +12846,8 @@
     "last_seen_team_date": "2023-01-14T17:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "sahmatvezir123"
+    "id_lichess": "sahmatvezir123",
+    "closed_account": false
   },
   {
     "id": 692,
@@ -12799,7 +12896,8 @@
     "last_seen_team_date": "2023-01-14T17:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "interio_44"
+    "id_lichess": "interio_44",
+    "closed_account": false
   },
   {
     "id": 695,
@@ -12988,7 +13086,8 @@
     "last_seen_team_date": "2025-06-28T18:00:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "active",
-    "id_lichess": "mbhh"
+    "id_lichess": "mbhh",
+    "closed_account": false
   },
   {
     "id": 705,
@@ -13077,7 +13176,8 @@
     "last_seen_team_date": "2023-06-17T17:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "xepobactehbko"
+    "id_lichess": "xepobactehbko",
+    "closed_account": false
   },
   {
     "id": 710,
@@ -13086,7 +13186,8 @@
     "last_seen_team_date": "2023-06-17T17:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "ches_pachmin"
+    "id_lichess": "ches_pachmin",
+    "closed_account": false
   },
   {
     "id": 711,
@@ -13095,7 +13196,8 @@
     "last_seen_team_date": "2023-06-17T17:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "mesem01"
+    "id_lichess": "mesem01",
+    "closed_account": false
   },
   {
     "id": 712,
@@ -13124,7 +13226,8 @@
     "last_seen_team_date": "2023-06-17T17:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "chessgms35"
+    "id_lichess": "chessgms35",
+    "closed_account": false
   },
   {
     "id": 714,
@@ -13133,7 +13236,8 @@
     "last_seen_team_date": "2023-06-17T17:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "aliyahars06"
+    "id_lichess": "aliyahars06",
+    "closed_account": false
   },
   {
     "id": 715,
@@ -13162,7 +13266,8 @@
     "last_seen_team_date": "2023-06-17T17:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "soumyadeep_295"
+    "id_lichess": "soumyadeep_295",
+    "closed_account": false
   },
   {
     "id": 717,
@@ -13171,7 +13276,8 @@
     "last_seen_team_date": "2023-06-17T17:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "zeomax"
+    "id_lichess": "zeomax",
+    "closed_account": false
   },
   {
     "id": 718,
@@ -13180,7 +13286,8 @@
     "last_seen_team_date": "2023-06-17T17:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "vddmitrik1973"
+    "id_lichess": "vddmitrik1973",
+    "closed_account": false
   },
   {
     "id": 719,
@@ -13429,7 +13536,8 @@
     "last_seen_team_date": "2022-11-18T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "jogador34"
+    "id_lichess": "jogador34",
+    "closed_account": false
   },
   {
     "id": 732,
@@ -13618,7 +13726,8 @@
     "last_seen_team_date": "2024-07-07T17:00:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "daniil_prokofev42443"
+    "id_lichess": "daniil_prokofev42443",
+    "closed_account": false
   },
   {
     "id": 742,
@@ -13647,7 +13756,8 @@
     "last_seen_team_date": "2022-11-26T18:05:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "marmas"
+    "id_lichess": "marmas",
+    "closed_account": false
   },
   {
     "id": 744,
@@ -13696,7 +13806,8 @@
     "last_seen_team_date": "2021-06-07T21:30:24+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "irmaododaniel"
+    "id_lichess": "irmaododaniel",
+    "closed_account": false
   },
   {
     "id": 747,
@@ -13945,7 +14056,8 @@
     "last_seen_team_date": "2021-12-17T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "renmy500"
+    "id_lichess": "renmy500",
+    "closed_account": false
   },
   {
     "id": 760,
@@ -14094,7 +14206,8 @@
     "last_seen_team_date": "2021-12-17T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "martin_reid"
+    "id_lichess": "martin_reid",
+    "closed_account": false
   },
   {
     "id": 768,
@@ -14143,7 +14256,8 @@
     "last_seen_team_date": "2021-12-17T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "markbravewarrior2008"
+    "id_lichess": "markbravewarrior2008",
+    "closed_account": false
   },
   {
     "id": 771,
@@ -14292,7 +14406,8 @@
     "last_seen_team_date": "2023-06-30T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "rosivansantos"
+    "id_lichess": "rosivansantos",
+    "closed_account": false
   },
   {
     "id": 779,
@@ -14401,7 +14516,8 @@
     "last_seen_team_date": "2022-03-04T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "reialex"
+    "id_lichess": "reialex",
+    "closed_account": false
   },
   {
     "id": 785,
@@ -14510,7 +14626,8 @@
     "last_seen_team_date": "2021-02-19T21:30:40+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "gmsjlle"
+    "id_lichess": "gmsjlle",
+    "closed_account": false
   },
   {
     "id": 791,
@@ -14657,7 +14774,7 @@
     "username": "Drevokoleso",
     "first_seen_team_date": "2025-11-22T16:30:00+00:00",
     "last_seen_team_date": "2025-11-22T16:30:00+00:00",
-    "last_seen_api_timestamp": 1767893774189,
+    "last_seen_api_timestamp": 1767899084033,
     "status": "active",
     "id_lichess": "drevokoleso",
     "title": null,
@@ -14699,7 +14816,8 @@
     "last_seen_team_date": "2022-04-01T21:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "ribirth11"
+    "id_lichess": "ribirth11",
+    "closed_account": false
   },
   {
     "id": 801,
@@ -14748,7 +14866,8 @@
     "last_seen_team_date": "2024-06-08T17:30:00+00:00",
     "last_seen_api_timestamp": null,
     "status": "inactive",
-    "id_lichess": "luchasco"
+    "id_lichess": "luchasco",
+    "closed_account": false
   },
   {
     "id": 804,
