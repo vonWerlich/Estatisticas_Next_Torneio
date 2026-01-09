@@ -1,4 +1,4 @@
-name: Manual History Fix
+name: Initialize Player Database
 
 on:
   workflow_dispatch: # Isso cria o botão "Run workflow"
