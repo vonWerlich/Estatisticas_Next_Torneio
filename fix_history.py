@@ -9,7 +9,7 @@ from datetime import datetime
 # ================= CONFIGURAÇÃO =================
 
 # Caminho onde estão as pastas dos torneios
-TOURNAMENT_DIR = "torneios_new" 
+TOURNAMENT_DIR = "torneiosnew" 
 DB_FILE = "team_users.db"
 
 # Headers para a API (Respeitando boas práticas)
