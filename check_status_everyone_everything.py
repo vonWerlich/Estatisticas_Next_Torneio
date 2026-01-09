@@ -4,80 +4,145 @@ import json
 import time
 import os
 
-# ================= CONFIG =================
+# ================= CONFIGURAÇÃO =================
 
 DB_FILE = "team_users.db"
 OUTPUT_DIR = "player_data"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
+# Lote de requisição (respeitando limites da API)
 BATCH_SIZE = 300
 
 HEADERS = {
-    "User-Agent": "MonthlyStatusBot/2.2 (Kauan/TeamManager)",
+    "User-Agent": "MegaStatusBot/4.0 (Kauan/TeamManager)",
     "Accept": "application/json"
 }
 
-# ================= API =================
+# ================= FUNÇÕES DE EXTRAÇÃO =================
+
+def extract_ratings_full(user_obj):
+    """Extrai TODOS os ratings possíveis do objeto user"""
+    perfs = user_obj.get("perfs", {})
+    return (
+        perfs.get("bullet", {}).get("rating"),
+        perfs.get("blitz", {}).get("rating"),
+        perfs.get("rapid", {}).get("rating"),
+        perfs.get("classical", {}).get("rating"),
+        perfs.get("correspondence", {}).get("rating"),
+        perfs.get("crazyhouse", {}).get("rating"),
+        perfs.get("chess960", {}).get("rating"),
+        perfs.get("kingOfTheHill", {}).get("rating"),
+        perfs.get("threeCheck", {}).get("rating"),
+        perfs.get("antichess", {}).get("rating"),
+        perfs.get("atomic", {}).get("rating"),
+        perfs.get("horde", {}).get("rating"),
+        perfs.get("racingKings", {}).get("rating"),
+        perfs.get("ultraBullet", {}).get("rating"),
+        perfs.get("puzzle", {}).get("rating")
+    )
+
+def extract_stats(user_obj):
+    """Extrai estatísticas de vitórias/derrotas e tempo jogado"""
+    count = user_obj.get("count", {})
+    return (
+        count.get("all"),
+        count.get("win"),
+        count.get("loss"),
+        count.get("draw"),
+        user_obj.get("playTime", {}).get("total")
+    )
+
+def extract_profile(user_obj):
+    """Extrai dados biográficos"""
+    profile = user_obj.get("profile", {})
+    return (
+        profile.get("bio"),
+        profile.get("country"),
+        profile.get("location")
+    )
+
+# ================= API & DB =================
 
 def bulk_fetch(ids):
-    """
-    Busca usuários em lote (até 300 por vez).
-    O Lichess SILENCIOSAMENTE remove usuários fechados/inexistentes desta resposta.
-    """
+    """Busca até 300 usuários de uma vez (ignora contas fechadas/missing)"""
     try:
         r = requests.post(
             "https://lichess.org/api/users",
             data=",".join(ids),
             headers=HEADERS,
-            timeout=20
+            timeout=30
         )
-        r.raise_for_status()
+        if r.status_code != 200:
+            print(f"⚠️ Erro API Bulk ({r.status_code})...")
+            return []
         return r.json()
     except Exception as e:
-        print(f"⚠️ Erro no bulk fetch: {e}")
+        print(f"⚠️ Exceção no bulk: {e}")
         return []
 
-def check_full_status_individual(uid):
-    """
-    Verifica individualmente e retorna o status exato e a flag de fechada.
-    Retorna tupla: (status, is_closed) ou (None, None) em caso de erro de rede.
-    """
+def fetch_individual_full(uid):
+    """Busca usuário individualmente (para pegar banidos/fechados)"""
     try:
-        r = requests.get(
-            f"https://lichess.org/api/user/{uid}",
-            headers=HEADERS,
-            timeout=10
-        )
-
-        # 404 = Conta não existe mais (Deletada definitivamente ou nunca existiu)
-        if r.status_code == 404:
-            return "closed", 1
-
-        # Se for erro de servidor ou rate limit, não assuma nada
-        if r.status_code == 429 or r.status_code >= 500:
-            print(f"⚠️ Rate limit ou erro no Lichess para {uid} (Code {r.status_code}). Pulando...")
-            return None, None
-
-        data = r.json()
-
-        # 1. Checagem de conta fechada (User closed)
-        # A API retorna o objeto, mas com "disabled": true
-        if data.get("disabled", False) is True:
-            return "closed", 1
+        r = requests.get(f"https://lichess.org/api/user/{uid}", headers=HEADERS, timeout=10)
         
-        # 2. Checagem de banimento (Lichess banned)
-        if data.get("tosViolation", False) is True:
-            return "banned", 0 # Banido geralmente não é conta fechada, é conta ativa mas restrita
-
-        # 3. Ativo ou Inativo (baseado no ultimo login)
-        if data.get("seenAt"):
-            return "active", 0
+        # 404 = Conta Deletada/Inexistente
+        if r.status_code == 404:
+            return "closed", None
+        
+        # Outros erros
+        if r.status_code != 200:
+            return None, None # Tenta de novo depois ou ignora
+            
+        data = r.json()
+        
+        # Determina status
+        if data.get("disabled"):
+            status = "closed"
+        elif data.get("tosViolation"):
+            status = "banned"
         else:
-            return "inactive", 0
-
-    except Exception as e:
-        # Se der erro de parsing ou conexão, retorna None para preservar o estado atual
+            status = "active" if data.get("seenAt") else "inactive"
+            
+        return status, data
+        
+    except Exception:
         return None, None
+
+def update_user_db(cur, uid, data, status):
+    """Atualiza o registro no banco com TODOS os campos novos"""
+    
+    ratings = extract_ratings_full(data)
+    stats = extract_stats(data)
+    profile = extract_profile(data)
+    
+    # Query Monstruosa para atualizar tudo
+    cur.execute("""
+        UPDATE users
+        SET 
+            username = ?,
+            status = ?,
+            bio = ?, country = ?, location = ?,
+            
+            rating_bullet = ?, rating_blitz = ?, rating_rapid = ?, rating_classical = ?, rating_correspondence = ?,
+            rating_crazyhouse = ?, rating_chess960 = ?, rating_king_of_the_hill = ?, rating_three_check = ?,
+            rating_antichess = ?, rating_atomic = ?, rating_horde = ?, rating_racing_kings = ?, rating_ultra_bullet = ?,
+            rating_puzzle = ?,
+            
+            total_games = ?, total_wins = ?, total_losses = ?, total_draws = ?, play_time_total = ?,
+            
+            seen_at = ?,
+            last_seen_api_timestamp = ?,
+            raw_json = ?
+            
+        WHERE id_lichess = ?
+    """, (
+        data.get("username"), status,
+        *profile,           # bio, country, location
+        *ratings,           # 15 ratings
+        *stats,             # 5 stats
+        data.get("seenAt"), int(time.time()*1000), json.dumps(data),
+        uid
+    ))
 
 # ================= UTIL =================
 
@@ -90,137 +155,98 @@ def export_json(conn, filename, query):
     cur = conn.cursor()
     rows = cur.execute(query).fetchall()
     data = [dict(r) for r in rows]
-
-    with open(os.path.join(OUTPUT_DIR, filename), "w", encoding="utf-8") as f:
+    
+    path = os.path.join(OUTPUT_DIR, filename)
+    with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+    print(f"   📄 {filename} gerado com {len(data)} registros.")
 
 # ================= MAIN =================
 
 def main():
-    print("🔄 Atualização mensal de status (Versão Corrigida v2.2)")
+    print("🔄 MEGA STATUS UPDATE v4.0 (Schema Completo)")
+    
+    if not os.path.exists(DB_FILE):
+        print("❌ Banco de dados não encontrado! Rode o init_db.py primeiro.")
+        return
 
     conn = sqlite3.connect(DB_FILE)
     cur = conn.cursor()
 
-    # ===== TODOS OS IDS =====
+    # 1. Carregar IDs
     cur.execute("SELECT id_lichess FROM users")
     ids = [r[0] for r in cur.fetchall()]
-    # Normalizar para minúsculo para evitar duplicatas de case
     ids = [uid.lower() for uid in ids if uid]
-
-    print(f"👥 Usuários no banco para verificar: {len(ids)}")
+    print(f"👥 Total de usuários para verificar: {len(ids)}")
 
     appeared = set()
 
-    # ===== 1. BULK CHECK (Rápido) =====
-    print("🚀 Iniciando verificação em massa...")
+    # 2. BULK FETCH (Rápido)
+    print("🚀 Iniciando atualização em massa...")
     for batch in chunk(ids, BATCH_SIZE):
         api_users = bulk_fetch(batch)
-
-        for u in api_users:
-            uid = u.get("id")
-            if not uid:
-                continue
-
-            uid = uid.lower()
-            appeared.add(uid)
-
-            # Prioridade de Status no Bulk
-            if u.get("disabled", False):
-                status = "closed"
-                closed_acc = 1
-            elif u.get("tosViolation", False):
-                status = "banned"
-                closed_acc = 0
-            else:
-                status = "active" if u.get("seenAt") else "inactive"
-                closed_acc = 0
-
-            cur.execute("""
-                UPDATE users
-                SET status = ?,
-                    closed_account = ?,
-                    last_seen_api_timestamp = ?
-                WHERE id_lichess = ?
-            """, (status, closed_acc, u.get("seenAt"), uid))
-
-        conn.commit()
-        time.sleep(1.0) # Respeitando a API
-
-    # ===== 2. SUSPEITOS (Lento e Preciso) =====
-    # Quem estava na lista de IDs mas NÃO veio no bulk é suspeito de estar fechado/missing
-    suspects = [uid for uid in ids if uid not in appeared]
-    print(f"⚠️ Suspeitos de conta fechada (não retornados no bulk): {len(suspects)}")
-
-    count_closed = 0
-    count_errors = 0
-
-    for i, uid in enumerate(suspects):
-        real_status, is_closed = check_full_status_individual(uid)
-
-        # Se deu erro de conexão (None), ignoramos este user nesta rodada
-        if real_status is None:
-            count_errors += 1
-            continue
-
-        # Log visual a cada 10 users
-        if (i + 1) % 10 == 0:
-            print(f"  [{i+1}/{len(suspects)}] Verificando {uid} -> {real_status}")
-
-        cur.execute("""
-            UPDATE users
-            SET status = ?,
-                closed_account = ?
-            WHERE id_lichess = ?
-        """, (real_status, is_closed, uid))
         
-        if real_status == "closed":
-            count_closed += 1
+        for u in api_users:
+            uid = u.get("id").lower()
+            appeared.add(uid)
+            
+            # Status preliminar (será refinado se tiver flags)
+            if u.get("disabled"): status = "closed"
+            elif u.get("tosViolation"): status = "banned"
+            else: status = "active" if u.get("seenAt") else "inactive"
+            
+            update_user_db(cur, uid, u, status)
+            
+        conn.commit()
+        print(f"   Processados {len(appeared)} jogadores via Bulk...")
+        time.sleep(1.0)
 
-        # Delay maior aqui pois são requisições individuais
-        time.sleep(0.7) 
-
-    conn.commit()
-    print(f"✅ Suspeitos processados. {count_closed} confirmados como fechados. {count_errors} erros de conexão.")
-
-    # ================= EXPORTS =================
-
-    print("📤 Exportando JSONs atualizados...")
-
-    export_json(conn, "users_all.json", "SELECT * FROM users")
-
-    export_json(conn, "users_lurkers.json",
-        """
-        SELECT * FROM users
-        WHERE first_seen_team_date IS NULL
-          AND last_seen_team_date IS NULL
-        """
-    )
-
-    export_json(conn, "users_banned.json", "SELECT * FROM users WHERE status = 'banned'")
+    # 3. SUSPEITOS (Lento)
+    suspects = [uid for uid in ids if uid not in appeared]
+    print(f"⚠️ {len(suspects)} usuários não retornaram no Bulk (Possíveis Banidos/Closed)...")
     
-    export_json(conn, "users_closed.json", "SELECT * FROM users WHERE status = 'closed'")
+    count_updated = 0
+    for i, uid in enumerate(suspects):
+        status, data = fetch_individual_full(uid)
+        
+        if status == "closed" and data is None:
+            # Conta deletada (404)
+            cur.execute("UPDATE users SET status='closed', last_seen_api_timestamp=? WHERE id_lichess=?", (int(time.time()*1000), uid))
+        elif data:
+            # Conta existe (pode ser banida ou disabled)
+            update_user_db(cur, uid, data, status)
+        
+        count_updated += 1
+        if (i+1) % 10 == 0:
+            print(f"   Investigando suspeitos: {i+1}/{len(suspects)}")
+        
+        time.sleep(0.7) # Delay
+        
+    conn.commit()
+    print("✅ Banco de dados sincronizado!")
 
-    export_json(conn, "members_active.json",
+    # 4. EXPORTS
+    print("📤 Gerando arquivos JSON atualizados...")
+    
+    # Dump completo
+    export_json(conn, "users_full_dump.json", "SELECT * FROM users")
+    
+    # Exemplo: Ranking Rapid (apenas ativos)
+    export_json(conn, "leaderboard_rapid.json", 
         """
-        SELECT * FROM users
-        WHERE is_team_member = 1
-          AND status = 'active'
-          AND closed_account = 0
+        SELECT username, rating_rapid, total_games, country 
+        FROM users 
+        WHERE status='active' AND rating_rapid IS NOT NULL 
+        ORDER BY rating_rapid DESC LIMIT 50
         """
     )
-
-    export_json(conn, "members_inactive.json",
-        """
-        SELECT * FROM users
-        WHERE is_team_member = 1
-          AND status = 'inactive'
-          AND closed_account = 0
-        """
+    
+    # Exemplo: Banidos e Fechados
+    export_json(conn, "bans_and_closures.json",
+        "SELECT username, status, id_lichess FROM users WHERE status IN ('banned', 'closed')"
     )
 
     conn.close()
-    print("✅ Atualização mensal concluída com sucesso!")
 
 if __name__ == "__main__":
     main()
