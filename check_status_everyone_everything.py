@@ -13,7 +13,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 BATCH_SIZE = 300
 
 HEADERS = {
-    "User-Agent": "MonthlyStatusBot/2.0",
+    "User-Agent": "MonthlyStatusBot/2.1",
     "Accept": "application/json"
 }
 
@@ -30,17 +30,39 @@ def bulk_fetch(ids):
     return r.json()
 
 def check_closed_individual(uid):
+    """
+    Conta é considerada fechada se:
+    - 404
+    - 200 mas resposta não é JSON
+    - JSON sem campo 'id'
+    """
     try:
         r = requests.get(
             f"https://lichess.org/api/user/{uid}",
             headers=HEADERS,
             timeout=10
         )
+
         if r.status_code == 404:
             return True
-        if r.status_code == 200:
+
+        if r.status_code != 200:
             return False
+
+        try:
+            data = r.json()
+        except Exception:
+            # 200 + HTML => conta fechada
+            return True
+
+        if not isinstance(data, dict):
+            return True
+
+        if "id" not in data:
+            return True
+
         return False
+
     except Exception:
         return False
 
@@ -62,7 +84,7 @@ def export_json(conn, filename, query):
 # ================= MAIN =================
 
 def main():
-    print("🔄 Atualização mensal de status iniciada")
+    print("🔄 Atualização mensal de status (corrigida)")
 
     conn = sqlite3.connect(DB_FILE)
     cur = conn.cursor()
@@ -70,6 +92,7 @@ def main():
     # ===== TODOS OS IDS =====
     cur.execute("SELECT id_lichess FROM users")
     ids = [r[0] for r in cur.fetchall()]
+    ids = [uid.lower() for uid in ids]
 
     print(f"👥 Usuários no banco: {len(ids)}")
 
@@ -103,19 +126,25 @@ def main():
         conn.commit()
         time.sleep(1.5)
 
-    # ===== SUSPEITOS (NÃO APARECERAM NO BULK) =====
+    # ===== SUSPEITOS =====
     suspects = [uid for uid in ids if uid not in appeared]
     print(f"⚠️ Suspeitos de conta fechada: {len(suspects)}")
 
     for uid in suspects:
-        closed = check_closed_individual(uid)
-
-        cur.execute("""
-            UPDATE users
-            SET closed_account = ?,
-                status = CASE WHEN ? THEN 'closed' ELSE status END
-            WHERE id_lichess = ?
-        """, (1 if closed else 0, closed, uid))
+        if check_closed_individual(uid):
+            cur.execute("""
+                UPDATE users
+                SET closed_account = 1,
+                    status = 'closed'
+                WHERE id_lichess = ?
+            """, (uid,))
+        else:
+            # Conta existe, mas não apareceu no bulk
+            cur.execute("""
+                UPDATE users
+                SET closed_account = 0
+                WHERE id_lichess = ?
+            """, (uid,))
 
         time.sleep(0.25)
 
@@ -125,32 +154,39 @@ def main():
 
     print("📤 Exportando JSONs")
 
-    export_json(conn, "users_all.json", "SELECT * FROM users")
+    export_json(conn, "users_all.json",
+        "SELECT * FROM users"
+    )
 
-    export_json(conn, "users_lurkers.json", """
+    export_json(conn, "users_lurkers.json",
+        """
         SELECT * FROM users
         WHERE first_seen_team_date IS NULL
           AND last_seen_team_date IS NULL
-    """)
+        """
+    )
 
-    export_json(conn, "users_banned.json", """
-        SELECT * FROM users
-        WHERE status = 'banned'
-    """)
+    export_json(conn, "users_banned.json",
+        "SELECT * FROM users WHERE status = 'banned'"
+    )
 
-    export_json(conn, "members_active.json", """
+    export_json(conn, "members_active.json",
+        """
         SELECT * FROM users
         WHERE is_team_member = 1
           AND status = 'active'
           AND closed_account = 0
-    """)
+        """
+    )
 
-    export_json(conn, "members_inactive.json", """
+    export_json(conn, "members_inactive.json",
+        """
         SELECT * FROM users
         WHERE is_team_member = 1
           AND status = 'inactive'
           AND closed_account = 0
-    """)
+        """
+    )
 
     conn.close()
     print("✅ Atualização mensal concluída com sucesso")
