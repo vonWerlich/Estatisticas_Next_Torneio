@@ -13,17 +13,13 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 BATCH_SIZE = 300
 
 HEADERS = {
-    "User-Agent": "MonthlyStatusBot/2.2 (Kauan/TeamManager)",
+    "User-Agent": "MonthlyStatusBot/2.3 (Kauan/TeamManager)",
     "Accept": "application/json"
 }
 
 # ================= API =================
 
 def bulk_fetch(ids):
-    """
-    Busca usuários em lote (até 300 por vez).
-    O Lichess SILENCIOSAMENTE remove usuários fechados/inexistentes desta resposta.
-    """
     try:
         r = requests.post(
             "https://lichess.org/api/users",
@@ -37,10 +33,12 @@ def bulk_fetch(ids):
         print(f"⚠️ Erro no bulk fetch: {e}")
         return []
 
-def check_full_status_individual(uid):
+def check_full_user(uid):
     """
-    Verifica individualmente e retorna o status exato e a flag de fechada.
-    Retorna tupla: (status, is_closed) ou (None, None) em caso de erro de rede.
+    Consulta individual completa:
+    - status
+    - perfil
+    - ratings
     """
     try:
         r = requests.get(
@@ -49,35 +47,42 @@ def check_full_status_individual(uid):
             timeout=10
         )
 
-        # 404 = Conta não existe mais (Deletada definitivamente ou nunca existiu)
         if r.status_code == 404:
-            return "closed", 1
+            return {"status": "closed"}
 
-        # Se for erro de servidor ou rate limit, não assuma nada
         if r.status_code == 429 or r.status_code >= 500:
-            print(f"⚠️ Rate limit ou erro no Lichess para {uid} (Code {r.status_code}). Pulando...")
-            return None, None
+            return None
 
         data = r.json()
 
-        # 1. Checagem de conta fechada (User closed)
-        # A API retorna o objeto, mas com "disabled": true
-        if data.get("disabled", False) is True:
-            return "closed", 1
-        
-        # 2. Checagem de banimento (Lichess banned)
-        if data.get("tosViolation", False) is True:
-            return "banned", 0 # Banido geralmente não é conta fechada, é conta ativa mas restrita
-
-        # 3. Ativo ou Inativo (baseado no ultimo login)
-        if data.get("seenAt"):
-            return "active", 0
+        # Status
+        if data.get("disabled"):
+            status = "closed"
+        elif data.get("tosViolation"):
+            status = "banned"
         else:
-            return "inactive", 0
+            status = "active" if data.get("seenAt") else "inactive"
 
-    except Exception as e:
-        # Se der erro de parsing ou conexão, retorna None para preservar o estado atual
-        return None, None
+        result = {
+            "status": status,
+            "last_seen_api_timestamp": data.get("seenAt"),
+            "real_name": data.get("profile", {}).get("realName"),
+            "country": data.get("profile", {}).get("country"),
+            "location": data.get("profile", {}).get("location"),
+            "bio": data.get("profile", {}).get("bio"),
+            "fide_rating": data.get("profile", {}).get("fideRating"),
+            "ratings": {}
+        }
+
+        for perf, info in data.get("perfs", {}).items():
+            rating = info.get("rating")
+            if isinstance(rating, int):
+                result["ratings"][perf] = rating
+
+        return result
+
+    except Exception:
+        return None
 
 # ================= UTIL =================
 
@@ -97,98 +102,100 @@ def export_json(conn, filename, query):
 # ================= MAIN =================
 
 def main():
-    print("🔄 Atualização mensal de status (Versão Corrigida v2.2)")
+    print("🔄 Atualização mensal de status e perfil")
 
     conn = sqlite3.connect(DB_FILE)
     cur = conn.cursor()
 
-    # ===== TODOS OS IDS =====
     cur.execute("SELECT id_lichess FROM users")
-    ids = [r[0] for r in cur.fetchall()]
-    # Normalizar para minúsculo para evitar duplicatas de case
-    ids = [uid.lower() for uid in ids if uid]
-
-    print(f"👥 Usuários no banco para verificar: {len(ids)}")
+    ids = [r[0].lower() for r in cur.fetchall() if r[0]]
 
     appeared = set()
 
-    # ===== 1. BULK CHECK (Rápido) =====
-    print("🚀 Iniciando verificação em massa...")
+    # ===== BULK =====
     for batch in chunk(ids, BATCH_SIZE):
         api_users = bulk_fetch(batch)
 
         for u in api_users:
-            uid = u.get("id")
+            uid = u.get("id", "").lower()
             if not uid:
                 continue
 
-            uid = uid.lower()
             appeared.add(uid)
 
-            # Prioridade de Status no Bulk
-            if u.get("disabled", False):
+            if u.get("disabled"):
                 status = "closed"
-                closed_acc = 1
-            elif u.get("tosViolation", False):
+            elif u.get("tosViolation"):
                 status = "banned"
-                closed_acc = 0
             else:
                 status = "active" if u.get("seenAt") else "inactive"
-                closed_acc = 0
 
             cur.execute("""
                 UPDATE users
                 SET status = ?,
-                    closed_account = ?,
                     last_seen_api_timestamp = ?
                 WHERE id_lichess = ?
-            """, (status, closed_acc, u.get("seenAt"), uid))
+            """, (status, u.get("seenAt"), uid))
 
         conn.commit()
-        time.sleep(1.0) # Respeitando a API
+        time.sleep(1.0)
 
-    # ===== 2. SUSPEITOS (Lento e Preciso) =====
-    # Quem estava na lista de IDs mas NÃO veio no bulk é suspeito de estar fechado/missing
+    # ===== INDIVIDUAL =====
     suspects = [uid for uid in ids if uid not in appeared]
-    print(f"⚠️ Suspeitos de conta fechada (não retornados no bulk): {len(suspects)}")
+    print(f"⚠️ Chamadas individuais: {len(suspects)}")
 
-    count_closed = 0
-    count_errors = 0
+    PERF_MAP = {
+        "bullet": "rating_bullet",
+        "blitz": "rating_blitz",
+        "rapid": "rating_rapid",
+        "classical": "rating_classical",
+        "ultraBullet": "rating_ultrabullet",
+        "chess960": "rating_chess960",
+        "crazyhouse": "rating_crazyhouse",
+        "antichess": "rating_antichess",
+        "atomic": "rating_atomic",
+        "horde": "rating_horde",
+        "racingKings": "rating_racing_kings",
+        "threeCheck": "rating_three_check"
+    }
 
     for i, uid in enumerate(suspects):
-        real_status, is_closed = check_full_status_individual(uid)
-
-        # Se deu erro de conexão (None), ignoramos este user nesta rodada
-        if real_status is None:
-            count_errors += 1
+        data = check_full_user(uid)
+        if data is None:
             continue
 
-        # Log visual a cada 10 users
+        updates = {
+            "status": data["status"],
+            "last_seen_api_timestamp": data.get("last_seen_api_timestamp"),
+            "real_name": data.get("real_name"),
+            "country": data.get("country"),
+            "location": data.get("location"),
+            "bio": data.get("bio"),
+            "fide_rating": data.get("fide_rating")
+        }
+
+        for perf, rating in data.get("ratings", {}).items():
+            col = PERF_MAP.get(perf)
+            if col:
+                updates[col] = rating
+
+        set_clause = ", ".join(f"{k}=?" for k in updates)
+        values = list(updates.values()) + [uid]
+
+        cur.execute(
+            f"UPDATE users SET {set_clause} WHERE id_lichess = ?",
+            values
+        )
+
         if (i + 1) % 10 == 0:
-            print(f"  [{i+1}/{len(suspects)}] Verificando {uid} -> {real_status}")
+            print(f"  [{i+1}/{len(suspects)}] {uid}")
 
-        cur.execute("""
-            UPDATE users
-            SET status = ?,
-                closed_account = ?
-            WHERE id_lichess = ?
-        """, (real_status, is_closed, uid))
-        
-        if real_status == "closed":
-            count_closed += 1
-
-        # Delay maior aqui pois são requisições individuais
-        time.sleep(0.7) 
+        time.sleep(0.7)
 
     conn.commit()
-    print(f"✅ Suspeitos processados. {count_closed} confirmados como fechados. {count_errors} erros de conexão.")
 
-    # ================= EXPORTS =================
-
-    print("📤 Exportando JSONs atualizados...")
-
+    # ===== EXPORTS =====
     export_json(conn, "users_all.json", "SELECT * FROM users")
-
     export_json(conn, "users_lurkers.json",
         """
         SELECT * FROM users
@@ -196,31 +203,23 @@ def main():
           AND last_seen_team_date IS NULL
         """
     )
-
     export_json(conn, "users_banned.json", "SELECT * FROM users WHERE status = 'banned'")
-    
     export_json(conn, "users_closed.json", "SELECT * FROM users WHERE status = 'closed'")
-
     export_json(conn, "members_active.json",
         """
         SELECT * FROM users
-        WHERE is_team_member = 1
-          AND status = 'active'
-          AND closed_account = 0
+        WHERE is_team_member = 1 AND status = 'active'
         """
     )
-
     export_json(conn, "members_inactive.json",
         """
         SELECT * FROM users
-        WHERE is_team_member = 1
-          AND status = 'inactive'
-          AND closed_account = 0
+        WHERE is_team_member = 1 AND status = 'inactive'
         """
     )
 
     conn.close()
-    print("✅ Atualização mensal concluída com sucesso!")
+    print("✅ Atualização concluída")
 
 if __name__ == "__main__":
     main()

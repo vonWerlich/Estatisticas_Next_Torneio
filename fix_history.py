@@ -50,31 +50,12 @@ def extrair_jogadores_dos_games(games_file):
                 pass
     return users
 
-# --- DB ---
-def init_db(conn):
-    conn.execute("""
-    CREATE TABLE IF NOT EXISTS users (
-        id_lichess TEXT PRIMARY KEY,
-        status TEXT NOT NULL CHECK (
-            status IN ('active', 'inactive', 'banned', 'closed')
-        ),
-        closed_account INTEGER NOT NULL CHECK (closed_account IN (0,1)),
-        is_team_member INTEGER NOT NULL CHECK (is_team_member IN (0,1)),
-        first_seen_team_date TEXT,
-        last_seen_team_date TEXT,
-        last_seen_api_timestamp INTEGER,
-        created_at INTEGER
-    )
-    """)
-    conn.commit()
-
 # --- MAIN ---
 def run():
     print("🚀 Inicializando banco a partir do histórico")
 
     conn = sqlite3.connect(DB_FILE)
     cur = conn.cursor()
-    init_db(conn)
 
     try:
         cutoff_dt = datetime.fromisoformat(
@@ -114,14 +95,14 @@ def run():
             INSERT INTO users (
                 id_lichess,
                 status,
-                closed_account,
                 is_team_member,
                 first_seen_team_date,
-                last_seen_team_date
+                last_seen_team_date,
+                created_at
             )
-            VALUES (?, 'inactive', 0, 1, ?, ?)
+            VALUES (?, 'inactive', 1, ?, ?, strftime('%s','now'))
             ON CONFLICT(id_lichess) DO UPDATE SET
-                first_seen_team_date = 
+                first_seen_team_date =
                     CASE
                         WHEN users.first_seen_team_date IS NULL
                              OR users.first_seen_team_date > excluded.first_seen_team_date
