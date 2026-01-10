@@ -218,6 +218,87 @@ def main():
         """
     )
 
+        # ===== EXPORTS torneios =====
+    export_json(conn, "users_all.json", "SELECT * FROM users")
+
+    export_json(conn, "users_lurkers.json",
+        """
+        SELECT * FROM users
+        WHERE first_seen_team_date IS NULL
+          AND last_seen_team_date IS NULL
+        """
+    )
+
+    export_json(conn, "users_banned.json",
+        "SELECT * FROM users WHERE status = 'banned'"
+    )
+
+    export_json(conn, "users_closed.json",
+        "SELECT * FROM users WHERE status = 'closed'"
+    )
+
+    export_json(conn, "members_active.json",
+        """
+        SELECT * FROM users
+        WHERE is_team_member = 1 AND status = 'active'
+        """
+    )
+
+    export_json(conn, "members_inactive.json",
+        """
+        SELECT * FROM users
+        WHERE is_team_member = 1 AND status = 'inactive'
+        """
+    )
+
+    # ===== TORNEIOS =====
+    export_json(conn, "tournaments_all.json",
+        """
+        SELECT *
+        FROM tournaments
+        ORDER BY tournament_start_datetime
+        """
+    )
+
+    # ===== RESULTADOS (TODOS) =====
+    export_json(conn, "tournament_results_all.json",
+        """
+        SELECT *
+        FROM tournament_results
+        ORDER BY tournament_id, final_rank
+        """
+    )
+
+    # ===== RESULTADOS (TOP 3 POR TORNEIO) =====
+    export_json(conn, "tournament_results_top3.json",
+        """
+        SELECT *
+        FROM tournament_results
+        WHERE final_rank <= 3
+        ORDER BY tournament_id, final_rank
+        """
+    )
+
+    # ===== RESULTADOS AGRUPADOS POR TORNEIO =====
+    export_json(conn, "tournament_results_by_tournament.json",
+        """
+        SELECT
+            t.tournament_id,
+            t.tournament_name,
+            t.tournament_start_datetime,
+            r.user_id_lichess,
+            r.final_rank,
+            r.final_score,
+            r.rating_at_start,
+            r.performance_rating
+        FROM tournaments t
+        JOIN tournament_results r
+          ON t.tournament_id = r.tournament_id
+        ORDER BY t.tournament_start_datetime, r.final_rank
+        """
+    )
+
+
     conn.close()
     print("✅ Atualização concluída")
 

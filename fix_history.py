@@ -21,11 +21,15 @@ def carregar_json(path, default):
     except:
         return default
 
-def converter_data_para_iso(ms):
-    if ms is None:
+def converter_data_para_iso(starts_at):
+    """
+    Recebe string ISO do Lichess e normaliza para ISO UTC.
+    """
+    if not starts_at:
         return None
     try:
-        return datetime.fromtimestamp(ms / 1000, tz=timezone.utc).isoformat()
+        dt = datetime.fromisoformat(starts_at.replace("Z", "+00:00"))
+        return dt.astimezone(timezone.utc).isoformat()
     except:
         return None
 
@@ -73,23 +77,57 @@ def run():
     print(f"📂 Torneios encontrados: {len(files)}")
 
     for i, tid in enumerate(files):
-        info = carregar_json(os.path.join(DATA_DIR_TORNEIOS, f"{tid}_info.json"), {})
-        results = carregar_json(os.path.join(DATA_DIR_TORNEIOS, f"{tid}_results.json"), [])
+        info = carregar_json(
+            os.path.join(DATA_DIR_TORNEIOS, f"{tid}_info.json"), {}
+        )
+        results = carregar_json(
+            os.path.join(DATA_DIR_TORNEIOS, f"{tid}_results.json"), []
+        )
 
+        # --- DATA DO TORNEIO ---
         t_iso = converter_data_para_iso(info.get("startsAt"))
         t_dt = None
         if t_iso:
             try:
-                t_dt = datetime.fromisoformat(t_iso.replace("Z", "+00:00"))
+                t_dt = datetime.fromisoformat(t_iso)
             except:
                 pass
 
+        # --- INSERE TORNEIO ---
+        cur.execute("""
+        INSERT OR IGNORE INTO tournaments (
+            tournament_id,
+            tournament_start_datetime,
+            tournament_system,
+            tournament_time_control,
+            tournament_variant,
+            tournament_rated,
+            number_of_players,
+            tournament_name
+        )
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+        """, (
+            tid,
+            t_iso,
+            info.get("system"),
+            info.get("perf", {}).get("key"),
+            info.get("variant"),
+            1 if info.get("rated") else 0,
+            info.get("nbPlayers"),
+            info.get("fullName")
+        ))
+
+        # --- USUÁRIOS DO RESULTADO ---
         users = set(r.get("username") for r in results if r.get("username"))
 
+        # --- GHOST PLAYERS (GAMES) ---
         if t_dt and t_dt >= cutoff_dt:
-            games = os.path.join(DATA_DIR_TORNEIOS, f"{tid}_games.ndjson")
-            users |= extrair_jogadores_dos_games(games)
+            games_file = os.path.join(
+                DATA_DIR_TORNEIOS, f"{tid}_games.ndjson"
+            )
+            users |= extrair_jogadores_dos_games(games_file)
 
+        # --- UPSERT USERS ---
         for username in users:
             cur.execute("""
             INSERT INTO users (
@@ -117,6 +155,31 @@ def run():
                         ELSE users.last_seen_team_date
                     END
             """, (username, t_iso, t_iso))
+
+        # --- RESULTADOS DO TORNEIO ---
+        for r in results:
+            username = r.get("username")
+            if not username:
+                continue
+
+            cur.execute("""
+            INSERT OR IGNORE INTO tournament_results (
+                tournament_id,
+                user_id_lichess,
+                final_rank,
+                final_score,
+                rating_at_start,
+                performance_rating
+            )
+            VALUES (?, ?, ?, ?, ?, ?)
+            """, (
+                tid,
+                username,
+                r.get("rank"),
+                r.get("score"),
+                r.get("rating"),
+                r.get("performance")
+            ))
 
         if (i + 1) % 10 == 0:
             print(f"  ... {i+1}/{len(files)} torneios processados")

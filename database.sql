@@ -1,17 +1,4 @@
-import sqlite3
-import sys
-
-try:
-    sys.stdout.reconfigure(encoding='utf-8')
-except Exception:
-    pass
-
-conn = sqlite3.connect("team_users.db")
-cur = conn.cursor()
-
-# ===== USERS =====
-cur.execute("""
-CREATE TABLE IF NOT EXISTS users (
+users (
     id_lichess TEXT PRIMARY KEY,
 
     status TEXT CHECK (status IN ('active','inactive','banned','closed')),
@@ -42,27 +29,19 @@ CREATE TABLE IF NOT EXISTS users (
 
     created_at INTEGER
 )
-""")
-
-# ===== TOURNAMENTS =====
-cur.execute("""
-CREATE TABLE IF NOT EXISTS tournaments (
+tournaments (
     tournament_id TEXT PRIMARY KEY,
 
-    tournament_start_datetime TEXT,
-    tournament_system TEXT,
-    tournament_time_control TEXT,
-    tournament_variant TEXT,
-    tournament_rated INTEGER,
+    tournament_start_datetime TEXT,   -- startsAt
+    tournament_system TEXT,           -- arena / swiss
+    tournament_time_control TEXT,     -- blitz, rapid, classical
+    tournament_variant TEXT,          -- standard, chess960, etc
+    tournament_rated INTEGER,          -- 0/1
 
     number_of_players INTEGER,
     tournament_name TEXT
 )
-""")
-
-# ===== TOURNAMENT RESULTS =====
-cur.execute("""
-CREATE TABLE IF NOT EXISTS tournament_results (
+tournament_results (
     tournament_id TEXT,
     user_id_lichess TEXT,
 
@@ -71,11 +50,7 @@ CREATE TABLE IF NOT EXISTS tournament_results (
     rating_at_start INTEGER,
     performance_rating INTEGER,
 
-    PRIMARY KEY (tournament_id, user_id_lichess)
+    PRIMARY KEY (tournament_id, user_id_lichess),
+    FOREIGN KEY (tournament_id) REFERENCES tournaments(tournament_id),
+    FOREIGN KEY (user_id_lichess) REFERENCES users(id_lichess)
 )
-""")
-
-conn.commit()
-conn.close()
-
-print("✅ Banco inicializado com tabelas de usuários e torneios")
