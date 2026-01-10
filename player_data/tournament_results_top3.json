@@ -1,0 +1,7082 @@
+[
+  {
+    "tournament_id": "0Id5FgXF",
+    "user_id_lichess": "brunovic",
+    "final_rank": 1,
+    "final_score": 22,
+    "rating_at_start": 1660,
+    "performance_rating": 1747
+  },
+  {
+    "tournament_id": "0Id5FgXF",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 18,
+    "rating_at_start": 2020,
+    "performance_rating": 1784
+  },
+  {
+    "tournament_id": "0Id5FgXF",
+    "user_id_lichess": "RafaBabu",
+    "final_rank": 3,
+    "final_score": 18,
+    "rating_at_start": 1179,
+    "performance_rating": 1575
+  },
+  {
+    "tournament_id": "0LbFhesa",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 45,
+    "rating_at_start": 2273,
+    "performance_rating": 2345
+  },
+  {
+    "tournament_id": "0LbFhesa",
+    "user_id_lichess": "IaagoAriel",
+    "final_rank": 2,
+    "final_score": 24,
+    "rating_at_start": 2001,
+    "performance_rating": 2040
+  },
+  {
+    "tournament_id": "0LbFhesa",
+    "user_id_lichess": "epsei",
+    "final_rank": 3,
+    "final_score": 20,
+    "rating_at_start": 2009,
+    "performance_rating": 2046
+  },
+  {
+    "tournament_id": "0WrZeM7s",
+    "user_id_lichess": "NegroMestrovisk",
+    "final_rank": 1,
+    "final_score": 13,
+    "rating_at_start": 1537,
+    "performance_rating": 1523
+  },
+  {
+    "tournament_id": "0WrZeM7s",
+    "user_id_lichess": "xadrezcontrole",
+    "final_rank": 2,
+    "final_score": 11,
+    "rating_at_start": 1706,
+    "performance_rating": 1684
+  },
+  {
+    "tournament_id": "0WrZeM7s",
+    "user_id_lichess": "Claudio1414",
+    "final_rank": 3,
+    "final_score": 10,
+    "rating_at_start": 1538,
+    "performance_rating": 1598
+  },
+  {
+    "tournament_id": "0YJS0LUD",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 24,
+    "rating_at_start": 2105,
+    "performance_rating": 2011
+  },
+  {
+    "tournament_id": "0YJS0LUD",
+    "user_id_lichess": "justicechampx",
+    "final_rank": 2,
+    "final_score": 20,
+    "rating_at_start": 1962,
+    "performance_rating": 1980
+  },
+  {
+    "tournament_id": "0YJS0LUD",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 3,
+    "final_score": 14,
+    "rating_at_start": 1677,
+    "performance_rating": 1650
+  },
+  {
+    "tournament_id": "0s85kfnB",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 54,
+    "rating_at_start": 2180,
+    "performance_rating": 1971
+  },
+  {
+    "tournament_id": "0s85kfnB",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 49,
+    "rating_at_start": 2135,
+    "performance_rating": 2101
+  },
+  {
+    "tournament_id": "0s85kfnB",
+    "user_id_lichess": "ReneDeVilla",
+    "final_rank": 3,
+    "final_score": 30,
+    "rating_at_start": 1667,
+    "performance_rating": 1738
+  },
+  {
+    "tournament_id": "0vu0O7Nw",
+    "user_id_lichess": "justicechampx",
+    "final_rank": 1,
+    "final_score": 29,
+    "rating_at_start": 1978,
+    "performance_rating": 2080
+  },
+  {
+    "tournament_id": "0vu0O7Nw",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 25,
+    "rating_at_start": 2223,
+    "performance_rating": 2159
+  },
+  {
+    "tournament_id": "0vu0O7Nw",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 3,
+    "final_score": 25,
+    "rating_at_start": 2291,
+    "performance_rating": 2147
+  },
+  {
+    "tournament_id": "0yk1fpPQ",
+    "user_id_lichess": "yusanamignoni",
+    "final_rank": 1,
+    "final_score": 22,
+    "rating_at_start": 1604,
+    "performance_rating": 1943
+  },
+  {
+    "tournament_id": "0yk1fpPQ",
+    "user_id_lichess": "gmedsondias",
+    "final_rank": 2,
+    "final_score": 18,
+    "rating_at_start": 1674,
+    "performance_rating": 1679
+  },
+  {
+    "tournament_id": "0yk1fpPQ",
+    "user_id_lichess": "Kazalysson",
+    "final_rank": 3,
+    "final_score": 15,
+    "rating_at_start": 1546,
+    "performance_rating": 1587
+  },
+  {
+    "tournament_id": "1HlM5NTM",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 65,
+    "rating_at_start": 2145,
+    "performance_rating": 2125
+  },
+  {
+    "tournament_id": "1HlM5NTM",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 34,
+    "rating_at_start": 2175,
+    "performance_rating": 1780
+  },
+  {
+    "tournament_id": "1HlM5NTM",
+    "user_id_lichess": "torneido",
+    "final_rank": 3,
+    "final_score": 26,
+    "rating_at_start": 1760,
+    "performance_rating": 2017
+  },
+  {
+    "tournament_id": "1M0cDhvu",
+    "user_id_lichess": "Gustavo972",
+    "final_rank": 1,
+    "final_score": 14,
+    "rating_at_start": 1478,
+    "performance_rating": 1834
+  },
+  {
+    "tournament_id": "1M0cDhvu",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 2,
+    "final_score": 14,
+    "rating_at_start": 1861,
+    "performance_rating": 1793
+  },
+  {
+    "tournament_id": "1M0cDhvu",
+    "user_id_lichess": "jaop",
+    "final_rank": 3,
+    "final_score": 14,
+    "rating_at_start": 1475,
+    "performance_rating": 1749
+  },
+  {
+    "tournament_id": "1OreCzsM",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 48,
+    "rating_at_start": 2288,
+    "performance_rating": 2106
+  },
+  {
+    "tournament_id": "1OreCzsM",
+    "user_id_lichess": "justicechampx",
+    "final_rank": 2,
+    "final_score": 28,
+    "rating_at_start": 2086,
+    "performance_rating": 2171
+  },
+  {
+    "tournament_id": "1OreCzsM",
+    "user_id_lichess": "seanlachef",
+    "final_rank": 3,
+    "final_score": 19,
+    "rating_at_start": 1866,
+    "performance_rating": 1813
+  },
+  {
+    "tournament_id": "1cm9TQot",
+    "user_id_lichess": "PETROSIAN-AGRESSIVO",
+    "final_rank": 1,
+    "final_score": 18,
+    "rating_at_start": 1910,
+    "performance_rating": 1961
+  },
+  {
+    "tournament_id": "1cm9TQot",
+    "user_id_lichess": "calebeklazzarotti",
+    "final_rank": 2,
+    "final_score": 14,
+    "rating_at_start": 1933,
+    "performance_rating": 1990
+  },
+  {
+    "tournament_id": "1cm9TQot",
+    "user_id_lichess": "DuuNexT",
+    "final_rank": 3,
+    "final_score": 12,
+    "rating_at_start": 1706,
+    "performance_rating": 1692
+  },
+  {
+    "tournament_id": "1liZqCrS",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 36,
+    "rating_at_start": 2082,
+    "performance_rating": 2144
+  },
+  {
+    "tournament_id": "1liZqCrS",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 26,
+    "rating_at_start": 1996,
+    "performance_rating": 2059
+  },
+  {
+    "tournament_id": "1liZqCrS",
+    "user_id_lichess": "gadottL",
+    "final_rank": 3,
+    "final_score": 24,
+    "rating_at_start": 2010,
+    "performance_rating": 1919
+  },
+  {
+    "tournament_id": "1lz64cnP",
+    "user_id_lichess": "toni-acaf",
+    "final_rank": 1,
+    "final_score": 22,
+    "rating_at_start": 1612,
+    "performance_rating": 1687
+  },
+  {
+    "tournament_id": "1lz64cnP",
+    "user_id_lichess": "gmedsondias",
+    "final_rank": 2,
+    "final_score": 19,
+    "rating_at_start": 1309,
+    "performance_rating": 1580
+  },
+  {
+    "tournament_id": "1lz64cnP",
+    "user_id_lichess": "mano_quedas",
+    "final_rank": 3,
+    "final_score": 15,
+    "rating_at_start": 1421,
+    "performance_rating": 1487
+  },
+  {
+    "tournament_id": "2AuGIIKJ",
+    "user_id_lichess": "LulU2007",
+    "final_rank": 1,
+    "final_score": 23,
+    "rating_at_start": 1720,
+    "performance_rating": 1717
+  },
+  {
+    "tournament_id": "2AuGIIKJ",
+    "user_id_lichess": "DuuNexT",
+    "final_rank": 2,
+    "final_score": 21,
+    "rating_at_start": 1695,
+    "performance_rating": 1648
+  },
+  {
+    "tournament_id": "2AuGIIKJ",
+    "user_id_lichess": "jaop",
+    "final_rank": 3,
+    "final_score": 18,
+    "rating_at_start": 1487,
+    "performance_rating": 1644
+  },
+  {
+    "tournament_id": "2HSGysEr",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 18,
+    "rating_at_start": 2170,
+    "performance_rating": 2076
+  },
+  {
+    "tournament_id": "2HSGysEr",
+    "user_id_lichess": "LeonardoBatis",
+    "final_rank": 2,
+    "final_score": 17,
+    "rating_at_start": 1514,
+    "performance_rating": 1681
+  },
+  {
+    "tournament_id": "2HSGysEr",
+    "user_id_lichess": "foguetada",
+    "final_rank": 3,
+    "final_score": 16,
+    "rating_at_start": 2358,
+    "performance_rating": 2089
+  },
+  {
+    "tournament_id": "2JzhNSuH",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 63,
+    "rating_at_start": 2188,
+    "performance_rating": 2009
+  },
+  {
+    "tournament_id": "2JzhNSuH",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 44,
+    "rating_at_start": 2132,
+    "performance_rating": 1955
+  },
+  {
+    "tournament_id": "2JzhNSuH",
+    "user_id_lichess": "Zenzo2504",
+    "final_rank": 3,
+    "final_score": 29,
+    "rating_at_start": 1753,
+    "performance_rating": 1894
+  },
+  {
+    "tournament_id": "2LVy1Jcm",
+    "user_id_lichess": "ShaolimMataPorco",
+    "final_rank": 1,
+    "final_score": 23,
+    "rating_at_start": 1624,
+    "performance_rating": 1915
+  },
+  {
+    "tournament_id": "2LVy1Jcm",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 2,
+    "final_score": 20,
+    "rating_at_start": 1725,
+    "performance_rating": 1742
+  },
+  {
+    "tournament_id": "2LVy1Jcm",
+    "user_id_lichess": "DuuNexT",
+    "final_rank": 3,
+    "final_score": 16,
+    "rating_at_start": 1761,
+    "performance_rating": 1587
+  },
+  {
+    "tournament_id": "2xKUmpST",
+    "user_id_lichess": "NotBrazilian",
+    "final_rank": 1,
+    "final_score": 16,
+    "rating_at_start": 2071,
+    "performance_rating": 2087
+  },
+  {
+    "tournament_id": "2xKUmpST",
+    "user_id_lichess": "Kazalysson",
+    "final_rank": 2,
+    "final_score": 16,
+    "rating_at_start": 1546,
+    "performance_rating": 1732
+  },
+  {
+    "tournament_id": "2xKUmpST",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 3,
+    "final_score": 15,
+    "rating_at_start": 1878,
+    "performance_rating": 1762
+  },
+  {
+    "tournament_id": "3DRbxyku",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 19,
+    "rating_at_start": 1957,
+    "performance_rating": 1776
+  },
+  {
+    "tournament_id": "3DRbxyku",
+    "user_id_lichess": "KP-NexT",
+    "final_rank": 2,
+    "final_score": 18,
+    "rating_at_start": 1728,
+    "performance_rating": 1865
+  },
+  {
+    "tournament_id": "3DRbxyku",
+    "user_id_lichess": "Matheus447",
+    "final_rank": 3,
+    "final_score": 16,
+    "rating_at_start": 1265,
+    "performance_rating": 1557
+  },
+  {
+    "tournament_id": "3S1PdgAj",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 1,
+    "final_score": 24,
+    "rating_at_start": 1812,
+    "performance_rating": 1848
+  },
+  {
+    "tournament_id": "3S1PdgAj",
+    "user_id_lichess": "foguetada",
+    "final_rank": 2,
+    "final_score": 18,
+    "rating_at_start": 2289,
+    "performance_rating": 1996
+  },
+  {
+    "tournament_id": "3S1PdgAj",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": 16,
+    "rating_at_start": 2007,
+    "performance_rating": 1885
+  },
+  {
+    "tournament_id": "3ixyijqo",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 1,
+    "final_score": 16,
+    "rating_at_start": 1924,
+    "performance_rating": 1871
+  },
+  {
+    "tournament_id": "3ixyijqo",
+    "user_id_lichess": "Gustavo972",
+    "final_rank": 2,
+    "final_score": 16,
+    "rating_at_start": 1627,
+    "performance_rating": 1643
+  },
+  {
+    "tournament_id": "3ixyijqo",
+    "user_id_lichess": "DontWorryBeHappy11",
+    "final_rank": 3,
+    "final_score": 10,
+    "rating_at_start": 1955,
+    "performance_rating": 1774
+  },
+  {
+    "tournament_id": "3rfrqaPG",
+    "user_id_lichess": "Maycon_Schlickmann",
+    "final_rank": 1,
+    "final_score": 18,
+    "rating_at_start": 1673,
+    "performance_rating": 1593
+  },
+  {
+    "tournament_id": "3rfrqaPG",
+    "user_id_lichess": "jaop",
+    "final_rank": 2,
+    "final_score": 14,
+    "rating_at_start": 1414,
+    "performance_rating": 1539
+  },
+  {
+    "tournament_id": "3rfrqaPG",
+    "user_id_lichess": "Gullermo_Lovera",
+    "final_rank": 3,
+    "final_score": 14,
+    "rating_at_start": 1536,
+    "performance_rating": 1485
+  },
+  {
+    "tournament_id": "4Jo9LQwR",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 64,
+    "rating_at_start": 2129,
+    "performance_rating": 2168
+  },
+  {
+    "tournament_id": "4Jo9LQwR",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 58,
+    "rating_at_start": 2116,
+    "performance_rating": 2000
+  },
+  {
+    "tournament_id": "4Jo9LQwR",
+    "user_id_lichess": "duartes322",
+    "final_rank": 3,
+    "final_score": 44,
+    "rating_at_start": 1844,
+    "performance_rating": 1899
+  },
+  {
+    "tournament_id": "4Pajfkrr",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 40,
+    "rating_at_start": 2171,
+    "performance_rating": 2036
+  },
+  {
+    "tournament_id": "4Pajfkrr",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 22,
+    "rating_at_start": 2124,
+    "performance_rating": 1797
+  },
+  {
+    "tournament_id": "4Pajfkrr",
+    "user_id_lichess": "NeoMaverWick",
+    "final_rank": 3,
+    "final_score": 14,
+    "rating_at_start": 1617,
+    "performance_rating": 1584
+  },
+  {
+    "tournament_id": "4ZLSkCAa",
+    "user_id_lichess": "D-Ruas",
+    "final_rank": 1,
+    "final_score": 13,
+    "rating_at_start": 1739,
+    "performance_rating": 1883
+  },
+  {
+    "tournament_id": "4ZLSkCAa",
+    "user_id_lichess": "lavenderjackal",
+    "final_rank": 2,
+    "final_score": 11,
+    "rating_at_start": 1597,
+    "performance_rating": 1754
+  },
+  {
+    "tournament_id": "4ZLSkCAa",
+    "user_id_lichess": "proneer",
+    "final_rank": 3,
+    "final_score": 10,
+    "rating_at_start": 1520,
+    "performance_rating": 1676
+  },
+  {
+    "tournament_id": "4eIGwMJd",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 31,
+    "rating_at_start": 2282,
+    "performance_rating": 2293
+  },
+  {
+    "tournament_id": "4eIGwMJd",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 28,
+    "rating_at_start": 2229,
+    "performance_rating": 2142
+  },
+  {
+    "tournament_id": "4eIGwMJd",
+    "user_id_lichess": "NeoMaverWick",
+    "final_rank": 3,
+    "final_score": 22,
+    "rating_at_start": 1944,
+    "performance_rating": 1861
+  },
+  {
+    "tournament_id": "4eW8qcbz",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 20,
+    "rating_at_start": 1941,
+    "performance_rating": 1881
+  },
+  {
+    "tournament_id": "4eW8qcbz",
+    "user_id_lichess": "JohnWick-NexT",
+    "final_rank": 2,
+    "final_score": 16,
+    "rating_at_start": 1500,
+    "performance_rating": 1804
+  },
+  {
+    "tournament_id": "4eW8qcbz",
+    "user_id_lichess": "DuuNexT",
+    "final_rank": 3,
+    "final_score": 15,
+    "rating_at_start": 1728,
+    "performance_rating": 1746
+  },
+  {
+    "tournament_id": "53AYaevb",
+    "user_id_lichess": "TarcisioCura",
+    "final_rank": 1,
+    "final_score": 26,
+    "rating_at_start": 1869,
+    "performance_rating": 1958
+  },
+  {
+    "tournament_id": "53AYaevb",
+    "user_id_lichess": "Kazalysson",
+    "final_rank": 2,
+    "final_score": 14,
+    "rating_at_start": 1546,
+    "performance_rating": 1919
+  },
+  {
+    "tournament_id": "53AYaevb",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 3,
+    "final_score": 13,
+    "rating_at_start": 1796,
+    "performance_rating": 1655
+  },
+  {
+    "tournament_id": "53hK439l",
+    "user_id_lichess": "Zavurka",
+    "final_rank": 1,
+    "final_score": null,
+    "rating_at_start": 2322,
+    "performance_rating": 2398
+  },
+  {
+    "tournament_id": "53hK439l",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": null,
+    "rating_at_start": 2176,
+    "performance_rating": 2279
+  },
+  {
+    "tournament_id": "53hK439l",
+    "user_id_lichess": "AlexanderMAVC",
+    "final_rank": 3,
+    "final_score": null,
+    "rating_at_start": 1543,
+    "performance_rating": 1887
+  },
+  {
+    "tournament_id": "57VEilOE",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 33,
+    "rating_at_start": 2173,
+    "performance_rating": 2094
+  },
+  {
+    "tournament_id": "57VEilOE",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 25,
+    "rating_at_start": 2150,
+    "performance_rating": 1892
+  },
+  {
+    "tournament_id": "57VEilOE",
+    "user_id_lichess": "antonioU270819",
+    "final_rank": 3,
+    "final_score": 21,
+    "rating_at_start": 1976,
+    "performance_rating": 1674
+  },
+  {
+    "tournament_id": "5OgOYZJ6",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 30,
+    "rating_at_start": 2235,
+    "performance_rating": 2358
+  },
+  {
+    "tournament_id": "5OgOYZJ6",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 22,
+    "rating_at_start": 2221,
+    "performance_rating": 2023
+  },
+  {
+    "tournament_id": "5OgOYZJ6",
+    "user_id_lichess": "AlexanderMAVC",
+    "final_rank": 3,
+    "final_score": 14,
+    "rating_at_start": 1789,
+    "performance_rating": 1940
+  },
+  {
+    "tournament_id": "5VjRFFHf",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 17,
+    "rating_at_start": 1858,
+    "performance_rating": 1854
+  },
+  {
+    "tournament_id": "5VjRFFHf",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 2,
+    "final_score": 16,
+    "rating_at_start": 1673,
+    "performance_rating": 1821
+  },
+  {
+    "tournament_id": "5VjRFFHf",
+    "user_id_lichess": "KP-NexT",
+    "final_rank": 3,
+    "final_score": 12,
+    "rating_at_start": 1742,
+    "performance_rating": 1741
+  },
+  {
+    "tournament_id": "5XT1JMm1",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 23,
+    "rating_at_start": 2192,
+    "performance_rating": 2104
+  },
+  {
+    "tournament_id": "5XT1JMm1",
+    "user_id_lichess": "NotBrazilian",
+    "final_rank": 2,
+    "final_score": 20,
+    "rating_at_start": 1906,
+    "performance_rating": 1835
+  },
+  {
+    "tournament_id": "5XT1JMm1",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 3,
+    "final_score": 18,
+    "rating_at_start": 1743,
+    "performance_rating": 1658
+  },
+  {
+    "tournament_id": "5cAybyH8",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 38,
+    "rating_at_start": 2220,
+    "performance_rating": 2120
+  },
+  {
+    "tournament_id": "5cAybyH8",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 20,
+    "rating_at_start": 2149,
+    "performance_rating": 2075
+  },
+  {
+    "tournament_id": "5cAybyH8",
+    "user_id_lichess": "Balzabouth",
+    "final_rank": 3,
+    "final_score": 17,
+    "rating_at_start": 1833,
+    "performance_rating": 1705
+  },
+  {
+    "tournament_id": "6MgbHEFh",
+    "user_id_lichess": "NegroMestrovisk",
+    "final_rank": 1,
+    "final_score": 16,
+    "rating_at_start": 1474,
+    "performance_rating": 1415
+  },
+  {
+    "tournament_id": "6MgbHEFh",
+    "user_id_lichess": "franfilth",
+    "final_rank": 2,
+    "final_score": 15,
+    "rating_at_start": 1419,
+    "performance_rating": 1486
+  },
+  {
+    "tournament_id": "6MgbHEFh",
+    "user_id_lichess": "gmedsondias",
+    "final_rank": 3,
+    "final_score": 13,
+    "rating_at_start": 1526,
+    "performance_rating": 1568
+  },
+  {
+    "tournament_id": "6MyKdrW8",
+    "user_id_lichess": "gmedsondias",
+    "final_rank": 1,
+    "final_score": 25,
+    "rating_at_start": 1637,
+    "performance_rating": 1855
+  },
+  {
+    "tournament_id": "6MyKdrW8",
+    "user_id_lichess": "Rcstarpvp",
+    "final_rank": 2,
+    "final_score": 16,
+    "rating_at_start": 1457,
+    "performance_rating": 1535
+  },
+  {
+    "tournament_id": "6MyKdrW8",
+    "user_id_lichess": "AntonioMarcosArruda",
+    "final_rank": 3,
+    "final_score": 16,
+    "rating_at_start": 1708,
+    "performance_rating": 1495
+  },
+  {
+    "tournament_id": "6t11X93y",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 24,
+    "rating_at_start": 2282,
+    "performance_rating": 2180
+  },
+  {
+    "tournament_id": "6t11X93y",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 23,
+    "rating_at_start": 2255,
+    "performance_rating": 2263
+  },
+  {
+    "tournament_id": "6t11X93y",
+    "user_id_lichess": "NeoMaverWick",
+    "final_rank": 3,
+    "final_score": 22,
+    "rating_at_start": 1971,
+    "performance_rating": 1956
+  },
+  {
+    "tournament_id": "6xfFWQgK",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 20,
+    "rating_at_start": 2023,
+    "performance_rating": 2171
+  },
+  {
+    "tournament_id": "6xfFWQgK",
+    "user_id_lichess": "Rubens_Lavor",
+    "final_rank": 2,
+    "final_score": 18,
+    "rating_at_start": 2101,
+    "performance_rating": 1821
+  },
+  {
+    "tournament_id": "6xfFWQgK",
+    "user_id_lichess": "Claudio1414",
+    "final_rank": 3,
+    "final_score": 16,
+    "rating_at_start": 1578,
+    "performance_rating": 1610
+  },
+  {
+    "tournament_id": "7DgEfyWl",
+    "user_id_lichess": "justicechampx",
+    "final_rank": 1,
+    "final_score": 20,
+    "rating_at_start": 1930,
+    "performance_rating": 1864
+  },
+  {
+    "tournament_id": "7DgEfyWl",
+    "user_id_lichess": "L_L1999",
+    "final_rank": 2,
+    "final_score": 18,
+    "rating_at_start": 1750,
+    "performance_rating": 1647
+  },
+  {
+    "tournament_id": "7DgEfyWl",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 3,
+    "final_score": 17,
+    "rating_at_start": 2006,
+    "performance_rating": 1950
+  },
+  {
+    "tournament_id": "7FeDZEBR",
+    "user_id_lichess": "kronossaurus",
+    "final_rank": 1,
+    "final_score": 34,
+    "rating_at_start": 2063,
+    "performance_rating": 1945
+  },
+  {
+    "tournament_id": "7FeDZEBR",
+    "user_id_lichess": "justicechampx",
+    "final_rank": 2,
+    "final_score": 31,
+    "rating_at_start": 1930,
+    "performance_rating": 2072
+  },
+  {
+    "tournament_id": "7FeDZEBR",
+    "user_id_lichess": "Rubens_Lavor",
+    "final_rank": 3,
+    "final_score": 24,
+    "rating_at_start": 2070,
+    "performance_rating": 2078
+  },
+  {
+    "tournament_id": "7LdO4Dfo",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 61,
+    "rating_at_start": 2231,
+    "performance_rating": 2043
+  },
+  {
+    "tournament_id": "7LdO4Dfo",
+    "user_id_lichess": "ElGremistaSC",
+    "final_rank": 2,
+    "final_score": 45,
+    "rating_at_start": 2246,
+    "performance_rating": 1873
+  },
+  {
+    "tournament_id": "7LdO4Dfo",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 3,
+    "final_score": 36,
+    "rating_at_start": 2067,
+    "performance_rating": 1740
+  },
+  {
+    "tournament_id": "7PvrBdeQ",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 1,
+    "final_score": 21,
+    "rating_at_start": 1712,
+    "performance_rating": 1688
+  },
+  {
+    "tournament_id": "7PvrBdeQ",
+    "user_id_lichess": "DontWorryBeHappy11",
+    "final_rank": 2,
+    "final_score": 20,
+    "rating_at_start": 1823,
+    "performance_rating": 1888
+  },
+  {
+    "tournament_id": "7PvrBdeQ",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": 20,
+    "rating_at_start": 1912,
+    "performance_rating": 1636
+  },
+  {
+    "tournament_id": "7jbK9Vyt",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 22,
+    "rating_at_start": 2327,
+    "performance_rating": 2240
+  },
+  {
+    "tournament_id": "7jbK9Vyt",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 22,
+    "rating_at_start": 2287,
+    "performance_rating": 2128
+  },
+  {
+    "tournament_id": "7jbK9Vyt",
+    "user_id_lichess": "NeoMaverWick",
+    "final_rank": 3,
+    "final_score": 12,
+    "rating_at_start": 1935,
+    "performance_rating": 1954
+  },
+  {
+    "tournament_id": "7rkcaEQQ",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 40,
+    "rating_at_start": 2066,
+    "performance_rating": 2120
+  },
+  {
+    "tournament_id": "7rkcaEQQ",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 35,
+    "rating_at_start": 2039,
+    "performance_rating": 2162
+  },
+  {
+    "tournament_id": "7rkcaEQQ",
+    "user_id_lichess": "VitorAmonRa",
+    "final_rank": 3,
+    "final_score": 28,
+    "rating_at_start": 1972,
+    "performance_rating": 2042
+  },
+  {
+    "tournament_id": "818p8yaw",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 25,
+    "rating_at_start": 2172,
+    "performance_rating": 2030
+  },
+  {
+    "tournament_id": "818p8yaw",
+    "user_id_lichess": "MarcusZulu",
+    "final_rank": 2,
+    "final_score": 24,
+    "rating_at_start": 2014,
+    "performance_rating": 2084
+  },
+  {
+    "tournament_id": "818p8yaw",
+    "user_id_lichess": "Murilost23",
+    "final_rank": 3,
+    "final_score": 18,
+    "rating_at_start": 1676,
+    "performance_rating": 1861
+  },
+  {
+    "tournament_id": "85TZyVz0",
+    "user_id_lichess": "NegroMestrovisk",
+    "final_rank": 1,
+    "final_score": 14,
+    "rating_at_start": 1515,
+    "performance_rating": 1506
+  },
+  {
+    "tournament_id": "85TZyVz0",
+    "user_id_lichess": "axt2106",
+    "final_rank": 2,
+    "final_score": 10,
+    "rating_at_start": 1248,
+    "performance_rating": 1317
+  },
+  {
+    "tournament_id": "85TZyVz0",
+    "user_id_lichess": "ncc_bee",
+    "final_rank": 3,
+    "final_score": 6,
+    "rating_at_start": 976,
+    "performance_rating": 1198
+  },
+  {
+    "tournament_id": "86Gkn47W",
+    "user_id_lichess": "Gullermo_Lovera",
+    "final_rank": 1,
+    "final_score": 6,
+    "rating_at_start": 1548,
+    "performance_rating": 1692
+  },
+  {
+    "tournament_id": "86Gkn47W",
+    "user_id_lichess": "NegroMestrovisk",
+    "final_rank": 2,
+    "final_score": 6,
+    "rating_at_start": 1521,
+    "performance_rating": 1604
+  },
+  {
+    "tournament_id": "86Gkn47W",
+    "user_id_lichess": "franfilth",
+    "final_rank": 3,
+    "final_score": 6,
+    "rating_at_start": 1532,
+    "performance_rating": 1519
+  },
+  {
+    "tournament_id": "892EtXOM",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 35,
+    "rating_at_start": 2263,
+    "performance_rating": 2189
+  },
+  {
+    "tournament_id": "892EtXOM",
+    "user_id_lichess": "DanielSantosB",
+    "final_rank": 2,
+    "final_score": 34,
+    "rating_at_start": 2043,
+    "performance_rating": 2177
+  },
+  {
+    "tournament_id": "892EtXOM",
+    "user_id_lichess": "Balzabouth",
+    "final_rank": 3,
+    "final_score": 27,
+    "rating_at_start": 1870,
+    "performance_rating": 2185
+  },
+  {
+    "tournament_id": "8ObgQG8M",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 18,
+    "rating_at_start": 2192,
+    "performance_rating": 1905
+  },
+  {
+    "tournament_id": "8ObgQG8M",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 2,
+    "final_score": 16,
+    "rating_at_start": 1766,
+    "performance_rating": 1817
+  },
+  {
+    "tournament_id": "8ObgQG8M",
+    "user_id_lichess": "Rubens_Lavor",
+    "final_rank": 3,
+    "final_score": 14,
+    "rating_at_start": 2180,
+    "performance_rating": 1954
+  },
+  {
+    "tournament_id": "8e5eErJr",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 54,
+    "rating_at_start": 2377,
+    "performance_rating": 2229
+  },
+  {
+    "tournament_id": "8e5eErJr",
+    "user_id_lichess": "Balzabouth",
+    "final_rank": 2,
+    "final_score": 18,
+    "rating_at_start": 1973,
+    "performance_rating": 1834
+  },
+  {
+    "tournament_id": "8e5eErJr",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": 15,
+    "rating_at_start": 2239,
+    "performance_rating": 2005
+  },
+  {
+    "tournament_id": "8kQwhWuf",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 1,
+    "final_score": 21,
+    "rating_at_start": 1811,
+    "performance_rating": 1884
+  },
+  {
+    "tournament_id": "8kQwhWuf",
+    "user_id_lichess": "L_L1999",
+    "final_rank": 2,
+    "final_score": 18,
+    "rating_at_start": 1871,
+    "performance_rating": 1883
+  },
+  {
+    "tournament_id": "8kQwhWuf",
+    "user_id_lichess": "RaphaelW",
+    "final_rank": 3,
+    "final_score": 14,
+    "rating_at_start": 1754,
+    "performance_rating": 1912
+  },
+  {
+    "tournament_id": "90rJo3er",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 20,
+    "rating_at_start": 1948,
+    "performance_rating": 1914
+  },
+  {
+    "tournament_id": "90rJo3er",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 2,
+    "final_score": 20,
+    "rating_at_start": 1739,
+    "performance_rating": 1791
+  },
+  {
+    "tournament_id": "90rJo3er",
+    "user_id_lichess": "lilvinicius99",
+    "final_rank": 3,
+    "final_score": 20,
+    "rating_at_start": 2090,
+    "performance_rating": 1744
+  },
+  {
+    "tournament_id": "94gr1iJo",
+    "user_id_lichess": "Gullermo_Lovera",
+    "final_rank": 1,
+    "final_score": 15,
+    "rating_at_start": 1570,
+    "performance_rating": 1547
+  },
+  {
+    "tournament_id": "94gr1iJo",
+    "user_id_lichess": "Claudio1414",
+    "final_rank": 2,
+    "final_score": 12,
+    "rating_at_start": 1493,
+    "performance_rating": 1557
+  },
+  {
+    "tournament_id": "94gr1iJo",
+    "user_id_lichess": "franfilth",
+    "final_rank": 3,
+    "final_score": 12,
+    "rating_at_start": 1545,
+    "performance_rating": 1503
+  },
+  {
+    "tournament_id": "9629aAKJ",
+    "user_id_lichess": "InsaneChessBrazil",
+    "final_rank": 1,
+    "final_score": 40,
+    "rating_at_start": 2300,
+    "performance_rating": 2090
+  },
+  {
+    "tournament_id": "9629aAKJ",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 21,
+    "rating_at_start": 2165,
+    "performance_rating": 1946
+  },
+  {
+    "tournament_id": "9629aAKJ",
+    "user_id_lichess": "Claudio1414",
+    "final_rank": 3,
+    "final_score": 20,
+    "rating_at_start": 1586,
+    "performance_rating": 1812
+  },
+  {
+    "tournament_id": "9I3B55qS",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 24,
+    "rating_at_start": 2265,
+    "performance_rating": 2342
+  },
+  {
+    "tournament_id": "9I3B55qS",
+    "user_id_lichess": "Balzabouth",
+    "final_rank": 2,
+    "final_score": 22,
+    "rating_at_start": 1940,
+    "performance_rating": 2149
+  },
+  {
+    "tournament_id": "9I3B55qS",
+    "user_id_lichess": "NeoMaverWick",
+    "final_rank": 3,
+    "final_score": 16,
+    "rating_at_start": 1945,
+    "performance_rating": 2022
+  },
+  {
+    "tournament_id": "9Kv2DV61",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 1,
+    "final_score": 26,
+    "rating_at_start": 1922,
+    "performance_rating": 1906
+  },
+  {
+    "tournament_id": "9Kv2DV61",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 14,
+    "rating_at_start": 2141,
+    "performance_rating": 1977
+  },
+  {
+    "tournament_id": "9Kv2DV61",
+    "user_id_lichess": "DuuDragao_Next",
+    "final_rank": 3,
+    "final_score": 11,
+    "rating_at_start": 1614,
+    "performance_rating": 1667
+  },
+  {
+    "tournament_id": "9ff4igKK",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 37,
+    "rating_at_start": 2312,
+    "performance_rating": 2215
+  },
+  {
+    "tournament_id": "9ff4igKK",
+    "user_id_lichess": "M4m4m14",
+    "final_rank": 2,
+    "final_score": 28,
+    "rating_at_start": 1969,
+    "performance_rating": 2024
+  },
+  {
+    "tournament_id": "9ff4igKK",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 3,
+    "final_score": 18,
+    "rating_at_start": 2292,
+    "performance_rating": 1949
+  },
+  {
+    "tournament_id": "9gtn9qUw",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": null,
+    "rating_at_start": 2246,
+    "performance_rating": 2522
+  },
+  {
+    "tournament_id": "9gtn9qUw",
+    "user_id_lichess": "kdhz",
+    "final_rank": 2,
+    "final_score": null,
+    "rating_at_start": 2263,
+    "performance_rating": 2458
+  },
+  {
+    "tournament_id": "9gtn9qUw",
+    "user_id_lichess": "PlayForTeam",
+    "final_rank": 3,
+    "final_score": null,
+    "rating_at_start": 1838,
+    "performance_rating": 2028
+  },
+  {
+    "tournament_id": "9sJUdnoh",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 42,
+    "rating_at_start": 2178,
+    "performance_rating": 2011
+  },
+  {
+    "tournament_id": "9sJUdnoh",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 39,
+    "rating_at_start": 2153,
+    "performance_rating": 2076
+  },
+  {
+    "tournament_id": "9sJUdnoh",
+    "user_id_lichess": "joaov_pnp",
+    "final_rank": 3,
+    "final_score": 19,
+    "rating_at_start": 1768,
+    "performance_rating": 1878
+  },
+  {
+    "tournament_id": "A0KOuBBt",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 24,
+    "rating_at_start": 2159,
+    "performance_rating": 2092
+  },
+  {
+    "tournament_id": "A0KOuBBt",
+    "user_id_lichess": "NotBrazilian",
+    "final_rank": 2,
+    "final_score": 18,
+    "rating_at_start": 1921,
+    "performance_rating": 1660
+  },
+  {
+    "tournament_id": "A0KOuBBt",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": 17,
+    "rating_at_start": 2042,
+    "performance_rating": 1775
+  },
+  {
+    "tournament_id": "A5yJtiA0",
+    "user_id_lichess": "kronossaurus",
+    "final_rank": 1,
+    "final_score": 23,
+    "rating_at_start": 2024,
+    "performance_rating": 2185
+  },
+  {
+    "tournament_id": "A5yJtiA0",
+    "user_id_lichess": "Re2_Re7",
+    "final_rank": 2,
+    "final_score": 20,
+    "rating_at_start": 2312,
+    "performance_rating": 2104
+  },
+  {
+    "tournament_id": "A5yJtiA0",
+    "user_id_lichess": "L_L1999",
+    "final_rank": 3,
+    "final_score": 19,
+    "rating_at_start": 1828,
+    "performance_rating": 1925
+  },
+  {
+    "tournament_id": "ATgyYkSa",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 34,
+    "rating_at_start": 2326,
+    "performance_rating": 2340
+  },
+  {
+    "tournament_id": "ATgyYkSa",
+    "user_id_lichess": "Pocototop",
+    "final_rank": 2,
+    "final_score": 22,
+    "rating_at_start": 2291,
+    "performance_rating": 2156
+  },
+  {
+    "tournament_id": "ATgyYkSa",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 3,
+    "final_score": 18,
+    "rating_at_start": 1884,
+    "performance_rating": 2000
+  },
+  {
+    "tournament_id": "AVVM34Wk",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 1,
+    "final_score": 32,
+    "rating_at_start": 1808,
+    "performance_rating": 2075
+  },
+  {
+    "tournament_id": "AVVM34Wk",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 31,
+    "rating_at_start": 2184,
+    "performance_rating": 2151
+  },
+  {
+    "tournament_id": "AVVM34Wk",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": 26,
+    "rating_at_start": 2085,
+    "performance_rating": 1804
+  },
+  {
+    "tournament_id": "B5KmMxXK",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 1,
+    "final_score": 22,
+    "rating_at_start": 1765,
+    "performance_rating": 1758
+  },
+  {
+    "tournament_id": "B5KmMxXK",
+    "user_id_lichess": "PietroZottis",
+    "final_rank": 2,
+    "final_score": 22,
+    "rating_at_start": 1753,
+    "performance_rating": 1710
+  },
+  {
+    "tournament_id": "B5KmMxXK",
+    "user_id_lichess": "ShaolimMataPorco",
+    "final_rank": 3,
+    "final_score": 16,
+    "rating_at_start": 1624,
+    "performance_rating": 1634
+  },
+  {
+    "tournament_id": "BAywJssa",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 31,
+    "rating_at_start": 2242,
+    "performance_rating": 2005
+  },
+  {
+    "tournament_id": "BAywJssa",
+    "user_id_lichess": "LeonardoLGS",
+    "final_rank": 2,
+    "final_score": 14,
+    "rating_at_start": 2058,
+    "performance_rating": 2205
+  },
+  {
+    "tournament_id": "BAywJssa",
+    "user_id_lichess": "AlexanderMAVC",
+    "final_rank": 3,
+    "final_score": 12,
+    "rating_at_start": 1734,
+    "performance_rating": 1885
+  },
+  {
+    "tournament_id": "BmM2TlmQ",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 36,
+    "rating_at_start": 2108,
+    "performance_rating": 1995
+  },
+  {
+    "tournament_id": "BmM2TlmQ",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 32,
+    "rating_at_start": 2168,
+    "performance_rating": 1968
+  },
+  {
+    "tournament_id": "BmM2TlmQ",
+    "user_id_lichess": "MarcusZulu",
+    "final_rank": 3,
+    "final_score": 16,
+    "rating_at_start": 2033,
+    "performance_rating": 1949
+  },
+  {
+    "tournament_id": "C5gvRrfo",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 45,
+    "rating_at_start": 2102,
+    "performance_rating": 1862
+  },
+  {
+    "tournament_id": "C5gvRrfo",
+    "user_id_lichess": "SK_math",
+    "final_rank": 2,
+    "final_score": 22,
+    "rating_at_start": 2216,
+    "performance_rating": 1826
+  },
+  {
+    "tournament_id": "C5gvRrfo",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 3,
+    "final_score": 21,
+    "rating_at_start": 2175,
+    "performance_rating": 1978
+  },
+  {
+    "tournament_id": "CKAdAjaB",
+    "user_id_lichess": "foguetada",
+    "final_rank": 1,
+    "final_score": 36,
+    "rating_at_start": 2346,
+    "performance_rating": 2121
+  },
+  {
+    "tournament_id": "CKAdAjaB",
+    "user_id_lichess": "antonioU270819",
+    "final_rank": 2,
+    "final_score": 28,
+    "rating_at_start": 1979,
+    "performance_rating": 2035
+  },
+  {
+    "tournament_id": "CKAdAjaB",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": 28,
+    "rating_at_start": 2144,
+    "performance_rating": 1901
+  },
+  {
+    "tournament_id": "CKr1gRdx",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 37,
+    "rating_at_start": 2019,
+    "performance_rating": 2346
+  },
+  {
+    "tournament_id": "CKr1gRdx",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 32,
+    "rating_at_start": 2066,
+    "performance_rating": 1980
+  },
+  {
+    "tournament_id": "CKr1gRdx",
+    "user_id_lichess": "gadottL",
+    "final_rank": 3,
+    "final_score": 28,
+    "rating_at_start": 1928,
+    "performance_rating": 1997
+  },
+  {
+    "tournament_id": "Ccl69QmG",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 35,
+    "rating_at_start": 2168,
+    "performance_rating": 2132
+  },
+  {
+    "tournament_id": "Ccl69QmG",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 35,
+    "rating_at_start": 2182,
+    "performance_rating": 2111
+  },
+  {
+    "tournament_id": "Ccl69QmG",
+    "user_id_lichess": "LeonardoLGS",
+    "final_rank": 3,
+    "final_score": 28,
+    "rating_at_start": 1817,
+    "performance_rating": 1763
+  },
+  {
+    "tournament_id": "Cg6gmAuJ",
+    "user_id_lichess": "justicechampx",
+    "final_rank": 1,
+    "final_score": 24,
+    "rating_at_start": 1975,
+    "performance_rating": 1824
+  },
+  {
+    "tournament_id": "Cg6gmAuJ",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 20,
+    "rating_at_start": 2146,
+    "performance_rating": 1847
+  },
+  {
+    "tournament_id": "Cg6gmAuJ",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": 18,
+    "rating_at_start": 2102,
+    "performance_rating": 1864
+  },
+  {
+    "tournament_id": "ClxVDGVv",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 47,
+    "rating_at_start": 2289,
+    "performance_rating": 2194
+  },
+  {
+    "tournament_id": "ClxVDGVv",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 37,
+    "rating_at_start": 2252,
+    "performance_rating": 2030
+  },
+  {
+    "tournament_id": "ClxVDGVv",
+    "user_id_lichess": "NeoMaverWick",
+    "final_rank": 3,
+    "final_score": 20,
+    "rating_at_start": 1965,
+    "performance_rating": 2092
+  },
+  {
+    "tournament_id": "DF6F9Hdw",
+    "user_id_lichess": "Re2_Re7",
+    "final_rank": 1,
+    "final_score": 24,
+    "rating_at_start": 2328,
+    "performance_rating": 2210
+  },
+  {
+    "tournament_id": "DF6F9Hdw",
+    "user_id_lichess": "justicechampx",
+    "final_rank": 2,
+    "final_score": 23,
+    "rating_at_start": 1966,
+    "performance_rating": 1882
+  },
+  {
+    "tournament_id": "DF6F9Hdw",
+    "user_id_lichess": "gmedsondias",
+    "final_rank": 3,
+    "final_score": 17,
+    "rating_at_start": 1727,
+    "performance_rating": 1834
+  },
+  {
+    "tournament_id": "DXkgW8Zj",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 1,
+    "final_score": 18,
+    "rating_at_start": 1871,
+    "performance_rating": 1912
+  },
+  {
+    "tournament_id": "DXkgW8Zj",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 14,
+    "rating_at_start": 2141,
+    "performance_rating": 2158
+  },
+  {
+    "tournament_id": "DXkgW8Zj",
+    "user_id_lichess": "ShaolimMataPorco",
+    "final_rank": 3,
+    "final_score": 13,
+    "rating_at_start": 1624,
+    "performance_rating": 1613
+  },
+  {
+    "tournament_id": "DeZdTiKp",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 50,
+    "rating_at_start": 2054,
+    "performance_rating": 2057
+  },
+  {
+    "tournament_id": "DeZdTiKp",
+    "user_id_lichess": "PlayForTeam",
+    "final_rank": 2,
+    "final_score": 45,
+    "rating_at_start": 1946,
+    "performance_rating": 1958
+  },
+  {
+    "tournament_id": "DeZdTiKp",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": 44,
+    "rating_at_start": 2160,
+    "performance_rating": 2055
+  },
+  {
+    "tournament_id": "Dp1rH23c",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 26,
+    "rating_at_start": 2325,
+    "performance_rating": 2263
+  },
+  {
+    "tournament_id": "Dp1rH23c",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 26,
+    "rating_at_start": 2310,
+    "performance_rating": 2242
+  },
+  {
+    "tournament_id": "Dp1rH23c",
+    "user_id_lichess": "Pocototop",
+    "final_rank": 3,
+    "final_score": 23,
+    "rating_at_start": 2293,
+    "performance_rating": 2397
+  },
+  {
+    "tournament_id": "EYLoOluN",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 71,
+    "rating_at_start": 2148,
+    "performance_rating": 2166
+  },
+  {
+    "tournament_id": "EYLoOluN",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 41,
+    "rating_at_start": 2143,
+    "performance_rating": 2145
+  },
+  {
+    "tournament_id": "EYLoOluN",
+    "user_id_lichess": "duartes322",
+    "final_rank": 3,
+    "final_score": 26,
+    "rating_at_start": 1838,
+    "performance_rating": 1840
+  },
+  {
+    "tournament_id": "FoKuhNcC",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 1,
+    "final_score": 16,
+    "rating_at_start": 1883,
+    "performance_rating": 1884
+  },
+  {
+    "tournament_id": "FoKuhNcC",
+    "user_id_lichess": "Diiieferson",
+    "final_rank": 2,
+    "final_score": 13,
+    "rating_at_start": 1726,
+    "performance_rating": 1649
+  },
+  {
+    "tournament_id": "FoKuhNcC",
+    "user_id_lichess": "DuuDragao_Next",
+    "final_rank": 3,
+    "final_score": 13,
+    "rating_at_start": 1614,
+    "performance_rating": 1586
+  },
+  {
+    "tournament_id": "G8NqaPQy",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 28,
+    "rating_at_start": 2281,
+    "performance_rating": 2312
+  },
+  {
+    "tournament_id": "G8NqaPQy",
+    "user_id_lichess": "kronossaurus",
+    "final_rank": 2,
+    "final_score": 21,
+    "rating_at_start": 2133,
+    "performance_rating": 2214
+  },
+  {
+    "tournament_id": "G8NqaPQy",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": 20,
+    "rating_at_start": 2239,
+    "performance_rating": 1926
+  },
+  {
+    "tournament_id": "GG0ibRzR",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 38,
+    "rating_at_start": 2104,
+    "performance_rating": 1884
+  },
+  {
+    "tournament_id": "GG0ibRzR",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 35,
+    "rating_at_start": 2208,
+    "performance_rating": 2176
+  },
+  {
+    "tournament_id": "GG0ibRzR",
+    "user_id_lichess": "NATANFOX2015",
+    "final_rank": 3,
+    "final_score": 17,
+    "rating_at_start": 2068,
+    "performance_rating": 1980
+  },
+  {
+    "tournament_id": "Gq1SvQKX",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": null,
+    "rating_at_start": 2141,
+    "performance_rating": 2218
+  },
+  {
+    "tournament_id": "Gq1SvQKX",
+    "user_id_lichess": "Sissy_Secretary",
+    "final_rank": 2,
+    "final_score": null,
+    "rating_at_start": 2257,
+    "performance_rating": 2251
+  },
+  {
+    "tournament_id": "Gq1SvQKX",
+    "user_id_lichess": "ElGremistaSC",
+    "final_rank": 3,
+    "final_score": null,
+    "rating_at_start": 2251,
+    "performance_rating": 2250
+  },
+  {
+    "tournament_id": "HEe3hRoQ",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 19,
+    "rating_at_start": 2033,
+    "performance_rating": 1891
+  },
+  {
+    "tournament_id": "HEe3hRoQ",
+    "user_id_lichess": "heitorsilvino",
+    "final_rank": 2,
+    "final_score": 19,
+    "rating_at_start": 1912,
+    "performance_rating": 1726
+  },
+  {
+    "tournament_id": "HEe3hRoQ",
+    "user_id_lichess": "Rubens_Lavor",
+    "final_rank": 3,
+    "final_score": 18,
+    "rating_at_start": 2045,
+    "performance_rating": 1867
+  },
+  {
+    "tournament_id": "HEeGorbn",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 34,
+    "rating_at_start": 2293,
+    "performance_rating": 2168
+  },
+  {
+    "tournament_id": "HEeGorbn",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 32,
+    "rating_at_start": 2248,
+    "performance_rating": 2155
+  },
+  {
+    "tournament_id": "HEeGorbn",
+    "user_id_lichess": "Balzabouth",
+    "final_rank": 3,
+    "final_score": 22,
+    "rating_at_start": 1938,
+    "performance_rating": 1904
+  },
+  {
+    "tournament_id": "HFuoS9WT",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 36,
+    "rating_at_start": 2132,
+    "performance_rating": 2077
+  },
+  {
+    "tournament_id": "HFuoS9WT",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 26,
+    "rating_at_start": 2198,
+    "performance_rating": 2331
+  },
+  {
+    "tournament_id": "HFuoS9WT",
+    "user_id_lichess": "Lindousodomate",
+    "final_rank": 3,
+    "final_score": 21,
+    "rating_at_start": 2171,
+    "performance_rating": 2032
+  },
+  {
+    "tournament_id": "HNlrrE9r",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 28,
+    "rating_at_start": 2129,
+    "performance_rating": 2010
+  },
+  {
+    "tournament_id": "HNlrrE9r",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 2,
+    "final_score": 20,
+    "rating_at_start": 1799,
+    "performance_rating": 1849
+  },
+  {
+    "tournament_id": "HNlrrE9r",
+    "user_id_lichess": "AlexanderMAVC",
+    "final_rank": 3,
+    "final_score": 15,
+    "rating_at_start": 1460,
+    "performance_rating": 1427
+  },
+  {
+    "tournament_id": "HWzInPRn",
+    "user_id_lichess": "KP-NexT",
+    "final_rank": 1,
+    "final_score": 18,
+    "rating_at_start": 1941,
+    "performance_rating": 1842
+  },
+  {
+    "tournament_id": "HWzInPRn",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 2,
+    "final_score": 14,
+    "rating_at_start": 1815,
+    "performance_rating": 1967
+  },
+  {
+    "tournament_id": "HWzInPRn",
+    "user_id_lichess": "Laerte3",
+    "final_rank": 3,
+    "final_score": 14,
+    "rating_at_start": 1752,
+    "performance_rating": 1878
+  },
+  {
+    "tournament_id": "Hco2v1HK",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 1,
+    "final_score": 18,
+    "rating_at_start": 1909,
+    "performance_rating": 1945
+  },
+  {
+    "tournament_id": "Hco2v1HK",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 12,
+    "rating_at_start": 2141,
+    "performance_rating": 1945
+  },
+  {
+    "tournament_id": "Hco2v1HK",
+    "user_id_lichess": "DuuDragao_Next",
+    "final_rank": 3,
+    "final_score": 11,
+    "rating_at_start": 1614,
+    "performance_rating": 1584
+  },
+  {
+    "tournament_id": "HhcC3iRi",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 40,
+    "rating_at_start": 2188,
+    "performance_rating": 1882
+  },
+  {
+    "tournament_id": "HhcC3iRi",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 39,
+    "rating_at_start": 2145,
+    "performance_rating": 2075
+  },
+  {
+    "tournament_id": "HhcC3iRi",
+    "user_id_lichess": "AlexanderMAVC",
+    "final_rank": 3,
+    "final_score": 15,
+    "rating_at_start": 1637,
+    "performance_rating": 1637
+  },
+  {
+    "tournament_id": "I1v7mPtZ",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 39,
+    "rating_at_start": 2161,
+    "performance_rating": 1991
+  },
+  {
+    "tournament_id": "I1v7mPtZ",
+    "user_id_lichess": "MarcusZulu",
+    "final_rank": 2,
+    "final_score": 38,
+    "rating_at_start": 2015,
+    "performance_rating": 2128
+  },
+  {
+    "tournament_id": "I1v7mPtZ",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 3,
+    "final_score": 38,
+    "rating_at_start": 2137,
+    "performance_rating": 2099
+  },
+  {
+    "tournament_id": "IIFikXnh",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 41,
+    "rating_at_start": 2096,
+    "performance_rating": 1914
+  },
+  {
+    "tournament_id": "IIFikXnh",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 35,
+    "rating_at_start": 2203,
+    "performance_rating": 2112
+  },
+  {
+    "tournament_id": "IIFikXnh",
+    "user_id_lichess": "Balzabouth",
+    "final_rank": 3,
+    "final_score": 16,
+    "rating_at_start": 1760,
+    "performance_rating": 1800
+  },
+  {
+    "tournament_id": "IKUnAZ3Z",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 38,
+    "rating_at_start": 2288,
+    "performance_rating": 2257
+  },
+  {
+    "tournament_id": "IKUnAZ3Z",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 32,
+    "rating_at_start": 2222,
+    "performance_rating": 2060
+  },
+  {
+    "tournament_id": "IKUnAZ3Z",
+    "user_id_lichess": "torneido",
+    "final_rank": 3,
+    "final_score": 23,
+    "rating_at_start": 1881,
+    "performance_rating": 1849
+  },
+  {
+    "tournament_id": "ISUeOjjm",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 26,
+    "rating_at_start": 2059,
+    "performance_rating": 1986
+  },
+  {
+    "tournament_id": "ISUeOjjm",
+    "user_id_lichess": "lferko",
+    "final_rank": 2,
+    "final_score": 14,
+    "rating_at_start": 1909,
+    "performance_rating": 1856
+  },
+  {
+    "tournament_id": "ISUeOjjm",
+    "user_id_lichess": "yusanamignoni",
+    "final_rank": 3,
+    "final_score": 14,
+    "rating_at_start": 2005,
+    "performance_rating": 1736
+  },
+  {
+    "tournament_id": "IVqt5tNF",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 22,
+    "rating_at_start": 2110,
+    "performance_rating": 1954
+  },
+  {
+    "tournament_id": "IVqt5tNF",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 2,
+    "final_score": 16,
+    "rating_at_start": 1758,
+    "performance_rating": 1617
+  },
+  {
+    "tournament_id": "IVqt5tNF",
+    "user_id_lichess": "TarcisioCura",
+    "final_rank": 3,
+    "final_score": 14,
+    "rating_at_start": 1743,
+    "performance_rating": 1811
+  },
+  {
+    "tournament_id": "JBZ5q2NM",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 1,
+    "final_score": 29,
+    "rating_at_start": 1819,
+    "performance_rating": 1889
+  },
+  {
+    "tournament_id": "JBZ5q2NM",
+    "user_id_lichess": "Hiltoyou",
+    "final_rank": 2,
+    "final_score": 23,
+    "rating_at_start": 2016,
+    "performance_rating": 1984
+  },
+  {
+    "tournament_id": "JBZ5q2NM",
+    "user_id_lichess": "IgorRafael",
+    "final_rank": 3,
+    "final_score": 13,
+    "rating_at_start": 1418,
+    "performance_rating": 1555
+  },
+  {
+    "tournament_id": "JjYxx7Az",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 33,
+    "rating_at_start": 2252,
+    "performance_rating": 2046
+  },
+  {
+    "tournament_id": "JjYxx7Az",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 32,
+    "rating_at_start": 2279,
+    "performance_rating": 2397
+  },
+  {
+    "tournament_id": "JjYxx7Az",
+    "user_id_lichess": "foxtopdomate",
+    "final_rank": 3,
+    "final_score": 16,
+    "rating_at_start": 2260,
+    "performance_rating": 2176
+  },
+  {
+    "tournament_id": "Js1EBOTq",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 31,
+    "rating_at_start": 2304,
+    "performance_rating": 2064
+  },
+  {
+    "tournament_id": "Js1EBOTq",
+    "user_id_lichess": "IaagoAriel",
+    "final_rank": 2,
+    "final_score": 25,
+    "rating_at_start": 2051,
+    "performance_rating": 2066
+  },
+  {
+    "tournament_id": "Js1EBOTq",
+    "user_id_lichess": "seanlachef",
+    "final_rank": 3,
+    "final_score": 25,
+    "rating_at_start": 1792,
+    "performance_rating": 1812
+  },
+  {
+    "tournament_id": "JtCncPSq",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 34,
+    "rating_at_start": 2120,
+    "performance_rating": 1896
+  },
+  {
+    "tournament_id": "JtCncPSq",
+    "user_id_lichess": "MarcusZulu",
+    "final_rank": 2,
+    "final_score": 22,
+    "rating_at_start": 1991,
+    "performance_rating": 2006
+  },
+  {
+    "tournament_id": "JtCncPSq",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": 20,
+    "rating_at_start": 2150,
+    "performance_rating": 1874
+  },
+  {
+    "tournament_id": "JzUKNtJJ",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 56,
+    "rating_at_start": 2077,
+    "performance_rating": 1967
+  },
+  {
+    "tournament_id": "JzUKNtJJ",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 52,
+    "rating_at_start": 2057,
+    "performance_rating": 2061
+  },
+  {
+    "tournament_id": "JzUKNtJJ",
+    "user_id_lichess": "JonArt_25",
+    "final_rank": 3,
+    "final_score": 24,
+    "rating_at_start": 1791,
+    "performance_rating": 1922
+  },
+  {
+    "tournament_id": "K5sBtZfE",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 24,
+    "rating_at_start": 2169,
+    "performance_rating": 2240
+  },
+  {
+    "tournament_id": "K5sBtZfE",
+    "user_id_lichess": "justicechampx",
+    "final_rank": 2,
+    "final_score": 20,
+    "rating_at_start": 1965,
+    "performance_rating": 1853
+  },
+  {
+    "tournament_id": "K5sBtZfE",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 3,
+    "final_score": 17,
+    "rating_at_start": 1755,
+    "performance_rating": 1704
+  },
+  {
+    "tournament_id": "K6a7bDQJ",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 26,
+    "rating_at_start": 2085,
+    "performance_rating": 1998
+  },
+  {
+    "tournament_id": "K6a7bDQJ",
+    "user_id_lichess": "NATANFOX2015",
+    "final_rank": 2,
+    "final_score": 25,
+    "rating_at_start": 2104,
+    "performance_rating": 1988
+  },
+  {
+    "tournament_id": "K6a7bDQJ",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 3,
+    "final_score": 21,
+    "rating_at_start": 2181,
+    "performance_rating": 1825
+  },
+  {
+    "tournament_id": "MMBYOLry",
+    "user_id_lichess": "Kevral-collar_2022",
+    "final_rank": 1,
+    "final_score": null,
+    "rating_at_start": 2093,
+    "performance_rating": 2225
+  },
+  {
+    "tournament_id": "MMBYOLry",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": null,
+    "rating_at_start": 2100,
+    "performance_rating": 2093
+  },
+  {
+    "tournament_id": "MMBYOLry",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 3,
+    "final_score": null,
+    "rating_at_start": 1658,
+    "performance_rating": 1805
+  },
+  {
+    "tournament_id": "MORJBOL1",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 25,
+    "rating_at_start": 2242,
+    "performance_rating": 2259
+  },
+  {
+    "tournament_id": "MORJBOL1",
+    "user_id_lichess": "GioCapo",
+    "final_rank": 2,
+    "final_score": 24,
+    "rating_at_start": 2019,
+    "performance_rating": 2041
+  },
+  {
+    "tournament_id": "MORJBOL1",
+    "user_id_lichess": "M4m4m14",
+    "final_rank": 3,
+    "final_score": 23,
+    "rating_at_start": 1970,
+    "performance_rating": 2057
+  },
+  {
+    "tournament_id": "Md7ZUhAT",
+    "user_id_lichess": "AntonioMarcosArruda",
+    "final_rank": 1,
+    "final_score": 18,
+    "rating_at_start": 1698,
+    "performance_rating": 1858
+  },
+  {
+    "tournament_id": "Md7ZUhAT",
+    "user_id_lichess": "NegroMestrovisk",
+    "final_rank": 2,
+    "final_score": 16,
+    "rating_at_start": 1540,
+    "performance_rating": 1599
+  },
+  {
+    "tournament_id": "Md7ZUhAT",
+    "user_id_lichess": "Gullermo_Lovera",
+    "final_rank": 3,
+    "final_score": 10,
+    "rating_at_start": 1577,
+    "performance_rating": 1236
+  },
+  {
+    "tournament_id": "MkGKgrQ7",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 20,
+    "rating_at_start": 1941,
+    "performance_rating": 2192
+  },
+  {
+    "tournament_id": "MkGKgrQ7",
+    "user_id_lichess": "Gullermo_Lovera",
+    "final_rank": 2,
+    "final_score": 14,
+    "rating_at_start": 1689,
+    "performance_rating": 1779
+  },
+  {
+    "tournament_id": "MkGKgrQ7",
+    "user_id_lichess": "KP-NexT",
+    "final_rank": 3,
+    "final_score": 14,
+    "rating_at_start": 1941,
+    "performance_rating": 1516
+  },
+  {
+    "tournament_id": "ND8k5i6r",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 1,
+    "final_score": 16,
+    "rating_at_start": 1924,
+    "performance_rating": 1887
+  },
+  {
+    "tournament_id": "ND8k5i6r",
+    "user_id_lichess": "Gustavo972",
+    "final_rank": 2,
+    "final_score": 14,
+    "rating_at_start": 1627,
+    "performance_rating": 1561
+  },
+  {
+    "tournament_id": "ND8k5i6r",
+    "user_id_lichess": "MrWickBrokeTheRules",
+    "final_rank": 3,
+    "final_score": 12,
+    "rating_at_start": 1500,
+    "performance_rating": 1794
+  },
+  {
+    "tournament_id": "NJtnaFR9",
+    "user_id_lichess": "kronossaurus",
+    "final_rank": 1,
+    "final_score": 22,
+    "rating_at_start": 2050,
+    "performance_rating": 2020
+  },
+  {
+    "tournament_id": "NJtnaFR9",
+    "user_id_lichess": "Rubens_Lavor",
+    "final_rank": 2,
+    "final_score": 18,
+    "rating_at_start": 2046,
+    "performance_rating": 1864
+  },
+  {
+    "tournament_id": "NJtnaFR9",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 3,
+    "final_score": 18,
+    "rating_at_start": 1712,
+    "performance_rating": 1671
+  },
+  {
+    "tournament_id": "NLA19wGb",
+    "user_id_lichess": "Claudio1414",
+    "final_rank": 1,
+    "final_score": 20,
+    "rating_at_start": 1533,
+    "performance_rating": 1619
+  },
+  {
+    "tournament_id": "NLA19wGb",
+    "user_id_lichess": "xadrezcontrole",
+    "final_rank": 2,
+    "final_score": 18,
+    "rating_at_start": 1660,
+    "performance_rating": 1691
+  },
+  {
+    "tournament_id": "NLA19wGb",
+    "user_id_lichess": "Gullermo_Lovera",
+    "final_rank": 3,
+    "final_score": 12,
+    "rating_at_start": 1546,
+    "performance_rating": 1408
+  },
+  {
+    "tournament_id": "NS0SFzta",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 34,
+    "rating_at_start": 2212,
+    "performance_rating": 2140
+  },
+  {
+    "tournament_id": "NS0SFzta",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 34,
+    "rating_at_start": 2134,
+    "performance_rating": 2126
+  },
+  {
+    "tournament_id": "NS0SFzta",
+    "user_id_lichess": "Gualter_Xpga",
+    "final_rank": 3,
+    "final_score": 19,
+    "rating_at_start": 2113,
+    "performance_rating": 2093
+  },
+  {
+    "tournament_id": "Ndw4fbfI",
+    "user_id_lichess": "MarcusZulu",
+    "final_rank": 1,
+    "final_score": 34,
+    "rating_at_start": 2045,
+    "performance_rating": 2017
+  },
+  {
+    "tournament_id": "Ndw4fbfI",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 34,
+    "rating_at_start": 2182,
+    "performance_rating": 1957
+  },
+  {
+    "tournament_id": "Ndw4fbfI",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 3,
+    "final_score": 19,
+    "rating_at_start": 2132,
+    "performance_rating": 2145
+  },
+  {
+    "tournament_id": "NjNIpcEU",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 39,
+    "rating_at_start": 2168,
+    "performance_rating": 2020
+  },
+  {
+    "tournament_id": "NjNIpcEU",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 34,
+    "rating_at_start": 2155,
+    "performance_rating": 2086
+  },
+  {
+    "tournament_id": "NjNIpcEU",
+    "user_id_lichess": "torneido",
+    "final_rank": 3,
+    "final_score": 26,
+    "rating_at_start": 1827,
+    "performance_rating": 1761
+  },
+  {
+    "tournament_id": "NnVpNLvn",
+    "user_id_lichess": "pollhein1",
+    "final_rank": 1,
+    "final_score": 18,
+    "rating_at_start": 2015,
+    "performance_rating": 2139
+  },
+  {
+    "tournament_id": "NnVpNLvn",
+    "user_id_lichess": "kronossaurus",
+    "final_rank": 2,
+    "final_score": 18,
+    "rating_at_start": 2031,
+    "performance_rating": 1866
+  },
+  {
+    "tournament_id": "NnVpNLvn",
+    "user_id_lichess": "IaagoAriel",
+    "final_rank": 3,
+    "final_score": 12,
+    "rating_at_start": 1715,
+    "performance_rating": 1711
+  },
+  {
+    "tournament_id": "NtNCdQEx",
+    "user_id_lichess": "lilvinicius99",
+    "final_rank": 1,
+    "final_score": 25,
+    "rating_at_start": 2196,
+    "performance_rating": 1909
+  },
+  {
+    "tournament_id": "NtNCdQEx",
+    "user_id_lichess": "heitorsilvino",
+    "final_rank": 2,
+    "final_score": 22,
+    "rating_at_start": 1827,
+    "performance_rating": 1734
+  },
+  {
+    "tournament_id": "NtNCdQEx",
+    "user_id_lichess": "Rubens_Lavor",
+    "final_rank": 3,
+    "final_score": 16,
+    "rating_at_start": 2001,
+    "performance_rating": 1981
+  },
+  {
+    "tournament_id": "O5gWT3xH",
+    "user_id_lichess": "Re2_Re7",
+    "final_rank": 1,
+    "final_score": 20,
+    "rating_at_start": 2030,
+    "performance_rating": 2031
+  },
+  {
+    "tournament_id": "O5gWT3xH",
+    "user_id_lichess": "ShaolimMataPorco",
+    "final_rank": 2,
+    "final_score": 20,
+    "rating_at_start": 1680,
+    "performance_rating": 1681
+  },
+  {
+    "tournament_id": "O5gWT3xH",
+    "user_id_lichess": "DuuNexT",
+    "final_rank": 3,
+    "final_score": 17,
+    "rating_at_start": 1696,
+    "performance_rating": 1701
+  },
+  {
+    "tournament_id": "O5i5W1je",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 22,
+    "rating_at_start": 2069,
+    "performance_rating": 1766
+  },
+  {
+    "tournament_id": "O5i5W1je",
+    "user_id_lichess": "AlexanderMAVC",
+    "final_rank": 2,
+    "final_score": 12,
+    "rating_at_start": 1458,
+    "performance_rating": 1712
+  },
+  {
+    "tournament_id": "O5i5W1je",
+    "user_id_lichess": "Diiieferson",
+    "final_rank": 3,
+    "final_score": 12,
+    "rating_at_start": 1684,
+    "performance_rating": 1637
+  },
+  {
+    "tournament_id": "OChohn5E",
+    "user_id_lichess": "JohnWick-NexT",
+    "final_rank": 1,
+    "final_score": 34,
+    "rating_at_start": 1910,
+    "performance_rating": 2034
+  },
+  {
+    "tournament_id": "OChohn5E",
+    "user_id_lichess": "sonogrinhas",
+    "final_rank": 2,
+    "final_score": 26,
+    "rating_at_start": 1683,
+    "performance_rating": 1741
+  },
+  {
+    "tournament_id": "OChohn5E",
+    "user_id_lichess": "Murilost23",
+    "final_rank": 3,
+    "final_score": 25,
+    "rating_at_start": 1806,
+    "performance_rating": 1742
+  },
+  {
+    "tournament_id": "OODVn0rB",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 60,
+    "rating_at_start": 2288,
+    "performance_rating": 2174
+  },
+  {
+    "tournament_id": "OODVn0rB",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 43,
+    "rating_at_start": 2250,
+    "performance_rating": 2132
+  },
+  {
+    "tournament_id": "OODVn0rB",
+    "user_id_lichess": "LeonardoLGS",
+    "final_rank": 3,
+    "final_score": 29,
+    "rating_at_start": 2091,
+    "performance_rating": 1982
+  },
+  {
+    "tournament_id": "OoQjZnag",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 43,
+    "rating_at_start": 2209,
+    "performance_rating": 2070
+  },
+  {
+    "tournament_id": "OoQjZnag",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 31,
+    "rating_at_start": 2145,
+    "performance_rating": 2001
+  },
+  {
+    "tournament_id": "OoQjZnag",
+    "user_id_lichess": "Claudio1414",
+    "final_rank": 3,
+    "final_score": 16,
+    "rating_at_start": 1442,
+    "performance_rating": 1730
+  },
+  {
+    "tournament_id": "OspvFZHz",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 62,
+    "rating_at_start": 2241,
+    "performance_rating": 2099
+  },
+  {
+    "tournament_id": "OspvFZHz",
+    "user_id_lichess": "AndreHLLMAB251",
+    "final_rank": 2,
+    "final_score": 32,
+    "rating_at_start": 1795,
+    "performance_rating": 1756
+  },
+  {
+    "tournament_id": "OspvFZHz",
+    "user_id_lichess": "FFF3",
+    "final_rank": 3,
+    "final_score": 28,
+    "rating_at_start": 1815,
+    "performance_rating": 1923
+  },
+  {
+    "tournament_id": "P5l9cmPa",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 21,
+    "rating_at_start": 2027,
+    "performance_rating": 2002
+  },
+  {
+    "tournament_id": "P5l9cmPa",
+    "user_id_lichess": "FelipeBM",
+    "final_rank": 2,
+    "final_score": 19,
+    "rating_at_start": 1988,
+    "performance_rating": 1782
+  },
+  {
+    "tournament_id": "P5l9cmPa",
+    "user_id_lichess": "kronossaurus",
+    "final_rank": 3,
+    "final_score": 17,
+    "rating_at_start": 2033,
+    "performance_rating": 2210
+  },
+  {
+    "tournament_id": "P8BuDo9k",
+    "user_id_lichess": "Claudio1414",
+    "final_rank": 1,
+    "final_score": 32,
+    "rating_at_start": 1646,
+    "performance_rating": 1904
+  },
+  {
+    "tournament_id": "P8BuDo9k",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 24,
+    "rating_at_start": 2267,
+    "performance_rating": 2009
+  },
+  {
+    "tournament_id": "P8BuDo9k",
+    "user_id_lichess": "epsei",
+    "final_rank": 3,
+    "final_score": 22,
+    "rating_at_start": 2035,
+    "performance_rating": 1960
+  },
+  {
+    "tournament_id": "PIY8sr6c",
+    "user_id_lichess": "Re2_Re7",
+    "final_rank": 1,
+    "final_score": 36,
+    "rating_at_start": 2269,
+    "performance_rating": 1890
+  },
+  {
+    "tournament_id": "PIY8sr6c",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 2,
+    "final_score": 22,
+    "rating_at_start": 1702,
+    "performance_rating": 1825
+  },
+  {
+    "tournament_id": "PIY8sr6c",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": 20,
+    "rating_at_start": 1917,
+    "performance_rating": 1933
+  },
+  {
+    "tournament_id": "PVjeDtSc",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 24,
+    "rating_at_start": 1971,
+    "performance_rating": 1875
+  },
+  {
+    "tournament_id": "PVjeDtSc",
+    "user_id_lichess": "brunovic",
+    "final_rank": 2,
+    "final_score": 20,
+    "rating_at_start": 1663,
+    "performance_rating": 1702
+  },
+  {
+    "tournament_id": "PVjeDtSc",
+    "user_id_lichess": "AlevZY",
+    "final_rank": 3,
+    "final_score": 14,
+    "rating_at_start": 1954,
+    "performance_rating": 1831
+  },
+  {
+    "tournament_id": "PX7AaFjx",
+    "user_id_lichess": "justicechampx",
+    "final_rank": 1,
+    "final_score": 34,
+    "rating_at_start": 2011,
+    "performance_rating": 2164
+  },
+  {
+    "tournament_id": "PX7AaFjx",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 32,
+    "rating_at_start": 2238,
+    "performance_rating": 1888
+  },
+  {
+    "tournament_id": "PX7AaFjx",
+    "user_id_lichess": "NeoMaverWick",
+    "final_rank": 3,
+    "final_score": 26,
+    "rating_at_start": 1842,
+    "performance_rating": 1918
+  },
+  {
+    "tournament_id": "PmHfI3Wg",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 30,
+    "rating_at_start": 1987,
+    "performance_rating": 2194
+  },
+  {
+    "tournament_id": "PmHfI3Wg",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 28,
+    "rating_at_start": 2035,
+    "performance_rating": 2162
+  },
+  {
+    "tournament_id": "PmHfI3Wg",
+    "user_id_lichess": "Adechess1",
+    "final_rank": 3,
+    "final_score": 27,
+    "rating_at_start": 1929,
+    "performance_rating": 1935
+  },
+  {
+    "tournament_id": "Q2ldTSDY",
+    "user_id_lichess": "marcosmolina",
+    "final_rank": 1,
+    "final_score": 18,
+    "rating_at_start": 1726,
+    "performance_rating": 1740
+  },
+  {
+    "tournament_id": "Q2ldTSDY",
+    "user_id_lichess": "jaop",
+    "final_rank": 2,
+    "final_score": 16,
+    "rating_at_start": 1392,
+    "performance_rating": 1623
+  },
+  {
+    "tournament_id": "Q2ldTSDY",
+    "user_id_lichess": "franfilth",
+    "final_rank": 3,
+    "final_score": 12,
+    "rating_at_start": 1553,
+    "performance_rating": 1632
+  },
+  {
+    "tournament_id": "QANPSHNY",
+    "user_id_lichess": "LeonardoBatis",
+    "final_rank": 1,
+    "final_score": 15,
+    "rating_at_start": 1692,
+    "performance_rating": 1772
+  },
+  {
+    "tournament_id": "QANPSHNY",
+    "user_id_lichess": "luzgus",
+    "final_rank": 2,
+    "final_score": 12,
+    "rating_at_start": 1340,
+    "performance_rating": 1582
+  },
+  {
+    "tournament_id": "QANPSHNY",
+    "user_id_lichess": "botest",
+    "final_rank": 3,
+    "final_score": 6,
+    "rating_at_start": 2336,
+    "performance_rating": 2054
+  },
+  {
+    "tournament_id": "QL5zxP0R",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 37,
+    "rating_at_start": 2195,
+    "performance_rating": 2028
+  },
+  {
+    "tournament_id": "QL5zxP0R",
+    "user_id_lichess": "Molchat",
+    "final_rank": 2,
+    "final_score": 21,
+    "rating_at_start": 1570,
+    "performance_rating": 1883
+  },
+  {
+    "tournament_id": "QL5zxP0R",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 3,
+    "final_score": 21,
+    "rating_at_start": 1809,
+    "performance_rating": 1870
+  },
+  {
+    "tournament_id": "QfshPeeG",
+    "user_id_lichess": "rlemos",
+    "final_rank": 1,
+    "final_score": 18,
+    "rating_at_start": 1765,
+    "performance_rating": 1842
+  },
+  {
+    "tournament_id": "QfshPeeG",
+    "user_id_lichess": "D-Ruas",
+    "final_rank": 2,
+    "final_score": 14,
+    "rating_at_start": 1737,
+    "performance_rating": 1740
+  },
+  {
+    "tournament_id": "QfshPeeG",
+    "user_id_lichess": "jaop",
+    "final_rank": 3,
+    "final_score": 12,
+    "rating_at_start": 1440,
+    "performance_rating": 1567
+  },
+  {
+    "tournament_id": "QiYqTOS3",
+    "user_id_lichess": "samuelperuw",
+    "final_rank": 1,
+    "final_score": 16,
+    "rating_at_start": 1524,
+    "performance_rating": 1689
+  },
+  {
+    "tournament_id": "QiYqTOS3",
+    "user_id_lichess": "Edu_Rocha",
+    "final_rank": 2,
+    "final_score": 12,
+    "rating_at_start": 1560,
+    "performance_rating": 1611
+  },
+  {
+    "tournament_id": "QiYqTOS3",
+    "user_id_lichess": "Rcstarpvp",
+    "final_rank": 3,
+    "final_score": 11,
+    "rating_at_start": 1500,
+    "performance_rating": 1418
+  },
+  {
+    "tournament_id": "QvzVrDo5",
+    "user_id_lichess": "Rubens_Lavor",
+    "final_rank": 1,
+    "final_score": 22,
+    "rating_at_start": 2058,
+    "performance_rating": 1955
+  },
+  {
+    "tournament_id": "QvzVrDo5",
+    "user_id_lichess": "lilvinicius99",
+    "final_rank": 2,
+    "final_score": 20,
+    "rating_at_start": 2212,
+    "performance_rating": 2054
+  },
+  {
+    "tournament_id": "QvzVrDo5",
+    "user_id_lichess": "AdilioLessa",
+    "final_rank": 3,
+    "final_score": 18,
+    "rating_at_start": 1617,
+    "performance_rating": 1948
+  },
+  {
+    "tournament_id": "R91GVzNG",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": null,
+    "rating_at_start": 2149,
+    "performance_rating": 2129
+  },
+  {
+    "tournament_id": "R91GVzNG",
+    "user_id_lichess": "MarcusZulu",
+    "final_rank": 2,
+    "final_score": null,
+    "rating_at_start": 2032,
+    "performance_rating": 1988
+  },
+  {
+    "tournament_id": "R91GVzNG",
+    "user_id_lichess": "Badrinath1812",
+    "final_rank": 3,
+    "final_score": null,
+    "rating_at_start": 2142,
+    "performance_rating": 2402
+  },
+  {
+    "tournament_id": "RwXxupna",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": null,
+    "rating_at_start": 2039,
+    "performance_rating": 2249
+  },
+  {
+    "tournament_id": "RwXxupna",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": null,
+    "rating_at_start": 2074,
+    "performance_rating": 2126
+  },
+  {
+    "tournament_id": "RwXxupna",
+    "user_id_lichess": "Frankwillyan",
+    "final_rank": 3,
+    "final_score": null,
+    "rating_at_start": 1885,
+    "performance_rating": 1959
+  },
+  {
+    "tournament_id": "SjVEadYo",
+    "user_id_lichess": "batolsai",
+    "final_rank": 1,
+    "final_score": 47,
+    "rating_at_start": 2243,
+    "performance_rating": 2246
+  },
+  {
+    "tournament_id": "SjVEadYo",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 24,
+    "rating_at_start": 2268,
+    "performance_rating": 2311
+  },
+  {
+    "tournament_id": "SjVEadYo",
+    "user_id_lichess": "IgorRafael",
+    "final_rank": 3,
+    "final_score": 24,
+    "rating_at_start": 1836,
+    "performance_rating": 1871
+  },
+  {
+    "tournament_id": "SvT1LKuU",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 34,
+    "rating_at_start": 2317,
+    "performance_rating": 2299
+  },
+  {
+    "tournament_id": "SvT1LKuU",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 32,
+    "rating_at_start": 2233,
+    "performance_rating": 2183
+  },
+  {
+    "tournament_id": "SvT1LKuU",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 3,
+    "final_score": 22,
+    "rating_at_start": 1867,
+    "performance_rating": 1978
+  },
+  {
+    "tournament_id": "TWHu6atG",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 38,
+    "rating_at_start": 2134,
+    "performance_rating": 1879
+  },
+  {
+    "tournament_id": "TWHu6atG",
+    "user_id_lichess": "SK_math",
+    "final_rank": 2,
+    "final_score": 26,
+    "rating_at_start": 2217,
+    "performance_rating": 1874
+  },
+  {
+    "tournament_id": "TWHu6atG",
+    "user_id_lichess": "torneido",
+    "final_rank": 3,
+    "final_score": 25,
+    "rating_at_start": 1701,
+    "performance_rating": 1506
+  },
+  {
+    "tournament_id": "TbyKL6E6",
+    "user_id_lichess": "Kazalysson",
+    "final_rank": 1,
+    "final_score": 20,
+    "rating_at_start": 1546,
+    "performance_rating": 1810
+  },
+  {
+    "tournament_id": "TbyKL6E6",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 18,
+    "rating_at_start": 2108,
+    "performance_rating": 2043
+  },
+  {
+    "tournament_id": "TbyKL6E6",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 3,
+    "final_score": 12,
+    "rating_at_start": 1941,
+    "performance_rating": 1992
+  },
+  {
+    "tournament_id": "U6TN4qZR",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 51,
+    "rating_at_start": 1993,
+    "performance_rating": 2025
+  },
+  {
+    "tournament_id": "U6TN4qZR",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 48,
+    "rating_at_start": 1944,
+    "performance_rating": 2147
+  },
+  {
+    "tournament_id": "U6TN4qZR",
+    "user_id_lichess": "Murilost23",
+    "final_rank": 3,
+    "final_score": 24,
+    "rating_at_start": 1853,
+    "performance_rating": 1836
+  },
+  {
+    "tournament_id": "Ufq4Orcy",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 19,
+    "rating_at_start": 2238,
+    "performance_rating": 2262
+  },
+  {
+    "tournament_id": "Ufq4Orcy",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 13,
+    "rating_at_start": 2282,
+    "performance_rating": 2260
+  },
+  {
+    "tournament_id": "Ufq4Orcy",
+    "user_id_lichess": "foxtopdomate",
+    "final_rank": 3,
+    "final_score": 8,
+    "rating_at_start": 2267,
+    "performance_rating": 2390
+  },
+  {
+    "tournament_id": "UstwV8JN",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 52,
+    "rating_at_start": 2321,
+    "performance_rating": 2238
+  },
+  {
+    "tournament_id": "UstwV8JN",
+    "user_id_lichess": "IaagoAriel",
+    "final_rank": 2,
+    "final_score": 42,
+    "rating_at_start": 2177,
+    "performance_rating": 2178
+  },
+  {
+    "tournament_id": "UstwV8JN",
+    "user_id_lichess": "antonioU270819",
+    "final_rank": 3,
+    "final_score": 25,
+    "rating_at_start": 2061,
+    "performance_rating": 1835
+  },
+  {
+    "tournament_id": "UxXKOhgt",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 22,
+    "rating_at_start": 2001,
+    "performance_rating": 1986
+  },
+  {
+    "tournament_id": "UxXKOhgt",
+    "user_id_lichess": "justicechampx",
+    "final_rank": 2,
+    "final_score": 18,
+    "rating_at_start": 1953,
+    "performance_rating": 2022
+  },
+  {
+    "tournament_id": "UxXKOhgt",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": 18,
+    "rating_at_start": 1783,
+    "performance_rating": 1746
+  },
+  {
+    "tournament_id": "UxbUEEwQ",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 22,
+    "rating_at_start": 2070,
+    "performance_rating": 2043
+  },
+  {
+    "tournament_id": "UxbUEEwQ",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 2,
+    "final_score": 14,
+    "rating_at_start": 1757,
+    "performance_rating": 1632
+  },
+  {
+    "tournament_id": "UxbUEEwQ",
+    "user_id_lichess": "NegroMestrovisk",
+    "final_rank": 3,
+    "final_score": 12,
+    "rating_at_start": 1581,
+    "performance_rating": 1744
+  },
+  {
+    "tournament_id": "UywgbMbR",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 20,
+    "rating_at_start": 2104,
+    "performance_rating": 1806
+  },
+  {
+    "tournament_id": "UywgbMbR",
+    "user_id_lichess": "jaop",
+    "final_rank": 2,
+    "final_score": 10,
+    "rating_at_start": 1354,
+    "performance_rating": 1521
+  },
+  {
+    "tournament_id": "UywgbMbR",
+    "user_id_lichess": "DantonJosh",
+    "final_rank": 3,
+    "final_score": 9,
+    "rating_at_start": 1205,
+    "performance_rating": 1554
+  },
+  {
+    "tournament_id": "VBkU6ULh",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 37,
+    "rating_at_start": 2187,
+    "performance_rating": 2125
+  },
+  {
+    "tournament_id": "VBkU6ULh",
+    "user_id_lichess": "torneido",
+    "final_rank": 2,
+    "final_score": 27,
+    "rating_at_start": 1789,
+    "performance_rating": 1675
+  },
+  {
+    "tournament_id": "VBkU6ULh",
+    "user_id_lichess": "antonioU270819",
+    "final_rank": 3,
+    "final_score": 26,
+    "rating_at_start": 1932,
+    "performance_rating": 1727
+  },
+  {
+    "tournament_id": "VFIkr05F",
+    "user_id_lichess": "FDBona",
+    "final_rank": 1,
+    "final_score": 14,
+    "rating_at_start": 1677,
+    "performance_rating": 1911
+  },
+  {
+    "tournament_id": "VFIkr05F",
+    "user_id_lichess": "Gullermo_Lovera",
+    "final_rank": 2,
+    "final_score": 10,
+    "rating_at_start": 1590,
+    "performance_rating": 1927
+  },
+  {
+    "tournament_id": "VFIkr05F",
+    "user_id_lichess": "Maycon_Schlickmann",
+    "final_rank": 3,
+    "final_score": 9,
+    "rating_at_start": 1643,
+    "performance_rating": 1369
+  },
+  {
+    "tournament_id": "VI5mmB1B",
+    "user_id_lichess": "Adechess1",
+    "final_rank": 1,
+    "final_score": 21,
+    "rating_at_start": 2175,
+    "performance_rating": 2099
+  },
+  {
+    "tournament_id": "VI5mmB1B",
+    "user_id_lichess": "justicechampx",
+    "final_rank": 2,
+    "final_score": 17,
+    "rating_at_start": 1919,
+    "performance_rating": 2079
+  },
+  {
+    "tournament_id": "VI5mmB1B",
+    "user_id_lichess": "linofff",
+    "final_rank": 3,
+    "final_score": 17,
+    "rating_at_start": 1925,
+    "performance_rating": 2027
+  },
+  {
+    "tournament_id": "VWQTFS6E",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 48,
+    "rating_at_start": 2288,
+    "performance_rating": 2255
+  },
+  {
+    "tournament_id": "VWQTFS6E",
+    "user_id_lichess": "justicechampx",
+    "final_rank": 2,
+    "final_score": 43,
+    "rating_at_start": 2082,
+    "performance_rating": 2063
+  },
+  {
+    "tournament_id": "VWQTFS6E",
+    "user_id_lichess": "LeonardoLGS",
+    "final_rank": 3,
+    "final_score": 22,
+    "rating_at_start": 2104,
+    "performance_rating": 1924
+  },
+  {
+    "tournament_id": "VXh04ncU",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 27,
+    "rating_at_start": 2226,
+    "performance_rating": 2156
+  },
+  {
+    "tournament_id": "VXh04ncU",
+    "user_id_lichess": "Balzabouth",
+    "final_rank": 2,
+    "final_score": 26,
+    "rating_at_start": 1910,
+    "performance_rating": 1698
+  },
+  {
+    "tournament_id": "VXh04ncU",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": 24,
+    "rating_at_start": 2122,
+    "performance_rating": 2036
+  },
+  {
+    "tournament_id": "VuByZoeJ",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 43,
+    "rating_at_start": 2066,
+    "performance_rating": 1878
+  },
+  {
+    "tournament_id": "VuByZoeJ",
+    "user_id_lichess": "igorgomess",
+    "final_rank": 2,
+    "final_score": 38,
+    "rating_at_start": 1694,
+    "performance_rating": 1677
+  },
+  {
+    "tournament_id": "VuByZoeJ",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 3,
+    "final_score": 24,
+    "rating_at_start": 2228,
+    "performance_rating": 2027
+  },
+  {
+    "tournament_id": "WNAuupri",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 34,
+    "rating_at_start": 2152,
+    "performance_rating": 2032
+  },
+  {
+    "tournament_id": "WNAuupri",
+    "user_id_lichess": "l1na",
+    "final_rank": 2,
+    "final_score": 25,
+    "rating_at_start": 1720,
+    "performance_rating": 1743
+  },
+  {
+    "tournament_id": "WNAuupri",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": 23,
+    "rating_at_start": 2146,
+    "performance_rating": 1808
+  },
+  {
+    "tournament_id": "Wv3kvvmw",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 42,
+    "rating_at_start": 2262,
+    "performance_rating": 2162
+  },
+  {
+    "tournament_id": "Wv3kvvmw",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 33,
+    "rating_at_start": 2288,
+    "performance_rating": 2450
+  },
+  {
+    "tournament_id": "Wv3kvvmw",
+    "user_id_lichess": "LeonardoLGS",
+    "final_rank": 3,
+    "final_score": 16,
+    "rating_at_start": 2056,
+    "performance_rating": 1778
+  },
+  {
+    "tournament_id": "Wx2nbm9g",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 26,
+    "rating_at_start": 2324,
+    "performance_rating": 2143
+  },
+  {
+    "tournament_id": "Wx2nbm9g",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 2,
+    "final_score": 20,
+    "rating_at_start": 1915,
+    "performance_rating": 2110
+  },
+  {
+    "tournament_id": "Wx2nbm9g",
+    "user_id_lichess": "lemos96",
+    "final_rank": 3,
+    "final_score": 20,
+    "rating_at_start": 1837,
+    "performance_rating": 1918
+  },
+  {
+    "tournament_id": "X2YtvS4I",
+    "user_id_lichess": "lferko",
+    "final_rank": 1,
+    "final_score": 17,
+    "rating_at_start": 1955,
+    "performance_rating": 1930
+  },
+  {
+    "tournament_id": "X2YtvS4I",
+    "user_id_lichess": "DuuNexT",
+    "final_rank": 2,
+    "final_score": 17,
+    "rating_at_start": 1738,
+    "performance_rating": 1894
+  },
+  {
+    "tournament_id": "X2YtvS4I",
+    "user_id_lichess": "RafaBabu",
+    "final_rank": 3,
+    "final_score": 15,
+    "rating_at_start": 1537,
+    "performance_rating": 1667
+  },
+  {
+    "tournament_id": "XODf1wWf",
+    "user_id_lichess": "AntonioMarcosArruda",
+    "final_rank": 1,
+    "final_score": 18,
+    "rating_at_start": 1714,
+    "performance_rating": 1710
+  },
+  {
+    "tournament_id": "XODf1wWf",
+    "user_id_lichess": "Gullermo_Lovera",
+    "final_rank": 2,
+    "final_score": 14,
+    "rating_at_start": 1557,
+    "performance_rating": 1647
+  },
+  {
+    "tournament_id": "XODf1wWf",
+    "user_id_lichess": "NegroMestrovisk",
+    "final_rank": 3,
+    "final_score": 12,
+    "rating_at_start": 1490,
+    "performance_rating": 1622
+  },
+  {
+    "tournament_id": "XY8zaR8A",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 34,
+    "rating_at_start": 2193,
+    "performance_rating": 2242
+  },
+  {
+    "tournament_id": "XY8zaR8A",
+    "user_id_lichess": "circuitoblitzCbx1",
+    "final_rank": 2,
+    "final_score": 34,
+    "rating_at_start": 2018,
+    "performance_rating": 2033
+  },
+  {
+    "tournament_id": "XY8zaR8A",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": 30,
+    "rating_at_start": 2082,
+    "performance_rating": 1772
+  },
+  {
+    "tournament_id": "XdjBHxPq",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 39,
+    "rating_at_start": 2255,
+    "performance_rating": 2106
+  },
+  {
+    "tournament_id": "XdjBHxPq",
+    "user_id_lichess": "Gustmat",
+    "final_rank": 2,
+    "final_score": 28,
+    "rating_at_start": 1905,
+    "performance_rating": 2156
+  },
+  {
+    "tournament_id": "XdjBHxPq",
+    "user_id_lichess": "justicechampx",
+    "final_rank": 3,
+    "final_score": 27,
+    "rating_at_start": 1958,
+    "performance_rating": 1878
+  },
+  {
+    "tournament_id": "XdoTiOnK",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 28,
+    "rating_at_start": 2051,
+    "performance_rating": 2156
+  },
+  {
+    "tournament_id": "XdoTiOnK",
+    "user_id_lichess": "MarcusZulu",
+    "final_rank": 2,
+    "final_score": 24,
+    "rating_at_start": 1944,
+    "performance_rating": 2101
+  },
+  {
+    "tournament_id": "XdoTiOnK",
+    "user_id_lichess": "AndreHLLMAB251",
+    "final_rank": 3,
+    "final_score": 24,
+    "rating_at_start": 1812,
+    "performance_rating": 2026
+  },
+  {
+    "tournament_id": "XhdLXOll",
+    "user_id_lichess": "Chess-SLR",
+    "final_rank": 1,
+    "final_score": 20,
+    "rating_at_start": 1981,
+    "performance_rating": 1792
+  },
+  {
+    "tournament_id": "XhdLXOll",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 19,
+    "rating_at_start": 1932,
+    "performance_rating": 1907
+  },
+  {
+    "tournament_id": "XhdLXOll",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 3,
+    "final_score": 19,
+    "rating_at_start": 1808,
+    "performance_rating": 1820
+  },
+  {
+    "tournament_id": "XmOwh2VK",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 37,
+    "rating_at_start": 2184,
+    "performance_rating": 1874
+  },
+  {
+    "tournament_id": "XmOwh2VK",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 33,
+    "rating_at_start": 2093,
+    "performance_rating": 1953
+  },
+  {
+    "tournament_id": "XmOwh2VK",
+    "user_id_lichess": "Balzabouth",
+    "final_rank": 3,
+    "final_score": 26,
+    "rating_at_start": 1796,
+    "performance_rating": 1851
+  },
+  {
+    "tournament_id": "XoyBpzS4",
+    "user_id_lichess": "IaagoAriel",
+    "final_rank": 1,
+    "final_score": 30,
+    "rating_at_start": 2003,
+    "performance_rating": 1934
+  },
+  {
+    "tournament_id": "XoyBpzS4",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 28,
+    "rating_at_start": 2278,
+    "performance_rating": 2316
+  },
+  {
+    "tournament_id": "XoyBpzS4",
+    "user_id_lichess": "justicechampx",
+    "final_rank": 3,
+    "final_score": 28,
+    "rating_at_start": 2082,
+    "performance_rating": 2062
+  },
+  {
+    "tournament_id": "Xtl1VG64",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 51,
+    "rating_at_start": 2319,
+    "performance_rating": 2254
+  },
+  {
+    "tournament_id": "Xtl1VG64",
+    "user_id_lichess": "justicechampx",
+    "final_rank": 2,
+    "final_score": 28,
+    "rating_at_start": 2010,
+    "performance_rating": 2037
+  },
+  {
+    "tournament_id": "Xtl1VG64",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": 19,
+    "rating_at_start": 2211,
+    "performance_rating": 1961
+  },
+  {
+    "tournament_id": "Y8NfhihT",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 39,
+    "rating_at_start": 2090,
+    "performance_rating": 2205
+  },
+  {
+    "tournament_id": "Y8NfhihT",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 35,
+    "rating_at_start": 2043,
+    "performance_rating": 1930
+  },
+  {
+    "tournament_id": "Y8NfhihT",
+    "user_id_lichess": "Murilost23",
+    "final_rank": 3,
+    "final_score": 34,
+    "rating_at_start": 1845,
+    "performance_rating": 1904
+  },
+  {
+    "tournament_id": "YF1Z3QNp",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 37,
+    "rating_at_start": 2286,
+    "performance_rating": 2139
+  },
+  {
+    "tournament_id": "YF1Z3QNp",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 25,
+    "rating_at_start": 2236,
+    "performance_rating": 2183
+  },
+  {
+    "tournament_id": "YF1Z3QNp",
+    "user_id_lichess": "M4m4m14",
+    "final_rank": 3,
+    "final_score": 24,
+    "rating_at_start": 1976,
+    "performance_rating": 1975
+  },
+  {
+    "tournament_id": "YiRAi2NY",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 46,
+    "rating_at_start": 2147,
+    "performance_rating": 2046
+  },
+  {
+    "tournament_id": "YiRAi2NY",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 25,
+    "rating_at_start": 2214,
+    "performance_rating": 2043
+  },
+  {
+    "tournament_id": "YiRAi2NY",
+    "user_id_lichess": "Murilost23",
+    "final_rank": 3,
+    "final_score": 17,
+    "rating_at_start": 1636,
+    "performance_rating": 1771
+  },
+  {
+    "tournament_id": "YjqF4u64",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 46,
+    "rating_at_start": 2205,
+    "performance_rating": 1764
+  },
+  {
+    "tournament_id": "YjqF4u64",
+    "user_id_lichess": "Adechess1",
+    "final_rank": 2,
+    "final_score": 27,
+    "rating_at_start": 2085,
+    "performance_rating": 1854
+  },
+  {
+    "tournament_id": "YjqF4u64",
+    "user_id_lichess": "Balzabouth",
+    "final_rank": 3,
+    "final_score": 25,
+    "rating_at_start": 1803,
+    "performance_rating": 1876
+  },
+  {
+    "tournament_id": "Yku6ckTs",
+    "user_id_lichess": "justicechampx",
+    "final_rank": 1,
+    "final_score": 17,
+    "rating_at_start": 1893,
+    "performance_rating": 2047
+  },
+  {
+    "tournament_id": "Yku6ckTs",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 17,
+    "rating_at_start": 2024,
+    "performance_rating": 1959
+  },
+  {
+    "tournament_id": "Yku6ckTs",
+    "user_id_lichess": "NegroMestrovisk",
+    "final_rank": 3,
+    "final_score": 16,
+    "rating_at_start": 1560,
+    "performance_rating": 1775
+  },
+  {
+    "tournament_id": "ZBOphqfa",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 1,
+    "final_score": 17,
+    "rating_at_start": 1924,
+    "performance_rating": 1775
+  },
+  {
+    "tournament_id": "ZBOphqfa",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 12,
+    "rating_at_start": 2141,
+    "performance_rating": 2004
+  },
+  {
+    "tournament_id": "ZBOphqfa",
+    "user_id_lichess": "DuuDragao_Next",
+    "final_rank": 3,
+    "final_score": 12,
+    "rating_at_start": 1640,
+    "performance_rating": 1713
+  },
+  {
+    "tournament_id": "ZQY3lLmd",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 35,
+    "rating_at_start": 2108,
+    "performance_rating": 2177
+  },
+  {
+    "tournament_id": "ZQY3lLmd",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 20,
+    "rating_at_start": 2168,
+    "performance_rating": 1856
+  },
+  {
+    "tournament_id": "ZQY3lLmd",
+    "user_id_lichess": "Murilost23",
+    "final_rank": 3,
+    "final_score": 19,
+    "rating_at_start": 1599,
+    "performance_rating": 1640
+  },
+  {
+    "tournament_id": "ZemQ6Gmz",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 29,
+    "rating_at_start": 2121,
+    "performance_rating": 2010
+  },
+  {
+    "tournament_id": "ZemQ6Gmz",
+    "user_id_lichess": "MestredoSul",
+    "final_rank": 2,
+    "final_score": 24,
+    "rating_at_start": 2000,
+    "performance_rating": 1960
+  },
+  {
+    "tournament_id": "ZemQ6Gmz",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 3,
+    "final_score": 19,
+    "rating_at_start": 1698,
+    "performance_rating": 1774
+  },
+  {
+    "tournament_id": "ZrJPh6WI",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 24,
+    "rating_at_start": 2130,
+    "performance_rating": 2097
+  },
+  {
+    "tournament_id": "ZrJPh6WI",
+    "user_id_lichess": "Re2_Re7",
+    "final_rank": 2,
+    "final_score": 20,
+    "rating_at_start": 2288,
+    "performance_rating": 1929
+  },
+  {
+    "tournament_id": "ZrJPh6WI",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": 18,
+    "rating_at_start": 1880,
+    "performance_rating": 1901
+  },
+  {
+    "tournament_id": "ZxQTcoED",
+    "user_id_lichess": "DanielSantosB",
+    "final_rank": 1,
+    "final_score": null,
+    "rating_at_start": 2036,
+    "performance_rating": 2241
+  },
+  {
+    "tournament_id": "ZxQTcoED",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": null,
+    "rating_at_start": 2199,
+    "performance_rating": 2185
+  },
+  {
+    "tournament_id": "ZxQTcoED",
+    "user_id_lichess": "Black-Duck",
+    "final_rank": 3,
+    "final_score": null,
+    "rating_at_start": 2036,
+    "performance_rating": 1980
+  },
+  {
+    "tournament_id": "ZxfSrTFr",
+    "user_id_lichess": "PETROSIAN-AGRESSIVO",
+    "final_rank": 1,
+    "final_score": 26,
+    "rating_at_start": 1955,
+    "performance_rating": 1996
+  },
+  {
+    "tournament_id": "ZxfSrTFr",
+    "user_id_lichess": "Gustavo972",
+    "final_rank": 2,
+    "final_score": 16,
+    "rating_at_start": 1265,
+    "performance_rating": 1717
+  },
+  {
+    "tournament_id": "ZxfSrTFr",
+    "user_id_lichess": "DuuNexT",
+    "final_rank": 3,
+    "final_score": 15,
+    "rating_at_start": 1768,
+    "performance_rating": 1868
+  },
+  {
+    "tournament_id": "a6TGJwIH",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 86,
+    "rating_at_start": 2223,
+    "performance_rating": 2190
+  },
+  {
+    "tournament_id": "a6TGJwIH",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 40,
+    "rating_at_start": 2033,
+    "performance_rating": 1897
+  },
+  {
+    "tournament_id": "a6TGJwIH",
+    "user_id_lichess": "gadottL",
+    "final_rank": 3,
+    "final_score": 32,
+    "rating_at_start": 1885,
+    "performance_rating": 1909
+  },
+  {
+    "tournament_id": "aKuoYGzo",
+    "user_id_lichess": "brunouss",
+    "final_rank": 1,
+    "final_score": 18,
+    "rating_at_start": 1500,
+    "performance_rating": 1802
+  },
+  {
+    "tournament_id": "aKuoYGzo",
+    "user_id_lichess": "Claudio1414",
+    "final_rank": 2,
+    "final_score": 16,
+    "rating_at_start": 1550,
+    "performance_rating": 1712
+  },
+  {
+    "tournament_id": "aKuoYGzo",
+    "user_id_lichess": "DanielChamposki",
+    "final_rank": 3,
+    "final_score": 15,
+    "rating_at_start": 1572,
+    "performance_rating": 1626
+  },
+  {
+    "tournament_id": "ahv2BZWd",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 42,
+    "rating_at_start": 2238,
+    "performance_rating": 2060
+  },
+  {
+    "tournament_id": "ahv2BZWd",
+    "user_id_lichess": "NATANFOX2015",
+    "final_rank": 2,
+    "final_score": 26,
+    "rating_at_start": 2135,
+    "performance_rating": 1938
+  },
+  {
+    "tournament_id": "ahv2BZWd",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": 20,
+    "rating_at_start": 2064,
+    "performance_rating": 1941
+  },
+  {
+    "tournament_id": "akd4HUlh",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 22,
+    "rating_at_start": 2016,
+    "performance_rating": 1811
+  },
+  {
+    "tournament_id": "akd4HUlh",
+    "user_id_lichess": "DuuNexT",
+    "final_rank": 2,
+    "final_score": 14,
+    "rating_at_start": 1537,
+    "performance_rating": 1820
+  },
+  {
+    "tournament_id": "akd4HUlh",
+    "user_id_lichess": "brunovic",
+    "final_rank": 3,
+    "final_score": 11,
+    "rating_at_start": 1672,
+    "performance_rating": 1704
+  },
+  {
+    "tournament_id": "axTWSY3V",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 35,
+    "rating_at_start": 2362,
+    "performance_rating": 2158
+  },
+  {
+    "tournament_id": "axTWSY3V",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 29,
+    "rating_at_start": 2247,
+    "performance_rating": 1983
+  },
+  {
+    "tournament_id": "axTWSY3V",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 3,
+    "final_score": 20,
+    "rating_at_start": 1829,
+    "performance_rating": 1965
+  },
+  {
+    "tournament_id": "bCEcHjzL",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 36,
+    "rating_at_start": 2188,
+    "performance_rating": 1998
+  },
+  {
+    "tournament_id": "bCEcHjzL",
+    "user_id_lichess": "Balzabouth",
+    "final_rank": 2,
+    "final_score": 34,
+    "rating_at_start": 1756,
+    "performance_rating": 2008
+  },
+  {
+    "tournament_id": "bCEcHjzL",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": 31,
+    "rating_at_start": 2144,
+    "performance_rating": 2161
+  },
+  {
+    "tournament_id": "bDRMbc8V",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": null,
+    "rating_at_start": 2152,
+    "performance_rating": 2180
+  },
+  {
+    "tournament_id": "bDRMbc8V",
+    "user_id_lichess": "Rorschlock",
+    "final_rank": 2,
+    "final_score": null,
+    "rating_at_start": 2256,
+    "performance_rating": 2184
+  },
+  {
+    "tournament_id": "bDRMbc8V",
+    "user_id_lichess": "Adechess1",
+    "final_rank": 3,
+    "final_score": null,
+    "rating_at_start": 2091,
+    "performance_rating": 2168
+  },
+  {
+    "tournament_id": "bOLoWGd5",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 1,
+    "final_score": 18,
+    "rating_at_start": 1828,
+    "performance_rating": 1849
+  },
+  {
+    "tournament_id": "bOLoWGd5",
+    "user_id_lichess": "DuuNexT",
+    "final_rank": 2,
+    "final_score": 18,
+    "rating_at_start": 1786,
+    "performance_rating": 1678
+  },
+  {
+    "tournament_id": "bOLoWGd5",
+    "user_id_lichess": "Felipezandinho",
+    "final_rank": 3,
+    "final_score": 16,
+    "rating_at_start": 1438,
+    "performance_rating": 1552
+  },
+  {
+    "tournament_id": "bPRSnLz3",
+    "user_id_lichess": "DanielChamposki",
+    "final_rank": 1,
+    "final_score": 18,
+    "rating_at_start": 1572,
+    "performance_rating": 1660
+  },
+  {
+    "tournament_id": "bPRSnLz3",
+    "user_id_lichess": "rlemos",
+    "final_rank": 2,
+    "final_score": 16,
+    "rating_at_start": 1727,
+    "performance_rating": 1805
+  },
+  {
+    "tournament_id": "bPRSnLz3",
+    "user_id_lichess": "ShaolimMataPorco",
+    "final_rank": 3,
+    "final_score": 16,
+    "rating_at_start": 1624,
+    "performance_rating": 1642
+  },
+  {
+    "tournament_id": "c2LBRB0z",
+    "user_id_lichess": "justicechampx",
+    "final_rank": 1,
+    "final_score": 24,
+    "rating_at_start": 1979,
+    "performance_rating": 1951
+  },
+  {
+    "tournament_id": "c2LBRB0z",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 19,
+    "rating_at_start": 1963,
+    "performance_rating": 2122
+  },
+  {
+    "tournament_id": "c2LBRB0z",
+    "user_id_lichess": "Rubens_Lavor",
+    "final_rank": 3,
+    "final_score": 18,
+    "rating_at_start": 2083,
+    "performance_rating": 2173
+  },
+  {
+    "tournament_id": "cMZtok2r",
+    "user_id_lichess": "kronossaurus",
+    "final_rank": 1,
+    "final_score": 34,
+    "rating_at_start": 2121,
+    "performance_rating": 2031
+  },
+  {
+    "tournament_id": "cMZtok2r",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 27,
+    "rating_at_start": 2199,
+    "performance_rating": 2169
+  },
+  {
+    "tournament_id": "cMZtok2r",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 3,
+    "final_score": 26,
+    "rating_at_start": 2339,
+    "performance_rating": 2230
+  },
+  {
+    "tournament_id": "cfZSZLFu",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 26,
+    "rating_at_start": 2222,
+    "performance_rating": 2133
+  },
+  {
+    "tournament_id": "cfZSZLFu",
+    "user_id_lichess": "JohnWick-NexT",
+    "final_rank": 2,
+    "final_score": 18,
+    "rating_at_start": 2130,
+    "performance_rating": 1882
+  },
+  {
+    "tournament_id": "cfZSZLFu",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": 15,
+    "rating_at_start": 2075,
+    "performance_rating": 1901
+  },
+  {
+    "tournament_id": "cfhSjoiz",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 30,
+    "rating_at_start": 2195,
+    "performance_rating": 2295
+  },
+  {
+    "tournament_id": "cfhSjoiz",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 20,
+    "rating_at_start": 2097,
+    "performance_rating": 1948
+  },
+  {
+    "tournament_id": "cfhSjoiz",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 3,
+    "final_score": 17,
+    "rating_at_start": 1696,
+    "performance_rating": 1751
+  },
+  {
+    "tournament_id": "ckZV2ZMO",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 24,
+    "rating_at_start": 2250,
+    "performance_rating": 2302
+  },
+  {
+    "tournament_id": "ckZV2ZMO",
+    "user_id_lichess": "justicechampx",
+    "final_rank": 2,
+    "final_score": 17,
+    "rating_at_start": 2041,
+    "performance_rating": 2084
+  },
+  {
+    "tournament_id": "ckZV2ZMO",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": 16,
+    "rating_at_start": 2276,
+    "performance_rating": 2161
+  },
+  {
+    "tournament_id": "dNCezBsP",
+    "user_id_lichess": "linofff",
+    "final_rank": 1,
+    "final_score": 21,
+    "rating_at_start": 1984,
+    "performance_rating": 2095
+  },
+  {
+    "tournament_id": "dNCezBsP",
+    "user_id_lichess": "justicechampx",
+    "final_rank": 2,
+    "final_score": 17,
+    "rating_at_start": 1898,
+    "performance_rating": 1932
+  },
+  {
+    "tournament_id": "dNCezBsP",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 3,
+    "final_score": 15,
+    "rating_at_start": 1988,
+    "performance_rating": 1898
+  },
+  {
+    "tournament_id": "dQDV2ChC",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 1,
+    "final_score": 22,
+    "rating_at_start": 1754,
+    "performance_rating": 1777
+  },
+  {
+    "tournament_id": "dQDV2ChC",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 14,
+    "rating_at_start": 2223,
+    "performance_rating": 2176
+  },
+  {
+    "tournament_id": "dQDV2ChC",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": 13,
+    "rating_at_start": 2090,
+    "performance_rating": 1985
+  },
+  {
+    "tournament_id": "dYTHf6nG",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 25,
+    "rating_at_start": 1907,
+    "performance_rating": 1875
+  },
+  {
+    "tournament_id": "dYTHf6nG",
+    "user_id_lichess": "OReal",
+    "final_rank": 2,
+    "final_score": 20,
+    "rating_at_start": 1946,
+    "performance_rating": 1982
+  },
+  {
+    "tournament_id": "dYTHf6nG",
+    "user_id_lichess": "kronossaurus",
+    "final_rank": 3,
+    "final_score": 20,
+    "rating_at_start": 2051,
+    "performance_rating": 1928
+  },
+  {
+    "tournament_id": "dZr6pqry",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 47,
+    "rating_at_start": 2288,
+    "performance_rating": 2360
+  },
+  {
+    "tournament_id": "dZr6pqry",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 38,
+    "rating_at_start": 2316,
+    "performance_rating": 2096
+  },
+  {
+    "tournament_id": "dZr6pqry",
+    "user_id_lichess": "MrWickBrokeTheRules",
+    "final_rank": 3,
+    "final_score": 20,
+    "rating_at_start": 2019,
+    "performance_rating": 1892
+  },
+  {
+    "tournament_id": "de4mNvVx",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": null,
+    "rating_at_start": 1568,
+    "performance_rating": 1771
+  },
+  {
+    "tournament_id": "de4mNvVx",
+    "user_id_lichess": "DuuDragao_Next",
+    "final_rank": 2,
+    "final_score": null,
+    "rating_at_start": 1611,
+    "performance_rating": 1604
+  },
+  {
+    "tournament_id": "de4mNvVx",
+    "user_id_lichess": "Daniil_Prokofev42443",
+    "final_rank": 3,
+    "final_score": null,
+    "rating_at_start": 1273,
+    "performance_rating": 1183
+  },
+  {
+    "tournament_id": "dg84yROI",
+    "user_id_lichess": "Rubens_Lavor",
+    "final_rank": 1,
+    "final_score": 20,
+    "rating_at_start": 2013,
+    "performance_rating": 2035
+  },
+  {
+    "tournament_id": "dg84yROI",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 2,
+    "final_score": 17,
+    "rating_at_start": 1732,
+    "performance_rating": 1600
+  },
+  {
+    "tournament_id": "dg84yROI",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": 16,
+    "rating_at_start": 2006,
+    "performance_rating": 1793
+  },
+  {
+    "tournament_id": "dgGm9P7V",
+    "user_id_lichess": "gmedsondias",
+    "final_rank": 1,
+    "final_score": 23,
+    "rating_at_start": 1519,
+    "performance_rating": 1719
+  },
+  {
+    "tournament_id": "dgGm9P7V",
+    "user_id_lichess": "Gullermo_Lovera",
+    "final_rank": 2,
+    "final_score": 18,
+    "rating_at_start": 1410,
+    "performance_rating": 1517
+  },
+  {
+    "tournament_id": "dgGm9P7V",
+    "user_id_lichess": "NegroMestrovisk",
+    "final_rank": 3,
+    "final_score": 14,
+    "rating_at_start": 1493,
+    "performance_rating": 1453
+  },
+  {
+    "tournament_id": "dhiRCDIW",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 23,
+    "rating_at_start": 2029,
+    "performance_rating": 1802
+  },
+  {
+    "tournament_id": "dhiRCDIW",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 2,
+    "final_score": 22,
+    "rating_at_start": 1732,
+    "performance_rating": 1803
+  },
+  {
+    "tournament_id": "dhiRCDIW",
+    "user_id_lichess": "DuuNexT",
+    "final_rank": 3,
+    "final_score": 16,
+    "rating_at_start": 1629,
+    "performance_rating": 1729
+  },
+  {
+    "tournament_id": "ds4vFdOm",
+    "user_id_lichess": "AntonioMarcosArruda",
+    "final_rank": 1,
+    "final_score": 14,
+    "rating_at_start": 1674,
+    "performance_rating": 1544
+  },
+  {
+    "tournament_id": "ds4vFdOm",
+    "user_id_lichess": "Gullermo_Lovera",
+    "final_rank": 2,
+    "final_score": 11,
+    "rating_at_start": 1572,
+    "performance_rating": 1583
+  },
+  {
+    "tournament_id": "ds4vFdOm",
+    "user_id_lichess": "Kazalysson",
+    "final_rank": 3,
+    "final_score": 10,
+    "rating_at_start": 1569,
+    "performance_rating": 1766
+  },
+  {
+    "tournament_id": "dtLIhb4n",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 27,
+    "rating_at_start": 2353,
+    "performance_rating": 2269
+  },
+  {
+    "tournament_id": "dtLIhb4n",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 18,
+    "rating_at_start": 2405,
+    "performance_rating": 2407
+  },
+  {
+    "tournament_id": "dtLIhb4n",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 3,
+    "final_score": 16,
+    "rating_at_start": 1900,
+    "performance_rating": 1969
+  },
+  {
+    "tournament_id": "eD603hJ7",
+    "user_id_lichess": "foguetada",
+    "final_rank": 1,
+    "final_score": 26,
+    "rating_at_start": 2245,
+    "performance_rating": 1970
+  },
+  {
+    "tournament_id": "eD603hJ7",
+    "user_id_lichess": "brunovic",
+    "final_rank": 2,
+    "final_score": 19,
+    "rating_at_start": 1552,
+    "performance_rating": 1642
+  },
+  {
+    "tournament_id": "eD603hJ7",
+    "user_id_lichess": "zorro81",
+    "final_rank": 3,
+    "final_score": 18,
+    "rating_at_start": 2153,
+    "performance_rating": 2057
+  },
+  {
+    "tournament_id": "eX2rjs64",
+    "user_id_lichess": "kronossaurus",
+    "final_rank": 1,
+    "final_score": 25,
+    "rating_at_start": 2148,
+    "performance_rating": 2127
+  },
+  {
+    "tournament_id": "eX2rjs64",
+    "user_id_lichess": "lferko",
+    "final_rank": 2,
+    "final_score": 20,
+    "rating_at_start": 2236,
+    "performance_rating": 2513
+  },
+  {
+    "tournament_id": "eX2rjs64",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": 13,
+    "rating_at_start": 2229,
+    "performance_rating": 1893
+  },
+  {
+    "tournament_id": "ebJPp5BG",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 32,
+    "rating_at_start": 2257,
+    "performance_rating": 2306
+  },
+  {
+    "tournament_id": "ebJPp5BG",
+    "user_id_lichess": "NeoMaverWick",
+    "final_rank": 2,
+    "final_score": 32,
+    "rating_at_start": 1876,
+    "performance_rating": 1941
+  },
+  {
+    "tournament_id": "ebJPp5BG",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 3,
+    "final_score": 20,
+    "rating_at_start": 2368,
+    "performance_rating": 1957
+  },
+  {
+    "tournament_id": "ehZpfMPw",
+    "user_id_lichess": "GSibowicz",
+    "final_rank": 1,
+    "final_score": 17,
+    "rating_at_start": 1649,
+    "performance_rating": 1689
+  },
+  {
+    "tournament_id": "ehZpfMPw",
+    "user_id_lichess": "Gustavo972",
+    "final_rank": 2,
+    "final_score": 14,
+    "rating_at_start": 1429,
+    "performance_rating": 1782
+  },
+  {
+    "tournament_id": "ehZpfMPw",
+    "user_id_lichess": "Kazalysson",
+    "final_rank": 3,
+    "final_score": 14,
+    "rating_at_start": 1546,
+    "performance_rating": 1674
+  },
+  {
+    "tournament_id": "f0vtreNm",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 32,
+    "rating_at_start": 2293,
+    "performance_rating": 2036
+  },
+  {
+    "tournament_id": "f0vtreNm",
+    "user_id_lichess": "Balzabouth",
+    "final_rank": 2,
+    "final_score": 24,
+    "rating_at_start": 2239,
+    "performance_rating": 2212
+  },
+  {
+    "tournament_id": "f0vtreNm",
+    "user_id_lichess": "Eusekevin",
+    "final_rank": 3,
+    "final_score": 19,
+    "rating_at_start": 2067,
+    "performance_rating": 2002
+  },
+  {
+    "tournament_id": "fPA264ru",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": null,
+    "rating_at_start": 2117,
+    "performance_rating": 2208
+  },
+  {
+    "tournament_id": "fPA264ru",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": null,
+    "rating_at_start": 2135,
+    "performance_rating": 1997
+  },
+  {
+    "tournament_id": "fPA264ru",
+    "user_id_lichess": "NeoMaverWick",
+    "final_rank": 3,
+    "final_score": null,
+    "rating_at_start": 2159,
+    "performance_rating": 2215
+  },
+  {
+    "tournament_id": "fizZut2g",
+    "user_id_lichess": "justicechampx",
+    "final_rank": 1,
+    "final_score": 36,
+    "rating_at_start": 2018,
+    "performance_rating": 1973
+  },
+  {
+    "tournament_id": "fizZut2g",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 26,
+    "rating_at_start": 2395,
+    "performance_rating": 2523
+  },
+  {
+    "tournament_id": "fizZut2g",
+    "user_id_lichess": "kronossaurus",
+    "final_rank": 3,
+    "final_score": 15,
+    "rating_at_start": 2109,
+    "performance_rating": 1972
+  },
+  {
+    "tournament_id": "frODtKMg",
+    "user_id_lichess": "kronossaurus",
+    "final_rank": 1,
+    "final_score": 18,
+    "rating_at_start": 2053,
+    "performance_rating": 2013
+  },
+  {
+    "tournament_id": "frODtKMg",
+    "user_id_lichess": "L_L1999",
+    "final_rank": 2,
+    "final_score": 17,
+    "rating_at_start": 1783,
+    "performance_rating": 1792
+  },
+  {
+    "tournament_id": "frODtKMg",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 3,
+    "final_score": 15,
+    "rating_at_start": 1761,
+    "performance_rating": 1725
+  },
+  {
+    "tournament_id": "gEMVV5Er",
+    "user_id_lichess": "Gullermo_Lovera",
+    "final_rank": 1,
+    "final_score": 20,
+    "rating_at_start": 1597,
+    "performance_rating": 1760
+  },
+  {
+    "tournament_id": "gEMVV5Er",
+    "user_id_lichess": "L_L1999",
+    "final_rank": 2,
+    "final_score": 13,
+    "rating_at_start": 1818,
+    "performance_rating": 1807
+  },
+  {
+    "tournament_id": "gEMVV5Er",
+    "user_id_lichess": "NegroMestrovisk",
+    "final_rank": 3,
+    "final_score": 13,
+    "rating_at_start": 1542,
+    "performance_rating": 1555
+  },
+  {
+    "tournament_id": "gHB9w4g2",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 25,
+    "rating_at_start": 2313,
+    "performance_rating": 2256
+  },
+  {
+    "tournament_id": "gHB9w4g2",
+    "user_id_lichess": "Luiz_Joinville",
+    "final_rank": 2,
+    "final_score": 22,
+    "rating_at_start": 2035,
+    "performance_rating": 2080
+  },
+  {
+    "tournament_id": "gHB9w4g2",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": 21,
+    "rating_at_start": 2219,
+    "performance_rating": 1943
+  },
+  {
+    "tournament_id": "gZqEUp7V",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 36,
+    "rating_at_start": 2312,
+    "performance_rating": 2231
+  },
+  {
+    "tournament_id": "gZqEUp7V",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 10,
+    "rating_at_start": 2208,
+    "performance_rating": 2038
+  },
+  {
+    "tournament_id": "gZqEUp7V",
+    "user_id_lichess": "Balzabouth",
+    "final_rank": 3,
+    "final_score": 9,
+    "rating_at_start": 1985,
+    "performance_rating": 1723
+  },
+  {
+    "tournament_id": "h2KWtaHZ",
+    "user_id_lichess": "nextCUBAxadrez",
+    "final_rank": 1,
+    "final_score": null,
+    "rating_at_start": 2398,
+    "performance_rating": 2447
+  },
+  {
+    "tournament_id": "h2KWtaHZ",
+    "user_id_lichess": "r20181964",
+    "final_rank": 2,
+    "final_score": null,
+    "rating_at_start": 2063,
+    "performance_rating": 2217
+  },
+  {
+    "tournament_id": "h2KWtaHZ",
+    "user_id_lichess": "ElGremistaSC",
+    "final_rank": 3,
+    "final_score": null,
+    "rating_at_start": 2294,
+    "performance_rating": 2186
+  },
+  {
+    "tournament_id": "hT3LE57L",
+    "user_id_lichess": "Rcstarpvp",
+    "final_rank": 1,
+    "final_score": 12,
+    "rating_at_start": 1506,
+    "performance_rating": 1844
+  },
+  {
+    "tournament_id": "hT3LE57L",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 12,
+    "rating_at_start": 2141,
+    "performance_rating": 1792
+  },
+  {
+    "tournament_id": "hT3LE57L",
+    "user_id_lichess": "Kazalysson",
+    "final_rank": 3,
+    "final_score": 11,
+    "rating_at_start": 1546,
+    "performance_rating": 1750
+  },
+  {
+    "tournament_id": "iAqmZvlA",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 24,
+    "rating_at_start": 1941,
+    "performance_rating": 2117
+  },
+  {
+    "tournament_id": "iAqmZvlA",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 18,
+    "rating_at_start": 2113,
+    "performance_rating": 1983
+  },
+  {
+    "tournament_id": "iAqmZvlA",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 3,
+    "final_score": 15,
+    "rating_at_start": 1885,
+    "performance_rating": 1744
+  },
+  {
+    "tournament_id": "iO5epQhV",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 23,
+    "rating_at_start": 1990,
+    "performance_rating": 1920
+  },
+  {
+    "tournament_id": "iO5epQhV",
+    "user_id_lichess": "justicechampx",
+    "final_rank": 2,
+    "final_score": 19,
+    "rating_at_start": 1947,
+    "performance_rating": 1999
+  },
+  {
+    "tournament_id": "iO5epQhV",
+    "user_id_lichess": "FFF3",
+    "final_rank": 3,
+    "final_score": 17,
+    "rating_at_start": 1917,
+    "performance_rating": 2004
+  },
+  {
+    "tournament_id": "iXTj6EoC",
+    "user_id_lichess": "Drunknoboom",
+    "final_rank": 1,
+    "final_score": 55,
+    "rating_at_start": 2231,
+    "performance_rating": 2242
+  },
+  {
+    "tournament_id": "iXTj6EoC",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 35,
+    "rating_at_start": 2300,
+    "performance_rating": 2212
+  },
+  {
+    "tournament_id": "iXTj6EoC",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 3,
+    "final_score": 26,
+    "rating_at_start": 1891,
+    "performance_rating": 2125
+  },
+  {
+    "tournament_id": "ifC3p80x",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 33,
+    "rating_at_start": 2280,
+    "performance_rating": 2160
+  },
+  {
+    "tournament_id": "ifC3p80x",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 23,
+    "rating_at_start": 2227,
+    "performance_rating": 1944
+  },
+  {
+    "tournament_id": "ifC3p80x",
+    "user_id_lichess": "NeoMaverWick",
+    "final_rank": 3,
+    "final_score": 14,
+    "rating_at_start": 1868,
+    "performance_rating": 1837
+  },
+  {
+    "tournament_id": "igoaOyJO",
+    "user_id_lichess": "Rubens_Lavor",
+    "final_rank": 1,
+    "final_score": 20,
+    "rating_at_start": 2056,
+    "performance_rating": 1813
+  },
+  {
+    "tournament_id": "igoaOyJO",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 17,
+    "rating_at_start": 2085,
+    "performance_rating": 2186
+  },
+  {
+    "tournament_id": "igoaOyJO",
+    "user_id_lichess": "KP-NexT",
+    "final_rank": 3,
+    "final_score": 16,
+    "rating_at_start": 1780,
+    "performance_rating": 1944
+  },
+  {
+    "tournament_id": "ik1lUxZ3",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 34,
+    "rating_at_start": 2031,
+    "performance_rating": 2156
+  },
+  {
+    "tournament_id": "ik1lUxZ3",
+    "user_id_lichess": "Re2_Re7",
+    "final_rank": 2,
+    "final_score": 30,
+    "rating_at_start": 2193,
+    "performance_rating": 1970
+  },
+  {
+    "tournament_id": "ik1lUxZ3",
+    "user_id_lichess": "ElricK_one",
+    "final_rank": 3,
+    "final_score": 24,
+    "rating_at_start": 1897,
+    "performance_rating": 1986
+  },
+  {
+    "tournament_id": "iwg3Dzml",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 67,
+    "rating_at_start": 2332,
+    "performance_rating": 2171
+  },
+  {
+    "tournament_id": "iwg3Dzml",
+    "user_id_lichess": "LeonardoLGS",
+    "final_rank": 2,
+    "final_score": 24,
+    "rating_at_start": 2061,
+    "performance_rating": 2003
+  },
+  {
+    "tournament_id": "iwg3Dzml",
+    "user_id_lichess": "MrWickBrokeTheRules",
+    "final_rank": 3,
+    "final_score": 18,
+    "rating_at_start": 1947,
+    "performance_rating": 1864
+  },
+  {
+    "tournament_id": "ixBlHKTs",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 49,
+    "rating_at_start": 2096,
+    "performance_rating": 1875
+  },
+  {
+    "tournament_id": "ixBlHKTs",
+    "user_id_lichess": "SK_math",
+    "final_rank": 2,
+    "final_score": 42,
+    "rating_at_start": 2192,
+    "performance_rating": 1907
+  },
+  {
+    "tournament_id": "ixBlHKTs",
+    "user_id_lichess": "Diiieferson",
+    "final_rank": 3,
+    "final_score": 30,
+    "rating_at_start": 1796,
+    "performance_rating": 1861
+  },
+  {
+    "tournament_id": "jHD2Dank",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 35,
+    "rating_at_start": 2162,
+    "performance_rating": 2169
+  },
+  {
+    "tournament_id": "jHD2Dank",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 23,
+    "rating_at_start": 2106,
+    "performance_rating": 1927
+  },
+  {
+    "tournament_id": "jHD2Dank",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 3,
+    "final_score": 17,
+    "rating_at_start": 1762,
+    "performance_rating": 1883
+  },
+  {
+    "tournament_id": "jYeiuPbi",
+    "user_id_lichess": "AntonioMarcosArruda",
+    "final_rank": 1,
+    "final_score": 12,
+    "rating_at_start": 1709,
+    "performance_rating": 1873
+  },
+  {
+    "tournament_id": "jYeiuPbi",
+    "user_id_lichess": "Kazalysson",
+    "final_rank": 2,
+    "final_score": 12,
+    "rating_at_start": 1539,
+    "performance_rating": 1637
+  },
+  {
+    "tournament_id": "jYeiuPbi",
+    "user_id_lichess": "Nilily",
+    "final_rank": 3,
+    "final_score": 10,
+    "rating_at_start": 1456,
+    "performance_rating": 1503
+  },
+  {
+    "tournament_id": "jZnhHd2D",
+    "user_id_lichess": "foxtopdomate",
+    "final_rank": 1,
+    "final_score": 24,
+    "rating_at_start": 2260,
+    "performance_rating": 2219
+  },
+  {
+    "tournament_id": "jZnhHd2D",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 18,
+    "rating_at_start": 2264,
+    "performance_rating": 2200
+  },
+  {
+    "tournament_id": "jZnhHd2D",
+    "user_id_lichess": "justicechampx",
+    "final_rank": 3,
+    "final_score": 14,
+    "rating_at_start": 2067,
+    "performance_rating": 1952
+  },
+  {
+    "tournament_id": "jnAXBeyA",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 25,
+    "rating_at_start": 2036,
+    "performance_rating": 1946
+  },
+  {
+    "tournament_id": "jnAXBeyA",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 2,
+    "final_score": 24,
+    "rating_at_start": 1782,
+    "performance_rating": 1891
+  },
+  {
+    "tournament_id": "jnAXBeyA",
+    "user_id_lichess": "Rubens_Lavor",
+    "final_rank": 3,
+    "final_score": 21,
+    "rating_at_start": 2050,
+    "performance_rating": 1880
+  },
+  {
+    "tournament_id": "jtTCn8dz",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 22,
+    "rating_at_start": 2243,
+    "performance_rating": 2138
+  },
+  {
+    "tournament_id": "jtTCn8dz",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 20,
+    "rating_at_start": 2226,
+    "performance_rating": 1987
+  },
+  {
+    "tournament_id": "jtTCn8dz",
+    "user_id_lichess": "foxtopdomate",
+    "final_rank": 3,
+    "final_score": 15,
+    "rating_at_start": 2256,
+    "performance_rating": 2082
+  },
+  {
+    "tournament_id": "juYQTV99",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 38,
+    "rating_at_start": 2130,
+    "performance_rating": 2007
+  },
+  {
+    "tournament_id": "juYQTV99",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 35,
+    "rating_at_start": 2223,
+    "performance_rating": 1970
+  },
+  {
+    "tournament_id": "juYQTV99",
+    "user_id_lichess": "Murilost23",
+    "final_rank": 3,
+    "final_score": 21,
+    "rating_at_start": 1620,
+    "performance_rating": 1761
+  },
+  {
+    "tournament_id": "jvHCkg1o",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 26,
+    "rating_at_start": 2095,
+    "performance_rating": 1966
+  },
+  {
+    "tournament_id": "jvHCkg1o",
+    "user_id_lichess": "JohnWick-NexT",
+    "final_rank": 2,
+    "final_score": 16,
+    "rating_at_start": 2036,
+    "performance_rating": 1692
+  },
+  {
+    "tournament_id": "jvHCkg1o",
+    "user_id_lichess": "ShaolimMataPorco",
+    "final_rank": 3,
+    "final_score": 14,
+    "rating_at_start": 1866,
+    "performance_rating": 1923
+  },
+  {
+    "tournament_id": "jwcgYrKg",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 30,
+    "rating_at_start": 2022,
+    "performance_rating": 2184
+  },
+  {
+    "tournament_id": "jwcgYrKg",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 28,
+    "rating_at_start": 2064,
+    "performance_rating": 1972
+  },
+  {
+    "tournament_id": "jwcgYrKg",
+    "user_id_lichess": "Balzabouth",
+    "final_rank": 3,
+    "final_score": 24,
+    "rating_at_start": 1870,
+    "performance_rating": 2303
+  },
+  {
+    "tournament_id": "k3tsykb6",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 22,
+    "rating_at_start": 1915,
+    "performance_rating": 2065
+  },
+  {
+    "tournament_id": "k3tsykb6",
+    "user_id_lichess": "Rubens_Lavor",
+    "final_rank": 2,
+    "final_score": 12,
+    "rating_at_start": 2051,
+    "performance_rating": 1980
+  },
+  {
+    "tournament_id": "k3tsykb6",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 3,
+    "final_score": 12,
+    "rating_at_start": 2157,
+    "performance_rating": 1741
+  },
+  {
+    "tournament_id": "k7QrpBHx",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 22,
+    "rating_at_start": 2055,
+    "performance_rating": 2151
+  },
+  {
+    "tournament_id": "k7QrpBHx",
+    "user_id_lichess": "justicechampx",
+    "final_rank": 2,
+    "final_score": 21,
+    "rating_at_start": 1906,
+    "performance_rating": 1996
+  },
+  {
+    "tournament_id": "k7QrpBHx",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 3,
+    "final_score": 14,
+    "rating_at_start": 1756,
+    "performance_rating": 1757
+  },
+  {
+    "tournament_id": "kEAaMVYb",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 23,
+    "rating_at_start": 2149,
+    "performance_rating": 1885
+  },
+  {
+    "tournament_id": "kEAaMVYb",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 2,
+    "final_score": 21,
+    "rating_at_start": 1799,
+    "performance_rating": 1787
+  },
+  {
+    "tournament_id": "kEAaMVYb",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": 20,
+    "rating_at_start": 2046,
+    "performance_rating": 1900
+  },
+  {
+    "tournament_id": "kEhhSGum",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 12,
+    "rating_at_start": 2141,
+    "performance_rating": 2064
+  },
+  {
+    "tournament_id": "kEhhSGum",
+    "user_id_lichess": "franfilth",
+    "final_rank": 2,
+    "final_score": 12,
+    "rating_at_start": 1608,
+    "performance_rating": 1815
+  },
+  {
+    "tournament_id": "kEhhSGum",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 3,
+    "final_score": 10,
+    "rating_at_start": 1924,
+    "performance_rating": 1692
+  },
+  {
+    "tournament_id": "kOzIVNvo",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 52,
+    "rating_at_start": 2223,
+    "performance_rating": 1968
+  },
+  {
+    "tournament_id": "kOzIVNvo",
+    "user_id_lichess": "LeonardoBatis",
+    "final_rank": 2,
+    "final_score": 35,
+    "rating_at_start": 1704,
+    "performance_rating": 1999
+  },
+  {
+    "tournament_id": "kOzIVNvo",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 3,
+    "final_score": 32,
+    "rating_at_start": 2097,
+    "performance_rating": 1719
+  },
+  {
+    "tournament_id": "kUi3PZWH",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 41,
+    "rating_at_start": 2222,
+    "performance_rating": 2110
+  },
+  {
+    "tournament_id": "kUi3PZWH",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 26,
+    "rating_at_start": 2249,
+    "performance_rating": 1896
+  },
+  {
+    "tournament_id": "kUi3PZWH",
+    "user_id_lichess": "torneido",
+    "final_rank": 3,
+    "final_score": 18,
+    "rating_at_start": 1955,
+    "performance_rating": 1766
+  },
+  {
+    "tournament_id": "kspnw4UY",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 48,
+    "rating_at_start": 2150,
+    "performance_rating": 2090
+  },
+  {
+    "tournament_id": "kspnw4UY",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 25,
+    "rating_at_start": 2188,
+    "performance_rating": 1978
+  },
+  {
+    "tournament_id": "kspnw4UY",
+    "user_id_lichess": "Balzabouth",
+    "final_rank": 3,
+    "final_score": 15,
+    "rating_at_start": 1779,
+    "performance_rating": 1577
+  },
+  {
+    "tournament_id": "l5pB1qgm",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 41,
+    "rating_at_start": 2169,
+    "performance_rating": 2211
+  },
+  {
+    "tournament_id": "l5pB1qgm",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 28,
+    "rating_at_start": 2158,
+    "performance_rating": 1962
+  },
+  {
+    "tournament_id": "l5pB1qgm",
+    "user_id_lichess": "antonioU270819",
+    "final_rank": 3,
+    "final_score": 25,
+    "rating_at_start": 1914,
+    "performance_rating": 1763
+  },
+  {
+    "tournament_id": "lDliS2i3",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 1,
+    "final_score": 26,
+    "rating_at_start": 1838,
+    "performance_rating": 1759
+  },
+  {
+    "tournament_id": "lDliS2i3",
+    "user_id_lichess": "PETROSIAN-AGRESSIVO",
+    "final_rank": 2,
+    "final_score": 24,
+    "rating_at_start": 1988,
+    "performance_rating": 2116
+  },
+  {
+    "tournament_id": "lDliS2i3",
+    "user_id_lichess": "DuuNexT",
+    "final_rank": 3,
+    "final_score": 17,
+    "rating_at_start": 1781,
+    "performance_rating": 1767
+  },
+  {
+    "tournament_id": "lGjwKHzT",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 28,
+    "rating_at_start": 2246,
+    "performance_rating": 2234
+  },
+  {
+    "tournament_id": "lGjwKHzT",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 24,
+    "rating_at_start": 2122,
+    "performance_rating": 1979
+  },
+  {
+    "tournament_id": "lGjwKHzT",
+    "user_id_lichess": "Eusekevin",
+    "final_rank": 3,
+    "final_score": 20,
+    "rating_at_start": 1928,
+    "performance_rating": 2041
+  },
+  {
+    "tournament_id": "lVf9vReh",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 28,
+    "rating_at_start": 2165,
+    "performance_rating": 2023
+  },
+  {
+    "tournament_id": "lVf9vReh",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 21,
+    "rating_at_start": 2305,
+    "performance_rating": 2272
+  },
+  {
+    "tournament_id": "lVf9vReh",
+    "user_id_lichess": "MrWickBrokeTheRules",
+    "final_rank": 3,
+    "final_score": 20,
+    "rating_at_start": 2120,
+    "performance_rating": 2000
+  },
+  {
+    "tournament_id": "m9oRW69c",
+    "user_id_lichess": "lferko",
+    "final_rank": 1,
+    "final_score": 20,
+    "rating_at_start": 1955,
+    "performance_rating": 2081
+  },
+  {
+    "tournament_id": "m9oRW69c",
+    "user_id_lichess": "DuuNexT",
+    "final_rank": 2,
+    "final_score": 16,
+    "rating_at_start": 1724,
+    "performance_rating": 1614
+  },
+  {
+    "tournament_id": "m9oRW69c",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 3,
+    "final_score": 14,
+    "rating_at_start": 1845,
+    "performance_rating": 1847
+  },
+  {
+    "tournament_id": "mESWY3t4",
+    "user_id_lichess": "Balzabouth",
+    "final_rank": 1,
+    "final_score": 49,
+    "rating_at_start": 1937,
+    "performance_rating": 2282
+  },
+  {
+    "tournament_id": "mESWY3t4",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 36,
+    "rating_at_start": 2079,
+    "performance_rating": 1814
+  },
+  {
+    "tournament_id": "mESWY3t4",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 3,
+    "final_score": 32,
+    "rating_at_start": 2199,
+    "performance_rating": 2006
+  },
+  {
+    "tournament_id": "mYtvgYUF",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 1,
+    "final_score": 21,
+    "rating_at_start": 1825,
+    "performance_rating": 2033
+  },
+  {
+    "tournament_id": "mYtvgYUF",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 20,
+    "rating_at_start": 2062,
+    "performance_rating": 1900
+  },
+  {
+    "tournament_id": "mYtvgYUF",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 3,
+    "final_score": 17,
+    "rating_at_start": 2206,
+    "performance_rating": 1907
+  },
+  {
+    "tournament_id": "mcFvbt6A",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 32,
+    "rating_at_start": 2300,
+    "performance_rating": 2205
+  },
+  {
+    "tournament_id": "mcFvbt6A",
+    "user_id_lichess": "IaagoAriel",
+    "final_rank": 2,
+    "final_score": 26,
+    "rating_at_start": 2012,
+    "performance_rating": 1878
+  },
+  {
+    "tournament_id": "mcFvbt6A",
+    "user_id_lichess": "MrWickBrokeTheRules",
+    "final_rank": 3,
+    "final_score": 22,
+    "rating_at_start": 1983,
+    "performance_rating": 2040
+  },
+  {
+    "tournament_id": "mnG4JYHC",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 30,
+    "rating_at_start": 2108,
+    "performance_rating": 1997
+  },
+  {
+    "tournament_id": "mnG4JYHC",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 17,
+    "rating_at_start": 1855,
+    "performance_rating": 1694
+  },
+  {
+    "tournament_id": "mnG4JYHC",
+    "user_id_lichess": "RaphaelW",
+    "final_rank": 3,
+    "final_score": 14,
+    "rating_at_start": 1531,
+    "performance_rating": 1758
+  },
+  {
+    "tournament_id": "nQZtqGkR",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 20,
+    "rating_at_start": 1916,
+    "performance_rating": 1902
+  },
+  {
+    "tournament_id": "nQZtqGkR",
+    "user_id_lichess": "Chess-SLR",
+    "final_rank": 2,
+    "final_score": 19,
+    "rating_at_start": 1987,
+    "performance_rating": 1831
+  },
+  {
+    "tournament_id": "nQZtqGkR",
+    "user_id_lichess": "Rubens_Lavor",
+    "final_rank": 3,
+    "final_score": 14,
+    "rating_at_start": 2087,
+    "performance_rating": 2004
+  },
+  {
+    "tournament_id": "oOr6IfsX",
+    "user_id_lichess": "nextCUBAxadrez",
+    "final_rank": 1,
+    "final_score": 36,
+    "rating_at_start": 2258,
+    "performance_rating": 2307
+  },
+  {
+    "tournament_id": "oOr6IfsX",
+    "user_id_lichess": "ScHuinDt",
+    "final_rank": 2,
+    "final_score": 36,
+    "rating_at_start": 2140,
+    "performance_rating": 2203
+  },
+  {
+    "tournament_id": "oOr6IfsX",
+    "user_id_lichess": "kronossaurus",
+    "final_rank": 3,
+    "final_score": 35,
+    "rating_at_start": 2058,
+    "performance_rating": 1941
+  },
+  {
+    "tournament_id": "odMLe0m9",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 1,
+    "final_score": 17,
+    "rating_at_start": 1747,
+    "performance_rating": 2024
+  },
+  {
+    "tournament_id": "odMLe0m9",
+    "user_id_lichess": "justicechampx",
+    "final_rank": 2,
+    "final_score": 16,
+    "rating_at_start": 1919,
+    "performance_rating": 1829
+  },
+  {
+    "tournament_id": "odMLe0m9",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": 15,
+    "rating_at_start": 1812,
+    "performance_rating": 1720
+  },
+  {
+    "tournament_id": "otMFMBd2",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 36,
+    "rating_at_start": 2287,
+    "performance_rating": 2149
+  },
+  {
+    "tournament_id": "otMFMBd2",
+    "user_id_lichess": "torneido",
+    "final_rank": 2,
+    "final_score": 33,
+    "rating_at_start": 1882,
+    "performance_rating": 1894
+  },
+  {
+    "tournament_id": "otMFMBd2",
+    "user_id_lichess": "yusanamignoni",
+    "final_rank": 3,
+    "final_score": 26,
+    "rating_at_start": 2206,
+    "performance_rating": 2151
+  },
+  {
+    "tournament_id": "otgy1E0g",
+    "user_id_lichess": "NegroMestrovisk",
+    "final_rank": 1,
+    "final_score": 16,
+    "rating_at_start": 1538,
+    "performance_rating": 1699
+  },
+  {
+    "tournament_id": "otgy1E0g",
+    "user_id_lichess": "xadrezcontrole",
+    "final_rank": 2,
+    "final_score": 13,
+    "rating_at_start": 1689,
+    "performance_rating": 1655
+  },
+  {
+    "tournament_id": "otgy1E0g",
+    "user_id_lichess": "D-Ruas",
+    "final_rank": 3,
+    "final_score": 9,
+    "rating_at_start": 1678,
+    "performance_rating": 1514
+  },
+  {
+    "tournament_id": "ozWgCImV",
+    "user_id_lichess": "calebeklazzarotti",
+    "final_rank": 1,
+    "final_score": 17,
+    "rating_at_start": 2044,
+    "performance_rating": 2003
+  },
+  {
+    "tournament_id": "ozWgCImV",
+    "user_id_lichess": "PietroZottis",
+    "final_rank": 2,
+    "final_score": 17,
+    "rating_at_start": 1761,
+    "performance_rating": 1797
+  },
+  {
+    "tournament_id": "ozWgCImV",
+    "user_id_lichess": "ShaolimMataPorco",
+    "final_rank": 3,
+    "final_score": 16,
+    "rating_at_start": 1624,
+    "performance_rating": 1671
+  },
+  {
+    "tournament_id": "p6CO7iih",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 64,
+    "rating_at_start": 2048,
+    "performance_rating": 2008
+  },
+  {
+    "tournament_id": "p6CO7iih",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 63,
+    "rating_at_start": 2198,
+    "performance_rating": 1988
+  },
+  {
+    "tournament_id": "p6CO7iih",
+    "user_id_lichess": "HenriqueAFLMA252B",
+    "final_rank": 3,
+    "final_score": 51,
+    "rating_at_start": 1614,
+    "performance_rating": 1784
+  },
+  {
+    "tournament_id": "pZUsk2mL",
+    "user_id_lichess": "gmedsondias",
+    "final_rank": 1,
+    "final_score": 18,
+    "rating_at_start": 1579,
+    "performance_rating": 1833
+  },
+  {
+    "tournament_id": "pZUsk2mL",
+    "user_id_lichess": "Gullermo_Lovera",
+    "final_rank": 2,
+    "final_score": 15,
+    "rating_at_start": 1470,
+    "performance_rating": 1530
+  },
+  {
+    "tournament_id": "pZUsk2mL",
+    "user_id_lichess": "NegroMestrovisk",
+    "final_rank": 3,
+    "final_score": 12,
+    "rating_at_start": 1456,
+    "performance_rating": 1279
+  },
+  {
+    "tournament_id": "ptFXM7Gp",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 20,
+    "rating_at_start": 2125,
+    "performance_rating": 1959
+  },
+  {
+    "tournament_id": "ptFXM7Gp",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 18,
+    "rating_at_start": 2154,
+    "performance_rating": 2035
+  },
+  {
+    "tournament_id": "ptFXM7Gp",
+    "user_id_lichess": "lucabieging",
+    "final_rank": 3,
+    "final_score": 18,
+    "rating_at_start": 1662,
+    "performance_rating": 1804
+  },
+  {
+    "tournament_id": "pzQl2m6K",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 31,
+    "rating_at_start": 2309,
+    "performance_rating": 2183
+  },
+  {
+    "tournament_id": "pzQl2m6K",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 27,
+    "rating_at_start": 2237,
+    "performance_rating": 2231
+  },
+  {
+    "tournament_id": "pzQl2m6K",
+    "user_id_lichess": "LeonardoLGS",
+    "final_rank": 3,
+    "final_score": 25,
+    "rating_at_start": 2087,
+    "performance_rating": 1829
+  },
+  {
+    "tournament_id": "r3E171li",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 22,
+    "rating_at_start": 1941,
+    "performance_rating": 1862
+  },
+  {
+    "tournament_id": "r3E171li",
+    "user_id_lichess": "ganaxa",
+    "final_rank": 2,
+    "final_score": 14,
+    "rating_at_start": 1500,
+    "performance_rating": 2039
+  },
+  {
+    "tournament_id": "r3E171li",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 3,
+    "final_score": 14,
+    "rating_at_start": 1853,
+    "performance_rating": 1801
+  },
+  {
+    "tournament_id": "r4o4VqYm",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 29,
+    "rating_at_start": 2117,
+    "performance_rating": 2143
+  },
+  {
+    "tournament_id": "r4o4VqYm",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 29,
+    "rating_at_start": 2181,
+    "performance_rating": 2030
+  },
+  {
+    "tournament_id": "r4o4VqYm",
+    "user_id_lichess": "MarcusZulu",
+    "final_rank": 3,
+    "final_score": 12,
+    "rating_at_start": 2028,
+    "performance_rating": 2065
+  },
+  {
+    "tournament_id": "r9uj95Vv",
+    "user_id_lichess": "sergiulpt",
+    "final_rank": 1,
+    "final_score": null,
+    "rating_at_start": 2252,
+    "performance_rating": 2263
+  },
+  {
+    "tournament_id": "r9uj95Vv",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": null,
+    "rating_at_start": 2162,
+    "performance_rating": 2134
+  },
+  {
+    "tournament_id": "r9uj95Vv",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": null,
+    "rating_at_start": 2201,
+    "performance_rating": 1735
+  },
+  {
+    "tournament_id": "rUDoRBOv",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 24,
+    "rating_at_start": 2162,
+    "performance_rating": 1952
+  },
+  {
+    "tournament_id": "rUDoRBOv",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 2,
+    "final_score": 20,
+    "rating_at_start": 1797,
+    "performance_rating": 1778
+  },
+  {
+    "tournament_id": "rUDoRBOv",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 3,
+    "final_score": 18,
+    "rating_at_start": 2124,
+    "performance_rating": 1858
+  },
+  {
+    "tournament_id": "rYsnwexH",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 40,
+    "rating_at_start": 2316,
+    "performance_rating": 2131
+  },
+  {
+    "tournament_id": "rYsnwexH",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 31,
+    "rating_at_start": 2249,
+    "performance_rating": 2091
+  },
+  {
+    "tournament_id": "rYsnwexH",
+    "user_id_lichess": "NeoMaverWick",
+    "final_rank": 3,
+    "final_score": 14,
+    "rating_at_start": 1841,
+    "performance_rating": 1815
+  },
+  {
+    "tournament_id": "rdA3qsdI",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 25,
+    "rating_at_start": 2317,
+    "performance_rating": 2189
+  },
+  {
+    "tournament_id": "rdA3qsdI",
+    "user_id_lichess": "KalebeItajai",
+    "final_rank": 2,
+    "final_score": 19,
+    "rating_at_start": 2006,
+    "performance_rating": 2086
+  },
+  {
+    "tournament_id": "rdA3qsdI",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 3,
+    "final_score": 16,
+    "rating_at_start": 2401,
+    "performance_rating": 2362
+  },
+  {
+    "tournament_id": "rtN6Dr2X",
+    "user_id_lichess": "Gustavo972",
+    "final_rank": 1,
+    "final_score": 19,
+    "rating_at_start": 1513,
+    "performance_rating": 1869
+  },
+  {
+    "tournament_id": "rtN6Dr2X",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 18,
+    "rating_at_start": 2141,
+    "performance_rating": 2306
+  },
+  {
+    "tournament_id": "rtN6Dr2X",
+    "user_id_lichess": "IgorRafael",
+    "final_rank": 3,
+    "final_score": 18,
+    "rating_at_start": 1600,
+    "performance_rating": 1687
+  },
+  {
+    "tournament_id": "sVB8zdYX",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 23,
+    "rating_at_start": 2300,
+    "performance_rating": 2257
+  },
+  {
+    "tournament_id": "sVB8zdYX",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 20,
+    "rating_at_start": 2334,
+    "performance_rating": 2257
+  },
+  {
+    "tournament_id": "sVB8zdYX",
+    "user_id_lichess": "DantonJosh",
+    "final_rank": 3,
+    "final_score": 20,
+    "rating_at_start": 1556,
+    "performance_rating": 1912
+  },
+  {
+    "tournament_id": "scWUT8Wg",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 26,
+    "rating_at_start": 2243,
+    "performance_rating": 1999
+  },
+  {
+    "tournament_id": "scWUT8Wg",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 22,
+    "rating_at_start": 2262,
+    "performance_rating": 2299
+  },
+  {
+    "tournament_id": "scWUT8Wg",
+    "user_id_lichess": "foxtopdomate",
+    "final_rank": 3,
+    "final_score": 22,
+    "rating_at_start": 2283,
+    "performance_rating": 2134
+  },
+  {
+    "tournament_id": "sdQKIzRl",
+    "user_id_lichess": "Taranta",
+    "final_rank": 1,
+    "final_score": null,
+    "rating_at_start": 2238,
+    "performance_rating": 2284
+  },
+  {
+    "tournament_id": "sdQKIzRl",
+    "user_id_lichess": "gustavospi",
+    "final_rank": 2,
+    "final_score": null,
+    "rating_at_start": 1944,
+    "performance_rating": 2372
+  },
+  {
+    "tournament_id": "sdQKIzRl",
+    "user_id_lichess": "Adechess1",
+    "final_rank": 3,
+    "final_score": null,
+    "rating_at_start": 2132,
+    "performance_rating": 2194
+  },
+  {
+    "tournament_id": "sli7pJoe",
+    "user_id_lichess": "foguetada",
+    "final_rank": 1,
+    "final_score": null,
+    "rating_at_start": 2259,
+    "performance_rating": 2316
+  },
+  {
+    "tournament_id": "sli7pJoe",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": null,
+    "rating_at_start": 2177,
+    "performance_rating": 2259
+  },
+  {
+    "tournament_id": "sli7pJoe",
+    "user_id_lichess": "lferko",
+    "final_rank": 3,
+    "final_score": null,
+    "rating_at_start": 2047,
+    "performance_rating": 2188
+  },
+  {
+    "tournament_id": "t0WcHti9",
+    "user_id_lichess": "AlexandreJS",
+    "final_rank": 1,
+    "final_score": null,
+    "rating_at_start": 1764,
+    "performance_rating": 1584
+  },
+  {
+    "tournament_id": "t0WcHti9",
+    "user_id_lichess": "Vinicius2901",
+    "final_rank": 2,
+    "final_score": null,
+    "rating_at_start": 1624,
+    "performance_rating": 1630
+  },
+  {
+    "tournament_id": "t0WcHti9",
+    "user_id_lichess": "sofa_soares",
+    "final_rank": 3,
+    "final_score": null,
+    "rating_at_start": 1557,
+    "performance_rating": 1319
+  },
+  {
+    "tournament_id": "t6SzrEbW",
+    "user_id_lichess": "oxdidi",
+    "final_rank": 1,
+    "final_score": null,
+    "rating_at_start": 2045,
+    "performance_rating": 2039
+  },
+  {
+    "tournament_id": "t6SzrEbW",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": null,
+    "rating_at_start": 2184,
+    "performance_rating": 2125
+  },
+  {
+    "tournament_id": "t6SzrEbW",
+    "user_id_lichess": "TurniriTolko",
+    "final_rank": 3,
+    "final_score": null,
+    "rating_at_start": 2239,
+    "performance_rating": 2280
+  },
+  {
+    "tournament_id": "tHGHu5AE",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 24,
+    "rating_at_start": 2032,
+    "performance_rating": 1946
+  },
+  {
+    "tournament_id": "tHGHu5AE",
+    "user_id_lichess": "DuuNexT",
+    "final_rank": 2,
+    "final_score": 20,
+    "rating_at_start": 1549,
+    "performance_rating": 1679
+  },
+  {
+    "tournament_id": "tHGHu5AE",
+    "user_id_lichess": "Diiieferson",
+    "final_rank": 3,
+    "final_score": 18,
+    "rating_at_start": 1673,
+    "performance_rating": 1627
+  },
+  {
+    "tournament_id": "tJ7tNMPV",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 26,
+    "rating_at_start": 2303,
+    "performance_rating": 2146
+  },
+  {
+    "tournament_id": "tJ7tNMPV",
+    "user_id_lichess": "justicechampx",
+    "final_rank": 2,
+    "final_score": 26,
+    "rating_at_start": 2046,
+    "performance_rating": 1962
+  },
+  {
+    "tournament_id": "tJ7tNMPV",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": 24,
+    "rating_at_start": 2299,
+    "performance_rating": 2135
+  },
+  {
+    "tournament_id": "tLeHcXxv",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 44,
+    "rating_at_start": 2214,
+    "performance_rating": 2103
+  },
+  {
+    "tournament_id": "tLeHcXxv",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 17,
+    "rating_at_start": 2097,
+    "performance_rating": 2018
+  },
+  {
+    "tournament_id": "tLeHcXxv",
+    "user_id_lichess": "Balzabouth",
+    "final_rank": 3,
+    "final_score": 17,
+    "rating_at_start": 1794,
+    "performance_rating": 1659
+  },
+  {
+    "tournament_id": "td4hDZxh",
+    "user_id_lichess": "gmedsondias",
+    "final_rank": 1,
+    "final_score": 16,
+    "rating_at_start": 1432,
+    "performance_rating": 1694
+  },
+  {
+    "tournament_id": "td4hDZxh",
+    "user_id_lichess": "NegroMestrovisk",
+    "final_rank": 2,
+    "final_score": 14,
+    "rating_at_start": 1491,
+    "performance_rating": 1538
+  },
+  {
+    "tournament_id": "td4hDZxh",
+    "user_id_lichess": "franfilth",
+    "final_rank": 3,
+    "final_score": 14,
+    "rating_at_start": 1408,
+    "performance_rating": 1428
+  },
+  {
+    "tournament_id": "tfDQ52Um",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 39,
+    "rating_at_start": 2295,
+    "performance_rating": 2076
+  },
+  {
+    "tournament_id": "tfDQ52Um",
+    "user_id_lichess": "FFF3",
+    "final_rank": 2,
+    "final_score": 24,
+    "rating_at_start": 1484,
+    "performance_rating": 1856
+  },
+  {
+    "tournament_id": "tfDQ52Um",
+    "user_id_lichess": "Frankwillyan",
+    "final_rank": 3,
+    "final_score": 14,
+    "rating_at_start": 1616,
+    "performance_rating": 1853
+  },
+  {
+    "tournament_id": "tgKwN8LZ",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 36,
+    "rating_at_start": 2063,
+    "performance_rating": 1807
+  },
+  {
+    "tournament_id": "tgKwN8LZ",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 23,
+    "rating_at_start": 2168,
+    "performance_rating": 1979
+  },
+  {
+    "tournament_id": "tgKwN8LZ",
+    "user_id_lichess": "DantonJosh",
+    "final_rank": 3,
+    "final_score": 10,
+    "rating_at_start": 1317,
+    "performance_rating": 1575
+  },
+  {
+    "tournament_id": "thINifRJ",
+    "user_id_lichess": "dudumello",
+    "final_rank": 1,
+    "final_score": 17,
+    "rating_at_start": 1763,
+    "performance_rating": 1679
+  },
+  {
+    "tournament_id": "thINifRJ",
+    "user_id_lichess": "Gullermo_Lovera",
+    "final_rank": 2,
+    "final_score": 16,
+    "rating_at_start": 1558,
+    "performance_rating": 1593
+  },
+  {
+    "tournament_id": "thINifRJ",
+    "user_id_lichess": "NegroMestrovisk",
+    "final_rank": 3,
+    "final_score": 15,
+    "rating_at_start": 1504,
+    "performance_rating": 1747
+  },
+  {
+    "tournament_id": "txFdx2ED",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 31,
+    "rating_at_start": 1936,
+    "performance_rating": 1888
+  },
+  {
+    "tournament_id": "txFdx2ED",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 2,
+    "final_score": 19,
+    "rating_at_start": 1690,
+    "performance_rating": 1596
+  },
+  {
+    "tournament_id": "txFdx2ED",
+    "user_id_lichess": "Claudio1414",
+    "final_rank": 3,
+    "final_score": 16,
+    "rating_at_start": 1546,
+    "performance_rating": 1734
+  },
+  {
+    "tournament_id": "uBzhcuqp",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 32,
+    "rating_at_start": 2081,
+    "performance_rating": 2031
+  },
+  {
+    "tournament_id": "uBzhcuqp",
+    "user_id_lichess": "mateoslopes",
+    "final_rank": 2,
+    "final_score": 27,
+    "rating_at_start": 1782,
+    "performance_rating": 1783
+  },
+  {
+    "tournament_id": "uBzhcuqp",
+    "user_id_lichess": "Hiltoyou",
+    "final_rank": 3,
+    "final_score": 26,
+    "rating_at_start": 1909,
+    "performance_rating": 1972
+  },
+  {
+    "tournament_id": "uJnNjfNq",
+    "user_id_lichess": "Balzabouth",
+    "final_rank": 1,
+    "final_score": 56,
+    "rating_at_start": 1792,
+    "performance_rating": 2060
+  },
+  {
+    "tournament_id": "uJnNjfNq",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 19,
+    "rating_at_start": 2109,
+    "performance_rating": 1895
+  },
+  {
+    "tournament_id": "uJnNjfNq",
+    "user_id_lichess": "NATANFOX2015",
+    "final_rank": 3,
+    "final_score": 19,
+    "rating_at_start": 2112,
+    "performance_rating": 1816
+  },
+  {
+    "tournament_id": "upqbAi4E",
+    "user_id_lichess": "justicechampx",
+    "final_rank": 1,
+    "final_score": 33,
+    "rating_at_start": 1989,
+    "performance_rating": 2242
+  },
+  {
+    "tournament_id": "upqbAi4E",
+    "user_id_lichess": "DontWorryBeHappy11",
+    "final_rank": 2,
+    "final_score": 20,
+    "rating_at_start": 1749,
+    "performance_rating": 1872
+  },
+  {
+    "tournament_id": "upqbAi4E",
+    "user_id_lichess": "gmedsondias",
+    "final_rank": 3,
+    "final_score": 20,
+    "rating_at_start": 1749,
+    "performance_rating": 1729
+  },
+  {
+    "tournament_id": "utZuLMMZ",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": null,
+    "rating_at_start": 2016,
+    "performance_rating": 2365
+  },
+  {
+    "tournament_id": "utZuLMMZ",
+    "user_id_lichess": "INDI7",
+    "final_rank": 2,
+    "final_score": null,
+    "rating_at_start": 1993,
+    "performance_rating": 2143
+  },
+  {
+    "tournament_id": "utZuLMMZ",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": null,
+    "rating_at_start": 2079,
+    "performance_rating": 2075
+  },
+  {
+    "tournament_id": "v6YwBwCk",
+    "user_id_lichess": "Adechess1",
+    "final_rank": 1,
+    "final_score": 30,
+    "rating_at_start": 2241,
+    "performance_rating": 2274
+  },
+  {
+    "tournament_id": "v6YwBwCk",
+    "user_id_lichess": "Pocototop",
+    "final_rank": 2,
+    "final_score": 27,
+    "rating_at_start": 2286,
+    "performance_rating": 2195
+  },
+  {
+    "tournament_id": "v6YwBwCk",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": 27,
+    "rating_at_start": 2295,
+    "performance_rating": 2072
+  },
+  {
+    "tournament_id": "vKeo7e7R",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 34,
+    "rating_at_start": 2356,
+    "performance_rating": 2105
+  },
+  {
+    "tournament_id": "vKeo7e7R",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 15,
+    "rating_at_start": 2241,
+    "performance_rating": 2102
+  },
+  {
+    "tournament_id": "vKeo7e7R",
+    "user_id_lichess": "NeoMaverWick",
+    "final_rank": 3,
+    "final_score": 14,
+    "rating_at_start": 1851,
+    "performance_rating": 1844
+  },
+  {
+    "tournament_id": "vQXgAlVu",
+    "user_id_lichess": "brunovic",
+    "final_rank": 1,
+    "final_score": 24,
+    "rating_at_start": 1688,
+    "performance_rating": 1720
+  },
+  {
+    "tournament_id": "vQXgAlVu",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 21,
+    "rating_at_start": 2060,
+    "performance_rating": 1826
+  },
+  {
+    "tournament_id": "vQXgAlVu",
+    "user_id_lichess": "GSibowicz",
+    "final_rank": 3,
+    "final_score": 21,
+    "rating_at_start": 1632,
+    "performance_rating": 1591
+  },
+  {
+    "tournament_id": "vca0fPHb",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 46,
+    "rating_at_start": 2166,
+    "performance_rating": 2071
+  },
+  {
+    "tournament_id": "vca0fPHb",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 31,
+    "rating_at_start": 2167,
+    "performance_rating": 1985
+  },
+  {
+    "tournament_id": "vca0fPHb",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 3,
+    "final_score": 20,
+    "rating_at_start": 1738,
+    "performance_rating": 1765
+  },
+  {
+    "tournament_id": "vjRJKelT",
+    "user_id_lichess": "Drunknoboom",
+    "final_rank": 1,
+    "final_score": 21,
+    "rating_at_start": 2042,
+    "performance_rating": 1876
+  },
+  {
+    "tournament_id": "vjRJKelT",
+    "user_id_lichess": "heitorsilvino",
+    "final_rank": 2,
+    "final_score": 21,
+    "rating_at_start": 1931,
+    "performance_rating": 1825
+  },
+  {
+    "tournament_id": "vjRJKelT",
+    "user_id_lichess": "kronossaurus",
+    "final_rank": 3,
+    "final_score": 20,
+    "rating_at_start": 2046,
+    "performance_rating": 1935
+  },
+  {
+    "tournament_id": "vy6dbD0q",
+    "user_id_lichess": "justicechampx",
+    "final_rank": 1,
+    "final_score": 37,
+    "rating_at_start": 2117,
+    "performance_rating": 2102
+  },
+  {
+    "tournament_id": "vy6dbD0q",
+    "user_id_lichess": "M4m4m14",
+    "final_rank": 2,
+    "final_score": 33,
+    "rating_at_start": 1925,
+    "performance_rating": 1884
+  },
+  {
+    "tournament_id": "vy6dbD0q",
+    "user_id_lichess": "Balzabouth",
+    "final_rank": 3,
+    "final_score": 23,
+    "rating_at_start": 1999,
+    "performance_rating": 2173
+  },
+  {
+    "tournament_id": "w1aWDmc0",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 31,
+    "rating_at_start": 2163,
+    "performance_rating": 2064
+  },
+  {
+    "tournament_id": "w1aWDmc0",
+    "user_id_lichess": "MarcusZulu",
+    "final_rank": 2,
+    "final_score": 22,
+    "rating_at_start": 1946,
+    "performance_rating": 1997
+  },
+  {
+    "tournament_id": "w1aWDmc0",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 3,
+    "final_score": 18,
+    "rating_at_start": 2171,
+    "performance_rating": 1970
+  },
+  {
+    "tournament_id": "wDlXaGWf",
+    "user_id_lichess": "SK_math",
+    "final_rank": 1,
+    "final_score": 57,
+    "rating_at_start": 2218,
+    "performance_rating": 2212
+  },
+  {
+    "tournament_id": "wDlXaGWf",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 39,
+    "rating_at_start": 2143,
+    "performance_rating": 1853
+  },
+  {
+    "tournament_id": "wDlXaGWf",
+    "user_id_lichess": "justicechampx",
+    "final_rank": 3,
+    "final_score": 38,
+    "rating_at_start": 1960,
+    "performance_rating": 1875
+  },
+  {
+    "tournament_id": "wNXAvBL1",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 46,
+    "rating_at_start": 2132,
+    "performance_rating": 2250
+  },
+  {
+    "tournament_id": "wNXAvBL1",
+    "user_id_lichess": "torneido",
+    "final_rank": 2,
+    "final_score": 21,
+    "rating_at_start": 1723,
+    "performance_rating": 1843
+  },
+  {
+    "tournament_id": "wNXAvBL1",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": 19,
+    "rating_at_start": 2151,
+    "performance_rating": 1570
+  },
+  {
+    "tournament_id": "wfsWaCoI",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 56,
+    "rating_at_start": 2202,
+    "performance_rating": 2135
+  },
+  {
+    "tournament_id": "wfsWaCoI",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 47,
+    "rating_at_start": 2097,
+    "performance_rating": 1851
+  },
+  {
+    "tournament_id": "wfsWaCoI",
+    "user_id_lichess": "Balzabouth",
+    "final_rank": 3,
+    "final_score": 30,
+    "rating_at_start": 1921,
+    "performance_rating": 1892
+  },
+  {
+    "tournament_id": "xdpSlLrY",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 20,
+    "rating_at_start": 2129,
+    "performance_rating": 2080
+  },
+  {
+    "tournament_id": "xdpSlLrY",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 20,
+    "rating_at_start": 2117,
+    "performance_rating": 1975
+  },
+  {
+    "tournament_id": "xdpSlLrY",
+    "user_id_lichess": "justicechampx",
+    "final_rank": 3,
+    "final_score": 15,
+    "rating_at_start": 1953,
+    "performance_rating": 2070
+  },
+  {
+    "tournament_id": "xnuzgs9B",
+    "user_id_lichess": "lferko",
+    "final_rank": 1,
+    "final_score": 19,
+    "rating_at_start": 1943,
+    "performance_rating": 1907
+  },
+  {
+    "tournament_id": "xnuzgs9B",
+    "user_id_lichess": "DontWorryBeHappy11",
+    "final_rank": 2,
+    "final_score": 16,
+    "rating_at_start": 1914,
+    "performance_rating": 1802
+  },
+  {
+    "tournament_id": "xnuzgs9B",
+    "user_id_lichess": "AlevZY",
+    "final_rank": 3,
+    "final_score": 15,
+    "rating_at_start": 1500,
+    "performance_rating": 1982
+  },
+  {
+    "tournament_id": "xuafQNWZ",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 38,
+    "rating_at_start": 2177,
+    "performance_rating": 2004
+  },
+  {
+    "tournament_id": "xuafQNWZ",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 2,
+    "final_score": 28,
+    "rating_at_start": 2074,
+    "performance_rating": 1922
+  },
+  {
+    "tournament_id": "xuafQNWZ",
+    "user_id_lichess": "Lindousodomate",
+    "final_rank": 3,
+    "final_score": 24,
+    "rating_at_start": 2178,
+    "performance_rating": 1985
+  },
+  {
+    "tournament_id": "xwXZIz9m",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": null,
+    "rating_at_start": 2208,
+    "performance_rating": 2248
+  },
+  {
+    "tournament_id": "xwXZIz9m",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": null,
+    "rating_at_start": 2139,
+    "performance_rating": 2145
+  },
+  {
+    "tournament_id": "xwXZIz9m",
+    "user_id_lichess": "JohnWick-NexT",
+    "final_rank": 3,
+    "final_score": null,
+    "rating_at_start": 1744,
+    "performance_rating": 1930
+  },
+  {
+    "tournament_id": "yOXWS4jv",
+    "user_id_lichess": "gmedsondias",
+    "final_rank": 1,
+    "final_score": 21,
+    "rating_at_start": 1681,
+    "performance_rating": 1804
+  },
+  {
+    "tournament_id": "yOXWS4jv",
+    "user_id_lichess": "L_L1999",
+    "final_rank": 2,
+    "final_score": 16,
+    "rating_at_start": 1807,
+    "performance_rating": 1896
+  },
+  {
+    "tournament_id": "yOXWS4jv",
+    "user_id_lichess": "NegroMestrovisk",
+    "final_rank": 3,
+    "final_score": 14,
+    "rating_at_start": 1583,
+    "performance_rating": 1459
+  },
+  {
+    "tournament_id": "yeO3l47b",
+    "user_id_lichess": "Rubens_Lavor",
+    "final_rank": 1,
+    "final_score": 20,
+    "rating_at_start": 2084,
+    "performance_rating": 1912
+  },
+  {
+    "tournament_id": "yeO3l47b",
+    "user_id_lichess": "AlevZY",
+    "final_rank": 2,
+    "final_score": 19,
+    "rating_at_start": 1948,
+    "performance_rating": 1826
+  },
+  {
+    "tournament_id": "yeO3l47b",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 3,
+    "final_score": 18,
+    "rating_at_start": 1762,
+    "performance_rating": 1693
+  },
+  {
+    "tournament_id": "zCDP2hhu",
+    "user_id_lichess": "RafaBabu",
+    "final_rank": 1,
+    "final_score": 17,
+    "rating_at_start": 1525,
+    "performance_rating": 1805
+  },
+  {
+    "tournament_id": "zCDP2hhu",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 14,
+    "rating_at_start": 2141,
+    "performance_rating": 2049
+  },
+  {
+    "tournament_id": "zCDP2hhu",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 3,
+    "final_score": 14,
+    "rating_at_start": 1930,
+    "performance_rating": 1732
+  },
+  {
+    "tournament_id": "zkYTkbq0",
+    "user_id_lichess": "MarcusZulu",
+    "final_rank": 1,
+    "final_score": 24,
+    "rating_at_start": 1989,
+    "performance_rating": 2129
+  },
+  {
+    "tournament_id": "zkYTkbq0",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 23,
+    "rating_at_start": 2023,
+    "performance_rating": 2060
+  },
+  {
+    "tournament_id": "zkYTkbq0",
+    "user_id_lichess": "Modestovic",
+    "final_rank": 3,
+    "final_score": 23,
+    "rating_at_start": 1560,
+    "performance_rating": 1873
+  },
+  {
+    "tournament_id": "znoT2upz",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 1,
+    "final_score": 23,
+    "rating_at_start": 2246,
+    "performance_rating": 2470
+  },
+  {
+    "tournament_id": "znoT2upz",
+    "user_id_lichess": "M4m4m14",
+    "final_rank": 2,
+    "final_score": 18,
+    "rating_at_start": 1907,
+    "performance_rating": 1756
+  },
+  {
+    "tournament_id": "znoT2upz",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 3,
+    "final_score": 16,
+    "rating_at_start": 2304,
+    "performance_rating": 2147
+  },
+  {
+    "tournament_id": "zr6PtBwA",
+    "user_id_lichess": "vonWerlich",
+    "final_rank": 1,
+    "final_score": 42,
+    "rating_at_start": 2177,
+    "performance_rating": 1919
+  },
+  {
+    "tournament_id": "zr6PtBwA",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 36,
+    "rating_at_start": 2087,
+    "performance_rating": 2144
+  },
+  {
+    "tournament_id": "zr6PtBwA",
+    "user_id_lichess": "GabrielNLMAB251",
+    "final_rank": 3,
+    "final_score": 34,
+    "rating_at_start": 1551,
+    "performance_rating": 1799
+  }
+]
