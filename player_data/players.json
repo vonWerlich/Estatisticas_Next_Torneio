@@ -1,0 +1,4522 @@
+[
+  {
+    "id": 1,
+    "username": "GustavoPLMA252A",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "username": "sonogrinhas",
+    "first_seen_team_date": "2025-08-29T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-08T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 3,
+    "username": "mateoslopes",
+    "first_seen_team_date": "2022-07-16T18:00:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 4,
+    "username": "the-chemist",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2025-11-22T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 5,
+    "username": "sofiaBLLMA252B",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 6,
+    "username": "VitorKMLMA252B",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 7,
+    "username": "DantonJosh",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2025-11-22T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 8,
+    "username": "MyleneGALMA252A",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 9,
+    "username": "Biipityboopity",
+    "first_seen_team_date": "2025-09-12T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 10,
+    "username": "GustavoPBLMAA251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 11,
+    "username": "ramirothiago",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 12,
+    "username": "nic9las05",
+    "first_seen_team_date": "2025-09-12T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-08T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 13,
+    "username": "IsabelleSSLMA252A",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 14,
+    "username": "PedroNEXT",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2025-11-22T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 15,
+    "username": "ReneDeVilla",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-08T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 16,
+    "username": "BrenoGGLMA252B",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 17,
+    "username": "JuanPFLMA252B",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-22T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 18,
+    "username": "LFNishi",
+    "first_seen_team_date": "2023-11-24T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 19,
+    "username": "JonArt_25",
+    "first_seen_team_date": "2025-09-12T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-22T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 20,
+    "username": "AdrissonKLMA252B",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 21,
+    "username": "gadottL",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-08T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 22,
+    "username": "EduardoAKLMA252B",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 23,
+    "username": "MarcusZulu",
+    "first_seen_team_date": "2024-09-27T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 24,
+    "username": "HenriqueAFLMA252B",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 25,
+    "username": "FernandoNCLMA252A",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 26,
+    "username": "SamuelVLMA252A",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 27,
+    "username": "EduardoPLMA252B",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 28,
+    "username": "GabrielHMLMA252A",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 29,
+    "username": "jonatasrafael",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 30,
+    "username": "ElGremistaSC",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 31,
+    "username": "vbjnnn",
+    "first_seen_team_date": "2025-05-23T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-08T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 32,
+    "username": "Balzabouth",
+    "first_seen_team_date": "2022-11-04T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-08T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 33,
+    "username": "tcarpes",
+    "first_seen_team_date": "2024-05-10T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 34,
+    "username": "Eduardo-14",
+    "first_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-08T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 35,
+    "username": "ArthurFMLMA252B",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 36,
+    "username": "LuanaLLMA252B",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 37,
+    "username": "LeonardoMILMA252A",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 38,
+    "username": "JoaoVBHLMA252B",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 39,
+    "username": "sorrygmsorry",
+    "first_seen_team_date": "2024-06-08T17:30:00+00:00",
+    "last_seen_team_date": "2025-11-22T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 40,
+    "username": "Lamego06",
+    "first_seen_team_date": "2024-06-07T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-08T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 41,
+    "username": "Yovannys",
+    "first_seen_team_date": "2025-10-17T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 42,
+    "username": "JohnWick-NexT",
+    "first_seen_team_date": "2024-09-27T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-08T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 43,
+    "username": "vonWerlich",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2025-11-22T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 44,
+    "username": "AntoniaENOKLMA252A",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 45,
+    "username": "Modestovic",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2025-11-08T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 46,
+    "username": "JoaoAFLMA252A",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 47,
+    "username": "SamuelPLMA252B",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 48,
+    "username": "NegroMestrovisk",
+    "first_seen_team_date": "2023-06-30T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-22T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 49,
+    "username": "RaulGLMA252A",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 50,
+    "username": "NATANFOX2015",
+    "first_seen_team_date": "2024-03-15T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 51,
+    "username": "KauaRdaSLMA252A",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 52,
+    "username": "NicoleMSLMA252A",
+    "first_seen_team_date": "2025-09-12T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 53,
+    "username": "BatoDeGotas",
+    "first_seen_team_date": "2025-06-27T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 54,
+    "username": "MelinaRAdaCLMA252B",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 55,
+    "username": "JoaolucasAFLMA252A",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 56,
+    "username": "Murilost23",
+    "first_seen_team_date": "2024-05-24T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-22T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 57,
+    "username": "Yukizz",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 58,
+    "username": "Ronnieryb",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 59,
+    "username": "Claudio1414",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 60,
+    "username": "MatheusVZLMA252A",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 61,
+    "username": "WillianeVLMA252A",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 62,
+    "username": "LuisHGSBLMA252A",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-10-31T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 63,
+    "username": "VitorBLMA252B",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-10-31T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 64,
+    "username": "LucasAdaCLMA252B",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-10-31T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 65,
+    "username": "LucasYSLMA252A",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-10-31T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 66,
+    "username": "LucasERELMA252A",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-10-31T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 67,
+    "username": "AndreHLLMAB251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-10-31T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 68,
+    "username": "viniciusBLMA252A",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-10-31T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 69,
+    "username": "DanielNFLMA252A",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-10-31T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 70,
+    "username": "EversonEdu",
+    "first_seen_team_date": "2025-04-11T21:30:00+00:00",
+    "last_seen_team_date": "2025-10-31T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 71,
+    "username": "Frankwillyan",
+    "first_seen_team_date": "2023-03-17T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-22T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 72,
+    "username": "JuliaPGLMA252B",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-10-31T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 73,
+    "username": "MariaLGSLMA252B",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-10-24T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 74,
+    "username": "PedroGLMA252A",
+    "first_seen_team_date": "2025-08-29T21:30:00+00:00",
+    "last_seen_team_date": "2025-10-24T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 75,
+    "username": "GabrielLSLMA252A",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-10-24T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 76,
+    "username": "deepblue_07",
+    "first_seen_team_date": "2025-10-24T21:30:00+00:00",
+    "last_seen_team_date": "2025-10-24T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 77,
+    "username": "GuiA_Goes",
+    "first_seen_team_date": "2025-04-04T21:30:00+00:00",
+    "last_seen_team_date": "2025-10-24T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 78,
+    "username": "EstevaoSTSLMA252A",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-10-24T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 79,
+    "username": "GuilhermeLDRLMA252B",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-10-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 80,
+    "username": "proneer",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2025-10-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 81,
+    "username": "Zenzo2504",
+    "first_seen_team_date": "2025-10-03T21:30:00+00:00",
+    "last_seen_team_date": "2025-10-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 82,
+    "username": "Mano-NexT-xadrez",
+    "first_seen_team_date": "2024-04-12T21:30:00+00:00",
+    "last_seen_team_date": "2025-10-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 83,
+    "username": "LucasVLLMA252B",
+    "first_seen_team_date": "2025-08-29T21:30:00+00:00",
+    "last_seen_team_date": "2025-10-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 84,
+    "username": "GabrielWFLMA252A",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-10-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 85,
+    "username": "JonasBLMA252A",
+    "first_seen_team_date": "2025-08-29T21:30:00+00:00",
+    "last_seen_team_date": "2025-10-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 86,
+    "username": "CBlack",
+    "first_seen_team_date": "2023-04-14T21:30:00+00:00",
+    "last_seen_team_date": "2025-10-10T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 87,
+    "username": "Diiieferson",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2025-10-10T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 88,
+    "username": "tarcipad",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-10-10T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 89,
+    "username": "VitorAmonRa",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-08T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 90,
+    "username": "HenriqueSALMA252B",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-10-03T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 91,
+    "username": "luizknupp",
+    "first_seen_team_date": "2025-10-03T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-22T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 92,
+    "username": "edilbertocordeirojr",
+    "first_seen_team_date": "2025-10-03T21:30:00+00:00",
+    "last_seen_team_date": "2025-11-22T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 93,
+    "username": "FFF3",
+    "first_seen_team_date": "2021-07-24T18:00:00+00:00",
+    "last_seen_team_date": "2025-09-26T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 94,
+    "username": "ShaolimMataPorco",
+    "first_seen_team_date": "2022-11-11T21:30:00+00:00",
+    "last_seen_team_date": "2025-09-26T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 95,
+    "username": "ViniciusMSLMA252B",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-09-26T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 96,
+    "username": "JoaoCesar063Urug",
+    "first_seen_team_date": "2025-09-19T21:30:00+00:00",
+    "last_seen_team_date": "2025-09-19T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 97,
+    "username": "GustavoPBLMA252A",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-09-19T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 98,
+    "username": "GabrielNLMAB251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-09-19T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 99,
+    "username": "CaioKoteski",
+    "first_seen_team_date": "2025-04-11T21:30:00+00:00",
+    "last_seen_team_date": "2025-09-19T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 100,
+    "username": "fiodordostoievski00",
+    "first_seen_team_date": "2025-09-05T21:30:00+00:00",
+    "last_seen_team_date": "2025-09-12T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 101,
+    "username": "Lindousodomate",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2025-09-12T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 102,
+    "username": "RamiroValentina",
+    "first_seen_team_date": "2025-09-05T21:30:00+00:00",
+    "last_seen_team_date": "2025-09-12T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 103,
+    "username": "MaysaOBLMA252B",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-09-12T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 104,
+    "username": "BHClash723525",
+    "first_seen_team_date": "2025-09-12T21:30:00+00:00",
+    "last_seen_team_date": "2025-09-12T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 105,
+    "username": "IaagoAriel",
+    "first_seen_team_date": "2025-08-29T21:30:00+00:00",
+    "last_seen_team_date": "2025-09-05T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 106,
+    "username": "tun4f1sh",
+    "first_seen_team_date": "2025-09-05T21:30:00+00:00",
+    "last_seen_team_date": "2025-09-05T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 107,
+    "username": "PlayForTeam",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2025-09-05T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 108,
+    "username": "Chizuruy",
+    "first_seen_team_date": "2025-09-05T21:30:00+00:00",
+    "last_seen_team_date": "2025-09-05T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 109,
+    "username": "matheusRandig",
+    "first_seen_team_date": "2025-08-29T21:30:00+00:00",
+    "last_seen_team_date": "2025-08-29T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 110,
+    "username": "GabrielFJRLMA252A",
+    "first_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_team_date": "2025-08-29T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 111,
+    "username": "Adechess1",
+    "first_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_team_date": "2025-08-29T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 112,
+    "username": "VITORGARBAGE",
+    "first_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 113,
+    "username": "LannaSRLMAB251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 114,
+    "username": "JoaoLFLLMAB251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-08-22T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 115,
+    "username": "IsabelaZLMAA251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-27T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 116,
+    "username": "CaioMFLMAB251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-27T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 117,
+    "username": "ArthurSRLMAB251",
+    "first_seen_team_date": "2025-05-30T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-27T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 118,
+    "username": "LucaMRLMAA251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-27T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 119,
+    "username": "LucimaraFSLMAB251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-27T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 120,
+    "username": "MatheusRJLMAA251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-27T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 121,
+    "username": "WalmerBJuniorLMAA251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-27T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 122,
+    "username": "raticho",
+    "first_seen_team_date": "2022-11-25T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 123,
+    "username": "brenoGGlmaa251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-27T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 124,
+    "username": "GabrielVdaCLMAB251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-27T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 125,
+    "username": "RebeccaRGLMAB251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-27T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 126,
+    "username": "GustavopLMAB251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-27T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 127,
+    "username": "VictorAGLMAB251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-27T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 128,
+    "username": "EduardoGLLMAA251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-27T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 129,
+    "username": "Gualter_Xpga",
+    "first_seen_team_date": "2024-10-11T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-27T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 130,
+    "username": "ManoelBPLMAB251",
+    "first_seen_team_date": "2025-03-28T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-28T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 131,
+    "username": "Nicolas3038277799372",
+    "first_seen_team_date": "2025-06-27T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-27T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 132,
+    "username": "GabrielOCLMAB251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-27T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 133,
+    "username": "GuilhermeSHLMAB251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-27T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 134,
+    "username": "JonasBLMAA251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-27T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 135,
+    "username": "RyanSMMCLMAB251",
+    "first_seen_team_date": "2025-05-09T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-27T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 136,
+    "username": "ReneDVNLMAB251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-28T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 137,
+    "username": "Hiltoyou",
+    "first_seen_team_date": "2025-06-27T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-27T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 138,
+    "username": "Lucas-Spagnoli",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-27T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 139,
+    "username": "ArthurALLMAA251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-13T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 140,
+    "username": "Coffee_Beam",
+    "first_seen_team_date": "2024-03-08T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-13T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 141,
+    "username": "JoaoArthurLSLMAA251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-13T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 142,
+    "username": "MATEUSSdaSLMAA251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-28T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 143,
+    "username": "ViniciusMKLMAA251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-13T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 144,
+    "username": "lucasra16",
+    "first_seen_team_date": "2024-06-28T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-13T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 145,
+    "username": "batista_aA",
+    "first_seen_team_date": "2024-11-30T17:30:00+00:00",
+    "last_seen_team_date": "2025-06-13T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 146,
+    "username": "H1perxz",
+    "first_seen_team_date": "2023-04-14T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-13T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 147,
+    "username": "ArthurPLMAA251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-13T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 148,
+    "username": "CiceroMRSLMA251",
+    "first_seen_team_date": "2025-04-04T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-13T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 149,
+    "username": "GustavoHLMAA251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-13T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 150,
+    "username": "GustavoBZLMAA251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-13T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 151,
+    "username": "EnzoPGLLMAA251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-13T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 152,
+    "username": "DavidJLMAA251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-13T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 153,
+    "username": "deviatiy",
+    "first_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-13T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 154,
+    "username": "GuilhermeWKLMAB251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-13T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 155,
+    "username": "Rumo-ao-Rei",
+    "first_seen_team_date": "2025-06-13T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-13T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 156,
+    "username": "KauaRodLMAB251",
+    "first_seen_team_date": "2025-05-30T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-13T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 157,
+    "username": "MatheusCLMAB251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-06T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 158,
+    "username": "LucasDSLMAA251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-06T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 159,
+    "username": "BrunoDWLMAB251",
+    "first_seen_team_date": "2025-03-28T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-06T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 160,
+    "username": "NicolasOVeigaLMAA251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-06T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 161,
+    "username": "NicoleMSantosLMAA251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-06T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 162,
+    "username": "Laerte3",
+    "first_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_team_date": "2025-06-06T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 163,
+    "username": "RianDAF_LmaA251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-06T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 164,
+    "username": "JoaoPESLMAB251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-06T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 165,
+    "username": "SarahTRSB-LMAA251",
+    "first_seen_team_date": "2025-05-23T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-06T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 166,
+    "username": "ErikSVLMAB251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-06T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 167,
+    "username": "AlessandraCCLMAB251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-05-30T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 168,
+    "username": "OsvaldoIdaSNLMAB251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-05-30T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 169,
+    "username": "iBrummer",
+    "first_seen_team_date": "2025-05-16T21:30:00+00:00",
+    "last_seen_team_date": "2025-05-23T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 170,
+    "username": "JoaoPResendeLMAA251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-05-23T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 171,
+    "username": "manucapyruca",
+    "first_seen_team_date": "2025-05-23T21:30:00+00:00",
+    "last_seen_team_date": "2025-05-23T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 172,
+    "username": "luis-oliveira",
+    "first_seen_team_date": "2025-05-09T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 173,
+    "username": "Finark",
+    "first_seen_team_date": "2022-11-18T21:30:00+00:00",
+    "last_seen_team_date": "2025-05-23T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 174,
+    "username": "JoaoRCMenesesLMAA251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-05-16T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 175,
+    "username": "duartes322",
+    "first_seen_team_date": "2024-03-08T21:30:00+00:00",
+    "last_seen_team_date": "2025-05-16T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 176,
+    "username": "KP-NexT",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-04-25T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 177,
+    "username": "chessafs",
+    "first_seen_team_date": "2025-04-25T21:30:00+00:00",
+    "last_seen_team_date": "2025-04-25T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 178,
+    "username": "tralalelotralaladobr",
+    "first_seen_team_date": "2025-04-25T21:30:00+00:00",
+    "last_seen_team_date": "2025-04-25T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 179,
+    "username": "Kapapretta",
+    "first_seen_team_date": "2023-07-07T21:30:00+00:00",
+    "last_seen_team_date": "2025-04-25T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 180,
+    "username": "hernan_dudu01",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 181,
+    "username": "Claus-F",
+    "first_seen_team_date": "2025-04-04T21:30:00+00:00",
+    "last_seen_team_date": "2025-04-11T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 182,
+    "username": "SarahTRSBLMAA251",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-04-11T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 183,
+    "username": "boldrinni",
+    "first_seen_team_date": "2024-09-27T21:30:00+00:00",
+    "last_seen_team_date": "2025-04-11T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 184,
+    "username": "MarioDeGasperi",
+    "first_seen_team_date": "2024-05-03T21:30:00+00:00",
+    "last_seen_team_date": "2025-04-11T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 185,
+    "username": "lopesg",
+    "first_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_team_date": "2025-04-04T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 186,
+    "username": "AlexanderMAVC",
+    "first_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_team_date": "2025-04-04T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 187,
+    "username": "franfilth",
+    "first_seen_team_date": "2022-11-11T21:30:00+00:00",
+    "last_seen_team_date": "2025-04-04T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 188,
+    "username": "mano_quedas",
+    "first_seen_team_date": "2025-03-28T21:30:00+00:00",
+    "last_seen_team_date": "2025-03-28T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 189,
+    "username": "Kyru_Arks",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-03-28T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 190,
+    "username": "Matheus447",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2025-03-28T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 191,
+    "username": "Maycon_Schlickmann",
+    "first_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_team_date": "2025-03-28T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 192,
+    "username": "gabris_5s",
+    "first_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_team_date": "2025-03-21T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 193,
+    "username": "LFenergia",
+    "first_seen_team_date": "2023-11-25T17:30:00+00:00",
+    "last_seen_team_date": "2024-12-06T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 194,
+    "username": "Davi_carq",
+    "first_seen_team_date": "2024-10-25T21:30:00+00:00",
+    "last_seen_team_date": "2024-12-06T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 195,
+    "username": "jorgeguimaraess",
+    "first_seen_team_date": "2024-12-06T21:30:00+00:00",
+    "last_seen_team_date": "2024-12-06T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 196,
+    "username": "guile_mig",
+    "first_seen_team_date": "2023-05-05T21:30:00+00:00",
+    "last_seen_team_date": "2024-11-22T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 197,
+    "username": "batista_felip3",
+    "first_seen_team_date": "2024-11-22T21:30:00+00:00",
+    "last_seen_team_date": "2024-11-22T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 198,
+    "username": "Lidium",
+    "first_seen_team_date": "2023-03-17T21:30:00+00:00",
+    "last_seen_team_date": "2024-11-22T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 199,
+    "username": "digaojequeano",
+    "first_seen_team_date": "2023-02-24T21:30:00+00:00",
+    "last_seen_team_date": "2024-11-08T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 200,
+    "username": "BruninDaFederal",
+    "first_seen_team_date": "2022-12-09T21:30:00+00:00",
+    "last_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 201,
+    "username": "rafakb",
+    "first_seen_team_date": "2023-10-20T21:30:00+00:00",
+    "last_seen_team_date": "2024-11-08T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 202,
+    "username": "capivara34",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2024-11-08T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 203,
+    "username": "MUSCULO",
+    "first_seen_team_date": "2024-11-08T21:30:00+00:00",
+    "last_seen_team_date": "2024-11-08T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 204,
+    "username": "fumecador",
+    "first_seen_team_date": "2023-08-25T21:30:00+00:00",
+    "last_seen_team_date": "2024-11-08T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 205,
+    "username": "MestreElton",
+    "first_seen_team_date": "2024-06-07T21:30:00+00:00",
+    "last_seen_team_date": "2024-11-01T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 206,
+    "username": "GeaseDuarte",
+    "first_seen_team_date": "2024-08-23T21:30:00+00:00",
+    "last_seen_team_date": "2024-10-25T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 207,
+    "username": "Yeshua34",
+    "first_seen_team_date": "2024-08-30T21:30:00+00:00",
+    "last_seen_team_date": "2024-10-25T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 208,
+    "username": "Gustmat",
+    "first_seen_team_date": "2022-11-04T21:30:00+00:00",
+    "last_seen_team_date": "2024-10-25T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 209,
+    "username": "sanmenz",
+    "first_seen_team_date": "2024-09-13T21:30:00+00:00",
+    "last_seen_team_date": "2024-10-18T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 210,
+    "username": "A_Perugini",
+    "first_seen_team_date": "2024-10-18T21:30:00+00:00",
+    "last_seen_team_date": "2024-10-18T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 211,
+    "username": "vinilipe",
+    "first_seen_team_date": "2023-11-25T17:30:00+00:00",
+    "last_seen_team_date": "2024-10-18T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 212,
+    "username": "Eusekevin",
+    "first_seen_team_date": "2021-07-24T18:00:00+00:00",
+    "last_seen_team_date": "2024-10-18T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 213,
+    "username": "TKJ4475",
+    "first_seen_team_date": "2023-03-31T21:30:00+00:00",
+    "last_seen_team_date": "2024-10-11T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 214,
+    "username": "GESSE_IC",
+    "first_seen_team_date": "2024-10-11T21:30:00+00:00",
+    "last_seen_team_date": "2024-10-11T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 215,
+    "username": "DonStapa",
+    "first_seen_team_date": "2024-06-07T21:30:00+00:00",
+    "last_seen_team_date": "2024-10-11T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 216,
+    "username": "Labadessa",
+    "first_seen_team_date": "2022-12-16T21:30:00+00:00",
+    "last_seen_team_date": "2024-10-11T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 217,
+    "username": "arthurpassere",
+    "first_seen_team_date": "2024-09-27T21:30:00+00:00",
+    "last_seen_team_date": "2024-10-11T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 218,
+    "username": "Jadisonnogueira",
+    "first_seen_team_date": "2024-10-11T21:30:00+00:00",
+    "last_seen_team_date": "2024-10-11T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 219,
+    "username": "SLuizOderich2",
+    "first_seen_team_date": "2024-08-23T21:30:00+00:00",
+    "last_seen_team_date": "2024-10-04T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 220,
+    "username": "Syfere",
+    "first_seen_team_date": "2024-09-13T21:30:00+00:00",
+    "last_seen_team_date": "2024-10-04T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 221,
+    "username": "ScHuinDt",
+    "first_seen_team_date": "2024-10-04T21:30:00+00:00",
+    "last_seen_team_date": "2024-10-04T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 222,
+    "username": "batousai-o-retalhado",
+    "first_seen_team_date": "2024-09-27T21:30:00+00:00",
+    "last_seen_team_date": "2024-09-27T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 223,
+    "username": "carlosmaia",
+    "first_seen_team_date": "2024-09-27T21:30:00+00:00",
+    "last_seen_team_date": "2024-09-27T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 224,
+    "username": "DanielSantosB",
+    "first_seen_team_date": "2023-04-14T21:30:00+00:00",
+    "last_seen_team_date": "2024-09-27T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 225,
+    "username": "AdilioLessa",
+    "first_seen_team_date": "2023-03-24T21:30:00+00:00",
+    "last_seen_team_date": "2024-09-20T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 226,
+    "username": "igorgomess",
+    "first_seen_team_date": "2024-04-26T21:30:00+00:00",
+    "last_seen_team_date": "2024-09-20T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 227,
+    "username": "adrouza13",
+    "first_seen_team_date": "2024-09-06T21:30:00+00:00",
+    "last_seen_team_date": "2024-09-20T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 228,
+    "username": "justicechampx",
+    "first_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_team_date": "2024-09-20T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 229,
+    "username": "soldado_aba",
+    "first_seen_team_date": "2024-09-20T21:30:00+00:00",
+    "last_seen_team_date": "2024-09-20T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 230,
+    "username": "GioCapo",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2024-09-13T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 231,
+    "username": "Yuniormunoz",
+    "first_seen_team_date": "2024-08-23T21:30:00+00:00",
+    "last_seen_team_date": "2024-09-13T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 232,
+    "username": "Mauro2016",
+    "first_seen_team_date": "2024-08-02T21:30:00+00:00",
+    "last_seen_team_date": "2024-09-13T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 233,
+    "username": "bobeFicha",
+    "first_seen_team_date": "2024-09-13T21:30:00+00:00",
+    "last_seen_team_date": "2024-09-13T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 234,
+    "username": "JeffSC",
+    "first_seen_team_date": "2023-06-23T21:30:00+00:00",
+    "last_seen_team_date": "2024-09-06T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 235,
+    "username": "gabirela",
+    "first_seen_team_date": "2024-08-16T21:30:00+00:00",
+    "last_seen_team_date": "2024-08-30T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 236,
+    "username": "Nicolas777777",
+    "first_seen_team_date": "2024-08-30T21:30:00+00:00",
+    "last_seen_team_date": "2024-08-30T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 237,
+    "username": "alkis_05",
+    "first_seen_team_date": "2024-08-30T21:30:00+00:00",
+    "last_seen_team_date": "2024-08-30T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 238,
+    "username": "Torre-Preta",
+    "first_seen_team_date": "2023-11-17T21:30:00+00:00",
+    "last_seen_team_date": "2024-08-30T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 239,
+    "username": "paulohhc",
+    "first_seen_team_date": "2024-03-08T21:30:00+00:00",
+    "last_seen_team_date": "2024-08-23T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 240,
+    "username": "Upinsp4ce",
+    "first_seen_team_date": "2024-08-23T21:30:00+00:00",
+    "last_seen_team_date": "2024-08-23T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 241,
+    "username": "Darcio_Alberico",
+    "first_seen_team_date": "2024-08-16T21:30:00+00:00",
+    "last_seen_team_date": "2024-08-16T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 242,
+    "username": "DRAGAO500",
+    "first_seen_team_date": "2024-07-05T21:30:00+00:00",
+    "last_seen_team_date": "2024-07-05T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 243,
+    "username": "xande_7",
+    "first_seen_team_date": "2024-04-26T21:30:00+00:00",
+    "last_seen_team_date": "2024-06-28T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 244,
+    "username": "nicoryberg",
+    "first_seen_team_date": "2024-03-22T21:30:00+00:00",
+    "last_seen_team_date": "2024-06-21T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 245,
+    "username": "marianielaenxadres",
+    "first_seen_team_date": "2024-06-21T21:30:00+00:00",
+    "last_seen_team_date": "2024-06-21T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 246,
+    "username": "Marinhobj",
+    "first_seen_team_date": "2024-06-14T21:30:00+00:00",
+    "last_seen_team_date": "2024-06-14T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 247,
+    "username": "PdePug",
+    "first_seen_team_date": "2024-06-07T21:30:00+00:00",
+    "last_seen_team_date": "2024-06-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 248,
+    "username": "lemos96",
+    "first_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_team_date": "2024-05-24T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 249,
+    "username": "gabrielsouza35",
+    "first_seen_team_date": "2024-04-12T21:30:00+00:00",
+    "last_seen_team_date": "2024-05-24T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 250,
+    "username": "Cristian_Sudoski",
+    "first_seen_team_date": "2024-05-17T21:30:00+00:00",
+    "last_seen_team_date": "2024-05-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 251,
+    "username": "luzgus",
+    "first_seen_team_date": "2022-11-04T21:30:00+00:00",
+    "last_seen_team_date": "2024-05-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 252,
+    "username": "DocktorXJlle48",
+    "first_seen_team_date": "2024-05-10T21:30:00+00:00",
+    "last_seen_team_date": "2024-05-10T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 253,
+    "username": "NeoMaverWick",
+    "first_seen_team_date": "2022-10-28T21:30:00+00:00",
+    "last_seen_team_date": "2024-05-03T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 254,
+    "username": "Bgleit",
+    "first_seen_team_date": "2024-05-03T21:30:00+00:00",
+    "last_seen_team_date": "2024-05-03T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 255,
+    "username": "joaov_pnp",
+    "first_seen_team_date": "2024-04-05T21:30:00+00:00",
+    "last_seen_team_date": "2024-06-08T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 256,
+    "username": "Crispim2304",
+    "first_seen_team_date": "2024-04-19T21:30:00+00:00",
+    "last_seen_team_date": "2024-04-19T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 257,
+    "username": "OReal",
+    "first_seen_team_date": "2024-04-19T21:30:00+00:00",
+    "last_seen_team_date": "2024-04-19T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 258,
+    "username": "EnxadristaHeterodoxo",
+    "first_seen_team_date": "2024-04-05T21:30:00+00:00",
+    "last_seen_team_date": "2024-04-05T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 259,
+    "username": "Epassere",
+    "first_seen_team_date": "2024-04-05T21:30:00+00:00",
+    "last_seen_team_date": "2024-04-05T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 260,
+    "username": "JuanguilhermeWP",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2024-03-15T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 261,
+    "username": "circuitoblitzCbx1",
+    "first_seen_team_date": "2024-03-08T21:30:00+00:00",
+    "last_seen_team_date": "2024-03-08T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 262,
+    "username": "gusCamargo",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2024-03-08T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 263,
+    "username": "Bruschini",
+    "first_seen_team_date": "2024-03-01T21:30:00+00:00",
+    "last_seen_team_date": "2024-03-01T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 264,
+    "username": "Maxchessbr",
+    "first_seen_team_date": "2023-06-23T21:30:00+00:00",
+    "last_seen_team_date": "2024-03-01T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 265,
+    "username": "CIRCUITOBLITZOURAPID",
+    "first_seen_team_date": "2024-03-01T21:30:00+00:00",
+    "last_seen_team_date": "2024-03-01T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 266,
+    "username": "EduardoEli",
+    "first_seen_team_date": "2024-03-01T21:30:00+00:00",
+    "last_seen_team_date": "2024-03-01T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 267,
+    "username": "foxtopdomate",
+    "first_seen_team_date": "2023-07-07T21:30:00+00:00",
+    "last_seen_team_date": "2023-12-01T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 268,
+    "username": "vitorhugodemiranda",
+    "first_seen_team_date": "2023-10-06T21:30:00+00:00",
+    "last_seen_team_date": "2023-12-01T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 269,
+    "username": "gilbertomenegatti",
+    "first_seen_team_date": "2023-10-06T21:30:00+00:00",
+    "last_seen_team_date": "2023-11-24T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 270,
+    "username": "FIDE1434",
+    "first_seen_team_date": "2023-09-22T21:30:00+00:00",
+    "last_seen_team_date": "2023-11-25T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 271,
+    "username": "SargitariusA",
+    "first_seen_team_date": "2022-07-16T18:00:00+00:00",
+    "last_seen_team_date": "2023-11-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 272,
+    "username": "madruan",
+    "first_seen_team_date": "2023-11-10T21:30:00+00:00",
+    "last_seen_team_date": "2023-11-10T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 273,
+    "username": "Bohr274",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2023-11-10T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 274,
+    "username": "PhillipBrasil",
+    "first_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_team_date": "2023-11-10T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 275,
+    "username": "M4m4m14",
+    "first_seen_team_date": "2022-12-09T21:30:00+00:00",
+    "last_seen_team_date": "2024-11-30T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 276,
+    "username": "LucasSebajos",
+    "first_seen_team_date": "2023-08-25T21:30:00+00:00",
+    "last_seen_team_date": "2023-10-27T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 277,
+    "username": "LFchess_1992",
+    "first_seen_team_date": "2023-10-20T21:30:00+00:00",
+    "last_seen_team_date": "2023-10-20T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 278,
+    "username": "chessnomaster35",
+    "first_seen_team_date": "2023-09-22T21:30:00+00:00",
+    "last_seen_team_date": "2023-10-06T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 279,
+    "username": "Gerhard_Bey",
+    "first_seen_team_date": "2023-04-28T21:30:00+00:00",
+    "last_seen_team_date": "2023-10-06T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 280,
+    "username": "alexeufudhs",
+    "first_seen_team_date": "2023-09-22T21:30:00+00:00",
+    "last_seen_team_date": "2023-09-29T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 281,
+    "username": "Olivars",
+    "first_seen_team_date": "2023-08-18T21:30:00+00:00",
+    "last_seen_team_date": "2023-09-29T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 282,
+    "username": "Eduardo_M3dina",
+    "first_seen_team_date": "2023-09-29T21:30:00+00:00",
+    "last_seen_team_date": "2023-09-29T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 283,
+    "username": "JO-TA-PE",
+    "first_seen_team_date": "2022-10-28T21:30:00+00:00",
+    "last_seen_team_date": "2023-09-22T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 284,
+    "username": "Marriqui",
+    "first_seen_team_date": "2023-09-22T21:30:00+00:00",
+    "last_seen_team_date": "2023-09-22T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 285,
+    "username": "torneido",
+    "first_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_team_date": "2023-09-22T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 286,
+    "username": "kronossaurus",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2023-09-15T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 287,
+    "username": "GustavoPedrotti",
+    "first_seen_team_date": "2023-06-23T21:30:00+00:00",
+    "last_seen_team_date": "2023-09-15T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 288,
+    "username": "yago_Oliveira888",
+    "first_seen_team_date": "2023-09-01T21:30:00+00:00",
+    "last_seen_team_date": "2023-09-15T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 289,
+    "username": "dcfloripa",
+    "first_seen_team_date": "2023-09-15T21:30:00+00:00",
+    "last_seen_team_date": "2023-09-15T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 290,
+    "username": "Demetrio1991",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2023-09-01T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 291,
+    "username": "venanccio",
+    "first_seen_team_date": "2023-08-18T21:30:00+00:00",
+    "last_seen_team_date": "2023-09-01T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 292,
+    "username": "Jeanramos",
+    "first_seen_team_date": "2023-06-30T21:30:00+00:00",
+    "last_seen_team_date": "2023-08-25T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 293,
+    "username": "ThiSilv10",
+    "first_seen_team_date": "2023-05-19T21:30:00+00:00",
+    "last_seen_team_date": "2023-08-25T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 294,
+    "username": "kalebef",
+    "first_seen_team_date": "2023-08-11T21:30:00+00:00",
+    "last_seen_team_date": "2023-08-25T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 295,
+    "username": "lferko",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2023-08-04T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 296,
+    "username": "KalebeItajai",
+    "first_seen_team_date": "2023-02-17T21:30:00+00:00",
+    "last_seen_team_date": "2023-08-04T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 297,
+    "username": "PERSEOSGO",
+    "first_seen_team_date": "2023-08-04T21:30:00+00:00",
+    "last_seen_team_date": "2023-08-04T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 298,
+    "username": "leaodolitoral",
+    "first_seen_team_date": "2023-07-07T21:30:00+00:00",
+    "last_seen_team_date": "2023-07-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 299,
+    "username": "imchesss",
+    "first_seen_team_date": "2023-07-07T21:30:00+00:00",
+    "last_seen_team_date": "2023-07-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 300,
+    "username": "guiallvs",
+    "first_seen_team_date": "2023-07-07T21:30:00+00:00",
+    "last_seen_team_date": "2023-07-07T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 301,
+    "username": "Luiz_Joinville",
+    "first_seen_team_date": "2023-06-02T21:30:00+00:00",
+    "last_seen_team_date": "2023-06-30T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 302,
+    "username": "RichardRianDavi",
+    "first_seen_team_date": "2023-06-30T21:30:00+00:00",
+    "last_seen_team_date": "2023-06-30T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 303,
+    "username": "Molchat",
+    "first_seen_team_date": "2022-11-04T21:30:00+00:00",
+    "last_seen_team_date": "2023-06-30T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 304,
+    "username": "elchape",
+    "first_seen_team_date": "2023-06-23T21:30:00+00:00",
+    "last_seen_team_date": "2023-06-30T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 305,
+    "username": "rosivansantos",
+    "first_seen_team_date": "2023-06-30T21:30:00+00:00",
+    "last_seen_team_date": "2023-06-30T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 306,
+    "username": "Carlos_rabello",
+    "first_seen_team_date": "2023-06-30T21:30:00+00:00",
+    "last_seen_team_date": "2023-06-30T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 307,
+    "username": "Freitasjr",
+    "first_seen_team_date": "2023-06-30T21:30:00+00:00",
+    "last_seen_team_date": "2023-06-30T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 308,
+    "username": "jsmagalhaes",
+    "first_seen_team_date": "2022-11-04T21:30:00+00:00",
+    "last_seen_team_date": "2023-06-23T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 309,
+    "username": "Pocototop",
+    "first_seen_team_date": "2022-11-25T21:30:00+00:00",
+    "last_seen_team_date": "2023-06-23T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 310,
+    "username": "gagomago",
+    "first_seen_team_date": "2022-11-04T21:30:00+00:00",
+    "last_seen_team_date": "2023-06-23T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 311,
+    "username": "BSid3_DCLXVI",
+    "first_seen_team_date": "2022-11-25T21:30:00+00:00",
+    "last_seen_team_date": "2023-06-23T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 312,
+    "username": "matheusfodaa",
+    "first_seen_team_date": "2023-06-17T17:30:00+00:00",
+    "last_seen_team_date": "2023-06-23T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 313,
+    "username": "rochinhaufs",
+    "first_seen_team_date": "2023-06-23T21:30:00+00:00",
+    "last_seen_team_date": "2023-06-23T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 314,
+    "username": "LelecoNOOB",
+    "first_seen_team_date": "2023-06-16T21:30:00+00:00",
+    "last_seen_team_date": "2023-06-16T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 315,
+    "username": "chessleee35",
+    "first_seen_team_date": "2023-06-16T21:30:00+00:00",
+    "last_seen_team_date": "2023-06-16T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 316,
+    "username": "batolsai",
+    "first_seen_team_date": "2023-06-02T21:30:00+00:00",
+    "last_seen_team_date": "2023-06-02T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 317,
+    "username": "Paulo-Silva",
+    "first_seen_team_date": "2023-06-02T21:30:00+00:00",
+    "last_seen_team_date": "2023-06-02T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 318,
+    "username": "Antedeguem0n",
+    "first_seen_team_date": "2023-06-02T21:30:00+00:00",
+    "last_seen_team_date": "2023-06-02T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 319,
+    "username": "IgorRafael",
+    "first_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_team_date": "2025-06-28T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 320,
+    "username": "Nichstrobel",
+    "first_seen_team_date": "2023-03-31T21:30:00+00:00",
+    "last_seen_team_date": "2023-05-26T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 321,
+    "username": "Parahzinho",
+    "first_seen_team_date": "2023-05-26T21:30:00+00:00",
+    "last_seen_team_date": "2024-06-08T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 322,
+    "username": "Mister_Teteu",
+    "first_seen_team_date": "2023-05-19T21:30:00+00:00",
+    "last_seen_team_date": "2023-05-19T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 323,
+    "username": "Karll0z",
+    "first_seen_team_date": "2023-05-19T21:30:00+00:00",
+    "last_seen_team_date": "2023-05-19T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 324,
+    "username": "l1na",
+    "first_seen_team_date": "2023-02-10T21:30:00+00:00",
+    "last_seen_team_date": "2023-05-05T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 325,
+    "username": "Jaysoncicero",
+    "first_seen_team_date": "2022-12-09T21:30:00+00:00",
+    "last_seen_team_date": "2023-05-05T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 326,
+    "username": "Schmidt1969",
+    "first_seen_team_date": "2023-04-28T21:30:00+00:00",
+    "last_seen_team_date": "2023-04-28T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 327,
+    "username": "PedroAzevedoEM",
+    "first_seen_team_date": "2023-04-28T21:30:00+00:00",
+    "last_seen_team_date": "2023-04-28T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 328,
+    "username": "creusa69",
+    "first_seen_team_date": "2023-04-14T21:30:00+00:00",
+    "last_seen_team_date": "2023-04-14T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 329,
+    "username": "Alvaro_Lord",
+    "first_seen_team_date": "2023-04-14T21:30:00+00:00",
+    "last_seen_team_date": "2023-04-14T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 330,
+    "username": "mateus_passos",
+    "first_seen_team_date": "2023-04-14T21:30:00+00:00",
+    "last_seen_team_date": "2023-04-14T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 331,
+    "username": "Nicobg",
+    "first_seen_team_date": "2023-03-31T21:30:00+00:00",
+    "last_seen_team_date": "2023-03-31T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 332,
+    "username": "Gustavms",
+    "first_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_team_date": "2023-03-03T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 333,
+    "username": "RBentes",
+    "first_seen_team_date": "2023-03-03T21:30:00+00:00",
+    "last_seen_team_date": "2023-03-03T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 334,
+    "username": "pabloservin",
+    "first_seen_team_date": "2023-02-17T21:30:00+00:00",
+    "last_seen_team_date": "2023-02-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 335,
+    "username": "pedroledoux",
+    "first_seen_team_date": "2023-02-10T21:30:00+00:00",
+    "last_seen_team_date": "2023-02-10T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 336,
+    "username": "InsaneChessBrazil",
+    "first_seen_team_date": "2022-11-25T21:30:00+00:00",
+    "last_seen_team_date": "2022-12-16T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 337,
+    "username": "javierardiles",
+    "first_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_team_date": "2022-12-16T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 338,
+    "username": "Mira_Chees666",
+    "first_seen_team_date": "2022-12-16T21:30:00+00:00",
+    "last_seen_team_date": "2022-12-16T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 339,
+    "username": "taiyihanle",
+    "first_seen_team_date": "2022-11-04T21:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 340,
+    "username": "gmds2023",
+    "first_seen_team_date": "2022-12-09T21:30:00+00:00",
+    "last_seen_team_date": "2022-12-09T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 341,
+    "username": "foguetada",
+    "first_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_team_date": "2022-12-09T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 342,
+    "username": "jackiefunny",
+    "first_seen_team_date": "2022-11-25T21:30:00+00:00",
+    "last_seen_team_date": "2022-11-25T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 343,
+    "username": "Lucasccz",
+    "first_seen_team_date": "2022-10-28T21:30:00+00:00",
+    "last_seen_team_date": "2022-11-25T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 344,
+    "username": "LeonardoLGS",
+    "first_seen_team_date": "2022-11-04T21:30:00+00:00",
+    "last_seen_team_date": "2022-11-25T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 345,
+    "username": "jogador34",
+    "first_seen_team_date": "2022-11-18T21:30:00+00:00",
+    "last_seen_team_date": "2022-11-18T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 346,
+    "username": "ManuPantoja",
+    "first_seen_team_date": "2022-11-11T21:30:00+00:00",
+    "last_seen_team_date": "2022-11-11T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 347,
+    "username": "Magnusete72",
+    "first_seen_team_date": "2022-10-28T21:30:00+00:00",
+    "last_seen_team_date": "2022-11-04T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 348,
+    "username": "Miskiv_Timofii15",
+    "first_seen_team_date": "2025-11-22T16:30:00+00:00",
+    "last_seen_team_date": "2025-11-22T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 349,
+    "username": "Drevokoleso",
+    "first_seen_team_date": "2025-11-22T16:30:00+00:00",
+    "last_seen_team_date": "2025-11-22T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 350,
+    "username": "Mikhail_vyz",
+    "first_seen_team_date": "2025-11-22T16:30:00+00:00",
+    "last_seen_team_date": "2025-11-22T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 351,
+    "username": "nrufatto",
+    "first_seen_team_date": "2025-11-22T16:30:00+00:00",
+    "last_seen_team_date": "2025-11-22T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 352,
+    "username": "huseyinmaharramov",
+    "first_seen_team_date": "2025-11-22T16:30:00+00:00",
+    "last_seen_team_date": "2025-11-22T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 353,
+    "username": "luizdavi",
+    "first_seen_team_date": "2025-11-08T16:30:00+00:00",
+    "last_seen_team_date": "2025-11-08T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 354,
+    "username": "iouriev",
+    "first_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_team_date": "2025-11-08T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 355,
+    "username": "math_12l",
+    "first_seen_team_date": "2025-11-08T16:30:00+00:00",
+    "last_seen_team_date": "2025-11-08T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 356,
+    "username": "mbhh",
+    "first_seen_team_date": "2025-06-28T18:00:00+00:00",
+    "last_seen_team_date": "2025-06-28T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 357,
+    "username": "eriktutxalyan2018",
+    "first_seen_team_date": "2025-06-28T18:00:00+00:00",
+    "last_seen_team_date": "2025-06-28T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 358,
+    "username": "INDI7",
+    "first_seen_team_date": "2025-06-28T18:00:00+00:00",
+    "last_seen_team_date": "2025-06-28T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 359,
+    "username": "ShivanshIQT",
+    "first_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 360,
+    "username": "bryanbatera",
+    "first_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 361,
+    "username": "TurniriTolko",
+    "first_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 362,
+    "username": "oxdidi",
+    "first_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 363,
+    "username": "Nishantha99",
+    "first_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 364,
+    "username": "iLya_Ship2222",
+    "first_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 365,
+    "username": "Milk1Vay",
+    "first_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 366,
+    "username": "Dilatic",
+    "first_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 367,
+    "username": "Wurfsau",
+    "first_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 368,
+    "username": "pro2714",
+    "first_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 369,
+    "username": "mara28",
+    "first_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 370,
+    "username": "Bahtiyar_Shahmater",
+    "first_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 371,
+    "username": "arthurmoreirasch",
+    "first_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 372,
+    "username": "Erwinbwcv",
+    "first_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 373,
+    "username": "Oduma",
+    "first_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_team_date": "2025-06-28T16:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 374,
+    "username": "Dimon-nikolya",
+    "first_seen_team_date": "2024-11-30T17:30:00+00:00",
+    "last_seen_team_date": "2024-11-30T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 375,
+    "username": "Badrinath1812",
+    "first_seen_team_date": "2024-11-30T17:30:00+00:00",
+    "last_seen_team_date": "2024-11-30T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 376,
+    "username": "Alexandr_A",
+    "first_seen_team_date": "2024-11-30T17:30:00+00:00",
+    "last_seen_team_date": "2024-11-30T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 377,
+    "username": "Daniil_Prokofev42443",
+    "first_seen_team_date": "2024-07-07T17:00:00+00:00",
+    "last_seen_team_date": "2024-07-07T17:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 378,
+    "username": "DuuDragao_Next",
+    "first_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_team_date": "2024-07-07T17:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 379,
+    "username": "Kevral-collar_2022",
+    "first_seen_team_date": "2024-06-08T17:30:00+00:00",
+    "last_seen_team_date": "2024-06-08T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 380,
+    "username": "DerZahnarzt",
+    "first_seen_team_date": "2024-06-08T17:30:00+00:00",
+    "last_seen_team_date": "2024-06-08T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 381,
+    "username": "Boqueta",
+    "first_seen_team_date": "2024-06-08T17:30:00+00:00",
+    "last_seen_team_date": "2024-06-08T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 382,
+    "username": "luchasco",
+    "first_seen_team_date": "2024-06-08T17:30:00+00:00",
+    "last_seen_team_date": "2024-06-08T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 383,
+    "username": "Aziz_aka",
+    "first_seen_team_date": "2024-06-08T17:30:00+00:00",
+    "last_seen_team_date": "2024-06-08T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 384,
+    "username": "ArtemMarkovVl",
+    "first_seen_team_date": "2024-06-08T17:30:00+00:00",
+    "last_seen_team_date": "2024-06-08T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 385,
+    "username": "goshaobcer",
+    "first_seen_team_date": "2024-06-08T17:30:00+00:00",
+    "last_seen_team_date": "2024-06-08T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 386,
+    "username": "AlexandreJS",
+    "first_seen_team_date": "2024-05-15T13:45:00+00:00",
+    "last_seen_team_date": "2024-05-15T13:45:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 387,
+    "username": "Vinicius2901",
+    "first_seen_team_date": "2024-05-15T13:45:00+00:00",
+    "last_seen_team_date": "2024-05-15T13:45:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 388,
+    "username": "RapBR",
+    "first_seen_team_date": "2024-05-15T13:45:00+00:00",
+    "last_seen_team_date": "2024-05-15T13:45:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 389,
+    "username": "sofa_soares",
+    "first_seen_team_date": "2024-05-15T13:45:00+00:00",
+    "last_seen_team_date": "2024-05-15T13:45:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 390,
+    "username": "joaogabriel12outlook",
+    "first_seen_team_date": "2023-11-25T17:30:00+00:00",
+    "last_seen_team_date": "2023-11-25T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 391,
+    "username": "sergio-uhh",
+    "first_seen_team_date": "2021-07-24T18:00:00+00:00",
+    "last_seen_team_date": "2023-11-25T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 392,
+    "username": "Black-Duck",
+    "first_seen_team_date": "2023-11-25T17:30:00+00:00",
+    "last_seen_team_date": "2023-11-25T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 393,
+    "username": "JuJuburizigi",
+    "first_seen_team_date": "2023-11-25T17:30:00+00:00",
+    "last_seen_team_date": "2023-11-25T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 394,
+    "username": "ABDALRAHMAN212",
+    "first_seen_team_date": "2023-11-25T17:30:00+00:00",
+    "last_seen_team_date": "2023-11-25T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 395,
+    "username": "jablan91",
+    "first_seen_team_date": "2023-11-25T17:30:00+00:00",
+    "last_seen_team_date": "2023-11-25T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 396,
+    "username": "MikhailTsar",
+    "first_seen_team_date": "2023-11-25T17:30:00+00:00",
+    "last_seen_team_date": "2023-11-25T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 397,
+    "username": "KozojeLu",
+    "first_seen_team_date": "2023-11-25T17:30:00+00:00",
+    "last_seen_team_date": "2023-11-25T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 398,
+    "username": "chessgms35",
+    "first_seen_team_date": "2023-06-17T17:30:00+00:00",
+    "last_seen_team_date": "2023-06-17T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 399,
+    "username": "XEPOBACTEHbKO",
+    "first_seen_team_date": "2023-06-17T17:30:00+00:00",
+    "last_seen_team_date": "2023-06-17T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 400,
+    "username": "kkuleshov",
+    "first_seen_team_date": "2023-06-17T17:30:00+00:00",
+    "last_seen_team_date": "2023-06-17T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 401,
+    "username": "Aliyahars06",
+    "first_seen_team_date": "2023-06-17T17:30:00+00:00",
+    "last_seen_team_date": "2023-06-17T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 402,
+    "username": "mesem01",
+    "first_seen_team_date": "2023-06-17T17:30:00+00:00",
+    "last_seen_team_date": "2023-06-17T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 403,
+    "username": "Muhammad_Zain",
+    "first_seen_team_date": "2023-06-17T17:30:00+00:00",
+    "last_seen_team_date": "2023-06-17T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 404,
+    "username": "Light335",
+    "first_seen_team_date": "2023-06-17T17:30:00+00:00",
+    "last_seen_team_date": "2023-06-17T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 405,
+    "username": "vddmitrik1973",
+    "first_seen_team_date": "2023-06-17T17:30:00+00:00",
+    "last_seen_team_date": "2023-06-17T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 406,
+    "username": "zeomax",
+    "first_seen_team_date": "2023-06-17T17:30:00+00:00",
+    "last_seen_team_date": "2023-06-17T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 407,
+    "username": "Soumyadeep_295",
+    "first_seen_team_date": "2023-06-17T17:30:00+00:00",
+    "last_seen_team_date": "2023-06-17T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 408,
+    "username": "Ches_PACHMIN",
+    "first_seen_team_date": "2023-06-17T17:30:00+00:00",
+    "last_seen_team_date": "2023-06-17T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 409,
+    "username": "Vyrtual",
+    "first_seen_team_date": "2023-06-17T17:30:00+00:00",
+    "last_seen_team_date": "2023-06-17T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 410,
+    "username": "sultanrumon",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 411,
+    "username": "Memmedyarov12",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 412,
+    "username": "Drhmdi",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 413,
+    "username": "mhesamz",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 414,
+    "username": "facs2",
+    "first_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 415,
+    "username": "Zinit_Pavel80",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 416,
+    "username": "Ettorino1",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 417,
+    "username": "Owner01",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 418,
+    "username": "Frank_bahia",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 419,
+    "username": "mohamadarsalinesmili",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 420,
+    "username": "interio_44",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 421,
+    "username": "khiraq",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 422,
+    "username": "lehanys",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 423,
+    "username": "bruhhh09",
+    "first_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 424,
+    "username": "Nih4t007",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 425,
+    "username": "xgabredeirosx",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 426,
+    "username": "kdhz",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 427,
+    "username": "SaHmAtVeZiR123",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 428,
+    "username": "Akibart",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 429,
+    "username": "Joao_Danny",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 430,
+    "username": "Mihajamahefa_Andy",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 431,
+    "username": "tunis2022",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 432,
+    "username": "ygorcostaassuncao",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 433,
+    "username": "Spiderman1OO",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 434,
+    "username": "tamaz2",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 435,
+    "username": "VadimML2010",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 436,
+    "username": "calebepereira",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 437,
+    "username": "iwannadienowidk",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 438,
+    "username": "Makr_Kravchenko2015",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 439,
+    "username": "elefantemito",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 440,
+    "username": "giotd",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 441,
+    "username": "Renfig",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 442,
+    "username": "victoremanueldacosta",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 443,
+    "username": "bearandfox",
+    "first_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_team_date": "2023-01-14T17:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 444,
+    "username": "Zavurka",
+    "first_seen_team_date": "2022-11-26T18:05:00+00:00",
+    "last_seen_team_date": "2022-11-26T18:05:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 445,
+    "username": "NEWDAN1",
+    "first_seen_team_date": "2022-11-26T18:05:00+00:00",
+    "last_seen_team_date": "2022-11-26T18:05:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 446,
+    "username": "marmas",
+    "first_seen_team_date": "2022-11-26T18:05:00+00:00",
+    "last_seen_team_date": "2022-11-26T18:05:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 447,
+    "username": "Cml_2011",
+    "first_seen_team_date": "2022-11-26T18:05:00+00:00",
+    "last_seen_team_date": "2022-11-26T18:05:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 448,
+    "username": "Chei2022",
+    "first_seen_team_date": "2022-07-16T18:00:00+00:00",
+    "last_seen_team_date": "2022-07-16T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 449,
+    "username": "carturanit",
+    "first_seen_team_date": "2022-07-16T18:00:00+00:00",
+    "last_seen_team_date": "2022-07-16T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 450,
+    "username": "Semen_Baryshnikov",
+    "first_seen_team_date": "2022-07-16T18:00:00+00:00",
+    "last_seen_team_date": "2022-07-16T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 451,
+    "username": "juliohsto",
+    "first_seen_team_date": "2022-07-16T18:00:00+00:00",
+    "last_seen_team_date": "2022-07-16T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 452,
+    "username": "sergiulpt",
+    "first_seen_team_date": "2022-07-16T18:00:00+00:00",
+    "last_seen_team_date": "2022-07-16T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 453,
+    "username": "Donec",
+    "first_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 454,
+    "username": "tofubiologo",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 455,
+    "username": "SorrentinoUmberto",
+    "first_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 456,
+    "username": "MARKbravewarrior2008",
+    "first_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 457,
+    "username": "renmy500",
+    "first_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 458,
+    "username": "jaop",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 459,
+    "username": "Osama4188",
+    "first_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 460,
+    "username": "Leandrohpaula41",
+    "first_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 461,
+    "username": "Pingox1",
+    "first_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 462,
+    "username": "kauandrei",
+    "first_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 463,
+    "username": "MagnusLagessen",
+    "first_seen_team_date": "2021-07-24T18:00:00+00:00",
+    "last_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 464,
+    "username": "ESQUADRA2001",
+    "first_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 465,
+    "username": "xadrez_cardoso",
+    "first_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 466,
+    "username": "TargetM",
+    "first_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 467,
+    "username": "otaviomurara",
+    "first_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 468,
+    "username": "martin_reid",
+    "first_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 469,
+    "username": "FuntimeChica",
+    "first_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 470,
+    "username": "LeonardoBatis",
+    "first_seen_team_date": "2021-07-24T18:00:00+00:00",
+    "last_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 471,
+    "username": "Camaron4",
+    "first_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 472,
+    "username": "MGmaev",
+    "first_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 473,
+    "username": "ncc_bee",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 474,
+    "username": "Sempreavanti61",
+    "first_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 475,
+    "username": "antonioU270819",
+    "first_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 476,
+    "username": "Teu-z",
+    "first_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 477,
+    "username": "DinoIrs",
+    "first_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 478,
+    "username": "jesudasganam",
+    "first_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_team_date": "2021-12-17T21:30:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 479,
+    "username": "nrerfanian",
+    "first_seen_team_date": "2021-07-24T18:00:00+00:00",
+    "last_seen_team_date": "2021-07-24T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 480,
+    "username": "DanielChamposki",
+    "first_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_team_date": "2021-07-24T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 481,
+    "username": "NotBrazilian",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2021-07-24T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 482,
+    "username": "Rorschlock",
+    "first_seen_team_date": "2021-07-24T18:00:00+00:00",
+    "last_seen_team_date": "2021-07-24T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 483,
+    "username": "ernestomh",
+    "first_seen_team_date": "2021-07-24T18:00:00+00:00",
+    "last_seen_team_date": "2021-07-24T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 484,
+    "username": "kislex",
+    "first_seen_team_date": "2021-07-24T18:00:00+00:00",
+    "last_seen_team_date": "2021-07-24T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 485,
+    "username": "Sissy_Secretary",
+    "first_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_team_date": "2021-07-24T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 486,
+    "username": "Gustavo972",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2021-07-24T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 487,
+    "username": "RafaBabu",
+    "first_seen_team_date": "2021-07-24T18:00:00+00:00",
+    "last_seen_team_date": "2021-07-24T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 488,
+    "username": "thomarr",
+    "first_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_team_date": "2021-07-24T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 489,
+    "username": "Pokeczu",
+    "first_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 490,
+    "username": "amanciovinicius99",
+    "first_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 491,
+    "username": "wiliangibato",
+    "first_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 492,
+    "username": "Ana-Lu",
+    "first_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 493,
+    "username": "TarcisioCura",
+    "first_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 494,
+    "username": "axt2106",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 495,
+    "username": "Velho_moinho",
+    "first_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 496,
+    "username": "samuelperuw",
+    "first_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 497,
+    "username": "LordInkwell",
+    "first_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 498,
+    "username": "PawnProfecy",
+    "first_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 499,
+    "username": "MorSchuelter",
+    "first_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 500,
+    "username": "Ovechka_v_dole",
+    "first_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 501,
+    "username": "calebeklazzarotti",
+    "first_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 502,
+    "username": "Moneytreez",
+    "first_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 503,
+    "username": "Gumbz",
+    "first_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 504,
+    "username": "misha_kul",
+    "first_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 505,
+    "username": "ganaxa",
+    "first_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 506,
+    "username": "karaali666",
+    "first_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_team_date": "2021-07-10T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 507,
+    "username": "leonardomarques1",
+    "first_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 508,
+    "username": "VanildoSDanielski",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 509,
+    "username": "L_L1999",
+    "first_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 510,
+    "username": "DuuNexT",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 511,
+    "username": "monteirochess",
+    "first_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 512,
+    "username": "Tinolaurio2020",
+    "first_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 513,
+    "username": "esssketitguchigang",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 514,
+    "username": "Casa_Do_Xadrez",
+    "first_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 515,
+    "username": "hermesthatgoout",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 516,
+    "username": "kjess",
+    "first_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 517,
+    "username": "Fabiopavao",
+    "first_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 518,
+    "username": "PedroGR",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 519,
+    "username": "IzaacSI",
+    "first_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 520,
+    "username": "gustavospi",
+    "first_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 521,
+    "username": "alinealflen",
+    "first_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 522,
+    "username": "Taranta",
+    "first_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 523,
+    "username": "aaronpinto04",
+    "first_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 524,
+    "username": "SejaCortes",
+    "first_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 525,
+    "username": "EthicalDiver",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 526,
+    "username": "Rubens_Lavor",
+    "first_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 527,
+    "username": "Eg0r2012",
+    "first_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 528,
+    "username": "rlemos",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 529,
+    "username": "damavermelha",
+    "first_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 530,
+    "username": "ozeiasf",
+    "first_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 531,
+    "username": "pollhein1",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 532,
+    "username": "Vinove",
+    "first_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 533,
+    "username": "ericpro123456",
+    "first_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 534,
+    "username": "VladikIvanov17",
+    "first_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-19T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 535,
+    "username": "Nilily",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 536,
+    "username": "sumqfaiq74",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 537,
+    "username": "nileshmohare908",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 538,
+    "username": "JuliaBez",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 539,
+    "username": "MacroKiller",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 540,
+    "username": "godorebano",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 541,
+    "username": "Diegograsel",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 542,
+    "username": "Derrotado",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 543,
+    "username": "rafaeldoceu",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 544,
+    "username": "polgarataca",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 545,
+    "username": "ChaosAliance",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 546,
+    "username": "atalaiaronaldo",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 547,
+    "username": "SidGord",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 548,
+    "username": "pedrodealmeida",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 549,
+    "username": "JLEnamorado",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 550,
+    "username": "ValerioBrusamolin",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 551,
+    "username": "WhiteRabbit00",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 552,
+    "username": "TiagoMaciel",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 553,
+    "username": "RogerRScar",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 554,
+    "username": "schachdrez",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 555,
+    "username": "Pizzex",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 556,
+    "username": "GSibowicz",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 557,
+    "username": "cristianocord",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 558,
+    "username": "toninhojit",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 559,
+    "username": "vitordreveck",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 560,
+    "username": "MartinSlaby",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 561,
+    "username": "Ubermensh",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 562,
+    "username": "Katmew",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 563,
+    "username": "nextCUBAxadrez",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 564,
+    "username": "Paulohenrique345",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  },
+  {
+    "id": 565,
+    "username": "r20181964",
+    "first_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_team_date": "2020-12-12T18:00:00+00:00",
+    "last_seen_api_timestamp": null,
+    "status": "active"
+  }
+]
