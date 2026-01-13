@@ -2,7 +2,7 @@ import json
 import hashlib
 import pathlib
 from datetime import datetime
-
+import os
 import chess
 import pyarrow as pa
 import pyarrow.parquet as pq
@@ -11,7 +11,11 @@ from huggingface_hub import HfApi
 DATASET = "vonWerlich/NEXT_Xadrez_Lichess_tournaments"
 BASE_DIR = pathlib.Path("torneiosnew")
 
-api = HfApi()
+token = os.getenv("HF_TOKEN")
+if not token:
+    raise RuntimeError("HF_TOKEN não definido no ambiente")
+
+api = HfApi(token=token)
 
 # -----------------------------
 # FEN utilities
