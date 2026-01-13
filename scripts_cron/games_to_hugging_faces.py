@@ -3,10 +3,8 @@ import hashlib
 import pathlib
 from datetime import datetime
 import os
-import urllib.request
 
 import chess
-import chess.pgn
 import pyarrow as pa
 import pyarrow.parquet as pq
 from huggingface_hub import HfApi
@@ -18,9 +16,6 @@ from huggingface_hub import HfApi
 DATASET = "vonWerlich/NEXT_Xadrez_Lichess_tournaments"
 BASE_DIR = pathlib.Path("torneiosnew")
 
-ECO_PGN_URL  = "https://raw.githubusercontent.com/niklasf/eco/master/eco.pgn"
-ECO_PGN_FILE = pathlib.Path("eco.pgn")
-
 token = os.getenv("HF_TOKEN_LICHESS")
 if not token:
     raise RuntimeError("HF_TOKEN_LICHESS não definido no ambiente")
@@ -28,7 +23,7 @@ if not token:
 api = HfApi(token=token)
 
 # =========================================================
-# >>> RESET TOTAL DO DATASET (NOVO) <<<
+# >>> RESET TOTAL DO DATASET <<<
 # =========================================================
 
 print("Apagando dataset no Hugging Face...")
@@ -56,51 +51,6 @@ def canonical_fen(board: chess.Board) -> str:
 
 def fen_hash(fen: str) -> str:
     return hashlib.sha1(fen.encode("utf-8")).hexdigest()
-
-# =========================================================
-# ECO utilities
-# =========================================================
-
-def ensure_eco_pgn():
-    if ECO_PGN_FILE.exists():
-        return
-    print("Baixando eco.pgn...")
-    urllib.request.urlretrieve(ECO_PGN_URL, ECO_PGN_FILE)
-
-
-def load_eco_positions():
-    """
-    Retorna:
-      dict[fen_hash] -> (eco_code, opening_name, depth)
-    """
-    ensure_eco_pgn()
-
-    eco_map = {}
-
-    with open(ECO_PGN_FILE, encoding="utf-8") as f:
-        while True:
-            game = chess.pgn.read_game(f)
-            if game is None:
-                break
-
-            eco     = game.headers.get("ECO")
-            opening = game.headers.get("Opening")
-
-            board = game.board()
-            depth = 0
-
-            for move in game.mainline_moves():
-                board.push(move)
-                depth += 1
-
-                fen = canonical_fen(board)
-                h   = fen_hash(fen)
-
-                # mantém a menor profundidade conhecida
-                if h not in eco_map or depth < eco_map[h][2]:
-                    eco_map[h] = (eco, opening, depth)
-
-    return eco_map
 
 # =========================================================
 # Tournament year
@@ -158,34 +108,6 @@ def process_tournament(ndjson_file: pathlib.Path):
 # =========================================================
 
 def main():
-    # -----------------------------
-    # ECO (base teórica)
-    # -----------------------------
-    eco_positions = load_eco_positions()
-
-    eco_table = pa.table({
-        "fen_hash":     list(eco_positions.keys()),
-        "eco":          [v[0] for v in eco_positions.values()],
-        "opening_name": [v[1] for v in eco_positions.values()],
-        "depth":        [v[2] for v in eco_positions.values()],
-    })
-
-    eco_dir = pathlib.Path("eco")
-    eco_dir.mkdir(exist_ok=True)
-
-    eco_file = eco_dir / "eco_positions.parquet"
-    pq.write_table(eco_table, eco_file)
-
-    api.upload_file(
-        path_or_fileobj=str(eco_file),
-        path_in_repo="eco/eco_positions.parquet",
-        repo_id=DATASET,
-        repo_type="dataset"
-    )
-
-    # -----------------------------
-    # Torneios reais
-    # -----------------------------
     yearly_positions = {}
     yearly_hits = {}
 
