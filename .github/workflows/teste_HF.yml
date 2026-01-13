@@ -29,4 +29,4 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          python scriptscron/games_to_hugging_faces.py
+          python scripts_cron/games_to_hugging_faces.py
