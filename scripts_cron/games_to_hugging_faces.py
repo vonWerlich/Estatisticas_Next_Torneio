@@ -3,18 +3,23 @@ import hashlib
 import pathlib
 from datetime import datetime
 import os
+import urllib.request
 
 import chess
+import chess.pgn
 import pyarrow as pa
 import pyarrow.parquet as pq
 from huggingface_hub import HfApi
 
-# =====================================================
-# Configuração
-# =====================================================
+# =========================================================
+# CONFIG
+# =========================================================
 
 DATASET = "vonWerlich/NEXT_Xadrez_Lichess_tournaments"
 BASE_DIR = pathlib.Path("torneiosnew")
+
+ECO_PGN_URL  = "https://raw.githubusercontent.com/niklasf/eco/master/eco.pgn"
+ECO_PGN_FILE = pathlib.Path("eco.pgn")
 
 token = os.getenv("HF_TOKEN_LICHESS")
 if not token:
@@ -22,22 +27,67 @@ if not token:
 
 api = HfApi(token=token)
 
-# =====================================================
-# Utilidades FEN
-# =====================================================
+# =========================================================
+# FEN utilities
+# =========================================================
 
 def canonical_fen(board: chess.Board) -> str:
     fen = board.fen()
-    return " ".join(fen.split(" ")[:4])
+    parts = fen.split(" ")
+    return " ".join(parts[:4])  # pieces / turn / castling / ep
 
 
 def fen_hash(fen: str) -> str:
     return hashlib.sha1(fen.encode("utf-8")).hexdigest()
 
+# =========================================================
+# ECO utilities  <<< NOVO
+# =========================================================
 
-# =====================================================
-# Ano do torneio
-# =====================================================
+def ensure_eco_pgn():
+    if ECO_PGN_FILE.exists():
+        return
+    print("Baixando eco.pgn...")
+    urllib.request.urlretrieve(ECO_PGN_URL, ECO_PGN_FILE)
+
+
+def load_eco_positions():
+    """
+    Retorna:
+      dict[fen_hash] -> (eco_code, opening_name, depth)
+    """
+    ensure_eco_pgn()
+
+    eco_map = {}
+
+    with open(ECO_PGN_FILE, encoding="utf-8") as f:
+        while True:
+            game = chess.pgn.read_game(f)
+            if game is None:
+                break
+
+            eco     = game.headers.get("ECO")
+            opening = game.headers.get("Opening")
+
+            board = game.board()
+            depth = 0
+
+            for move in game.mainline_moves():
+                board.push(move)
+                depth += 1
+
+                fen = canonical_fen(board)
+                h   = fen_hash(fen)
+
+                # mantém a menor profundidade conhecida
+                if h not in eco_map or depth < eco_map[h][2]:
+                    eco_map[h] = (eco, opening, depth)
+
+    return eco_map
+
+# =========================================================
+# Tournament year
+# =========================================================
 
 def tournament_year(tournament_id: str) -> int:
     info_file = BASE_DIR / f"{tournament_id}_info.json"
@@ -47,64 +97,33 @@ def tournament_year(tournament_id: str) -> int:
     dt = datetime.fromisoformat(info["startsAt"].replace("Z", "+00:00"))
     return dt.year
 
-
-# =====================================================
-# Processamento de um torneio
-# =====================================================
+# =========================================================
+# Process one tournament
+# =========================================================
 
 def process_tournament(ndjson_file: pathlib.Path):
     """
     Retorna:
       positions: dict[fen_hash] -> fen_canonical
-      hits: list[(fen_hash, game_id, ply, next_san)]
-      games: list[dict] (ratings e metadados do jogo)
+      hits: list of (fen_hash, game_id, ply, next_san)
     """
     positions = {}
     hits = []
-    games = []
-
-    tid = ndjson_file.stem.replace("_games", "")
-    year = tournament_year(tid)
 
     with open(ndjson_file, "r", encoding="utf-8") as f:
         for line in f:
             game = json.loads(line)
 
             game_id = game["id"]
-            moves = game["moves"].split()
+            moves   = game["moves"].split()
 
-            # -------- ratings / metadados do jogo --------
-            white = game["players"]["white"]
-            black = game["players"]["black"]
-
-            white_rating = white.get("rating")
-            black_rating = black.get("rating")
-
-            avg_rating = (
-                (white_rating + black_rating) / 2
-                if white_rating is not None and black_rating is not None
-                else None
-            )
-
-            games.append({
-                "game_id": game_id,
-                "white_rating": white_rating,
-                "black_rating": black_rating,
-                "avg_rating": avg_rating,
-                "variant": game.get("variant"),
-                "perf": game.get("perf"),
-                "rated": game.get("rated", False),
-                "tournament_id": tid,
-                "year": year,
-            })
-
-            # -------- posições --------
             board = chess.Board()
-            ply = 0
+            ply   = 0
 
             for san in moves:
+                # posição ANTES do lance
                 fen = canonical_fen(board)
-                h = fen_hash(fen)
+                h   = fen_hash(fen)
 
                 positions[h] = fen
                 hits.append((h, game_id, ply, san))
@@ -116,36 +135,58 @@ def process_tournament(ndjson_file: pathlib.Path):
 
                 ply += 1
 
-    return positions, hits, games
+    return positions, hits
 
-
-# =====================================================
-# Pipeline principal
-# =====================================================
+# =========================================================
+# MAIN
+# =========================================================
 
 def main():
+    # -----------------------------
+    # ECO (independente de torneios)
+    # -----------------------------
+    eco_positions = load_eco_positions()
+
+    eco_table = pa.table({
+        "fen_hash":     list(eco_positions.keys()),
+        "eco":          [v[0] for v in eco_positions.values()],
+        "opening_name": [v[1] for v in eco_positions.values()],
+        "depth":        [v[2] for v in eco_positions.values()],
+    })
+
+    eco_dir = pathlib.Path("eco")
+    eco_dir.mkdir(exist_ok=True)
+
+    eco_file = eco_dir / "eco_positions.parquet"
+    pq.write_table(eco_table, eco_file)
+
+    api.upload_file(
+        path_or_fileobj=str(eco_file),
+        path_in_repo="eco/eco_positions.parquet",
+        repo_id=DATASET,
+        repo_type="dataset"
+    )
+
+    # -----------------------------
+    # Torneios / posições reais
+    # -----------------------------
     yearly_positions = {}
     yearly_hits = {}
-    all_games = []
 
     for ndjson in BASE_DIR.glob("*_games.ndjson"):
-        tid = ndjson.stem.replace("_games", "")
+        tid  = ndjson.stem.replace("_games", "")
         year = tournament_year(tid)
 
-        pos, hits, games = process_tournament(ndjson)
+        pos, hits = process_tournament(ndjson)
 
         yearly_positions.setdefault(year, {}).update(pos)
         yearly_hits.setdefault(year, []).extend(hits)
-        all_games.extend(games)
 
-    # -----------------------------
-    # Escrita + upload POSIÇÕES
-    # -----------------------------
     for year, pos_map in yearly_positions.items():
         hits = yearly_hits[year]
 
         pos_table = pa.table({
-            "fen_hash": list(pos_map.keys()),
+            "fen_hash":      list(pos_map.keys()),
             "fen_canonical": list(pos_map.values())
         })
 
@@ -159,7 +200,7 @@ def main():
         out_dir = pathlib.Path(f"positions/{year}")
         out_dir.mkdir(parents=True, exist_ok=True)
 
-        pos_file = out_dir / "positions.parquet"
+        pos_file  = out_dir / "positions.parquet"
         hits_file = out_dir / "position_hits.parquet"
 
         pq.write_table(pos_table, pos_file)
@@ -175,25 +216,6 @@ def main():
         api.upload_file(
             path_or_fileobj=str(hits_file),
             path_in_repo=f"positions/{year}/position_hits.parquet",
-            repo_id=DATASET,
-            repo_type="dataset"
-        )
-
-    # -----------------------------
-    # Escrita + upload GAMES
-    # -----------------------------
-    if all_games:
-        games_table = pa.Table.from_pylist(all_games)
-
-        games_dir = pathlib.Path("games")
-        games_dir.mkdir(exist_ok=True)
-
-        games_file = games_dir / "games.parquet"
-        pq.write_table(games_table, games_file)
-
-        api.upload_file(
-            path_or_fileobj=str(games_file),
-            path_in_repo="games/games.parquet",
             repo_id=DATASET,
             repo_type="dataset"
         )
