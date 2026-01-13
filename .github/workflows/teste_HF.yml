@@ -1,14 +1,14 @@
 name: Teste Hugging Faces
 
 on:
-  workflow_dispatch: # Botão "Run workflow"
+  workflow_dispatch:   # botão "Run workflow"
 
 jobs:
   build-positions:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Baixa o repositório
+      # 1. Checkout do repositório
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -24,9 +24,19 @@ jobs:
           python -m pip install --upgrade pip
           pip install python-chess pyarrow duckdb huggingface_hub
 
-      # 4. Executa o script
-      - name: Build and upload positions to Hugging Face
+      # 4. (DEBUG opcional, mas recomendo deixar por enquanto)
+      - name: Debug HF token visibility
         env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN_LICHESS }}
+          HF_TOKEN_LICHESS: ${{ secrets.HF_TOKEN_LICHESS }}
+        run: |
+          python - << 'EOF'
+          import os
+          print("HF_TOKEN_LICHESS exists:", os.getenv("HF_TOKEN_LICHESS") is not None)
+          EOF
+
+      # 5. Executa o script
+      - name: Build and upload positions to HF
+        env:
+          HF_TOKEN_LICHESS: ${{ secrets.HF_TOKEN_LICHESS }}
         run: |
           python scripts_cron/games_to_hugging_faces.py
