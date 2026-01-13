@@ -28,6 +28,23 @@ if not token:
 api = HfApi(token=token)
 
 # =========================================================
+# >>> RESET TOTAL DO DATASET (NOVO) <<<
+# =========================================================
+
+print("Apagando dataset no Hugging Face...")
+api.delete_repo(
+    repo_id=DATASET,
+    repo_type="dataset",
+)
+
+print("Recriando dataset vazio...")
+api.create_repo(
+    repo_id=DATASET,
+    repo_type="dataset",
+    exist_ok=True
+)
+
+# =========================================================
 # FEN utilities
 # =========================================================
 
@@ -41,7 +58,7 @@ def fen_hash(fen: str) -> str:
     return hashlib.sha1(fen.encode("utf-8")).hexdigest()
 
 # =========================================================
-# ECO utilities  <<< NOVO
+# ECO utilities
 # =========================================================
 
 def ensure_eco_pgn():
@@ -121,7 +138,6 @@ def process_tournament(ndjson_file: pathlib.Path):
             ply   = 0
 
             for san in moves:
-                # posição ANTES do lance
                 fen = canonical_fen(board)
                 h   = fen_hash(fen)
 
@@ -143,7 +159,7 @@ def process_tournament(ndjson_file: pathlib.Path):
 
 def main():
     # -----------------------------
-    # ECO (independente de torneios)
+    # ECO (base teórica)
     # -----------------------------
     eco_positions = load_eco_positions()
 
@@ -168,7 +184,7 @@ def main():
     )
 
     # -----------------------------
-    # Torneios / posições reais
+    # Torneios reais
     # -----------------------------
     yearly_positions = {}
     yearly_hits = {}
