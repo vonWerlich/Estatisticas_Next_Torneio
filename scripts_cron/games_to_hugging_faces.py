@@ -11,7 +11,7 @@ from huggingface_hub import HfApi
 DATASET = "vonWerlich/NEXT_Xadrez_Lichess_tournaments"
 BASE_DIR = pathlib.Path("torneiosnew")
 
-token = os.getenv("HF_TOKEN")
+token = os.getenv("HF_TOKEN_LICHESS")
 if not token:
     raise RuntimeError("HF_TOKEN não definido no ambiente")
 
