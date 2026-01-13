@@ -7,7 +7,7 @@ import os
 import chess
 import pyarrow as pa
 import pyarrow.parquet as pq
-from huggingface_hub import HfApi
+from huggingface_hub import HfApi, hf_hub_download
 
 # =========================================================
 # CONFIG
@@ -15,29 +15,14 @@ from huggingface_hub import HfApi
 
 DATASET = "vonWerlich/NEXT_Xadrez_Lichess_tournaments"
 BASE_DIR = pathlib.Path("torneiosnew")
+META_DIR = pathlib.Path("meta")
+MANIFEST_FILE = META_DIR / "processed_tournaments.json"
 
 token = os.getenv("HF_TOKEN_LICHESS")
 if not token:
     raise RuntimeError("HF_TOKEN_LICHESS não definido no ambiente")
 
 api = HfApi(token=token)
-
-# =========================================================
-# >>> RESET TOTAL DO DATASET <<<
-# =========================================================
-
-print("Apagando dataset no Hugging Face...")
-api.delete_repo(
-    repo_id=DATASET,
-    repo_type="dataset",
-)
-
-print("Recriando dataset vazio...")
-api.create_repo(
-    repo_id=DATASET,
-    repo_type="dataset",
-    exist_ok=True
-)
 
 # =========================================================
 # FEN utilities
@@ -51,6 +36,41 @@ def canonical_fen(board: chess.Board) -> str:
 
 def fen_hash(fen: str) -> str:
     return hashlib.sha1(fen.encode("utf-8")).hexdigest()
+
+# =========================================================
+# Manifest utilities
+# =========================================================
+
+def load_manifest():
+    """
+    Baixa o manifesto do HF se existir.
+    Caso contrário, cria um vazio.
+    """
+    META_DIR.mkdir(exist_ok=True)
+
+    try:
+        hf_hub_download(
+            repo_id=DATASET,
+            repo_type="dataset",
+            filename="meta/processed_tournaments.json",
+            local_dir="."
+        )
+        with open(MANIFEST_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {"tournaments": []}
+
+
+def save_manifest(manifest):
+    with open(MANIFEST_FILE, "w", encoding="utf-8") as f:
+        json.dump(manifest, f, indent=2)
+
+    api.upload_file(
+        path_or_fileobj=str(MANIFEST_FILE),
+        path_in_repo="meta/processed_tournaments.json",
+        repo_id=DATASET,
+        repo_type="dataset"
+    )
 
 # =========================================================
 # Tournament year
@@ -82,14 +102,14 @@ def process_tournament(ndjson_file: pathlib.Path):
             game = json.loads(line)
 
             game_id = game["id"]
-            moves   = game["moves"].split()
+            moves = game["moves"].split()
 
             board = chess.Board()
-            ply   = 0
+            ply = 0
 
             for san in moves:
                 fen = canonical_fen(board)
-                h   = fen_hash(fen)
+                h = fen_hash(fen)
 
                 positions[h] = fen
                 hits.append((h, game_id, ply, san))
@@ -108,23 +128,43 @@ def process_tournament(ndjson_file: pathlib.Path):
 # =========================================================
 
 def main():
+    manifest = load_manifest()
+    already_done = set(manifest["tournaments"])
+
+    print(f"Torneios já processados: {len(already_done)}")
+
     yearly_positions = {}
     yearly_hits = {}
+    newly_processed = []
 
     for ndjson in BASE_DIR.glob("*_games.ndjson"):
-        tid  = ndjson.stem.replace("_games", "")
-        year = tournament_year(tid)
+        tournament_id = ndjson.stem.replace("_games", "")
 
+        if tournament_id in already_done:
+            continue  # INCREMENTAL: pula completamente
+
+        print(f"Processando torneio novo: {tournament_id}")
+
+        year = tournament_year(tournament_id)
         pos, hits = process_tournament(ndjson)
 
         yearly_positions.setdefault(year, {}).update(pos)
         yearly_hits.setdefault(year, []).extend(hits)
 
+        newly_processed.append(tournament_id)
+
+    if not newly_processed:
+        print("Nenhum torneio novo encontrado.")
+        return
+
+    # -----------------------------
+    # Write & upload parquet files
+    # -----------------------------
     for year, pos_map in yearly_positions.items():
         hits = yearly_hits[year]
 
         pos_table = pa.table({
-            "fen_hash":      list(pos_map.keys()),
+            "fen_hash": list(pos_map.keys()),
             "fen_canonical": list(pos_map.values())
         })
 
@@ -138,7 +178,7 @@ def main():
         out_dir = pathlib.Path(f"positions/{year}")
         out_dir.mkdir(parents=True, exist_ok=True)
 
-        pos_file  = out_dir / "positions.parquet"
+        pos_file = out_dir / "positions.parquet"
         hits_file = out_dir / "position_hits.parquet"
 
         pq.write_table(pos_table, pos_file)
@@ -158,6 +198,13 @@ def main():
             repo_type="dataset"
         )
 
+    # -----------------------------
+    # Update manifest
+    # -----------------------------
+    manifest["tournaments"].extend(newly_processed)
+    save_manifest(manifest)
+
+    print(f"Torneios adicionados nesta execução: {len(newly_processed)}")
 
 if __name__ == "__main__":
     main()
