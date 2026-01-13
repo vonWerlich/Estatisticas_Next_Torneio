@@ -3,17 +3,22 @@ import hashlib
 import pathlib
 from datetime import datetime
 import os
+
 import chess
 import pyarrow as pa
 import pyarrow.parquet as pq
 from huggingface_hub import HfApi
+
+# -----------------------------
+# Config
+# -----------------------------
 
 DATASET = "vonWerlich/NEXT_Xadrez_Lichess_tournaments"
 BASE_DIR = pathlib.Path("torneiosnew")
 
 token = os.getenv("HF_TOKEN_LICHESS")
 if not token:
-    raise RuntimeError("HF_TOKEN não definido no ambiente")
+    raise RuntimeError("HF_TOKEN_LICHESS não definido no ambiente")
 
 api = HfApi(token=token)
 
@@ -22,9 +27,13 @@ api = HfApi(token=token)
 # -----------------------------
 
 def canonical_fen(board: chess.Board) -> str:
+    """
+    Retorna FEN canônico:
+    peças / turno / roques / en-passant
+    """
     fen = board.fen()
     parts = fen.split(" ")
-    return " ".join(parts[:4])  # pieces, turn, castling, ep
+    return " ".join(parts[:4])
 
 
 def fen_hash(fen: str) -> str:
@@ -32,28 +41,35 @@ def fen_hash(fen: str) -> str:
 
 
 # -----------------------------
-# Load year from info.json
+# Tournament year
 # -----------------------------
 
 def tournament_year(tournament_id: str) -> int:
     info_file = BASE_DIR / f"{tournament_id}_info.json"
     with open(info_file, "r", encoding="utf-8") as f:
         info = json.load(f)
+
     dt = datetime.fromisoformat(info["startsAt"].replace("Z", "+00:00"))
     return dt.year
 
 
 # -----------------------------
-# Process one NDJSON
+# Process one tournament
 # -----------------------------
 
 def process_tournament(ndjson_file: pathlib.Path):
+    """
+    Retorna:
+      positions: dict[fen_hash] -> fen_canonical
+      hits: list of (fen_hash, game_id, ply, next_san)
+    """
     positions = {}
     hits = []
 
     with open(ndjson_file, "r", encoding="utf-8") as f:
         for line in f:
             game = json.loads(line)
+
             game_id = game["id"]
             moves = game["moves"].split()
 
@@ -61,17 +77,20 @@ def process_tournament(ndjson_file: pathlib.Path):
             ply = 0
 
             for san in moves:
+                # --- POSIÇÃO ANTES DO LANCE ---
+                fen = canonical_fen(board)
+                h = fen_hash(fen)
+
+                positions[h] = fen
+                hits.append((h, game_id, ply, san))
+
+                # aplica o lance
                 try:
                     board.push_san(san)
                 except Exception:
                     break
 
                 ply += 1
-                fen = canonical_fen(board)
-                h = fen_hash(fen)
-
-                positions[h] = fen
-                hits.append((h, game_id, ply))
 
     return positions, hits
 
@@ -96,15 +115,18 @@ def main():
     for year, pos_map in yearly_positions.items():
         hits = yearly_hits[year]
 
+        # ---- positions.parquet ----
         pos_table = pa.table({
             "fen_hash": list(pos_map.keys()),
             "fen_canonical": list(pos_map.values())
         })
 
+        # ---- position_hits.parquet (V2) ----
         hits_table = pa.table({
-            "fen_hash": [h for h, _, _ in hits],
-            "game_id": [g for _, g, _ in hits],
-            "ply": [p for _, _, p in hits]
+            "fen_hash":  [h for h, _, _, _ in hits],
+            "game_id":   [g for _, g, _, _ in hits],
+            "ply":       [p for _, _, p, _ in hits],
+            "next_san":  [m for _, _, _, m in hits],
         })
 
         out_dir = pathlib.Path(f"positions/{year}")
