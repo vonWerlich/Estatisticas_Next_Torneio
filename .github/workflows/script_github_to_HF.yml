@@ -1,30 +1,33 @@
-name: Teste Hugging Faces
+name: Update Hugging Face DB
 
 on:
-  workflow_dispatch:   # botão "Run workflow"
+  workflow_dispatch:      # Mantém o botão manual para testes
+  workflow_run:           # Gatilho automático
+    workflows: ["Fetch Lichess Tournament Data"] # Nome do workflow anterior
+    types:
+      - completed
 
 jobs:
   build-positions:
     runs-on: ubuntu-latest
+    # Só roda se o download dos dados (workflow anterior) tiver dado certo
+    if: ${{ github.event.workflow_run.conclusion == 'success' }} 
 
     steps:
-      # 1. Checkout do repositório
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. Configura Python
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      # 3. Instala dependências
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install python-chess pyarrow duckdb huggingface_hub
 
-      # 4. (DEBUG opcional, mas recomendo deixar por enquanto)
+      # SEU PASSO DE DEBUG (Reinserido)
       - name: Debug HF token visibility
         env:
           HF_TOKEN_LICHESS: ${{ secrets.HF_TOKEN_LICHESS }}
@@ -34,9 +37,8 @@ jobs:
           print("HF_TOKEN_LICHESS exists:", os.getenv("HF_TOKEN_LICHESS") is not None)
           EOF
 
-      # 5. Executa o script
       - name: Build and upload positions to HF
         env:
           HF_TOKEN_LICHESS: ${{ secrets.HF_TOKEN_LICHESS }}
         run: |
-          python scripts_cron/games_to_hugging_faces.py
+          python scripts_cron/update_chess_db.py
