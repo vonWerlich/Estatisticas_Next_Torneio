@@ -41,4 +41,4 @@ jobs:
         env:
           HF_TOKEN_LICHESS: ${{ secrets.HF_TOKEN_LICHESS }}
         run: |
-          python scripts_cron/update_chess_db.py
+          python scripts_cron/games_to_hugging_faces.py
