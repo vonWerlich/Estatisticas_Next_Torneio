@@ -20,7 +20,7 @@ BASE_DIR = pathlib.Path("torneiosnew")
 TEMP_DIR = pathlib.Path("temp_processing")
 MANIFEST_PATH = pathlib.Path("processed_tournaments.json")
 
-# Token precisa estar nas variáveis de ambiente ou colado aqui (não recomendado)
+# Token precisa estar nas variáveis de ambiente
 HF_TOKEN = os.getenv("HF_TOKEN_LICHESS")
 if not HF_TOKEN:
     raise RuntimeError("Erro: A variável de ambiente HF_TOKEN_LICHESS não está definida.")
@@ -48,7 +48,6 @@ def get_fen_hash(fen: str) -> str:
 
 def canonical_fen(board: chess.Board) -> str:
     """Retorna o FEN simplificado (apenas peças, vez, roque e en passant)."""
-    # Exemplo: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq -
     return " ".join(board.fen().split(" ")[:4])
 
 # ==============================================================================
@@ -63,8 +62,8 @@ def load_manifest():
             repo_id=DATASET_REPO,
             repo_type="dataset",
             filename="meta/processed_tournaments.json",
-            local_dir=".",
-            local_dir_use_symlinks=False
+            local_dir="."
+            # local_dir_use_symlinks removido para evitar warning
         )
         with open("meta/processed_tournaments.json", "r", encoding="utf-8") as f:
             return json.load(f)
@@ -118,7 +117,7 @@ def process_tournament_file(ndjson_path: pathlib.Path):
                 'black': black.get('user', {}).get('name', 'Anonymous'),
                 'white_elo': white.get('rating', None),
                 'black_elo': black.get('rating', None),
-                'result': game.get('winner', 'draw'), # 'white', 'black', or 'draw' (check lichess api specificities)
+                'result': game.get('winner', 'draw'),
                 'date': game.get('createdAt', 0),
                 'tournament_id': tournament_id
             })
@@ -131,30 +130,22 @@ def process_tournament_file(ndjson_path: pathlib.Path):
             moves = moves_str.split()
             ply = 0
             
-            # Adiciona a posição inicial também? Geralmente sim.
             start_fen = canonical_fen(board)
             start_hash = get_fen_hash(start_fen)
             local_fens[start_hash] = start_fen
-            
-            # Registra o estado INICIAL (Ply 0) se quiser rastrear tabuleiros,
-            # mas geralmente rastreamos o movimento QUE LEVOU à posição. 
-            # Neste modelo 'moves', vamos salvar: 
-            # "Neste jogo, no ply X, foi jogado 'e4', resultando no hash Y"
             
             for san in moves:
                 try:
                     board.push_san(san)
                 except:
-                    break # Lance inválido, para o processamento deste jogo
+                    break 
                 
                 ply += 1
                 current_fen = canonical_fen(board)
                 current_hash = get_fen_hash(current_fen)
                 
-                # Guarda no buffer de posições únicas
                 local_fens[current_hash] = current_fen
                 
-                # Guarda o lance
                 moves_buffer.append({
                     'fen_hash': current_hash,
                     'game_id': g_id,
@@ -167,7 +158,8 @@ def process_tournament_file(ndjson_path: pathlib.Path):
         return False
 
     # A. Salvar/Upload GAMES
-    con.execute("CREATE OR REPLACE TABLE temp_games AS SELECT * FROM games_buffer_df", {"games_buffer_df": games_buffer})
+    # CORREÇÃO AQUI: Removemos o dicionário de parâmetros. O DuckDB lê 'games_buffer' direto.
+    con.execute("CREATE OR REPLACE TABLE temp_games AS SELECT * FROM games_buffer")
     
     games_out = TEMP_DIR / f"games_{tournament_id}.parquet"
     con.execute(f"COPY temp_games TO '{games_out}' (FORMAT 'parquet')")
@@ -179,8 +171,9 @@ def process_tournament_file(ndjson_path: pathlib.Path):
         repo_type="dataset"
     )
 
-    # B. Salvar/Upload MOVES (Compressão ZSTD recomendada para texto repetitivo)
-    con.execute("CREATE OR REPLACE TABLE temp_moves AS SELECT * FROM moves_buffer_df", {"moves_buffer_df": moves_buffer})
+    # B. Salvar/Upload MOVES
+    # CORREÇÃO AQUI: Removemos o dicionário de parâmetros.
+    con.execute("CREATE OR REPLACE TABLE temp_moves AS SELECT * FROM moves_buffer")
     
     moves_out = TEMP_DIR / f"moves_{tournament_id}.parquet"
     con.execute(f"COPY temp_moves TO '{moves_out}' (FORMAT 'parquet', CODEC 'ZSTD')")
@@ -192,12 +185,11 @@ def process_tournament_file(ndjson_path: pathlib.Path):
         repo_type="dataset"
     )
 
-    # C. Acumular Posições na Tabela Global (Para Sharding depois)
-    # Transforma dict em lista de tuplas para inserção
+    # C. Acumular Posições na Tabela Global
     pos_list = [{'fen_hash': h, 'fen_str': f} for h, f in local_fens.items()]
     
-    # Inserimos na tabela global. O DISTINCT será feito na hora do sync.
-    con.execute("INSERT INTO global_new_positions SELECT * FROM pos_list_df", {"pos_list_df": pos_list})
+    # CORREÇÃO AQUI: Removemos o dicionário de parâmetros.
+    con.execute("INSERT INTO global_new_positions SELECT * FROM pos_list")
     
     # Limpeza local
     con.execute("DROP TABLE temp_games; DROP TABLE temp_moves;")
@@ -212,14 +204,8 @@ def process_tournament_file(ndjson_path: pathlib.Path):
 
 def sync_sharded_positions():
     """
-    Pega todas as posições acumuladas em 'global_new_positions',
-    divide por prefixo, baixa os shards remotos correspondentes,
-    funde e sobe de volta.
+    Sincroniza os shards de posições.
     """
-    
-    # 1. Identificar quais prefixos (pastas) foram afetados
-    # substring(col, start, length) -> start é 1-based no SQL padrão, mas DuckDB aceita python-slice style às vezes. 
-    # Usando sintaxe padrão SQL: 1, 2 pega os dois primeiros chars.
     print("Analisando prefixos de hash para sincronização...")
     prefixes = con.execute("""
         SELECT DISTINCT substring(fen_hash, 1, 2) 
@@ -237,7 +223,6 @@ def sync_sharded_positions():
         local_shard_path = TEMP_DIR / f"shard_{prefix}.parquet"
         
         # A. Preparar dados novos APENAS deste prefixo
-        # Usamos GROUP BY para deduplicar as posições novas entre si antes de fundir com o remoto
         con.execute(f"""
             CREATE OR REPLACE TABLE current_new_batch AS 
             SELECT DISTINCT fen_hash, fen_str 
@@ -254,21 +239,16 @@ def sync_sharded_positions():
                 local_dir=TEMP_DIR,
                 local_dir_use_symlinks=False
             )
-            # Carrega o parquet baixado numa tabela DuckDB
-            # O nome do arquivo baixado mantém a estrutura de pastas
             downloaded_file = TEMP_DIR / remote_path
             con.execute(f"CREATE OR REPLACE TABLE remote_shard AS SELECT * FROM read_parquet('{downloaded_file}')")
             has_remote = True
         except EntryNotFoundError:
-            # Se não existe, cria tabela vazia com a estrutura correta
             con.execute("CREATE OR REPLACE TABLE remote_shard (fen_hash VARCHAR, fen_str VARCHAR)")
         except Exception as e:
             print(f"Erro ao baixar shard {prefix}: {e}")
             continue
 
         # C. MERGE (Union Distinct)
-        # O 'UNION' padrão do SQL já remove duplicatas. O 'UNION ALL' mantém. Queremos remover.
-        # Mas para garantir performance e clareza, fazemos SELECT DISTINCT.
         con.execute(f"""
             COPY (
                 SELECT DISTINCT fen_hash, fen_str FROM (
@@ -310,7 +290,6 @@ def main():
 
     print(f"Torneios já no histórico: {len(processed_set)}")
 
-    # --- FASE 1: Loop de Torneios ---
     found_files = list(BASE_DIR.glob("*_games.ndjson"))
     print(f"Encontrados {len(found_files)} arquivos na pasta.")
 
@@ -335,7 +314,6 @@ def main():
         print("Nenhum torneio novo para processar.")
         return
 
-    # --- FASE 2: Sincronização Global de Posições ---
     count_new_pos = con.execute("SELECT COUNT(*) FROM global_new_positions").fetchone()[0]
     print(f"\nIniciando sincronização de shards. Total de posições acumuladas (raw): {count_new_pos}")
     
@@ -344,14 +322,12 @@ def main():
     else:
         print("Estranhamente, nenhuma posição nova foi encontrada.")
 
-    # --- FASE 3: Atualizar Manifesto ---
     manifest["tournaments"].extend(newly_processed)
     save_manifest(manifest)
     
     print("\nProcesso finalizado com sucesso!")
     print(f"Total de torneios adicionados: {len(newly_processed)}")
 
-    # Limpeza final
     shutil.rmtree(TEMP_DIR)
 
 if __name__ == "__main__":
