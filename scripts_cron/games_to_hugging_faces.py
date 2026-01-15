@@ -8,7 +8,7 @@ from datetime import datetime
 
 import duckdb
 import chess
-import pandas as pd  # <--- NOVA IMPORTAÇÃO NECESSÁRIA
+import pandas as pd  # <--- NOVA IMPORTAÇÃO OBRIGATÓRIA
 from huggingface_hub import HfApi, hf_hub_download
 from huggingface_hub.utils import EntryNotFoundError
 
