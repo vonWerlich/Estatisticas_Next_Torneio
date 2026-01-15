@@ -8,6 +8,7 @@ from datetime import datetime
 
 import duckdb
 import chess
+import pandas as pd  # <--- NOVA IMPORTAÇÃO NECESSÁRIA
 from huggingface_hub import HfApi, hf_hub_download
 from huggingface_hub.utils import EntryNotFoundError
 
@@ -63,7 +64,6 @@ def load_manifest():
             repo_type="dataset",
             filename="meta/processed_tournaments.json",
             local_dir="."
-            # local_dir_use_symlinks removido para evitar warning
         )
         with open("meta/processed_tournaments.json", "r", encoding="utf-8") as f:
             return json.load(f)
@@ -158,8 +158,9 @@ def process_tournament_file(ndjson_path: pathlib.Path):
         return False
 
     # A. Salvar/Upload GAMES
-    # CORREÇÃO AQUI: Removemos o dicionário de parâmetros. O DuckDB lê 'games_buffer' direto.
-    con.execute("CREATE OR REPLACE TABLE temp_games AS SELECT * FROM games_buffer")
+    # CORREÇÃO: Converter lista para DataFrame do Pandas
+    df_games = pd.DataFrame(games_buffer)
+    con.execute("CREATE OR REPLACE TABLE temp_games AS SELECT * FROM df_games")
     
     games_out = TEMP_DIR / f"games_{tournament_id}.parquet"
     con.execute(f"COPY temp_games TO '{games_out}' (FORMAT 'parquet')")
@@ -172,8 +173,9 @@ def process_tournament_file(ndjson_path: pathlib.Path):
     )
 
     # B. Salvar/Upload MOVES
-    # CORREÇÃO AQUI: Removemos o dicionário de parâmetros.
-    con.execute("CREATE OR REPLACE TABLE temp_moves AS SELECT * FROM moves_buffer")
+    # CORREÇÃO: Converter lista para DataFrame do Pandas
+    df_moves = pd.DataFrame(moves_buffer)
+    con.execute("CREATE OR REPLACE TABLE temp_moves AS SELECT * FROM df_moves")
     
     moves_out = TEMP_DIR / f"moves_{tournament_id}.parquet"
     con.execute(f"COPY temp_moves TO '{moves_out}' (FORMAT 'parquet', CODEC 'ZSTD')")
@@ -188,8 +190,9 @@ def process_tournament_file(ndjson_path: pathlib.Path):
     # C. Acumular Posições na Tabela Global
     pos_list = [{'fen_hash': h, 'fen_str': f} for h, f in local_fens.items()]
     
-    # CORREÇÃO AQUI: Removemos o dicionário de parâmetros.
-    con.execute("INSERT INTO global_new_positions SELECT * FROM pos_list")
+    # CORREÇÃO: Converter lista para DataFrame do Pandas
+    df_pos = pd.DataFrame(pos_list)
+    con.execute("INSERT INTO global_new_positions SELECT * FROM df_pos")
     
     # Limpeza local
     con.execute("DROP TABLE temp_games; DROP TABLE temp_moves;")
