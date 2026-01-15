@@ -8,7 +8,7 @@ from datetime import datetime
 
 import duckdb
 import chess
-import pandas as pd  # <--- NOVA IMPORTAÇÃO OBRIGATÓRIA
+import pandas as pd
 from huggingface_hub import HfApi, hf_hub_download
 from huggingface_hub.utils import EntryNotFoundError
 
@@ -19,6 +19,12 @@ from huggingface_hub.utils import EntryNotFoundError
 DATASET_REPO = "vonWerlich/NEXT_Xadrez_Lichess_tournaments"
 BASE_DIR = pathlib.Path("torneiosnew")
 TEMP_DIR = pathlib.Path("temp_processing")
+
+# Subpastas para organizar o Batch Upload
+TEMP_GAMES_DIR = TEMP_DIR / "games"
+TEMP_MOVES_DIR = TEMP_DIR / "moves"
+TEMP_POSITIONS_DIR = TEMP_DIR / "positions"
+
 MANIFEST_PATH = pathlib.Path("processed_tournaments.json")
 
 # Token precisa estar nas variáveis de ambiente
@@ -44,19 +50,16 @@ con.execute("""
 # ==============================================================================
 
 def get_fen_hash(fen: str) -> str:
-    """Gera o SHA1 da string FEN."""
     return hashlib.sha1(fen.encode('utf-8')).hexdigest()
 
 def canonical_fen(board: chess.Board) -> str:
-    """Retorna o FEN simplificado (apenas peças, vez, roque e en passant)."""
     return " ".join(board.fen().split(" ")[:4])
 
 # ==============================================================================
-# GERENCIAMENTO DO MANIFESTO (CONTROLE DE ESTADO)
+# GERENCIAMENTO DO MANIFESTO
 # ==============================================================================
 
 def load_manifest():
-    """Baixa a lista de torneios já processados."""
     try:
         print("Baixando manifesto...")
         hf_hub_download(
@@ -72,29 +75,29 @@ def load_manifest():
         return {"tournaments": []}
 
 def save_manifest(manifest):
-    """Salva e sobe a lista atualizada."""
     os.makedirs("meta", exist_ok=True)
     with open("meta/processed_tournaments.json", "w", encoding="utf-8") as f:
         json.dump(manifest, f, indent=2)
     
+    # Upload final do manifesto
     api.upload_file(
         path_or_fileobj="meta/processed_tournaments.json",
         path_in_repo="meta/processed_tournaments.json",
         repo_id=DATASET_REPO,
-        repo_type="dataset"
+        repo_type="dataset",
+        commit_message="Update manifest"
     )
 
 # ==============================================================================
-# FASE 1: PROCESSAMENTO DE TORNEIOS (ETL)
+# FASE 1: PROCESSAMENTO DE TORNEIOS (ETL - SAVE LOCAL)
 # ==============================================================================
 
 def process_tournament_file(ndjson_path: pathlib.Path):
-    """Lê um arquivo NDJSON, extrai dados e popula o DuckDB."""
     tournament_id = ndjson_path.stem.replace("_games", "")
     
     games_buffer = []
     moves_buffer = []
-    local_fens = {} # Dict para dedup rápida dentro do torneio
+    local_fens = {}
 
     with open(ndjson_path, 'r', encoding='utf-8') as f:
         for line in f:
@@ -106,7 +109,7 @@ def process_tournament_file(ndjson_path: pathlib.Path):
             g_id = game.get('id')
             if not g_id: continue
 
-            # --- 1. Dados do Jogo (Metadata) ---
+            # --- 1. Metadados ---
             players = game.get('players', {})
             white = players.get('white', {})
             black = players.get('black', {})
@@ -122,7 +125,7 @@ def process_tournament_file(ndjson_path: pathlib.Path):
                 'tournament_id': tournament_id
             })
 
-            # --- 2. Dados dos Movimentos (Lances) ---
+            # --- 2. Lances ---
             moves_str = game.get('moves', '')
             if not moves_str: continue
             
@@ -130,6 +133,7 @@ def process_tournament_file(ndjson_path: pathlib.Path):
             moves = moves_str.split()
             ply = 0
             
+            # Posição inicial
             start_fen = canonical_fen(board)
             start_hash = get_fen_hash(start_fen)
             local_fens[start_hash] = start_fen
@@ -153,63 +157,39 @@ def process_tournament_file(ndjson_path: pathlib.Path):
                     'move_san': san
                 })
 
-    # --- 3. Inserção e Upload (Por Torneio) ---
     if not games_buffer:
         return False
 
-    # A. Salvar/Upload GAMES
-    # CORREÇÃO: Converter lista para DataFrame do Pandas
+    # A. Salvar GAMES localmente (SEM UPLOAD AGORA)
     df_games = pd.DataFrame(games_buffer)
     con.execute("CREATE OR REPLACE TABLE temp_games AS SELECT * FROM df_games")
     
-    games_out = TEMP_DIR / f"games_{tournament_id}.parquet"
+    games_out = TEMP_GAMES_DIR / f"{tournament_id}.parquet"
     con.execute(f"COPY temp_games TO '{games_out}' (FORMAT 'parquet')")
-    
-    api.upload_file(
-        path_or_fileobj=str(games_out),
-        path_in_repo=f"games/{tournament_id}.parquet",
-        repo_id=DATASET_REPO,
-        repo_type="dataset"
-    )
 
-    # B. Salvar/Upload MOVES
-    # CORREÇÃO: Converter lista para DataFrame do Pandas
+    # B. Salvar MOVES localmente (SEM UPLOAD AGORA)
     df_moves = pd.DataFrame(moves_buffer)
     con.execute("CREATE OR REPLACE TABLE temp_moves AS SELECT * FROM df_moves")
     
-    moves_out = TEMP_DIR / f"moves_{tournament_id}.parquet"
+    moves_out = TEMP_MOVES_DIR / f"{tournament_id}.parquet"
     con.execute(f"COPY temp_moves TO '{moves_out}' (FORMAT 'parquet', CODEC 'ZSTD')")
-    
-    api.upload_file(
-        path_or_fileobj=str(moves_out),
-        path_in_repo=f"moves/{tournament_id}.parquet",
-        repo_id=DATASET_REPO,
-        repo_type="dataset"
-    )
 
-    # C. Acumular Posições na Tabela Global
+    # C. Acumular Posições na Memória
     pos_list = [{'fen_hash': h, 'fen_str': f} for h, f in local_fens.items()]
-    
-    # CORREÇÃO: Converter lista para DataFrame do Pandas
     df_pos = pd.DataFrame(pos_list)
     con.execute("INSERT INTO global_new_positions SELECT * FROM df_pos")
     
-    # Limpeza local
+    # Limpeza DuckDB
     con.execute("DROP TABLE temp_games; DROP TABLE temp_moves;")
-    games_out.unlink()
-    moves_out.unlink()
     
     return True
 
 # ==============================================================================
-# FASE 2: SINCRONIZAÇÃO DE SHARDS (O CORAÇÃO DO SISTEMA)
+# FASE 2: SHARDS (BATCH UPLOAD)
 # ==============================================================================
 
 def sync_sharded_positions():
-    """
-    Sincroniza os shards de posições.
-    """
-    print("Analisando prefixos de hash para sincronização...")
+    print("Preparando shards de posições...")
     prefixes = con.execute("""
         SELECT DISTINCT substring(fen_hash, 1, 2) 
         FROM global_new_positions
@@ -217,15 +197,19 @@ def sync_sharded_positions():
     
     prefixes = [row[0] for row in prefixes]
     total_shards = len(prefixes)
-    print(f"Total de shards (pastas) a atualizar: {total_shards}")
+    print(f"Total de shards afetados: {total_shards}")
 
+    # Processa cada shard e salva localmente
     for i, prefix in enumerate(prefixes):
-        print(f"[{i+1}/{total_shards}] Sincronizando shard: {prefix}...")
-        
         remote_path = f"positions/prefix={prefix}/data.parquet"
-        local_shard_path = TEMP_DIR / f"shard_{prefix}.parquet"
         
-        # A. Preparar dados novos APENAS deste prefixo
+        # Estrutura local precisa imitar a remota para o upload_folder funcionar bem
+        # Local: temp_processing/positions/prefix=XY/data.parquet
+        local_shard_dir = TEMP_POSITIONS_DIR / f"prefix={prefix}"
+        local_shard_dir.mkdir(parents=True, exist_ok=True)
+        local_shard_file = local_shard_dir / "data.parquet"
+
+        # 1. Pega dados novos deste prefixo
         con.execute(f"""
             CREATE OR REPLACE TABLE current_new_batch AS 
             SELECT DISTINCT fen_hash, fen_str 
@@ -233,8 +217,8 @@ def sync_sharded_positions():
             WHERE substring(fen_hash, 1, 2) = '{prefix}'
         """)
 
-        # B. Baixar dados antigos (se existirem)
-        has_remote = False
+        # 2. Baixa dados antigos (se existirem)
+        temp_download_path = TEMP_DIR / f"download_{prefix}.parquet"
         try:
             hf_hub_download(
                 repo_id=DATASET_REPO,
@@ -242,16 +226,14 @@ def sync_sharded_positions():
                 local_dir=TEMP_DIR,
                 local_dir_use_symlinks=False
             )
+            # O arquivo baixa mantendo a estrutura de pastas em TEMP_DIR
             downloaded_file = TEMP_DIR / remote_path
             con.execute(f"CREATE OR REPLACE TABLE remote_shard AS SELECT * FROM read_parquet('{downloaded_file}')")
-            has_remote = True
-        except EntryNotFoundError:
+        except (EntryNotFoundError, Exception):
+            # Se não existe ou deu erro no download, assumimos vazio
             con.execute("CREATE OR REPLACE TABLE remote_shard (fen_hash VARCHAR, fen_str VARCHAR)")
-        except Exception as e:
-            print(f"Erro ao baixar shard {prefix}: {e}")
-            continue
 
-        # C. MERGE (Union Distinct)
+        # 3. Merge e Salva Localmente
         con.execute(f"""
             COPY (
                 SELECT DISTINCT fen_hash, fen_str FROM (
@@ -259,78 +241,90 @@ def sync_sharded_positions():
                     UNION ALL
                     SELECT * FROM current_new_batch
                 )
-            ) TO '{local_shard_path}' (FORMAT 'parquet', CODEC 'ZSTD')
+            ) TO '{local_shard_file}' (FORMAT 'parquet', CODEC 'ZSTD')
         """)
         
-        # D. Upload
-        try:
-            api.upload_file(
-                path_or_fileobj=str(local_shard_path),
-                path_in_repo=remote_path,
-                repo_id=DATASET_REPO,
-                repo_type="dataset"
-            )
-        except Exception as e:
-            print(f"Erro no upload do shard {prefix}: {e}")
-        
-        # E. Limpeza
-        if has_remote:
-            (TEMP_DIR / remote_path).unlink()
-        local_shard_path.unlink()
+        # Opcional: imprimir progresso a cada 10 shards
+        if i % 10 == 0:
+            print(f"   Processado shard {prefix}...")
 
 # ==============================================================================
 # MAIN
 # ==============================================================================
 
 def main():
-    if TEMP_DIR.exists():
-        shutil.rmtree(TEMP_DIR)
+    # 1. Preparação de Diretórios
+    if TEMP_DIR.exists(): shutil.rmtree(TEMP_DIR)
     TEMP_DIR.mkdir(parents=True)
+    TEMP_GAMES_DIR.mkdir(parents=True)
+    TEMP_MOVES_DIR.mkdir(parents=True)
+    TEMP_POSITIONS_DIR.mkdir(parents=True)
 
     manifest = load_manifest()
     processed_set = set(manifest["tournaments"])
     newly_processed = []
 
-    print(f"Torneios já no histórico: {len(processed_set)}")
-
+    # 2. Processamento Local (Sem Uploads)
     found_files = list(BASE_DIR.glob("*_games.ndjson"))
-    print(f"Encontrados {len(found_files)} arquivos na pasta.")
+    print(f"Encontrados {len(found_files)} arquivos. Processando...")
 
     for ndjson_file in found_files:
         tid = ndjson_file.stem.replace("_games", "")
-        
-        if tid in processed_set:
-            continue
+        if tid in processed_set: continue
             
-        print(f"-> Processando novo torneio: {tid}")
-        
-        start_t = time.time()
-        success = process_tournament_file(ndjson_file)
-        
-        if success:
+        if process_tournament_file(ndjson_file):
             newly_processed.append(tid)
-            print(f"   Concluído em {time.time() - start_t:.2f}s")
-        else:
-            print("   Arquivo vazio ou inválido, pulando.")
 
     if not newly_processed:
-        print("Nenhum torneio novo para processar.")
+        print("Nenhum torneio novo.")
         return
 
-    count_new_pos = con.execute("SELECT COUNT(*) FROM global_new_positions").fetchone()[0]
-    print(f"\nIniciando sincronização de shards. Total de posições acumuladas (raw): {count_new_pos}")
+    print(f"\nTorneios processados: {len(newly_processed)}. Preparando Shards...")
     
-    if count_new_pos > 0:
-        sync_sharded_positions()
-    else:
-        print("Estranhamente, nenhuma posição nova foi encontrada.")
+    # 3. Preparação dos Shards (Sem Uploads ainda)
+    sync_sharded_positions()
 
+    # 4. FASE DE UPLOAD EM LOTE (AQUI É O PULO DO GATO)
+    print("\nIniciando Upload em Lote (Isso economiza API calls)...")
+
+    # A. Upload Games (1 Commit para todos os jogos novos)
+    if any(TEMP_GAMES_DIR.iterdir()):
+        print("Subindo pasta Games...")
+        api.upload_folder(
+            folder_path=str(TEMP_GAMES_DIR),
+            path_in_repo="games",
+            repo_id=DATASET_REPO,
+            repo_type="dataset",
+            commit_message=f"Batch upload: {len(newly_processed)} tournaments (games)"
+        )
+
+    # B. Upload Moves (1 Commit para todos os movimentos novos)
+    if any(TEMP_MOVES_DIR.iterdir()):
+        print("Subindo pasta Moves...")
+        api.upload_folder(
+            folder_path=str(TEMP_MOVES_DIR),
+            path_in_repo="moves",
+            repo_id=DATASET_REPO,
+            repo_type="dataset",
+            commit_message=f"Batch upload: {len(newly_processed)} tournaments (moves)"
+        )
+
+    # C. Upload Positions (1 Commit para todos os shards alterados)
+    if any(TEMP_POSITIONS_DIR.iterdir()):
+        print("Subindo Shards de Posições...")
+        api.upload_folder(
+            folder_path=str(TEMP_POSITIONS_DIR),
+            path_in_repo="positions",
+            repo_id=DATASET_REPO,
+            repo_type="dataset",
+            commit_message="Batch upload: position shards update"
+        )
+
+    # 5. Atualiza Manifesto
     manifest["tournaments"].extend(newly_processed)
     save_manifest(manifest)
     
-    print("\nProcesso finalizado com sucesso!")
-    print(f"Total de torneios adicionados: {len(newly_processed)}")
-
+    print("\nSucesso Total! Limpeza final...")
     shutil.rmtree(TEMP_DIR)
 
 if __name__ == "__main__":
