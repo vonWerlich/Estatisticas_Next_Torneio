@@ -252,19 +252,30 @@ def sync_sharded_positions():
 # MAIN
 # ==============================================================================
 
+# ==============================================================================
+# MAIN (Versão Parcelada em 4 Etapas)
+# ==============================================================================
 def main():
     # 1. Preparação de Diretórios
     if TEMP_DIR.exists(): shutil.rmtree(TEMP_DIR)
     TEMP_DIR.mkdir(parents=True)
+    
+    # Criamos as subpastas
+    TEMP_GAMES_DIR = TEMP_DIR / "games"
+    TEMP_MOVES_DIR = TEMP_DIR / "moves"
+    TEMP_POSITIONS_DIR = TEMP_DIR / "positions"
+    TEMP_META_DIR = TEMP_DIR / "meta"
+    
     TEMP_GAMES_DIR.mkdir(parents=True)
     TEMP_MOVES_DIR.mkdir(parents=True)
     TEMP_POSITIONS_DIR.mkdir(parents=True)
+    TEMP_META_DIR.mkdir(parents=True)
 
     manifest = load_manifest()
     processed_set = set(manifest["tournaments"])
     newly_processed = []
 
-    # 2. Processamento Local (Sem Uploads)
+    # 2. Processamento Local
     found_files = list(BASE_DIR.glob("*_games.ndjson"))
     print(f"Encontrados {len(found_files)} arquivos. Processando...")
 
@@ -272,6 +283,7 @@ def main():
         tid = ndjson_file.stem.replace("_games", "")
         if tid in processed_set: continue
             
+        # O processamento salva os arquivos nas pastas TEMP_GAMES_DIR etc.
         if process_tournament_file(ndjson_file):
             newly_processed.append(tid)
 
@@ -280,49 +292,58 @@ def main():
         return
 
     print(f"\nTorneios processados: {len(newly_processed)}. Preparando Shards...")
-    
-    # 3. Preparação dos Shards (Sem Uploads ainda)
     sync_sharded_positions()
 
-    # 4. FASE DE UPLOAD EM LOTE (AQUI É O PULO DO GATO)
-    print("\nIniciando Upload em Lote (Isso economiza API calls)...")
+    # 3. Atualiza Manifesto LOCALMENTE
+    manifest["tournaments"].extend(newly_processed)
+    with open(TEMP_META_DIR / "processed_tournaments.json", "w", encoding="utf-8") as f:
+        json.dump(manifest, f, indent=2)
 
-    # A. Upload Games (1 Commit para todos os jogos novos)
+    # 4. UPLOAD PARCELADO (Evita Timeout e Evita Bloqueio 429)
+    print("\nIniciando Upload Parcelado (4 commits)...")
+    
+    # Passo 1: Games
     if any(TEMP_GAMES_DIR.iterdir()):
-        print("Subindo pasta Games...")
+        print("-> Subindo Games...")
         api.upload_folder(
             folder_path=str(TEMP_GAMES_DIR),
             path_in_repo="games",
             repo_id=DATASET_REPO,
             repo_type="dataset",
-            commit_message=f"Batch upload: {len(newly_processed)} tournaments (games)"
+            commit_message=f"Batch: {len(newly_processed)} games"
         )
 
-    # B. Upload Moves (1 Commit para todos os movimentos novos)
+    # Passo 2: Moves (Geralmente o mais pesado)
     if any(TEMP_MOVES_DIR.iterdir()):
-        print("Subindo pasta Moves...")
+        print("-> Subindo Moves...")
         api.upload_folder(
             folder_path=str(TEMP_MOVES_DIR),
             path_in_repo="moves",
             repo_id=DATASET_REPO,
             repo_type="dataset",
-            commit_message=f"Batch upload: {len(newly_processed)} tournaments (moves)"
+            commit_message=f"Batch: {len(newly_processed)} moves"
         )
 
-    # C. Upload Positions (1 Commit para todos os shards alterados)
+    # Passo 3: Shards de Posições
     if any(TEMP_POSITIONS_DIR.iterdir()):
-        print("Subindo Shards de Posições...")
+        print("-> Subindo Posições...")
         api.upload_folder(
             folder_path=str(TEMP_POSITIONS_DIR),
             path_in_repo="positions",
             repo_id=DATASET_REPO,
             repo_type="dataset",
-            commit_message="Batch upload: position shards update"
+            commit_message="Batch: positions shards"
         )
 
-    # 5. Atualiza Manifesto
-    manifest["tournaments"].extend(newly_processed)
-    save_manifest(manifest)
+    # Passo 4: Manifesto (Só sobe se tudo acima der certo)
+    print("-> Subindo Manifesto...")
+    api.upload_file(
+        path_or_fileobj=str(TEMP_META_DIR / "processed_tournaments.json"),
+        path_in_repo="meta/processed_tournaments.json",
+        repo_id=DATASET_REPO,
+        repo_type="dataset",
+        commit_message="Update manifest"
+    )
     
     print("\nSucesso Total! Limpeza final...")
     shutil.rmtree(TEMP_DIR)
