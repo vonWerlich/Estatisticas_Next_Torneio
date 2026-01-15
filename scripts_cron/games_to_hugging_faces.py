@@ -20,10 +20,9 @@ DATASET_REPO = "vonWerlich/NEXT_Xadrez_Lichess_tournaments"
 BASE_DIR = pathlib.Path("torneiosnew")
 TEMP_DIR = pathlib.Path("temp_processing")
 
-# Subpastas para organizar o Batch Upload
-TEMP_GAMES_DIR = TEMP_DIR / "games"
-TEMP_MOVES_DIR = TEMP_DIR / "moves"
-TEMP_POSITIONS_DIR = TEMP_DIR / "positions"
+# Limite de segurança para evitar Timeouts em uploads gigantes
+# Quando o backlog zerar, isso não fará diferença (pois haverá poucos novos).
+MAX_TOURNAMENTS_PER_RUN = 50 
 
 MANIFEST_PATH = pathlib.Path("processed_tournaments.json")
 
@@ -46,7 +45,7 @@ con.execute("""
 """)
 
 # ==============================================================================
-# FUNÇÕES UTILITÁRIAS (XADREZ & HASH)
+# FUNÇÕES UTILITÁRIAS
 # ==============================================================================
 
 def get_fen_hash(fen: str) -> str:
@@ -54,10 +53,6 @@ def get_fen_hash(fen: str) -> str:
 
 def canonical_fen(board: chess.Board) -> str:
     return " ".join(board.fen().split(" ")[:4])
-
-# ==============================================================================
-# GERENCIAMENTO DO MANIFESTO
-# ==============================================================================
 
 def load_manifest():
     try:
@@ -74,25 +69,11 @@ def load_manifest():
         print("Manifesto não encontrado ou erro no download. Criando novo.")
         return {"tournaments": []}
 
-def save_manifest(manifest):
-    os.makedirs("meta", exist_ok=True)
-    with open("meta/processed_tournaments.json", "w", encoding="utf-8") as f:
-        json.dump(manifest, f, indent=2)
-    
-    # Upload final do manifesto
-    api.upload_file(
-        path_or_fileobj="meta/processed_tournaments.json",
-        path_in_repo="meta/processed_tournaments.json",
-        repo_id=DATASET_REPO,
-        repo_type="dataset",
-        commit_message="Update manifest"
-    )
-
 # ==============================================================================
-# FASE 1: PROCESSAMENTO DE TORNEIOS (ETL - SAVE LOCAL)
+# PROCESSAMENTO LOCAL
 # ==============================================================================
 
-def process_tournament_file(ndjson_path: pathlib.Path):
+def process_tournament_file(ndjson_path: pathlib.Path, temp_games_dir, temp_moves_dir):
     tournament_id = ndjson_path.stem.replace("_games", "")
     
     games_buffer = []
@@ -109,7 +90,7 @@ def process_tournament_file(ndjson_path: pathlib.Path):
             g_id = game.get('id')
             if not g_id: continue
 
-            # --- 1. Metadados ---
+            # 1. Metadados
             players = game.get('players', {})
             white = players.get('white', {})
             black = players.get('black', {})
@@ -125,7 +106,7 @@ def process_tournament_file(ndjson_path: pathlib.Path):
                 'tournament_id': tournament_id
             })
 
-            # --- 2. Lances ---
+            # 2. Lances
             moves_str = game.get('moves', '')
             if not moves_str: continue
             
@@ -133,7 +114,6 @@ def process_tournament_file(ndjson_path: pathlib.Path):
             moves = moves_str.split()
             ply = 0
             
-            # Posição inicial
             start_fen = canonical_fen(board)
             start_hash = get_fen_hash(start_fen)
             local_fens[start_hash] = start_fen
@@ -160,35 +140,31 @@ def process_tournament_file(ndjson_path: pathlib.Path):
     if not games_buffer:
         return False
 
-    # A. Salvar GAMES localmente (SEM UPLOAD AGORA)
+    # Salva GAMES localmente
     df_games = pd.DataFrame(games_buffer)
     con.execute("CREATE OR REPLACE TABLE temp_games AS SELECT * FROM df_games")
-    
-    games_out = TEMP_GAMES_DIR / f"{tournament_id}.parquet"
+    games_out = temp_games_dir / f"{tournament_id}.parquet"
     con.execute(f"COPY temp_games TO '{games_out}' (FORMAT 'parquet')")
 
-    # B. Salvar MOVES localmente (SEM UPLOAD AGORA)
+    # Salva MOVES localmente
     df_moves = pd.DataFrame(moves_buffer)
     con.execute("CREATE OR REPLACE TABLE temp_moves AS SELECT * FROM df_moves")
-    
-    moves_out = TEMP_MOVES_DIR / f"{tournament_id}.parquet"
+    moves_out = temp_moves_dir / f"{tournament_id}.parquet"
     con.execute(f"COPY temp_moves TO '{moves_out}' (FORMAT 'parquet', CODEC 'ZSTD')")
 
-    # C. Acumular Posições na Memória
+    # Acumula Posições
     pos_list = [{'fen_hash': h, 'fen_str': f} for h, f in local_fens.items()]
     df_pos = pd.DataFrame(pos_list)
     con.execute("INSERT INTO global_new_positions SELECT * FROM df_pos")
     
-    # Limpeza DuckDB
     con.execute("DROP TABLE temp_games; DROP TABLE temp_moves;")
-    
     return True
 
 # ==============================================================================
-# FASE 2: SHARDS (BATCH UPLOAD)
+# SHARDS
 # ==============================================================================
 
-def sync_sharded_positions():
+def sync_sharded_positions(temp_positions_dir):
     print("Preparando shards de posições...")
     prefixes = con.execute("""
         SELECT DISTINCT substring(fen_hash, 1, 2) 
@@ -199,17 +175,12 @@ def sync_sharded_positions():
     total_shards = len(prefixes)
     print(f"Total de shards afetados: {total_shards}")
 
-    # Processa cada shard e salva localmente
     for i, prefix in enumerate(prefixes):
         remote_path = f"positions/prefix={prefix}/data.parquet"
-        
-        # Estrutura local precisa imitar a remota para o upload_folder funcionar bem
-        # Local: temp_processing/positions/prefix=XY/data.parquet
-        local_shard_dir = TEMP_POSITIONS_DIR / f"prefix={prefix}"
+        local_shard_dir = temp_positions_dir / f"prefix={prefix}"
         local_shard_dir.mkdir(parents=True, exist_ok=True)
         local_shard_file = local_shard_dir / "data.parquet"
 
-        # 1. Pega dados novos deste prefixo
         con.execute(f"""
             CREATE OR REPLACE TABLE current_new_batch AS 
             SELECT DISTINCT fen_hash, fen_str 
@@ -217,8 +188,6 @@ def sync_sharded_positions():
             WHERE substring(fen_hash, 1, 2) = '{prefix}'
         """)
 
-        # 2. Baixa dados antigos (se existirem)
-        temp_download_path = TEMP_DIR / f"download_{prefix}.parquet"
         try:
             hf_hub_download(
                 repo_id=DATASET_REPO,
@@ -226,14 +195,11 @@ def sync_sharded_positions():
                 local_dir=TEMP_DIR,
                 local_dir_use_symlinks=False
             )
-            # O arquivo baixa mantendo a estrutura de pastas em TEMP_DIR
             downloaded_file = TEMP_DIR / remote_path
             con.execute(f"CREATE OR REPLACE TABLE remote_shard AS SELECT * FROM read_parquet('{downloaded_file}')")
         except (EntryNotFoundError, Exception):
-            # Se não existe ou deu erro no download, assumimos vazio
             con.execute("CREATE OR REPLACE TABLE remote_shard (fen_hash VARCHAR, fen_str VARCHAR)")
 
-        # 3. Merge e Salva Localmente
         con.execute(f"""
             COPY (
                 SELECT DISTINCT fen_hash, fen_str FROM (
@@ -243,24 +209,16 @@ def sync_sharded_positions():
                 )
             ) TO '{local_shard_file}' (FORMAT 'parquet', CODEC 'ZSTD')
         """)
-        
-        # Opcional: imprimir progresso a cada 10 shards
-        if i % 10 == 0:
-            print(f"   Processado shard {prefix}...")
 
 # ==============================================================================
 # MAIN
 # ==============================================================================
 
-# ==============================================================================
-# MAIN (Versão Parcelada em 4 Etapas)
-# ==============================================================================
 def main():
     # 1. Preparação de Diretórios
     if TEMP_DIR.exists(): shutil.rmtree(TEMP_DIR)
     TEMP_DIR.mkdir(parents=True)
     
-    # Criamos as subpastas
     TEMP_GAMES_DIR = TEMP_DIR / "games"
     TEMP_MOVES_DIR = TEMP_DIR / "moves"
     TEMP_POSITIONS_DIR = TEMP_DIR / "positions"
@@ -275,34 +233,44 @@ def main():
     processed_set = set(manifest["tournaments"])
     newly_processed = []
 
-    # 2. Processamento Local
-    found_files = list(BASE_DIR.glob("*_games.ndjson"))
-    print(f"Encontrados {len(found_files)} arquivos. Processando...")
-
-    for ndjson_file in found_files:
-        tid = ndjson_file.stem.replace("_games", "")
-        if tid in processed_set: continue
+    # 2. Identificação e Filtro (AQUI ESTÁ A MÁGICA DO LIMITE)
+    all_files = list(BASE_DIR.glob("*_games.ndjson"))
+    
+    # Filtra apenas os pendentes
+    pending_files = []
+    for f in all_files:
+        tid = f.stem.replace("_games", "")
+        if tid not in processed_set:
+            pending_files.append(f)
             
-        # O processamento salva os arquivos nas pastas TEMP_GAMES_DIR etc.
-        if process_tournament_file(ndjson_file):
-            newly_processed.append(tid)
+    print(f"Total de torneios pendentes: {len(pending_files)}")
 
-    if not newly_processed:
+    # Aplica o limite (Fatiamento)
+    files_to_process = pending_files[:MAX_TOURNAMENTS_PER_RUN]
+    
+    if not files_to_process:
         print("Nenhum torneio novo.")
         return
 
-    print(f"\nTorneios processados: {len(newly_processed)}. Preparando Shards...")
-    sync_sharded_positions()
+    print(f"Processando lote de {len(files_to_process)} torneios (Limite de segurança: {MAX_TOURNAMENTS_PER_RUN})...")
 
-    # 3. Atualiza Manifesto LOCALMENTE
+    # 3. Processamento Local
+    for ndjson_file in files_to_process:
+        tid = ndjson_file.stem.replace("_games", "")
+        if process_tournament_file(ndjson_file, TEMP_GAMES_DIR, TEMP_MOVES_DIR):
+            newly_processed.append(tid)
+
+    print(f"\nTorneios processados neste lote: {len(newly_processed)}. Preparando Shards...")
+    sync_sharded_positions(TEMP_POSITIONS_DIR)
+
+    # 4. Atualiza Manifesto LOCALMENTE
     manifest["tournaments"].extend(newly_processed)
     with open(TEMP_META_DIR / "processed_tournaments.json", "w", encoding="utf-8") as f:
         json.dump(manifest, f, indent=2)
 
-    # 4. UPLOAD PARCELADO (Evita Timeout e Evita Bloqueio 429)
-    print("\nIniciando Upload Parcelado (4 commits)...")
+    # 5. UPLOAD PARCELADO (Batch de 4 Commits)
+    print("\nIniciando Upload Parcelado...")
     
-    # Passo 1: Games
     if any(TEMP_GAMES_DIR.iterdir()):
         print("-> Subindo Games...")
         api.upload_folder(
@@ -313,7 +281,6 @@ def main():
             commit_message=f"Batch: {len(newly_processed)} games"
         )
 
-    # Passo 2: Moves (Geralmente o mais pesado)
     if any(TEMP_MOVES_DIR.iterdir()):
         print("-> Subindo Moves...")
         api.upload_folder(
@@ -324,7 +291,6 @@ def main():
             commit_message=f"Batch: {len(newly_processed)} moves"
         )
 
-    # Passo 3: Shards de Posições
     if any(TEMP_POSITIONS_DIR.iterdir()):
         print("-> Subindo Posições...")
         api.upload_folder(
@@ -335,7 +301,6 @@ def main():
             commit_message="Batch: positions shards"
         )
 
-    # Passo 4: Manifesto (Só sobe se tudo acima der certo)
     print("-> Subindo Manifesto...")
     api.upload_file(
         path_or_fileobj=str(TEMP_META_DIR / "processed_tournaments.json"),
