@@ -121,7 +121,7 @@ with view_container:
     st.header("Selecionar Análise") 
     view_selection = st.radio(
         "**Visualizar**",
-        options=['Visão Geral', 'Número de Participantes', 'Detalhes do Torneio', "Jogadores"],
+        options=['Visão Geral', 'Número de Participantes', 'Detalhes do Torneio', 'Jogadores', 'Tabuleiro de Análise'],
         key='view_key',
         label_visibility="collapsed", # Este parâmetro esconde o rótulo "Selecione uma visualização" da tela
     )
