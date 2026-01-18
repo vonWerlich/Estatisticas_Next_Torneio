@@ -6,6 +6,7 @@ from visualizations import *
 from components import *
 from layout import *
 from pathlib import Path
+from stchess import st_chess
 
 DATA_DIR = "torneiosnew"  # pasta onde estão todos os torneios
 PLAYERS_DIR = "player_data" # pasta dos jogadores
@@ -333,3 +334,44 @@ else:
             
         else:
             st.info("Nenhum dado de jogador encontrado. Certifique-se de ter rodado o 'fix_history.py' para popular o banco de dados.")
+    elif st.session_state['view_key'] == 'Tabuleiro de Análise':
+        st.title("♟️ Tabuleiro Interativo (Nativo)")
+        
+        # Importante: precisamos da biblioteca python-chess para validar e processar os movimentos
+        import chess 
+        
+        # 1. Inicializa o estado do tabuleiro se não existir
+        if "fen_partida" not in st.session_state:
+            st.session_state["fen_partida"] = chess.STARTING_FEN
+        
+        # 2. Renderiza o Tabuleiro
+        # O componente st_chess exibe a posição atual e retorna o movimento feito pelo usuário
+        move_data = st_chess(st.session_state["fen_partida"], key="tabuleiro_componente")
+        
+        # 3. Processa o movimento (se houver)
+        # O st_chess retorna um dicionário ou string quando o usuário mexe uma peça
+        if move_data:
+            # Cria um tabuleiro temporário com a posição atual para validar o lance
+            board = chess.Board(st.session_state["fen_partida"])
+            
+            try:
+                # Tenta aplicar o movimento recebido (geralmente vem a string do movimento, ex: "e2e4")
+                # O formato retornado pode variar, mas geralmente é UCI (ex: 'e2e4')
+                move_str = move_data.get("move") if isinstance(move_data, dict) else move_data
+                
+                if move_str:
+                    move = chess.Move.from_uci(move_str)
+                    if move in board.legal_moves:
+                        board.push(move)
+                        # Atualiza o estado para redesenhar a peça no novo lugar
+                        st.session_state["fen_partida"] = board.fen()
+                        st.rerun() # Recarrega para confirmar visualmente
+            except Exception as e:
+                # Se o movimento for inválido ou algo der errado, apenas ignoramos
+                pass
+        
+        # Mostra o FEN e Botão de Reset
+        st.code(st.session_state["fen_partida"], language="text")
+        if st.button("Reiniciar Partida"):
+            st.session_state["fen_partida"] = chess.STARTING_FEN
+            st.rerun()
