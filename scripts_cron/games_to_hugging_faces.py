@@ -193,7 +193,7 @@ def sync_sharded_positions(temp_positions_dir):
                 repo_id=DATASET_REPO,
                 filename=remote_path,
                 local_dir=TEMP_DIR,
-                local_dir_use_symlinks=False
+                #local_dir_use_symlinks=False    # deprecado
             )
             downloaded_file = TEMP_DIR / remote_path
             con.execute(f"CREATE OR REPLACE TABLE remote_shard AS SELECT * FROM read_parquet('{downloaded_file}')")
