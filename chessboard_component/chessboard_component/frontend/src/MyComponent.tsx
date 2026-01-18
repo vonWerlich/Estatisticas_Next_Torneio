@@ -1,12 +1,10 @@
 import { FrontendRendererArgs } from "@streamlit/component-v2-lib";
-import {
-  CSSProperties,
-  FC,
-  ReactElement,
-  useCallback,
-  useMemo,
-  useState,
-} from "react";
+import { FC, ReactElement, useEffect, useRef } from "react";
+import { Chessground } from "chessground";
+import "chessground/assets/chessground.base.css";
+// Tema (escolha um dos dois, o brown é o padrão madeira)
+import "chessground/assets/chessground.brown.css";
+
 
 export type MyComponentStateShape = {
   uci_move: string | null;
@@ -22,28 +20,74 @@ export type MyComponentProps = Pick<
 > &
   MyComponentDataShape;
 
-
 const MyComponent: FC<MyComponentProps> = ({
   fen,
   setStateValue,
 }): ReactElement => {
-  // Por enquanto, só exibimos o FEN para validar o contrato
-  // O tabuleiro entra na próxima etapa
+  /**
+   * Referência para o container do tabuleiro.
+   * Chessground manipula o DOM diretamente.
+   */
+  const boardRef = useRef<HTMLDivElement | null>(null);
+
+  /**
+   * Inicializa o Chessground uma única vez.
+   */
+  useEffect(() => {
+    if (!boardRef.current) return;
+
+    const cg = Chessground(boardRef.current, {
+      orientation: "white",
+      coordinates: true,
+
+      movable: {
+        free: false,
+        color: "both",
+      },
+
+      highlight: {
+        lastMove: true,
+        check: true,
+      },
+
+      /**
+       * Callback de movimento (origem → destino)
+       * Aqui nasce o lance UCI.
+       */
+      events: {
+        move: (from, to) => {
+          const uci = `${from}${to}`;
+          setStateValue("uci_move", uci);
+        },
+      },
+    });
+
+    return () => {
+      cg.destroy?.();
+    };
+  }, [setStateValue]);
+
+  /**
+   * Atualiza a posição quando o FEN muda.
+   */
+  useEffect(() => {
+    if (!boardRef.current) return;
+
+    // Chessground expõe o estado via DOM
+    Chessground(boardRef.current).set({
+      fen: fen,
+    });
+  }, [fen]);
 
   return (
-    <div style={{ padding: "8px", fontFamily: "monospace" }}>
-      <div>FEN recebida do Python:</div>
-      <div>{fen}</div>
-
-      <button
-        onClick={() => {
-          // Simulação temporária de um lance
-          setStateValue("uci_move", "e2e4");
-        }}
-      >
-        Simular lance e2e4
-      </button>
-    </div>
+    <div
+      ref={boardRef}
+      style={{
+        width: "480px",
+        height: "480px",
+        margin: "0 auto",
+      }}
+    />
   );
 };
 
