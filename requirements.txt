@@ -4,3 +4,4 @@ ndjson
 streamlit-aggrid
 streamlit-elements
 requests
+python-chess
