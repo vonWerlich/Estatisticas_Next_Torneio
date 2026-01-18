@@ -335,65 +335,65 @@ else:
             st.info("Nenhum dado de jogador encontrado. Certifique-se de ter rodado o 'fix_history.py' para popular o banco de dados.")
     elif st.session_state['view_key'] == 'Tabuleiro de Análise':
         st.title("♟️ Console de Análise (Python-Chess)")
-        
+
         import chess
         import chess.svg
         import base64
 
-        # --- Lógica de Estado (Backend) ---
-        if "board_state" not in st.session_state:
-            st.session_state["board_state"] = chess.Board()
-        
-        board = st.session_state["board_state"]
+        # ===============================
+        # ESTADO GLOBAL DO TABULEIRO (FEN)
+        # ===============================
+        if "fen" not in st.session_state:
+            st.session_state["fen"] = chess.STARTING_FEN
 
-        # Layout: Tabuleiro na Esquerda | Controles na Direita
+        board = chess.Board(st.session_state["fen"])
+
+        # ===============================
+        # LAYOUT
+        # ===============================
         col_tabuleiro, col_controles = st.columns([1.5, 1])
 
+        # ===============================
+        # TABULEIRO (SVG TEMPORÁRIO)
+        # ===============================
         with col_tabuleiro:
-            # Renderiza o tabuleiro como SVG
-            # flip_board=True inverte para as pretas se necessário
             boardsvg = chess.svg.board(board=board, size=600)
-            
-            # Truque para exibir SVG no Streamlit
-            b64 = base64.b64encode(boardsvg.encode('utf-8')).decode("utf-8")
-            html_board = f'<img src="data:image/svg+xml;base64,{b64}" width="100%"/>'
-            st.markdown(html_board, unsafe_allow_html=True)
+            b64 = base64.b64encode(boardsvg.encode("utf-8")).decode("utf-8")
+            st.markdown(
+                f'<img src="data:image/svg+xml;base64,{b64}" width="100%"/>',
+                unsafe_allow_html=True
+            )
 
+        # ===============================
+        # CONTROLES
+        # ===============================
         with col_controles:
             st.subheader("Controles")
 
-            # 1. Fazer um lance
-            move_input = st.text_input("Digitar lance (Notação Algébrica):", placeholder="Ex: e4, Nf3, O-O", key="input_lance")
-            
-            if st.button("Mover Peça", type="primary"):
-                try:
-                    # Tenta interpretar o lance (aceita SAN como 'e4' ou UCI como 'e2e4')
-                    board.push_san(move_input)
-                    st.rerun() # Atualiza a tela
-                except ValueError:
-                    st.error(f"Lance inválido ou impossível: {move_input}")
-            
-            st.divider()
-
-            # 2. Navegação
-            col_voltar, col_reset = st.columns(2)
-            with col_voltar:
-                if st.button("⬅️ Desfazer"):
-                    if len(board.move_stack) > 0:
-                        board.pop()
-                        st.rerun()
-            with col_reset:
-                if st.button("🔄 Reiniciar"):
-                    st.session_state["board_state"] = chess.Board()
+            # -------------------------------
+            # DESFAZER
+            # -------------------------------
+            if st.button("⬅️ Desfazer"):
+                if board.move_stack:
+                    board.pop()
+                    st.session_state["fen"] = board.fen()
                     st.rerun()
 
+            # -------------------------------
+            # RESET
+            # -------------------------------
+            if st.button("🔄 Reiniciar"):
+                st.session_state["fen"] = chess.STARTING_FEN
+                st.rerun()
+
             st.divider()
 
-            # 3. Informações Técnicas (Útil para Debug/TCC)
+            # -------------------------------
+            # DEBUG / INFORMAÇÕES TÉCNICAS
+            # -------------------------------
             st.caption("Estado Técnico (FEN):")
             st.code(board.fen(), language="text")
-            
-            # Validações úteis
+
             if board.is_check():
                 st.warning("⚠️ O rei está em XEQUE!")
             if board.is_checkmate():
@@ -401,6 +401,5 @@ else:
             if board.is_stalemate():
                 st.info("½ - ½ AFOGAMENTO (Empate)")
 
-            # Histórico recente
             if board.move_stack:
                 st.text(f"Último lance: {board.peek()}")
