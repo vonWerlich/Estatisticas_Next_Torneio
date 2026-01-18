@@ -1,0 +1,2 @@
+recursive-include chessboard_component/frontend/build *
+include pyproject.toml

@@ -6,6 +6,10 @@ from visualizations import *
 from components import *
 from layout import *
 from pathlib import Path
+from chessboard_component.chessboard_component import chessboard_component
+import chess
+import chess.svg
+import base64
 
 DATA_DIR = "torneiosnew"  # pasta onde estão todos os torneios
 PLAYERS_DIR = "player_data" # pasta dos jogadores
@@ -336,9 +340,21 @@ else:
     elif st.session_state['view_key'] == 'Tabuleiro de Análise':
         st.title("♟️ Console de Análise (Python-Chess)")
 
-        import chess
-        import chess.svg
-        import base64
+        # --- TESTE DO COMPONENTE (temporário) ---
+
+        if "fen" not in st.session_state:
+            st.session_state["fen"] = chess.STARTING_FEN
+
+        result = chessboard_component(
+            fen=st.session_state["fen"],
+            key="analysis_board",
+        )
+
+        st.write("Retorno do componente:")
+        st.write(result)
+
+
+
 
         # ===============================
         # ESTADO GLOBAL DO TABULEIRO (FEN)
