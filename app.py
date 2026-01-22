@@ -6,7 +6,7 @@ from visualizations import *
 from components import *
 from layout import *
 from pathlib import Path
-from chessboard_component.chessboard_component import chessboard_component
+from chessboard_component import chessboard_component
 import chess
 import chess.svg
 import base64
