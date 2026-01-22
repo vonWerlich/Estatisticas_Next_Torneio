@@ -2,8 +2,8 @@ db/*.db
 db/*.db-wal
 db/*.db-shm
 # --- Streamlit chess component (frontend tooling) ---
-chessboard_component/chessboard_component/frontend/node_modules/
-chessboard_component/chessboard_component/frontend/.vite/
+chessboard_component/frontend/node_modules/
+chessboard_component/frontend/.vite/
 # Logs
-chessboard_component/chessboard_component/frontend/npm-debug.log*
-chessboard_component/chessboard_component/frontend/yarn-error.log*
+chessboard_component/frontend/npm-debug.log*
+chessboard_component/frontend/yarn-error.log*
