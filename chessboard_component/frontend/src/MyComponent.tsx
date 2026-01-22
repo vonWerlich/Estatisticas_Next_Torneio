@@ -1,46 +1,28 @@
-import { FrontendRendererArgs } from "@streamlit/component-v2-lib";
 import { FC, ReactElement, useEffect, useRef } from "react";
-
 import { Chessground } from "chessground";
 import type { Api } from "chessground/api";
 import type { Config } from "chessground/config";
 
+// CSS do tabuleiro
 import "chessground/assets/chessground.base.css";
-import "chessground/assets/chessground.brown.css"; //tema clássico
+import "chessground/assets/chessground.brown.css";
 
-
-// --------- Tipos do contrato com o Streamlit ---------
-
-export type MyComponentStateShape = {
-  uci_move: string | null;
-};
-
-export type MyComponentDataShape = {
+// Definindo os tipos manualmente para não depender de bibliotecas externas complexas
+interface MyComponentProps {
   fen: string;
-};
+  setStateValue: (key: string, value: any) => void;
+}
 
-export type MyComponentProps = Pick<
-  FrontendRendererArgs<MyComponentStateShape, MyComponentDataShape>,
-  "setStateValue"
-> &
-  MyComponentDataShape;
-
-
-// --------- Componente ---------
-
-const MyComponent: FC<MyComponentProps> = ({
-  fen,
-  setStateValue,
-}): ReactElement => {
+const MyComponent: FC<MyComponentProps> = ({ fen, setStateValue }): ReactElement => {
   const boardRef = useRef<HTMLDivElement | null>(null);
   const apiRef = useRef<Api | null>(null);
 
-  // Inicializa o Chessground UMA vez
+  // Inicialização (Montagem)
   useEffect(() => {
     if (!boardRef.current) return;
 
     const config: Config = {
-      fen,
+      fen: fen,
       orientation: "white",
       movable: {
         free: false,
@@ -48,10 +30,12 @@ const MyComponent: FC<MyComponentProps> = ({
         events: {
           after: (orig, dest) => {
             const uci = `${orig}${dest}`;
+            // Manda o movimento para o index.tsx, que manda para o Python
             setStateValue("uci_move", uci);
           },
         },
       },
+      animation: { enabled: true, duration: 200 },
     };
 
     apiRef.current = Chessground(boardRef.current, config);
@@ -60,28 +44,28 @@ const MyComponent: FC<MyComponentProps> = ({
       apiRef.current?.destroy();
       apiRef.current = null;
     };
-  }, []);
+  }, []); // Array vazio = roda só uma vez
 
-  // Atualiza o FEN quando o Python mudar
+  // Atualização (Quando o FEN muda)
   useEffect(() => {
     if (apiRef.current) {
-      apiRef.current.set({ fen });
+      apiRef.current.set({ fen: fen });
     }
   }, [fen]);
 
-return (
+  return (
     <div style={{ 
       display: 'flex', 
-      justifyContent: 'center', 
-      padding: '20px',
-      background: '#f0f0f0' // Fundo cinza para provar que o container existe
+      justifyContent: 'center',
+      padding: '10px'
     }}>
+      {/* Container do Tabuleiro */}
       <div
         ref={boardRef}
         style={{
-          width: "500px",       // Tamanho FIXO para garantir que não colapse
-          height: "500px",      // Altura FIXA é obrigatória pro Chessground
-          border: "5px solid red" // Borda de debug (remova depois)
+          width: "500px",  
+          height: "500px", 
+          border: "5px solid #4a4a4a"
         }}
       />
     </div>
