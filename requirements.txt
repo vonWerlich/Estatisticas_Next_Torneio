@@ -5,3 +5,4 @@ streamlit-aggrid
 streamlit-elements
 requests
 python-chess
+streamlit>=1.49.0
