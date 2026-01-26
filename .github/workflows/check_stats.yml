@@ -24,7 +24,7 @@ jobs:
         run: pip install requests
 
       - name: Run Unified Monthly Update
-        run: python check_status_everyone_everything.py
+        run: python scripts_cron/check_status_everyone_everything.py
       
       - name: Pull latest changes to avoid conflicts
         run: |

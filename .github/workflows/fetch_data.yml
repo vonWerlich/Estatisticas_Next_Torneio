@@ -25,7 +25,7 @@ jobs:
         run: pip install requests pandas ndjson
 
       - name: Run lightweight update script
-        run: python update_tournaments.py
+        run: python scripts_cron/update_tournaments.py
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5

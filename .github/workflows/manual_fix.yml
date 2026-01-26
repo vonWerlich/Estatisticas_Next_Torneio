@@ -23,7 +23,7 @@ jobs:
         run: pip install requests pandas ndjson
 
       - name: Run History Fix Script
-        run: python fix_history.py
+        run: python scripts_cron/fix_history.py
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
