@@ -1,0 +1,35 @@
+{
+  "id": "sdQKIzRl",
+  "createdBy": "kp-next",
+  "startsAt": "2020-12-19T18:00:00Z",
+  "name": "Campeonato Xadrez Rápido 2020",
+  "clock": {
+    "limit": 420,
+    "increment": 5
+  },
+  "variant": "standard",
+  "round": 7,
+  "nbRounds": 7,
+  "nbPlayers": 51,
+  "nbOngoing": 0,
+  "status": "finished",
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Play your games",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "rated": true,
+  "stats": {
+    "games": 125,
+    "whiteWins": 124,
+    "blackWins": 118,
+    "draws": 8,
+    "byes": 6,
+    "absences": 93,
+    "averageRating": 1701
+  }
+}

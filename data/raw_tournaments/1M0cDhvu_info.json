@@ -1,0 +1,182 @@
+{
+  "nbPlayers": 25,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "Gustavo972",
+      "rank": 1,
+      "rating": 1478,
+      "score": 14,
+      "nb": {
+        "game": 9,
+        "berserk": 0,
+        "win": 7
+      },
+      "performance": 1834
+    },
+    {
+      "name": "Modestovic",
+      "rank": 2,
+      "rating": 1861,
+      "score": 14,
+      "nb": {
+        "game": 11,
+        "berserk": 0,
+        "win": 7
+      },
+      "performance": 1793
+    },
+    {
+      "name": "jaop",
+      "rank": 3,
+      "rating": 1475,
+      "score": 14,
+      "nb": {
+        "game": 10,
+        "berserk": 0,
+        "win": 7
+      },
+      "performance": 1749
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 65,
+    "moves": 4002,
+    "whiteWins": 38,
+    "blackWins": 26,
+    "draws": 1,
+    "berserks": 0,
+    "averageRating": 1603
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "Gustavo972",
+        "rank": 1,
+        "rating": 1478,
+        "score": 14,
+        "sheet": {
+          "scores": "022222220"
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 2,
+        "rating": 1861,
+        "score": 14,
+        "sheet": {
+          "scores": "22220020220"
+        }
+      },
+      {
+        "name": "jaop",
+        "rank": 3,
+        "rating": 1475,
+        "score": 14,
+        "sheet": {
+          "scores": "2022202022"
+        }
+      },
+      {
+        "name": "jvfma",
+        "rank": 4,
+        "rating": 2102,
+        "score": 12,
+        "sheet": {
+          "scores": "0222222"
+        }
+      },
+      {
+        "name": "KP-NexT",
+        "flair": "symbols.fleur-de-lis",
+        "rank": 5,
+        "rating": 1941,
+        "score": 10,
+        "sheet": {
+          "scores": "22022020"
+        }
+      },
+      {
+        "name": "cpjunior",
+        "rank": 6,
+        "rating": 1500,
+        "score": 8,
+        "sheet": {
+          "scores": "02222"
+        },
+        "provisional": true
+      },
+      {
+        "name": "GioCapo",
+        "flair": "activity.chess-pawn",
+        "rank": 7,
+        "rating": 1997,
+        "score": 8,
+        "sheet": {
+          "scores": "22022"
+        }
+      },
+      {
+        "name": "LeonardoLGS",
+        "rank": 8,
+        "rating": 1945,
+        "score": 8,
+        "sheet": {
+          "scores": "202022"
+        }
+      },
+      {
+        "name": "RafaBabu",
+        "rank": 9,
+        "rating": 1543,
+        "score": 8,
+        "sheet": {
+          "scores": "002202002"
+        }
+      },
+      {
+        "name": "DantonJosh",
+        "flair": "symbols.rainbow-flag",
+        "rank": 10,
+        "rating": 1060,
+        "score": 7,
+        "sheet": {
+          "scores": "00000020122"
+        },
+        "provisional": true
+      }
+    ]
+  },
+  "id": "1M0cDhvu",
+  "createdBy": "the-chemist",
+  "startsAt": "2021-06-14T21:30:12Z",
+  "system": "arena",
+  "fullName": "Quarentena do Aprendiz - T49 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 360,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": false,
+  "noStreak": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento do projeto \"Quarentena Online\" do NexT, para Aprendizes (rating rápido sugerido de até 2000 pontos). Para participar basta se juntar à equipe do NexT no Lichess.",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

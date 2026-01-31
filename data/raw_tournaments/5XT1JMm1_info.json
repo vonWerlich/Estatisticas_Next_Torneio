@@ -1,0 +1,178 @@
+{
+  "nbPlayers": 24,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "the-chemist",
+      "rank": 1,
+      "rating": 2192,
+      "score": 23,
+      "nb": {
+        "game": 12,
+        "berserk": 0,
+        "win": 11
+      },
+      "performance": 2104
+    },
+    {
+      "name": "NotBrazilian",
+      "rank": 2,
+      "rating": 1906,
+      "score": 20,
+      "nb": {
+        "game": 11,
+        "berserk": 0,
+        "win": 10
+      },
+      "performance": 1835
+    },
+    {
+      "name": "Modestovic",
+      "rank": 3,
+      "rating": 1743,
+      "score": 18,
+      "nb": {
+        "game": 14,
+        "berserk": 0,
+        "win": 9
+      },
+      "performance": 1658
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 92,
+    "moves": 5503,
+    "whiteWins": 40,
+    "blackWins": 47,
+    "draws": 5,
+    "berserks": 0,
+    "averageRating": 1533
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "the-chemist",
+        "rank": 1,
+        "rating": 2192,
+        "score": 23,
+        "sheet": {
+          "scores": "222222221222"
+        }
+      },
+      {
+        "name": "NotBrazilian",
+        "rank": 2,
+        "rating": 1906,
+        "score": 20,
+        "sheet": {
+          "scores": "22222222202"
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 3,
+        "rating": 1743,
+        "score": 18,
+        "sheet": {
+          "scores": "22222000222200"
+        }
+      },
+      {
+        "name": "vonWerlich",
+        "rank": 4,
+        "rating": 2050,
+        "score": 14,
+        "sheet": {
+          "scores": "00202222220"
+        }
+      },
+      {
+        "name": "Claudio1414",
+        "rank": 5,
+        "rating": 1565,
+        "score": 14,
+        "sheet": {
+          "scores": "020220222020"
+        }
+      },
+      {
+        "name": "calebeklazzarotti",
+        "flair": "symbols.japanese-symbol-for-beginner",
+        "rank": 6,
+        "rating": 2112,
+        "score": 13,
+        "sheet": {
+          "scores": "2221222"
+        }
+      },
+      {
+        "name": "Gustavo972",
+        "rank": 7,
+        "rating": 1350,
+        "score": 13,
+        "sheet": {
+          "scores": "00202222201"
+        }
+      },
+      {
+        "name": "yusanamignoni",
+        "rank": 8,
+        "rating": 1994,
+        "score": 10,
+        "sheet": {
+          "scores": "02202202"
+        }
+      },
+      {
+        "name": "jaop",
+        "rank": 9,
+        "rating": 1354,
+        "score": 7,
+        "sheet": {
+          "scores": "0020000221"
+        }
+      },
+      {
+        "name": "kjess",
+        "rank": 10,
+        "rating": 1909,
+        "score": 6,
+        "sheet": {
+          "scores": "222"
+        }
+      }
+    ]
+  },
+  "id": "5XT1JMm1",
+  "createdBy": "the-chemist",
+  "startsAt": "2021-06-11T21:30:42Z",
+  "system": "arena",
+  "fullName": "NexT Quarentena Online - T51 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "blitz",
+    "name": "Blitz",
+    "icon": ")"
+  },
+  "clock": {
+    "limit": 300,
+    "increment": 3
+  },
+  "variant": "standard",
+  "rated": true,
+  "noStreak": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento do projeto \"Quarentena Online\", sem limite de rating, aberto a todos que se juntarem à equipe do NexT no Lichess (Clube Virtual Online do NexT).",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "ZxQTcoED",
+  "createdBy": "the-chemist",
+  "startsAt": "2023-11-25T17:30:00Z",
+  "name": "Aberto de Xadrez Blitz 2023-2",
+  "clock": {
+    "limit": 300,
+    "increment": 3
+  },
+  "variant": "standard",
+  "round": 7,
+  "nbRounds": 7,
+  "nbPlayers": 24,
+  "nbOngoing": 0,
+  "status": "finished",
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Play your games",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "rated": true,
+  "stats": {
+    "games": 56,
+    "whiteWins": 56,
+    "blackWins": 46,
+    "draws": 10,
+    "byes": 0,
+    "absences": 46,
+    "averageRating": 1715
+  }
+}

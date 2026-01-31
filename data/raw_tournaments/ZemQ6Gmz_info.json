@@ -1,0 +1,178 @@
+{
+  "nbPlayers": 24,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "the-chemist",
+      "rank": 1,
+      "rating": 2121,
+      "score": 29,
+      "nb": {
+        "game": 15,
+        "berserk": 0,
+        "win": 14
+      },
+      "performance": 2010
+    },
+    {
+      "name": "MestredoSul",
+      "rank": 2,
+      "rating": 2000,
+      "score": 24,
+      "nb": {
+        "game": 15,
+        "berserk": 0,
+        "win": 12
+      },
+      "performance": 1960
+    },
+    {
+      "name": "Modestovic",
+      "rank": 3,
+      "rating": 1698,
+      "score": 19,
+      "nb": {
+        "game": 13,
+        "berserk": 0,
+        "win": 9
+      },
+      "performance": 1774
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 94,
+    "moves": 5111,
+    "whiteWins": 48,
+    "blackWins": 44,
+    "draws": 2,
+    "berserks": 0,
+    "averageRating": 1506
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "the-chemist",
+        "rank": 1,
+        "rating": 2121,
+        "score": 29,
+        "sheet": {
+          "scores": "222222222212222"
+        }
+      },
+      {
+        "name": "MestredoSul",
+        "rank": 2,
+        "rating": 2000,
+        "score": 24,
+        "sheet": {
+          "scores": "022022220222222"
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 3,
+        "rating": 1698,
+        "score": 19,
+        "sheet": {
+          "scores": "2222022212020"
+        }
+      },
+      {
+        "name": "dudumello",
+        "rank": 4,
+        "rating": 1649,
+        "score": 16,
+        "sheet": {
+          "scores": "002202200202002020"
+        }
+      },
+      {
+        "name": "vonWerlich",
+        "rank": 5,
+        "rating": 1863,
+        "score": 15,
+        "sheet": {
+          "scores": "02202122220"
+        }
+      },
+      {
+        "name": "KP-NexT",
+        "flair": "symbols.fleur-de-lis",
+        "rank": 6,
+        "rating": 1772,
+        "score": 14,
+        "sheet": {
+          "scores": "2202022202"
+        }
+      },
+      {
+        "name": "NegroMestrovisk",
+        "rank": 7,
+        "rating": 1529,
+        "score": 12,
+        "sheet": {
+          "scores": "0022002202002"
+        }
+      },
+      {
+        "name": "Maycon_Schlickmann",
+        "rank": 8,
+        "rating": 1541,
+        "score": 10,
+        "sheet": {
+          "scores": "00200220202"
+        }
+      },
+      {
+        "name": "franfilth",
+        "rank": 9,
+        "rating": 1364,
+        "score": 8,
+        "sheet": {
+          "scores": "020002202"
+        }
+      },
+      {
+        "name": "pollhein1",
+        "rank": 10,
+        "rating": 1802,
+        "score": 6,
+        "sheet": {
+          "scores": "02022"
+        }
+      }
+    ]
+  },
+  "id": "ZemQ6Gmz",
+  "createdBy": "kp-next",
+  "startsAt": "2020-09-18T21:30:26Z",
+  "system": "arena",
+  "fullName": "NexT Quarentena Online - T20 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "blitz",
+    "name": "Blitz",
+    "icon": ")"
+  },
+  "clock": {
+    "limit": 300,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": true,
+  "noStreak": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento do projeto \"Quarentena Online\", sem limite de rating, aberto a todos os membros inscritos no Clube Virtual Online do NexT (equipe do NexT no Lichess).",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

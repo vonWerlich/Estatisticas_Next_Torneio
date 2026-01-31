@@ -1,0 +1,181 @@
+{
+  "nbPlayers": 14,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "the-chemist",
+      "rank": 1,
+      "rating": 2108,
+      "score": 36,
+      "nb": {
+        "game": 12,
+        "berserk": 0,
+        "win": 11
+      },
+      "performance": 1995
+    },
+    {
+      "name": "vonWerlich",
+      "rank": 2,
+      "rating": 2168,
+      "score": 32,
+      "nb": {
+        "game": 13,
+        "berserk": 3,
+        "win": 10
+      },
+      "performance": 1968
+    },
+    {
+      "name": "MarcusZulu",
+      "rank": 3,
+      "rating": 2033,
+      "score": 16,
+      "nb": {
+        "game": 9,
+        "berserk": 0,
+        "win": 6
+      },
+      "performance": 1949
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 58,
+    "moves": 3485,
+    "whiteWins": 34,
+    "blackWins": 22,
+    "draws": 2,
+    "berserks": 4,
+    "averageRating": 1664
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "the-chemist",
+        "rank": 1,
+        "rating": 2108,
+        "score": 36,
+        "sheet": {
+          "scores": "444442204422",
+          "fire": true
+        }
+      },
+      {
+        "name": "vonWerlich",
+        "rank": 2,
+        "rating": 2168,
+        "score": 32,
+        "sheet": {
+          "scores": "3022022444522"
+        }
+      },
+      {
+        "name": "MarcusZulu",
+        "rank": 3,
+        "rating": 2033,
+        "score": 16,
+        "sheet": {
+          "scores": "200442202"
+        }
+      },
+      {
+        "name": "Balzabouth",
+        "flair": "people.love-you-gesture-light-skin-tone",
+        "rank": 4,
+        "rating": 1700,
+        "score": 16,
+        "sheet": {
+          "scores": "0044220220"
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 5,
+        "rating": 1707,
+        "score": 14,
+        "sheet": {
+          "scores": "20200202020220"
+        }
+      },
+      {
+        "name": "jorgeguimaraess",
+        "rank": 6,
+        "rating": 1573,
+        "score": 10,
+        "sheet": {
+          "scores": "020000422"
+        },
+        "provisional": true
+      },
+      {
+        "name": "LFNishi",
+        "rank": 7,
+        "rating": 1694,
+        "score": 9,
+        "sheet": {
+          "scores": "220221",
+          "fire": true
+        }
+      },
+      {
+        "name": "JohnWick-NexT",
+        "rank": 8,
+        "rating": 1709,
+        "score": 6,
+        "sheet": {
+          "scores": "0020220"
+        }
+      },
+      {
+        "name": "Mano-NexT-xadrez",
+        "rank": 9,
+        "rating": 1210,
+        "score": 4,
+        "sheet": {
+          "scores": "002002"
+        }
+      },
+      {
+        "name": "PedroNEXT",
+        "rank": 10,
+        "rating": 1323,
+        "score": 3,
+        "sheet": {
+          "scores": "01000002"
+        }
+      }
+    ]
+  },
+  "id": "BmM2TlmQ",
+  "createdBy": "the-chemist",
+  "startsAt": "2024-12-06T21:30:00Z",
+  "system": "arena",
+  "fullName": "Sextas Online - GP 2024-2 T18 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "blitz",
+    "name": "Blitz",
+    "icon": ")"
+  },
+  "clock": {
+    "limit": 300,
+    "increment": 3
+  },
+  "variant": "standard",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento da ação \"Sextas Online\" do projeto \"Comunidade de Prática Online\" do NexT, sem limite de rating e aberto a todos que se juntarem à equipe do NexT no Lichess. Válido para o Grand Prix 2024-2 na categoria \"Rating Performance\" (válido para contas que não violarem os Termos de Serviço do Lichess e ou não tiverem sido encerradas).",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

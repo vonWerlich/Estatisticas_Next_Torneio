@@ -1,0 +1,184 @@
+{
+  "nbPlayers": 17,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "justicechampx",
+      "rank": 1,
+      "rating": 2011,
+      "score": 34,
+      "nb": {
+        "game": 10,
+        "berserk": 2,
+        "win": 9
+      },
+      "performance": 2164
+    },
+    {
+      "name": "vonWerlich",
+      "rank": 2,
+      "rating": 2238,
+      "score": 32,
+      "nb": {
+        "game": 12,
+        "berserk": 5,
+        "win": 9
+      },
+      "performance": 1888
+    },
+    {
+      "name": "NeoMaverWick",
+      "flair": "symbols.fleur-de-lis",
+      "rank": 3,
+      "rating": 1842,
+      "score": 26,
+      "nb": {
+        "game": 9,
+        "berserk": 0,
+        "win": 8
+      },
+      "performance": 1918
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 57,
+    "moves": 3368,
+    "whiteWins": 29,
+    "blackWins": 27,
+    "draws": 1,
+    "berserks": 8,
+    "averageRating": 1636
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "justicechampx",
+        "rank": 1,
+        "rating": 2011,
+        "score": 34,
+        "sheet": {
+          "scores": "2245444522"
+        }
+      },
+      {
+        "name": "vonWerlich",
+        "rank": 2,
+        "rating": 2238,
+        "score": 32,
+        "sheet": {
+          "scores": "331205454230",
+          "fire": true
+        }
+      },
+      {
+        "name": "NeoMaverWick",
+        "flair": "symbols.fleur-de-lis",
+        "rank": 3,
+        "rating": 1842,
+        "score": 26,
+        "sheet": {
+          "scores": "444442202",
+          "fire": true
+        }
+      },
+      {
+        "name": "the-chemist",
+        "rank": 4,
+        "rating": 2303,
+        "score": 16,
+        "sheet": {
+          "scores": "44422",
+          "fire": true
+        }
+      },
+      {
+        "name": "LeonardoLGS",
+        "rank": 5,
+        "rating": 2072,
+        "score": 13,
+        "sheet": {
+          "scores": "4423",
+          "fire": true
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 6,
+        "rating": 1795,
+        "score": 10,
+        "sheet": {
+          "scores": "0200202022"
+        }
+      },
+      {
+        "name": "DantonJosh",
+        "flair": "symbols.rainbow-flag",
+        "rank": 7,
+        "rating": 1413,
+        "score": 8,
+        "sheet": {
+          "scores": "20000002202"
+        }
+      },
+      {
+        "name": "AlexanderMAVC",
+        "rank": 8,
+        "rating": 1715,
+        "score": 6,
+        "sheet": {
+          "scores": "000200022"
+        }
+      },
+      {
+        "name": "Claudio1414",
+        "rank": 9,
+        "rating": 1613,
+        "score": 4,
+        "sheet": {
+          "scores": "002002"
+        }
+      },
+      {
+        "name": "gagomago",
+        "rank": 10,
+        "rating": 1238,
+        "score": 4,
+        "sheet": {
+          "scores": "000202"
+        }
+      }
+    ]
+  },
+  "id": "PX7AaFjx",
+  "createdBy": "the-chemist",
+  "startsAt": "2022-10-14T21:30:00Z",
+  "system": "arena",
+  "fullName": "Sextas Online - GP 2022-2 T16 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 360,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento da ação \"Sextas Online\" do projeto \"Comunidade de Prática Online\" do NexT, sem limite de rating e aberto a todos que se juntarem à equipe do NexT no Lichess. Válido para o Grand Prix 2022-2 nas categorias \"Rating Performance\" e \"Participação\" (maiores informações em: http://nextxadrez.blogspot.com/2022/06/grand-prix-sextas-online.html)",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

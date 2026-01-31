@@ -1,0 +1,182 @@
+{
+  "nbPlayers": 22,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "PETROSIAN-AGRESSIVO",
+      "rank": 1,
+      "rating": 1910,
+      "score": 18,
+      "provisional": true,
+      "nb": {
+        "game": 10,
+        "berserk": 0,
+        "win": 9
+      },
+      "performance": 1961
+    },
+    {
+      "name": "calebeklazzarotti",
+      "flair": "symbols.japanese-symbol-for-beginner",
+      "rank": 2,
+      "rating": 1933,
+      "score": 14,
+      "nb": {
+        "game": 8,
+        "berserk": 0,
+        "win": 7
+      },
+      "performance": 1990
+    },
+    {
+      "name": "DuuNexT",
+      "rank": 3,
+      "rating": 1706,
+      "score": 12,
+      "nb": {
+        "game": 10,
+        "berserk": 0,
+        "win": 6
+      },
+      "performance": 1692
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 84,
+    "moves": 4924,
+    "whiteWins": 42,
+    "blackWins": 39,
+    "draws": 3,
+    "berserks": 0,
+    "averageRating": 1497
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "PETROSIAN-AGRESSIVO",
+        "rank": 1,
+        "rating": 1910,
+        "score": 18,
+        "sheet": {
+          "scores": "2222222220"
+        },
+        "provisional": true
+      },
+      {
+        "name": "calebeklazzarotti",
+        "flair": "symbols.japanese-symbol-for-beginner",
+        "rank": 2,
+        "rating": 1933,
+        "score": 14,
+        "sheet": {
+          "scores": "22222202"
+        }
+      },
+      {
+        "name": "DuuNexT",
+        "rank": 3,
+        "rating": 1706,
+        "score": 12,
+        "sheet": {
+          "scores": "0002222022"
+        }
+      },
+      {
+        "name": "topera94",
+        "rank": 4,
+        "rating": 1541,
+        "score": 12,
+        "sheet": {
+          "scores": "0200220002220"
+        },
+        "provisional": true
+      },
+      {
+        "name": "Gullermo_Lovera",
+        "rank": 5,
+        "rating": 1594,
+        "score": 12,
+        "sheet": {
+          "scores": "022200220200"
+        }
+      },
+      {
+        "name": "PedroNEXT",
+        "rank": 6,
+        "rating": 1281,
+        "score": 11,
+        "sheet": {
+          "scores": "22022012"
+        }
+      },
+      {
+        "name": "AdilioLessa",
+        "rank": 7,
+        "rating": 1730,
+        "score": 10,
+        "sheet": {
+          "scores": "00222220"
+        }
+      },
+      {
+        "name": "jaop",
+        "rank": 8,
+        "rating": 1459,
+        "score": 10,
+        "sheet": {
+          "scores": "02000200222"
+        }
+      },
+      {
+        "name": "D-Ruas",
+        "rank": 9,
+        "rating": 1739,
+        "score": 8,
+        "sheet": {
+          "scores": "2002022"
+        }
+      },
+      {
+        "name": "Matheus447",
+        "rank": 10,
+        "rating": 1606,
+        "score": 8,
+        "sheet": {
+          "scores": "222200"
+        }
+      }
+    ]
+  },
+  "id": "1cm9TQot",
+  "createdBy": "kp-next",
+  "startsAt": "2020-11-30T21:30:12Z",
+  "system": "arena",
+  "fullName": "Quarentena do Aprendiz - T27 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 420,
+    "increment": 5
+  },
+  "variant": "standard",
+  "rated": true,
+  "noStreak": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento do projeto \"Quarentena Online\" do NexT, para Aprendizes (rating rápido sugerido de até 1800 pontos). Para participar basta estar inscrito na equipe do NexT no Lichess.",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

@@ -1,0 +1,177 @@
+{
+  "nbPlayers": 24,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "vonWerlich",
+      "rank": 1,
+      "rating": 2110,
+      "score": 22,
+      "nb": {
+        "game": 12,
+        "berserk": 0,
+        "win": 10
+      },
+      "performance": 1954
+    },
+    {
+      "name": "Modestovic",
+      "rank": 2,
+      "rating": 1758,
+      "score": 16,
+      "nb": {
+        "game": 14,
+        "berserk": 0,
+        "win": 7
+      },
+      "performance": 1617
+    },
+    {
+      "name": "TarcisioCura",
+      "rank": 3,
+      "rating": 1743,
+      "score": 14,
+      "nb": {
+        "game": 8,
+        "berserk": 0,
+        "win": 7
+      },
+      "performance": 1811
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 80,
+    "moves": 4507,
+    "whiteWins": 37,
+    "blackWins": 35,
+    "draws": 8,
+    "berserks": 0,
+    "averageRating": 1422
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "vonWerlich",
+        "rank": 1,
+        "rating": 2110,
+        "score": 22,
+        "sheet": {
+          "scores": "222222222121"
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 2,
+        "rating": 1758,
+        "score": 16,
+        "sheet": {
+          "scores": "20202021202120"
+        }
+      },
+      {
+        "name": "TarcisioCura",
+        "rank": 3,
+        "rating": 1743,
+        "score": 14,
+        "sheet": {
+          "scores": "20222222"
+        }
+      },
+      {
+        "name": "DuuDragao_Next",
+        "rank": 4,
+        "rating": 1514,
+        "score": 13,
+        "sheet": {
+          "scores": "210022222"
+        }
+      },
+      {
+        "name": "Mugrilo18",
+        "rank": 5,
+        "rating": 1369,
+        "score": 13,
+        "sheet": {
+          "scores": "02010022222"
+        }
+      },
+      {
+        "name": "RafaBabu",
+        "rank": 6,
+        "rating": 1299,
+        "score": 11,
+        "sheet": {
+          "scores": "0102220202"
+        }
+      },
+      {
+        "name": "the-chemist",
+        "rank": 7,
+        "rating": 2126,
+        "score": 10,
+        "sheet": {
+          "scores": "02022121"
+        }
+      },
+      {
+        "name": "Gustavo972",
+        "rank": 8,
+        "rating": 1455,
+        "score": 10,
+        "sheet": {
+          "scores": "20112202"
+        }
+      },
+      {
+        "name": "JohnWick-NexT",
+        "rank": 9,
+        "rating": 2017,
+        "score": 8,
+        "sheet": {
+          "scores": "2222"
+        }
+      },
+      {
+        "name": "PedroNEXT",
+        "rank": 10,
+        "rating": 1271,
+        "score": 8,
+        "sheet": {
+          "scores": "202200002"
+        }
+      }
+    ]
+  },
+  "id": "IVqt5tNF",
+  "createdBy": "the-chemist",
+  "startsAt": "2021-08-13T21:30:18Z",
+  "system": "arena",
+  "fullName": "NexT Quarentena Online - T60 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "blitz",
+    "name": "Blitz",
+    "icon": ")"
+  },
+  "clock": {
+    "limit": 300,
+    "increment": 3
+  },
+  "variant": "standard",
+  "rated": true,
+  "noStreak": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento do projeto \"Quarentena Online\", sem limite de rating, aberto a todos que se juntarem à equipe do NexT no Lichess (Clube Virtual Online do NexT).",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

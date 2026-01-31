@@ -1,0 +1,187 @@
+{
+  "nbPlayers": 59,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "nextCUBAxadrez",
+      "rank": 1,
+      "rating": 2258,
+      "score": 36,
+      "nb": {
+        "game": 10,
+        "berserk": 0,
+        "win": 10
+      },
+      "performance": 2307
+    },
+    {
+      "name": "ScHuinDt",
+      "rank": 2,
+      "rating": 2140,
+      "score": 36,
+      "nb": {
+        "game": 10,
+        "berserk": 0,
+        "win": 10
+      },
+      "performance": 2203
+    },
+    {
+      "name": "kronossaurus",
+      "rank": 3,
+      "rating": 2058,
+      "score": 35,
+      "nb": {
+        "game": 17,
+        "berserk": 0,
+        "win": 12
+      },
+      "performance": 1941
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 227,
+    "moves": 14506,
+    "whiteWins": 111,
+    "blackWins": 107,
+    "draws": 9,
+    "berserks": 0,
+    "averageRating": 1518
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "nextCUBAxadrez",
+        "rank": 1,
+        "rating": 2258,
+        "score": 36,
+        "sheet": {
+          "scores": "4444444422",
+          "fire": true
+        }
+      },
+      {
+        "name": "ScHuinDt",
+        "rank": 2,
+        "rating": 2140,
+        "score": 36,
+        "sheet": {
+          "scores": "4444444422",
+          "fire": true
+        }
+      },
+      {
+        "name": "kronossaurus",
+        "rank": 3,
+        "rating": 2058,
+        "score": 35,
+        "sheet": {
+          "scores": "04422020422044221"
+        }
+      },
+      {
+        "name": "the-chemist",
+        "rank": 4,
+        "rating": 1812,
+        "score": 28,
+        "sheet": {
+          "scores": "2204444220022",
+          "fire": true
+        },
+        "provisional": true
+      },
+      {
+        "name": "Laerte3",
+        "rank": 5,
+        "rating": 1813,
+        "score": 28,
+        "sheet": {
+          "scores": "422022444220",
+          "fire": true
+        },
+        "provisional": true
+      },
+      {
+        "name": "Ronnieryb",
+        "rank": 6,
+        "rating": 1871,
+        "score": 26,
+        "sheet": {
+          "scores": "44422042202",
+          "fire": true
+        }
+      },
+      {
+        "name": "KP-NexT",
+        "flair": "symbols.fleur-de-lis",
+        "rank": 7,
+        "rating": 1801,
+        "score": 24,
+        "sheet": {
+          "scores": "2200444422",
+          "fire": true
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 8,
+        "rating": 1691,
+        "score": 20,
+        "sheet": {
+          "scores": "0220444220"
+        }
+      },
+      {
+        "name": "vonWerlich",
+        "rank": 9,
+        "rating": 1800,
+        "score": 20,
+        "sheet": {
+          "scores": "4442202020",
+          "fire": true
+        }
+      },
+      {
+        "name": "chape",
+        "rank": 10,
+        "rating": 2026,
+        "score": 19,
+        "sheet": {
+          "scores": "42202004221",
+          "fire": true
+        }
+      }
+    ]
+  },
+  "id": "oOr6IfsX",
+  "createdBy": "kp-next",
+  "startsAt": "2020-05-08T21:30:00Z",
+  "system": "arena",
+  "fullName": "NexT Quarentena Online - T1 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "blitz",
+    "name": "Blitz",
+    "icon": ")"
+  },
+  "clock": {
+    "limit": 300,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio Amistoso de Treinamento do Projeto \"NexT Quarentena Online\", aberto a todos os membros inscritos no Clube Virtual Online do NexT (a Comunidade de Prática Online do Núcleo de Estudos em Xadrez & Tecnologias da UDESC no Lichess).",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

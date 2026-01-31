@@ -1,0 +1,35 @@
+{
+  "id": "RwXxupna",
+  "createdBy": "the-chemist",
+  "startsAt": "2025-11-22T16:30:00Z",
+  "name": "NexT Freestyle Open 2025-2",
+  "clock": {
+    "limit": 360,
+    "increment": 2
+  },
+  "variant": "chess960",
+  "round": 7,
+  "nbRounds": 7,
+  "nbPlayers": 17,
+  "nbOngoing": 0,
+  "status": "finished",
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Play your games",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "rated": true,
+  "stats": {
+    "games": 40,
+    "whiteWins": 40,
+    "blackWins": 40,
+    "draws": 0,
+    "byes": 4,
+    "absences": 34,
+    "averageRating": 1658
+  }
+}

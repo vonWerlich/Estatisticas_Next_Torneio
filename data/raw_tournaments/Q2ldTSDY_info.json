@@ -1,0 +1,186 @@
+{
+  "nbPlayers": 11,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "marcosmolina",
+      "flair": "activity.chess-pawn",
+      "rank": 1,
+      "rating": 1726,
+      "score": 18,
+      "nb": {
+        "game": 11,
+        "berserk": 0,
+        "win": 9
+      },
+      "performance": 1740
+    },
+    {
+      "name": "jaop",
+      "rank": 2,
+      "rating": 1392,
+      "score": 16,
+      "nb": {
+        "game": 10,
+        "berserk": 0,
+        "win": 8
+      },
+      "performance": 1623
+    },
+    {
+      "name": "franfilth",
+      "rank": 3,
+      "rating": 1553,
+      "score": 12,
+      "nb": {
+        "game": 9,
+        "berserk": 0,
+        "win": 6
+      },
+      "performance": 1632
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 42,
+    "moves": 2535,
+    "whiteWins": 17,
+    "blackWins": 24,
+    "draws": 1,
+    "berserks": 0,
+    "averageRating": 1345
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "marcosmolina",
+        "flair": "activity.chess-pawn",
+        "rank": 1,
+        "rating": 1726,
+        "score": 18,
+        "sheet": {
+          "scores": "22222220022"
+        }
+      },
+      {
+        "name": "jaop",
+        "rank": 2,
+        "rating": 1392,
+        "score": 16,
+        "sheet": {
+          "scores": "2222022220"
+        }
+      },
+      {
+        "name": "franfilth",
+        "rank": 3,
+        "rating": 1553,
+        "score": 12,
+        "sheet": {
+          "scores": "020222220"
+        }
+      },
+      {
+        "name": "Destiny_Player",
+        "rank": 4,
+        "rating": 1488,
+        "score": 10,
+        "sheet": {
+          "scores": "002202022"
+        }
+      },
+      {
+        "name": "NegroMestrovisk",
+        "rank": 5,
+        "rating": 1524,
+        "score": 8,
+        "sheet": {
+          "scores": "0022200020"
+        }
+      },
+      {
+        "name": "axt2106",
+        "rank": 6,
+        "rating": 1161,
+        "score": 6,
+        "sheet": {
+          "scores": "20002200"
+        }
+      },
+      {
+        "name": "Claudio1414",
+        "rank": 7,
+        "rating": 1494,
+        "score": 4,
+        "sheet": {
+          "scores": "0202000"
+        }
+      },
+      {
+        "name": "Gus_da_Brasa",
+        "rank": 8,
+        "rating": 1053,
+        "score": 3,
+        "sheet": {
+          "scores": "00012"
+        }
+      },
+      {
+        "name": "PedroNEXT",
+        "rank": 9,
+        "rating": 1166,
+        "score": 3,
+        "sheet": {
+          "scores": "000102"
+        }
+      },
+      {
+        "name": "hermesthatgoout",
+        "rank": 10,
+        "rating": 1361,
+        "score": 2,
+        "sheet": {
+          "scores": "2"
+        }
+      }
+    ]
+  },
+  "id": "Q2ldTSDY",
+  "createdBy": "kp-next",
+  "startsAt": "2020-08-31T21:30:39Z",
+  "system": "arena",
+  "fullName": "Quarentena do Aprendiz - T14 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 420,
+    "increment": 5
+  },
+  "variant": "standard",
+  "rated": true,
+  "noStreak": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Rated ≤ 1800 in Rapid for the last week",
+        "verdict": "ok"
+      },
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento do projeto \"Quarentena Online\" do NexT, para aprendizes (rating rápido de até 1800 pontos). Para participar é necessário ter um rating rápido já estabilizado (não provisório) e estar inscrito na equipe do NexT.",
+  "maxRating": {
+    "rating": 1800
+  },
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

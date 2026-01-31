@@ -1,0 +1,35 @@
+{
+  "id": "53hK439l",
+  "createdBy": "the-chemist",
+  "startsAt": "2022-11-26T18:05:00Z",
+  "name": "Aberto de Xadrez Blitz 2022-2",
+  "clock": {
+    "limit": 300,
+    "increment": 3
+  },
+  "variant": "standard",
+  "round": 7,
+  "nbRounds": 7,
+  "nbPlayers": 16,
+  "nbOngoing": 0,
+  "status": "finished",
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Play your games",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "rated": true,
+  "stats": {
+    "games": 43,
+    "whiteWins": 40,
+    "blackWins": 46,
+    "draws": 0,
+    "byes": 5,
+    "absences": 18,
+    "averageRating": 1682
+  }
+}

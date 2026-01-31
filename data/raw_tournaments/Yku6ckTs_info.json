@@ -1,0 +1,178 @@
+{
+  "nbPlayers": 21,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "justicechampx",
+      "rank": 1,
+      "rating": 1893,
+      "score": 17,
+      "nb": {
+        "game": 9,
+        "berserk": 0,
+        "win": 8
+      },
+      "performance": 2047
+    },
+    {
+      "name": "the-chemist",
+      "rank": 2,
+      "rating": 2024,
+      "score": 17,
+      "nb": {
+        "game": 11,
+        "berserk": 0,
+        "win": 8
+      },
+      "performance": 1959
+    },
+    {
+      "name": "NegroMestrovisk",
+      "rank": 3,
+      "rating": 1560,
+      "score": 16,
+      "nb": {
+        "game": 11,
+        "berserk": 0,
+        "win": 8
+      },
+      "performance": 1775
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 66,
+    "moves": 4426,
+    "whiteWins": 34,
+    "blackWins": 27,
+    "draws": 5,
+    "berserks": 0,
+    "averageRating": 1534
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "justicechampx",
+        "rank": 1,
+        "rating": 1893,
+        "score": 17,
+        "sheet": {
+          "scores": "212222222"
+        }
+      },
+      {
+        "name": "the-chemist",
+        "rank": 2,
+        "rating": 2024,
+        "score": 17,
+        "sheet": {
+          "scores": "21202222220"
+        }
+      },
+      {
+        "name": "NegroMestrovisk",
+        "rank": 3,
+        "rating": 1560,
+        "score": 16,
+        "sheet": {
+          "scores": "02222022202"
+        }
+      },
+      {
+        "name": "vonWerlich",
+        "rank": 4,
+        "rating": 1894,
+        "score": 12,
+        "sheet": {
+          "scores": "122120220"
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 5,
+        "rating": 1760,
+        "score": 12,
+        "sheet": {
+          "scores": "2210220021"
+        }
+      },
+      {
+        "name": "chape",
+        "rank": 6,
+        "rating": 1976,
+        "score": 11,
+        "sheet": {
+          "scores": "12220202"
+        }
+      },
+      {
+        "name": "RaphaelW",
+        "rank": 7,
+        "rating": 1456,
+        "score": 7,
+        "sheet": {
+          "scores": "12202"
+        }
+      },
+      {
+        "name": "valentinahinke",
+        "rank": 8,
+        "rating": 1627,
+        "score": 6,
+        "sheet": {
+          "scores": "00002002002"
+        }
+      },
+      {
+        "name": "KP-NexT",
+        "flair": "symbols.fleur-de-lis",
+        "rank": 9,
+        "rating": 1776,
+        "score": 6,
+        "sheet": {
+          "scores": "100002021"
+        }
+      },
+      {
+        "name": "proneer",
+        "rank": 10,
+        "rating": 1414,
+        "score": 6,
+        "sheet": {
+          "scores": "220020"
+        }
+      }
+    ]
+  },
+  "id": "Yku6ckTs",
+  "createdBy": "kp-next",
+  "startsAt": "2020-08-14T21:30:23Z",
+  "system": "arena",
+  "fullName": "NexT Quarentena Online - T15 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "blitz",
+    "name": "Blitz",
+    "icon": ")"
+  },
+  "clock": {
+    "limit": 300,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": true,
+  "noStreak": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento do projeto \"Quarentena Online\", sem limite de rating, aberto a todos os membros inscritos no Clube Virtual Online do NexT (equipe do NexT no Lichess).",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

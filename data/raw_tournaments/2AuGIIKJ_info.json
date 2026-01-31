@@ -1,0 +1,177 @@
+{
+  "nbPlayers": 16,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "LulU2007",
+      "rank": 1,
+      "rating": 1720,
+      "score": 23,
+      "nb": {
+        "game": 15,
+        "berserk": 0,
+        "win": 11
+      },
+      "performance": 1717
+    },
+    {
+      "name": "DuuNexT",
+      "rank": 2,
+      "rating": 1695,
+      "score": 21,
+      "nb": {
+        "game": 15,
+        "berserk": 0,
+        "win": 10
+      },
+      "performance": 1648
+    },
+    {
+      "name": "jaop",
+      "rank": 3,
+      "rating": 1487,
+      "score": 18,
+      "nb": {
+        "game": 13,
+        "berserk": 0,
+        "win": 9
+      },
+      "performance": 1644
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 70,
+    "moves": 3995,
+    "whiteWins": 32,
+    "blackWins": 34,
+    "draws": 4,
+    "berserks": 0,
+    "averageRating": 1393
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "LulU2007",
+        "rank": 1,
+        "rating": 1720,
+        "score": 23,
+        "sheet": {
+          "scores": "220220222222120"
+        }
+      },
+      {
+        "name": "DuuNexT",
+        "rank": 2,
+        "rating": 1695,
+        "score": 21,
+        "sheet": {
+          "scores": "122020222002222"
+        }
+      },
+      {
+        "name": "jaop",
+        "rank": 3,
+        "rating": 1487,
+        "score": 18,
+        "sheet": {
+          "scores": "0222220020222"
+        }
+      },
+      {
+        "name": "Leticia_jgua",
+        "rank": 4,
+        "rating": 1712,
+        "score": 17,
+        "sheet": {
+          "scores": "022022022212"
+        }
+      },
+      {
+        "name": "Claudio1414",
+        "rank": 5,
+        "rating": 1539,
+        "score": 13,
+        "sheet": {
+          "scores": "222220120"
+        }
+      },
+      {
+        "name": "PedroNEXT",
+        "rank": 6,
+        "rating": 1291,
+        "score": 10,
+        "sheet": {
+          "scores": "020000220220"
+        }
+      },
+      {
+        "name": "rlemos",
+        "rank": 7,
+        "rating": 1716,
+        "score": 9,
+        "sheet": {
+          "scores": "020220120"
+        }
+      },
+      {
+        "name": "Gustavo972",
+        "rank": 8,
+        "rating": 1245,
+        "score": 7,
+        "sheet": {
+          "scores": "12002020"
+        }
+      },
+      {
+        "name": "Diiieferson",
+        "rank": 9,
+        "rating": 1496,
+        "score": 6,
+        "sheet": {
+          "scores": "220200"
+        }
+      },
+      {
+        "name": "ncc_bee",
+        "rank": 10,
+        "rating": 1053,
+        "score": 5,
+        "sheet": {
+          "scores": "00010020002"
+        }
+      }
+    ]
+  },
+  "id": "2AuGIIKJ",
+  "createdBy": "kp-next",
+  "startsAt": "2020-12-07T21:30:28Z",
+  "system": "arena",
+  "fullName": "Quarentena do Aprendiz - T28 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 420,
+    "increment": 5
+  },
+  "variant": "standard",
+  "rated": true,
+  "noStreak": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento do projeto \"Quarentena Online\" do NexT, para Aprendizes (rating rápido sugerido de até 1800 pontos). Para participar basta estar inscrito na equipe do NexT no Lichess.",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

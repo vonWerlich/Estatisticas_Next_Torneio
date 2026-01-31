@@ -1,0 +1,180 @@
+{
+  "nbPlayers": 24,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "Modestovic",
+      "rank": 1,
+      "rating": 1828,
+      "score": 18,
+      "nb": {
+        "game": 12,
+        "berserk": 0,
+        "win": 9
+      },
+      "performance": 1849
+    },
+    {
+      "name": "DuuNexT",
+      "rank": 2,
+      "rating": 1786,
+      "score": 18,
+      "nb": {
+        "game": 13,
+        "berserk": 0,
+        "win": 9
+      },
+      "performance": 1678
+    },
+    {
+      "name": "Felipezandinho",
+      "rank": 3,
+      "rating": 1438,
+      "score": 16,
+      "nb": {
+        "game": 15,
+        "berserk": 0,
+        "win": 8
+      },
+      "performance": 1552
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 84,
+    "moves": 5509,
+    "whiteWins": 41,
+    "blackWins": 41,
+    "draws": 2,
+    "berserks": 0,
+    "averageRating": 1551
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "Modestovic",
+        "rank": 1,
+        "rating": 1828,
+        "score": 18,
+        "sheet": {
+          "scores": "002222220222"
+        }
+      },
+      {
+        "name": "DuuNexT",
+        "rank": 2,
+        "rating": 1786,
+        "score": 18,
+        "sheet": {
+          "scores": "2220022022220"
+        }
+      },
+      {
+        "name": "Felipezandinho",
+        "rank": 3,
+        "rating": 1438,
+        "score": 16,
+        "sheet": {
+          "scores": "220002202022002"
+        }
+      },
+      {
+        "name": "KP-NexT",
+        "flair": "symbols.fleur-de-lis",
+        "rank": 4,
+        "rating": 1941,
+        "score": 12,
+        "sheet": {
+          "scores": "022222200"
+        }
+      },
+      {
+        "name": "Gullermo_Lovera",
+        "rank": 5,
+        "rating": 1672,
+        "score": 12,
+        "sheet": {
+          "scores": "2200002222"
+        }
+      },
+      {
+        "name": "Gustavo972",
+        "rank": 6,
+        "rating": 1348,
+        "score": 12,
+        "sheet": {
+          "scores": "222220200"
+        }
+      },
+      {
+        "name": "franfilth",
+        "rank": 7,
+        "rating": 1608,
+        "score": 10,
+        "sheet": {
+          "scores": "00202222"
+        }
+      },
+      {
+        "name": "elder00",
+        "rank": 8,
+        "rating": 1543,
+        "score": 10,
+        "sheet": {
+          "scores": "2220020020"
+        },
+        "provisional": true
+      },
+      {
+        "name": "PedroNEXT",
+        "rank": 9,
+        "rating": 1263,
+        "score": 10,
+        "sheet": {
+          "scores": "220200002002"
+        }
+      },
+      {
+        "name": "DantonJosh",
+        "flair": "symbols.rainbow-flag",
+        "rank": 10,
+        "rating": 1060,
+        "score": 9,
+        "sheet": {
+          "scores": "001202022"
+        }
+      }
+    ]
+  },
+  "id": "bOLoWGd5",
+  "createdBy": "kp-next",
+  "startsAt": "2021-03-01T21:30:25Z",
+  "system": "arena",
+  "fullName": "Quarentena do Aprendiz - T34 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 360,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": false,
+  "noStreak": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento do projeto \"Quarentena Online\" do NexT, para Aprendizes (rating rápido sugerido de até 2000 pontos). Para participar basta se juntar à equipe do NexT no Lichess.",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

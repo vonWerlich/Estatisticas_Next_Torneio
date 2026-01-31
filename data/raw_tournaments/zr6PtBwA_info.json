@@ -1,0 +1,183 @@
+{
+  "nbPlayers": 51,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "vonWerlich",
+      "rank": 1,
+      "rating": 2177,
+      "score": 42,
+      "nb": {
+        "game": 17,
+        "berserk": 5,
+        "win": 12
+      },
+      "performance": 1919
+    },
+    {
+      "name": "the-chemist",
+      "rank": 2,
+      "rating": 2087,
+      "score": 36,
+      "nb": {
+        "game": 12,
+        "berserk": 0,
+        "win": 11
+      },
+      "performance": 2144
+    },
+    {
+      "name": "GabrielNLMAB251",
+      "rank": 3,
+      "rating": 1551,
+      "score": 34,
+      "nb": {
+        "game": 18,
+        "berserk": 0,
+        "win": 12
+      },
+      "performance": 1799
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 227,
+    "moves": 13269,
+    "whiteWins": 110,
+    "blackWins": 104,
+    "draws": 13,
+    "berserks": 31,
+    "averageRating": 1344
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "vonWerlich",
+        "rank": 1,
+        "rating": 2177,
+        "score": 42,
+        "sheet": {
+          "scores": "30443202454422030"
+        }
+      },
+      {
+        "name": "the-chemist",
+        "rank": 2,
+        "rating": 2087,
+        "score": 36,
+        "sheet": {
+          "scores": "444422044422",
+          "fire": true
+        }
+      },
+      {
+        "name": "GabrielNLMAB251",
+        "rank": 3,
+        "rating": 1551,
+        "score": 34,
+        "sheet": {
+          "scores": "444220020202004422",
+          "fire": true
+        }
+      },
+      {
+        "name": "AndreHLLMAB251",
+        "rank": 4,
+        "rating": 1797,
+        "score": 28,
+        "sheet": {
+          "scores": "02204444220202"
+        }
+      },
+      {
+        "name": "Rumo-ao-Rei",
+        "flair": "smileys.face-savoring-food",
+        "rank": 5,
+        "rating": 1726,
+        "score": 28,
+        "sheet": {
+          "scores": "02020422044422"
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 6,
+        "rating": 1676,
+        "score": 24,
+        "sheet": {
+          "scores": "4422002204220",
+          "fire": true
+        }
+      },
+      {
+        "name": "LFNishi",
+        "rank": 7,
+        "rating": 1681,
+        "score": 19,
+        "sheet": {
+          "scores": "0203130433"
+        }
+      },
+      {
+        "name": "ArthurALLMAA251",
+        "flair": "travel-places.moai",
+        "rank": 8,
+        "rating": 1398,
+        "score": 18,
+        "sheet": {
+          "scores": "00422033002002"
+        }
+      },
+      {
+        "name": "MATEUSSdaSLMAA251",
+        "flair": "smileys.thinking-face",
+        "rank": 9,
+        "rating": 1370,
+        "score": 18,
+        "sheet": {
+          "scores": "0020200044220020"
+        }
+      },
+      {
+        "name": "batista_aA",
+        "rank": 10,
+        "rating": 1678,
+        "score": 17,
+        "sheet": {
+          "scores": "00422042210"
+        }
+      }
+    ]
+  },
+  "id": "zr6PtBwA",
+  "createdBy": "the-chemist",
+  "startsAt": "2025-06-13T21:30:00Z",
+  "system": "arena",
+  "fullName": "NexT FullChess Series 25-1 T11 Arena",
+  "minutes": 90,
+  "perf": {
+    "key": "blitz",
+    "name": "Blitz",
+    "icon": ")"
+  },
+  "clock": {
+    "limit": 180,
+    "increment": 2
+  },
+  "variant": "standard",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio válido para o Circuito NexT FullChess Series 25-1 (válido apenas para contas que não violarem os Termos de Serviço do Lichess e/ou não tiverem sido encerradas)",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

@@ -1,0 +1,384 @@
+[
+  {
+    "rank": 1,
+    "points": 8,
+    "tieBreak": 40,
+    "rating": 2259,
+    "username": "foguetada",
+    "performance": 2316
+  },
+  {
+    "rank": 2,
+    "points": 8,
+    "tieBreak": 36,
+    "rating": 2177,
+    "username": "the-chemist",
+    "performance": 2259
+  },
+  {
+    "rank": 3,
+    "points": 6.5,
+    "tieBreak": 25,
+    "rating": 2047,
+    "username": "lferko",
+    "performance": 2188
+  },
+  {
+    "rank": 4,
+    "points": 6,
+    "tieBreak": 21,
+    "rating": 1800,
+    "username": "DinoIrs",
+    "performance": 1917
+  },
+  {
+    "rank": 5,
+    "points": 6,
+    "tieBreak": 19,
+    "rating": 1894,
+    "username": "Eusekevin",
+    "performance": 2037
+  },
+  {
+    "rank": 6,
+    "points": 5.5,
+    "tieBreak": 20,
+    "rating": 1784,
+    "username": "Modestovic",
+    "performance": 1885
+  },
+  {
+    "rank": 7,
+    "points": 5,
+    "tieBreak": 26.25,
+    "rating": 1941,
+    "username": "facs2",
+    "performance": 1920
+  },
+  {
+    "rank": 8,
+    "points": 5,
+    "tieBreak": 19,
+    "rating": 1937,
+    "username": "justicechampx",
+    "performance": 1888
+  },
+  {
+    "rank": 9,
+    "points": 5,
+    "tieBreak": 18.25,
+    "rating": 1524,
+    "username": "lemos96",
+    "performance": 1695
+  },
+  {
+    "rank": 10,
+    "points": 5,
+    "tieBreak": 17,
+    "rating": 2211,
+    "username": "vonWerlich",
+    "performance": 1861
+  },
+  {
+    "rank": 11,
+    "points": 5,
+    "tieBreak": 13.75,
+    "rating": 1891,
+    "username": "MGmaev",
+    "performance": 1724
+  },
+  {
+    "rank": 12,
+    "points": 4.5,
+    "tieBreak": 20.75,
+    "rating": 1720,
+    "username": "antonioU270819",
+    "performance": 1784
+  },
+  {
+    "rank": 13,
+    "points": 4.5,
+    "tieBreak": 16,
+    "rating": 2078,
+    "username": "kronossaurus",
+    "performance": 1862
+  },
+  {
+    "rank": 14,
+    "points": 4.5,
+    "tieBreak": 12.5,
+    "rating": 1591,
+    "username": "otaviomurara",
+    "performance": 1746
+  },
+  {
+    "rank": 15,
+    "points": 4.5,
+    "tieBreak": 11.5,
+    "rating": 1624,
+    "username": "LeonardoBatis",
+    "performance": 1706
+  },
+  {
+    "rank": 16,
+    "points": 4,
+    "tieBreak": 15,
+    "rating": 1942,
+    "username": "bruhhh09",
+    "performance": 1927,
+    "absent": true
+  },
+  {
+    "rank": 17,
+    "points": 4,
+    "tieBreak": 8,
+    "rating": 1367,
+    "username": "PedroNEXT",
+    "performance": 1524
+  },
+  {
+    "rank": 18,
+    "points": 4,
+    "tieBreak": 6,
+    "rating": 1058,
+    "username": "PhillipBrasil",
+    "performance": 1496
+  },
+  {
+    "rank": 19,
+    "points": 4,
+    "tieBreak": 4.75,
+    "rating": 1136,
+    "username": "tofubiologo",
+    "performance": 1446
+  },
+  {
+    "rank": 20,
+    "points": 3.5,
+    "tieBreak": 14.25,
+    "rating": 2041,
+    "username": "Osama4188",
+    "performance": 2048,
+    "absent": true
+  },
+  {
+    "rank": 21,
+    "points": 3,
+    "tieBreak": 8,
+    "rating": 1755,
+    "username": "TargetM",
+    "performance": 1709,
+    "absent": true
+  },
+  {
+    "rank": 22,
+    "points": 3,
+    "tieBreak": 7.5,
+    "rating": 1696,
+    "username": "deviatiy",
+    "performance": 1516,
+    "absent": true
+  },
+  {
+    "rank": 23,
+    "points": 3,
+    "tieBreak": 5.5,
+    "rating": 1417,
+    "username": "jaop",
+    "performance": 1353
+  },
+  {
+    "rank": 24,
+    "points": 3,
+    "tieBreak": 5,
+    "rating": 971,
+    "username": "gusCamargo",
+    "performance": 1061
+  },
+  {
+    "rank": 25,
+    "points": 2.5,
+    "tieBreak": 5.5,
+    "rating": 1959,
+    "username": "ESQUADRA2001",
+    "performance": 1814,
+    "absent": true
+  },
+  {
+    "rank": 26,
+    "points": 2.5,
+    "tieBreak": 5,
+    "rating": 1206,
+    "username": "DantonJosh",
+    "performance": 1070
+  },
+  {
+    "rank": 27,
+    "points": 2,
+    "tieBreak": 7,
+    "rating": 1404,
+    "username": "lopesg",
+    "performance": 1338,
+    "absent": true
+  },
+  {
+    "rank": 28,
+    "points": 2,
+    "tieBreak": 4.5,
+    "rating": 1736,
+    "username": "xadrez_cardoso",
+    "performance": 1640,
+    "absent": true
+  },
+  {
+    "rank": 29,
+    "points": 2,
+    "tieBreak": 3,
+    "rating": 1232,
+    "username": "Sempreavanti61",
+    "performance": 1434,
+    "absent": true
+  },
+  {
+    "rank": 30,
+    "points": 1.5,
+    "tieBreak": 4,
+    "rating": 1808,
+    "username": "Donec",
+    "performance": 1636,
+    "absent": true
+  },
+  {
+    "rank": 31,
+    "points": 1.5,
+    "tieBreak": 1,
+    "rating": 1270,
+    "username": "Pingox1",
+    "performance": 1337
+  },
+  {
+    "rank": 32,
+    "points": 1,
+    "tieBreak": 0,
+    "rating": 1800,
+    "username": "Diiieferson",
+    "performance": 1671,
+    "absent": true
+  },
+  {
+    "rank": 33,
+    "points": 1,
+    "tieBreak": 0,
+    "rating": 1014,
+    "username": "ncc_bee",
+    "performance": 832
+  },
+  {
+    "rank": 34,
+    "points": 0.5,
+    "tieBreak": 0,
+    "rating": 1151,
+    "username": "renmy500",
+    "performance": 732,
+    "absent": true
+  },
+  {
+    "rank": 35,
+    "points": 0.5,
+    "tieBreak": 0,
+    "rating": 1976,
+    "username": "Camaron4",
+    "performance": 597,
+    "absent": true
+  },
+  {
+    "rank": 36,
+    "points": 0,
+    "tieBreak": 0,
+    "rating": 1625,
+    "username": "MagnusLagessen",
+    "performance": 1664,
+    "absent": true
+  },
+  {
+    "rank": 37,
+    "points": 0,
+    "tieBreak": 0,
+    "rating": 1500,
+    "username": "Leandrohpaula41",
+    "performance": 1547,
+    "absent": true
+  },
+  {
+    "rank": 38,
+    "points": 0,
+    "tieBreak": 0,
+    "rating": 1639,
+    "username": "MARKbravewarrior2008",
+    "performance": 1377,
+    "absent": true
+  },
+  {
+    "rank": 39,
+    "points": 0,
+    "tieBreak": 0,
+    "rating": 1382,
+    "username": "FuntimeChica",
+    "performance": 1300,
+    "absent": true
+  },
+  {
+    "rank": 40,
+    "points": 0,
+    "tieBreak": 0,
+    "rating": 1144,
+    "username": "martin_reid",
+    "performance": 1300,
+    "absent": true
+  },
+  {
+    "rank": 41,
+    "points": 0,
+    "tieBreak": 0,
+    "rating": 1010,
+    "username": "Teu-z",
+    "performance": 1236,
+    "absent": true
+  },
+  {
+    "rank": 42,
+    "points": 0,
+    "tieBreak": 0,
+    "rating": 1500,
+    "username": "jesudasganam",
+    "performance": 1188,
+    "absent": true
+  },
+  {
+    "rank": 43,
+    "points": 0,
+    "tieBreak": 0,
+    "rating": 2108,
+    "username": "kauandrei",
+    "performance": 1124,
+    "absent": true
+  },
+  {
+    "rank": 44,
+    "points": 0,
+    "tieBreak": 0,
+    "rating": 1889,
+    "username": "SorrentinoUmberto",
+    "performance": 867,
+    "absent": true
+  },
+  {
+    "rank": 45,
+    "points": 0,
+    "tieBreak": 0,
+    "rating": 1761,
+    "username": "torneido",
+    "performance": 558,
+    "absent": true
+  }
+]

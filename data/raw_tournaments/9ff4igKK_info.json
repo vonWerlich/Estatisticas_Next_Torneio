@@ -1,0 +1,184 @@
+{
+  "nbPlayers": 17,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "vonWerlich",
+      "rank": 1,
+      "rating": 2312,
+      "score": 37,
+      "nb": {
+        "game": 11,
+        "berserk": 1,
+        "win": 10
+      },
+      "performance": 2215
+    },
+    {
+      "name": "M4m4m14",
+      "rank": 2,
+      "rating": 1969,
+      "score": 28,
+      "nb": {
+        "game": 11,
+        "berserk": 2,
+        "win": 9
+      },
+      "performance": 2024
+    },
+    {
+      "name": "the-chemist",
+      "rank": 3,
+      "rating": 2292,
+      "score": 18,
+      "nb": {
+        "game": 9,
+        "berserk": 0,
+        "win": 6
+      },
+      "performance": 1949
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 69,
+    "moves": 3825,
+    "whiteWins": 30,
+    "blackWins": 38,
+    "draws": 1,
+    "berserks": 8,
+    "averageRating": 1789
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "vonWerlich",
+        "rank": 1,
+        "rating": 2312,
+        "score": 37,
+        "sheet": {
+          "scores": "04444454422"
+        }
+      },
+      {
+        "name": "M4m4m14",
+        "rank": 2,
+        "rating": 1969,
+        "score": 28,
+        "sheet": {
+          "scores": "44220453202",
+          "fire": true
+        }
+      },
+      {
+        "name": "the-chemist",
+        "rank": 3,
+        "rating": 2292,
+        "score": 18,
+        "sheet": {
+          "scores": "444220200",
+          "fire": true
+        }
+      },
+      {
+        "name": "NeoMaverWick",
+        "flair": "symbols.fleur-de-lis",
+        "rank": 4,
+        "rating": 1917,
+        "score": 16,
+        "sheet": {
+          "scores": "20442200020"
+        }
+      },
+      {
+        "name": "PlayForTeam",
+        "flair": "people.brain",
+        "rank": 5,
+        "rating": 1897,
+        "score": 15,
+        "sheet": {
+          "scores": "00042302022"
+        }
+      },
+      {
+        "name": "AlexanderMAVC",
+        "rank": 6,
+        "rating": 1795,
+        "score": 12,
+        "sheet": {
+          "scores": "22000422",
+          "fire": true
+        }
+      },
+      {
+        "name": "PhillipBrasil",
+        "rank": 7,
+        "rating": 1496,
+        "score": 10,
+        "sheet": {
+          "scores": "22020022",
+          "fire": true
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 8,
+        "rating": 1868,
+        "score": 10,
+        "sheet": {
+          "scores": "02002202002"
+        }
+      },
+      {
+        "name": "mateoslopes",
+        "rank": 9,
+        "rating": 1594,
+        "score": 7,
+        "sheet": {
+          "scores": "0000023020"
+        }
+      },
+      {
+        "name": "Frankwillyan",
+        "flair": "smileys.alien",
+        "rank": 10,
+        "rating": 1618,
+        "score": 7,
+        "sheet": {
+          "scores": "0002200021"
+        }
+      }
+    ]
+  },
+  "id": "9ff4igKK",
+  "createdBy": "the-chemist",
+  "startsAt": "2023-03-24T21:30:00Z",
+  "system": "arena",
+  "fullName": "Sextas Online - GP 2023-1 T06 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 360,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento da ação \"Sextas Online\" do projeto \"Comunidade de Prática Online\" do NexT, sem limite de rating e aberto a todos que se juntarem à equipe do NexT no Lichess. Válido para o Grand Prix 2023-1 nas categorias \"Rating Performance\" e \"Participação\". Maiores informações em:\r\nnextxadrez.blogspot.com/2023/02/grand-prix-sextas-online-2-edicao.html",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

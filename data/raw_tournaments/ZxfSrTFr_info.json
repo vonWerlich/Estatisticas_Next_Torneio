@@ -1,0 +1,179 @@
+{
+  "nbPlayers": 28,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "PETROSIAN-AGRESSIVO",
+      "rank": 1,
+      "rating": 1955,
+      "score": 26,
+      "nb": {
+        "game": 13,
+        "berserk": 0,
+        "win": 13
+      },
+      "performance": 1996
+    },
+    {
+      "name": "Gustavo972",
+      "rank": 2,
+      "rating": 1265,
+      "score": 16,
+      "nb": {
+        "game": 13,
+        "berserk": 0,
+        "win": 8
+      },
+      "performance": 1717
+    },
+    {
+      "name": "DuuNexT",
+      "rank": 3,
+      "rating": 1768,
+      "score": 15,
+      "nb": {
+        "game": 11,
+        "berserk": 0,
+        "win": 7
+      },
+      "performance": 1868
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 90,
+    "moves": 5517,
+    "whiteWins": 42,
+    "blackWins": 44,
+    "draws": 4,
+    "berserks": 0,
+    "averageRating": 1556
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "PETROSIAN-AGRESSIVO",
+        "rank": 1,
+        "rating": 1955,
+        "score": 26,
+        "sheet": {
+          "scores": "2222222222222"
+        }
+      },
+      {
+        "name": "Gustavo972",
+        "rank": 2,
+        "rating": 1265,
+        "score": 16,
+        "sheet": {
+          "scores": "0222200200222"
+        }
+      },
+      {
+        "name": "DuuNexT",
+        "rank": 3,
+        "rating": 1768,
+        "score": 15,
+        "sheet": {
+          "scores": "02201222220"
+        }
+      },
+      {
+        "name": "IaagoAriel",
+        "rank": 4,
+        "rating": 1830,
+        "score": 14,
+        "sheet": {
+          "scores": "222202022"
+        },
+        "provisional": true
+      },
+      {
+        "name": "Modestovic",
+        "rank": 5,
+        "rating": 1821,
+        "score": 14,
+        "sheet": {
+          "scores": "20121220202"
+        }
+      },
+      {
+        "name": "KP-NexT",
+        "flair": "symbols.fleur-de-lis",
+        "rank": 6,
+        "rating": 1941,
+        "score": 12,
+        "sheet": {
+          "scores": "2220020220"
+        }
+      },
+      {
+        "name": "oslect",
+        "rank": 7,
+        "rating": 1824,
+        "score": 10,
+        "sheet": {
+          "scores": "22020220"
+        }
+      },
+      {
+        "name": "DanielChamposki",
+        "rank": 8,
+        "rating": 1572,
+        "score": 10,
+        "sheet": {
+          "scores": "002220202"
+        }
+      },
+      {
+        "name": "Gullermo_Lovera",
+        "rank": 9,
+        "rating": 1650,
+        "score": 9,
+        "sheet": {
+          "scores": "12200022"
+        }
+      },
+      {
+        "name": "ShaolimMataPorco",
+        "rank": 10,
+        "rating": 1624,
+        "score": 9,
+        "sheet": {
+          "scores": "020122002"
+        }
+      }
+    ]
+  },
+  "id": "ZxfSrTFr",
+  "createdBy": "kp-next",
+  "startsAt": "2021-02-15T21:30:16Z",
+  "system": "arena",
+  "fullName": "Quarentena do Aprendiz - T32 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 360,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": false,
+  "noStreak": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento do projeto \"Quarentena Online\" do NexT, para Aprendizes (rating rápido sugerido de até 2000 pontos). Para participar basta se juntar à equipe do NexT no Lichess.",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

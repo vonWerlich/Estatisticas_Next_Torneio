@@ -1,0 +1,30 @@
+{
+  "id": "xwXZIz9m",
+  "createdBy": "the-chemist",
+  "startsAt": "2025-11-08T16:30:00Z",
+  "name": "NexT Chess Open 2025-2",
+  "clock": {
+    "limit": 180,
+    "increment": 2
+  },
+  "variant": "standard",
+  "round": 7,
+  "nbRounds": 7,
+  "nbPlayers": 24,
+  "nbOngoing": 0,
+  "status": "finished",
+  "verdicts": {
+    "list": [],
+    "accepted": true
+  },
+  "rated": true,
+  "stats": {
+    "games": 72,
+    "whiteWins": 64,
+    "blackWins": 76,
+    "draws": 4,
+    "byes": 4,
+    "absences": 16,
+    "averageRating": 1600
+  }
+}

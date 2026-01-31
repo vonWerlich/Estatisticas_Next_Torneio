@@ -1,0 +1,414 @@
+[
+  {
+    "rank": 1,
+    "score": 28,
+    "rating": 2051,
+    "username": "vonWerlich",
+    "performance": 2156
+  },
+  {
+    "rank": 2,
+    "score": 24,
+    "rating": 1944,
+    "username": "MarcusZulu",
+    "performance": 2101
+  },
+  {
+    "rank": 3,
+    "score": 24,
+    "rating": 1812,
+    "username": "AndreHLLMAB251",
+    "performance": 2026
+  },
+  {
+    "rank": 4,
+    "score": 23,
+    "rating": 1901,
+    "username": "Murilost23",
+    "performance": 1909
+  },
+  {
+    "rank": 5,
+    "score": 22,
+    "rating": 1864,
+    "username": "Frankwillyan",
+    "flair": "smileys.alien",
+    "performance": 1864
+  },
+  {
+    "rank": 6,
+    "score": 19,
+    "rating": 1627,
+    "username": "Modestovic",
+    "performance": 1747
+  },
+  {
+    "rank": 7,
+    "score": 18,
+    "rating": 1753,
+    "username": "JoaoArthurLSLMAA251",
+    "flair": "nature.full-moon",
+    "performance": 1768
+  },
+  {
+    "rank": 8,
+    "score": 18,
+    "rating": 1594,
+    "username": "DantonJosh",
+    "flair": "symbols.rainbow-flag",
+    "performance": 1645
+  },
+  {
+    "rank": 9,
+    "score": 16,
+    "rating": 1748,
+    "username": "GabrielNLMAB251",
+    "performance": 1712
+  },
+  {
+    "rank": 10,
+    "score": 14,
+    "rating": 1607,
+    "username": "MatheusRJLMAA251",
+    "performance": 1920
+  },
+  {
+    "rank": 11,
+    "score": 14,
+    "rating": 1978,
+    "username": "the-chemist",
+    "performance": 1772
+  },
+  {
+    "rank": 12,
+    "score": 13,
+    "rating": 1742,
+    "username": "GuiA_Goes",
+    "performance": 1762
+  },
+  {
+    "rank": 13,
+    "score": 13,
+    "rating": 1534,
+    "username": "ArthurALLMAA251",
+    "flair": "travel-places.moai",
+    "performance": 1503
+  },
+  {
+    "rank": 14,
+    "score": 12,
+    "rating": 1693,
+    "username": "LFNishi",
+    "performance": 1783
+  },
+  {
+    "rank": 15,
+    "score": 12,
+    "rating": 1719,
+    "username": "H1perxz",
+    "performance": 1633
+  },
+  {
+    "rank": 16,
+    "score": 12,
+    "rating": 1562,
+    "username": "ReneDVNLMAB251",
+    "flair": "smileys.alien",
+    "performance": 1563
+  },
+  {
+    "rank": 17,
+    "score": 12,
+    "rating": 1533,
+    "username": "MATEUSSdaSLMAA251",
+    "flair": "smileys.thinking-face",
+    "performance": 1550
+  },
+  {
+    "rank": 18,
+    "score": 12,
+    "rating": 1293,
+    "username": "JonasBLMAA251",
+    "flair": "smileys.grinning-face-with-smiling-eyes",
+    "performance": 1457
+  },
+  {
+    "rank": 19,
+    "score": 11,
+    "rating": 1673,
+    "username": "jonatasrafael",
+    "performance": 1667
+  },
+  {
+    "rank": 20,
+    "score": 10,
+    "rating": 1392,
+    "username": "LucimaraFSLMAB251",
+    "flair": "nature.star",
+    "performance": 1672
+  },
+  {
+    "rank": 21,
+    "score": 10,
+    "rating": 1287,
+    "username": "JoaoLFLLMAB251",
+    "performance": 1355
+  },
+  {
+    "rank": 22,
+    "score": 10,
+    "rating": 1274,
+    "username": "CiceroMRSLMA251",
+    "performance": 1302
+  },
+  {
+    "rank": 23,
+    "score": 9,
+    "rating": 1436,
+    "username": "MatheusCLMAB251",
+    "performance": 1590
+  },
+  {
+    "rank": 24,
+    "score": 9,
+    "rating": 1362,
+    "username": "GustavoHLMAA251",
+    "flair": "people.deaf-man-light-skin-tone",
+    "performance": 1355
+  },
+  {
+    "rank": 25,
+    "score": 8,
+    "rating": 1511,
+    "username": "LannaSRLMAB251",
+    "performance": 1501
+  },
+  {
+    "rank": 26,
+    "score": 8,
+    "rating": 1495,
+    "username": "Finark",
+    "performance": 1485
+  },
+  {
+    "rank": 27,
+    "score": 8,
+    "rating": 1522,
+    "username": "RebeccaRGLMAB251",
+    "flair": "nature.sun",
+    "performance": 1438
+  },
+  {
+    "rank": 28,
+    "score": 6,
+    "rating": 1596,
+    "username": "DavidJLMAA251",
+    "performance": 1480
+  },
+  {
+    "rank": 29,
+    "score": 6,
+    "rating": 1668,
+    "username": "ArthurPLMAA251",
+    "performance": 1470
+  },
+  {
+    "rank": 30,
+    "score": 6,
+    "rating": 1136,
+    "username": "Lucas-Spagnoli",
+    "performance": 1348
+  },
+  {
+    "rank": 31,
+    "score": 6,
+    "rating": 1131,
+    "username": "ViniciusMKLMAA251",
+    "performance": 1312
+  },
+  {
+    "rank": 32,
+    "score": 6,
+    "rating": 1246,
+    "username": "GustavopLMAB251",
+    "flair": "smileys.alien-monster",
+    "performance": 1158
+  },
+  {
+    "rank": 33,
+    "score": 5,
+    "rating": 1269,
+    "username": "GabrielOCLMAB251",
+    "performance": 1214
+  },
+  {
+    "rank": 34,
+    "score": 5,
+    "rating": 1247,
+    "username": "GustavoBZLMAA251",
+    "performance": 1203
+  },
+  {
+    "rank": 35,
+    "score": 4,
+    "rating": 1525,
+    "username": "luis-oliveira",
+    "performance": 1856
+  },
+  {
+    "rank": 36,
+    "score": 4,
+    "rating": 1305,
+    "username": "brenoGGlmaa251",
+    "performance": 1479
+  },
+  {
+    "rank": 37,
+    "score": 4,
+    "rating": 1468,
+    "username": "RianDAF_LmaA251",
+    "flair": "symbols.transgender-flag",
+    "performance": 1423
+  },
+  {
+    "rank": 38,
+    "score": 4,
+    "rating": 1192,
+    "username": "GuilhermeWKLMAB251",
+    "performance": 1244
+  },
+  {
+    "rank": 39,
+    "score": 4,
+    "rating": 1063,
+    "username": "JoaoPResendeLMAA251",
+    "performance": 1165
+  },
+  {
+    "rank": 40,
+    "score": 4,
+    "rating": 1177,
+    "username": "manucapyruca",
+    "performance": 1128
+  },
+  {
+    "rank": 41,
+    "score": 4,
+    "rating": 1188,
+    "username": "NicolasOVeigaLMAA251",
+    "performance": 1118
+  },
+  {
+    "rank": 42,
+    "score": 4,
+    "rating": 1250,
+    "username": "JoaoPESLMAB251",
+    "performance": 1055
+  },
+  {
+    "rank": 43,
+    "score": 4,
+    "rating": 1221,
+    "username": "BrunoDWLMAB251",
+    "performance": 946
+  },
+  {
+    "rank": 44,
+    "score": 3,
+    "rating": 1319,
+    "username": "CaioMFLMAB251",
+    "performance": 1064
+  },
+  {
+    "rank": 45,
+    "score": 3,
+    "rating": 1002,
+    "username": "OsvaldoIdaSNLMAB251",
+    "performance": 1023
+  },
+  {
+    "rank": 46,
+    "score": 3,
+    "rating": 852,
+    "username": "LucaMRLMAA251",
+    "flair": "smileys.skull",
+    "performance": 898
+  },
+  {
+    "rank": 47,
+    "score": 2,
+    "rating": 2000,
+    "username": "gadottL",
+    "performance": 2398
+  },
+  {
+    "rank": 48,
+    "score": 2,
+    "rating": 1393,
+    "username": "vbjnnn",
+    "performance": 1366
+  },
+  {
+    "rank": 49,
+    "score": 2,
+    "rating": 1384,
+    "username": "GuilhermeSHLMAB251",
+    "flair": "smileys.alien-monster",
+    "performance": 1307
+  },
+  {
+    "rank": 50,
+    "score": 2,
+    "rating": 1392,
+    "username": "VictorAGLMAB251",
+    "performance": 1210
+  },
+  {
+    "rank": 51,
+    "score": 2,
+    "rating": 1099,
+    "username": "IsabelaZLMAA251",
+    "flair": "people.farmer",
+    "performance": 1066
+  },
+  {
+    "rank": 52,
+    "score": 2,
+    "rating": 1104,
+    "username": "RyanSMMCLMAB251",
+    "performance": 929
+  },
+  {
+    "rank": 53,
+    "score": 2,
+    "rating": 936,
+    "username": "NicoleMSantosLMAA251",
+    "performance": 806
+  },
+  {
+    "rank": 54,
+    "score": 1,
+    "rating": 941,
+    "username": "SarahTRSB-LMAA251",
+    "performance": 988
+  },
+  {
+    "rank": 55,
+    "score": 1,
+    "rating": 1101,
+    "username": "WalmerBJuniorLMAA251",
+    "performance": 855
+  },
+  {
+    "rank": 56,
+    "score": 0,
+    "rating": 1695,
+    "username": "ManoelBPLMAB251"
+  },
+  {
+    "rank": 57,
+    "score": 0,
+    "rating": 1500,
+    "username": "iBrummer"
+  }
+]

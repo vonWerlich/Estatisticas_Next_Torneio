@@ -1,0 +1,142 @@
+[
+  {
+    "rank": 1,
+    "points": 5.5,
+    "tieBreak": 19.75,
+    "rating": 2149,
+    "username": "vonWerlich",
+    "performance": 2129
+  },
+  {
+    "rank": 2,
+    "points": 5.5,
+    "tieBreak": 18.25,
+    "rating": 2032,
+    "username": "MarcusZulu",
+    "performance": 1988
+  },
+  {
+    "rank": 3,
+    "points": 5.5,
+    "tieBreak": 17,
+    "rating": 2142,
+    "username": "Badrinath1812",
+    "performance": 2402
+  },
+  {
+    "rank": 4,
+    "points": 5,
+    "tieBreak": 17.5,
+    "rating": 2105,
+    "username": "the-chemist",
+    "performance": 2023
+  },
+  {
+    "rank": 5,
+    "points": 4.5,
+    "tieBreak": 14,
+    "rating": 1584,
+    "username": "Davi_carq",
+    "performance": 2027
+  },
+  {
+    "rank": 6,
+    "points": 4,
+    "tieBreak": 6,
+    "rating": 1781,
+    "username": "batista_aA",
+    "performance": 1907
+  },
+  {
+    "rank": 7,
+    "points": 3.5,
+    "tieBreak": 9.25,
+    "rating": 1746,
+    "username": "Modestovic",
+    "performance": 1707
+  },
+  {
+    "rank": 8,
+    "points": 3,
+    "tieBreak": 9,
+    "rating": 1511,
+    "username": "Frankwillyan",
+    "performance": 1622
+  },
+  {
+    "rank": 9,
+    "points": 3,
+    "tieBreak": 8,
+    "rating": 1794,
+    "username": "Balzabouth",
+    "performance": 1614
+  },
+  {
+    "rank": 10,
+    "points": 3,
+    "tieBreak": 6.5,
+    "rating": 1334,
+    "username": "PedroNEXT",
+    "performance": 1427
+  },
+  {
+    "rank": 11,
+    "points": 3,
+    "tieBreak": 6,
+    "rating": 1652,
+    "username": "Murilost23",
+    "performance": 1580
+  },
+  {
+    "rank": 12,
+    "points": 2.5,
+    "tieBreak": 6.75,
+    "rating": 1458,
+    "username": "Alexandr_A",
+    "performance": 1382
+  },
+  {
+    "rank": 13,
+    "points": 2.5,
+    "tieBreak": 5.5,
+    "rating": 1529,
+    "username": "IgorRafael",
+    "performance": 1492,
+    "absent": true
+  },
+  {
+    "rank": 14,
+    "points": 2,
+    "tieBreak": 5.5,
+    "rating": 1289,
+    "username": "DantonJosh",
+    "performance": 1291
+  },
+  {
+    "rank": 15,
+    "points": 1,
+    "tieBreak": 1,
+    "rating": 1668,
+    "username": "Dimon-nikolya",
+    "performance": 1411,
+    "absent": true
+  },
+  {
+    "rank": 16,
+    "points": 0.5,
+    "tieBreak": 0,
+    "rating": 1956,
+    "username": "M4m4m14",
+    "performance": 1458,
+    "absent": true
+  },
+  {
+    "rank": 17,
+    "points": 0,
+    "tieBreak": 0,
+    "rating": 1975,
+    "username": "PlayForTeam",
+    "performance": 1281,
+    "absent": true
+  }
+]

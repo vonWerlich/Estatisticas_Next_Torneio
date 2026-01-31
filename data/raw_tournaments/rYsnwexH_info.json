@@ -1,0 +1,185 @@
+{
+  "nbPlayers": 14,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "the-chemist",
+      "rank": 1,
+      "rating": 2316,
+      "score": 40,
+      "nb": {
+        "game": 10,
+        "berserk": 5,
+        "win": 10
+      },
+      "performance": 2131
+    },
+    {
+      "name": "vonWerlich",
+      "rank": 2,
+      "rating": 2249,
+      "score": 31,
+      "nb": {
+        "game": 9,
+        "berserk": 4,
+        "win": 8
+      },
+      "performance": 2091
+    },
+    {
+      "name": "NeoMaverWick",
+      "flair": "symbols.fleur-de-lis",
+      "rank": 3,
+      "rating": 1841,
+      "score": 14,
+      "nb": {
+        "game": 9,
+        "berserk": 0,
+        "win": 5
+      },
+      "performance": 1815
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 45,
+    "moves": 2874,
+    "whiteWins": 22,
+    "blackWins": 23,
+    "draws": 0,
+    "berserks": 14,
+    "averageRating": 1666
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "the-chemist",
+        "rank": 1,
+        "rating": 2316,
+        "score": 40,
+        "sheet": {
+          "scores": "4454544532",
+          "fire": true
+        }
+      },
+      {
+        "name": "vonWerlich",
+        "rank": 2,
+        "rating": 2249,
+        "score": 31,
+        "sheet": {
+          "scores": "545444230",
+          "fire": true
+        }
+      },
+      {
+        "name": "NeoMaverWick",
+        "flair": "symbols.fleur-de-lis",
+        "rank": 3,
+        "rating": 1841,
+        "score": 14,
+        "sheet": {
+          "scores": "020004422"
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 4,
+        "rating": 1793,
+        "score": 12,
+        "sheet": {
+          "scores": "2202020220",
+          "fire": true
+        }
+      },
+      {
+        "name": "Diiieferson",
+        "rank": 5,
+        "rating": 1905,
+        "score": 10,
+        "sheet": {
+          "scores": "002030032"
+        }
+      },
+      {
+        "name": "LeonardoLGS",
+        "rank": 6,
+        "rating": 2075,
+        "score": 5,
+        "sheet": {
+          "scores": "32",
+          "fire": true
+        }
+      },
+      {
+        "name": "gagomago",
+        "rank": 7,
+        "rating": 1310,
+        "score": 4,
+        "sheet": {
+          "scores": "22",
+          "fire": true
+        }
+      },
+      {
+        "name": "PedroNEXT",
+        "rank": 8,
+        "rating": 1391,
+        "score": 4,
+        "sheet": {
+          "scores": "00202000"
+        }
+      },
+      {
+        "name": "DantonJosh",
+        "flair": "symbols.rainbow-flag",
+        "rank": 9,
+        "rating": 1387,
+        "score": 4,
+        "sheet": {
+          "scores": "0000002000002"
+        }
+      },
+      {
+        "name": "taiyihanle",
+        "rank": 10,
+        "rating": 1369,
+        "score": 4,
+        "sheet": {
+          "scores": "022000"
+        }
+      }
+    ]
+  },
+  "id": "rYsnwexH",
+  "createdBy": "the-chemist",
+  "startsAt": "2022-10-21T21:30:00Z",
+  "system": "arena",
+  "fullName": "Sextas Online - GP 2022-2 T17 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 360,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento da ação \"Sextas Online\" do projeto \"Comunidade de Prática Online\" do NexT, sem limite de rating e aberto a todos que se juntarem à equipe do NexT no Lichess. Válido para o Grand Prix 2022-2 nas categorias \"Rating Performance\" e \"Participação\" (maiores informações em: http://nextxadrez.blogspot.com/2022/06/grand-prix-sextas-online.html)",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

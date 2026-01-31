@@ -1,0 +1,177 @@
+{
+  "nbPlayers": 18,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "vonWerlich",
+      "rank": 1,
+      "rating": 2033,
+      "score": 19,
+      "nb": {
+        "game": 12,
+        "berserk": 0,
+        "win": 9
+      },
+      "performance": 1891
+    },
+    {
+      "name": "heitorsilvino",
+      "rank": 2,
+      "rating": 1912,
+      "score": 19,
+      "nb": {
+        "game": 14,
+        "berserk": 0,
+        "win": 9
+      },
+      "performance": 1726
+    },
+    {
+      "name": "Rubens_Lavor",
+      "rank": 3,
+      "rating": 2045,
+      "score": 18,
+      "nb": {
+        "game": 11,
+        "berserk": 0,
+        "win": 9
+      },
+      "performance": 1867
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 56,
+    "moves": 3545,
+    "whiteWins": 19,
+    "blackWins": 33,
+    "draws": 4,
+    "berserks": 0,
+    "averageRating": 1473
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "vonWerlich",
+        "rank": 1,
+        "rating": 2033,
+        "score": 19,
+        "sheet": {
+          "scores": "222022212022"
+        }
+      },
+      {
+        "name": "heitorsilvino",
+        "rank": 2,
+        "rating": 1912,
+        "score": 19,
+        "sheet": {
+          "scores": "20022202122202"
+        }
+      },
+      {
+        "name": "Rubens_Lavor",
+        "rank": 3,
+        "rating": 2045,
+        "score": 18,
+        "sheet": {
+          "scores": "02222222220"
+        }
+      },
+      {
+        "name": "brunovic",
+        "rank": 4,
+        "rating": 1631,
+        "score": 8,
+        "sheet": {
+          "scores": "02222"
+        }
+      },
+      {
+        "name": "thomarr",
+        "rank": 5,
+        "rating": 1545,
+        "score": 8,
+        "sheet": {
+          "scores": "020222"
+        }
+      },
+      {
+        "name": "Gustavo972",
+        "rank": 6,
+        "rating": 1101,
+        "score": 8,
+        "sheet": {
+          "scores": "00020020202"
+        }
+      },
+      {
+        "name": "ncc_bee",
+        "rank": 7,
+        "rating": 986,
+        "score": 7,
+        "sheet": {
+          "scores": "20022001"
+        }
+      },
+      {
+        "name": "Claudio1414",
+        "rank": 8,
+        "rating": 1540,
+        "score": 4,
+        "sheet": {
+          "scores": "002002"
+        }
+      },
+      {
+        "name": "TarcisioCura",
+        "rank": 9,
+        "rating": 1666,
+        "score": 4,
+        "sheet": {
+          "scores": "202"
+        }
+      },
+      {
+        "name": "Gustavms",
+        "rank": 10,
+        "rating": 1180,
+        "score": 4,
+        "sheet": {
+          "scores": "0000202"
+        }
+      }
+    ]
+  },
+  "id": "HEe3hRoQ",
+  "createdBy": "kp-next",
+  "startsAt": "2021-04-02T21:30:51Z",
+  "system": "arena",
+  "fullName": "NexT Quarentena Online - T41 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "blitz",
+    "name": "Blitz",
+    "icon": ")"
+  },
+  "clock": {
+    "limit": 300,
+    "increment": 3
+  },
+  "variant": "standard",
+  "rated": true,
+  "noStreak": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento do projeto \"Quarentena Online\", sem limite de rating, aberto a todos que se juntarem à equipe do NexT no Lichess (Clube Virtual Online do NexT).",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

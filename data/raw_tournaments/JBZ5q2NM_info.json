@@ -1,0 +1,179 @@
+{
+  "nbPlayers": 21,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "Modestovic",
+      "rank": 1,
+      "rating": 1819,
+      "score": 29,
+      "nb": {
+        "game": 17,
+        "berserk": 0,
+        "win": 14
+      },
+      "performance": 1889
+    },
+    {
+      "name": "Hiltoyou",
+      "rank": 2,
+      "rating": 2016,
+      "score": 23,
+      "nb": {
+        "game": 13,
+        "berserk": 0,
+        "win": 11
+      },
+      "performance": 1984
+    },
+    {
+      "name": "IgorRafael",
+      "rank": 3,
+      "rating": 1418,
+      "score": 13,
+      "nb": {
+        "game": 13,
+        "berserk": 0,
+        "win": 6
+      },
+      "performance": 1555
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 79,
+    "moves": 4125,
+    "whiteWins": 38,
+    "blackWins": 36,
+    "draws": 5,
+    "berserks": 0,
+    "averageRating": 1529
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "Modestovic",
+        "rank": 1,
+        "rating": 1819,
+        "score": 29,
+        "sheet": {
+          "scores": "20202222222222122"
+        }
+      },
+      {
+        "name": "Hiltoyou",
+        "rank": 2,
+        "rating": 2016,
+        "score": 23,
+        "sheet": {
+          "scores": "0222212222222"
+        }
+      },
+      {
+        "name": "IgorRafael",
+        "rank": 3,
+        "rating": 1418,
+        "score": 13,
+        "sheet": {
+          "scores": "0022001202022"
+        }
+      },
+      {
+        "name": "Gustavo972",
+        "rank": 4,
+        "rating": 1444,
+        "score": 12,
+        "sheet": {
+          "scores": "222220200"
+        }
+      },
+      {
+        "name": "Agner_Chess",
+        "rank": 5,
+        "rating": 1569,
+        "score": 11,
+        "sheet": {
+          "scores": "020000222120"
+        },
+        "provisional": true
+      },
+      {
+        "name": "JohnWick-NexT",
+        "rank": 6,
+        "rating": 1969,
+        "score": 10,
+        "sheet": {
+          "scores": "20222200"
+        }
+      },
+      {
+        "name": "jaop",
+        "rank": 7,
+        "rating": 1317,
+        "score": 9,
+        "sheet": {
+          "scores": "022012020"
+        }
+      },
+      {
+        "name": "LeonardoBatis",
+        "rank": 8,
+        "rating": 1405,
+        "score": 8,
+        "sheet": {
+          "scores": "0002020202"
+        }
+      },
+      {
+        "name": "DantonJosh",
+        "flair": "symbols.rainbow-flag",
+        "rank": 9,
+        "rating": 1146,
+        "score": 8,
+        "sheet": {
+          "scores": "2202000000200"
+        }
+      },
+      {
+        "name": "thomarr",
+        "rank": 10,
+        "rating": 1549,
+        "score": 7,
+        "sheet": {
+          "scores": "02122"
+        }
+      }
+    ]
+  },
+  "id": "JBZ5q2NM",
+  "createdBy": "the-chemist",
+  "startsAt": "2021-07-23T21:30:00Z",
+  "system": "arena",
+  "fullName": "NexT Quarentena Online - T57 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "blitz",
+    "name": "Blitz",
+    "icon": ")"
+  },
+  "clock": {
+    "limit": 300,
+    "increment": 3
+  },
+  "variant": "standard",
+  "rated": true,
+  "noStreak": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento do projeto \"Quarentena Online\", sem limite de rating, aberto a todos que se juntarem à equipe do NexT no Lichess (Clube Virtual Online do NexT).",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

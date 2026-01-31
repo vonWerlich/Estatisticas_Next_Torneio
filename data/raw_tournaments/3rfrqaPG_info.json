@@ -1,0 +1,185 @@
+{
+  "nbPlayers": 12,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "Maycon_Schlickmann",
+      "rank": 1,
+      "rating": 1673,
+      "score": 18,
+      "nb": {
+        "game": 11,
+        "berserk": 0,
+        "win": 9
+      },
+      "performance": 1593
+    },
+    {
+      "name": "jaop",
+      "rank": 2,
+      "rating": 1414,
+      "score": 14,
+      "nb": {
+        "game": 10,
+        "berserk": 0,
+        "win": 7
+      },
+      "performance": 1539
+    },
+    {
+      "name": "Gullermo_Lovera",
+      "rank": 3,
+      "rating": 1536,
+      "score": 14,
+      "nb": {
+        "game": 10,
+        "berserk": 0,
+        "win": 7
+      },
+      "performance": 1485
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 54,
+    "moves": 2262,
+    "whiteWins": 28,
+    "blackWins": 23,
+    "draws": 3,
+    "berserks": 0,
+    "averageRating": 1362
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "Maycon_Schlickmann",
+        "rank": 1,
+        "rating": 1673,
+        "score": 18,
+        "sheet": {
+          "scores": "02022222222"
+        }
+      },
+      {
+        "name": "jaop",
+        "rank": 2,
+        "rating": 1414,
+        "score": 14,
+        "sheet": {
+          "scores": "0222222002"
+        }
+      },
+      {
+        "name": "Gullermo_Lovera",
+        "rank": 3,
+        "rating": 1536,
+        "score": 14,
+        "sheet": {
+          "scores": "2200220222"
+        }
+      },
+      {
+        "name": "RafaBabu",
+        "rank": 4,
+        "rating": 1386,
+        "score": 12,
+        "sheet": {
+          "scores": "22220202"
+        }
+      },
+      {
+        "name": "proneer",
+        "rank": 5,
+        "rating": 1527,
+        "score": 10,
+        "sheet": {
+          "scores": "2222200"
+        }
+      },
+      {
+        "name": "PedroNEXT",
+        "rank": 6,
+        "rating": 1261,
+        "score": 9,
+        "sheet": {
+          "scores": "0020220210"
+        }
+      },
+      {
+        "name": "NegroMestrovisk",
+        "rank": 7,
+        "rating": 1524,
+        "score": 9,
+        "sheet": {
+          "scores": "2022100000020"
+        }
+      },
+      {
+        "name": "DantonJosh",
+        "flair": "symbols.rainbow-flag",
+        "rank": 8,
+        "rating": 956,
+        "score": 7,
+        "sheet": {
+          "scores": "0200020102"
+        }
+      },
+      {
+        "name": "axt2106",
+        "rank": 9,
+        "rating": 1226,
+        "score": 5,
+        "sheet": {
+          "scores": "0010202000"
+        }
+      },
+      {
+        "name": "gusCamargo",
+        "rank": 10,
+        "rating": 1308,
+        "score": 4,
+        "sheet": {
+          "scores": "202"
+        }
+      }
+    ]
+  },
+  "id": "3rfrqaPG",
+  "createdBy": "kp-next",
+  "startsAt": "2020-11-02T21:30:35Z",
+  "system": "arena",
+  "fullName": "Quarentena do Aprendiz - T23 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 420,
+    "increment": 5
+  },
+  "variant": "standard",
+  "rated": true,
+  "noStreak": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Rated ≤ 1800 in Rapid for the last week",
+        "verdict": "ok"
+      },
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento do projeto \"Quarentena Online\" do NexT, para aprendizes (rating rápido de até 1800 pontos). Para participar é necessário ter um rating rápido já estabilizado (não provisório) e estar inscrito na equipe do NexT.",
+  "maxRating": {
+    "rating": 1800
+  },
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

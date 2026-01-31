@@ -1,0 +1,433 @@
+[
+  {
+    "rank": 1,
+    "points": 6,
+    "tieBreak": 25.5,
+    "rating": 2238,
+    "username": "Taranta",
+    "performance": 2284
+  },
+  {
+    "rank": 2,
+    "points": 5.5,
+    "tieBreak": 22.5,
+    "rating": 1944,
+    "username": "gustavospi",
+    "performance": 2372,
+    "absent": true
+  },
+  {
+    "rank": 3,
+    "points": 5.5,
+    "tieBreak": 21.5,
+    "rating": 2132,
+    "username": "Adechess1",
+    "performance": 2194
+  },
+  {
+    "rank": 4,
+    "points": 5,
+    "tieBreak": 17,
+    "rating": 1663,
+    "username": "PedroGR",
+    "performance": 2117
+  },
+  {
+    "rank": 5,
+    "points": 5,
+    "tieBreak": 16.5,
+    "rating": 2316,
+    "username": "vonWerlich",
+    "performance": 2065
+  },
+  {
+    "rank": 6,
+    "points": 5,
+    "tieBreak": 16,
+    "rating": 2068,
+    "username": "Rubens_Lavor",
+    "performance": 2027,
+    "absent": true
+  },
+  {
+    "rank": 7,
+    "points": 5,
+    "tieBreak": 15,
+    "rating": 2104,
+    "username": "Tinolaurio2020",
+    "performance": 1948
+  },
+  {
+    "rank": 8,
+    "points": 5,
+    "tieBreak": 14.75,
+    "rating": 2135,
+    "username": "Fabiopavao",
+    "performance": 2111
+  },
+  {
+    "rank": 9,
+    "points": 5,
+    "tieBreak": 14.5,
+    "rating": 2083,
+    "username": "monteirochess",
+    "performance": 2113
+  },
+  {
+    "rank": 10,
+    "points": 4.5,
+    "tieBreak": 10,
+    "rating": 1970,
+    "username": "capivara34",
+    "performance": 1961
+  },
+  {
+    "rank": 11,
+    "points": 4,
+    "tieBreak": 15.5,
+    "rating": 1972,
+    "username": "NotBrazilian",
+    "performance": 2052
+  },
+  {
+    "rank": 12,
+    "points": 4,
+    "tieBreak": 14,
+    "rating": 1919,
+    "username": "GioCapo",
+    "performance": 1893
+  },
+  {
+    "rank": 13,
+    "points": 4,
+    "tieBreak": 12.5,
+    "rating": 1712,
+    "username": "DuuNexT",
+    "performance": 1904
+  },
+  {
+    "rank": 14,
+    "points": 4,
+    "tieBreak": 10,
+    "rating": 1912,
+    "username": "Ronnieryb",
+    "performance": 1742
+  },
+  {
+    "rank": 15,
+    "points": 4,
+    "tieBreak": 10,
+    "rating": 1790,
+    "username": "damavermelha",
+    "performance": 1716
+  },
+  {
+    "rank": 16,
+    "points": 4,
+    "tieBreak": 8.5,
+    "rating": 1743,
+    "username": "Maycon_Schlickmann",
+    "performance": 1853
+  },
+  {
+    "rank": 17,
+    "points": 4,
+    "tieBreak": 7.5,
+    "rating": 1716,
+    "username": "rlemos",
+    "performance": 1801
+  },
+  {
+    "rank": 18,
+    "points": 3.5,
+    "tieBreak": 6,
+    "rating": 2121,
+    "username": "ozeiasf",
+    "performance": 1663
+  },
+  {
+    "rank": 19,
+    "points": 3.5,
+    "tieBreak": 5,
+    "rating": 1815,
+    "username": "Modestovic",
+    "performance": 1685
+  },
+  {
+    "rank": 20,
+    "points": 3,
+    "tieBreak": 9,
+    "rating": 2141,
+    "username": "the-chemist",
+    "performance": 1986,
+    "absent": true
+  },
+  {
+    "rank": 21,
+    "points": 3,
+    "tieBreak": 9,
+    "rating": 1877,
+    "username": "Eg0r2012",
+    "performance": 1853,
+    "absent": true
+  },
+  {
+    "rank": 22,
+    "points": 3,
+    "tieBreak": 7,
+    "rating": 2011,
+    "username": "pollhein1",
+    "performance": 2072,
+    "absent": true
+  },
+  {
+    "rank": 23,
+    "points": 3,
+    "tieBreak": 7,
+    "rating": 1752,
+    "username": "Laerte3",
+    "performance": 1716
+  },
+  {
+    "rank": 24,
+    "points": 3,
+    "tieBreak": 6.5,
+    "rating": 1483,
+    "username": "jaop",
+    "performance": 1498
+  },
+  {
+    "rank": 25,
+    "points": 3,
+    "tieBreak": 4,
+    "rating": 1534,
+    "username": "leonardomarques1",
+    "performance": 1627
+  },
+  {
+    "rank": 26,
+    "points": 3,
+    "tieBreak": 3,
+    "rating": 1428,
+    "username": "Vinove",
+    "performance": 1562
+  },
+  {
+    "rank": 27,
+    "points": 3,
+    "tieBreak": 3,
+    "rating": 1052,
+    "username": "ncc_bee",
+    "performance": 1523
+  },
+  {
+    "rank": 28,
+    "points": 2.5,
+    "tieBreak": 4.5,
+    "rating": 1242,
+    "username": "axt2106",
+    "performance": 1578
+  },
+  {
+    "rank": 29,
+    "points": 2.5,
+    "tieBreak": 2,
+    "rating": 1704,
+    "username": "VanildoSDanielski",
+    "performance": 1388
+  },
+  {
+    "rank": 30,
+    "points": 2,
+    "tieBreak": 6,
+    "rating": 1902,
+    "username": "kjess",
+    "performance": 1575,
+    "absent": true
+  },
+  {
+    "rank": 31,
+    "points": 2,
+    "tieBreak": 4,
+    "rating": 1792,
+    "username": "VladikIvanov17",
+    "performance": 1430,
+    "absent": true
+  },
+  {
+    "rank": 32,
+    "points": 2,
+    "tieBreak": 3,
+    "rating": 1776,
+    "username": "thomarr",
+    "performance": 1508,
+    "absent": true
+  },
+  {
+    "rank": 33,
+    "points": 2,
+    "tieBreak": 2,
+    "rating": 1829,
+    "username": "L_L1999",
+    "performance": 1412,
+    "absent": true
+  },
+  {
+    "rank": 34,
+    "points": 2,
+    "tieBreak": 1,
+    "rating": 1278,
+    "username": "gusCamargo",
+    "performance": 1196
+  },
+  {
+    "rank": 35,
+    "points": 2,
+    "tieBreak": 1,
+    "rating": 1275,
+    "username": "PedroNEXT",
+    "performance": 1183
+  },
+  {
+    "rank": 36,
+    "points": 1.5,
+    "tieBreak": 0.5,
+    "rating": 1550,
+    "username": "Claudio1414",
+    "performance": 1683,
+    "absent": true
+  },
+  {
+    "rank": 37,
+    "points": 1,
+    "tieBreak": 3,
+    "rating": 1578,
+    "username": "proneer",
+    "performance": 1492,
+    "absent": true
+  },
+  {
+    "rank": 38,
+    "points": 1,
+    "tieBreak": 2,
+    "rating": 1505,
+    "username": "aaronpinto04",
+    "performance": 1881,
+    "absent": true
+  },
+  {
+    "rank": 39,
+    "points": 1,
+    "tieBreak": 1,
+    "rating": 1517,
+    "username": "DanielChamposki",
+    "performance": 1348,
+    "absent": true
+  },
+  {
+    "rank": 40,
+    "points": 1,
+    "tieBreak": 0,
+    "rating": 1002,
+    "username": "DantonJosh",
+    "performance": 1143
+  },
+  {
+    "rank": 41,
+    "points": 1,
+    "tieBreak": 0,
+    "rating": 1222,
+    "username": "SejaCortes",
+    "performance": 1123,
+    "absent": true
+  },
+  {
+    "rank": 42,
+    "points": 0.5,
+    "tieBreak": 0,
+    "rating": 2102,
+    "username": "Lindousodomate",
+    "absent": true
+  },
+  {
+    "rank": 43,
+    "points": 0.5,
+    "tieBreak": 0,
+    "rating": 1283,
+    "username": "javierardiles",
+    "performance": 1182,
+    "absent": true
+  },
+  {
+    "rank": 44,
+    "points": 0,
+    "tieBreak": 0,
+    "rating": 1500,
+    "username": "IzaacSI",
+    "performance": 1511,
+    "absent": true
+  },
+  {
+    "rank": 45,
+    "points": 0,
+    "tieBreak": 0,
+    "rating": 1500,
+    "username": "Casa_Do_Xadrez",
+    "performance": 1470,
+    "absent": true
+  },
+  {
+    "rank": 46,
+    "points": 0,
+    "tieBreak": 0,
+    "rating": 1194,
+    "username": "ericpro123456",
+    "performance": 1444,
+    "absent": true
+  },
+  {
+    "rank": 47,
+    "points": 0,
+    "tieBreak": 0,
+    "rating": 1325,
+    "username": "alinealflen",
+    "performance": 1329,
+    "absent": true
+  },
+  {
+    "rank": 48,
+    "points": 0,
+    "tieBreak": 0,
+    "rating": 1611,
+    "username": "Matheus447",
+    "performance": 1266,
+    "absent": true
+  },
+  {
+    "rank": 49,
+    "points": 0,
+    "tieBreak": 0,
+    "rating": 1256,
+    "username": "hermesthatgoout",
+    "performance": 1232,
+    "absent": true
+  },
+  {
+    "rank": 50,
+    "points": 0,
+    "tieBreak": 0,
+    "rating": 1238,
+    "username": "EthicalDiver",
+    "performance": 1216,
+    "absent": true
+  },
+  {
+    "rank": 51,
+    "points": 0,
+    "tieBreak": 0,
+    "rating": 1951,
+    "username": "esssketitguchigang",
+    "performance": 1034,
+    "absent": true
+  }
+]

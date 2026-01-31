@@ -1,0 +1,178 @@
+{
+  "nbPlayers": 23,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "Modestovic",
+      "rank": 1,
+      "rating": 1712,
+      "score": 21,
+      "nb": {
+        "game": 16,
+        "berserk": 0,
+        "win": 10
+      },
+      "performance": 1688
+    },
+    {
+      "name": "DontWorryBeHappy11",
+      "rank": 2,
+      "rating": 1823,
+      "score": 20,
+      "nb": {
+        "game": 12,
+        "berserk": 0,
+        "win": 10
+      },
+      "performance": 1888
+    },
+    {
+      "name": "vonWerlich",
+      "rank": 3,
+      "rating": 1912,
+      "score": 20,
+      "nb": {
+        "game": 14,
+        "berserk": 0,
+        "win": 10
+      },
+      "performance": 1636
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 107,
+    "moves": 6391,
+    "whiteWins": 55,
+    "blackWins": 47,
+    "draws": 5,
+    "berserks": 0,
+    "averageRating": 1443
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "Modestovic",
+        "rank": 1,
+        "rating": 1712,
+        "score": 21,
+        "sheet": {
+          "scores": "2212222020020202"
+        }
+      },
+      {
+        "name": "DontWorryBeHappy11",
+        "rank": 2,
+        "rating": 1823,
+        "score": 20,
+        "sheet": {
+          "scores": "022202222222"
+        }
+      },
+      {
+        "name": "vonWerlich",
+        "rank": 3,
+        "rating": 1912,
+        "score": 20,
+        "sheet": {
+          "scores": "02022202220222"
+        }
+      },
+      {
+        "name": "L_L1999",
+        "rank": 4,
+        "rating": 1805,
+        "score": 18,
+        "sheet": {
+          "scores": "220022222220"
+        }
+      },
+      {
+        "name": "KP-NexT",
+        "flair": "symbols.fleur-de-lis",
+        "rank": 5,
+        "rating": 1844,
+        "score": 16,
+        "sheet": {
+          "scores": "222222220"
+        }
+      },
+      {
+        "name": "ShaolimMataPorco",
+        "rank": 6,
+        "rating": 1502,
+        "score": 13,
+        "sheet": {
+          "scores": "22120222"
+        }
+      },
+      {
+        "name": "rlemos",
+        "rank": 7,
+        "rating": 1429,
+        "score": 12,
+        "sheet": {
+          "scores": "122202021"
+        }
+      },
+      {
+        "name": "kronossaurus",
+        "rank": 8,
+        "rating": 2030,
+        "score": 10,
+        "sheet": {
+          "scores": "220222"
+        }
+      },
+      {
+        "name": "Maycon_Schlickmann",
+        "rank": 9,
+        "rating": 1629,
+        "score": 10,
+        "sheet": {
+          "scores": "0222202"
+        }
+      },
+      {
+        "name": "DuuNexT",
+        "rank": 10,
+        "rating": 1578,
+        "score": 9,
+        "sheet": {
+          "scores": "02010200200020"
+        }
+      }
+    ]
+  },
+  "id": "7PvrBdeQ",
+  "createdBy": "kp-next",
+  "startsAt": "2020-12-04T21:30:02Z",
+  "system": "arena",
+  "fullName": "NexT Quarentena Online - T31 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "blitz",
+    "name": "Blitz",
+    "icon": ")"
+  },
+  "clock": {
+    "limit": 300,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": true,
+  "noStreak": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento do projeto \"Quarentena Online\", sem limite de rating, aberto a todos os membros inscritos no Clube Virtual Online do NexT (equipe do NexT no Lichess).",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

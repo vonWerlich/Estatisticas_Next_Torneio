@@ -1,0 +1,183 @@
+{
+  "nbPlayers": 15,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "the-chemist",
+      "rank": 1,
+      "rating": 2289,
+      "score": 47,
+      "nb": {
+        "game": 12,
+        "berserk": 5,
+        "win": 11
+      },
+      "performance": 2194
+    },
+    {
+      "name": "vonWerlich",
+      "rank": 2,
+      "rating": 2252,
+      "score": 37,
+      "nb": {
+        "game": 14,
+        "berserk": 2,
+        "win": 11
+      },
+      "performance": 2030
+    },
+    {
+      "name": "NeoMaverWick",
+      "flair": "symbols.fleur-de-lis",
+      "rank": 3,
+      "rating": 1965,
+      "score": 20,
+      "nb": {
+        "game": 10,
+        "berserk": 0,
+        "win": 7
+      },
+      "performance": 2092
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 68,
+    "moves": 3590,
+    "whiteWins": 35,
+    "blackWins": 32,
+    "draws": 1,
+    "berserks": 18,
+    "averageRating": 1666
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "the-chemist",
+        "rank": 1,
+        "rating": 2289,
+        "score": 47,
+        "sheet": {
+          "scores": "254455544522"
+        }
+      },
+      {
+        "name": "vonWerlich",
+        "rank": 2,
+        "rating": 2252,
+        "score": 37,
+        "sheet": {
+          "scores": "04444432044220"
+        }
+      },
+      {
+        "name": "NeoMaverWick",
+        "flair": "symbols.fleur-de-lis",
+        "rank": 3,
+        "rating": 1965,
+        "score": 20,
+        "sheet": {
+          "scores": "0202044422"
+        }
+      },
+      {
+        "name": "ThiSilv10",
+        "rank": 4,
+        "rating": 1582,
+        "score": 18,
+        "sheet": {
+          "scores": "00422042200200"
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 5,
+        "rating": 1859,
+        "score": 17,
+        "sheet": {
+          "scores": "120422020202"
+        }
+      },
+      {
+        "name": "Balzabouth",
+        "flair": "people.love-you-gesture-light-skin-tone",
+        "rank": 6,
+        "rating": 1986,
+        "score": 14,
+        "sheet": {
+          "scores": "200030432"
+        }
+      },
+      {
+        "name": "DantonJosh",
+        "flair": "symbols.rainbow-flag",
+        "rank": 7,
+        "rating": 1537,
+        "score": 14,
+        "sheet": {
+          "scores": "2020022002202"
+        }
+      },
+      {
+        "name": "DanielSantosB",
+        "flair": "nature.rainbow",
+        "rank": 8,
+        "rating": 2007,
+        "score": 10,
+        "sheet": {
+          "scores": "523",
+          "fire": true
+        }
+      },
+      {
+        "name": "guile_mig",
+        "rank": 9,
+        "rating": 1281,
+        "score": 8,
+        "sheet": {
+          "scores": "0000000422"
+        }
+      },
+      {
+        "name": "PedroNEXT",
+        "rank": 10,
+        "rating": 1431,
+        "score": 6,
+        "sheet": {
+          "scores": "002020200000"
+        }
+      }
+    ]
+  },
+  "id": "ClxVDGVv",
+  "createdBy": "the-chemist",
+  "startsAt": "2023-06-16T21:30:00Z",
+  "system": "arena",
+  "fullName": "Sextas Online - GP 2023-1 T15 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 360,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento da ação \"Sextas Online\" do projeto \"Comunidade de Prática Online\" do NexT, sem limite de rating e aberto a todos que se juntarem à equipe do NexT no Lichess. Válido para o Grand Prix 2023-1 nas categorias \"Rating Performance\" e \"Participação\". Maiores informações em:\r\nnextxadrez.blogspot.com/2023/02/grand-prix-sextas-online-2-edicao.html",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

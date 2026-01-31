@@ -1,0 +1,141 @@
+[
+  {
+    "rank": 1,
+    "points": 7,
+    "tieBreak": 27.5,
+    "rating": 2019,
+    "username": "the-chemist",
+    "performance": 2365
+  },
+  {
+    "rank": 2,
+    "points": 5.5,
+    "tieBreak": 19.25,
+    "rating": 1993,
+    "username": "INDI7",
+    "performance": 2143
+  },
+  {
+    "rank": 3,
+    "points": 5.5,
+    "tieBreak": 17.75,
+    "rating": 2079,
+    "username": "vonWerlich",
+    "performance": 2075
+  },
+  {
+    "rank": 4,
+    "points": 4,
+    "tieBreak": 11,
+    "rating": 1917,
+    "username": "NegroMestrovisk",
+    "performance": 1921
+  },
+  {
+    "rank": 5,
+    "points": 4,
+    "tieBreak": 10.25,
+    "rating": 1814,
+    "username": "AndreHLLMAB251",
+    "performance": 1825
+  },
+  {
+    "rank": 6,
+    "points": 4,
+    "tieBreak": 10,
+    "rating": 1602,
+    "username": "mbhh",
+    "performance": 1880
+  },
+  {
+    "rank": 7,
+    "points": 4,
+    "tieBreak": 9,
+    "rating": 1733,
+    "username": "PedroNEXT",
+    "performance": 1693
+  },
+  {
+    "rank": 8,
+    "points": 3.5,
+    "tieBreak": 13,
+    "rating": 1949,
+    "username": "MarcusZulu",
+    "performance": 1880
+  },
+  {
+    "rank": 9,
+    "points": 3,
+    "tieBreak": 9,
+    "rating": 1670,
+    "username": "Modestovic",
+    "performance": 1749
+  },
+  {
+    "rank": 10,
+    "points": 3,
+    "tieBreak": 6.5,
+    "rating": 1612,
+    "username": "ManoelBPLMAB251",
+    "performance": 1632
+  },
+  {
+    "rank": 11,
+    "points": 3,
+    "tieBreak": 5.5,
+    "rating": 1692,
+    "username": "GabrielNLMAB251",
+    "performance": 1681
+  },
+  {
+    "rank": 12,
+    "points": 3,
+    "tieBreak": 4,
+    "rating": 1542,
+    "username": "DantonJosh",
+    "performance": 1487
+  },
+  {
+    "rank": 13,
+    "points": 2,
+    "tieBreak": 6,
+    "rating": 1825,
+    "username": "gadottL",
+    "performance": 1638,
+    "absent": true
+  },
+  {
+    "rank": 14,
+    "points": 2,
+    "tieBreak": 1.5,
+    "rating": 1531,
+    "username": "ReneDVNLMAB251",
+    "performance": 1311
+  },
+  {
+    "rank": 15,
+    "points": 1.5,
+    "tieBreak": 3,
+    "rating": 1604,
+    "username": "IgorRafael",
+    "performance": 1447,
+    "absent": true
+  },
+  {
+    "rank": 16,
+    "points": 0.5,
+    "tieBreak": 0,
+    "rating": 1114,
+    "username": "eriktutxalyan2018",
+    "absent": true
+  },
+  {
+    "rank": 17,
+    "points": 0,
+    "tieBreak": 0,
+    "rating": 1523,
+    "username": "MATEUSSdaSLMAA251",
+    "performance": 1102,
+    "absent": true
+  }
+]

@@ -1,0 +1,185 @@
+{
+  "nbPlayers": 16,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "vonWerlich",
+      "rank": 1,
+      "rating": 2300,
+      "score": 32,
+      "nb": {
+        "game": 12,
+        "berserk": 4,
+        "win": 10
+      },
+      "performance": 2205
+    },
+    {
+      "name": "IaagoAriel",
+      "rank": 2,
+      "rating": 2012,
+      "score": 26,
+      "nb": {
+        "game": 14,
+        "berserk": 13,
+        "win": 8
+      },
+      "performance": 1878
+    },
+    {
+      "name": "MrWickBrokeTheRules",
+      "rank": 3,
+      "rating": 1983,
+      "score": 22,
+      "nb": {
+        "game": 12,
+        "berserk": 0,
+        "win": 9
+      },
+      "performance": 2040
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 77,
+    "moves": 4174,
+    "whiteWins": 41,
+    "blackWins": 36,
+    "draws": 0,
+    "berserks": 23,
+    "averageRating": 1665
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "vonWerlich",
+        "rank": 1,
+        "rating": 2300,
+        "score": 32,
+        "sheet": {
+          "scores": "445230433022",
+          "fire": true
+        }
+      },
+      {
+        "name": "IaagoAriel",
+        "rank": 2,
+        "rating": 2012,
+        "score": 26,
+        "sheet": {
+          "scores": "53300020300433",
+          "fire": true
+        }
+      },
+      {
+        "name": "MrWickBrokeTheRules",
+        "rank": 3,
+        "rating": 1983,
+        "score": 22,
+        "sheet": {
+          "scores": "220220442202",
+          "fire": true
+        }
+      },
+      {
+        "name": "Balzabouth",
+        "flair": "people.love-you-gesture-light-skin-tone",
+        "rank": 4,
+        "rating": 2127,
+        "score": 22,
+        "sheet": {
+          "scores": "0204444220"
+        }
+      },
+      {
+        "name": "GSibowicz",
+        "rank": 5,
+        "rating": 1841,
+        "score": 19,
+        "sheet": {
+          "scores": "3030023022022"
+        }
+      },
+      {
+        "name": "Claudio1414",
+        "rank": 6,
+        "rating": 1644,
+        "score": 18,
+        "sheet": {
+          "scores": "044220202020"
+        }
+      },
+      {
+        "name": "MGuti",
+        "rank": 7,
+        "rating": 2037,
+        "score": 16,
+        "sheet": {
+          "scores": "004220422"
+        },
+        "provisional": true
+      },
+      {
+        "name": "PedroNEXT",
+        "rank": 8,
+        "rating": 1420,
+        "score": 16,
+        "sheet": {
+          "scores": "020204422"
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 9,
+        "rating": 1852,
+        "score": 12,
+        "sheet": {
+          "scores": "220022020000020",
+          "fire": true
+        }
+      },
+      {
+        "name": "Finark",
+        "rank": 10,
+        "rating": 1914,
+        "score": 8,
+        "sheet": {
+          "scores": "220022",
+          "fire": true
+        },
+        "provisional": true
+      }
+    ]
+  },
+  "id": "mcFvbt6A",
+  "createdBy": "the-chemist",
+  "startsAt": "2022-06-10T21:30:00Z",
+  "system": "arena",
+  "fullName": "Sextas Xadrez Online - T29 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 360,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento da ação \"Sextas Xadrez Online\" do projeto \"Comunidade de Prática Online\" do NexT, sem limite de rating, aberto a todos que se juntarem à equipe do NexT no Lichess (Clube Virtual Online do NexT).",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

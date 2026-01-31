@@ -1,0 +1,180 @@
+{
+  "nbPlayers": 21,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "foguetada",
+      "rank": 1,
+      "rating": 2346,
+      "score": 36,
+      "nb": {
+        "game": 10,
+        "berserk": 0,
+        "win": 10
+      },
+      "performance": 2121
+    },
+    {
+      "name": "antonioU270819",
+      "rank": 2,
+      "rating": 1979,
+      "score": 28,
+      "nb": {
+        "game": 14,
+        "berserk": 5,
+        "win": 9
+      },
+      "performance": 2035
+    },
+    {
+      "name": "vonWerlich",
+      "rank": 3,
+      "rating": 2144,
+      "score": 28,
+      "nb": {
+        "game": 13,
+        "berserk": 6,
+        "win": 9
+      },
+      "performance": 1901
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 80,
+    "moves": 5005,
+    "whiteWins": 39,
+    "blackWins": 37,
+    "draws": 4,
+    "berserks": 12,
+    "averageRating": 1489
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "foguetada",
+        "rank": 1,
+        "rating": 2346,
+        "score": 36,
+        "sheet": {
+          "scores": "4444444422",
+          "fire": true
+        }
+      },
+      {
+        "name": "antonioU270819",
+        "rank": 2,
+        "rating": 1979,
+        "score": 28,
+        "sheet": {
+          "scores": "22242200305330",
+          "fire": true
+        }
+      },
+      {
+        "name": "vonWerlich",
+        "rank": 3,
+        "rating": 2144,
+        "score": 28,
+        "sheet": {
+          "scores": "3033030205432"
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 4,
+        "rating": 1754,
+        "score": 22,
+        "sheet": {
+          "scores": "202020044422"
+        }
+      },
+      {
+        "name": "MrWickBrokeTheRules",
+        "rank": 5,
+        "rating": 1765,
+        "score": 17,
+        "sheet": {
+          "scores": "0221200422020"
+        }
+      },
+      {
+        "name": "l1na",
+        "rank": 6,
+        "rating": 1727,
+        "score": 13,
+        "sheet": {
+          "scores": "21020422"
+        }
+      },
+      {
+        "name": "guilzadu",
+        "rank": 7,
+        "rating": 1250,
+        "score": 12,
+        "sheet": {
+          "scores": "0222020202"
+        }
+      },
+      {
+        "name": "torneido",
+        "rank": 8,
+        "rating": 1738,
+        "score": 8,
+        "sheet": {
+          "scores": "00002000200220"
+        }
+      },
+      {
+        "name": "DantonJosh",
+        "flair": "symbols.rainbow-flag",
+        "rank": 9,
+        "rating": 1270,
+        "score": 8,
+        "sheet": {
+          "scores": "0000002022200"
+        }
+      },
+      {
+        "name": "Gustavo972",
+        "rank": 10,
+        "rating": 1474,
+        "score": 7,
+        "sheet": {
+          "scores": "30022"
+        }
+      }
+    ]
+  },
+  "id": "CKAdAjaB",
+  "createdBy": "the-chemist",
+  "startsAt": "2022-04-08T21:30:00Z",
+  "system": "arena",
+  "fullName": "Sextas Xadrez Online - T20 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "blitz",
+    "name": "Blitz",
+    "icon": ")"
+  },
+  "clock": {
+    "limit": 300,
+    "increment": 3
+  },
+  "variant": "standard",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento da ação \"Sextas Xadrez Online\" do projeto \"Comunidade de Prática Online\" do NexT, sem limite de rating, aberto a todos que se juntarem à equipe do NexT no Lichess (Clube Virtual Online do NexT).",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

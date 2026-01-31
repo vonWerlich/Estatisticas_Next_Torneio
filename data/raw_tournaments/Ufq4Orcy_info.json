@@ -1,0 +1,183 @@
+{
+  "nbPlayers": 13,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "vonWerlich",
+      "rank": 1,
+      "rating": 2238,
+      "score": 19,
+      "nb": {
+        "game": 10,
+        "berserk": 1,
+        "win": 7
+      },
+      "performance": 2262
+    },
+    {
+      "name": "the-chemist",
+      "rank": 2,
+      "rating": 2282,
+      "score": 13,
+      "nb": {
+        "game": 8,
+        "berserk": 1,
+        "win": 5
+      },
+      "performance": 2260
+    },
+    {
+      "name": "foxtopdomate",
+      "rank": 3,
+      "rating": 2267,
+      "score": 8,
+      "nb": {
+        "game": 5,
+        "berserk": 0,
+        "win": 4
+      },
+      "performance": 2390
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 32,
+    "moves": 2026,
+    "whiteWins": 20,
+    "blackWins": 10,
+    "draws": 2,
+    "berserks": 4,
+    "averageRating": 1801
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "vonWerlich",
+        "rank": 1,
+        "rating": 2238,
+        "score": 19,
+        "sheet": {
+          "scores": "2302004422",
+          "fire": true
+        }
+      },
+      {
+        "name": "the-chemist",
+        "rank": 2,
+        "rating": 2282,
+        "score": 13,
+        "sheet": {
+          "scores": "22222030",
+          "fire": true
+        }
+      },
+      {
+        "name": "foxtopdomate",
+        "rank": 3,
+        "rating": 2267,
+        "score": 8,
+        "sheet": {
+          "scores": "22022",
+          "fire": true
+        }
+      },
+      {
+        "name": "Frankwillyan",
+        "flair": "smileys.alien",
+        "rank": 4,
+        "rating": 1688,
+        "score": 8,
+        "sheet": {
+          "scores": "004220"
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 5,
+        "rating": 1829,
+        "score": 7,
+        "sheet": {
+          "scores": "2102200"
+        }
+      },
+      {
+        "name": "kronossaurus",
+        "rank": 6,
+        "rating": 2101,
+        "score": 5,
+        "sheet": {
+          "scores": "00230"
+        }
+      },
+      {
+        "name": "lemos96",
+        "rank": 7,
+        "rating": 1785,
+        "score": 5,
+        "sheet": {
+          "scores": "0102002"
+        }
+      },
+      {
+        "name": "M4m4m14",
+        "rank": 8,
+        "rating": 1942,
+        "score": 4,
+        "sheet": {
+          "scores": "2002"
+        }
+      },
+      {
+        "name": "NeoMaverWick",
+        "flair": "symbols.fleur-de-lis",
+        "rank": 9,
+        "rating": 1928,
+        "score": 3,
+        "sheet": {
+          "scores": "0021"
+        }
+      },
+      {
+        "name": "DantonJosh",
+        "flair": "symbols.rainbow-flag",
+        "rank": 10,
+        "rating": 1496,
+        "score": 2,
+        "sheet": {
+          "scores": "020000"
+        }
+      }
+    ]
+  },
+  "id": "Ufq4Orcy",
+  "createdBy": "the-chemist",
+  "startsAt": "2023-08-11T21:30:00Z",
+  "system": "arena",
+  "fullName": "Sextas Online - GP 2023-2 T02 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 360,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento da ação \"Sextas Online\" do projeto \"Comunidade de Prática Online\" do NexT, sem limite de rating e aberto a todos que se juntarem à equipe do NexT no Lichess. Válido para o Grand Prix 2023-2 nas categorias \"Rating Performance\" e \"Participação\". Maiores informações em:\r\nnextxadrez.blogspot.com/2023/02/grand-prix-sextas-online-2-edicao.html",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

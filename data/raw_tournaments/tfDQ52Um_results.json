@@ -1,0 +1,104 @@
+[
+  {
+    "rank": 1,
+    "score": 39,
+    "rating": 2295,
+    "username": "vonWerlich",
+    "performance": 2076
+  },
+  {
+    "rank": 2,
+    "score": 24,
+    "rating": 1484,
+    "username": "FFF3",
+    "performance": 1856
+  },
+  {
+    "rank": 3,
+    "score": 14,
+    "rating": 1616,
+    "username": "Frankwillyan",
+    "flair": "smileys.alien",
+    "performance": 1853
+  },
+  {
+    "rank": 4,
+    "score": 12,
+    "rating": 2214,
+    "username": "the-chemist",
+    "performance": 1943
+  },
+  {
+    "rank": 5,
+    "score": 8,
+    "rating": 2271,
+    "username": "Lindousodomate",
+    "performance": 1982
+  },
+  {
+    "rank": 6,
+    "score": 5,
+    "rating": 1401,
+    "username": "Gerhard_Bey",
+    "performance": 1720
+  },
+  {
+    "rank": 7,
+    "score": 5,
+    "rating": 1774,
+    "username": "Modestovic",
+    "performance": 1496
+  },
+  {
+    "rank": 8,
+    "score": 4,
+    "rating": 1603,
+    "username": "Claudio1414",
+    "performance": 1714
+  },
+  {
+    "rank": 9,
+    "score": 4,
+    "rating": 1444,
+    "username": "PedroNEXT",
+    "performance": 1650
+  },
+  {
+    "rank": 10,
+    "score": 4,
+    "rating": 1498,
+    "username": "DantonJosh",
+    "flair": "symbols.rainbow-flag",
+    "performance": 1461
+  },
+  {
+    "rank": 11,
+    "score": 2,
+    "rating": 1999,
+    "username": "Balzabouth",
+    "flair": "people.love-you-gesture-light-skin-tone",
+    "performance": 1869
+  },
+  {
+    "rank": 12,
+    "score": 2,
+    "rating": 1185,
+    "username": "jsmagalhaes",
+    "performance": 1164
+  },
+  {
+    "rank": 13,
+    "score": 0,
+    "rating": 1956,
+    "username": "GioCapo",
+    "flair": "activity.chess-pawn",
+    "performance": 0
+  },
+  {
+    "rank": 14,
+    "score": 0,
+    "rating": 1128,
+    "username": "guile_mig",
+    "performance": 1077
+  }
+]

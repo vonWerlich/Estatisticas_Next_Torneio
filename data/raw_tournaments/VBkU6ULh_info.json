@@ -1,0 +1,181 @@
+{
+  "nbPlayers": 27,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "the-chemist",
+      "rank": 1,
+      "rating": 2187,
+      "score": 37,
+      "nb": {
+        "game": 13,
+        "berserk": 3,
+        "win": 11
+      },
+      "performance": 2125
+    },
+    {
+      "name": "torneido",
+      "rank": 2,
+      "rating": 1789,
+      "score": 27,
+      "nb": {
+        "game": 18,
+        "berserk": 0,
+        "win": 10
+      },
+      "performance": 1675
+    },
+    {
+      "name": "antonioU270819",
+      "rank": 3,
+      "rating": 1932,
+      "score": 26,
+      "nb": {
+        "game": 17,
+        "berserk": 10,
+        "win": 8
+      },
+      "performance": 1727
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 109,
+    "moves": 6852,
+    "whiteWins": 55,
+    "blackWins": 49,
+    "draws": 5,
+    "berserks": 23,
+    "averageRating": 1607
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "the-chemist",
+        "rank": 1,
+        "rating": 2187,
+        "score": 37,
+        "sheet": {
+          "scores": "2022054445432"
+        }
+      },
+      {
+        "name": "torneido",
+        "rank": 2,
+        "rating": 1789,
+        "score": 27,
+        "sheet": {
+          "scores": "020020220444221200"
+        }
+      },
+      {
+        "name": "antonioU270819",
+        "rank": 3,
+        "rating": 1932,
+        "score": 26,
+        "sheet": {
+          "scores": "03000330003032423"
+        }
+      },
+      {
+        "name": "vonWerlich",
+        "rank": 4,
+        "rating": 2096,
+        "score": 25,
+        "sheet": {
+          "scores": "04423044220"
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 5,
+        "rating": 1776,
+        "score": 24,
+        "sheet": {
+          "scores": "44422022121",
+          "fire": true
+        }
+      },
+      {
+        "name": "MrWickBrokeTheRules",
+        "rank": 6,
+        "rating": 1802,
+        "score": 16,
+        "sheet": {
+          "scores": "00422022022"
+        }
+      },
+      {
+        "name": "caquikarpov",
+        "rank": 7,
+        "rating": 1409,
+        "score": 14,
+        "sheet": {
+          "scores": "0204422"
+        }
+      },
+      {
+        "name": "luzgus",
+        "rank": 8,
+        "rating": 1435,
+        "score": 13,
+        "sheet": {
+          "scores": "0042201022"
+        }
+      },
+      {
+        "name": "lferko",
+        "flair": "people.deaf-man-medium-light-skin-tone",
+        "rank": 9,
+        "rating": 2024,
+        "score": 12,
+        "sheet": {
+          "scores": "4422",
+          "fire": true
+        }
+      },
+      {
+        "name": "Finark",
+        "rank": 10,
+        "rating": 1411,
+        "score": 10,
+        "sheet": {
+          "scores": "2200202002",
+          "fire": true
+        }
+      }
+    ]
+  },
+  "id": "VBkU6ULh",
+  "createdBy": "the-chemist",
+  "startsAt": "2022-02-25T21:30:00Z",
+  "system": "arena",
+  "fullName": "Sextas Xadrez Online - T14 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "blitz",
+    "name": "Blitz",
+    "icon": ")"
+  },
+  "clock": {
+    "limit": 300,
+    "increment": 3
+  },
+  "variant": "standard",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento da ação \"Sextas Xadrez Online\" do projeto \"Comunidade de Prática Online\" do NexT, sem limite de rating, aberto a todos que se juntarem à equipe do NexT no Lichess (Clube Virtual Online do NexT.",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

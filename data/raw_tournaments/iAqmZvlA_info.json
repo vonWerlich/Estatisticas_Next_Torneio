@@ -1,0 +1,181 @@
+{
+  "nbPlayers": 19,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "the-chemist",
+      "rank": 1,
+      "rating": 1941,
+      "score": 24,
+      "provisional": true,
+      "nb": {
+        "game": 13,
+        "berserk": 0,
+        "win": 12
+      },
+      "performance": 2117
+    },
+    {
+      "name": "vonWerlich",
+      "rank": 2,
+      "rating": 2113,
+      "score": 18,
+      "nb": {
+        "game": 10,
+        "berserk": 0,
+        "win": 9
+      },
+      "performance": 1983
+    },
+    {
+      "name": "Modestovic",
+      "rank": 3,
+      "rating": 1885,
+      "score": 15,
+      "nb": {
+        "game": 10,
+        "berserk": 0,
+        "win": 7
+      },
+      "performance": 1744
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 79,
+    "moves": 3776,
+    "whiteWins": 38,
+    "blackWins": 38,
+    "draws": 3,
+    "berserks": 0,
+    "averageRating": 1574
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "the-chemist",
+        "rank": 1,
+        "rating": 1941,
+        "score": 24,
+        "sheet": {
+          "scores": "2222222222022"
+        },
+        "provisional": true
+      },
+      {
+        "name": "vonWerlich",
+        "rank": 2,
+        "rating": 2113,
+        "score": 18,
+        "sheet": {
+          "scores": "2222202222"
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 3,
+        "rating": 1885,
+        "score": 15,
+        "sheet": {
+          "scores": "2022102222"
+        }
+      },
+      {
+        "name": "DuuDragao_Next",
+        "rank": 4,
+        "rating": 1500,
+        "score": 15,
+        "sheet": {
+          "scores": "1000002222222"
+        },
+        "provisional": true
+      },
+      {
+        "name": "peddroariel",
+        "rank": 5,
+        "rating": 1500,
+        "score": 14,
+        "sheet": {
+          "scores": "22222022"
+        },
+        "provisional": true
+      },
+      {
+        "name": "LeonardoLGS",
+        "rank": 6,
+        "rating": 1954,
+        "score": 10,
+        "sheet": {
+          "scores": "200022022"
+        }
+      },
+      {
+        "name": "ncc_bee",
+        "rank": 7,
+        "rating": 1062,
+        "score": 10,
+        "sheet": {
+          "scores": "0020022002000000002"
+        }
+      },
+      {
+        "name": "PedroNEXT",
+        "rank": 8,
+        "rating": 1263,
+        "score": 8,
+        "sheet": {
+          "scores": "2020000022"
+        }
+      },
+      {
+        "name": "Gullermo_Lovera",
+        "rank": 9,
+        "rating": 1689,
+        "score": 8,
+        "sheet": {
+          "scores": "202002020000"
+        }
+      },
+      {
+        "name": "Gustavo972",
+        "rank": 10,
+        "rating": 1507,
+        "score": 8,
+        "sheet": {
+          "scores": "21120200"
+        }
+      }
+    ]
+  },
+  "id": "iAqmZvlA",
+  "createdBy": "the-chemist",
+  "startsAt": "2021-06-28T21:30:53Z",
+  "system": "arena",
+  "fullName": "Quarentena do Aprendiz - T51 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 360,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": false,
+  "noStreak": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento do projeto \"Quarentena Online\" do NexT, para Aprendizes (rating rápido sugerido de até 2000 pontos). Para participar basta se juntar à equipe do NexT no Lichess.",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

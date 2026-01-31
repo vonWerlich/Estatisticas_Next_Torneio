@@ -1,0 +1,182 @@
+{
+  "nbPlayers": 15,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "vonWerlich",
+      "rank": 1,
+      "rating": 2353,
+      "score": 27,
+      "nb": {
+        "game": 9,
+        "berserk": 1,
+        "win": 8
+      },
+      "performance": 2269
+    },
+    {
+      "name": "the-chemist",
+      "rank": 2,
+      "rating": 2405,
+      "score": 18,
+      "nb": {
+        "game": 7,
+        "berserk": 0,
+        "win": 6
+      },
+      "performance": 2407
+    },
+    {
+      "name": "Modestovic",
+      "rank": 3,
+      "rating": 1900,
+      "score": 16,
+      "nb": {
+        "game": 12,
+        "berserk": 0,
+        "win": 7
+      },
+      "performance": 1969
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 53,
+    "moves": 3116,
+    "whiteWins": 29,
+    "blackWins": 23,
+    "draws": 1,
+    "berserks": 3,
+    "averageRating": 1701
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "vonWerlich",
+        "rank": 1,
+        "rating": 2353,
+        "score": 27,
+        "sheet": {
+          "scores": "204444432"
+        }
+      },
+      {
+        "name": "the-chemist",
+        "rank": 2,
+        "rating": 2405,
+        "score": 18,
+        "sheet": {
+          "scores": "2224422",
+          "fire": true
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 3,
+        "rating": 1900,
+        "score": 16,
+        "sheet": {
+          "scores": "220222020220",
+          "fire": true
+        }
+      },
+      {
+        "name": "Balzabouth",
+        "flair": "people.love-you-gesture-light-skin-tone",
+        "rank": 4,
+        "rating": 1997,
+        "score": 14,
+        "sheet": {
+          "scores": "20202042200"
+        }
+      },
+      {
+        "name": "Finark",
+        "rank": 5,
+        "rating": 1832,
+        "score": 10,
+        "sheet": {
+          "scores": "002303020"
+        }
+      },
+      {
+        "name": "DantonJosh",
+        "flair": "symbols.rainbow-flag",
+        "rank": 6,
+        "rating": 1478,
+        "score": 10,
+        "sheet": {
+          "scores": "202002020002"
+        }
+      },
+      {
+        "name": "KalebeItajai",
+        "rank": 7,
+        "rating": 2011,
+        "score": 8,
+        "sheet": {
+          "scores": "0202022"
+        }
+      },
+      {
+        "name": "NeoMaverWick",
+        "flair": "symbols.fleur-de-lis",
+        "rank": 8,
+        "rating": 1948,
+        "score": 8,
+        "sheet": {
+          "scores": "02200202"
+        }
+      },
+      {
+        "name": "PhillipBrasil",
+        "rank": 9,
+        "rating": 1448,
+        "score": 6,
+        "sheet": {
+          "scores": "0002000022"
+        }
+      },
+      {
+        "name": "Molchat",
+        "rank": 10,
+        "rating": 1477,
+        "score": 4,
+        "sheet": {
+          "scores": "0220"
+        }
+      }
+    ]
+  },
+  "id": "dtLIhb4n",
+  "createdBy": "the-chemist",
+  "startsAt": "2023-03-03T21:30:00Z",
+  "system": "arena",
+  "fullName": "Sextas Online - GP 2023-1 T04 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 360,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento da ação \"Sextas Online\" do projeto \"Comunidade de Prática Online\" do NexT, sem limite de rating e aberto a todos que se juntarem à equipe do NexT no Lichess. Válido para o Grand Prix 2023-1 nas categorias \"Rating Performance\" e \"Participação\". Maiores informações em:\r\nnextxadrez.blogspot.com/2023/02/grand-prix-sextas-online-2-edicao.html",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "rank": 1,
+    "score": 40,
+    "rating": 2171,
+    "username": "the-chemist",
+    "performance": 2036
+  },
+  {
+    "rank": 2,
+    "score": 22,
+    "rating": 2124,
+    "username": "vonWerlich",
+    "performance": 1797
+  },
+  {
+    "rank": 3,
+    "score": 14,
+    "rating": 1617,
+    "username": "NeoMaverWick",
+    "flair": "symbols.fleur-de-lis",
+    "performance": 1584
+  },
+  {
+    "rank": 4,
+    "score": 13,
+    "rating": 1759,
+    "username": "Balzabouth",
+    "flair": "people.love-you-gesture-light-skin-tone",
+    "performance": 1705
+  },
+  {
+    "rank": 5,
+    "score": 8,
+    "rating": 1544,
+    "username": "rafakb",
+    "performance": 1597
+  },
+  {
+    "rank": 6,
+    "score": 8,
+    "rating": 1356,
+    "username": "DantonJosh",
+    "flair": "symbols.rainbow-flag",
+    "performance": 1467
+  },
+  {
+    "rank": 7,
+    "score": 6,
+    "rating": 1479,
+    "username": "Frankwillyan",
+    "flair": "smileys.alien",
+    "performance": 1505
+  },
+  {
+    "rank": 8,
+    "score": 4,
+    "rating": 1411,
+    "username": "luzgus",
+    "performance": 1820
+  },
+  {
+    "rank": 9,
+    "score": 4,
+    "rating": 1436,
+    "username": "Bruschini",
+    "performance": 1610
+  },
+  {
+    "rank": 10,
+    "score": 4,
+    "rating": 1697,
+    "username": "Modestovic",
+    "performance": 1377
+  },
+  {
+    "rank": 11,
+    "score": 2,
+    "rating": 1830,
+    "username": "Ronnieryb",
+    "performance": 1959
+  },
+  {
+    "rank": 12,
+    "score": 2,
+    "rating": 2107,
+    "username": "Maxchessbr",
+    "flair": "activity.lichess-blitz",
+    "performance": 1537
+  },
+  {
+    "rank": 13,
+    "score": 2,
+    "rating": 1489,
+    "username": "AlexanderMAVC",
+    "performance": 1385
+  },
+  {
+    "rank": 14,
+    "score": 0,
+    "rating": 1500,
+    "username": "EduardoEli",
+    "performance": 0
+  },
+  {
+    "rank": 15,
+    "score": 0,
+    "rating": 1211,
+    "username": "PedroNEXT",
+    "performance": 996
+  }
+]

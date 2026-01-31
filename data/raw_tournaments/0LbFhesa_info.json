@@ -1,0 +1,181 @@
+{
+  "nbPlayers": 22,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "vonWerlich",
+      "rank": 1,
+      "rating": 2273,
+      "score": 45,
+      "nb": {
+        "game": 12,
+        "berserk": 1,
+        "win": 12
+      },
+      "performance": 2345
+    },
+    {
+      "name": "IaagoAriel",
+      "rank": 2,
+      "rating": 2001,
+      "score": 24,
+      "nb": {
+        "game": 10,
+        "berserk": 8,
+        "win": 7
+      },
+      "performance": 2040
+    },
+    {
+      "name": "epsei",
+      "rank": 3,
+      "rating": 2009,
+      "score": 20,
+      "nb": {
+        "game": 11,
+        "berserk": 0,
+        "win": 8
+      },
+      "performance": 2046
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 72,
+    "moves": 4699,
+    "whiteWins": 36,
+    "blackWins": 35,
+    "draws": 1,
+    "berserks": 17,
+    "averageRating": 1660
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "vonWerlich",
+        "rank": 1,
+        "rating": 2273,
+        "score": 45,
+        "sheet": {
+          "scores": "445444444422",
+          "fire": true
+        }
+      },
+      {
+        "name": "IaagoAriel",
+        "rank": 2,
+        "rating": 2001,
+        "score": 24,
+        "sheet": {
+          "scores": "5330523003",
+          "fire": true
+        }
+      },
+      {
+        "name": "epsei",
+        "rank": 3,
+        "rating": 2009,
+        "score": 20,
+        "sheet": {
+          "scores": "20204220422"
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 4,
+        "rating": 1896,
+        "score": 16,
+        "sheet": {
+          "scores": "00422020220200"
+        }
+      },
+      {
+        "name": "seanlachef",
+        "rank": 5,
+        "rating": 1738,
+        "score": 15,
+        "sheet": {
+          "scores": "30230030022"
+        }
+      },
+      {
+        "name": "andrelison",
+        "rank": 6,
+        "rating": 1601,
+        "score": 14,
+        "sheet": {
+          "scores": "02042200220"
+        }
+      },
+      {
+        "name": "lemos96",
+        "rank": 7,
+        "rating": 1868,
+        "score": 12,
+        "sheet": {
+          "scores": "00422022"
+        }
+      },
+      {
+        "name": "Laerte3",
+        "rank": 8,
+        "rating": 1841,
+        "score": 9,
+        "sheet": {
+          "scores": "02021202"
+        }
+      },
+      {
+        "name": "oslect",
+        "rank": 9,
+        "rating": 1978,
+        "score": 8,
+        "sheet": {
+          "scores": "42200",
+          "fire": true
+        }
+      },
+      {
+        "name": "iniciante34",
+        "rank": 10,
+        "rating": 1783,
+        "score": 7,
+        "sheet": {
+          "scores": "02003020"
+        },
+        "provisional": true
+      }
+    ]
+  },
+  "id": "0LbFhesa",
+  "createdBy": "the-chemist",
+  "startsAt": "2022-07-08T21:30:00Z",
+  "system": "arena",
+  "fullName": "Sextas Online - GP 2022-2 T02 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 360,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento da ação \"Sextas Online\" do projeto \"Comunidade de Prática Online\" do NexT, sem limite de rating e aberto a todos que se juntarem à equipe do NexT no Lichess. Válido para o Grand Prix 2022-2 nas categorias \"Rating Performance\" e \"Participação\" (maiores informações em: http://nextxadrez.blogspot.com/2022/06/grand-prix-sextas-online.html)",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

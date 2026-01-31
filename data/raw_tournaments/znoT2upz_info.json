@@ -1,0 +1,182 @@
+{
+  "nbPlayers": 17,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "the-chemist",
+      "rank": 1,
+      "rating": 2246,
+      "score": 23,
+      "nb": {
+        "game": 8,
+        "berserk": 1,
+        "win": 7
+      },
+      "performance": 2470
+    },
+    {
+      "name": "M4m4m14",
+      "rank": 2,
+      "rating": 1907,
+      "score": 18,
+      "nb": {
+        "game": 10,
+        "berserk": 5,
+        "win": 6
+      },
+      "performance": 1756
+    },
+    {
+      "name": "vonWerlich",
+      "rank": 3,
+      "rating": 2304,
+      "score": 16,
+      "nb": {
+        "game": 9,
+        "berserk": 2,
+        "win": 6
+      },
+      "performance": 2147
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 50,
+    "moves": 3171,
+    "whiteWins": 30,
+    "blackWins": 20,
+    "draws": 0,
+    "berserks": 12,
+    "averageRating": 1640
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "the-chemist",
+        "rank": 1,
+        "rating": 2246,
+        "score": 23,
+        "sheet": {
+          "scores": "30444422"
+        }
+      },
+      {
+        "name": "M4m4m14",
+        "rank": 2,
+        "rating": 1907,
+        "score": 18,
+        "sheet": {
+          "scores": "0230452200"
+        }
+      },
+      {
+        "name": "vonWerlich",
+        "rank": 3,
+        "rating": 2304,
+        "score": 16,
+        "sheet": {
+          "scores": "442202020",
+          "fire": true
+        }
+      },
+      {
+        "name": "Balzabouth",
+        "flair": "people.love-you-gesture-light-skin-tone",
+        "rank": 4,
+        "rating": 1956,
+        "score": 16,
+        "sheet": {
+          "scores": "054320020"
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 5,
+        "rating": 1807,
+        "score": 12,
+        "sheet": {
+          "scores": "2020422"
+        }
+      },
+      {
+        "name": "ThiSilv10",
+        "rank": 6,
+        "rating": 1600,
+        "score": 10,
+        "sheet": {
+          "scores": "0020220202"
+        },
+        "provisional": true
+      },
+      {
+        "name": "GioCapo",
+        "flair": "activity.chess-pawn",
+        "rank": 7,
+        "rating": 1952,
+        "score": 8,
+        "sheet": {
+          "scores": "0422"
+        }
+      },
+      {
+        "name": "NeoMaverWick",
+        "flair": "symbols.fleur-de-lis",
+        "rank": 8,
+        "rating": 1903,
+        "score": 6,
+        "sheet": {
+          "scores": "20200200"
+        }
+      },
+      {
+        "name": "Gerhard_Bey",
+        "rank": 9,
+        "rating": 1413,
+        "score": 6,
+        "sheet": {
+          "scores": "02002020"
+        }
+      },
+      {
+        "name": "PedroNEXT",
+        "rank": 10,
+        "rating": 1446,
+        "score": 4,
+        "sheet": {
+          "scores": "00020020"
+        }
+      }
+    ]
+  },
+  "id": "znoT2upz",
+  "createdBy": "the-chemist",
+  "startsAt": "2023-05-26T21:30:00Z",
+  "system": "arena",
+  "fullName": "Sextas Online - GP 2023-1 T13 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 360,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento da ação \"Sextas Online\" do projeto \"Comunidade de Prática Online\" do NexT, sem limite de rating e aberto a todos que se juntarem à equipe do NexT no Lichess. Válido para o Grand Prix 2023-1 nas categorias \"Rating Performance\" e \"Participação\". Maiores informações em:\r\nnextxadrez.blogspot.com/2023/02/grand-prix-sextas-online-2-edicao.html",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

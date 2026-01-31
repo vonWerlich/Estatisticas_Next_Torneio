@@ -1,0 +1,183 @@
+{
+  "nbPlayers": 17,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "vonWerlich",
+      "rank": 1,
+      "rating": 2132,
+      "score": 36,
+      "nb": {
+        "game": 14,
+        "berserk": 2,
+        "win": 11
+      },
+      "performance": 2077
+    },
+    {
+      "name": "the-chemist",
+      "rank": 2,
+      "rating": 2198,
+      "score": 26,
+      "nb": {
+        "game": 9,
+        "berserk": 0,
+        "win": 8
+      },
+      "performance": 2331
+    },
+    {
+      "name": "Lindousodomate",
+      "rank": 3,
+      "rating": 2171,
+      "score": 21,
+      "nb": {
+        "game": 10,
+        "berserk": 0,
+        "win": 7
+      },
+      "performance": 2032
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 63,
+    "moves": 3766,
+    "whiteWins": 36,
+    "blackWins": 25,
+    "draws": 2,
+    "berserks": 2,
+    "averageRating": 1710
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "vonWerlich",
+        "rank": 1,
+        "rating": 2132,
+        "score": 36,
+        "sheet": {
+          "scores": "44220205454220",
+          "fire": true
+        }
+      },
+      {
+        "name": "the-chemist",
+        "rank": 2,
+        "rating": 2198,
+        "score": 26,
+        "sheet": {
+          "scores": "204444422"
+        }
+      },
+      {
+        "name": "Lindousodomate",
+        "rank": 3,
+        "rating": 2171,
+        "score": 21,
+        "sheet": {
+          "scores": "4442202021",
+          "fire": true
+        }
+      },
+      {
+        "name": "Balzabouth",
+        "flair": "people.love-you-gesture-light-skin-tone",
+        "rank": 4,
+        "rating": 1796,
+        "score": 14,
+        "sheet": {
+          "scores": "22022020220",
+          "fire": true
+        }
+      },
+      {
+        "name": "NeoMaverWick",
+        "flair": "symbols.fleur-de-lis",
+        "rank": 5,
+        "rating": 1752,
+        "score": 12,
+        "sheet": {
+          "scores": "202000000422"
+        }
+      },
+      {
+        "name": "NATANFOX2015",
+        "rank": 6,
+        "rating": 2019,
+        "score": 9,
+        "sheet": {
+          "scores": "02000220020001"
+        }
+      },
+      {
+        "name": "Finark",
+        "rank": 7,
+        "rating": 1630,
+        "score": 8,
+        "sheet": {
+          "scores": "042200"
+        },
+        "provisional": true
+      },
+      {
+        "name": "joaov_pnp",
+        "rank": 8,
+        "rating": 1725,
+        "score": 8,
+        "sheet": {
+          "scores": "042200"
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 9,
+        "rating": 1646,
+        "score": 6,
+        "sheet": {
+          "scores": "20220"
+        }
+      },
+      {
+        "name": "PedroNEXT",
+        "rank": 10,
+        "rating": 1305,
+        "score": 6,
+        "sheet": {
+          "scores": "00020220"
+        }
+      }
+    ]
+  },
+  "id": "HFuoS9WT",
+  "createdBy": "the-chemist",
+  "startsAt": "2024-04-12T21:30:00Z",
+  "system": "arena",
+  "fullName": "Sextas Online - GP 2024-1 T06 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "blitz",
+    "name": "Blitz",
+    "icon": ")"
+  },
+  "clock": {
+    "limit": 300,
+    "increment": 3
+  },
+  "variant": "standard",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento da ação \"Sextas Online\" do projeto \"Comunidade de Prática Online\" do NexT, sem limite de rating e aberto a todos que se juntarem à equipe do NexT no Lichess. Válido para o Grand Prix 2024-1 nas categorias \"Rating Performance\" e \"Participação\" (válido para contas que não violarem os Termos de Serviço do Lichess e ou não tiverem sido encerradas).",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

@@ -1,0 +1,184 @@
+{
+  "nbPlayers": 17,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "gmedsondias",
+      "rank": 1,
+      "rating": 1637,
+      "score": 25,
+      "nb": {
+        "game": 13,
+        "berserk": 0,
+        "win": 12
+      },
+      "performance": 1855
+    },
+    {
+      "name": "Rcstarpvp",
+      "rank": 2,
+      "rating": 1457,
+      "score": 16,
+      "nb": {
+        "game": 11,
+        "berserk": 0,
+        "win": 8
+      },
+      "performance": 1535
+    },
+    {
+      "name": "AntonioMarcosArruda",
+      "rank": 3,
+      "rating": 1708,
+      "score": 16,
+      "nb": {
+        "game": 12,
+        "berserk": 0,
+        "win": 8
+      },
+      "performance": 1495
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 68,
+    "moves": 3635,
+    "whiteWins": 34,
+    "blackWins": 33,
+    "draws": 1,
+    "berserks": 0,
+    "averageRating": 1397
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "gmedsondias",
+        "rank": 1,
+        "rating": 1637,
+        "score": 25,
+        "sheet": {
+          "scores": "2222222222122"
+        }
+      },
+      {
+        "name": "Rcstarpvp",
+        "rank": 2,
+        "rating": 1457,
+        "score": 16,
+        "sheet": {
+          "scores": "22222002022"
+        }
+      },
+      {
+        "name": "AntonioMarcosArruda",
+        "rank": 3,
+        "rating": 1708,
+        "score": 16,
+        "sheet": {
+          "scores": "020202222220"
+        }
+      },
+      {
+        "name": "NegroMestrovisk",
+        "rank": 4,
+        "rating": 1470,
+        "score": 14,
+        "sheet": {
+          "scores": "02022200222"
+        }
+      },
+      {
+        "name": "Kazalysson",
+        "rank": 5,
+        "rating": 1513,
+        "score": 14,
+        "sheet": {
+          "scores": "2220202202"
+        }
+      },
+      {
+        "name": "Gullermo_Lovera",
+        "rank": 6,
+        "rating": 1503,
+        "score": 11,
+        "sheet": {
+          "scores": "0002202212"
+        }
+      },
+      {
+        "name": "axt2106",
+        "rank": 7,
+        "rating": 1191,
+        "score": 10,
+        "sheet": {
+          "scores": "0020220022"
+        }
+      },
+      {
+        "name": "jaop",
+        "rank": 8,
+        "rating": 1388,
+        "score": 8,
+        "sheet": {
+          "scores": "202220"
+        }
+      },
+      {
+        "name": "Edu_Rocha",
+        "rank": 9,
+        "rating": 1522,
+        "score": 6,
+        "sheet": {
+          "scores": "022020"
+        }
+      },
+      {
+        "name": "proneer",
+        "rank": 10,
+        "rating": 1467,
+        "score": 6,
+        "sheet": {
+          "scores": "022200000"
+        }
+      }
+    ]
+  },
+  "id": "6MyKdrW8",
+  "createdBy": "kp-next",
+  "startsAt": "2020-07-13T21:30:55Z",
+  "system": "arena",
+  "fullName": "Quarentena do Aprendiz - T7 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 420,
+    "increment": 5
+  },
+  "variant": "standard",
+  "rated": true,
+  "noStreak": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Rated ≤ 1800 in Rapid for the last week",
+        "verdict": "ok"
+      },
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento do projeto \"Quarentena Online\" do NexT, para aprendizes (rating rápido de até 1800 pontos). Para participar é necessário ter um rating rápido já estabilizado (não provisório) e estar inscrito na equipe do NexT.",
+  "maxRating": {
+    "rating": 1800
+  },
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

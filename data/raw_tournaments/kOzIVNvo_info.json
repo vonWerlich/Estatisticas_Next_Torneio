@@ -1,0 +1,183 @@
+{
+  "nbPlayers": 23,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "vonWerlich",
+      "rank": 1,
+      "rating": 2223,
+      "score": 52,
+      "nb": {
+        "game": 16,
+        "berserk": 7,
+        "win": 14
+      },
+      "performance": 1968
+    },
+    {
+      "name": "LeonardoBatis",
+      "rank": 2,
+      "rating": 1704,
+      "score": 35,
+      "nb": {
+        "game": 15,
+        "berserk": 1,
+        "win": 12
+      },
+      "performance": 1999
+    },
+    {
+      "name": "the-chemist",
+      "rank": 3,
+      "rating": 2097,
+      "score": 32,
+      "nb": {
+        "game": 17,
+        "berserk": 12,
+        "win": 10
+      },
+      "performance": 1719
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 99,
+    "moves": 4621,
+    "whiteWins": 50,
+    "blackWins": 47,
+    "draws": 2,
+    "berserks": 25,
+    "averageRating": 1516
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "vonWerlich",
+        "rank": 1,
+        "rating": 2223,
+        "score": 52,
+        "sheet": {
+          "scores": "5442324544330522",
+          "fire": true
+        }
+      },
+      {
+        "name": "LeonardoBatis",
+        "rank": 2,
+        "rating": 1704,
+        "score": 35,
+        "sheet": {
+          "scores": "230222444220422",
+          "fire": true
+        }
+      },
+      {
+        "name": "the-chemist",
+        "rank": 3,
+        "rating": 2097,
+        "score": 32,
+        "sheet": {
+          "scores": "20330303055330020"
+        }
+      },
+      {
+        "name": "Modestovic",
+        "rank": 4,
+        "rating": 1808,
+        "score": 27,
+        "sheet": {
+          "scores": "4422120220220202",
+          "fire": true
+        }
+      },
+      {
+        "name": "torneido",
+        "rank": 5,
+        "rating": 1687,
+        "score": 25,
+        "sheet": {
+          "scores": "00442210220200200220"
+        }
+      },
+      {
+        "name": "jaop",
+        "rank": 6,
+        "rating": 1427,
+        "score": 12,
+        "sheet": {
+          "scores": "42202020000",
+          "fire": true
+        }
+      },
+      {
+        "name": "DantonJosh",
+        "flair": "symbols.rainbow-flag",
+        "rank": 7,
+        "rating": 1241,
+        "score": 12,
+        "sheet": {
+          "scores": "002020022020200"
+        }
+      },
+      {
+        "name": "chessevolution33",
+        "rank": 8,
+        "rating": 1707,
+        "score": 8,
+        "sheet": {
+          "scores": "422",
+          "fire": true
+        }
+      },
+      {
+        "name": "Gustavo972",
+        "rank": 9,
+        "rating": 1445,
+        "score": 8,
+        "sheet": {
+          "scores": "202000020002"
+        }
+      },
+      {
+        "name": "PedroNEXT",
+        "rank": 10,
+        "rating": 1318,
+        "score": 8,
+        "sheet": {
+          "scores": "200002202"
+        }
+      }
+    ]
+  },
+  "id": "kOzIVNvo",
+  "createdBy": "the-chemist",
+  "startsAt": "2021-11-26T21:30:00Z",
+  "system": "arena",
+  "fullName": "Sextas Xadrez Online - T09 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "blitz",
+    "name": "Blitz",
+    "icon": ")"
+  },
+  "clock": {
+    "limit": 300,
+    "increment": 3
+  },
+  "variant": "standard",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento da ação \"Sextas Xadrez Online\" do projeto \"Comunidade de Prática Online\" do NexT, sem limite de rating, aberto a todos que se juntarem à equipe do NexT no Lichess (Clube Virtual Online do NexT.",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

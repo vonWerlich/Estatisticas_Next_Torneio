@@ -1,0 +1,182 @@
+{
+  "nbPlayers": 13,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "Modestovic",
+      "rank": 1,
+      "rating": 1924,
+      "score": 16,
+      "nb": {
+        "game": 8,
+        "berserk": 0,
+        "win": 8
+      },
+      "performance": 1887
+    },
+    {
+      "name": "Gustavo972",
+      "rank": 2,
+      "rating": 1627,
+      "score": 14,
+      "nb": {
+        "game": 10,
+        "berserk": 0,
+        "win": 7
+      },
+      "performance": 1561
+    },
+    {
+      "name": "MrWickBrokeTheRules",
+      "rank": 3,
+      "rating": 1500,
+      "score": 12,
+      "provisional": true,
+      "nb": {
+        "game": 8,
+        "berserk": 0,
+        "win": 6
+      },
+      "performance": 1794
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 39,
+    "moves": 1587,
+    "whiteWins": 20,
+    "blackWins": 19,
+    "draws": 0,
+    "berserks": 0,
+    "averageRating": 1621
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "Modestovic",
+        "rank": 1,
+        "rating": 1924,
+        "score": 16,
+        "sheet": {
+          "scores": "22222222"
+        }
+      },
+      {
+        "name": "Gustavo972",
+        "rank": 2,
+        "rating": 1627,
+        "score": 14,
+        "sheet": {
+          "scores": "2202022220"
+        }
+      },
+      {
+        "name": "MrWickBrokeTheRules",
+        "rank": 3,
+        "rating": 1500,
+        "score": 12,
+        "sheet": {
+          "scores": "22202022"
+        },
+        "provisional": true
+      },
+      {
+        "name": "Ronnieryb",
+        "rank": 4,
+        "rating": 2002,
+        "score": 8,
+        "sheet": {
+          "scores": "02222"
+        }
+      },
+      {
+        "name": "the-chemist",
+        "rank": 5,
+        "rating": 2141,
+        "score": 6,
+        "sheet": {
+          "scores": "222"
+        },
+        "provisional": true
+      },
+      {
+        "name": "botest",
+        "rank": 6,
+        "rating": 2336,
+        "score": 6,
+        "sheet": {
+          "scores": "222"
+        }
+      },
+      {
+        "name": "jaop",
+        "rank": 7,
+        "rating": 1487,
+        "score": 6,
+        "sheet": {
+          "scores": "200220"
+        }
+      },
+      {
+        "name": "DantonJosh",
+        "flair": "symbols.rainbow-flag",
+        "rank": 8,
+        "rating": 1087,
+        "score": 6,
+        "sheet": {
+          "scores": "20002000002"
+        },
+        "provisional": true
+      },
+      {
+        "name": "RafaBabu",
+        "rank": 9,
+        "rating": 1562,
+        "score": 2,
+        "sheet": {
+          "scores": "0020000"
+        }
+      },
+      {
+        "name": "ncc_bee",
+        "rank": 10,
+        "rating": 1045,
+        "score": 2,
+        "sheet": {
+          "scores": "00000020"
+        }
+      }
+    ]
+  },
+  "id": "ND8k5i6r",
+  "createdBy": "the-chemist",
+  "startsAt": "2021-09-20T21:30:21Z",
+  "system": "arena",
+  "fullName": "Quarentena do Aprendiz - T63 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "rapid",
+    "name": "Rapid",
+    "icon": "#"
+  },
+  "clock": {
+    "limit": 360,
+    "increment": 4
+  },
+  "variant": "standard",
+  "rated": false,
+  "noStreak": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento do projeto \"Quarentena Online\" do NexT, para Aprendizes (rating rápido sugerido de até 2000 pontos). Para participar basta se juntar à equipe do NexT no Lichess.",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}

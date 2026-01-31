@@ -1,0 +1,226 @@
+[
+  {
+    "rank": 1,
+    "points": 6,
+    "tieBreak": 20,
+    "rating": 2117,
+    "username": "the-chemist",
+    "performance": 2208
+  },
+  {
+    "rank": 2,
+    "points": 5.5,
+    "tieBreak": 19.25,
+    "rating": 2135,
+    "username": "vonWerlich",
+    "performance": 1997
+  },
+  {
+    "rank": 3,
+    "points": 5.5,
+    "tieBreak": 16.75,
+    "rating": 2159,
+    "username": "NeoMaverWick",
+    "performance": 2215
+  },
+  {
+    "rank": 4,
+    "points": 5,
+    "tieBreak": 16,
+    "rating": 1936,
+    "username": "DanielSantosB",
+    "performance": 1902
+  },
+  {
+    "rank": 5,
+    "points": 4.5,
+    "tieBreak": 7,
+    "rating": 1357,
+    "username": "Vyrtual",
+    "performance": 1724
+  },
+  {
+    "rank": 6,
+    "points": 4,
+    "tieBreak": 8,
+    "rating": 1878,
+    "username": "zeomax",
+    "performance": 1686
+  },
+  {
+    "rank": 7,
+    "points": 4,
+    "tieBreak": 8,
+    "rating": 1424,
+    "username": "chessgms35",
+    "performance": 1680
+  },
+  {
+    "rank": 8,
+    "points": 3.5,
+    "tieBreak": 5.75,
+    "rating": 1825,
+    "username": "GioCapo",
+    "performance": 1608
+  },
+  {
+    "rank": 9,
+    "points": 3,
+    "tieBreak": 13,
+    "rating": 1996,
+    "username": "XEPOBACTEHbKO",
+    "performance": 1931,
+    "absent": true
+  },
+  {
+    "rank": 10,
+    "points": 3,
+    "tieBreak": 4,
+    "rating": 1297,
+    "username": "DantonJosh",
+    "performance": 1488
+  },
+  {
+    "rank": 11,
+    "points": 3,
+    "tieBreak": 2,
+    "rating": 1376,
+    "username": "PedroNEXT",
+    "performance": 1433
+  },
+  {
+    "rank": 12,
+    "points": 2.5,
+    "tieBreak": 4.5,
+    "rating": 1901,
+    "username": "mesem01",
+    "performance": 1767,
+    "absent": true
+  },
+  {
+    "rank": 13,
+    "points": 2.5,
+    "tieBreak": 1.5,
+    "rating": 1063,
+    "username": "guile_mig",
+    "performance": 1367,
+    "absent": true
+  },
+  {
+    "rank": 14,
+    "points": 2,
+    "tieBreak": 5,
+    "rating": 1686,
+    "username": "vddmitrik1973",
+    "performance": 1657,
+    "absent": true
+  },
+  {
+    "rank": 15,
+    "points": 2,
+    "tieBreak": 3.5,
+    "rating": 1223,
+    "username": "Frankwillyan",
+    "performance": 1416,
+    "absent": true
+  },
+  {
+    "rank": 16,
+    "points": 1.5,
+    "tieBreak": 3.25,
+    "rating": 1501,
+    "username": "Light335",
+    "performance": 1331,
+    "absent": true
+  },
+  {
+    "rank": 17,
+    "points": 1.5,
+    "tieBreak": 1.5,
+    "rating": 1160,
+    "username": "Gerhard_Bey",
+    "performance": 1083,
+    "absent": true
+  },
+  {
+    "rank": 18,
+    "points": 1.5,
+    "tieBreak": 0.5,
+    "rating": 1158,
+    "username": "raticho",
+    "performance": 1839,
+    "absent": true
+  },
+  {
+    "rank": 19,
+    "points": 1.5,
+    "tieBreak": 0,
+    "rating": 825,
+    "username": "matheusfodaa",
+    "performance": 861,
+    "absent": true
+  },
+  {
+    "rank": 20,
+    "points": 1,
+    "tieBreak": 6,
+    "rating": 2203,
+    "username": "Aliyahars06",
+    "performance": 2691,
+    "absent": true
+  },
+  {
+    "rank": 21,
+    "points": 1,
+    "tieBreak": 4,
+    "rating": 1626,
+    "username": "kkuleshov",
+    "performance": 1287,
+    "absent": true
+  },
+  {
+    "rank": 22,
+    "points": 0.5,
+    "tieBreak": 0.25,
+    "rating": 1347,
+    "username": "Molchat",
+    "performance": 1409,
+    "absent": true
+  },
+  {
+    "rank": 23,
+    "points": 0.5,
+    "tieBreak": 0.25,
+    "rating": 1925,
+    "username": "Ches_PACHMIN",
+    "performance": 960,
+    "absent": true
+  },
+  {
+    "rank": 24,
+    "points": 0.5,
+    "tieBreak": 0,
+    "rating": 1244,
+    "username": "Muhammad_Zain",
+    "performance": 1325,
+    "absent": true
+  },
+  {
+    "rank": 25,
+    "points": 0.5,
+    "tieBreak": 0,
+    "rating": 1603,
+    "username": "AlexanderMAVC",
+    "performance": 808,
+    "absent": true
+  },
+  {
+    "rank": 26,
+    "points": 0,
+    "tieBreak": 0,
+    "rating": 2164,
+    "username": "Soumyadeep_295",
+    "performance": 1659,
+    "absent": true
+  }
+]

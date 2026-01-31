@@ -1,0 +1,180 @@
+{
+  "nbPlayers": 20,
+  "duels": [],
+  "isFinished": true,
+  "podium": [
+    {
+      "name": "the-chemist",
+      "rank": 1,
+      "rating": 2188,
+      "score": 40,
+      "nb": {
+        "game": 15,
+        "berserk": 3,
+        "win": 11
+      },
+      "performance": 1882
+    },
+    {
+      "name": "vonWerlich",
+      "rank": 2,
+      "rating": 2145,
+      "score": 39,
+      "nb": {
+        "game": 13,
+        "berserk": 1,
+        "win": 11
+      },
+      "performance": 2075
+    },
+    {
+      "name": "AlexanderMAVC",
+      "rank": 3,
+      "rating": 1637,
+      "score": 15,
+      "nb": {
+        "game": 12,
+        "berserk": 0,
+        "win": 6
+      },
+      "performance": 1637
+    }
+  ],
+  "pairingsClosed": true,
+  "stats": {
+    "games": 67,
+    "moves": 3836,
+    "whiteWins": 32,
+    "blackWins": 31,
+    "draws": 4,
+    "berserks": 4,
+    "averageRating": 1566
+  },
+  "standing": {
+    "page": 1,
+    "players": [
+      {
+        "name": "the-chemist",
+        "rank": 1,
+        "rating": 2188,
+        "score": 40,
+        "sheet": {
+          "scores": "245222444423020"
+        }
+      },
+      {
+        "name": "vonWerlich",
+        "rank": 2,
+        "rating": 2145,
+        "score": 39,
+        "sheet": {
+          "scores": "4422124444422",
+          "fire": true
+        }
+      },
+      {
+        "name": "AlexanderMAVC",
+        "rank": 3,
+        "rating": 1637,
+        "score": 15,
+        "sheet": {
+          "scores": "022042210020"
+        }
+      },
+      {
+        "name": "Eusekevin",
+        "rank": 4,
+        "rating": 1964,
+        "score": 14,
+        "sheet": {
+          "scores": "2121202202"
+        }
+      },
+      {
+        "name": "MarioDeGasperi",
+        "rank": 5,
+        "rating": 1323,
+        "score": 10,
+        "sheet": {
+          "scores": "00020422"
+        },
+        "provisional": true
+      },
+      {
+        "name": "PedroNEXT",
+        "rank": 6,
+        "rating": 1398,
+        "score": 10,
+        "sheet": {
+          "scores": "20042200"
+        }
+      },
+      {
+        "name": "tcarpes",
+        "rank": 7,
+        "rating": 1537,
+        "score": 8,
+        "sheet": {
+          "scores": "0000202022"
+        }
+      },
+      {
+        "name": "DocktorXJlle48",
+        "rank": 8,
+        "rating": 1533,
+        "score": 8,
+        "sheet": {
+          "scores": "0202202"
+        },
+        "provisional": true
+      },
+      {
+        "name": "Mano-NexT-xadrez",
+        "rank": 9,
+        "rating": 1217,
+        "score": 6,
+        "sheet": {
+          "scores": "000202020"
+        }
+      },
+      {
+        "name": "Claudio1414",
+        "rank": 10,
+        "rating": 1359,
+        "score": 5,
+        "sheet": {
+          "scores": "0220000100"
+        }
+      }
+    ]
+  },
+  "id": "HhcC3iRi",
+  "createdBy": "the-chemist",
+  "startsAt": "2024-05-10T21:30:00Z",
+  "system": "arena",
+  "fullName": "Sextas Online - GP 2024-1 T10 Arena",
+  "minutes": 120,
+  "perf": {
+    "key": "blitz",
+    "name": "Blitz",
+    "icon": ")"
+  },
+  "clock": {
+    "limit": 300,
+    "increment": 3
+  },
+  "variant": "standard",
+  "rated": true,
+  "berserkable": true,
+  "verdicts": {
+    "list": [
+      {
+        "condition": "Must be in team NexT - Núcleo de Estudos em Xadrez & Tecnologias",
+        "verdict": "ok"
+      }
+    ],
+    "accepted": true
+  },
+  "description": "Torneio de Treinamento da ação \"Sextas Online\" do projeto \"Comunidade de Prática Online\" do NexT, sem limite de rating e aberto a todos que se juntarem à equipe do NexT no Lichess. Válido para o Grand Prix 2024-1 nas categorias \"Rating Performance\" e \"Participação\" (válido para contas que não violarem os Termos de Serviço do Lichess e ou não tiverem sido encerradas).",
+  "teamMember": "next-nucleo-de-estudos-em-xadrez--tecnologias"
+}
