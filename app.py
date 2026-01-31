@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from utils import *
+from utils import * # Agora usa as novas funções SQL
 from filters import *
 from visualizations import *
 from components import *
@@ -11,411 +11,269 @@ import chess
 import chess.svg
 import base64
 
-DATA_DIR = "torneiosnew"  # pasta onde estão todos os torneios
-PLAYERS_DIR = "player_data" # pasta dos jogadores
-
+# Configuração da Página
 try: 
     caminho_logo = Path(__file__).parent / "logo.PNG"
-    st.set_page_config(
-        page_title="Estatísticas NEXT",
-        page_icon=caminho_logo,
-        layout="wide",
-        initial_sidebar_state="expanded"
-    )
-except FileNotFoundError:
-    st.set_page_config(
-        page_title="Estatísticas NEXT",
-        page_icon="logo.png",
-        layout="wide",
-        initial_sidebar_state="expanded"
-    )
+    st.set_page_config(page_title="Estatísticas NEXT", page_icon=str(caminho_logo), layout="wide", initial_sidebar_state="expanded")
+except:
+    st.set_page_config(page_title="Estatísticas NEXT", layout="wide")
 
+# Estilos e Logo
 try:
     caminho_logo = Path(__file__).parent / "logo.PNG"
     logo_base64 = img_to_base64(caminho_logo)
-    aplicar_estilos_globais(logo_base64)  #  ESTILOS 
+    aplicar_estilos_globais(logo_base64)
+except:
+    pass
 
-except FileNotFoundError:
-    st.title("Análise de Dados dos Torneios do NEXT")
-    st.error("Arquivo 'logo.png' não encontrado. Alguns estilos não foram aplicados.")
+ajustar_layout_principal(padding_top_rem=0, margin_top_rem=0)
 
-ajustar_layout_principal(padding_top_rem=0, margin_top_rem=0)  # Controla o espaço no topo em rem 
-
-# ---------- Carregar dados ----------
-
-@st.cache_data(ttl="4d", show_spinner=False) # <-- cache para atualização mais rápida, dura 4 dias
-def carregar_todos_os_torneios(data_dir):
-    """Lê todos os arquivos da pasta e retorna um DataFrame, usando cache."""
-    torneios = listar_torneios(data_dir)
-    info_list = []
-    for tid, paths in torneios.items():
-        try:
-            info = carregar_info(paths["info"])
-            nome = info.get("name") or info.get("fullName") or "Sem nome"
-            tipo = info.get("system", "swiss" if "round" in info else "desconhecido")
-            data = pd.to_datetime(info.get("startsAt"), errors="coerce", utc=True)
-            data = data.tz_convert("America/Sao_Paulo")
-            info_list.append({
-                "id": tid, "nome": nome, "tipo": tipo, "criador": info.get("createdBy"),
-                "data": data, "jogadores": info.get("nbPlayers", None),
-                "jogos": info.get("stats", {}).get("games", None)
-            })
-        except Exception:
-            # Silenciosamente ignora arquivos com erro no carregamento em cache
-            continue
-    df = pd.DataFrame(info_list)
-    return df, torneios 
-
-with st.spinner("♙♘♗♖♕♔ Aguarde, preparando as estatísticas de todos os torneios... ♟♞♝♜♛♚"):
-    #nova mensagem de erro
-    df_torneios, torneios = carregar_todos_os_torneios(DATA_DIR)
+# ==============================================================================
+# 1. CARREGAMENTO DOS DADOS (AGORA VIA SQL)
+# ==============================================================================
+with st.spinner("♙ Conectando ao Banco de Dados..."):
+    # Carrega a tabela resumo de torneios
+    df_torneios = carregar_dados_gerais()
 
 if df_torneios.empty:
-    st.error("Nenhum torneio encontrado na pasta `torneiosnew/`.")
+    st.error("⚠️ Banco de dados vazio ou não encontrado em `data/team_users.db`.")
+    st.info("Execute o script `system_manager.py` primeiro para popular os dados.")
     st.stop()
 
-# ---------- LÓGICA DA SIDEBAR ----------
-
-# 1. CRIE "ESPAÇOS RESERVADOS" (CONTAINERS) NA ORDEM VISUAL DESEJADA
-# O que for criado primeiro aqui, aparecerá mais alto na sidebar.
+# ==============================================================================
+# 2. SIDEBAR E FILTROS
+# ==============================================================================
 view_container = st.sidebar.container()
 filters_container = st.sidebar.container()
 
-# 2. PREENCHA O CONTAINER DE FILTROS PRIMEIRO (ORDEM LÓGICA)
-# Mesmo que ele vá aparecer embaixo, o código dele roda primeiro.
-# Isso garante que todas as 'keys' do session_state sejam criadas ANTES de serem usadas.
 with filters_container:
-    st.header("Filtros de torneios")
-
-    # Definições e valores necessários para os filtros
+    st.header("Filtros")
+    
+    # Filtros baseados no DataFrame carregado do SQL
     tipos_disponiveis = df_torneios["tipo"].dropna().unique().tolist()
     conjuntos_disponiveis = ["Torneios grandes", "Torneios recentes", "Meus favoritos"]
     data_min, data_max = df_torneios["data"].min().date(), df_torneios["data"].max().date()
 
-    # Criação dos widgets de filtro
-    tipos_selecionados = st.multiselect(
-        "Tipos de torneio",
-        options=tipos_disponiveis,
-        key="tipos_key"
-    )
-
-    conjuntos_selecionados = st.multiselect(
-        "Conjuntos de torneios",
-        options=conjuntos_disponiveis,
-        key="conjuntos_key"
-    )
+    tipos_selecionados = st.multiselect("Tipos", options=tipos_disponiveis, key="tipos_key")
+    conjuntos_selecionados = st.multiselect("Conjuntos", options=conjuntos_disponiveis, key="conjuntos_key")
 
     if "datas_key" not in st.session_state:
         st.session_state["datas_key"] = (data_min, data_max)
 
-    datas = st.date_input(
-        "Intervalo de datas",
-        min_value=data_min,
-        key="datas_key"
-    )
-    # Pega o valor atual do session_state, que foi atualizado pelo date_input acima
+    datas = st.date_input("Data", min_value=data_min, max_value=data_max, key="datas_key")
     datas_selecionadas = st.session_state["datas_key"]
+    
+    st.button("❌ Limpar", on_click=reset_filtros, args=(df_torneios,), key="bt_limpar")
 
-
-    st.button("❌ Limpar tudo", on_click=reset_filtros, args=(df_torneios,), key="limpar_filtros_button")
-
-
-# Este código roda depois dos filtros, mas o resultado aparece no topo da tela.
 with view_container:
-    st.header("Selecionar Análise") 
+    st.header("Menu")
     view_selection = st.radio(
-        "**Visualizar**",
-        options=['Visão Geral', 'Número de Participantes', 'Detalhes do Torneio', 'Jogadores', 'Tabuleiro de Análise'],
-        key='view_key',
-        label_visibility="collapsed", # Este parâmetro esconde o rótulo "Selecione uma visualização" da tela
+        "Navegação",
+        options=['Visão Geral', 'Estatísticas', 'Detalhes do Torneio', 'Jogadores', 'Tabuleiro'],
+        label_visibility="collapsed",
+        key='view_key'
     )
-
     st.divider()
 
-# ----------------- PÁGINA PRINCIPAL (ÁREA DE CONTEÚDO) ----------------
+# ==============================================================================
+# 3. LÓGICA DE EXIBIÇÃO
+# ==============================================================================
 
-if len(datas_selecionadas) != 2:
+# Validação de Datas
+if not isinstance(datas_selecionadas, tuple) or len(datas_selecionadas) != 2:
+    st.warning("Selecione um intervalo de datas completo.")
+    st.stop()
+
+# Aplica Filtros (A função aplicar_filtros do filters.py continua funcionando igual, 
+# pois mantivemos os nomes das colunas 'data', 'tipo', etc no SQL)
+df_filtrado = aplicar_filtros(
+    df_torneios,
+    tipos=st.session_state["tipos_key"],
+    conjuntos=st.session_state["conjuntos_key"],
+    datas=st.session_state["datas_key"]
+)
+
+if df_filtrado.empty:
+    st.warning("Nenhum torneio encontrado com esses filtros.")
+    st.stop()
+
+# --- PÁGINA: VISÃO GERAL ---
+if st.session_state['view_key'] == 'Visão Geral':
+    st.subheader("📂 Lista de Torneios")
+    # Colocamos id como string para não formatar com vírgula
+    df_show = df_filtrado.copy()
+    df_show['id'] = df_show['id'].astype(str)
+    st.dataframe(df_show, width=1200, hide_index=True)
+
+# --- PÁGINA: ESTATÍSTICAS ---
+elif st.session_state['view_key'] == 'Estatísticas':
+    st.subheader("📈 Análise Temporal")
     
-    # SE a data estiver incompleta, MOSTRAMOS A PÁGINA DE AVISO
-    st.warning("⚠️ **Intervalo de datas incompleto**")
-    st.info("Por favor, selecione mais uma data no calendário da barra lateral para exibir os dados.")
-    # Você pode até adicionar uma imagem ou um
+    col1, col2 = st.columns(2)
+    col1.metric("Torneios Filtrados", len(df_filtrado))
+    col2.metric("Total de Participações", int(df_filtrado['jogadores'].sum()))
 
-else:
-    # SE a data estiver completa, MOSTRAMOS A PÁGINA NORMAL
+    # Gráficos
+    df_grafico = df_filtrado.sort_values(by="data")
+    st.bar_chart(df_grafico.set_index("data")["jogadores"])
 
-    # 4. Com todos os widgets já renderizados, agora é seguro acessar o session_state
-    df_filtrado = aplicar_filtros(
-        df_torneios,
-        tipos=st.session_state["tipos_key"],
-        conjuntos=st.session_state["conjuntos_key"],
-        datas=st.session_state["datas_key"]
-    )
-
-
-    # ---------- Conteúdo Principal Dinâmico ----------
-
-    # Primeiro, uma verificação geral: se não houver dados, mostre um aviso e pare.
-    if df_filtrado.empty:
-        st.warning("Nenhum torneio corresponde aos filtros selecionados.")
-        st.stop()
-
-    # Agora, use a seleção da sidebar para renderizar a visão correta
-    if st.session_state['view_key'] == 'Visão Geral':
-        st.subheader("📂 Torneios disponíveis")
-
-        df_ordenado_visao_geral = df_filtrado.copy().sort_values(by="data", ascending=False)
-        # Nota: Corrigido de width='stretch' para a opção correta que discutimos
-        st.dataframe(df_ordenado_visao_geral, width='stretch')
-
-    elif st.session_state['view_key'] == 'Número de Participantes':
-        st.subheader("📈 Total de Jogadores nos Torneios Selecionados")
-        # --- CORREÇÃO DAS ESTATÍSTICAS (veja o próximo ponto) ---
-        st.write(f"Número de torneios: {len(df_filtrado)}")
-        st.write(f"Total de jogos: {df_filtrado['jogos'].sum(skipna=True)}")
-        # Corrigindo o rótulo para ser mais honesto
-        st.write(f"Total de participações: {df_filtrado['jogadores'].sum(skipna=True)}")
+# --- PÁGINA: DETALHES ---
+elif st.session_state['view_key'] == 'Detalhes do Torneio':
+    st.subheader("🔎 Raio-X do Torneio")
+    
+    # Dropdown de seleção
+    # Ordenamos por data decrescente para facilitar
+    opcoes = df_filtrado.sort_values("data", ascending=False)[["nome", "id"]].values.tolist()
+    # Criamos um dict para busca reversa
+    mapa_nomes = {f"{nome} ({tid})": tid for nome, tid in opcoes}
+    
+    escolha = st.selectbox("Escolha o Torneio:", options=mapa_nomes.keys())
+    
+    if escolha:
+        tid_selecionado = mapa_nomes[escolha]
         
-        # --- CORREÇÃO DO GRÁFICO ---
+        # BUSCA NO SQL AGORA
+        info, df_results = carregar_detalhes_torneio_sql(tid_selecionado)
         
-        # 1. Cria uma cópia ordenada do DataFrame, do mais antigo para o mais recente
-        df_grafico = df_filtrado.sort_values(by="data", ascending=True)
+        # Exibe Info
+        st.write(f"**Sistema:** {info.get('tournament_system')} | **Ritmo:** {info.get('tournament_time_control')}")
+        st.write(f"**Data:** {info.get('tournament_start_datetime')}")
         
-        # 2. Define a DATA como o índice do gráfico
-        df_grafico = df_grafico.set_index("data")
-
-        st.subheader("Jogadores por Torneio (em ordem cronológica)")
-        st.bar_chart(df_grafico["jogadores"], width='stretch') # <-- CORRIGIDO
+        # Exibe Resultados
+        if not df_results.empty:
+            st.subheader("🏆 Classificação")
+            st.dataframe(df_results, width='stretch', hide_index=True)
         
-        st.subheader("Jogos por Torneio (em ordem cronológica)")
-        st.bar_chart(df_grafico["jogos"], use_container_width=True) # <-- CORRIGIDO
+        # Carrega Jogos (Arquivo Físico)
+        df_games = carregar_games_ndjson(tid_selecionado)
+        if not df_games.empty:
+            st.subheader(f"♟️ Jogos ({len(df_games)})")
+            st.dataframe(df_games.head(50))
+        else:
+            st.info("Arquivo de jogos detalhados não disponível para este torneio.")
 
-
-    elif st.session_state['view_key'] == 'Detalhes do Torneio':
-        st.subheader("🔎 Detalhes de um torneio")
-
-        # Controle de ordenação (renderizado na página principal)
-        sort_option = st.radio(
-            "Ordenar lista de torneios por:",
-            options=["Mais Recentes", "Mais Antigos", "Nome (A-Z)", "Mais Jogadores"],
-            horizontal=True,
-            key="sort_tournaments_key"
-        )        
-
-        # Lógica de ordenação (não visual, apenas prepara os dados)
-        if sort_option == 'Mais Recentes':
-            df_ordenado = df_filtrado.sort_values(by="data", ascending=False)
-        elif sort_option == 'Mais Antigos':
-            df_ordenado = df_filtrado.sort_values(by="data", ascending=True)
-        elif sort_option == 'Nome (A-Z)':
-            df_ordenado = df_filtrado.sort_values(by="nome", ascending=True)
-        else: # 'Mais Jogadores'
-            df_ordenado = df_filtrado.sort_values(by="jogadores", ascending=False)
-        
-        st.divider()
-
-        opcao = st.selectbox(
-            "Selecione um torneio para ver os detalhes:", 
-            df_ordenado["nome"],
-            index=None, # Faz com que a seleção inicial seja vazia
-            placeholder="Escolha um torneio..."
-        )
-
-        if opcao:
-            tid = df_ordenado[df_ordenado["nome"] == opcao]["id"].iloc[0]
-            paths = torneios[tid]
-            info = carregar_info(paths["info"])
-            results = carregar_results(paths["results"])
-            games = carregar_games(paths["games"])
-
-            st.write(f"### {info.get('name', info.get('fullName', tid))}")
-            st.write(f"Tipo: {info.get('system', 'swiss' if 'round' in info else 'desconhecido')}")
-            st.write(f"Criado por: {info.get('createdBy')}")
-            st.write(f"Número de jogadores: {info.get('nbPlayers')}")
-            st.write(f"Número de jogos: {info.get('stats', {}).get('games')}")
-
-            if results:
-                results_df = pd.DataFrame(results)
-                st.subheader("🏆 Classificação final")
-                df_para_exibir = results_df.drop(columns=['flair'], errors='ignore')
-                st.dataframe(df_para_exibir, width='stretch')
-                if "score" in results_df:
-                    st.bar_chart(results_df.set_index("username")["score"])
-
-            if games is not None and not games.empty:
-                st.subheader("♟️ Jogos (primeiros 10)")
-                st.dataframe(games.head(10), width='stretch')
-    elif st.session_state['view_key'] == 'Jogadores':
-        st.title("🗂️ Diretório de Jogadores")
-        
-        # Chama a função que criamos no utils.py
-        df_players = carregar_dados_jogadores(PLAYERS_DIR)
-        
-        if not df_players.empty:
-            # --- BARRA LATERAL (FILTROS ESPECÍFICOS DESTA PÁGINA) ---
-            st.sidebar.divider()
-            st.sidebar.header("Filtros de Jogadores")
-            
-            # 1. Filtro de Status (Ativo, Banido, Fechado...)
-            if "status" in df_players.columns:
-                status_unicos = df_players["status"].unique().tolist()
-                status_selecionados = st.sidebar.multiselect(
-                    "Status da Conta:",
-                    options=status_unicos,
-                    default=["active"], # Por padrão esconde banidos/inativos
-                    format_func=lambda x: x.capitalize()
-                )
-            else:
-                status_selecionados = []
-            
-            # 2. Busca por Nome
-            busca_nome = st.sidebar.text_input("Buscar por nome:", placeholder="Ex: the-chemist")
-            
-            # 3. Filtro de Participação (Slider)
-            max_p = int(df_players["participacoes"].max()) if "participacoes" in df_players.columns else 10
-            min_part = st.sidebar.slider("Mínimo de torneios jogados:", 0, max_p, 0)
-
-            # --- APLICANDO OS FILTROS ---
-            df_view = df_players.copy()
-            
-            # Filtra Status
-            if status_selecionados:
-                df_view = df_view[df_view["status"].isin(status_selecionados)]
-                
-            # Filtra Nome
-            if busca_nome:
-                # 'na=False' garante que não quebre se tiver nome vazio
-                df_view = df_view[df_view["username"].str.contains(busca_nome, case=False, na=False)]
-                
-            # Filtra Participações
-            if "participacoes" in df_view.columns:
-                df_view = df_view[df_view["participacoes"] >= min_part]
-
-            # --- EXIBIÇÃO ---
-            
-            # Métricas no topo da página
-            c1, c2, c3 = st.columns(3)
-            c1.metric("Jogadores Listados", len(df_view))
-            # c2 e c3 podem ser usados para ratings médios no futuro
-            if "participacoes" in df_view.columns:
-                 c3.metric("Média de Torneios", f"{df_view['participacoes'].mean():.1f}")
-
+# --- PÁGINA: JOGADORES ---
+elif st.session_state['view_key'] == 'Jogadores':
+    st.title("🗂️ Diretório de Jogadores")
+    
+    # 1. Carrega dados do SQL (rápido e em cache)
+    df_players = carregar_dados_jogadores_sql()
+    
+    if not df_players.empty:
+        # --- FILTROS LATERAIS (Restaurando o layout original) ---
+        with st.sidebar:
             st.divider()
-
-            # Configuração da Tabela (Beleza Visual)
-            st.dataframe(
-                df_view,
-                column_config={
-                    "username": st.column_config.TextColumn(
-                        "Jogador",
-                        help="Nome de usuário no Lichess"
-                    ),
-                    "status": st.column_config.SelectboxColumn(
-                        "Status",
-                        options=["active", "inactive", "closed", "banned"],
-                        width="small"
-                    ),
-                    "participacoes": st.column_config.ProgressColumn(
-                        "Torneios Jogados",
-                        format="%d",
-                        min_value=0,
-                        max_value=max_p,
-                    ),
-                    "last_seen_api_timestamp": st.column_config.DatetimeColumn(
-                        "Visto por último",
-                        format="D MMM YYYY, HH:mm"
-                    ),
-                    # Oculta colunas técnicas que não interessam ao usuário
-                    "id": None, 
-                    "first_seen_team_date": None,
-                    "last_seen_team_date": None
-                },
-                hide_index=True,
-                width='stretch',
-                height=600
+            st.header("Filtros de Jogadores")
+            
+            # A. Filtro de Status
+            # Pega os status únicos que existem no banco para preencher as opções
+            opcoes_status = df_players["status"].unique().tolist() if "status" in df_players.columns else ["active"]
+            status_selecionados = st.multiselect(
+                "Status da Conta:",
+                options=opcoes_status,
+                default=["active"], # Padrão: mostra só os ativos
+                format_func=lambda x: x.capitalize()
             )
             
-        else:
-            st.info("Nenhum dado de jogador encontrado. Certifique-se de ter rodado o 'fix_history.py' para popular o banco de dados.")
-    elif st.session_state['view_key'] == 'Tabuleiro de Análise':
-        st.title("♟️ Console de Análise (Python-Chess)")
+            # B. Busca por Nome
+            busca_nome = st.text_input("Buscar por nome:", placeholder="Ex: the-chemist")
+            
+            # C. Slider de Participação (Mínimo de torneios)
+            max_p = int(df_players["participacoes"].max()) if "participacoes" in df_players.columns else 10
+            min_part = st.slider("Mínimo de torneios jogados:", 0, max_p, 0)
 
-        # --- TESTE DO COMPONENTE (temporário) ---
+        # --- APLICAÇÃO DOS FILTROS (Lógica Pandas em Memória) ---
+        # Começa com todos os dados
+        df_view = df_players.copy()
+        
+        # 1. Filtra Status
+        if status_selecionados:
+            df_view = df_view[df_view["status"].isin(status_selecionados)]
+            
+        # 2. Filtra Nome (Case Insensitive)
+        if busca_nome:
+            df_view = df_view[df_view["username"].str.contains(busca_nome, case=False, na=False)]
+            
+        # 3. Filtra Quantidade de Torneios
+        df_view = df_view[df_view["participacoes"] >= min_part]
 
-        if "fen" not in st.session_state:
-            st.session_state["fen"] = chess.STARTING_FEN
+        # --- EXIBIÇÃO DA TABELA ---
+        
+        # Métricas rápidas no topo
+        c1, c2 = st.columns(2)
+        c1.metric("Jogadores Encontrados", len(df_view))
+        c2.metric("Total na Base", len(df_players))
 
-        result = chessboard_component(
-            fen=st.session_state["fen"],
-            key="analysis_board",
+        st.dataframe(
+            df_view,
+            column_config={
+                "username": st.column_config.TextColumn("Jogador", help="ID Lichess"),
+                "status": st.column_config.SelectboxColumn("Status", width="small", options=opcoes_status),
+                "participacoes": st.column_config.ProgressColumn(
+                    "Torneios", 
+                    format="%d", 
+                    min_value=0, 
+                    max_value=max_p
+                ),
+                "rating_blitz": st.column_config.NumberColumn("Blitz", format="%d"),
+                "rating_rapid": st.column_config.NumberColumn("Rapid", format="%d"),
+                "last_seen_api_timestamp": st.column_config.DatetimeColumn("Visto por último", format="D MMM YYYY")
+            },
+            hide_index=True,
+            width='stretch',
+            height=600
         )
+    else:
+        st.info("Nenhum jogador encontrado. Rode o script de atualização para popular o banco.")
 
-        st.write("Retorno do componente:")
-        st.write(result)
+# --- PÁGINA: TABULEIRO ---
+elif st.session_state['view_key'] == 'Tabuleiro':
+    st.title("♟️ Tabuleiro de Análise")
 
+    # Inicializa o FEN se não existir
+    if "fen" not in st.session_state:
+        st.session_state["fen"] = chess.STARTING_FEN
 
+    # Tenta importar o componente interativo (seu arquivo original)
+    try:
+        from chessboard_component import chessboard_component
+        
+        # O componente retorna um dicionário com o movimento feito pelo usuário
+        move_data = chessboard_component(
+            fen=st.session_state["fen"],
+            key="analysis_board"
+        )
+        
+        # Se o usuário arrastou uma peça, atualizamos o estado interno
+        if move_data:
+            # Aqui você precisaria processar o 'move_data' para atualizar o FEN
+            # Dependendo de como seu componente retorna (FEN string ou objeto de lance)
+            # Exemplo genérico:
+            # st.session_state["fen"] = move_data.get("fen", st.session_state["fen"])
+            pass
 
-
-        # ===============================
-        # ESTADO GLOBAL DO TABULEIRO (FEN)
-        # ===============================
-        if "fen" not in st.session_state:
-            st.session_state["fen"] = chess.STARTING_FEN
-
-        board = chess.Board(st.session_state["fen"])
-
-        # ===============================
-        # LAYOUT
-        # ===============================
-        col_tabuleiro, col_controles = st.columns([1.5, 1])
-
-        # ===============================
-        # TABULEIRO (SVG TEMPORÁRIO)
-        # ===============================
-        with col_tabuleiro:
+    except ImportError:
+        st.warning("Componente 'chessboard_component' não encontrado. Usando visualização estática.")
+        # Fallback para a imagem estática (Python Chess SVG)
+        col1, col2 = st.columns([2, 1])
+        with col1:
+            board = chess.Board(st.session_state["fen"])
             boardsvg = chess.svg.board(board=board, size=600)
             b64 = base64.b64encode(boardsvg.encode("utf-8")).decode("utf-8")
-            st.markdown(
-                f'<img src="data:image/svg+xml;base64,{b64}" width="100%"/>',
-                unsafe_allow_html=True
-            )
-
-        # ===============================
-        # CONTROLES
-        # ===============================
-        with col_controles:
+            st.markdown(f'<img src="data:image/svg+xml;base64,{b64}" width="100%"/>', unsafe_allow_html=True)
+        
+        with col2:
             st.subheader("Controles")
-
-            # -------------------------------
-            # DESFAZER
-            # -------------------------------
-            if st.button("⬅️ Desfazer"):
-                if board.move_stack:
-                    board.pop()
+            board = chess.Board(st.session_state["fen"])
+            
+            if st.button("⬅️ Desfazer Lance"):
+                if board.move_stack: # Lógica simples se tiver stack, senão precisa reconstruir
+                    board.pop() 
                     st.session_state["fen"] = board.fen()
                     st.rerun()
-
-            # -------------------------------
-            # RESET
-            # -------------------------------
+            
             if st.button("🔄 Reiniciar"):
                 st.session_state["fen"] = chess.STARTING_FEN
                 st.rerun()
 
-            st.divider()
-
-            # -------------------------------
-            # DEBUG / INFORMAÇÕES TÉCNICAS
-            # -------------------------------
-            st.caption("Estado Técnico (FEN):")
-            st.code(board.fen(), language="text")
-
-            if board.is_check():
-                st.warning("⚠️ O rei está em XEQUE!")
-            if board.is_checkmate():
-                st.error("🏆 XEQUE-MATE!")
-            if board.is_stalemate():
-                st.info("½ - ½ AFOGAMENTO (Empate)")
-
-            if board.move_stack:
-                st.text(f"Último lance: {board.peek()}")
+            st.caption(f"FEN Atual: {st.session_state['fen']}")
