@@ -228,7 +228,6 @@ elif st.session_state['view_key'] == 'Jogadores':
 
 # --- PÁGINA: TABULEIRO ---
 elif st.session_state['view_key'] == 'Tabuleiro':
-    st.title("♟️ Tabuleiro de Análise")
 
     # Inicializa o FEN se não existir
     if "fen" not in st.session_state:

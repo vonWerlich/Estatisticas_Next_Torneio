@@ -3,43 +3,37 @@ import { createRoot } from "react-dom/client";
 import { Streamlit, RenderData } from "streamlit-component-lib";
 import MyComponent from "./MyComponent";
 
-// 1. Encontra onde desenhar
+// Encontra o container
 const container = document.querySelector(".react-root");
 if (!container) throw new Error("Erro: A div .react-root não foi encontrada no HTML");
 
 const root = createRoot(container);
 
-// 2. Função que roda toda vez que o Python fala com o componente
+// Função chamada toda vez que o Streamlit envia novos dados
 const onRender = (event: Event) => {
   const data = (event as CustomEvent<RenderData>).detail;
-  
-  // Pega os dados vindos do Python (ex: fen)
-  // O "args" contém os argumentos passados no declare_component
-  const fen = data.args.fen;
 
-  // 3. Desenha o componente
+  // Pegue os argumentos que vêm do Python
+  const { fen, orientation } = data.args;
+
   root.render(
     <React.StrictMode>
       <MyComponent 
-        fen={fen} 
-        setStateValue={(key, value) => {
-            // Essa função conecta o React de volta ao Python
-            // Se o MyComponent pedir setStateValue("uci_move", "e2e4")...
-            // ...nós avisamos o Streamlit.
-            Streamlit.setComponentValue({ [key]: value });
-        }}
+        fen={fen ?? "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"}  // fallback padrão
+        orientation={orientation}  // pode ser "white" | "black" ou undefined
       />
     </React.StrictMode>
   );
-  
-  // Avisa o Streamlit que terminamos de desenhar e ajusta a altura
+
+  // Ajusta a altura do iframe automaticamente
   Streamlit.setFrameHeight();
 };
 
-// Conecta os ouvidos ao Streamlit
+// Registra o listener de render
 Streamlit.events.addEventListener(Streamlit.RENDER_EVENT, onRender);
 
-// Avisa que estamos prontos para receber dados
+// Informa ao Streamlit que o componente está pronto
 Streamlit.setComponentReady();
-// Ajusta a altura inicial (caso o render demore)
+
+// Altura inicial
 Streamlit.setFrameHeight();
