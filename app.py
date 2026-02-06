@@ -96,17 +96,34 @@ tab_home, tab_torneios_main, tab_jogadores, tab_tabuleiro = st.tabs([
 
 # --- ABA 1: HOME ---
 with tab_home:
-    st.title("Bem-vindo ao NEXT Stats")
+    # Removemos o bloco de <style> global e o st.title()
+    
+    # Criamos o título manualmente com HTML para aplicar o estilo SÓ AQUI
+    st.markdown(
+        '<h1 style="margin-top: -15px; padding-top: 0;">Bem-vindo!</h1>', 
+        unsafe_allow_html=True
+    )
+
     st.markdown("""
-    Painel oficial de estatísticas do Núcleo de Estudos em Xadrez & Tecnologias.
+    Este site tem como objetivo rastrear e fornecer estatísticas sobre os torneios do NEXT - Núcleo de Estudos em Xadrez & Tecnologias.
     
     **O que você encontra aqui:**
     * **🏆 Torneios:** Histórico completo, rankings e partidas.
     * **👥 Jogadores:** Consulta de membros, ratings e atividade.
     * **♟️ Tabuleiro:** Ferramenta de análise integrada.
+    * **❓ Em breve:** Mais recursos por vir!
     
-    👈 *Utilize a barra lateral para aplicar filtros globais.*
-    """)
+    ☝ Utilize as abas no topo para navegar entre diferentes tipos de estatísticas.<br>
+    👈 Utilize a barra lateral para aplicar filtros globais.
+    <br>
+    
+    👀 **Links úteis:**<br>
+    ♟️ **Equipe no Lichess:** https://lichess.org/team/next-nucleo-de-estudos-em-xadrez--tecnologias<br>
+    🏛️ **Página Institucional:** https://www.udesc.br/cct/nextxadrez<br>
+    📝 **Blog:** https://nextxadrez.blogspot.com/<br>
+    📘 **Facebook:** https://www.facebook.com/nextxadrez<br>
+    📷 **Instagram:** https://www.instagram.com/nextxadrez
+    """, unsafe_allow_html=True)
 
 # --- ABA 2: TORNEIOS (Com Sub-Abas) ---
 with tab_torneios_main:
@@ -130,10 +147,19 @@ with tab_torneios_main:
     elif sub_aba == "📈 Estatísticas":
         st.subheader("Análise Temporal")
         if not df_filtrado.empty:
-            col1, col2 = st.columns(2)
-            col1.metric("Torneios Filtrados", len(df_filtrado))
-            col2.metric("Total de Participações", int(df_filtrado['jogadores'].sum()))
+            # 1. Carrega dados de quem jogou
+            df_jogadores = carregar_numero_participantes_total_unico()
+            
+            # 2. Filtra rapidinho mantendo apenas os torneios atuais da tela
+            df_stats = df_jogadores[df_jogadores['tournament_id'].isin(df_filtrado['id'])]
 
+            # 3. Exibe as métricas
+            c1, c2, c3 = st.columns(3)
+            c1.metric("Torneios Filtrados", len(df_filtrado))
+            c2.metric("Total de Participações", len(df_stats)) # Contagem real do banco
+            c3.metric("Jogadores Únicos", df_stats['user_id_lichess'].nunique()) # Mágica do Pandas
+
+            # Gráfico (Igual ao original)
             df_grafico = df_filtrado.sort_values(by="data")
             st.bar_chart(df_grafico.set_index("data")["jogadores"])
         else:
