@@ -42,7 +42,7 @@ with st.spinner("♙ Conectando ao Banco de Dados..."):
 
 if df_torneios.empty:
     st.error("⚠️ Banco de dados vazio ou não encontrado em `data/team_users.db`.")
-    st.info("Execute o script `system_manager.py` primeiro para popular os dados.")
+    st.info("Execute o script `fix_history.py` primeiro para popular os dados.")
     st.stop()
 
 # ==============================================================================
@@ -210,10 +210,14 @@ with tab_jogadores:
             st.markdown("### 👤 Filtros de Jogadores")
             
             opcoes_status = df_players["status"].unique().tolist() if "status" in df_players.columns else ["active"]
+            
+            # Só usa "active" como padrão se existir no banco. Se não, seleciona tudo.
+            status_padrao = ["active"] if "active" in opcoes_status else opcoes_status
+            
             status_selecionados = st.multiselect(
                 "Status da Conta:",
                 options=opcoes_status,
-                default=["active"],
+                default=status_padrao,
                 format_func=lambda x: x.capitalize()
             )
             

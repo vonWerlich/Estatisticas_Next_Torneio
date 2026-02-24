@@ -57,7 +57,8 @@ def ensure_database():
         tournament_variant TEXT,
         tournament_rated INTEGER,
         number_of_players INTEGER,
-        tournament_name TEXT
+        tournament_name TEXT,
+        circuito TEXT
     )""")
 
     cur.execute("""

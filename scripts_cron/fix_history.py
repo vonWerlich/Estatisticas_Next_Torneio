@@ -1,15 +1,23 @@
 import os
 import json
 import sqlite3
+import sys
 from datetime import datetime, timezone
+
+try:
+    sys.stdout.reconfigure(encoding='utf-8')
+except Exception:
+    pass
 
 # --- CONFIG ---
 DATA_DIR_TORNEIOS = "torneiosnew"
-DB_FILE = "team_users.db"
+DATA_FOLDER = "data"
+DB_FILE = os.path.join(DATA_FOLDER, "team_users.db")
 
 DEFAULT_GHOST_CHECK_CUTOFF = "2020-05-08T18:30:00-03:00"
 
 os.makedirs(DATA_DIR_TORNEIOS, exist_ok=True)
+os.makedirs(DATA_FOLDER, exist_ok=True)
 
 # --- UTIL ---
 def carregar_json(path, default):
@@ -61,6 +69,48 @@ def run():
     conn = sqlite3.connect(DB_FILE)
     cur = conn.cursor()
 
+    # --- ALTERAÇÃO AQUI: Criação das tabelas do zero ---
+    cur.executescript("""
+    CREATE TABLE IF NOT EXISTS users (
+        id_lichess TEXT PRIMARY KEY,
+        status TEXT DEFAULT 'active',
+        is_team_member INTEGER DEFAULT 0,
+        first_seen_team_date TEXT,
+        last_seen_team_date TEXT,
+        last_seen_api_timestamp INTEGER,
+        last_updated_at INTEGER,
+        real_name TEXT, country TEXT, location TEXT, bio TEXT, fide_rating INTEGER,
+        rating_bullet INTEGER, rating_blitz INTEGER, rating_rapid INTEGER, rating_classical INTEGER,
+        rating_ultrabullet INTEGER, rating_chess960 INTEGER, rating_crazyhouse INTEGER,
+        rating_antichess INTEGER, rating_atomic INTEGER, rating_horde INTEGER,
+        rating_racing_kings INTEGER, rating_three_check INTEGER,
+        created_at INTEGER
+    );
+
+    CREATE TABLE IF NOT EXISTS tournaments (
+        tournament_id TEXT PRIMARY KEY,
+        tournament_start_datetime TEXT,
+        tournament_system TEXT,
+        tournament_time_control TEXT,
+        tournament_variant TEXT,
+        tournament_rated INTEGER,
+        number_of_players INTEGER,
+        tournament_name TEXT,
+        circuito TEXT -- <==== NOVO CAMPO ADICIONADO AQUI
+    );
+
+    CREATE TABLE IF NOT EXISTS tournament_results (
+        tournament_id TEXT,
+        user_id_lichess TEXT,
+        final_rank INTEGER, final_score INTEGER, rating_at_start INTEGER, performance_rating INTEGER,
+        PRIMARY KEY (tournament_id, user_id_lichess),
+        FOREIGN KEY (tournament_id) REFERENCES tournaments(tournament_id),
+        FOREIGN KEY (user_id_lichess) REFERENCES users(id_lichess)
+    );
+    """)
+    conn.commit()
+    # ---------------------------------------------------
+
     try:
         cutoff_dt = datetime.fromisoformat(
             DEFAULT_GHOST_CHECK_CUTOFF.replace("Z", "+00:00")
@@ -93,6 +143,19 @@ def run():
             except:
                 pass
 
+
+        # --- LÓGICA ESPELHADA DO UPDATE_TOURNAMENTS.PY ---
+        final_name = info.get("fullName") or info.get("name") or "Torneio Sem Nome"
+        final_system = info.get("system") or "swiss" # Se não tem o campo system, é swiss
+        
+        perf_key = info.get("perf", {}).get("key")
+        if not perf_key and "clock" in info:
+             limit = info.get("clock", {}).get("limit", 0)
+             if limit < 180: perf_key = "bullet"
+             elif limit < 480: perf_key = "blitz"
+             elif limit < 1500: perf_key = "rapid"
+             else: perf_key = "classical"
+
         # --- INSERE TORNEIO ---
         cur.execute("""
         INSERT OR IGNORE INTO tournaments (
@@ -109,12 +172,12 @@ def run():
         """, (
             tid,
             t_iso,
-            info.get("system"),
-            info.get("perf", {}).get("key"),
+            final_system,
+            perf_key,
             info.get("variant"),
             1 if info.get("rated") else 0,
             info.get("nbPlayers"),
-            info.get("fullName")
+            final_name
         ))
 
         # --- USUÁRIOS DO RESULTADO ---
