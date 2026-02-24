@@ -1,6 +1,3 @@
-db/*.db
-db/*.db-wal
-db/*.db-shm
 # --- Streamlit chess component (frontend tooling) ---
 chessboard_component/frontend/node_modules/
 chessboard_component/frontend/.vite/
