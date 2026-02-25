@@ -56,9 +56,9 @@ def extrair_jogadores_dos_games(games_file):
                 w = g.get("players", {}).get("white", {}).get("user", {}).get("name")
                 b = g.get("players", {}).get("black", {}).get("user", {}).get("name")
                 if w:
-                    users.add(w)
+                    users.add(w.lower())
                 if b:
-                    users.add(b)
+                    users.add(b.lower())
             except:
                 pass
     return users
@@ -190,7 +190,7 @@ def run():
         ))
 
         # --- USUÁRIOS DO RESULTADO ---
-        users = set(r.get("username") for r in results if r.get("username"))
+        users = set(r.get("username").lower() for r in results if r.get("username"))
 
         # --- GHOST PLAYERS (GAMES) ---
         if t_dt and t_dt >= cutoff_dt:
@@ -233,6 +233,7 @@ def run():
             username = r.get("username")
             if not username:
                 continue
+            username = username.lower()
 
             cur.execute("""
             INSERT OR IGNORE INTO tournament_results (
