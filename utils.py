@@ -34,7 +34,8 @@ def carregar_dados_gerais():
         tournament_system as tipo,
         tournament_start_datetime as data,
         number_of_players as jogadores,
-        0 as jogos -- O banco atual não tem count de jogos na tabela tournaments, mas ok
+        0 as jogos, -- O banco atual não tem count de jogos na tabela tournaments, mas ok
+        circuito
     FROM tournaments
     ORDER BY tournament_start_datetime DESC
     """

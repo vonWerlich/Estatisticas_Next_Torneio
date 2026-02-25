@@ -10,9 +10,10 @@ except Exception:
     pass
 
 # --- CONFIG ---
-DATA_DIR_TORNEIOS = "torneiosnew"
 DATA_FOLDER = "data"
+DATA_DIR_TORNEIOS = os.path.join(DATA_FOLDER, "raw_tournaments")
 DB_FILE = os.path.join(DATA_FOLDER, "team_users.db")
+BACKUP_CIRCUITOS = os.path.join(DATA_FOLDER, "circuitos_map.json")
 
 DEFAULT_GHOST_CHECK_CUTOFF = "2020-05-08T18:30:00-03:00"
 
@@ -124,6 +125,9 @@ def run():
         if f.endswith("_info.json")
     ]
 
+    # Carrega o mapa de circuitos salvos na memória
+    mapa_circuitos = carregar_json(BACKUP_CIRCUITOS, {})
+
     print(f"📂 Torneios encontrados: {len(files)}")
 
     for i, tid in enumerate(files):
@@ -156,6 +160,9 @@ def run():
              elif limit < 1500: perf_key = "rapid"
              else: perf_key = "classical"
 
+        # Tenta achar o ID do torneio no nosso arquivo de backup!
+        circuito_salvo = mapa_circuitos.get(tid)
+
         # --- INSERE TORNEIO ---
         cur.execute("""
         INSERT OR IGNORE INTO tournaments (
@@ -166,9 +173,10 @@ def run():
             tournament_variant,
             tournament_rated,
             number_of_players,
-            tournament_name
+            tournament_name,
+            circuito
         )
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
         """, (
             tid,
             t_iso,
@@ -177,7 +185,8 @@ def run():
             info.get("variant"),
             1 if info.get("rated") else 0,
             info.get("nbPlayers"),
-            final_name
+            final_name,
+            circuito_salvo
         ))
 
         # --- USUÁRIOS DO RESULTADO ---

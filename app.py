@@ -10,6 +10,7 @@ from chessboard_component import chessboard_component
 import chess
 import chess.svg
 import base64
+import re
 
 # ==============================================================================
 # CONFIGURAÇÃO DA PÁGINA
@@ -54,11 +55,43 @@ with filters_container:
     st.header("Filtros Globais")
     
     tipos_disponiveis = df_torneios["tipo"].dropna().unique().tolist()
-    conjuntos_disponiveis = ["Torneios grandes", "Torneios recentes", "Meus favoritos"]
+    
+    # 1. Puxa os circuitos reais do banco, ignorando os nulos e os que você marcou como 'Ignorado'
+    if "circuito" in df_torneios.columns:
+        circuitos_validos = df_torneios[~df_torneios["circuito"].isin(['Ignorado', '', None])]
+        conjuntos_disponiveis = circuitos_validos["circuito"].dropna().unique().tolist()
+        
+        # --- NOVA LÓGICA DE ORDENAÇÃO CUSTOMIZADA ---
+        def regra_de_ordem(nome_circuito):
+            c_lower = str(nome_circuito).lower()
+            
+            # Prioridade 0: Suíços (Tudo que tiver "suíço", "suico" ou "swiss" no nome)
+            if "suíço" in c_lower or "suico" in c_lower or "swiss" in c_lower:
+                return (0, 0, 0, c_lower)
+            
+            # Prioridade 1: Anos e Semestres (Busca padrão como 2024-2, 2023-1 ou apenas 2020)
+            match = re.search(r"(\d{4})(?:[-_./](\d))?", nome_circuito)
+            if match:
+                ano = int(match.group(1))
+                # Se não tiver semestre (ex: apenas 2020), assume 0
+                semestre = int(match.group(2)) if match.group(2) else 0 
+                
+                # Usamos valores negativos (-ano, -semestre) para forçar a ordem decrescente!
+                return (1, -ano, -semestre, c_lower)
+            
+            # Prioridade 2: Todo o resto (Ordem alfabética normal)
+            return (2, 0, 0, c_lower)
+        
+        # Aplica a nossa regra para ordenar a lista
+        conjuntos_disponiveis.sort(key=regra_de_ordem)
+        # --------------------------------------------
+    else:
+        conjuntos_disponiveis = []
+
     data_min, data_max = df_torneios["data"].min().date(), df_torneios["data"].max().date()
 
     tipos_selecionados = st.multiselect("Tipos", options=tipos_disponiveis, key="tipos_key")
-    conjuntos_selecionados = st.multiselect("Conjuntos", options=conjuntos_disponiveis, key="conjuntos_key")
+    conjuntos_selecionados = st.multiselect("Circuitos", options=conjuntos_disponiveis, key="conjuntos_key")
 
     if "datas_key" not in st.session_state:
         st.session_state["datas_key"] = (data_min, data_max)
@@ -78,9 +111,12 @@ if not isinstance(datas_selecionadas, tuple) or len(datas_selecionadas) != 2:
 df_filtrado = aplicar_filtros(
     df_torneios,
     tipos=st.session_state["tipos_key"],
-    conjuntos=st.session_state["conjuntos_key"],
+    conjuntos=[], # <--- Não cuida mais disso
     datas=st.session_state["datas_key"]
 )
+
+if st.session_state["conjuntos_key"] and "circuito" in df_filtrado.columns:
+    df_filtrado = df_filtrado[df_filtrado["circuito"].isin(st.session_state["conjuntos_key"])]
 
 # ==============================================================================
 # 4. NAVEGAÇÃO ESTRUTURADA (LAYOUT FINAL)
