@@ -84,19 +84,14 @@ def carregar_dados_jogadores_sql():
     # --- CORREÇÃO DO ERRO DE OVERFLOW ---
     if "last_seen_api_timestamp" in df.columns:
         # 1. Garante que é numérico (transforma lixo em NaN)
-        df["last_seen_api_timestamp"] = pd.to_numeric(df["last_seen_api_timestamp"], errors='coerce')
+        s = pd.to_numeric(df["last_seen_api_timestamp"], errors='coerce')
         
-        # 2. Filtra números absurdamente grandes que causam o estouro (Overflow)
-        # O Pandas suporta datas até o ano ~2262.
-        # Em ms, isso é aprox 9.2e12. Vamos cortar qualquer coisa muito acima disso.
-        # Valores nulos ou infinitos viram NaT (Not a Time) com segurança.
+        # 2. A PORTA BLINDADA: Só permite números positivos e menores que 1e13 (Ano 2286).
+        # Tudo que for negativo gigante ou absurdo vira Nulo (NaN) e é ignorado.
+        s = s.where((s > 0) & (s < 4e14))
         
-        limite_seguro = 4e14 # Ano ~14.000 (margem de segurança)
-        mask_invalido = df["last_seen_api_timestamp"] > limite_seguro
-        df.loc[mask_invalido, "last_seen_api_timestamp"] = None
-        
-        # 3. Agora converte com segurança
-        df["last_seen_api_timestamp"] = pd.to_datetime(df["last_seen_api_timestamp"], unit='ms', errors='coerce')
+        # 3. Agora converte com 100% de segurança
+        df["last_seen_api_timestamp"] = pd.to_datetime(s, unit='ms', errors='coerce')
 
     return df
 

@@ -65,16 +65,22 @@ def corrigir_torneio_individual():
             print(f"    👉 Circuito atual: {circ_atual}\n")
             
         print("-" * 60)
-        tid_escolhido = input("🎯 Cole o ID do torneio que quer corrigir (ou Enter para nova busca): ").strip()
+        print("-" * 60)
         
-        if not tid_escolhido:
-            continue
+        # --- NOVA LÓGICA MAIS INTELIGENTE ---
+        if len(resultados) == 1:
+            tid_escolhido = resultados[0][0]
+            print(f"🎯 Torneio selecionado automaticamente: [{tid_escolhido}]")
+        else:
+            tid_escolhido = input("🎯 Cole o ID do torneio que quer corrigir (ou Enter para nova busca): ").strip()
             
-        # Verifica se o ID digitado realmente apareceu na busca para evitar erros
-        ids_encontrados = [r[0] for r in resultados]
-        if tid_escolhido not in ids_encontrados:
-            print("❌ ID inválido. Cole exatamente o texto que está entre colchetes [ ].")
-            continue
+            if not tid_escolhido:
+                continue
+                
+            ids_encontrados = [r[0] for r in resultados]
+            if tid_escolhido not in ids_encontrados:
+                print("❌ ID inválido. Cole exatamente o texto que está entre colchetes [ ].")
+                continue
             
         novo_circuito = input(f"✍️ Novo nome do circuito para '{tid_escolhido}' (ou 'p' p/ esvaziar, 'i' p/ ignorar): ").strip()
         
