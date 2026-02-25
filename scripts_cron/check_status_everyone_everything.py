@@ -6,8 +6,11 @@ import os
 
 # ================= CONFIG =================
 
-DB_FILE = "team_users.db"
-OUTPUT_DIR = "player_data"
+DIR_ATUAL = os.path.dirname(os.path.abspath(__file__))
+RAIZ_DO_PROJETO = os.path.dirname(DIR_ATUAL) # Volta uma pasta (de scripts_cron para a raiz)
+
+DB_FILE = os.path.join(RAIZ_DO_PROJETO, "data", "team_users.db")
+OUTPUT_DIR = os.path.join(RAIZ_DO_PROJETO, "player_data")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 BATCH_SIZE = 300
