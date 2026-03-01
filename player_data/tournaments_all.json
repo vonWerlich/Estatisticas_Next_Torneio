@@ -7,7 +7,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 59,
-    "tournament_name": "NexT Quarentena Online - T1 Arena"
+    "tournament_name": "NexT Quarentena Online - T1 Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "7FeDZEBR",
@@ -17,7 +18,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 35,
-    "tournament_name": "NexT Quarentena Online - T2 Arena"
+    "tournament_name": "NexT Quarentena Online - T2 Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "upqbAi4E",
@@ -27,7 +29,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 32,
-    "tournament_name": "NexT Quarentena Online - T3 Arena"
+    "tournament_name": "NexT Quarentena Online - T3 Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "c2LBRB0z",
@@ -37,7 +40,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 30,
-    "tournament_name": "NexT Quarentena Online - T4 Arena"
+    "tournament_name": "NexT Quarentena Online - T4 Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "QiYqTOS3",
@@ -47,7 +51,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 13,
-    "tournament_name": "Quarentena do Aprendiz - T1 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T1 Arena",
+    "circuito": "2020 Quarentena Aprendiz"
   },
   {
     "tournament_id": "ik1lUxZ3",
@@ -57,7 +62,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 24,
-    "tournament_name": "NexT Quarentena Online - T5 Arena"
+    "tournament_name": "NexT Quarentena Online - T5 Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "1lz64cnP",
@@ -67,7 +73,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 15,
-    "tournament_name": "Quarentena do Aprendiz - T2 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T2 Arena",
+    "circuito": "2020 Quarentena Aprendiz"
   },
   {
     "tournament_id": "odMLe0m9",
@@ -77,7 +84,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 20,
-    "tournament_name": "NexT Quarentena Online - T6 Arena"
+    "tournament_name": "NexT Quarentena Online - T6 Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "td4hDZxh",
@@ -87,7 +95,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 11,
-    "tournament_name": "Quarentena do Aprendiz - T3 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T3 Arena",
+    "circuito": "2020 Quarentena Aprendiz"
   },
   {
     "tournament_id": "VI5mmB1B",
@@ -97,7 +106,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 28,
-    "tournament_name": "NexT Quarentena Online - T7 Arena"
+    "tournament_name": "NexT Quarentena Online - T7 Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "dgGm9P7V",
@@ -107,7 +117,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 14,
-    "tournament_name": "Quarentena do Aprendiz - T4 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T4 Arena",
+    "circuito": "2020 Quarentena Aprendiz"
   },
   {
     "tournament_id": "iO5epQhV",
@@ -117,7 +128,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 25,
-    "tournament_name": "NexT Quarentena Online - T8 Arena"
+    "tournament_name": "NexT Quarentena Online - T8 Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "6MgbHEFh",
@@ -127,7 +139,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 14,
-    "tournament_name": "Quarentena do Aprendiz - T5 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T5 Arena",
+    "circuito": "2020 Quarentena Aprendiz"
   },
   {
     "tournament_id": "dNCezBsP",
@@ -137,7 +150,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 20,
-    "tournament_name": "NexT Quarentena Online - T9 Arena"
+    "tournament_name": "NexT Quarentena Online - T9 Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "pZUsk2mL",
@@ -147,7 +161,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 13,
-    "tournament_name": "Quarentena do Aprendiz - T6 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T6 Arena",
+    "circuito": "2020 Quarentena Aprendiz"
   },
   {
     "tournament_id": "DF6F9Hdw",
@@ -157,7 +172,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 24,
-    "tournament_name": "NexT Quarentena Online - T10 Arena"
+    "tournament_name": "NexT Quarentena Online - T10 Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "6MyKdrW8",
@@ -167,7 +183,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 17,
-    "tournament_name": "Quarentena do Aprendiz - T7 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T7 Arena",
+    "circuito": "2020 Quarentena Aprendiz"
   },
   {
     "tournament_id": "UxXKOhgt",
@@ -177,7 +194,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 18,
-    "tournament_name": "NexT Quarentena Online - T11 Arena"
+    "tournament_name": "NexT Quarentena Online - T11 Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "XODf1wWf",
@@ -187,7 +205,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 14,
-    "tournament_name": "Quarentena do Aprendiz - T8 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T8 Arena",
+    "circuito": "2020 Quarentena Aprendiz"
   },
   {
     "tournament_id": "7DgEfyWl",
@@ -197,7 +216,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 20,
-    "tournament_name": "NexT Quarentena Online - T12 Arena"
+    "tournament_name": "NexT Quarentena Online - T12 Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "jYeiuPbi",
@@ -207,7 +227,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 16,
-    "tournament_name": "Quarentena do Aprendiz - T9 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T9 Arena",
+    "circuito": "2020 Quarentena Aprendiz"
   },
   {
     "tournament_id": "A5yJtiA0",
@@ -217,7 +238,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 28,
-    "tournament_name": "NexT Quarentena Online - T13 Arena"
+    "tournament_name": "NexT Quarentena Online - T13 Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "thINifRJ",
@@ -227,7 +249,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 17,
-    "tournament_name": "Quarentena do Aprendiz - T10 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T10 Arena",
+    "circuito": "2020 Quarentena Aprendiz"
   },
   {
     "tournament_id": "P5l9cmPa",
@@ -237,7 +260,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 20,
-    "tournament_name": "NexT Quarentena Online - T14 Arena"
+    "tournament_name": "NexT Quarentena Online - T14 Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "86Gkn47W",
@@ -247,7 +271,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 12,
-    "tournament_name": "Quarentena do Aprendiz - T11 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T11 Arena",
+    "circuito": "2020 Quarentena Aprendiz"
   },
   {
     "tournament_id": "Yku6ckTs",
@@ -257,7 +282,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 21,
-    "tournament_name": "NexT Quarentena Online - T15 Arena"
+    "tournament_name": "NexT Quarentena Online - T15 Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "ds4vFdOm",
@@ -267,7 +293,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 15,
-    "tournament_name": "Quarentena do Aprendiz - T12 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T12 Arena",
+    "circuito": "2020 Quarentena Aprendiz"
   },
   {
     "tournament_id": "k7QrpBHx",
@@ -277,7 +304,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 25,
-    "tournament_name": "NexT Quarentena Online - T16 Arena"
+    "tournament_name": "NexT Quarentena Online - T16 Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "Md7ZUhAT",
@@ -287,7 +315,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 11,
-    "tournament_name": "Quarentena do Aprendiz - T13 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T13 Arena",
+    "circuito": "2020 Quarentena Aprendiz"
   },
   {
     "tournament_id": "UxbUEEwQ",
@@ -297,7 +326,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 13,
-    "tournament_name": "NexT Quarentena Online - T17 Arena"
+    "tournament_name": "NexT Quarentena Online - T17 Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "Q2ldTSDY",
@@ -307,7 +337,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 11,
-    "tournament_name": "Quarentena do Aprendiz - T14 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T14 Arena",
+    "circuito": "2020 Quarentena Aprendiz"
   },
   {
     "tournament_id": "igoaOyJO",
@@ -317,7 +348,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 17,
-    "tournament_name": "NexT Quarentena Online - T18 Arena"
+    "tournament_name": "NexT Quarentena Online - T18 Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "VFIkr05F",
@@ -327,7 +359,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 14,
-    "tournament_name": "Quarentena do Aprendiz - T15 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T15 Arena",
+    "circuito": "2020 Quarentena Aprendiz"
   },
   {
     "tournament_id": "mnG4JYHC",
@@ -337,7 +370,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 17,
-    "tournament_name": "NexT Quarentena Online - T19 Arena"
+    "tournament_name": "NexT Quarentena Online - T19 Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "94gr1iJo",
@@ -347,7 +381,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 12,
-    "tournament_name": "Quarentena do Aprendiz - T16 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T16 Arena",
+    "circuito": "2020 Quarentena Aprendiz"
   },
   {
     "tournament_id": "ZemQ6Gmz",
@@ -357,7 +392,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 24,
-    "tournament_name": "NexT Quarentena Online - T20 Arena"
+    "tournament_name": "NexT Quarentena Online - T20 Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "NLA19wGb",
@@ -367,7 +403,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 14,
-    "tournament_name": "Quarentena do Aprendiz - T17 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T17 Arena",
+    "circuito": "2020 Quarentena Aprendiz"
   },
   {
     "tournament_id": "ZrJPh6WI",
@@ -377,7 +414,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 15,
-    "tournament_name": "NexT Quarentena Online - T21 Arena"
+    "tournament_name": "NexT Quarentena Online - T21 Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "otgy1E0g",
@@ -387,7 +425,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 13,
-    "tournament_name": "Quarentena do Aprendiz - T18 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T18 Arena",
+    "circuito": "2020 Quarentena Aprendiz"
   },
   {
     "tournament_id": "5VjRFFHf",
@@ -397,7 +436,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 19,
-    "tournament_name": "NexT Quarentena Online - T22 Arena"
+    "tournament_name": "NexT Quarentena Online - T22 Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "0WrZeM7s",
@@ -407,7 +447,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 13,
-    "tournament_name": "Quarentena do Aprendiz - T19 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T19 Arena",
+    "circuito": "2020 Quarentena Aprendiz"
   },
   {
     "tournament_id": "k3tsykb6",
@@ -417,7 +458,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 13,
-    "tournament_name": "NexT Quarentena Online - T23 Arena"
+    "tournament_name": "NexT Quarentena Online - T23 Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "4ZLSkCAa",
@@ -427,7 +469,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 15,
-    "tournament_name": "Quarentena do Aprendiz - T20 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T20 Arena",
+    "circuito": "2020 Quarentena Aprendiz"
   },
   {
     "tournament_id": "90rJo3er",
@@ -437,7 +480,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 17,
-    "tournament_name": "NexT Quarentena Online - T24 Arena"
+    "tournament_name": "NexT Quarentena Online - T24 Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "85TZyVz0",
@@ -447,7 +491,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 8,
-    "tournament_name": "Quarentena do Aprendiz - T21 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T21 Arena",
+    "circuito": "2020 Quarentena Aprendiz"
   },
   {
     "tournament_id": "XhdLXOll",
@@ -457,7 +502,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 19,
-    "tournament_name": "NexT Quarentena Online - T25 Arena"
+    "tournament_name": "NexT Quarentena Online - T25 Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "yOXWS4jv",
@@ -467,7 +513,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 14,
-    "tournament_name": "Quarentena do Aprendiz - T22 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T22 Arena",
+    "circuito": "2020 Quarentena Aprendiz"
   },
   {
     "tournament_id": "3DRbxyku",
@@ -477,7 +524,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 21,
-    "tournament_name": "NexT Quarentena Online - T26 Arena"
+    "tournament_name": "NexT Quarentena Online - T26 Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "3rfrqaPG",
@@ -487,7 +535,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 12,
-    "tournament_name": "Quarentena do Aprendiz - T23 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T23 Arena",
+    "circuito": "2020 Quarentena Aprendiz"
   },
   {
     "tournament_id": "nQZtqGkR",
@@ -497,7 +546,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 22,
-    "tournament_name": "NexT Quarentena Online - T27 Arena"
+    "tournament_name": "NexT Quarentena Online - T27 Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "QfshPeeG",
@@ -507,7 +557,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 13,
-    "tournament_name": "Quarentena do Aprendiz - T24 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T24 Arena",
+    "circuito": "2020 Quarentena Aprendiz"
   },
   {
     "tournament_id": "NJtnaFR9",
@@ -517,7 +568,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 24,
-    "tournament_name": "NexT Quarentena Online - T28 Arena"
+    "tournament_name": "NexT Quarentena Online - T28 Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "gEMVV5Er",
@@ -527,7 +579,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 18,
-    "tournament_name": "Quarentena do Aprendiz - T25 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T25 Arena",
+    "circuito": "2020 Quarentena Aprendiz"
   },
   {
     "tournament_id": "frODtKMg",
@@ -537,7 +590,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 24,
-    "tournament_name": "NexT Quarentena Online - T29 Arena"
+    "tournament_name": "NexT Quarentena Online - T29 Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "NnVpNLvn",
@@ -547,7 +601,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 21,
-    "tournament_name": "Quarentena do Aprendiz - SEI Arena"
+    "tournament_name": "Quarentena do Aprendiz - SEI Arena",
+    "circuito": "2020 Quarentena Aprendiz"
   },
   {
     "tournament_id": "dYTHf6nG",
@@ -557,7 +612,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 31,
-    "tournament_name": "NexT Quarentena Online - SEI Arena"
+    "tournament_name": "NexT Quarentena Online - SEI Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "1cm9TQot",
@@ -567,7 +623,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 22,
-    "tournament_name": "Quarentena do Aprendiz - T27 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T27 Arena",
+    "circuito": "2020 Quarentena Aprendiz"
   },
   {
     "tournament_id": "7PvrBdeQ",
@@ -577,7 +634,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 23,
-    "tournament_name": "NexT Quarentena Online - T31 Arena"
+    "tournament_name": "NexT Quarentena Online - T31 Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "2AuGIIKJ",
@@ -587,7 +645,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 16,
-    "tournament_name": "Quarentena do Aprendiz - T28 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T28 Arena",
+    "circuito": "2020 Quarentena Aprendiz"
   },
   {
     "tournament_id": "txFdx2ED",
@@ -597,17 +656,19 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 23,
-    "tournament_name": "NexT Quarentena Online - T32 Arena"
+    "tournament_name": "NexT Quarentena Online - T32 Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "h2KWtaHZ",
     "tournament_start_datetime": "2020-12-12T18:00:00+00:00",
-    "tournament_system": null,
-    "tournament_time_control": null,
+    "tournament_system": "swiss",
+    "tournament_time_control": "blitz",
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 64,
-    "tournament_name": null
+    "tournament_name": "Campeonato Xadrez Blitz 2020",
+    "circuito": "Torneios Suíços"
   },
   {
     "tournament_id": "O5gWT3xH",
@@ -617,7 +678,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 26,
-    "tournament_name": "Quarentena do Aprendiz - T29 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T29 Arena",
+    "circuito": "2020 Quarentena Aprendiz"
   },
   {
     "tournament_id": "PIY8sr6c",
@@ -627,17 +689,19 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 22,
-    "tournament_name": "NexT Quarentena Online - T33 Arena"
+    "tournament_name": "NexT Quarentena Online - T33 Arena",
+    "circuito": "2020 Quarentena"
   },
   {
     "tournament_id": "sdQKIzRl",
     "tournament_start_datetime": "2020-12-19T18:00:00+00:00",
-    "tournament_system": null,
-    "tournament_time_control": null,
+    "tournament_system": "swiss",
+    "tournament_time_control": "blitz",
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 51,
-    "tournament_name": null
+    "tournament_name": "Campeonato Xadrez Rápido 2020",
+    "circuito": "Torneios Suíços"
   },
   {
     "tournament_id": "bPRSnLz3",
@@ -647,7 +711,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 24,
-    "tournament_name": "Quarentena do Aprendiz - T30 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T30 Arena",
+    "circuito": "2020 Quarentena Aprendiz"
   },
   {
     "tournament_id": "HWzInPRn",
@@ -657,7 +722,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 26,
-    "tournament_name": "Quarentena do Aprendiz - T31 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T31 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "dg84yROI",
@@ -667,7 +733,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 33,
-    "tournament_name": "NexT Quarentena Online - T34 Arena"
+    "tournament_name": "NexT Quarentena Online - T34 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "ZxfSrTFr",
@@ -677,7 +744,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 28,
-    "tournament_name": "Quarentena do Aprendiz - T32 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T32 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "QvzVrDo5",
@@ -687,7 +755,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 33,
-    "tournament_name": "NexT Quarentena Online - T35 Arena"
+    "tournament_name": "NexT Quarentena Online - T35 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "lDliS2i3",
@@ -697,7 +766,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 20,
-    "tournament_name": "Quarentena do Aprendiz - T33 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T33 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "6xfFWQgK",
@@ -707,7 +777,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 33,
-    "tournament_name": "NexT Quarentena Online - T36 Arena"
+    "tournament_name": "NexT Quarentena Online - T36 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "bOLoWGd5",
@@ -717,7 +788,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 24,
-    "tournament_name": "Quarentena do Aprendiz - T34 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T34 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "eD603hJ7",
@@ -727,7 +799,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 29,
-    "tournament_name": "NexT Quarentena Online - T37 Arena"
+    "tournament_name": "NexT Quarentena Online - T37 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "aKuoYGzo",
@@ -737,7 +810,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 26,
-    "tournament_name": "Quarentena do Aprendiz - T35 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T35 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "dhiRCDIW",
@@ -747,7 +821,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 30,
-    "tournament_name": "NexT Quarentena Online - T38 Arena"
+    "tournament_name": "NexT Quarentena Online - T38 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "8kQwhWuf",
@@ -757,7 +832,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 24,
-    "tournament_name": "Quarentena do Aprendiz - T36 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T36 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "NtNCdQEx",
@@ -767,7 +843,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 26,
-    "tournament_name": "NexT Quarentena Online - T39 Arena"
+    "tournament_name": "NexT Quarentena Online - T39 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "2LVy1Jcm",
@@ -777,7 +854,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 24,
-    "tournament_name": "Quarentena do Aprendiz - T37 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T37 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "vjRJKelT",
@@ -787,7 +865,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 32,
-    "tournament_name": "NexT Quarentena Online - T40 Arena"
+    "tournament_name": "NexT Quarentena Online - T40 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "B5KmMxXK",
@@ -797,7 +876,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 25,
-    "tournament_name": "Quarentena do Aprendiz - T38 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T38 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "HEe3hRoQ",
@@ -807,7 +887,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 18,
-    "tournament_name": "NexT Quarentena Online - T41 Arena"
+    "tournament_name": "NexT Quarentena Online - T41 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "ozWgCImV",
@@ -817,7 +898,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 22,
-    "tournament_name": "Quarentena do Aprendiz - T39 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T39 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "jnAXBeyA",
@@ -827,7 +909,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 26,
-    "tournament_name": "NexT Quarentena Online - T42 Arena"
+    "tournament_name": "NexT Quarentena Online - T42 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "53AYaevb",
@@ -837,7 +920,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 18,
-    "tournament_name": "Quarentena do Aprendiz - T40 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T40 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "0Id5FgXF",
@@ -847,7 +931,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 28,
-    "tournament_name": "NexT Quarentena Online - T43 Arena"
+    "tournament_name": "NexT Quarentena Online - T43 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "xnuzgs9B",
@@ -857,7 +942,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 22,
-    "tournament_name": "Quarentena do Aprendiz - T41 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T41 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "yeO3l47b",
@@ -867,7 +953,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 20,
-    "tournament_name": "NexT Quarentena Online - T44 Arena"
+    "tournament_name": "NexT Quarentena Online - T44 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "m9oRW69c",
@@ -877,7 +964,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 21,
-    "tournament_name": "Quarentena do Aprendiz - T42 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T42 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "PVjeDtSc",
@@ -887,7 +975,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 22,
-    "tournament_name": "NexT Quarentena Online - T45 Arena"
+    "tournament_name": "NexT Quarentena Online - T45 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "0yk1fpPQ",
@@ -897,7 +986,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 21,
-    "tournament_name": "Quarentena do Aprendiz - T43 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T43 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "akd4HUlh",
@@ -907,7 +997,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 22,
-    "tournament_name": "NexT Quarentena Online - T46 Arena"
+    "tournament_name": "NexT Quarentena Online - T46 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "X2YtvS4I",
@@ -917,7 +1008,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 23,
-    "tournament_name": "Quarentena do Aprendiz - T44 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T44 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "3S1PdgAj",
@@ -927,7 +1019,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 30,
-    "tournament_name": "NexT Quarentena Online - T47 Arena"
+    "tournament_name": "NexT Quarentena Online - T47 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "2xKUmpST",
@@ -937,7 +1030,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 25,
-    "tournament_name": "Quarentena do Aprendiz - T45 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T45 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "tHGHu5AE",
@@ -947,7 +1041,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 23,
-    "tournament_name": "NexT Quarentena Online - T48 Arena"
+    "tournament_name": "NexT Quarentena Online - T48 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "ehZpfMPw",
@@ -957,7 +1052,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 20,
-    "tournament_name": "Quarentena do Aprendiz - T46 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T46 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "vQXgAlVu",
@@ -967,7 +1063,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 22,
-    "tournament_name": "NexT Quarentena Online - T49 Arena"
+    "tournament_name": "NexT Quarentena Online - T49 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "4eW8qcbz",
@@ -977,7 +1074,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 25,
-    "tournament_name": "Quarentena do Aprendiz - T47 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T47 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "A0KOuBBt",
@@ -987,7 +1085,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 27,
-    "tournament_name": "NexT Quarentena Online - T50 Arena"
+    "tournament_name": "NexT Quarentena Online - T50 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "TbyKL6E6",
@@ -997,7 +1096,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 31,
-    "tournament_name": "Quarentena do Aprendiz - T48 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T48 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "5XT1JMm1",
@@ -1007,7 +1107,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 24,
-    "tournament_name": "NexT Quarentena Online - T51 Arena"
+    "tournament_name": "NexT Quarentena Online - T51 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "1M0cDhvu",
@@ -1017,7 +1118,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 25,
-    "tournament_name": "Quarentena do Aprendiz - T49 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T49 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "8ObgQG8M",
@@ -1027,7 +1129,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 24,
-    "tournament_name": "NexT Quarentena Online - T52 Arena"
+    "tournament_name": "NexT Quarentena Online - T52 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "r3E171li",
@@ -1037,7 +1140,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 25,
-    "tournament_name": "Quarentena do Aprendiz - T50 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T50 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "cfZSZLFu",
@@ -1047,7 +1151,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 19,
-    "tournament_name": "NexT Quarentena Online - T53 Arena"
+    "tournament_name": "NexT Quarentena Online - T53 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "iAqmZvlA",
@@ -1057,7 +1162,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 19,
-    "tournament_name": "Quarentena do Aprendiz - T51 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T51 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "dQDV2ChC",
@@ -1067,7 +1173,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 19,
-    "tournament_name": "NexT Quarentena Online - T54 Arena"
+    "tournament_name": "NexT Quarentena Online - T54 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "MkGKgrQ7",
@@ -1077,7 +1184,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 22,
-    "tournament_name": "Quarentena do Aprendiz - T52 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T52 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "jvHCkg1o",
@@ -1087,17 +1195,19 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 23,
-    "tournament_name": "NexT Quarentena Online - T55 Arena"
+    "tournament_name": "NexT Quarentena Online - T55 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "Gq1SvQKX",
     "tournament_start_datetime": "2021-07-10T18:00:00+00:00",
-    "tournament_system": null,
-    "tournament_time_control": null,
+    "tournament_system": "swiss",
+    "tournament_time_control": "blitz",
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 39,
-    "tournament_name": null
+    "tournament_name": "Aberto de Xadrez Rápido 2021-1",
+    "circuito": "Torneios Suíços"
   },
   {
     "tournament_id": "rtN6Dr2X",
@@ -1107,7 +1217,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 24,
-    "tournament_name": "Quarentena do Aprendiz - T53 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T53 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "mYtvgYUF",
@@ -1117,7 +1228,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 27,
-    "tournament_name": "NexT Quarentena Online - T56 Arena"
+    "tournament_name": "NexT Quarentena Online - T56 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "DXkgW8Zj",
@@ -1127,7 +1239,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 22,
-    "tournament_name": "Quarentena do Aprendiz - T54 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T54 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "JBZ5q2NM",
@@ -1137,17 +1250,19 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 21,
-    "tournament_name": "NexT Quarentena Online - T57 Arena"
+    "tournament_name": "NexT Quarentena Online - T57 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "bDRMbc8V",
     "tournament_start_datetime": "2021-07-24T18:00:00+00:00",
-    "tournament_system": null,
-    "tournament_time_control": null,
+    "tournament_system": "swiss",
+    "tournament_time_control": "blitz",
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 28,
-    "tournament_name": null
+    "tournament_name": "Aberto de Xadrez Blitz 2021-1",
+    "circuito": "Torneios Suíços"
   },
   {
     "tournament_id": "FoKuhNcC",
@@ -1157,7 +1272,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 20,
-    "tournament_name": "Quarentena do Aprendiz - T55 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T55 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "kEAaMVYb",
@@ -1167,7 +1283,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 24,
-    "tournament_name": "NexT Quarentena Online - T58 Arena"
+    "tournament_name": "NexT Quarentena Online - T58 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "Hco2v1HK",
@@ -1177,7 +1294,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 18,
-    "tournament_name": "Quarentena do Aprendiz - T56 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T56 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "ISUeOjjm",
@@ -1187,7 +1305,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 23,
-    "tournament_name": "NexT Quarentena Online - T59 Arena"
+    "tournament_name": "NexT Quarentena Online - T59 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "zCDP2hhu",
@@ -1197,7 +1316,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 15,
-    "tournament_name": "Quarentena do Aprendiz - T57 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T57 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "IVqt5tNF",
@@ -1207,7 +1327,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 24,
-    "tournament_name": "NexT Quarentena Online - T60 Arena"
+    "tournament_name": "NexT Quarentena Online - T60 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "9Kv2DV61",
@@ -1217,7 +1338,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 16,
-    "tournament_name": "Quarentena do Aprendiz - T58 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T58 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "ptFXM7Gp",
@@ -1227,7 +1349,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 20,
-    "tournament_name": "NexT Quarentena Online - T61 Arena"
+    "tournament_name": "NexT Quarentena Online - T61 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "kEhhSGum",
@@ -1237,7 +1360,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 18,
-    "tournament_name": "Quarentena do Aprendiz - T59 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T59 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "rUDoRBOv",
@@ -1247,7 +1371,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 17,
-    "tournament_name": "NexT Quarentena Online - T62 Arena"
+    "tournament_name": "NexT Quarentena Online - T62 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "ZBOphqfa",
@@ -1257,7 +1382,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 21,
-    "tournament_name": "Quarentena do Aprendiz - T60 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T60 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "xdpSlLrY",
@@ -1267,7 +1393,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 14,
-    "tournament_name": "NexT Quarentena Online - T63 Arena"
+    "tournament_name": "NexT Quarentena Online - T63 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "3ixyijqo",
@@ -1277,7 +1404,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 18,
-    "tournament_name": "Quarentena do Aprendiz - T61 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T61 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "O5i5W1je",
@@ -1287,7 +1415,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 20,
-    "tournament_name": "NexT Quarentena Online - T64 Arena"
+    "tournament_name": "NexT Quarentena Online - T64 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "QANPSHNY",
@@ -1297,7 +1426,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 16,
-    "tournament_name": "Quarentena do Aprendiz - T62 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T62 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "0YJS0LUD",
@@ -1307,7 +1437,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 18,
-    "tournament_name": "NexT Quarentena Online - T65 Arena"
+    "tournament_name": "NexT Quarentena Online - T65 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "ND8k5i6r",
@@ -1317,7 +1448,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 13,
-    "tournament_name": "Quarentena do Aprendiz - T63 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T63 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "Cg6gmAuJ",
@@ -1327,7 +1459,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 19,
-    "tournament_name": "NexT Quarentena Online - T66 Arena"
+    "tournament_name": "NexT Quarentena Online - T66 Arena",
+    "circuito": "2021 Quarentena"
   },
   {
     "tournament_id": "hT3LE57L",
@@ -1337,7 +1470,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 0,
     "number_of_players": 14,
-    "tournament_name": "Quarentena do Aprendiz - T64 Arena"
+    "tournament_name": "Quarentena do Aprendiz - T64 Arena",
+    "circuito": "2021 Quarentena Aprendiz"
   },
   {
     "tournament_id": "K5sBtZfE",
@@ -1347,7 +1481,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 17,
-    "tournament_name": "Sextas Xadrez Online - T01 Arena"
+    "tournament_name": "Sextas Xadrez Online - T01 Arena",
+    "circuito": "2021 Sextas Xadrez"
   },
   {
     "tournament_id": "2HSGysEr",
@@ -1357,7 +1492,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 21,
-    "tournament_name": "Sextas Xadrez Online - T02 Arena"
+    "tournament_name": "Sextas Xadrez Online - T02 Arena",
+    "circuito": "2021 Sextas Xadrez"
   },
   {
     "tournament_id": "HNlrrE9r",
@@ -1367,7 +1503,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 19,
-    "tournament_name": "Sextas Xadrez Online - T03 Arena"
+    "tournament_name": "Sextas Xadrez Online - T03 Arena",
+    "circuito": "2021 Sextas Xadrez"
   },
   {
     "tournament_id": "UywgbMbR",
@@ -1377,7 +1514,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 14,
-    "tournament_name": "Sextas Xadrez Online - T04 Arena"
+    "tournament_name": "Sextas Xadrez Online - T04 Arena",
+    "circuito": "2021 Sextas Xadrez"
   },
   {
     "tournament_id": "C5gvRrfo",
@@ -1387,7 +1525,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 20,
-    "tournament_name": "Sextas Xadrez Online - T05 Arena"
+    "tournament_name": "Sextas Xadrez Online - T05 Arena",
+    "circuito": "2021 Sextas Xadrez"
   },
   {
     "tournament_id": "ixBlHKTs",
@@ -1397,7 +1536,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 21,
-    "tournament_name": "Sextas Xadrez Online - T06 Arena"
+    "tournament_name": "Sextas Xadrez Online - T06 Arena",
+    "circuito": "2021 Sextas Xadrez"
   },
   {
     "tournament_id": "wDlXaGWf",
@@ -1407,7 +1547,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 25,
-    "tournament_name": "Sextas Xadrez Online - T07 Arena"
+    "tournament_name": "Sextas Xadrez Online - T07 Arena",
+    "circuito": "2021 Sextas Xadrez"
   },
   {
     "tournament_id": "TWHu6atG",
@@ -1417,7 +1558,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 28,
-    "tournament_name": "Sextas Xadrez Online - T08 Arena"
+    "tournament_name": "Sextas Xadrez Online - T08 Arena",
+    "circuito": "2021 Sextas Xadrez"
   },
   {
     "tournament_id": "kOzIVNvo",
@@ -1427,7 +1569,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 23,
-    "tournament_name": "Sextas Xadrez Online - T09 Arena"
+    "tournament_name": "Sextas Xadrez Online - T09 Arena",
+    "circuito": "2021 Sextas Xadrez"
   },
   {
     "tournament_id": "wNXAvBL1",
@@ -1437,7 +1580,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 27,
-    "tournament_name": "Sextas Xadrez Online - T10 Arena"
+    "tournament_name": "Sextas Xadrez Online - T10 Arena",
+    "circuito": "2021 Sextas Xadrez"
   },
   {
     "tournament_id": "1HlM5NTM",
@@ -1447,17 +1591,19 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 20,
-    "tournament_name": "Sextas Xadrez Online - T11 Arena"
+    "tournament_name": "Sextas Xadrez Online - T11 Arena",
+    "circuito": "2021 Sextas Xadrez"
   },
   {
     "tournament_id": "sli7pJoe",
     "tournament_start_datetime": "2021-12-17T21:30:00+00:00",
-    "tournament_system": null,
-    "tournament_time_control": null,
+    "tournament_system": "swiss",
+    "tournament_time_control": "blitz",
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 45,
-    "tournament_name": null
+    "tournament_name": "Aberto de Xadrez Blitz 2021-2",
+    "circuito": "Torneios Suíços"
   },
   {
     "tournament_id": "NjNIpcEU",
@@ -1467,7 +1613,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 29,
-    "tournament_name": "Sextas Xadrez Online - T12 Arena"
+    "tournament_name": "Sextas Xadrez Online - T12 Arena",
+    "circuito": "2021 Sextas Xadrez"
   },
   {
     "tournament_id": "AVVM34Wk",
@@ -1477,7 +1624,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 16,
-    "tournament_name": "Sextas Xadrez Online - T13 Arena"
+    "tournament_name": "Sextas Xadrez Online - T13 Arena",
+    "circuito": "2021 Sextas Xadrez"
   },
   {
     "tournament_id": "VBkU6ULh",
@@ -1487,7 +1635,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 27,
-    "tournament_name": "Sextas Xadrez Online - T14 Arena"
+    "tournament_name": "Sextas Xadrez Online - T14 Arena",
+    "circuito": "2021 Sextas Xadrez"
   },
   {
     "tournament_id": "l5pB1qgm",
@@ -1497,7 +1646,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 18,
-    "tournament_name": "Sextas Xadrez Online - T15 Arena"
+    "tournament_name": "Sextas Xadrez Online - T15 Arena",
+    "circuito": "2021 Sextas Xadrez"
   },
   {
     "tournament_id": "Ccl69QmG",
@@ -1507,7 +1657,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 19,
-    "tournament_name": "Sextas Xadrez Online - T16 Arena"
+    "tournament_name": "Sextas Xadrez Online - T16 Arena",
+    "circuito": "2021 Sextas Xadrez"
   },
   {
     "tournament_id": "WNAuupri",
@@ -1517,7 +1668,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 19,
-    "tournament_name": "Sextas Xadrez Online - T17 Arena"
+    "tournament_name": "Sextas Xadrez Online - T17 Arena",
+    "circuito": "2021 Sextas Xadrez"
   },
   {
     "tournament_id": "vca0fPHb",
@@ -1527,7 +1679,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 16,
-    "tournament_name": "Sextas Xadrez Online - T18 Arena"
+    "tournament_name": "Sextas Xadrez Online - T18 Arena",
+    "circuito": "2021 Sextas Xadrez"
   },
   {
     "tournament_id": "57VEilOE",
@@ -1537,7 +1690,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 18,
-    "tournament_name": "Sextas Xadrez Online - T19 Arena"
+    "tournament_name": "Sextas Xadrez Online - T19 Arena",
+    "circuito": "2021 Sextas Xadrez"
   },
   {
     "tournament_id": "CKAdAjaB",
@@ -1547,7 +1701,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 21,
-    "tournament_name": "Sextas Xadrez Online - T20 Arena"
+    "tournament_name": "Sextas Xadrez Online - T20 Arena",
+    "circuito": "2021 Sextas Xadrez"
   },
   {
     "tournament_id": "lVf9vReh",
@@ -1557,7 +1712,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 11,
-    "tournament_name": "Sextas Xadrez Online - T21 Arena"
+    "tournament_name": "Sextas Xadrez Online - T21 Arena",
+    "circuito": "2021 Sextas Xadrez"
   },
   {
     "tournament_id": "dZr6pqry",
@@ -1567,7 +1723,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 23,
-    "tournament_name": "Sextas Xadrez Online - T22 Arena"
+    "tournament_name": "Sextas Xadrez Online - T22 Arena",
+    "circuito": "2021 Sextas Xadrez"
   },
   {
     "tournament_id": "UstwV8JN",
@@ -1577,7 +1734,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 20,
-    "tournament_name": "Sextas Xadrez Online - T23 Arena"
+    "tournament_name": "Sextas Xadrez Online - T23 Arena",
+    "circuito": "2021 Sextas Xadrez"
   },
   {
     "tournament_id": "iwg3Dzml",
@@ -1587,7 +1745,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 16,
-    "tournament_name": "Sextas Xadrez Online - T24 Arena"
+    "tournament_name": "Sextas Xadrez Online - T24 Arena",
+    "circuito": "2021 Sextas Xadrez"
   },
   {
     "tournament_id": "Wx2nbm9g",
@@ -1597,7 +1756,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 20,
-    "tournament_name": "Sextas Xadrez Online - T25 Arena"
+    "tournament_name": "Sextas Xadrez Online - T25 Arena",
+    "circuito": "2021 Sextas Xadrez"
   },
   {
     "tournament_id": "1OreCzsM",
@@ -1607,7 +1767,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 13,
-    "tournament_name": "Sextas Xadrez Online - T26 Arena"
+    "tournament_name": "Sextas Xadrez Online - T26 Arena",
+    "circuito": "2021 Sextas Xadrez"
   },
   {
     "tournament_id": "f0vtreNm",
@@ -1617,7 +1778,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 20,
-    "tournament_name": "Sextas Xadrez Online - T27 Arena"
+    "tournament_name": "Sextas Xadrez Online - T27 Arena",
+    "circuito": "2021 Sextas Xadrez"
   },
   {
     "tournament_id": "Js1EBOTq",
@@ -1627,7 +1789,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 20,
-    "tournament_name": "Sextas Xadrez Online - T28 Arena"
+    "tournament_name": "Sextas Xadrez Online - T28 Arena",
+    "circuito": "2021 Sextas Xadrez"
   },
   {
     "tournament_id": "mcFvbt6A",
@@ -1637,7 +1800,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 16,
-    "tournament_name": "Sextas Xadrez Online - T29 Arena"
+    "tournament_name": "Sextas Xadrez Online - T29 Arena",
+    "circuito": "2021 Sextas Xadrez"
   },
   {
     "tournament_id": "iXTj6EoC",
@@ -1647,7 +1811,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 20,
-    "tournament_name": "Sextas Xadrez Online - T30 Arena"
+    "tournament_name": "Sextas Xadrez Online - T30 Arena",
+    "circuito": "2021 Sextas Xadrez"
   },
   {
     "tournament_id": "otMFMBd2",
@@ -1657,7 +1822,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 20,
-    "tournament_name": "Sextas Online - GP 2022-2 T01 Arena"
+    "tournament_name": "Sextas Online - GP 2022-2 T01 Arena",
+    "circuito": "2022-2"
   },
   {
     "tournament_id": "0LbFhesa",
@@ -1667,7 +1833,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 22,
-    "tournament_name": "Sextas Online - GP 2022-2 T02 Arena"
+    "tournament_name": "Sextas Online - GP 2022-2 T02 Arena",
+    "circuito": "2022-2"
   },
   {
     "tournament_id": "XoyBpzS4",
@@ -1677,17 +1844,19 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 21,
-    "tournament_name": "Sextas Online  - GP 2022-2 T03 Arena"
+    "tournament_name": "Sextas Online  - GP 2022-2 T03 Arena",
+    "circuito": "2022-2"
   },
   {
     "tournament_id": "r9uj95Vv",
     "tournament_start_datetime": "2022-07-16T18:00:00+00:00",
-    "tournament_system": null,
-    "tournament_time_control": null,
+    "tournament_system": "swiss",
+    "tournament_time_control": "blitz",
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 15,
-    "tournament_name": null
+    "tournament_name": "Aberto de Xadrez Blitz 2022-1",
+    "circuito": "Torneios Suíços"
   },
   {
     "tournament_id": "VWQTFS6E",
@@ -1697,7 +1866,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 24,
-    "tournament_name": "Sextas Online - GP 2022-2 T04 Arena"
+    "tournament_name": "Sextas Online - GP 2022-2 T04 Arena",
+    "circuito": "2022-2"
   },
   {
     "tournament_id": "IKUnAZ3Z",
@@ -1707,7 +1877,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 16,
-    "tournament_name": "Sextas Online - GP 2022-2 T05 Arena"
+    "tournament_name": "Sextas Online - GP 2022-2 T05 Arena",
+    "circuito": "2022-2"
   },
   {
     "tournament_id": "P8BuDo9k",
@@ -1717,7 +1888,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 16,
-    "tournament_name": "Sextas Online - GP 2022-2 T06 Arena"
+    "tournament_name": "Sextas Online - GP 2022-2 T06 Arena",
+    "circuito": "2022-2"
   },
   {
     "tournament_id": "OODVn0rB",
@@ -1727,7 +1899,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 20,
-    "tournament_name": "Sextas Online - GP 2022-2 T07 Arena"
+    "tournament_name": "Sextas Online - GP 2022-2 T07 Arena",
+    "circuito": "2022-2"
   },
   {
     "tournament_id": "Xtl1VG64",
@@ -1737,7 +1910,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 14,
-    "tournament_name": "Sextas Online - GP 2022-2 T08 Arena"
+    "tournament_name": "Sextas Online - GP 2022-2 T08 Arena",
+    "circuito": "2022-2"
   },
   {
     "tournament_id": "pzQl2m6K",
@@ -1747,7 +1921,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 20,
-    "tournament_name": "Sextas Online - GP 2022-2 T09 Arena"
+    "tournament_name": "Sextas Online - GP 2022-2 T09 Arena",
+    "circuito": "2022-2"
   },
   {
     "tournament_id": "SvT1LKuU",
@@ -1757,7 +1932,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 24,
-    "tournament_name": "Sextas Online - GP 2022-2 T10 Arena"
+    "tournament_name": "Sextas Online - GP 2022-2 T10 Arena",
+    "circuito": "2022-2"
   },
   {
     "tournament_id": "XdjBHxPq",
@@ -1767,7 +1943,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 19,
-    "tournament_name": "Sextas Online - GP 2022-2 T11 Arena"
+    "tournament_name": "Sextas Online - GP 2022-2 T11 Arena",
+    "circuito": "2022-2"
   },
   {
     "tournament_id": "Wv3kvvmw",
@@ -1777,7 +1954,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 19,
-    "tournament_name": "Sextas Online - GP 2022-2 T12 Arena"
+    "tournament_name": "Sextas Online - GP 2022-2 T12 Arena",
+    "circuito": "2022-2"
   },
   {
     "tournament_id": "ifC3p80x",
@@ -1787,7 +1965,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 16,
-    "tournament_name": "Sextas Online - GP 2022-2 T13 Arena"
+    "tournament_name": "Sextas Online - GP 2022-2 T13 Arena",
+    "circuito": "2022-2"
   },
   {
     "tournament_id": "0vu0O7Nw",
@@ -1797,7 +1976,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 14,
-    "tournament_name": "Sextas Online - GP 2022-2 T14 Arena"
+    "tournament_name": "Sextas Online - GP 2022-2 T14 Arena",
+    "circuito": "2022-2"
   },
   {
     "tournament_id": "BAywJssa",
@@ -1807,7 +1987,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 16,
-    "tournament_name": "Sextas Online - GP 2022-2 T15 Arena"
+    "tournament_name": "Sextas Online - GP 2022-2 T15 Arena",
+    "circuito": "2022-2"
   },
   {
     "tournament_id": "PX7AaFjx",
@@ -1817,7 +1998,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 17,
-    "tournament_name": "Sextas Online - GP 2022-2 T16 Arena"
+    "tournament_name": "Sextas Online - GP 2022-2 T16 Arena",
+    "circuito": "2022-2"
   },
   {
     "tournament_id": "rYsnwexH",
@@ -1827,7 +2009,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 14,
-    "tournament_name": "Sextas Online - GP 2022-2 T17 Arena"
+    "tournament_name": "Sextas Online - GP 2022-2 T17 Arena",
+    "circuito": "2022-2"
   },
   {
     "tournament_id": "vKeo7e7R",
@@ -1837,7 +2020,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 10,
-    "tournament_name": "Sextas Online - GP 2022-2 T18 Arena"
+    "tournament_name": "Sextas Online - GP 2022-2 T18 Arena",
+    "circuito": "2022-2"
   },
   {
     "tournament_id": "ebJPp5BG",
@@ -1847,7 +2031,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 19,
-    "tournament_name": "Sextas Online - GP 2022-2 T19 Arena"
+    "tournament_name": "Sextas Online - GP 2022-2 T19 Arena",
+    "circuito": "2022-2"
   },
   {
     "tournament_id": "axTWSY3V",
@@ -1857,7 +2042,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 15,
-    "tournament_name": "Sextas Online - GP 2022-2 T20 Arena"
+    "tournament_name": "Sextas Online - GP 2022-2 T20 Arena",
+    "circuito": "2022-2"
   },
   {
     "tournament_id": "8e5eErJr",
@@ -1867,7 +2053,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 15,
-    "tournament_name": "Sextas Online - GP 2022-2 T21 Arena"
+    "tournament_name": "Sextas Online - GP 2022-2 T21 Arena",
+    "circuito": "2022-2"
   },
   {
     "tournament_id": "fizZut2g",
@@ -1877,17 +2064,19 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 20,
-    "tournament_name": "Sextas Online - GP 2022-2 T22 Arena"
+    "tournament_name": "Sextas Online - GP 2022-2 T22 Arena",
+    "circuito": "2022-2"
   },
   {
     "tournament_id": "53hK439l",
     "tournament_start_datetime": "2022-11-26T18:05:00+00:00",
-    "tournament_system": null,
-    "tournament_time_control": null,
+    "tournament_system": "swiss",
+    "tournament_time_control": "blitz",
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 16,
-    "tournament_name": null
+    "tournament_name": "Aberto de Xadrez Blitz 2022-2",
+    "circuito": "Torneios Suíços"
   },
   {
     "tournament_id": "QL5zxP0R",
@@ -1897,7 +2086,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 11,
-    "tournament_name": "Sextas Online - T23 Arena"
+    "tournament_name": "Sextas Online - T23 Arena",
+    "circuito": "2022-2"
   },
   {
     "tournament_id": "cMZtok2r",
@@ -1907,7 +2097,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 18,
-    "tournament_name": "Sextas Online - T24 Arena"
+    "tournament_name": "Sextas Online - T24 Arena",
+    "circuito": "2022-2"
   },
   {
     "tournament_id": "9629aAKJ",
@@ -1917,17 +2108,19 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 18,
-    "tournament_name": "Sextas Online - T25 Arena"
+    "tournament_name": "Sextas Online - T25 Arena",
+    "circuito": "2022-2"
   },
   {
     "tournament_id": "9gtn9qUw",
     "tournament_start_datetime": "2023-01-14T17:30:00+00:00",
-    "tournament_system": null,
-    "tournament_time_control": null,
+    "tournament_system": "swiss",
+    "tournament_time_control": "rapid",
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 48,
-    "tournament_name": null
+    "tournament_name": "Prep. Floripa Team Open 2023",
+    "circuito": "Torneios Suíços"
   },
   {
     "tournament_id": "7jbK9Vyt",
@@ -1937,7 +2130,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 18,
-    "tournament_name": "Sextas Online - GP 2023-1 T01 Arena"
+    "tournament_name": "Sextas Online - GP 2023-1 T01 Arena",
+    "circuito": "2023-1"
   },
   {
     "tournament_id": "Dp1rH23c",
@@ -1947,7 +2141,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 17,
-    "tournament_name": "Sextas Online - GP 2023-1 T02 Arena"
+    "tournament_name": "Sextas Online - GP 2023-1 T02 Arena",
+    "circuito": "2023-1"
   },
   {
     "tournament_id": "rdA3qsdI",
@@ -1957,7 +2152,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 17,
-    "tournament_name": "Sextas Online - GP 2023-1 T03 Arena"
+    "tournament_name": "Sextas Online - GP 2023-1 T03 Arena",
+    "circuito": "2023-1"
   },
   {
     "tournament_id": "dtLIhb4n",
@@ -1967,7 +2163,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 15,
-    "tournament_name": "Sextas Online - GP 2023-1 T04 Arena"
+    "tournament_name": "Sextas Online - GP 2023-1 T04 Arena",
+    "circuito": "2023-1"
   },
   {
     "tournament_id": "sVB8zdYX",
@@ -1977,7 +2174,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 18,
-    "tournament_name": "Sextas Online - GP 2023-1 T05 Arena"
+    "tournament_name": "Sextas Online - GP 2023-1 T05 Arena",
+    "circuito": "2023-1"
   },
   {
     "tournament_id": "9ff4igKK",
@@ -1987,7 +2185,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 17,
-    "tournament_name": "Sextas Online - GP 2023-1 T06 Arena"
+    "tournament_name": "Sextas Online - GP 2023-1 T06 Arena",
+    "circuito": "2023-1"
   },
   {
     "tournament_id": "ATgyYkSa",
@@ -1997,7 +2196,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 14,
-    "tournament_name": "Sextas Online - GP 2023-1 T07 Arena"
+    "tournament_name": "Sextas Online - GP 2023-1 T07 Arena",
+    "circuito": "2023-1"
   },
   {
     "tournament_id": "v6YwBwCk",
@@ -2007,7 +2207,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 23,
-    "tournament_name": "Sextas Online - GP 2023-1 T08 Arena"
+    "tournament_name": "Sextas Online - GP 2023-1 T08 Arena",
+    "circuito": "2023-1"
   },
   {
     "tournament_id": "tJ7tNMPV",
@@ -2017,7 +2218,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 13,
-    "tournament_name": "Sextas Online - GP 2023-1 T09 Arena"
+    "tournament_name": "Sextas Online - GP 2023-1 T09 Arena",
+    "circuito": "2023-1"
   },
   {
     "tournament_id": "vy6dbD0q",
@@ -2027,7 +2229,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 19,
-    "tournament_name": "Sextas Online - GP 2023-1 T10 Arena"
+    "tournament_name": "Sextas Online - GP 2023-1 T10 Arena",
+    "circuito": "2023-1"
   },
   {
     "tournament_id": "tfDQ52Um",
@@ -2037,7 +2240,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 14,
-    "tournament_name": "Sextas Online - GP 2023-1 T11 Arena"
+    "tournament_name": "Sextas Online - GP 2023-1 T11 Arena",
+    "circuito": "2023-1"
   },
   {
     "tournament_id": "gZqEUp7V",
@@ -2047,7 +2251,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 17,
-    "tournament_name": "Sextas Online - GP 2023-1 T12 Arena"
+    "tournament_name": "Sextas Online - GP 2023-1 T12 Arena",
+    "circuito": "2023-1"
   },
   {
     "tournament_id": "znoT2upz",
@@ -2057,7 +2262,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 17,
-    "tournament_name": "Sextas Online - GP 2023-1 T13 Arena"
+    "tournament_name": "Sextas Online - GP 2023-1 T13 Arena",
+    "circuito": "2023-1"
   },
   {
     "tournament_id": "SjVEadYo",
@@ -2067,7 +2273,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 20,
-    "tournament_name": "Sextas Online - GP 2023-1 T14 Arena"
+    "tournament_name": "Sextas Online - GP 2023-1 T14 Arena",
+    "circuito": "2023-1"
   },
   {
     "tournament_id": "ClxVDGVv",
@@ -2077,17 +2284,19 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 15,
-    "tournament_name": "Sextas Online - GP 2023-1 T15 Arena"
+    "tournament_name": "Sextas Online - GP 2023-1 T15 Arena",
+    "circuito": "2023-1"
   },
   {
     "tournament_id": "fPA264ru",
     "tournament_start_datetime": "2023-06-17T17:30:00+00:00",
-    "tournament_system": null,
-    "tournament_time_control": null,
+    "tournament_system": "swiss",
+    "tournament_time_control": "blitz",
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 26,
-    "tournament_name": null
+    "tournament_name": "Aberto de Xadrez Blitz 2023-1",
+    "circuito": "Torneios Suíços"
   },
   {
     "tournament_id": "gHB9w4g2",
@@ -2097,7 +2306,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 27,
-    "tournament_name": "Sextas Online - GP 2023-1 T16 Arena"
+    "tournament_name": "Sextas Online - GP 2023-1 T16 Arena",
+    "circuito": "2023-1"
   },
   {
     "tournament_id": "MORJBOL1",
@@ -2107,7 +2317,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 21,
-    "tournament_name": "Sextas Online - GP 2023-1 T17 Arena"
+    "tournament_name": "Sextas Online - GP 2023-1 T17 Arena",
+    "circuito": "2023-1"
   },
   {
     "tournament_id": "6t11X93y",
@@ -2117,7 +2328,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 18,
-    "tournament_name": "Sextas Online - T18 Arena"
+    "tournament_name": "Sextas Online - T18 Arena",
+    "circuito": "2023-1"
   },
   {
     "tournament_id": "eX2rjs64",
@@ -2127,7 +2339,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 17,
-    "tournament_name": "Sextas Online - GP 2023-2 T01 Arena"
+    "tournament_name": "Sextas Online - GP 2023-2 T01 Arena",
+    "circuito": "2023-2"
   },
   {
     "tournament_id": "Ufq4Orcy",
@@ -2137,7 +2350,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 13,
-    "tournament_name": "Sextas Online - GP 2023-2 T02 Arena"
+    "tournament_name": "Sextas Online - GP 2023-2 T02 Arena",
+    "circuito": "2023-2"
   },
   {
     "tournament_id": "scWUT8Wg",
@@ -2147,7 +2361,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 14,
-    "tournament_name": "Sextas Online - GP 2023-2 T03 Arena"
+    "tournament_name": "Sextas Online - GP 2023-2 T03 Arena",
+    "circuito": "2023-2"
   },
   {
     "tournament_id": "HEeGorbn",
@@ -2157,7 +2372,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 16,
-    "tournament_name": "Sextas Online - GP 2023-2 T04 Arena"
+    "tournament_name": "Sextas Online - GP 2023-2 T04 Arena",
+    "circuito": "2023-2"
   },
   {
     "tournament_id": "9I3B55qS",
@@ -2167,7 +2383,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 12,
-    "tournament_name": "Sextas Online - GP 2023-2 T05 Arena"
+    "tournament_name": "Sextas Online - GP 2023-2 T05 Arena",
+    "circuito": "2023-2"
   },
   {
     "tournament_id": "G8NqaPQy",
@@ -2177,7 +2394,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 14,
-    "tournament_name": "Sextas Online - GP 2023-2 T06 Arena"
+    "tournament_name": "Sextas Online - GP 2023-2 T06 Arena",
+    "circuito": "2023-2"
   },
   {
     "tournament_id": "kUi3PZWH",
@@ -2187,7 +2405,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 21,
-    "tournament_name": "Sextas Online - GP 2023-2 T07 Arena"
+    "tournament_name": "Sextas Online - GP 2023-2 T07 Arena",
+    "circuito": "2023-2"
   },
   {
     "tournament_id": "892EtXOM",
@@ -2197,7 +2416,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 15,
-    "tournament_name": "Sextas Online - GP 2023-2 T08 Arena"
+    "tournament_name": "Sextas Online - GP 2023-2 T08 Arena",
+    "circuito": "2023-2"
   },
   {
     "tournament_id": "5OgOYZJ6",
@@ -2207,7 +2427,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 14,
-    "tournament_name": "Sextas Online - GP 2022-2 T09 Arena"
+    "tournament_name": "Sextas Online - GP 2022-2 T09 Arena",
+    "circuito": "2023-2"
   },
   {
     "tournament_id": "4eIGwMJd",
@@ -2217,7 +2438,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 15,
-    "tournament_name": "Sextas Online - GP 2023-2 T10 Arena"
+    "tournament_name": "Sextas Online - GP 2023-2 T10 Arena",
+    "circuito": "2023-2"
   },
   {
     "tournament_id": "YF1Z3QNp",
@@ -2227,7 +2449,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 10,
-    "tournament_name": "Sextas Online - GP 2023-2 T11 Arena"
+    "tournament_name": "Sextas Online - GP 2023-2 T11 Arena",
+    "circuito": "2023-2"
   },
   {
     "tournament_id": "jtTCn8dz",
@@ -2237,7 +2460,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 12,
-    "tournament_name": "Sextas Online - GP 2023-2 T12 Arena"
+    "tournament_name": "Sextas Online - GP 2023-2 T12 Arena",
+    "circuito": "2023-2"
   },
   {
     "tournament_id": "ckZV2ZMO",
@@ -2247,7 +2471,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 21,
-    "tournament_name": "Sextas Online - GP 2023-2 T13 Arena"
+    "tournament_name": "Sextas Online - GP 2023-2 T13 Arena",
+    "circuito": "2023-2"
   },
   {
     "tournament_id": "JjYxx7Az",
@@ -2257,17 +2482,19 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 19,
-    "tournament_name": "Sextas Online - GP 2023-2 T14 Arena"
+    "tournament_name": "Sextas Online - GP 2023-2 T14 Arena",
+    "circuito": "2023-2"
   },
   {
     "tournament_id": "ZxQTcoED",
     "tournament_start_datetime": "2023-11-25T17:30:00+00:00",
-    "tournament_system": null,
-    "tournament_time_control": null,
+    "tournament_system": "swiss",
+    "tournament_time_control": "blitz",
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 24,
-    "tournament_name": null
+    "tournament_name": "Aberto de Xadrez Blitz 2023-2",
+    "circuito": "Torneios Suíços"
   },
   {
     "tournament_id": "jZnhHd2D",
@@ -2277,7 +2504,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 14,
-    "tournament_name": "Sextas Online - GP 2023-2 T15 Arena"
+    "tournament_name": "Sextas Online - GP 2023-2 T15 Arena",
+    "circuito": "2023-2"
   },
   {
     "tournament_id": "4Pajfkrr",
@@ -2287,7 +2515,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 16,
-    "tournament_name": "Sextas Online - GP 2024-1 T01 Arena"
+    "tournament_name": "Sextas Online - GP 2024-1 T01 Arena",
+    "circuito": "2024-1"
   },
   {
     "tournament_id": "XY8zaR8A",
@@ -2297,7 +2526,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 19,
-    "tournament_name": "Sextas Online - GP 2024-1 T02 Arena"
+    "tournament_name": "Sextas Online - GP 2024-1 T02 Arena",
+    "circuito": "2024-1"
   },
   {
     "tournament_id": "tLeHcXxv",
@@ -2307,7 +2537,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 13,
-    "tournament_name": "Sextas Online - GP 2024-1 T03 Arena"
+    "tournament_name": "Sextas Online - GP 2024-1 T03 Arena",
+    "circuito": "2024-1"
   },
   {
     "tournament_id": "kspnw4UY",
@@ -2317,7 +2548,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 10,
-    "tournament_name": "Sextas Online - GP 2024-1 T04 Arena"
+    "tournament_name": "Sextas Online - GP 2024-1 T04 Arena",
+    "circuito": "2024-1"
   },
   {
     "tournament_id": "9sJUdnoh",
@@ -2327,7 +2559,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 14,
-    "tournament_name": "Sextas Online - GP 2024-1 T05 Arena"
+    "tournament_name": "Sextas Online - GP 2024-1 T05 Arena",
+    "circuito": "2024-1"
   },
   {
     "tournament_id": "HFuoS9WT",
@@ -2337,7 +2570,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 17,
-    "tournament_name": "Sextas Online - GP 2024-1 T06 Arena"
+    "tournament_name": "Sextas Online - GP 2024-1 T06 Arena",
+    "circuito": "2024-1"
   },
   {
     "tournament_id": "IIFikXnh",
@@ -2347,7 +2581,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 13,
-    "tournament_name": "Sextas Online - GP 2024-1 T07 Arena"
+    "tournament_name": "Sextas Online - GP 2024-1 T07 Arena",
+    "circuito": "2024-1"
   },
   {
     "tournament_id": "XmOwh2VK",
@@ -2357,7 +2592,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 16,
-    "tournament_name": "Sextas Online - GP 2024-1 T08 Arena"
+    "tournament_name": "Sextas Online - GP 2024-1 T08 Arena",
+    "circuito": "2024-1"
   },
   {
     "tournament_id": "GG0ibRzR",
@@ -2367,7 +2603,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 19,
-    "tournament_name": "Sextas Online - GP 2024-1 T09 Arena"
+    "tournament_name": "Sextas Online - GP 2024-1 T09 Arena",
+    "circuito": "2024-1"
   },
   {
     "tournament_id": "HhcC3iRi",
@@ -2377,17 +2614,19 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 20,
-    "tournament_name": "Sextas Online - GP 2024-1 T10 Arena"
+    "tournament_name": "Sextas Online - GP 2024-1 T10 Arena",
+    "circuito": "2024-1"
   },
   {
     "tournament_id": "t0WcHti9",
     "tournament_start_datetime": "2024-05-15T13:45:00+00:00",
-    "tournament_system": null,
-    "tournament_time_control": null,
+    "tournament_system": "swiss",
+    "tournament_time_control": "blitz",
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 4,
-    "tournament_name": null
+    "tournament_name": "Torneio Semana Acadêmica",
+    "circuito": "Torneios Suíços"
   },
   {
     "tournament_id": "OoQjZnag",
@@ -2397,7 +2636,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 16,
-    "tournament_name": "Sextas Online - GP 2024-1 T11 Arena"
+    "tournament_name": "Sextas Online - GP 2024-1 T11 Arena",
+    "circuito": "2024-1"
   },
   {
     "tournament_id": "5cAybyH8",
@@ -2407,7 +2647,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 14,
-    "tournament_name": "Sextas Online - GP 2024-1 T12 Arena"
+    "tournament_name": "Sextas Online - GP 2024-1 T12 Arena",
+    "circuito": "2024-1"
   },
   {
     "tournament_id": "YiRAi2NY",
@@ -2417,17 +2658,19 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 19,
-    "tournament_name": "Sextas Online - GP 2024-1 T13 Arena"
+    "tournament_name": "Sextas Online - GP 2024-1 T13 Arena",
+    "circuito": "2024-1"
   },
   {
     "tournament_id": "MMBYOLry",
     "tournament_start_datetime": "2024-06-08T17:30:00+00:00",
-    "tournament_system": null,
-    "tournament_time_control": null,
+    "tournament_system": "swiss",
+    "tournament_time_control": "blitz",
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 18,
-    "tournament_name": null
+    "tournament_name": "Aberto de Xadrez Blitz 2024-1",
+    "circuito": "Torneios Suíços"
   },
   {
     "tournament_id": "VXh04ncU",
@@ -2437,7 +2680,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 15,
-    "tournament_name": "Sextas Online - GP 2024-1 T14 Arena"
+    "tournament_name": "Sextas Online - GP 2024-1 T14 Arena",
+    "circuito": "2024-1"
   },
   {
     "tournament_id": "juYQTV99",
@@ -2447,7 +2691,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 17,
-    "tournament_name": "Sextas Online - GP 2024-1 T15 Arena"
+    "tournament_name": "Sextas Online - GP 2024-1 T15 Arena",
+    "circuito": "2024-1"
   },
   {
     "tournament_id": "uJnNjfNq",
@@ -2457,7 +2702,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 18,
-    "tournament_name": "Sextas Online - GP 2024-1 T16 Arena"
+    "tournament_name": "Sextas Online - GP 2024-1 T16 Arena",
+    "circuito": "2024-1"
   },
   {
     "tournament_id": "mESWY3t4",
@@ -2467,17 +2713,19 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 13,
-    "tournament_name": "Sextas Online T01 Arena"
+    "tournament_name": "Sextas Online T01 Arena",
+    "circuito": "2024 Avulsos"
   },
   {
     "tournament_id": "de4mNvVx",
     "tournament_start_datetime": "2024-07-07T17:00:00+00:00",
-    "tournament_system": null,
-    "tournament_time_control": null,
+    "tournament_system": "swiss",
+    "tournament_time_control": "classical",
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 6,
-    "tournament_name": null
+    "tournament_name": "NexT Swiss Classic",
+    "circuito": "Torneios Suíços"
   },
   {
     "tournament_id": "VuByZoeJ",
@@ -2487,7 +2735,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 16,
-    "tournament_name": "Sextas Online - GP 2024-2 T01 Arena"
+    "tournament_name": "Sextas Online - GP 2024-2 T01 Arena",
+    "circuito": "2024-2"
   },
   {
     "tournament_id": "ahv2BZWd",
@@ -2497,7 +2746,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 15,
-    "tournament_name": "Sextas Online - GP 2024-2 T02 Arena"
+    "tournament_name": "Sextas Online - GP 2024-2 T02 Arena",
+    "circuito": "2024-2"
   },
   {
     "tournament_id": "YjqF4u64",
@@ -2507,7 +2757,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 17,
-    "tournament_name": "Sextas Online - GP 2024-2 T03 Arena"
+    "tournament_name": "Sextas Online - GP 2024-2 T03 Arena",
+    "circuito": "2024-2"
   },
   {
     "tournament_id": "K6a7bDQJ",
@@ -2517,7 +2768,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 17,
-    "tournament_name": "Sextas Online - GP 2024-2 T04 Arena"
+    "tournament_name": "Sextas Online - GP 2024-2 T04 Arena",
+    "circuito": "2024-2"
   },
   {
     "tournament_id": "ZQY3lLmd",
@@ -2527,7 +2779,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 23,
-    "tournament_name": "Sextas Online - GP 2024-2 T05 Arena"
+    "tournament_name": "Sextas Online - GP 2024-2 T05 Arena",
+    "circuito": "2024-2"
   },
   {
     "tournament_id": "tgKwN8LZ",
@@ -2537,7 +2790,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 15,
-    "tournament_name": "Sextas Online - GP 2024-2 T06 Arena"
+    "tournament_name": "Sextas Online - GP 2024-2 T06 Arena",
+    "circuito": "2024-2"
   },
   {
     "tournament_id": "xuafQNWZ",
@@ -2547,7 +2801,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 19,
-    "tournament_name": "Sextas Online - GP 2024-2 T07 Arena"
+    "tournament_name": "Sextas Online - GP 2024-2 T07 Arena",
+    "circuito": "2024-2"
   },
   {
     "tournament_id": "cfhSjoiz",
@@ -2557,7 +2812,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 23,
-    "tournament_name": "Sextas Online - GP 2024-2 T08 Arena"
+    "tournament_name": "Sextas Online - GP 2024-2 T08 Arena",
+    "circuito": "2024-2"
   },
   {
     "tournament_id": "bCEcHjzL",
@@ -2567,7 +2823,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 25,
-    "tournament_name": "Sextas Online - GP 2024-1 T09 Arena"
+    "tournament_name": "Sextas Online - GP 2024-1 T09 Arena",
+    "circuito": "2024-2"
   },
   {
     "tournament_id": "w1aWDmc0",
@@ -2577,7 +2834,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 21,
-    "tournament_name": "Sextas Online - GP 2024-2 T10 Arena"
+    "tournament_name": "Sextas Online - GP 2024-2 T10 Arena",
+    "circuito": "2024-2"
   },
   {
     "tournament_id": "NS0SFzta",
@@ -2587,7 +2845,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 25,
-    "tournament_name": "Sextas Online - GP 2024-2 T11 Arena"
+    "tournament_name": "Sextas Online - GP 2024-2 T11 Arena",
+    "circuito": "2024-2"
   },
   {
     "tournament_id": "lGjwKHzT",
@@ -2597,7 +2856,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 19,
-    "tournament_name": "Sextas Online - GP 2024-12 T12 Arena"
+    "tournament_name": "Sextas Online - GP 2024-12 T12 Arena",
+    "circuito": "2024-2"
   },
   {
     "tournament_id": "Ndw4fbfI",
@@ -2607,7 +2867,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 18,
-    "tournament_name": "Sextas Online - GP 2024-2 T13 Arena"
+    "tournament_name": "Sextas Online - GP 2024-2 T13 Arena",
+    "circuito": "2024-2"
   },
   {
     "tournament_id": "JtCncPSq",
@@ -2617,7 +2878,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 17,
-    "tournament_name": "Sextas Online - GP 2024-2 T14 Arena"
+    "tournament_name": "Sextas Online - GP 2024-2 T14 Arena",
+    "circuito": "2024-2"
   },
   {
     "tournament_id": "jHD2Dank",
@@ -2627,7 +2889,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 19,
-    "tournament_name": "Sextas Online - GP 2024-2 T15 Arena"
+    "tournament_name": "Sextas Online - GP 2024-2 T15 Arena",
+    "circuito": "2024-2"
   },
   {
     "tournament_id": "r4o4VqYm",
@@ -2637,7 +2900,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 17,
-    "tournament_name": "Sextas Online - GP 2024-2 T16 Arena"
+    "tournament_name": "Sextas Online - GP 2024-2 T16 Arena",
+    "circuito": "2024-2"
   },
   {
     "tournament_id": "818p8yaw",
@@ -2647,17 +2911,19 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 15,
-    "tournament_name": "Sextas Online - GP 2024-2 T17 Arena"
+    "tournament_name": "Sextas Online - GP 2024-2 T17 Arena",
+    "circuito": "2024-2"
   },
   {
     "tournament_id": "R91GVzNG",
     "tournament_start_datetime": "2024-11-30T17:30:00+00:00",
-    "tournament_system": null,
-    "tournament_time_control": null,
+    "tournament_system": "swiss",
+    "tournament_time_control": "blitz",
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 17,
-    "tournament_name": null
+    "tournament_name": "Aberto de Xadrez Blitz 2024-2",
+    "circuito": "Torneios Suíços"
   },
   {
     "tournament_id": "BmM2TlmQ",
@@ -2667,7 +2933,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 14,
-    "tournament_name": "Sextas Online - GP 2024-2 T18 Arena"
+    "tournament_name": "Sextas Online - GP 2024-2 T18 Arena",
+    "circuito": "2024-2"
   },
   {
     "tournament_id": "4Jo9LQwR",
@@ -2677,7 +2944,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 63,
-    "tournament_name": "NexT FullChess Series 25-1 T1 Arena"
+    "tournament_name": "NexT FullChess Series 25-1 T1 Arena",
+    "circuito": "2025-1"
   },
   {
     "tournament_id": "zkYTkbq0",
@@ -2687,7 +2955,8 @@
     "tournament_variant": "chess960",
     "tournament_rated": 1,
     "number_of_players": 61,
-    "tournament_name": "NexT FullChess Series 25-1 T02 Arena"
+    "tournament_name": "NexT FullChess Series 25-1 T02 Arena",
+    "circuito": "2025-1"
   },
   {
     "tournament_id": "EYLoOluN",
@@ -2697,7 +2966,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 52,
-    "tournament_name": "NexT FullChess Series 25-1 T03 Arena"
+    "tournament_name": "NexT FullChess Series 25-1 T03 Arena",
+    "circuito": "2025-1"
   },
   {
     "tournament_id": "U6TN4qZR",
@@ -2707,7 +2977,8 @@
     "tournament_variant": "chess960",
     "tournament_rated": 1,
     "number_of_players": 62,
-    "tournament_name": "NexT FullChess Series 25-1 T04 Arena"
+    "tournament_name": "NexT FullChess Series 25-1 T04 Arena",
+    "circuito": "2025-1"
   },
   {
     "tournament_id": "wfsWaCoI",
@@ -2717,7 +2988,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 51,
-    "tournament_name": "NexT FullChess Series 25-1 T05 Arena"
+    "tournament_name": "NexT FullChess Series 25-1 T05 Arena",
+    "circuito": "2025-1"
   },
   {
     "tournament_id": "PmHfI3Wg",
@@ -2727,7 +2999,8 @@
     "tournament_variant": "chess960",
     "tournament_rated": 1,
     "number_of_players": 53,
-    "tournament_name": "NexT FullChess Series 25-1 T06 Arena"
+    "tournament_name": "NexT FullChess Series 25-1 T06 Arena",
+    "circuito": "2025-1"
   },
   {
     "tournament_id": "OspvFZHz",
@@ -2737,7 +3010,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 53,
-    "tournament_name": "NexT FullChess Series 25-1 T07 Arena"
+    "tournament_name": "NexT FullChess Series 25-1 T07 Arena",
+    "circuito": "2025-1"
   },
   {
     "tournament_id": "XdoTiOnK",
@@ -2747,7 +3021,8 @@
     "tournament_variant": "chess960",
     "tournament_rated": 1,
     "number_of_players": 57,
-    "tournament_name": "NexT FullChess Series 25-1 T08 Arena"
+    "tournament_name": "NexT FullChess Series 25-1 T08 Arena",
+    "circuito": "2025-1"
   },
   {
     "tournament_id": "7LdO4Dfo",
@@ -2757,7 +3032,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 51,
-    "tournament_name": "NexT FullChess Series 25-1 T09 Arena"
+    "tournament_name": "NexT FullChess Series 25-1 T09 Arena",
+    "circuito": "2025-1"
   },
   {
     "tournament_id": "1liZqCrS",
@@ -2767,7 +3043,8 @@
     "tournament_variant": "chess960",
     "tournament_rated": 1,
     "number_of_players": 54,
-    "tournament_name": "NexT FullChess Series 25-1 T10 Arena"
+    "tournament_name": "NexT FullChess Series 25-1 T10 Arena",
+    "circuito": "2025-1"
   },
   {
     "tournament_id": "zr6PtBwA",
@@ -2777,7 +3054,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 51,
-    "tournament_name": "NexT FullChess Series 25-1 T11 Arena"
+    "tournament_name": "NexT FullChess Series 25-1 T11 Arena",
+    "circuito": "2025-1"
   },
   {
     "tournament_id": "uBzhcuqp",
@@ -2787,27 +3065,30 @@
     "tournament_variant": "chess960",
     "tournament_rated": 1,
     "number_of_players": 42,
-    "tournament_name": "NexT FullChess Series 25-1 T12 Arena"
+    "tournament_name": "NexT FullChess Series 25-1 T12 Arena",
+    "circuito": "2025-1"
   },
   {
     "tournament_id": "t6SzrEbW",
     "tournament_start_datetime": "2025-06-28T16:30:00+00:00",
-    "tournament_system": null,
-    "tournament_time_control": null,
+    "tournament_system": "swiss",
+    "tournament_time_control": "blitz",
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 35,
-    "tournament_name": null
+    "tournament_name": "NexT Chess Open 2025-1",
+    "circuito": "Torneios Suíços"
   },
   {
     "tournament_id": "utZuLMMZ",
     "tournament_start_datetime": "2025-06-28T18:00:00+00:00",
-    "tournament_system": null,
-    "tournament_time_control": null,
+    "tournament_system": "swiss",
+    "tournament_time_control": "blitz",
     "tournament_variant": "chess960",
     "tournament_rated": 1,
     "number_of_players": 17,
-    "tournament_name": null
+    "tournament_name": "NexT Freestyle Open 2025-1",
+    "circuito": "Torneios Suíços"
   },
   {
     "tournament_id": "DeZdTiKp",
@@ -2817,7 +3098,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 62,
-    "tournament_name": "NexT FullChess Series 25-2 T01 Arena"
+    "tournament_name": "NexT FullChess Series 25-2 T01 Arena",
+    "circuito": "2025-2"
   },
   {
     "tournament_id": "jwcgYrKg",
@@ -2827,7 +3109,8 @@
     "tournament_variant": "chess960",
     "tournament_rated": 1,
     "number_of_players": 67,
-    "tournament_name": "NexT FullChess Series 25-2 T02 Arena"
+    "tournament_name": "NexT FullChess Series 25-2 T02 Arena",
+    "circuito": "2025-2"
   },
   {
     "tournament_id": "a6TGJwIH",
@@ -2837,7 +3120,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 66,
-    "tournament_name": "NexT FullChess Series 25-2 T03 Arena"
+    "tournament_name": "NexT FullChess Series 25-2 T03 Arena",
+    "circuito": "2025-2"
   },
   {
     "tournament_id": "7rkcaEQQ",
@@ -2847,7 +3131,8 @@
     "tournament_variant": "chess960",
     "tournament_rated": 1,
     "number_of_players": 65,
-    "tournament_name": "NexT FullChess Series 25-1 T04 Arena"
+    "tournament_name": "NexT FullChess Series 25-1 T04 Arena",
+    "circuito": "2025-2"
   },
   {
     "tournament_id": "p6CO7iih",
@@ -2857,7 +3142,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 59,
-    "tournament_name": "NexT FullChess Series 25-1 T05 Arena"
+    "tournament_name": "NexT FullChess Series 25-1 T05 Arena",
+    "circuito": "2025-2"
   },
   {
     "tournament_id": "OChohn5E",
@@ -2867,7 +3153,8 @@
     "tournament_variant": "chess960",
     "tournament_rated": 1,
     "number_of_players": 60,
-    "tournament_name": "NexT FullChess Series 25-1 T06 Arena"
+    "tournament_name": "NexT FullChess Series 25-1 T06 Arena",
+    "circuito": "2025-2"
   },
   {
     "tournament_id": "2JzhNSuH",
@@ -2877,7 +3164,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 53,
-    "tournament_name": "NexT FullChess Series 25-1 T07 Arena"
+    "tournament_name": "NexT FullChess Series 25-1 T07 Arena",
+    "circuito": "2025-2"
   },
   {
     "tournament_id": "Y8NfhihT",
@@ -2887,7 +3175,8 @@
     "tournament_variant": "chess960",
     "tournament_rated": 1,
     "number_of_players": 57,
-    "tournament_name": "NexT FullChess Series 25-2 T08 Arena"
+    "tournament_name": "NexT FullChess Series 25-2 T08 Arena",
+    "circuito": "2025-2"
   },
   {
     "tournament_id": "0s85kfnB",
@@ -2897,7 +3186,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 54,
-    "tournament_name": "NexT FullChess Series 25-2 T09 Arena"
+    "tournament_name": "NexT FullChess Series 25-2 T09 Arena",
+    "circuito": "2025-2"
   },
   {
     "tournament_id": "JzUKNtJJ",
@@ -2907,7 +3197,8 @@
     "tournament_variant": "chess960",
     "tournament_rated": 1,
     "number_of_players": 53,
-    "tournament_name": "NexT FullChess Series 25-2 T10 Arena"
+    "tournament_name": "NexT FullChess Series 25-2 T10 Arena",
+    "circuito": "2025-2"
   },
   {
     "tournament_id": "I1v7mPtZ",
@@ -2917,7 +3208,8 @@
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 51,
-    "tournament_name": "NexT FullChess Series 25-2 T11 Arena"
+    "tournament_name": "NexT FullChess Series 25-2 T11 Arena",
+    "circuito": "2025-2"
   },
   {
     "tournament_id": "CKr1gRdx",
@@ -2927,26 +3219,29 @@
     "tournament_variant": "chess960",
     "tournament_rated": 1,
     "number_of_players": 61,
-    "tournament_name": "NexT FullChess Series 25-2 T12 Arena"
+    "tournament_name": "NexT FullChess Series 25-2 T12 Arena",
+    "circuito": "2025-2"
   },
   {
     "tournament_id": "xwXZIz9m",
     "tournament_start_datetime": "2025-11-08T16:30:00+00:00",
-    "tournament_system": null,
-    "tournament_time_control": null,
+    "tournament_system": "swiss",
+    "tournament_time_control": "blitz",
     "tournament_variant": "standard",
     "tournament_rated": 1,
     "number_of_players": 24,
-    "tournament_name": null
+    "tournament_name": "NexT Chess Open 2025-2",
+    "circuito": "Torneios Suíços"
   },
   {
     "tournament_id": "RwXxupna",
     "tournament_start_datetime": "2025-11-22T16:30:00+00:00",
-    "tournament_system": null,
-    "tournament_time_control": null,
+    "tournament_system": "swiss",
+    "tournament_time_control": "blitz",
     "tournament_variant": "chess960",
     "tournament_rated": 1,
     "number_of_players": 17,
-    "tournament_name": null
+    "tournament_name": "NexT Freestyle Open 2025-2",
+    "circuito": "Torneios Suíços"
   }
 ]
