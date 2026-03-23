@@ -69,6 +69,8 @@ def carregar_dados_jogadores_sql():
         u.rating_blitz,
         u.rating_rapid,
         u.rating_bullet,
+        u.rating_classical,
+        u.rating_chess960,
         u.bio,
         u.country,
         COUNT(tr.tournament_id) as participacoes

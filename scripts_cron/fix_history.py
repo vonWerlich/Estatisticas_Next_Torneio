@@ -1,3 +1,5 @@
+# Script para criar/atualizar o banco de dados a partir dos jsons!
+
 import os
 import json
 import sqlite3

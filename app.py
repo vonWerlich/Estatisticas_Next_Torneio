@@ -238,8 +238,34 @@ with tab_torneios_main:
 # --- ABA 3: JOGADORES ---
 with tab_jogadores:
     st.subheader("Diretório de Jogadores")
-    df_players = carregar_dados_jogadores_sql()
     
+    # Carrega todos os jogadores do banco
+    df_players_all = carregar_dados_jogadores_sql()
+    
+    # NOVA LÓGICA: Aplica os filtros globais aos jogadores
+    if not df_players_all.empty and not df_filtrado.empty:
+        # 1. Pega a relação completa de quem jogou o quê
+        df_participacoes = carregar_numero_participantes_total_unico()
+        
+        # 2. Filtra as participações mantendo apenas os torneios do filtro global
+        participacoes_filtradas = df_participacoes[df_participacoes['tournament_id'].isin(df_filtrado['id'])]
+        
+        # 3. Descobre quem são os jogadores únicos desse recorte temporal/circuito
+        jogadores_no_filtro = participacoes_filtradas['user_id_lichess'].unique()
+        
+        # 4. Filtra a base de jogadores para exibir apenas quem jogou
+        df_players = df_players_all[df_players_all['username'].isin(jogadores_no_filtro)].copy()
+        
+        # 5. BÔNUS: Recalcula a coluna "participacoes" para o escopo filtrado
+        contagem_filtrada = participacoes_filtradas.groupby('user_id_lichess').size().reset_index(name='part_filtradas')
+        df_players = df_players.merge(contagem_filtrada, left_on='username', right_on='user_id_lichess', how='left')
+        df_players['participacoes'] = df_players['part_filtradas'].fillna(0).astype(int)
+        df_players = df_players.drop(columns=['part_filtradas'])
+        
+    else:
+        # Se os filtros globais não retornarem torneios, a tabela de jogadores fica vazia
+        df_players = pd.DataFrame()
+
     if not df_players.empty:
         with st.sidebar:
             st.divider()
@@ -273,15 +299,32 @@ with tab_jogadores:
         c1.metric("Jogadores Encontrados", len(df_view))
         c2.metric("Total na Base", len(df_players))
 
+        colunas_exibidas = [
+            "username",
+            "status",
+            "last_seen_api_timestamp",
+            "rating_blitz",
+            "rating_rapid", 
+            "rating_chess960",
+            "participacoes"
+  
+        ]
+
         st.dataframe(
             df_view,
+            column_order=colunas_exibidas,
             column_config={
                 "username": st.column_config.TextColumn("Jogador", help="ID Lichess"),
                 "status": st.column_config.SelectboxColumn("Status", width="small", options=opcoes_status),
                 "participacoes": st.column_config.ProgressColumn("Torneios", format="%d", min_value=0, max_value=max_p),
-                "rating_blitz": st.column_config.NumberColumn("Blitz", format="%d"),
-                "rating_rapid": st.column_config.NumberColumn("Rapid", format="%d"),
-                "last_seen_api_timestamp": st.column_config.DatetimeColumn("Visto por último", format="D MMM YYYY")
+                #ratings
+                "rating_blitz": st.column_config.NumberColumn("Blitz", format="%d", help="Rating Blitz"),
+                "rating_rapid": st.column_config.NumberColumn("Rapid", format="%d", help="Rating Rápidas"),
+                "rating_chess960": st.column_config.NumberColumn("Chess 960", format="%d", help="Rating Xadrez 960 (Fischer Random)"),
+                "rating_classical": st.column_config.NumberColumn("Classical", format="%d", help="Rating Clássicas"),
+                "rating_bullet": st.column_config.NumberColumn("Bullet", format="%d", help="Rating Bullet"),
+                "last_seen_api_timestamp": st.column_config.DatetimeColumn("Visto por último", format="D MMM YYYY", help="Última data que apareceu no Lichess"),
+                "user_id_lichess": st.column_config.TextColumn("ID Usuário", help="ID único do usuário no Lichess")
             },
             hide_index=True,
             width='stretch',
