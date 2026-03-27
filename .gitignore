@@ -4,3 +4,6 @@ chessboard_component/frontend/.vite/
 # Logs
 chessboard_component/frontend/npm-debug.log*
 chessboard_component/frontend/yarn-error.log*
+#db
+data/turso_posicoes.db
+data/turso_posicoes_errado.db
