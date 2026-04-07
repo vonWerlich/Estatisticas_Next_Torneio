@@ -816,6 +816,30 @@
     "performance_rating": 1705
   },
   {
+    "tournament_id": "60fAFMRZ",
+    "user_id_lichess": "vonwerlich",
+    "final_rank": 1,
+    "final_score": 40,
+    "rating_at_start": 2156,
+    "performance_rating": 1898
+  },
+  {
+    "tournament_id": "60fAFMRZ",
+    "user_id_lichess": "balzabouth",
+    "final_rank": 2,
+    "final_score": 28,
+    "rating_at_start": 1851,
+    "performance_rating": 1974
+  },
+  {
+    "tournament_id": "60fAFMRZ",
+    "user_id_lichess": "andrehllmab251",
+    "final_rank": 3,
+    "final_score": 25,
+    "rating_at_start": 1911,
+    "performance_rating": 1957
+  },
+  {
     "tournament_id": "6MgbHEFh",
     "user_id_lichess": "negromestrovisk",
     "final_rank": 1,
@@ -5734,6 +5758,30 @@
     "final_score": 22,
     "rating_at_start": 1983,
     "performance_rating": 2040
+  },
+  {
+    "tournament_id": "mkBcCHee",
+    "user_id_lichess": "vonwerlich",
+    "final_rank": 1,
+    "final_score": 64,
+    "rating_at_start": 2098,
+    "performance_rating": 2236
+  },
+  {
+    "tournament_id": "mkBcCHee",
+    "user_id_lichess": "moriarty1428",
+    "final_rank": 2,
+    "final_score": 26,
+    "rating_at_start": 1996,
+    "performance_rating": 2045
+  },
+  {
+    "tournament_id": "mkBcCHee",
+    "user_id_lichess": "nic9las05",
+    "final_rank": 3,
+    "final_score": 24,
+    "rating_at_start": 1934,
+    "performance_rating": 1964
   },
   {
     "tournament_id": "mnG4JYHC",

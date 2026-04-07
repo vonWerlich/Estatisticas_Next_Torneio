@@ -3243,5 +3243,27 @@
     "number_of_players": 17,
     "tournament_name": "NexT Freestyle Open 2025-2",
     "circuito": "Torneios Suíços"
+  },
+  {
+    "tournament_id": "60fAFMRZ",
+    "tournament_start_datetime": "2026-03-20T21:30:00+00:00",
+    "tournament_system": "arena",
+    "tournament_time_control": "blitz",
+    "tournament_variant": "standard",
+    "tournament_rated": 1,
+    "number_of_players": 66,
+    "tournament_name": "NexT FullChess Series 26-1 T01 Arena",
+    "circuito": "2026-1"
+  },
+  {
+    "tournament_id": "mkBcCHee",
+    "tournament_start_datetime": "2026-03-27T21:30:00+00:00",
+    "tournament_system": "arena",
+    "tournament_time_control": "chess960",
+    "tournament_variant": "chess960",
+    "tournament_rated": 1,
+    "number_of_players": 71,
+    "tournament_name": "NexT FullChess Series 26-1 T02 Arena",
+    "circuito": null
   }
 ]
