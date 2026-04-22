@@ -109,16 +109,18 @@ def processar_jogos():
                 for move in moves:
                     if not move: continue
                     try:
-                        # Parseia o lance para formato bonito (SAN) - Ex: 'e2e4' vira 'e4'
-                        lance_parseado = board.parse_san(move)
-                        lance_bonito_san = board.san(lance_parseado)
+                        # 1. Lê o lance em formato UCI do Lichess (ex: "e2e4", "e1g1")
+                        move_obj = chess.Move.from_uci(move)
                         
-                        # Salva a posição ATUAL e o lance que foi escolhido NELA
+                        # 2. Traduz para o formato bonito SAN antes de mexer a peça (ex: "e4", "O-O")
+                        lance_bonito_san = board.san(move_obj)
+                        
+                        # 3. Salva a posição ATUAL e o lance que foi escolhido NELA
                         lote_fens_unicos.add(fen_base)
                         lote_ocorrencias_temporarias.append((fen_base, jogo_id, ply, lance_bonito_san))
                         
-                        # Avança o tabuleiro
-                        board.push(lance_parseado)
+                        # 4. Avança o tabuleiro usando o objeto UCI validado
+                        board.push(move_obj)
                         fen_base = extrair_fen_base(board.fen())
                         ply += 1
                     except ValueError:
