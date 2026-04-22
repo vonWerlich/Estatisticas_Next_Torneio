@@ -175,6 +175,8 @@ def processar_jogos():
             "INSERT OR IGNORE INTO ocorrencias (id_posicao, id_partida, ply, lance_jogado) VALUES (?, ?, ?, ?)", 
             lote_ocorrencias_final
         )
+
+        print(f" Torneio {tid} sincronizado com sucesso!\n")
         
         novas_partidas_inseridas += len(lote_partidas)
         novas_posicoes_inseridas += len(lote_ocorrencias_final)
