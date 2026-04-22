@@ -4,3 +4,5 @@ integrar esquema de verificar total de membros que nunca participaram, ex-membro
 Sempre que alterar qualquer arquivo dentro de frontend/src/ → precisa rodar npm run build.
 cd chessboard_component/chessboard_component/frontend
 npm run build
+
+secrets github = email e token lichess
