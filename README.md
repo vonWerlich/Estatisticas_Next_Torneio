@@ -1,8 +1,8 @@
 # ♟️ Estatísticas NEXT
 
-O dashboard *pseudo*oficial para análise de performance e histórico de torneios do **Núcleo de Estudos em Xadrez & Tecnologias (NEXT)**.
+O dashboard *pseudo*oficial para análise de performance e histórico de torneios da equipe do Lichess do **[Núcleo de Estudos em Xadrez & Tecnologias (NEXT)](https://lichess.org/team/next-nucleo-de-estudos-em-xadrez--tecnologias)**.
 
-🚀 **Acesse agora:** [torneiosnext.streamlit.app](https://torneiosnext.streamlit.app/)
+**Acesse agora:** [torneiosnext.streamlit.app](https://torneiosnext.streamlit.app/)
 
 ---
 
@@ -23,26 +23,17 @@ Esta plataforma foi desenvolvida para centralizar e transformar dados brutos da 
 O projeto utiliza uma arquitetura moderna de Data Science para garantir rapidez e precisão:
 
 * **Interface:** [Streamlit](https://streamlit.io/)
-* **Engine de Dados:** Pandas e DuckDB para consultas analíticas de alta performance.
+* **Engine de Dados:** Pandas para consultas analíticas de alta performance.
 * **Persistência:** SQLite para o histórico consolidado.
 * **Visualização:** Gráficos interativos e componentes React customizados para o tabuleiro.
 
 ---
 
-## 🏗️ Estrutura do Repositório
-
-- `/views`: Lógica das páginas e interface do usuário.
-- `/scripts_cron`: Rotinas de manutenção e classificação automática.
-- `/components`: Elementos visuais e componentes React (TypeScript).
-- `/utils`: Core do sistema, filtros e conexão com banco de dados.
-
----
-
 ## 🤝 Desenvolvimento e Contribuição
 
-Este é um projeto acadêmico e colaborativo vinculado ao NEXT. Se você deseja entender a arquitetura técnica, rodar o projeto localmente ou contribuir com código, acesse nosso guia detalhado:
+Este é um projeto pessoal. Se você deseja entender a arquitetura técnica, rodar o projeto localmente ou contribuir com código, acesse meu guia detalhado:
 
 👉 **[GUIA DE DESENVOLVIMENTO (DEVELOPMENT.md)](./DEVELOPMENT.md)**
 
 ---
-*Desenvolvido por [Seu Nome] - Núcleo de Estudos em Xadrez & Tecnologias (NEXT)*
+*Made by vonWerlich*
