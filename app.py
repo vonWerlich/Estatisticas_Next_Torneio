@@ -11,6 +11,7 @@ import chess
 import chess.svg
 import base64
 import re
+import datetime
 
 # IMPORTAÇÕES DAS NOSSAS NOVAS VIEWS
 from views.home import renderizar_aba_home
@@ -73,7 +74,15 @@ with st.sidebar.container():
     st.multiselect("Tipos", options=tipos_disponiveis, key="tipos_key")
     st.multiselect("Circuitos", options=conjuntos_disponiveis, key="conjuntos_key")
 
-    if "datas_key" not in st.session_state: st.session_state["datas_key"] = (data_min, data_max)
+    data_min = df_torneios["data"].min().date()
+    data_max = df_torneios["data"].max().date()
+
+    # --- TRAVA DE SEGURANÇA PARA DATAS IGUAIS ---
+    if data_min == data_max:
+        data_max = data_min + datetime.timedelta(days=1)
+    # --------------------------------------------
+    if "datas_key" not in st.session_state: 
+        st.session_state["datas_key"] = (data_min, data_max)
     datas = st.date_input("Data", min_value=data_min, max_value=data_max, key="datas_key")
     datas_selecionadas = st.session_state["datas_key"]
     st.button("❌ Limpar Filtros", on_click=reset_filtros, args=(df_torneios,), key="bt_limpar")

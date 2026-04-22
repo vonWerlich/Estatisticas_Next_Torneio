@@ -16,6 +16,10 @@ def renderizar_aba_tabuleiro():
 
     if chessboard_component:
         try:
+            # O FEN retornado pelo componente NÃO deve ser salvo no st.session_state["fen"].
+            # Isso é proposital. O comportamento esperado é que o tabuleiro seja efêmero 
+            # e resete para a posição inicial (ou a selecionada nos filtros) a cada reload.
+            # NÃO é preciso atualizar o st.session_state aqui.
             move_data = chessboard_component(fen=st.session_state["fen"], key="analysis_board")
             if move_data:
                 pass
