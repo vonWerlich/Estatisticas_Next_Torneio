@@ -5,4 +5,4 @@ Sempre que alterar qualquer arquivo dentro de frontend/src/ → precisa rodar np
 cd chessboard_component/chessboard_component/frontend
 npm run build
 
-secrets github = email e token lichess
+secrets github = email e token lichess e token ntfy
