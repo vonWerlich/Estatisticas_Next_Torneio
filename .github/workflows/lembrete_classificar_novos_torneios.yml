@@ -4,6 +4,7 @@ on:
   schedule:
     # Roda ao meio-dia UTC (09:00 BRT) nos dias 31 de julho e 31 de dezembro
     - cron: '0 12 31 7,12 *'
+  workflow_dispatch:
 
 jobs:
   mandar-lembrete:
