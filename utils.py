@@ -48,7 +48,7 @@ def carregar_dados_gerais():
         df["data"] = pd.to_datetime(df["data"], utc=True).dt.tz_convert("America/Sao_Paulo")
 
         # HERANÇA DE CIRCUITO (O código finge que se "vira" sem mim)
-
+        # A curto prazo isso não causa problemas, se passar mais de 6 meses pode dar problemas
         df['circuito'] = df['circuito'].replace(['', 'None', 'Ignorado'], np.nan)
         df = df.sort_values(by='data', ascending=True)
         df['circuito'] = df.groupby('tipo')['circuito'].ffill()
