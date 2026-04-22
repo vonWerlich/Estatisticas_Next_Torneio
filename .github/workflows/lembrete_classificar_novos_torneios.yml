@@ -2,7 +2,6 @@ name: Lembrete Classificador NEXT
 
 on:
   schedule:
-    # Roda ao meio-dia UTC (09:00 BRT) nos dias 31 de julho e 31 de dezembro
     - cron: '0 12 31 7,12 *'
   workflow_dispatch:
 
@@ -15,5 +14,5 @@ jobs:
           curl -d "Hora de rodar o classificador.py e organizar os circuitos do NEXT! ♟️" \
                -H "Title: Lembrete: Xadrez NEXT" \
                -H "Tags: chess_pawn,warning" \
-               -H "Email: seu.email@gmail.com" \
+               -H "Email: ${{ secrets.MEU_EMAIL_NTFY }}" \
                https://ntfy.sh/alerta_next_xadrez_7788
