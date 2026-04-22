@@ -15,4 +15,5 @@ jobs:
                -H "Title: Lembrete: Xadrez NEXT" \
                -H "Tags: chess_pawn,warning" \
                -H "Email: ${{ secrets.MEU_EMAIL_NTFY }}" \
+               -H "Authorization: Bearer ${{ secrets.NTFY_TOKEN }}" \
                https://ntfy.sh/alerta_next_xadrez_7788
