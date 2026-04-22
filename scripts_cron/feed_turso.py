@@ -44,7 +44,7 @@ def extrair_fen_base(fen_completo):
     partes = fen_completo.split(" ")
     return " ".join(partes[:4])
 
-def enviar_em_lotes(client, query, dados, tamanho_lote=1000):
+def enviar_em_lotes(client, query, dados, tamanho_lote=200): #turso tem um servidor ruim
     """Envia dados para o Turso em pequenos pacotes para não estourar o limite da API."""
     for i in range(0, len(dados), tamanho_lote):
         lote = dados[i:i + tamanho_lote]
