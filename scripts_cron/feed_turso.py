@@ -1,68 +1,66 @@
-# Glorioso script para inserção de dados no Turso!
+# Glorioso script para inserção de dados no Turso CLOUD!
 
 import os
 import sys
 import json
-import sqlite3
 import chess
 import time
+from libsql_client import create_client_sync, Statement
 
 try:
     sys.stdout.reconfigure(encoding='utf-8')
 except Exception:
     pass
 
-DB_FILE = os.path.join("data", "turso_posicoes.db") 
+# Puxa do ambiente (GitHub Secrets ou arquivo .env local)
+TURSO_URL = os.environ.get("TURSO_URL")
+TURSO_TOKEN = os.environ.get("TURSO_TOKEN")
+
+if not TURSO_URL or not TURSO_TOKEN:
+    raise ValueError("⚠️ Credenciais do Turso não encontradas nas variáveis de ambiente!")
+
 DATA_DIR_TORNEIOS = os.path.join("data", "raw_tournaments")
 
-def criar_tabelas(conn):
-    cur = conn.cursor()
-    cur.executescript("""
-        CREATE TABLE IF NOT EXISTS posicoes (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            fen_base TEXT UNIQUE
-        );
-        CREATE TABLE IF NOT EXISTS partidas (
-            id TEXT PRIMARY KEY,
-            torneio_id TEXT,
-            brancas TEXT,
-            negras TEXT,
-            rating_brancas INTEGER,
-            rating_negras INTEGER,
-            data TEXT,
-            resultado TEXT
-        );
-        CREATE TABLE IF NOT EXISTS ocorrencias (
-            id_posicao INTEGER,
-            id_partida TEXT,
-            ply INTEGER,
-            lance_jogado TEXT, -- <--- NOVA COLUNA (O que jogaram a partir daqui?)
+def criar_tabelas(client):
+    """Cria a estrutura inicial no Turso caso o banco esteja vazio."""
+    # O Turso processa transações atômicas via batch
+    client.batch([
+        "CREATE TABLE IF NOT EXISTS posicoes (id INTEGER PRIMARY KEY AUTOINCREMENT, fen_base TEXT UNIQUE);",
+        """CREATE TABLE IF NOT EXISTS partidas (
+            id TEXT PRIMARY KEY, torneio_id TEXT, brancas TEXT, negras TEXT,
+            rating_brancas INTEGER, rating_negras INTEGER, data TEXT, resultado TEXT
+        );""",
+        """CREATE TABLE IF NOT EXISTS ocorrencias (
+            id_posicao INTEGER, id_partida TEXT, ply INTEGER, lance_jogado TEXT,
             FOREIGN KEY(id_posicao) REFERENCES posicoes(id),
             FOREIGN KEY(id_partida) REFERENCES partidas(id),
             UNIQUE(id_posicao, id_partida, ply)
-        );
-        
-        CREATE INDEX IF NOT EXISTS idx_fen_base ON posicoes(fen_base);
-        CREATE INDEX IF NOT EXISTS idx_posicao_ocorrencia ON ocorrencias(id_posicao);
-    """)
-    conn.commit()
+        );""",
+        "CREATE INDEX IF NOT EXISTS idx_fen_base ON posicoes(fen_base);",
+        "CREATE INDEX IF NOT EXISTS idx_posicao_ocorrencia ON ocorrencias(id_posicao);"
+    ])
 
 def extrair_fen_base(fen_completo):
-    """Fatia o FEN para remover os contadores de turnos e capturas"""
     partes = fen_completo.split(" ")
     return " ".join(partes[:4])
 
-def processar_jogos():
-    print("🚀 Iniciando processamento (Carga Inicial / Atualização Gradual)...")
-    
-    conn = sqlite3.connect(DB_FILE)
-    criar_tabelas(conn)
-    cur = conn.cursor()
+def enviar_em_lotes(client, query, dados, tamanho_lote=1000):
+    """Envia dados para o Turso em pequenos pacotes para não estourar o limite da API."""
+    for i in range(0, len(dados), tamanho_lote):
+        lote = dados[i:i + tamanho_lote]
+        statements = [Statement(query, list(linha)) for linha in lote]
+        client.batch(statements)
 
-    # Diff na memória
+def processar_jogos():
+    print("🚀 Conectando ao Turso Cloud...")
+    client = create_client_sync(url=TURSO_URL, auth_token=TURSO_TOKEN)
+    
+    criar_tabelas(client)
+
+    # Diff na nuvem
     print("🔍 Mapeando banco de dados existente para gerar o 'Diff'...")
-    cur.execute("SELECT id FROM partidas")
-    partidas_ja_processadas = set(row[0] for row in cur.fetchall())
+    res = client.execute("SELECT id FROM partidas")
+    partidas_ja_processadas = set(row[0] for row in res.rows)
     print(f"   -> {len(partidas_ja_processadas)} partidas já constam na base e serão ignoradas.")
 
     arquivos = [f for f in os.listdir(DATA_DIR_TORNEIOS) if f.endswith("_games.ndjson")]
@@ -98,76 +96,73 @@ def processar_jogos():
                 
                 lote_partidas.append((jogo_id, tid, brancas, negras, rating_b, rating_n, data, resultado))
                 
-                # --- MÁGICA DOS LANCES PARA O EXPLORADOR ---
                 board = chess.Board()
                 moves = jogo.get("moves", "").split(" ")
                 
-                # Pega a posição inicial antes de qualquer lance
                 fen_base = extrair_fen_base(board.fen())
                 ply = 0
                 
                 for move in moves:
                     if not move: continue
                     try:
-                        # 1. Lê o lance em formato UCI do Lichess (ex: "e2e4", "e1g1")
-                        move_obj = chess.Move.from_uci(move)
+                        lance_parseado = board.parse_san(move)
+                        lance_bonito_san = board.san(lance_parseado)
                         
-                        # 2. Traduz para o formato bonito SAN antes de mexer a peça (ex: "e4", "O-O")
-                        lance_bonito_san = board.san(move_obj)
-                        
-                        # 3. Salva a posição ATUAL e o lance que foi escolhido NELA
                         lote_fens_unicos.add(fen_base)
                         lote_ocorrencias_temporarias.append((fen_base, jogo_id, ply, lance_bonito_san))
                         
-                        # 4. Avança o tabuleiro usando o objeto UCI validado
-                        board.push(move_obj)
+                        board.push(lance_parseado)
                         fen_base = extrair_fen_base(board.fen())
                         ply += 1
                     except ValueError:
-                        break # Ignora lances corrompidos
+                        break
                 
-                # E a posição final da partida? (Xeque-mate, empate ou abandono)
-                # Ninguém jogou nada a partir dela, então o lance_jogado é None
                 lote_fens_unicos.add(fen_base)
                 lote_ocorrencias_temporarias.append((fen_base, jogo_id, ply, None))
-                
                 partidas_ja_processadas.add(jogo_id) 
 
         if not lote_partidas:
             print(f"   ⏩ Torneio {tid}: Nenhuma partida nova encontrada.")
             continue
 
-        print(f"   💾 Salvando {len(lote_partidas)} partidas inéditas do torneio {tid}...")
+        print(f"   💾 Sincronizando o torneio {tid} com a nuvem...")
         
-        cur.executemany("""
-            INSERT OR IGNORE INTO partidas (id, torneio_id, brancas, negras, rating_brancas, rating_negras, data, resultado)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-        """, lote_partidas)
+        # 1. Envia as Partidas
+        enviar_em_lotes(client, 
+            "INSERT OR IGNORE INTO partidas (id, torneio_id, brancas, negras, rating_brancas, rating_negras, data, resultado) VALUES (?, ?, ?, ?, ?, ?, ?, ?)", 
+            lote_partidas
+        )
         
-        fens_tuple = [(f,) for f in lote_fens_unicos]
-        cur.executemany("INSERT OR IGNORE INTO posicoes (fen_base) VALUES (?)", fens_tuple)
+        # 2. Envia os FENs Únicos
+        fens_lista = [(f,) for f in lote_fens_unicos]
+        enviar_em_lotes(client, "INSERT OR IGNORE INTO posicoes (fen_base) VALUES (?)", fens_lista)
         
-        placeholders = ",".join(["?"] * len(lote_fens_unicos))
-        cur.execute(f"SELECT fen_base, id FROM posicoes WHERE fen_base IN ({placeholders})", list(lote_fens_unicos))
-        dicionario_ids = {row[0]: row[1] for row in cur.fetchall()}
+        # 3. Recupera os IDs gerados no banco para os FENs (Em lotes para não quebrar o limite de variáveis do IN clause)
+        dicionario_ids = {}
+        fens_array = list(lote_fens_unicos)
+        for i in range(0, len(fens_array), 500):
+            chunk = fens_array[i:i+500]
+            placeholders = ",".join(["?"] * len(chunk))
+            res = client.execute(f"SELECT fen_base, id FROM posicoes WHERE fen_base IN ({placeholders})", chunk)
+            for row in res.rows:
+                dicionario_ids[row[0]] = row[1]
         
+        # 4. Prepara as ocorrências cruzando o texto do FEN com o ID do banco
         lote_ocorrencias_final = []
-        # ATENÇÃO AQUI: Agora desempacotamos as 4 variáveis!
         for fen_str, p_id, ply, lance_jogado in lote_ocorrencias_temporarias:
             if fen_str in dicionario_ids:
                 lote_ocorrencias_final.append((dicionario_ids[fen_str], p_id, ply, lance_jogado))
                 
-        # INSERT com as 4 colunas!
-        cur.executemany("""
-            INSERT OR IGNORE INTO ocorrencias (id_posicao, id_partida, ply, lance_jogado)
-            VALUES (?, ?, ?, ?)
-        """, lote_ocorrencias_final)
+        # 5. Envia as Ocorrências
+        enviar_em_lotes(client, 
+            "INSERT OR IGNORE INTO ocorrencias (id_posicao, id_partida, ply, lance_jogado) VALUES (?, ?, ?, ?)", 
+            lote_ocorrencias_final
+        )
         
-        conn.commit()
         novas_partidas_inseridas += len(lote_partidas)
         novas_posicoes_inseridas += len(lote_ocorrencias_final)
         
-    conn.close()
+    client.close()
     print(f"🎉 FINALIZADO! Novas Partidas: {novas_partidas_inseridas} | Novas Posições cruzadas: {novas_posicoes_inseridas}")
 
 if __name__ == "__main__":

@@ -1,4 +1,4 @@
-name: Fetch Lichess Tournament Data
+name: Fetch Lichess & Update Turso
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  fetch-and-commit:
+  fetch-and-update:
     runs-on: ubuntu-latest
 
     permissions:
@@ -21,16 +21,30 @@ jobs:
         with:
           python-version: '3.10'
 
+      # Adicionadas as dependências do Turso e do Xadrez (libsql-client e chess)
       - name: Install dependencies
-        run: pip install requests pandas ndjson
+        run: pip install requests pandas ndjson libsql-client chess
 
-      - name: Run lightweight update script
+      # PASSO 1: Busca no Lichess
+      - name: 1. Run lightweight update script (Lichess)
+        continue-on-error: true # Se a API do Lichess cair, ele avisa mas não aborta o resto
         run: python scripts_cron/update_tournaments.py
 
-      - name: Commit and push changes
+      # PASSO 2: Salva os dados brutos no Git
+      # O auto-commit é inteligente: se o passo anterior falhou ou não trouxe novidades, ele simplesmente não faz nada.
+      - name: 2. Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: Weekly tournament data update (add data)"
           commit_user_name: "GitHub Actions Bot"
           commit_user_email: "actions@github.com"
           commit_author: "GitHub Actions Bot <actions@github.com>"
+
+      # PASSO 3: Alimenta o banco de dados na Nuvem
+      - name: 3. Run Turso Cloud update script
+        continue-on-error: true # Se o Turso estiver em manutenção, não marca a Action como falha crítica
+        env:
+          TURSO_URL: ${{ secrets.TURSO_URL }}
+          TURSO_TOKEN: ${{ secrets.TURSO_TOKEN }}
+        run: python scripts_cron/feed_turso.py
+        
