@@ -202,7 +202,7 @@ const MyComponent: FC<MyComponentProps> = ({ fen: initialFen, orientation: propO
 
         // Ajusta a altura do Streamlit baseado no container TOTAL
         if (containerRef.current) {
-             Streamlit.setFrameHeight(containerRef.current.scrollHeight + 10);
+             Streamlit.setFrameHeight(containerRef.current.scrollHeight);
         }
     });
 

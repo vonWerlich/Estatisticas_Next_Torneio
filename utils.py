@@ -149,6 +149,8 @@ def img_to_base64(img_path):
 
 @st.cache_data(ttl="1h")
 def carregar_numero_participantes_total_unico():
+    if not os.path.exists(DB_FILE):
+        return pd.DataFrame()
     conn = get_db_connection()
     # Pega só o necessário: Quem jogou em qual torneio
     df = pd.read_sql_query("SELECT tournament_id, user_id_lichess FROM tournament_results", conn)
