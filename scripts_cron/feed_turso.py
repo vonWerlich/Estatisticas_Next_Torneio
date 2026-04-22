@@ -44,12 +44,29 @@ def extrair_fen_base(fen_completo):
     partes = fen_completo.split(" ")
     return " ".join(partes[:4])
 
-def enviar_em_lotes(client, query, dados, tamanho_lote=200): #turso tem um servidor ruim
-    """Envia dados para o Turso em pequenos pacotes para não estourar o limite da API."""
+def enviar_em_lotes(client, query, dados, tamanho_lote=250, max_tentativas=3):
+    """Envia pacotes menores e tenta reconectar caso o servidor engasgue."""
     for i in range(0, len(dados), tamanho_lote):
         lote = dados[i:i + tamanho_lote]
+        from libsql_client import Statement # Garantindo a importação
         statements = [Statement(query, list(linha)) for linha in lote]
-        client.batch(statements)
+        
+        # O Loop de Tentativas (Retry)
+        for tentativa in range(1, max_tentativas + 1):
+            try:
+                client.batch(statements)
+                time.sleep(0.2) # Pausa rápida para o servidor respirar
+                break # Se deu certo, quebra o loop de tentativas e vai pro próximo lote
+                
+            except Exception as e:
+                if tentativa < max_tentativas:
+                    tempo_espera = 3 * tentativa # Espera 3s, depois 6s...
+                    print(f"      ⚠️ Servidor engasgou (Tentativa {tentativa}/{max_tentativas}). Retentando em {tempo_espera}s... Erro: {e}")
+                    time.sleep(tempo_espera)
+                else:
+                    print(f"      ❌ ERRO FATAL: Falha ao enviar lote após {max_tentativas} tentativas.")
+                    print("      🛑 Parando o script para não criar buracos no banco de dados. O GitHub Actions tentará novamente na próxima execução.")
+                    raise e # Encerra o script com erro para o GitHub Actions ficar vermelho
 
 def processar_jogos():
     print("🚀 Conectando ao Turso Cloud...")
