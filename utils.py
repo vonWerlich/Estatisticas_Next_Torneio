@@ -2,7 +2,7 @@ import sqlite3
 import pandas as pd
 import streamlit as st
 import os
-import json
+import numpy as np
 import ndjson
 import base64
 
@@ -46,6 +46,15 @@ def carregar_dados_gerais():
     # Tratamento de datas
     if not df.empty:
         df["data"] = pd.to_datetime(df["data"], utc=True).dt.tz_convert("America/Sao_Paulo")
+
+        # HERANÇA DE CIRCUITO (O código finge que se "vira" sem mim)
+
+        df['circuito'] = df['circuito'].replace(['', 'None', 'Ignorado'], np.nan)
+        df = df.sort_values(by='data', ascending=True)
+        df['circuito'] = df.groupby('tipo')['circuito'].ffill()
+        df = df.sort_values(by='data', ascending=False)
+        df['circuito'] = df['circuito'].fillna('')
+        
     
     return df
 
