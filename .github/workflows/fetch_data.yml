@@ -46,5 +46,5 @@ jobs:
         env:
           TURSO_URL: ${{ secrets.TURSO_URL }}
           TURSO_TOKEN: ${{ secrets.TURSO_TOKEN }}
-        run: python scripts_cron/feed_turso.py
+        run: python -u scripts_cron/feed_turso.py
         
