@@ -19592,6 +19592,14 @@
     "performance_rating": 1128
   },
   {
+    "tournament_id": "MQ30XZtu",
+    "user_id_lichess": "kp-next",
+    "final_rank": 1,
+    "final_score": 0,
+    "rating_at_start": 1814,
+    "performance_rating": null
+  },
+  {
     "tournament_id": "Md7ZUhAT",
     "user_id_lichess": "antoniomarcosarruda",
     "final_rank": 1,
@@ -24870,6 +24878,510 @@
     "final_score": null,
     "rating_at_start": 1975,
     "performance_rating": 1281
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "vonwerlich",
+    "final_rank": 1,
+    "final_score": 62,
+    "rating_at_start": 2128,
+    "performance_rating": 2153
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "sonogrinhas",
+    "final_rank": 2,
+    "final_score": 24,
+    "rating_at_start": 1872,
+    "performance_rating": 1992
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "modestovic",
+    "final_rank": 3,
+    "final_score": 23,
+    "rating_at_start": 1844,
+    "performance_rating": 1984
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "gadottl",
+    "final_rank": 4,
+    "final_score": 20,
+    "rating_at_start": 2000,
+    "performance_rating": 2055
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "adrizinhadochess",
+    "final_rank": 5,
+    "final_score": 19,
+    "rating_at_start": 1634,
+    "performance_rating": 1568
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "renedevilla",
+    "final_rank": 6,
+    "final_score": 16,
+    "rating_at_start": 1736,
+    "performance_rating": 1801
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "lfnishi",
+    "final_rank": 7,
+    "final_score": 14,
+    "rating_at_start": 1755,
+    "performance_rating": 1747
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "yukizz",
+    "final_rank": 8,
+    "final_score": 14,
+    "rating_at_start": 1543,
+    "performance_rating": 1539
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "marcuszulu",
+    "final_rank": 9,
+    "final_score": 13,
+    "rating_at_start": 1893,
+    "performance_rating": 1909
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "fabioslma261a",
+    "final_rank": 10,
+    "final_score": 12,
+    "rating_at_start": 1886,
+    "performance_rating": 1950
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "joaoprdaslma261a",
+    "final_rank": 11,
+    "final_score": 12,
+    "rating_at_start": 1754,
+    "performance_rating": 1891
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "soresu1",
+    "final_rank": 12,
+    "final_score": 12,
+    "rating_at_start": 1737,
+    "performance_rating": 1817
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "matheusvzlma261b",
+    "final_rank": 13,
+    "final_score": 12,
+    "rating_at_start": 1778,
+    "performance_rating": 1813
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "ramirothiago",
+    "final_rank": 14,
+    "final_score": 12,
+    "rating_at_start": 1696,
+    "performance_rating": 1650
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "emanuelesblma261b",
+    "final_rank": 15,
+    "final_score": 12,
+    "rating_at_start": 1506,
+    "performance_rating": 1508
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "carlosfisica",
+    "final_rank": 16,
+    "final_score": 10,
+    "rating_at_start": 1875,
+    "performance_rating": 1898
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "jonart_25",
+    "final_rank": 17,
+    "final_score": 10,
+    "rating_at_start": 1674,
+    "performance_rating": 1659
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "guilhermepmlma261a",
+    "final_rank": 18,
+    "final_score": 10,
+    "rating_at_start": 1508,
+    "performance_rating": 1591
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "isabellilrlma261b",
+    "final_rank": 19,
+    "final_score": 10,
+    "rating_at_start": 1400,
+    "performance_rating": 1471
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "caiovadaslma261b",
+    "final_rank": 20,
+    "final_score": 10,
+    "rating_at_start": 1338,
+    "performance_rating": 1439
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "frankwillyan",
+    "final_rank": 21,
+    "final_score": 9,
+    "rating_at_start": 1843,
+    "performance_rating": 1799
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "sophiamfflma261a",
+    "final_rank": 22,
+    "final_score": 9,
+    "rating_at_start": 1505,
+    "performance_rating": 1548
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "biipityboopity",
+    "final_rank": 23,
+    "final_score": 8,
+    "rating_at_start": 1717,
+    "performance_rating": 1703
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "rianlllma261b",
+    "final_rank": 24,
+    "final_score": 8,
+    "rating_at_start": 1587,
+    "performance_rating": 1599
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "matheussklma261a",
+    "final_rank": 25,
+    "final_score": 8,
+    "rating_at_start": 1467,
+    "performance_rating": 1586
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "guilhermekplma261b",
+    "final_rank": 26,
+    "final_score": 8,
+    "rating_at_start": 1512,
+    "performance_rating": 1418
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "dantonjosh",
+    "final_rank": 27,
+    "final_score": 7,
+    "rating_at_start": 1576,
+    "performance_rating": 1618
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "joaoaflma261b",
+    "final_rank": 28,
+    "final_score": 7,
+    "rating_at_start": 1578,
+    "performance_rating": 1575
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "gustavomalma261a",
+    "final_rank": 29,
+    "final_score": 7,
+    "rating_at_start": 1421,
+    "performance_rating": 1540
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "lucasadaclma26b",
+    "final_rank": 30,
+    "final_score": 7,
+    "rating_at_start": 1474,
+    "performance_rating": 1496
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "luisdfclma261a",
+    "final_rank": 31,
+    "final_score": 7,
+    "rating_at_start": 1193,
+    "performance_rating": 1411
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "davifclma261a",
+    "final_rank": 32,
+    "final_score": 7,
+    "rating_at_start": 1351,
+    "performance_rating": 1280
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "andrehllmab251",
+    "final_rank": 33,
+    "final_score": 6,
+    "rating_at_start": 1809,
+    "performance_rating": 1685
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "eduardoaklma261b",
+    "final_rank": 34,
+    "final_score": 6,
+    "rating_at_start": 1472,
+    "performance_rating": 1572
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "miguelpslma261a",
+    "final_rank": 35,
+    "final_score": 6,
+    "rating_at_start": 1385,
+    "performance_rating": 1395
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "eduardarslma261a",
+    "final_rank": 36,
+    "final_score": 6,
+    "rating_at_start": 1335,
+    "performance_rating": 1325
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "lucasetmlma261a",
+    "final_rank": 37,
+    "final_score": 6,
+    "rating_at_start": 1494,
+    "performance_rating": 1236
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "leticiasmflma261b",
+    "final_rank": 38,
+    "final_score": 5,
+    "rating_at_start": 1235,
+    "performance_rating": 1273
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "karenfslma261a",
+    "final_rank": 39,
+    "final_score": 5,
+    "rating_at_start": 1163,
+    "performance_rating": 1249
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "samuelplma261b",
+    "final_rank": 40,
+    "final_score": 5,
+    "rating_at_start": 1374,
+    "performance_rating": 1238
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "miguelfalma261a",
+    "final_rank": 41,
+    "final_score": 5,
+    "rating_at_start": 1080,
+    "performance_rating": 1173
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "guilhermeclma261a",
+    "final_rank": 42,
+    "final_score": 5,
+    "rating_at_start": 1105,
+    "performance_rating": 1114
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "nic9las05",
+    "final_rank": 43,
+    "final_score": 4,
+    "rating_at_start": 1899,
+    "performance_rating": 1896
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "adrissonklma262b",
+    "final_rank": 44,
+    "final_score": 4,
+    "rating_at_start": 1614,
+    "performance_rating": 1635
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "samuelperuw",
+    "final_rank": 45,
+    "final_score": 4,
+    "rating_at_start": 1724,
+    "performance_rating": 1568
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "paulomsjlma261a",
+    "final_rank": 46,
+    "final_score": 4,
+    "rating_at_start": 1634,
+    "performance_rating": 1527
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "leticiaslma261a",
+    "final_rank": 47,
+    "final_score": 4,
+    "rating_at_start": 1622,
+    "performance_rating": 1423
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "pedroaielma261b",
+    "final_rank": 48,
+    "final_score": 4,
+    "rating_at_start": 1284,
+    "performance_rating": 1364
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "luishgsblma261b",
+    "final_rank": 49,
+    "final_score": 4,
+    "rating_at_start": 1270,
+    "performance_rating": 1259
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "levinrlma261a",
+    "final_rank": 50,
+    "final_score": 4,
+    "rating_at_start": 1323,
+    "performance_rating": 1190
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "leviomlma261a",
+    "final_rank": 51,
+    "final_score": 4,
+    "rating_at_start": 971,
+    "performance_rating": 991
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "miguelrclma261b",
+    "final_rank": 52,
+    "final_score": 3,
+    "rating_at_start": 1427,
+    "performance_rating": 1386
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "juliaitrlma261b",
+    "final_rank": 53,
+    "final_score": 3,
+    "rating_at_start": 1407,
+    "performance_rating": 1221
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "leticiagblma261a",
+    "final_rank": 54,
+    "final_score": 3,
+    "rating_at_start": 1061,
+    "performance_rating": 1196
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "pedrohdasmlma261b",
+    "final_rank": 55,
+    "final_score": 3,
+    "rating_at_start": 1430,
+    "performance_rating": 1133
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "helenadasclma261b",
+    "final_rank": 56,
+    "final_score": 3,
+    "rating_at_start": 992,
+    "performance_rating": 1050
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "mano-next-xadrez",
+    "final_rank": 57,
+    "final_score": 2,
+    "rating_at_start": 1674,
+    "performance_rating": 1688
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "joaovprlma261b",
+    "final_rank": 58,
+    "final_score": 2,
+    "rating_at_start": 1224,
+    "performance_rating": 1172
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "carlosccmlma261b",
+    "final_rank": 59,
+    "final_score": 2,
+    "rating_at_start": 1211,
+    "performance_rating": 1063
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "camiladclma261b",
+    "final_rank": 60,
+    "final_score": 2,
+    "rating_at_start": 944,
+    "performance_rating": 943
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "kaiolalma261b",
+    "final_rank": 61,
+    "final_score": 0,
+    "rating_at_start": 1215,
+    "performance_rating": 1155
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "kenzojsglma261a",
+    "final_rank": 62,
+    "final_score": 0,
+    "rating_at_start": 896,
+    "performance_rating": 773
+  },
+  {
+    "tournament_id": "RaTUSfLH",
+    "user_id_lichess": "gabrielgclma261a",
+    "final_rank": 63,
+    "final_score": 0,
+    "rating_at_start": 1007,
+    "performance_rating": 735
   },
   {
     "tournament_id": "RwXxupna",
@@ -30558,6 +31070,566 @@
     "final_score": 0,
     "rating_at_start": 1850,
     "performance_rating": 1778
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "vonwerlich",
+    "final_rank": 1,
+    "final_score": 47,
+    "rating_at_start": 2130,
+    "performance_rating": 1925
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "sonogrinhas",
+    "final_rank": 2,
+    "final_score": 31,
+    "rating_at_start": 1700,
+    "performance_rating": 1948
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "nic9las05",
+    "final_rank": 3,
+    "final_score": 23,
+    "rating_at_start": 1798,
+    "performance_rating": 1818
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "samuelperuw",
+    "final_rank": 4,
+    "final_score": 21,
+    "rating_at_start": 1273,
+    "performance_rating": 1766
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "modestovic",
+    "final_rank": 5,
+    "final_score": 21,
+    "rating_at_start": 1690,
+    "performance_rating": 1764
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "andrehllmab251",
+    "final_rank": 6,
+    "final_score": 20,
+    "rating_at_start": 1784,
+    "performance_rating": 1566
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "paulomsjlma261a",
+    "final_rank": 7,
+    "final_score": 19,
+    "rating_at_start": 1620,
+    "performance_rating": 1599
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "matheusvzlma261b",
+    "final_rank": 8,
+    "final_score": 19,
+    "rating_at_start": 1536,
+    "performance_rating": 1576
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "edilbertocordeirojr",
+    "final_rank": 9,
+    "final_score": 18,
+    "rating_at_start": 1531,
+    "performance_rating": 1634
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "fabioslma261a",
+    "final_rank": 10,
+    "final_score": 17,
+    "rating_at_start": 1995,
+    "performance_rating": 1791
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "lfnishi",
+    "final_rank": 11,
+    "final_score": 17,
+    "rating_at_start": 1649,
+    "performance_rating": 1730
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "yovannys",
+    "final_rank": 12,
+    "final_score": 17,
+    "rating_at_start": 1848,
+    "performance_rating": 1730
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "renedevilla",
+    "final_rank": 13,
+    "final_score": 16,
+    "rating_at_start": 1466,
+    "performance_rating": 1475
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "carlosfisica",
+    "final_rank": 14,
+    "final_score": 15,
+    "rating_at_start": 1600,
+    "performance_rating": 1627
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "tigas_figueira",
+    "final_rank": 15,
+    "final_score": 14,
+    "rating_at_start": 1223,
+    "performance_rating": 1361
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "gadottl",
+    "final_rank": 16,
+    "final_score": 12,
+    "rating_at_start": 1861,
+    "performance_rating": 1965
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "murilost23",
+    "final_rank": 17,
+    "final_score": 11,
+    "rating_at_start": 1766,
+    "performance_rating": 1796
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "frankwillyan",
+    "final_rank": 18,
+    "final_score": 11,
+    "rating_at_start": 1575,
+    "performance_rating": 1758
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "joaoprdaslma261a",
+    "final_rank": 19,
+    "final_score": 11,
+    "rating_at_start": 1420,
+    "performance_rating": 1424
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "leticiaslma261a",
+    "final_rank": 20,
+    "final_score": 10,
+    "rating_at_start": 1671,
+    "performance_rating": 1685
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "marcuszulu",
+    "final_rank": 21,
+    "final_score": 10,
+    "rating_at_start": 2034,
+    "performance_rating": 1647
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "jonart_25",
+    "final_rank": 22,
+    "final_score": 10,
+    "rating_at_start": 1561,
+    "performance_rating": 1588
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "paodequeijochess",
+    "final_rank": 23,
+    "final_score": 10,
+    "rating_at_start": 1284,
+    "performance_rating": 1555
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "dantonjosh",
+    "final_rank": 24,
+    "final_score": 10,
+    "rating_at_start": 1535,
+    "performance_rating": 1474
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "soresu1",
+    "final_rank": 25,
+    "final_score": 10,
+    "rating_at_start": 1453,
+    "performance_rating": 1410
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "yukizz",
+    "final_rank": 26,
+    "final_score": 10,
+    "rating_at_start": 1333,
+    "performance_rating": 1328
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "vbjnnn",
+    "final_rank": 27,
+    "final_score": 9,
+    "rating_at_start": 1418,
+    "performance_rating": 1524
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "adrizinhadochess",
+    "final_rank": 28,
+    "final_score": 9,
+    "rating_at_start": 936,
+    "performance_rating": 1336
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "isabellilrlma261b",
+    "final_rank": 29,
+    "final_score": 9,
+    "rating_at_start": 1247,
+    "performance_rating": 1270
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "caiovadaslma261b",
+    "final_rank": 30,
+    "final_score": 9,
+    "rating_at_start": 1170,
+    "performance_rating": 1209
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "rianlllma261b",
+    "final_rank": 31,
+    "final_score": 8,
+    "rating_at_start": 1584,
+    "performance_rating": 1518
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "leticiasmflma261b",
+    "final_rank": 32,
+    "final_score": 8,
+    "rating_at_start": 1246,
+    "performance_rating": 1285
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "eduardarslma261a",
+    "final_rank": 33,
+    "final_score": 8,
+    "rating_at_start": 1153,
+    "performance_rating": 1230
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "moriarty1428",
+    "final_rank": 34,
+    "final_score": 7,
+    "rating_at_start": 1603,
+    "performance_rating": 1612
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "guilhermekplma261b",
+    "final_rank": 35,
+    "final_score": 7,
+    "rating_at_start": 1346,
+    "performance_rating": 1415
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "matheussklma261a",
+    "final_rank": 36,
+    "final_score": 7,
+    "rating_at_start": 1369,
+    "performance_rating": 1393
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "sophiamfflma261a",
+    "final_rank": 37,
+    "final_score": 7,
+    "rating_at_start": 1360,
+    "performance_rating": 1317
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "juliaitrlma261b",
+    "final_rank": 38,
+    "final_score": 7,
+    "rating_at_start": 1163,
+    "performance_rating": 1309
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "miguelpslma261a",
+    "final_rank": 39,
+    "final_score": 7,
+    "rating_at_start": 1233,
+    "performance_rating": 1237
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "brenogglma261b",
+    "final_rank": 40,
+    "final_score": 7,
+    "rating_at_start": 1373,
+    "performance_rating": 1211
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "levinrlma261a",
+    "final_rank": 41,
+    "final_score": 7,
+    "rating_at_start": 1334,
+    "performance_rating": 1201
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "luishgsblma261b",
+    "final_rank": 42,
+    "final_score": 6,
+    "rating_at_start": 1470,
+    "performance_rating": 1399
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "helenadasclma261b",
+    "final_rank": 43,
+    "final_score": 6,
+    "rating_at_start": 1191,
+    "performance_rating": 1389
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "emanuelesblma261b",
+    "final_rank": 44,
+    "final_score": 6,
+    "rating_at_start": 1328,
+    "performance_rating": 1299
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "guilhermepmlma261a",
+    "final_rank": 45,
+    "final_score": 6,
+    "rating_at_start": 1271,
+    "performance_rating": 1258
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "karenfslma261a",
+    "final_rank": 46,
+    "final_score": 6,
+    "rating_at_start": 1175,
+    "performance_rating": 1228
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "luisdfclma261a",
+    "final_rank": 47,
+    "final_score": 6,
+    "rating_at_start": 1039,
+    "performance_rating": 1122
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "kaiolalma261b",
+    "final_rank": 48,
+    "final_score": 6,
+    "rating_at_start": 1205,
+    "performance_rating": 1080
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "lucasetmlma261a",
+    "final_rank": 49,
+    "final_score": 5,
+    "rating_at_start": 1470,
+    "performance_rating": 1404
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "katleenmslma261a",
+    "final_rank": 50,
+    "final_score": 5,
+    "rating_at_start": 1102,
+    "performance_rating": 1228
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "davifclma261a",
+    "final_rank": 51,
+    "final_score": 5,
+    "rating_at_start": 1213,
+    "performance_rating": 1222
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "pedroaielma261b",
+    "final_rank": 52,
+    "final_score": 4,
+    "rating_at_start": 1216,
+    "performance_rating": 1157
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "carlosccmlma261b",
+    "final_rank": 53,
+    "final_score": 4,
+    "rating_at_start": 1151,
+    "performance_rating": 1157
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "leticiagblma261a",
+    "final_rank": 54,
+    "final_score": 4,
+    "rating_at_start": 1037,
+    "performance_rating": 1093
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "henriquehmlma261a",
+    "final_rank": 55,
+    "final_score": 4,
+    "rating_at_start": 1320,
+    "performance_rating": 1086
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "gustavomalma261a",
+    "final_rank": 56,
+    "final_score": 4,
+    "rating_at_start": 1038,
+    "performance_rating": 1052
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "miguelrclma261b",
+    "final_rank": 57,
+    "final_score": 4,
+    "rating_at_start": 1294,
+    "performance_rating": 1037
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "vitorhlvlma261a",
+    "final_rank": 58,
+    "final_score": 4,
+    "rating_at_start": 972,
+    "performance_rating": 961
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "miguelfalma261a",
+    "final_rank": 59,
+    "final_score": 3,
+    "rating_at_start": 976,
+    "performance_rating": 1109
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "joaoaflma261b",
+    "final_rank": 60,
+    "final_score": 3,
+    "rating_at_start": 1085,
+    "performance_rating": 1051
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "joaovprlma261b",
+    "final_rank": 61,
+    "final_score": 3,
+    "rating_at_start": 991,
+    "performance_rating": 892
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "gabrielgclma261a",
+    "final_rank": 62,
+    "final_score": 3,
+    "rating_at_start": 1039,
+    "performance_rating": 873
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "biipityboopity",
+    "final_rank": 63,
+    "final_score": 2,
+    "rating_at_start": 1430,
+    "performance_rating": 1414
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "mano-next-xadrez",
+    "final_rank": 64,
+    "final_score": 2,
+    "rating_at_start": 1290,
+    "performance_rating": 1287
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "leviomlma261a",
+    "final_rank": 65,
+    "final_score": 2,
+    "rating_at_start": 865,
+    "performance_rating": 893
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "camiladclma261b",
+    "final_rank": 66,
+    "final_score": 1,
+    "rating_at_start": 937,
+    "performance_rating": 839
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "pedrohdasmlma261b",
+    "final_rank": 67,
+    "final_score": 1,
+    "rating_at_start": 1009,
+    "performance_rating": 698
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "guilhermeclma261a",
+    "final_rank": 68,
+    "final_score": 1,
+    "rating_at_start": 829,
+    "performance_rating": 615
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "lindousodomate",
+    "final_rank": 69,
+    "final_score": 0,
+    "rating_at_start": 2103,
+    "performance_rating": null
+  },
+  {
+    "tournament_id": "YPIRYoSb",
+    "user_id_lichess": "carlosjardim",
+    "final_rank": 70,
+    "final_score": 0,
+    "rating_at_start": 1308,
+    "performance_rating": null
   },
   {
     "tournament_id": "YiRAi2NY",
