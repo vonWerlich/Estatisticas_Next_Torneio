@@ -179,6 +179,18 @@ def sync_tournaments():
                     if line:
                         d = json.loads(line)
                         if d["id"] not in existing_ids_db:
+
+                            # --- TRAVA DE SEGURANÇA ---
+                            # Arena finalizada = 30 | Swiss finalizado = "finished"
+
+                            status = d.get("status")
+                            is_finished = d.get("isFinished", False)
+
+                            if status not in [30, "finished"] and not is_finished:
+                                nome_torneio = d.get("fullName") or d.get("name") or d["id"]
+                                print(f"   ⏳ Torneio {nome_torneio} ainda em andamento. Ignorando por enquanto...")
+                                continue # Pula o resto e vai pro próximo torneio da lista
+                            # ----------------------------
                             # AQUI ESTÁ O PULO DO GATO: Salvamos o tipo manual no objeto
                             d["type_manual"] = tipo_manual 
                             tournaments_to_process.append(d)
