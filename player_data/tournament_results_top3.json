@@ -6288,6 +6288,30 @@
     "performance_rating": 1829
   },
   {
+    "tournament_id": "q8nzTc81",
+    "user_id_lichess": "dudinha_cwb",
+    "final_rank": 1,
+    "final_score": null,
+    "rating_at_start": 2121,
+    "performance_rating": 2232
+  },
+  {
+    "tournament_id": "q8nzTc81",
+    "user_id_lichess": "sonogrinhas",
+    "final_rank": 2,
+    "final_score": null,
+    "rating_at_start": 1841,
+    "performance_rating": 2137
+  },
+  {
+    "tournament_id": "q8nzTc81",
+    "user_id_lichess": "renedevilla",
+    "final_rank": 3,
+    "final_score": null,
+    "rating_at_start": 1785,
+    "performance_rating": 1925
+  },
+  {
     "tournament_id": "r3E171li",
     "user_id_lichess": "the-chemist",
     "final_rank": 1,

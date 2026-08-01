@@ -75298,5 +75298,135 @@
     "final_score": null,
     "rating_at_start": 2110,
     "performance_rating": 895
+  },
+  {
+    "tournament_id": "q8nzTc81",
+    "tournament_name": "NexT Freestyle Open 2026-1",
+    "tournament_start_datetime": "2026-07-11T17:00:00+00:00",
+    "user_id_lichess": "dudinha_cwb",
+    "final_rank": 1,
+    "final_score": null,
+    "rating_at_start": 2121,
+    "performance_rating": 2232
+  },
+  {
+    "tournament_id": "q8nzTc81",
+    "tournament_name": "NexT Freestyle Open 2026-1",
+    "tournament_start_datetime": "2026-07-11T17:00:00+00:00",
+    "user_id_lichess": "sonogrinhas",
+    "final_rank": 2,
+    "final_score": null,
+    "rating_at_start": 1841,
+    "performance_rating": 2137
+  },
+  {
+    "tournament_id": "q8nzTc81",
+    "tournament_name": "NexT Freestyle Open 2026-1",
+    "tournament_start_datetime": "2026-07-11T17:00:00+00:00",
+    "user_id_lichess": "renedevilla",
+    "final_rank": 3,
+    "final_score": null,
+    "rating_at_start": 1785,
+    "performance_rating": 1925
+  },
+  {
+    "tournament_id": "q8nzTc81",
+    "tournament_name": "NexT Freestyle Open 2026-1",
+    "tournament_start_datetime": "2026-07-11T17:00:00+00:00",
+    "user_id_lichess": "vonwerlich",
+    "final_rank": 4,
+    "final_score": null,
+    "rating_at_start": 2116,
+    "performance_rating": 2128
+  },
+  {
+    "tournament_id": "q8nzTc81",
+    "tournament_name": "NexT Freestyle Open 2026-1",
+    "tournament_start_datetime": "2026-07-11T17:00:00+00:00",
+    "user_id_lichess": "daviaugustoforte",
+    "final_rank": 5,
+    "final_score": null,
+    "rating_at_start": 1751,
+    "performance_rating": 1768
+  },
+  {
+    "tournament_id": "q8nzTc81",
+    "tournament_name": "NexT Freestyle Open 2026-1",
+    "tournament_start_datetime": "2026-07-11T17:00:00+00:00",
+    "user_id_lichess": "modestovic",
+    "final_rank": 6,
+    "final_score": null,
+    "rating_at_start": 1703,
+    "performance_rating": 1718
+  },
+  {
+    "tournament_id": "q8nzTc81",
+    "tournament_name": "NexT Freestyle Open 2026-1",
+    "tournament_start_datetime": "2026-07-11T17:00:00+00:00",
+    "user_id_lichess": "negromestrovisk",
+    "final_rank": 7,
+    "final_score": null,
+    "rating_at_start": 1834,
+    "performance_rating": 1746
+  },
+  {
+    "tournament_id": "q8nzTc81",
+    "tournament_name": "NexT Freestyle Open 2026-1",
+    "tournament_start_datetime": "2026-07-11T17:00:00+00:00",
+    "user_id_lichess": "gabrielhamel",
+    "final_rank": 8,
+    "final_score": null,
+    "rating_at_start": 1606,
+    "performance_rating": 1569
+  },
+  {
+    "tournament_id": "q8nzTc81",
+    "tournament_name": "NexT Freestyle Open 2026-1",
+    "tournament_start_datetime": "2026-07-11T17:00:00+00:00",
+    "user_id_lichess": "andrehllmab251",
+    "final_rank": 9,
+    "final_score": null,
+    "rating_at_start": 1845,
+    "performance_rating": 1806
+  },
+  {
+    "tournament_id": "q8nzTc81",
+    "tournament_name": "NexT Freestyle Open 2026-1",
+    "tournament_start_datetime": "2026-07-11T17:00:00+00:00",
+    "user_id_lichess": "jonart_25",
+    "final_rank": 10,
+    "final_score": null,
+    "rating_at_start": 1655,
+    "performance_rating": 1575
+  },
+  {
+    "tournament_id": "q8nzTc81",
+    "tournament_name": "NexT Freestyle Open 2026-1",
+    "tournament_start_datetime": "2026-07-11T17:00:00+00:00",
+    "user_id_lichess": "adrizinhadochess",
+    "final_rank": 11,
+    "final_score": null,
+    "rating_at_start": 1516,
+    "performance_rating": 1213
+  },
+  {
+    "tournament_id": "q8nzTc81",
+    "tournament_name": "NexT Freestyle Open 2026-1",
+    "tournament_start_datetime": "2026-07-11T17:00:00+00:00",
+    "user_id_lichess": "dantonjosh",
+    "final_rank": 12,
+    "final_score": null,
+    "rating_at_start": 1587,
+    "performance_rating": 1442
+  },
+  {
+    "tournament_id": "q8nzTc81",
+    "tournament_name": "NexT Freestyle Open 2026-1",
+    "tournament_start_datetime": "2026-07-11T17:00:00+00:00",
+    "user_id_lichess": "vbjnnn",
+    "final_rank": 13,
+    "final_score": null,
+    "rating_at_start": 1526,
+    "performance_rating": 1341
   }
 ]

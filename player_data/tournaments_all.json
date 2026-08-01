@@ -3386,5 +3386,16 @@
     "number_of_players": 16,
     "tournament_name": "NexT Chess Open 2026-1",
     "circuito": null
+  },
+  {
+    "tournament_id": "q8nzTc81",
+    "tournament_start_datetime": "2026-07-11T17:00:00+00:00",
+    "tournament_system": "swiss",
+    "tournament_time_control": "blitz",
+    "tournament_variant": "chess960",
+    "tournament_rated": 1,
+    "number_of_players": 13,
+    "tournament_name": "NexT Freestyle Open 2026-1",
+    "circuito": null
   }
 ]
