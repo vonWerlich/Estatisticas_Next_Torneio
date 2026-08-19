@@ -8,3 +8,5 @@ npm run build
 >> streamlit run app.py
 
 >> secrets github = email e token lichess e token ntfy
+
+>> limpar turso e gerar de novo (contém lances > 30 e xadrez 960)
