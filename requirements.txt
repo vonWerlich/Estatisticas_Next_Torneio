@@ -6,3 +6,4 @@ streamlit-elements
 requests
 python-chess
 streamlit>=1.49.0
+libsql-client

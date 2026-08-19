@@ -14,13 +14,14 @@ const onRender = (event: Event) => {
   const data = (event as CustomEvent<RenderData>).detail;
 
   // Pegue os argumentos que vêm do Python
-  const { fen, orientation } = data.args;
+  const { fen, orientation, explorer_data } = data.args;
 
   root.render(
     <React.StrictMode>
       <MyComponent 
-        fen={fen ?? "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"}  // fallback padrão
-        orientation={orientation}  // pode ser "white" | "black" ou undefined
+        fen={fen ?? "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"} 
+        orientation={orientation} 
+        explorerData={explorer_data} // Repassamos a nova estrutura rica
       />
     </React.StrictMode>
   );

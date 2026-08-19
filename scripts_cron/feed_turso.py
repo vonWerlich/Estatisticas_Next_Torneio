@@ -106,6 +106,10 @@ def processar_jogos():
                 
                 # A barreira: Se já existe, pula TUDO dessa partida
                 if jogo_id in partidas_ja_processadas: continue
+
+                #  Ignorar Chess960 e outras variantes
+                if jogo.get("variant", "standard") != "standard":
+                    continue
                 
                 # Prepara Partida
                 brancas = jogo.get("players", {}).get("white", {}).get("user", {}).get("name", "Unknown").lower()
@@ -125,6 +129,8 @@ def processar_jogos():
                 
                 for move in moves:
                     if not move: continue
+                    if ply >= 60:
+                        break
                     try:
                         lance_parseado = board.parse_san(move)
                         lance_bonito_san = board.san(lance_parseado)

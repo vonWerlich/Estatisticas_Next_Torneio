@@ -1,8 +1,10 @@
-integrar esquema de verificar total de membros que nunca participaram, ex-membros no script mensal.
+>>integrar esquema de verificar total de membros que nunca participaram, ex-membros no script mensal.
 
 
-Sempre que alterar qualquer arquivo dentro de frontend/src/ → precisa rodar npm run build.
+>> Sempre que alterar qualquer arquivo dentro de frontend/src/ → precisa rodar npm run build.
 cd chessboard_component/chessboard_component/frontend
 npm run build
 
-secrets github = email e token lichess e token ntfy
+>> streamlit run app.py
+
+>> secrets github = email e token lichess e token ntfy

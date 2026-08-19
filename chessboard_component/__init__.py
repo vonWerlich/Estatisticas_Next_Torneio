@@ -1,3 +1,4 @@
+import streamlit as st
 import streamlit.components.v1 as components
 from pathlib import Path
 
@@ -17,9 +18,14 @@ _component = components.declare_component(
     path=str(frontend_dir)
 )
 
-def chessboard_component(fen: str, key=None):
+def chessboard_component(fen: str, explorer_data=None, key=None):
+    # Se vier vazio, manda a estrutura default em branco
+    if explorer_data is None:
+        explorer_data = {"moves": [], "games": []}
+        
     return _component(
         fen=fen,
+        explorer_data=explorer_data,
         key=key,
         default={"uci_move": None},
     )
