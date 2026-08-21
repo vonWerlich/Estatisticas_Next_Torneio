@@ -88,6 +88,31 @@ const MyComponent: FC<MyComponentProps> = ({ fen: initialFen, orientation: propO
   // NOVO: Controle de exibição da janela do explorador
   const [showExplorer, setShowExplorer] = useState(false);
 
+  // --- LÓGICA DE ORDENAÇÃO DINÂMICA ---
+  const [sortConfig, setSortConfig] = useState<{key: string, direction: 'asc'|'desc'}>({key: 'games', direction: 'desc'});
+
+  const requestSort = (key: string) => {
+      let direction: 'asc' | 'desc' = 'desc';
+      if (sortConfig.key === key && sortConfig.direction === 'desc') {
+          direction = 'asc';
+      }
+      setSortConfig({ key, direction });
+  };
+
+  const sortedMoves = [...explorerData.moves].sort((a, b) => {
+      if (sortConfig.key === 'games') {
+          return sortConfig.direction === 'desc' ? b.games - a.games : a.games - b.games;
+      }
+      if (sortConfig.key === 'winrate') {
+          // Calcula a % de vitória com base em de quem é a vez de jogar
+          const turn = gameRef.current.turn();
+          const rateA = turn === 'w' ? a.w_wins / a.games : a.b_wins / a.games;
+          const rateB = turn === 'w' ? b.w_wins / b.games : b.b_wins / b.games;
+          return sortConfig.direction === 'desc' ? rateB - rateA : rateA - rateB;
+      }
+      return 0;
+  });
+
   // --- CSS INJETADO ---
   useLayoutEffect(() => {
     const css = `
@@ -389,8 +414,28 @@ const MyComponent: FC<MyComponentProps> = ({ fen: initialFen, orientation: propO
                             <>
                                 {/* 1. SEÇÃO DOS LANCES (TABELA COM GRÁFICO) */}
                                 <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '12px', textAlign: 'left', tableLayout: 'fixed' }}>
+                                    <thead>
+                                        <tr style={{ borderBottom: '1px solid #ccc', backgroundColor: '#eee', color: '#555' }}>
+                                            <th style={{ padding: '6px', width: '20%' }}>Lance</th>
+                                            <th 
+                                                style={{ padding: '6px', width: '20%', cursor: 'pointer', userSelect: 'none' }} 
+                                                onClick={() => requestSort('games')}
+                                                title="Ordenar por volume de jogos"
+                                            >
+                                                Jogos {sortConfig.key === 'games' ? (sortConfig.direction === 'desc' ? '↓' : '↑') : ''}
+                                            </th>
+                                            <th 
+                                                style={{ padding: '6px', width: '60%', cursor: 'pointer', userSelect: 'none' }}
+                                                onClick={() => requestSort('winrate')}
+                                                title="Ordenar por % de vitória (baseado na cor que vai jogar)"
+                                            >
+                                                Taxa de Vitória {sortConfig.key === 'winrate' ? (sortConfig.direction === 'desc' ? '↓' : '↑') : ''}
+                                            </th>
+                                        </tr>
+                                    </thead>
                                     <tbody>
-                                        {explorerData.moves.map((m, idx) => {
+                                        {/* AQUI TROCAMOS explorerData.moves.map POR sortedMoves.map */}
+                                        {sortedMoves.map((m, idx) => {
                                             const wPct = Math.round((m.w_wins / m.games) * 100) || 0;
                                             const dPct = Math.round((m.draws / m.games) * 100) || 0;
                                             const bPct = Math.round((m.b_wins / m.games) * 100) || 0;

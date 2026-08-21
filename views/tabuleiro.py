@@ -35,7 +35,6 @@ def buscar_dados_explorador(fen_completo):
             WHERE pos.fen_base = ? AND o.lance_jogado IS NOT NULL
             GROUP BY o.lance_jogado
             ORDER BY jogos DESC
-            LIMIT 10
         """
         res_moves = client.execute(query_moves, [fen_base])
         
