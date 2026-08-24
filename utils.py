@@ -165,3 +165,97 @@ def carregar_numero_participantes_total_unico():
     df = pd.read_sql_query("SELECT tournament_id, user_id_lichess FROM tournament_results", conn)
     conn.close()
     return df
+
+@st.cache_data(ttl="30m")
+def carregar_pontuacoes_vencedores(torneios_ids):
+    if not torneios_ids:
+        return pd.DataFrame()
+    
+    conn = get_db_connection()
+    placeholders = ",".join(["?"] * len(torneios_ids))
+    query = f"""
+    SELECT 
+        user_id_lichess as username,
+        tournament_id,
+        final_rank
+    FROM tournament_results
+    WHERE tournament_id IN ({placeholders})
+    """
+    df = pd.read_sql_query(query, conn, params=tuple(torneios_ids))
+    conn.close()
+    
+    # Retorna o DataFrame inteiro com os ranks brutos, a View decide como pontuar!
+    return df
+
+# Pode manter a carregar_pontuacoes_vencedores que deixamos apenas com a query
+
+def calcular_pontos_sistema(rank, sis):
+    """Regras de pontuação para as diferentes modalidades"""
+    if sis == "NEXT (Padrão 10 a 1)":
+        return max(0, 11 - rank) if rank <= 10 else 0
+    elif sis == "Fórmula 1 (Atual: 25-18-15...)":
+        return {1: 25, 2: 18, 3: 15, 4: 12, 5: 10, 6: 8, 7: 6, 8: 4, 9: 2, 10: 1}.get(rank, 0)
+    elif sis == "F1 Clássica (Top 6: 10-6-4...)":
+        return {1: 10, 2: 6, 3: 4, 4: 3, 5: 2, 6: 1}.get(rank, 0)
+    elif sis == "Pódio Apenas (3-2-1)":
+        return {1: 3, 2: 2, 3: 1}.get(rank, 0)
+    return 0
+
+@st.cache_data(ttl="15m")
+def gerar_ranking_vencedores(df_resultados, sistema, posicoes_extras, mostrar_lanternas):
+    """Processa o dataframe de resultados brutos gerando o Ranking Completo com posições"""
+    if df_resultados.empty:
+        return pd.DataFrame()
+        
+    df = df_resultados.copy()
+    
+    # Aplica a pontuação dinamicamente
+    df['pontos'] = df['final_rank'].apply(lambda x: calcular_pontos_sistema(x, sistema))
+    df_pontuados = df[df['pontos'] > 0]
+    
+    if df_pontuados.empty:
+        return pd.DataFrame()
+        
+    df_ranking = df_pontuados.groupby('username')['pontos'].sum().reset_index()
+    
+    # Conta quantas vezes cada jogador ficou em cada posição
+    counts = pd.crosstab(df['username'], df['final_rank'])
+    
+    # Anexa as colunas solicitadas (1º até o valor escolhido)
+    for i in range(1, posicoes_extras + 1):
+        nome_coluna = f"{i}º"
+        if i in counts.columns:
+            df_ranking = df_ranking.merge(counts[[i]].rename(columns={i: nome_coluna}), left_on='username', right_index=True, how='left')
+        else:
+            df_ranking[nome_coluna] = 0
+            
+    # Contagem de Lanternas
+    if mostrar_lanternas:
+        max_ranks = df.groupby('tournament_id')['final_rank'].transform('max')
+        df['is_lanterna'] = (df['final_rank'] == max_ranks) & (df['final_rank'] > 1)
+        lanternas = df.groupby('username')['is_lanterna'].sum().reset_index()
+        
+        df_ranking = df_ranking.merge(lanternas, on='username', how='left')
+        df_ranking.rename(columns={'is_lanterna': '🐢 Lanterna'}, inplace=True)
+    
+    df_ranking = df_ranking.fillna(0)
+    
+    # Ordenação: Pontos em 1º, seguido por 1º, 2º, 3º...
+    cols_desempate = [f"{i}º" for i in range(1, posicoes_extras + 1)]
+    cols_ordenacao = ['pontos'] + [c for c in cols_desempate if c in df_ranking.columns]
+    df_ranking = df_ranking.sort_values(by=cols_ordenacao, ascending=[False] * len(cols_ordenacao))
+    
+    return df_ranking
+
+__all__ = [
+    "get_db_connection",
+    "carregar_dados_gerais",
+    "carregar_dados_jogadores_sql",
+    "carregar_detalhes_torneio_sql",
+    "carregar_games_ndjson",
+    "img_to_base64",
+    "carregar_numero_participantes_total_unico",
+    "carregar_pontuacoes_vencedores",
+    "calcular_pontos_sistema",
+    "gerar_ranking_vencedores"
+]
