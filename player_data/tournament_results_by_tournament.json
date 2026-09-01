@@ -75428,5 +75428,1285 @@
     "final_score": null,
     "rating_at_start": 1526,
     "performance_rating": 1341
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "vonwerlich",
+    "final_rank": 1,
+    "final_score": 43,
+    "rating_at_start": 2204,
+    "performance_rating": 2199
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "the-chemist",
+    "final_rank": 2,
+    "final_score": 38,
+    "rating_at_start": 2133,
+    "performance_rating": 2205
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "dudinha_cwb",
+    "final_rank": 3,
+    "final_score": 38,
+    "rating_at_start": 1924,
+    "performance_rating": 1963
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "sonogrinhas",
+    "final_rank": 4,
+    "final_score": 34,
+    "rating_at_start": 1744,
+    "performance_rating": 1865
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "batodegotas",
+    "final_rank": 5,
+    "final_score": 23,
+    "rating_at_start": 2092,
+    "performance_rating": 2031
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "renedevilla",
+    "final_rank": 6,
+    "final_score": 20,
+    "rating_at_start": 1500,
+    "performance_rating": 1797
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "leandropslma262b",
+    "final_rank": 7,
+    "final_score": 19,
+    "rating_at_start": 1789,
+    "performance_rating": 1872
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "lauzera11",
+    "final_rank": 8,
+    "final_score": 18,
+    "rating_at_start": 1563,
+    "performance_rating": 1794
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "modestovic",
+    "final_rank": 9,
+    "final_score": 17,
+    "rating_at_start": 1703,
+    "performance_rating": 1947
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "matheussslma262b",
+    "final_rank": 10,
+    "final_score": 16,
+    "rating_at_start": 1769,
+    "performance_rating": 1760
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "marcosmarques",
+    "final_rank": 11,
+    "final_score": 16,
+    "rating_at_start": 1640,
+    "performance_rating": 1601
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "lucasetmlma261a",
+    "final_rank": 12,
+    "final_score": 15,
+    "rating_at_start": 1377,
+    "performance_rating": 1640
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "murilost23",
+    "final_rank": 13,
+    "final_score": 15,
+    "rating_at_start": 1668,
+    "performance_rating": 1569
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "lfnishi",
+    "final_rank": 14,
+    "final_score": 14,
+    "rating_at_start": 1712,
+    "performance_rating": 1796
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "lucasgsk",
+    "final_rank": 15,
+    "final_score": 13,
+    "rating_at_start": 1700,
+    "performance_rating": 1713
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "dantonjosh",
+    "final_rank": 16,
+    "final_score": 12,
+    "rating_at_start": 1482,
+    "performance_rating": 1498
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "gustavo-next",
+    "final_rank": 17,
+    "final_score": 11,
+    "rating_at_start": 1601,
+    "performance_rating": 1484
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "balzabouth",
+    "final_rank": 18,
+    "final_score": 10,
+    "rating_at_start": 2104,
+    "performance_rating": 1887
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "jonart_25",
+    "final_rank": 19,
+    "final_score": 10,
+    "rating_at_start": 1443,
+    "performance_rating": 1662
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "andreablma262a",
+    "final_rank": 20,
+    "final_score": 10,
+    "rating_at_start": 1658,
+    "performance_rating": 1660
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "enzosdflma262a",
+    "final_rank": 21,
+    "final_score": 10,
+    "rating_at_start": 1554,
+    "performance_rating": 1550
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "guilhermefcmlma262b",
+    "final_rank": 22,
+    "final_score": 10,
+    "rating_at_start": 1486,
+    "performance_rating": 1507
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "romullo-luiz",
+    "final_rank": 23,
+    "final_score": 10,
+    "rating_at_start": 1393,
+    "performance_rating": 1411
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "ianblblma262a",
+    "final_rank": 24,
+    "final_score": 10,
+    "rating_at_start": 1417,
+    "performance_rating": 1389
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "adrizinhadochess",
+    "final_rank": 25,
+    "final_score": 10,
+    "rating_at_start": 1147,
+    "performance_rating": 1282
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "gadottl",
+    "final_rank": 26,
+    "final_score": 8,
+    "rating_at_start": 1868,
+    "performance_rating": 1879
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "nicolasmvlma262b",
+    "final_rank": 27,
+    "final_score": 8,
+    "rating_at_start": 1638,
+    "performance_rating": 1637
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "miguelablma262a",
+    "final_rank": 28,
+    "final_score": 8,
+    "rating_at_start": 1595,
+    "performance_rating": 1634
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "yukizz",
+    "final_rank": 29,
+    "final_score": 8,
+    "rating_at_start": 1444,
+    "performance_rating": 1615
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "beatrizcjlma262b",
+    "final_rank": 30,
+    "final_score": 8,
+    "rating_at_start": 1518,
+    "performance_rating": 1560
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "mariaenclma262a",
+    "final_rank": 31,
+    "final_score": 8,
+    "rating_at_start": 1527,
+    "performance_rating": 1557
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "thiagozlma262a",
+    "final_rank": 32,
+    "final_score": 8,
+    "rating_at_start": 1482,
+    "performance_rating": 1453
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "potatoman773-gshille",
+    "final_rank": 33,
+    "final_score": 8,
+    "rating_at_start": 1366,
+    "performance_rating": 1447
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "victorhfrlma262b",
+    "final_rank": 34,
+    "final_score": 8,
+    "rating_at_start": 1390,
+    "performance_rating": 1431
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "alessandracclma262b",
+    "final_rank": 35,
+    "final_score": 8,
+    "rating_at_start": 1275,
+    "performance_rating": 1344
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "felipescflma262b",
+    "final_rank": 36,
+    "final_score": 8,
+    "rating_at_start": 1305,
+    "performance_rating": 1341
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "gustavoplma262b",
+    "final_rank": 37,
+    "final_score": 8,
+    "rating_at_start": 1162,
+    "performance_rating": 1177
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "caioplma262b",
+    "final_rank": 38,
+    "final_score": 7,
+    "rating_at_start": 1550,
+    "performance_rating": 1602
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "guilhermemlma262b",
+    "final_rank": 39,
+    "final_score": 7,
+    "rating_at_start": 1366,
+    "performance_rating": 1395
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "marianaslma262b",
+    "final_rank": 40,
+    "final_score": 7,
+    "rating_at_start": 1145,
+    "performance_rating": 1188
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "paranoid_android1",
+    "final_rank": 41,
+    "final_score": 6,
+    "rating_at_start": 1628,
+    "performance_rating": 1647
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "filipecmlma262b",
+    "final_rank": 42,
+    "final_score": 6,
+    "rating_at_start": 1500,
+    "performance_rating": 1544
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "atilabgslma262a",
+    "final_rank": 43,
+    "final_score": 6,
+    "rating_at_start": 1401,
+    "performance_rating": 1431
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "evandrollma262b",
+    "final_rank": 44,
+    "final_score": 6,
+    "rating_at_start": 1293,
+    "performance_rating": 1278
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "joaquimrqdslma262b",
+    "final_rank": 45,
+    "final_score": 6,
+    "rating_at_start": 1234,
+    "performance_rating": 1201
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "pedrolhalma262b",
+    "final_rank": 46,
+    "final_score": 5,
+    "rating_at_start": 1134,
+    "performance_rating": 1161
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "andrehllmab251",
+    "final_rank": 47,
+    "final_score": 4,
+    "rating_at_start": 1770,
+    "performance_rating": 1437
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "giovanacslma262a",
+    "final_rank": 48,
+    "final_score": 4,
+    "rating_at_start": 1283,
+    "performance_rating": 1332
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "estevaogblma262a",
+    "final_rank": 49,
+    "final_score": 4,
+    "rating_at_start": 1271,
+    "performance_rating": 1182
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "gustavopblma262b",
+    "final_rank": 50,
+    "final_score": 4,
+    "rating_at_start": 1171,
+    "performance_rating": 1172
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "pedrolaslma262b",
+    "final_rank": 51,
+    "final_score": 4,
+    "rating_at_start": 1069,
+    "performance_rating": 1091
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "gustavomalma261a",
+    "final_rank": 52,
+    "final_score": 3,
+    "rating_at_start": 1054,
+    "performance_rating": 1198
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "nicolascalma262a",
+    "final_rank": 53,
+    "final_score": 3,
+    "rating_at_start": 1142,
+    "performance_rating": 1138
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "felipejrlma262a",
+    "final_rank": 54,
+    "final_score": 3,
+    "rating_at_start": 988,
+    "performance_rating": 1042
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "guilhermeldrlma262b",
+    "final_rank": 55,
+    "final_score": 2,
+    "rating_at_start": 1193,
+    "performance_rating": 1241
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "patrickallma262b",
+    "final_rank": 56,
+    "final_score": 2,
+    "rating_at_start": 1085,
+    "performance_rating": 1029
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "enzorclma262b",
+    "final_rank": 57,
+    "final_score": 2,
+    "rating_at_start": 920,
+    "performance_rating": 894
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "isabelahlma262a",
+    "final_rank": 58,
+    "final_score": 2,
+    "rating_at_start": 858,
+    "performance_rating": 815
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "gabriellyzlma262a",
+    "final_rank": 59,
+    "final_score": 2,
+    "rating_at_start": 603,
+    "performance_rating": 809
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "amandasplma262b",
+    "final_rank": 60,
+    "final_score": 1,
+    "rating_at_start": 852,
+    "performance_rating": 893
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "gabrielhamel",
+    "final_rank": 61,
+    "final_score": 1,
+    "rating_at_start": 919,
+    "performance_rating": 868
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "daviaugustoforte",
+    "final_rank": 62,
+    "final_score": 0,
+    "rating_at_start": 1624,
+    "performance_rating": null
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "raimundoglma261a",
+    "final_rank": 63,
+    "final_score": 0,
+    "rating_at_start": 1029,
+    "performance_rating": 1004
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "marianaslma262a",
+    "final_rank": 64,
+    "final_score": 0,
+    "rating_at_start": 920,
+    "performance_rating": 747
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "user_id_lichess": "biipityboopity",
+    "final_rank": 65,
+    "final_score": 0,
+    "rating_at_start": 1405,
+    "performance_rating": 630
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "vonwerlich",
+    "final_rank": 1,
+    "final_score": 54,
+    "rating_at_start": 2144,
+    "performance_rating": 2129
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "dudinha_cwb",
+    "final_rank": 2,
+    "final_score": 33,
+    "rating_at_start": 2051,
+    "performance_rating": 1902
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "renedevilla",
+    "final_rank": 3,
+    "final_score": 17,
+    "rating_at_start": 1783,
+    "performance_rating": 1777
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "modestovic",
+    "final_rank": 4,
+    "final_score": 16,
+    "rating_at_start": 1675,
+    "performance_rating": 1783
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "leandropslma262b",
+    "final_rank": 5,
+    "final_score": 15,
+    "rating_at_start": 2139,
+    "performance_rating": 2049
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "andrehllmab251",
+    "final_rank": 6,
+    "final_score": 15,
+    "rating_at_start": 1875,
+    "performance_rating": 1899
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "lauzera11",
+    "final_rank": 7,
+    "final_score": 15,
+    "rating_at_start": 1897,
+    "performance_rating": 1898
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "edilbertocordeirojr",
+    "final_rank": 8,
+    "final_score": 15,
+    "rating_at_start": 1830,
+    "performance_rating": 1890
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "paranoid_android1",
+    "final_rank": 9,
+    "final_score": 14,
+    "rating_at_start": 1750,
+    "performance_rating": 1920
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "gustavo-next",
+    "final_rank": 10,
+    "final_score": 12,
+    "rating_at_start": 1867,
+    "performance_rating": 1840
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "filipecmlma262b",
+    "final_rank": 11,
+    "final_score": 12,
+    "rating_at_start": 1665,
+    "performance_rating": 1661
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "matheussslma262b",
+    "final_rank": 12,
+    "final_score": 10,
+    "rating_at_start": 1855,
+    "performance_rating": 1941
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "negromestrovisk",
+    "final_rank": 13,
+    "final_score": 10,
+    "rating_at_start": 1842,
+    "performance_rating": 1920
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "potatoman773-gshille",
+    "final_rank": 14,
+    "final_score": 10,
+    "rating_at_start": 1666,
+    "performance_rating": 1790
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "dantonjosh",
+    "final_rank": 15,
+    "final_score": 10,
+    "rating_at_start": 1611,
+    "performance_rating": 1671
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "lucasetmlma261a",
+    "final_rank": 16,
+    "final_score": 9,
+    "rating_at_start": 1517,
+    "performance_rating": 1594
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "alessandracclma262b",
+    "final_rank": 17,
+    "final_score": 9,
+    "rating_at_start": 1594,
+    "performance_rating": 1553
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "guilhermemlma262b",
+    "final_rank": 18,
+    "final_score": 8,
+    "rating_at_start": 1735,
+    "performance_rating": 1792
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "atilabgslma262a",
+    "final_rank": 19,
+    "final_score": 8,
+    "rating_at_start": 1702,
+    "performance_rating": 1750
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "joaquimrqdslma262b",
+    "final_rank": 20,
+    "final_score": 8,
+    "rating_at_start": 1598,
+    "performance_rating": 1639
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "ianblblma262a",
+    "final_rank": 21,
+    "final_score": 8,
+    "rating_at_start": 1584,
+    "performance_rating": 1619
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "beatrizcjlma262b",
+    "final_rank": 22,
+    "final_score": 8,
+    "rating_at_start": 1612,
+    "performance_rating": 1609
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "yukizz",
+    "final_rank": 23,
+    "final_score": 8,
+    "rating_at_start": 1579,
+    "performance_rating": 1567
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "evandrollma262b",
+    "final_rank": 24,
+    "final_score": 7,
+    "rating_at_start": 1534,
+    "performance_rating": 1556
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "vitoramonra",
+    "final_rank": 25,
+    "final_score": 6,
+    "rating_at_start": 1907,
+    "performance_rating": 1984
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "prozio57",
+    "final_rank": 26,
+    "final_score": 6,
+    "rating_at_start": 1791,
+    "performance_rating": 1767
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "gustavopblma262b",
+    "final_rank": 27,
+    "final_score": 6,
+    "rating_at_start": 1602,
+    "performance_rating": 1566
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "andreablma262a",
+    "final_rank": 28,
+    "final_score": 6,
+    "rating_at_start": 1457,
+    "performance_rating": 1486
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "caioplma262b",
+    "final_rank": 29,
+    "final_score": 6,
+    "rating_at_start": 1466,
+    "performance_rating": 1471
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "gabrielhamel",
+    "final_rank": 30,
+    "final_score": 6,
+    "rating_at_start": 1485,
+    "performance_rating": 1439
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "nicolascalma262a",
+    "final_rank": 31,
+    "final_score": 6,
+    "rating_at_start": 1402,
+    "performance_rating": 1405
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "felipescflma262b",
+    "final_rank": 32,
+    "final_score": 5,
+    "rating_at_start": 1407,
+    "performance_rating": 1408
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "victorhfrlma262b",
+    "final_rank": 33,
+    "final_score": 5,
+    "rating_at_start": 1477,
+    "performance_rating": 1387
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "raimundoglma261a",
+    "final_rank": 34,
+    "final_score": 5,
+    "rating_at_start": 1273,
+    "performance_rating": 1363
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "marianaslma262a",
+    "final_rank": 35,
+    "final_score": 5,
+    "rating_at_start": 1392,
+    "performance_rating": 1336
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "anitaam",
+    "final_rank": 36,
+    "final_score": 5,
+    "rating_at_start": 1286,
+    "performance_rating": 1306
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "adrissonklma262a",
+    "final_rank": 37,
+    "final_score": 5,
+    "rating_at_start": 1302,
+    "performance_rating": 1293
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "mariaenclma262a",
+    "final_rank": 38,
+    "final_score": 5,
+    "rating_at_start": 1259,
+    "performance_rating": 1265
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "gadottl",
+    "final_rank": 39,
+    "final_score": 4,
+    "rating_at_start": 2047,
+    "performance_rating": 2184
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "marcuszulu",
+    "final_rank": 40,
+    "final_score": 4,
+    "rating_at_start": 1863,
+    "performance_rating": 1802
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "guilhermefcmlma262b",
+    "final_rank": 41,
+    "final_score": 4,
+    "rating_at_start": 1633,
+    "performance_rating": 1725
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "gustavomalma261a",
+    "final_rank": 42,
+    "final_score": 4,
+    "rating_at_start": 1226,
+    "performance_rating": 1545
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "estevaogblma262a",
+    "final_rank": 43,
+    "final_score": 4,
+    "rating_at_start": 1329,
+    "performance_rating": 1346
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "marianaslma262b",
+    "final_rank": 44,
+    "final_score": 4,
+    "rating_at_start": 1360,
+    "performance_rating": 1323
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "pedrolhalma262b",
+    "final_rank": 45,
+    "final_score": 4,
+    "rating_at_start": 1309,
+    "performance_rating": 1300
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "miguelablma262a",
+    "final_rank": 46,
+    "final_score": 4,
+    "rating_at_start": 1214,
+    "performance_rating": 1276
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "romullo-luiz",
+    "final_rank": 47,
+    "final_score": 4,
+    "rating_at_start": 1352,
+    "performance_rating": 1215
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "felipejrlma262a",
+    "final_rank": 48,
+    "final_score": 3,
+    "rating_at_start": 1257,
+    "performance_rating": 1266
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "patrickallma262b",
+    "final_rank": 49,
+    "final_score": 3,
+    "rating_at_start": 1248,
+    "performance_rating": 1263
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "amandasplma262b",
+    "final_rank": 50,
+    "final_score": 3,
+    "rating_at_start": 1185,
+    "performance_rating": 1183
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "lucasmtfmf262",
+    "final_rank": 51,
+    "final_score": 2,
+    "rating_at_start": 1677,
+    "performance_rating": 1808
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "kenzojsglma261a",
+    "final_rank": 52,
+    "final_score": 2,
+    "rating_at_start": 1032,
+    "performance_rating": 1539
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "lalalala07",
+    "final_rank": 53,
+    "final_score": 2,
+    "rating_at_start": 1520,
+    "performance_rating": 1523
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "marialgs_262lmab",
+    "final_rank": 54,
+    "final_score": 2,
+    "rating_at_start": 1506,
+    "performance_rating": 1503
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "raticho",
+    "final_rank": 55,
+    "final_score": 2,
+    "rating_at_start": 1407,
+    "performance_rating": 1408
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "thiagozlma262a",
+    "final_rank": 56,
+    "final_score": 2,
+    "rating_at_start": 1294,
+    "performance_rating": 1333
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "isabelahlma262a",
+    "final_rank": 57,
+    "final_score": 2,
+    "rating_at_start": 1082,
+    "performance_rating": 1087
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "pedrolaslma262b",
+    "final_rank": 58,
+    "final_score": 2,
+    "rating_at_start": 1049,
+    "performance_rating": 1067
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "kaiolalma261b",
+    "final_rank": 59,
+    "final_score": 0,
+    "rating_at_start": 1339,
+    "performance_rating": 1074
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "enzorclma262b",
+    "final_rank": 60,
+    "final_score": 0,
+    "rating_at_start": 843,
+    "performance_rating": 1003
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "gustavoplma262b",
+    "final_rank": 61,
+    "final_score": 0,
+    "rating_at_start": 1071,
+    "performance_rating": 879
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "gabriellyzlma262a",
+    "final_rank": 62,
+    "final_score": 0,
+    "rating_at_start": 1021,
+    "performance_rating": 702
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "user_id_lichess": "giovanacslma262a",
+    "final_rank": 63,
+    "final_score": 0,
+    "rating_at_start": 685,
+    "performance_rating": 672
   }
 ]

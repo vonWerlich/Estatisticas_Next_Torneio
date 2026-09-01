@@ -3297,7 +3297,7 @@
     "tournament_rated": 1,
     "number_of_players": 67,
     "tournament_name": "NexT FullChess Series 26-1 T05 Arena",
-    "circuito": null
+    "circuito": "2026-1"
   },
   {
     "tournament_id": "KIRO5XYk",
@@ -3308,7 +3308,7 @@
     "tournament_rated": 1,
     "number_of_players": 63,
     "tournament_name": "NexT FullChess Series 26-1 T06 Arena",
-    "circuito": null
+    "circuito": "2026-1"
   },
   {
     "tournament_id": "yMjoEzZk",
@@ -3319,7 +3319,7 @@
     "tournament_rated": 1,
     "number_of_players": 62,
     "tournament_name": "NexT FullChess Series 26-1 T07 Arena",
-    "circuito": null
+    "circuito": "2026-1"
   },
   {
     "tournament_id": "GZ22scmg",
@@ -3330,7 +3330,7 @@
     "tournament_rated": 1,
     "number_of_players": 63,
     "tournament_name": "NexT FullChess Series 26-1 T08 Arena",
-    "circuito": null
+    "circuito": "2026-1"
   },
   {
     "tournament_id": "9dSSJWId",
@@ -3341,7 +3341,7 @@
     "tournament_rated": 1,
     "number_of_players": 62,
     "tournament_name": "NexT FullChess Series 26-1 T09 Arena",
-    "circuito": null
+    "circuito": "2026-1"
   },
   {
     "tournament_id": "6K0Xdpqu",
@@ -3352,7 +3352,7 @@
     "tournament_rated": 1,
     "number_of_players": 57,
     "tournament_name": "NexT FullChess Series 26-1 T10 Arena",
-    "circuito": null
+    "circuito": "2026-1"
   },
   {
     "tournament_id": "AUj9IraL",
@@ -3363,7 +3363,7 @@
     "tournament_rated": 1,
     "number_of_players": 53,
     "tournament_name": "NexT FullChess Series 26-1 T11 Arena",
-    "circuito": null
+    "circuito": "2026-1"
   },
   {
     "tournament_id": "QhisfCnI",
@@ -3374,7 +3374,7 @@
     "tournament_rated": 1,
     "number_of_players": 44,
     "tournament_name": "NexT FullChess Series 26-1 T12 Arena",
-    "circuito": null
+    "circuito": "2026-1"
   },
   {
     "tournament_id": "cQP701oa",
@@ -3385,7 +3385,7 @@
     "tournament_rated": 1,
     "number_of_players": 16,
     "tournament_name": "NexT Chess Open 2026-1",
-    "circuito": null
+    "circuito": "Torneios Suíços"
   },
   {
     "tournament_id": "q8nzTc81",
@@ -3396,6 +3396,28 @@
     "tournament_rated": 1,
     "number_of_players": 13,
     "tournament_name": "NexT Freestyle Open 2026-1",
+    "circuito": "Torneios Suíços"
+  },
+  {
+    "tournament_id": "czfeITNY",
+    "tournament_start_datetime": "2026-08-21T21:30:00+00:00",
+    "tournament_system": "arena",
+    "tournament_time_control": "blitz",
+    "tournament_variant": "standard",
+    "tournament_rated": 1,
+    "number_of_players": 65,
+    "tournament_name": "NexT FullChess Series 26-2 T01 Arena",
+    "circuito": "2026-2"
+  },
+  {
+    "tournament_id": "wJpQdNk5",
+    "tournament_start_datetime": "2026-08-28T21:30:00+00:00",
+    "tournament_system": "arena",
+    "tournament_time_control": "chess960",
+    "tournament_variant": "chess960",
+    "tournament_rated": 1,
+    "number_of_players": 63,
+    "tournament_name": "NexT FullChess Series 26-2 T02 Arena",
     "circuito": null
   }
 ]
