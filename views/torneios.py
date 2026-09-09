@@ -17,8 +17,8 @@ def renderizar_aba_torneios(df_filtrado):
             df_resultados = carregar_pontuacoes_vencedores(df_filtrado['id'].tolist())
             
             if not df_resultados.empty:
-                # ---- CONTROLES SUPERIORES LADO A LADO ----
-                col_sistema, col_extras = st.columns(2)
+                # ---- CONTROLES SUPERIORES EM 3 COLUNAS ALINHADAS ----
+                col_sistema, col_ordem, col_extras = st.columns([1.3, 1.3, 1])
                 
                 with col_sistema:
                     sistema = st.selectbox(
@@ -30,22 +30,32 @@ def renderizar_aba_torneios(df_filtrado):
                             "Pódio Apenas (3-2-1)"
                         ]
                     )
+
+                with col_ordem:
+                    # Novo selectbox que acompanha o alinhamento central
+                    criterio_ordenacao = st.selectbox(
+                        "Critério de Classificação:",
+                        ["Pontuação do Torneio", "Performance Média (Rating)"]
+                    )
                 
                 with col_extras:
-                    # Injeta um espaço em branco com a altura exata da legenda do selectbox
+                    # O seu truque do margin-top foi mantido para alinhar perfeitamente 
+                    # a base do expander com a base das comboboxes
                     st.markdown("<div style='margin-top: 28px;'></div>", unsafe_allow_html=True)
-                    with st.expander("⚙️ Curiosidades e Colunas Extras"):
-                        posicoes_extras = st.number_input("Mostrar contagem de posições até o:", min_value=3, max_value=50, value=10, step=1)
-                        mostrar_lanternas = st.checkbox("Mostrar contagem de 'Lanternas' (Último lugar do torneio)", value=False)
+                    # Texto sutilmente encurtado para caber bem na terceira coluna
+                    with st.expander("⚙️ Curiosidades / Extras"):
+                        posicoes_extras = st.number_input("Mostrar posições até o:", min_value=3, max_value=50, value=10, step=1)
+                        mostrar_lanternas = st.checkbox("Mostrar 'Lanternas' (Últimos)", value=False)
                 
-                # Chamada da nossa nova função do utils.py
-                df_ranking = gerar_ranking_vencedores(df_resultados, sistema, posicoes_extras, mostrar_lanternas)
+                # Chamada recebendo a nova configuração de ordem
+                df_ranking = gerar_ranking_vencedores(df_resultados, sistema, posicoes_extras, mostrar_lanternas, criterio_ordenacao)
                 
                 if not df_ranking.empty:
-                    # Configuração visual das colunas
+                    # Adicionamos a Performance Média na renderização do DataFrame
                     col_config = {
                         "username": "Jogador",
-                        "pontos": st.column_config.NumberColumn("Pontos", format="%d")
+                        "pontos": st.column_config.NumberColumn("Pontos", format="%d"),
+                        "Perf. Média": st.column_config.NumberColumn("🎯 Perf. Média", format="%d")
                     }
                     
                     for i in range(1, posicoes_extras + 1):

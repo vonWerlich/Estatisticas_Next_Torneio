@@ -173,17 +173,19 @@ def carregar_pontuacoes_vencedores(torneios_ids):
     
     conn = get_db_connection()
     placeholders = ",".join(["?"] * len(torneios_ids))
+    # NOVA COLUNA AQUI: Adicionado o performance_rating
     query = f"""
     SELECT 
         user_id_lichess as username,
         tournament_id,
-        final_rank
+        final_rank,
+        performance_rating
     FROM tournament_results
     WHERE tournament_id IN ({placeholders})
     """
     df = pd.read_sql_query(query, conn, params=tuple(torneios_ids))
     conn.close()
-    
+
     # Retorna o DataFrame inteiro com os ranks brutos, a View decide como pontuar!
     return df
 
@@ -202,48 +204,86 @@ def calcular_pontos_sistema(rank, sis):
     return 0
 
 @st.cache_data(ttl="15m")
-def gerar_ranking_vencedores(df_resultados, sistema, posicoes_extras, mostrar_lanternas):
-    """Processa o dataframe de resultados brutos gerando o Ranking Completo com posições"""
+def gerar_ranking_vencedores(df_resultados, sistema, posicoes_extras, mostrar_lanternas, criterio_ordenacao="Pontuação do Torneio", min_torneios=1):
     if df_resultados.empty:
         return pd.DataFrame()
         
     df = df_resultados.copy()
     
-    # Aplica a pontuação dinamicamente
-    df['pontos'] = df['final_rank'].apply(lambda x: calcular_pontos_sistema(x, sistema))
-    df_pontuados = df[df['pontos'] > 0]
-    
-    if df_pontuados.empty:
-        return pd.DataFrame()
+    # ---------------------------------------------------------
+    # A MÁGICA ACONTECE AQUI: DEFINIÇÃO DO RANKING POR TORNEIO
+    # ---------------------------------------------------------
+    # Se o critério for performance, recriamos a colocação de cada jogador DENTRO 
+    # de cada torneio baseado no seu rating performance real naquela etapa.
+    if "Performance" in criterio_ordenacao:
+        df['rank_torneio'] = df.groupby('tournament_id')['performance_rating'].rank(ascending=False, method='min')
+    else:
+        # No modo tradicional, o rank do torneio é a colocação final (final_rank)
+        df['rank_torneio'] = df['final_rank']
         
-    df_ranking = df_pontuados.groupby('username')['pontos'].sum().reset_index()
+    # Agora calculamos os pontos baseados nesse rank específico!
+    df['pontos'] = df['rank_torneio'].apply(lambda x: calcular_pontos_sistema(x, sistema))
     
-    # Conta quantas vezes cada jogador ficou em cada posição
-    counts = pd.crosstab(df['username'], df['final_rank'])
+    # Agrupa os Pontos
+    df_ranking_pontos = df.groupby('username')['pontos'].sum().reset_index()
     
-    # Anexa as colunas solicitadas (1º até o valor escolhido)
+    # Agrupa a Performance Média (de todos os torneios jogados, apenas para manter a coluna de exibição)
+    df_perf = df.groupby('username')['performance_rating'].mean().fillna(0).reset_index()
+    df_perf.rename(columns={'performance_rating': 'Perf. Média'}, inplace=True)
+    
+    # Conta Assiduidade (Qtd de torneios jogados)
+    df_part = df.groupby('username').size().reset_index(name='Qtd. Torneios')
+    
+    # Conta Medalhas (1º, 2º...) baseadas no RANK ESCOLHIDO (rank_torneio)
+    counts = pd.crosstab(df['username'], df['rank_torneio'])
+    
+    # Mescla tudo em um único DataFrame
+    df_ranking = df_ranking_pontos.merge(df_perf, on='username', how='left')
+    df_ranking = df_ranking.merge(df_part, on='username', how='left')
+    
+    # Anexa as colunas de Posição solicitadas
     for i in range(1, posicoes_extras + 1):
         nome_coluna = f"{i}º"
-        if i in counts.columns:
-            df_ranking = df_ranking.merge(counts[[i]].rename(columns={i: nome_coluna}), left_on='username', right_index=True, how='left')
+        # O rank pode virar float se houver empate exato de performance, lidamos com isso aqui:
+        col_idx = float(i) if float(i) in counts.columns else (i if i in counts.columns else None)
+        
+        if col_idx is not None:
+            df_ranking = df_ranking.merge(counts[[col_idx]].rename(columns={col_idx: nome_coluna}), left_on='username', right_index=True, how='left')
         else:
             df_ranking[nome_coluna] = 0
             
     # Contagem de Lanternas
     if mostrar_lanternas:
-        max_ranks = df.groupby('tournament_id')['final_rank'].transform('max')
-        df['is_lanterna'] = (df['final_rank'] == max_ranks) & (df['final_rank'] > 1)
+        max_ranks = df.groupby('tournament_id')['rank_torneio'].transform('max')
+        df['is_lanterna'] = (df['rank_torneio'] == max_ranks) & (df['rank_torneio'] > 1)
         lanternas = df.groupby('username')['is_lanterna'].sum().reset_index()
-        
         df_ranking = df_ranking.merge(lanternas, on='username', how='left')
         df_ranking.rename(columns={'is_lanterna': '🐢 Lanterna'}, inplace=True)
     
+    # Excluímos quem zerou e aplicamos o filtro "Tirar Turistas"
+    df_ranking = df_ranking[df_ranking['pontos'] > 0]
+    df_ranking = df_ranking[df_ranking['Qtd. Torneios'] >= min_torneios]
+    
+    if df_ranking.empty:
+        return pd.DataFrame()
+        
     df_ranking = df_ranking.fillna(0)
     
-    # Ordenação: Pontos em 1º, seguido por 1º, 2º, 3º...
+    # Como a nova lógica da coluna "Pontos" já encapsula a Performance se ela foi escolhida,
+    # a ordenação base não precisa ter condicionais: sempre Pontos -> Ouros -> Pratas -> etc.
     cols_desempate = [f"{i}º" for i in range(1, posicoes_extras + 1)]
-    cols_ordenacao = ['pontos'] + [c for c in cols_desempate if c in df_ranking.columns]
+    cols_ordenacao = ['pontos'] + [c for c in cols_desempate if c in df_ranking.columns] + ['Perf. Média', 'Qtd. Torneios']
+        
     df_ranking = df_ranking.sort_values(by=cols_ordenacao, ascending=[False] * len(cols_ordenacao))
+    
+    # Formatações para a tabela exibir números inteiros limpos
+    df_ranking['pontos'] = df_ranking['pontos'].astype(int)
+    df_ranking['Perf. Média'] = df_ranking['Perf. Média'].astype(int)
+    for c in cols_desempate:
+        if c in df_ranking.columns:
+            df_ranking[c] = df_ranking[c].astype(int)
+    if mostrar_lanternas and '🐢 Lanterna' in df_ranking.columns:
+        df_ranking['🐢 Lanterna'] = df_ranking['🐢 Lanterna'].astype(int)
     
     return df_ranking
 

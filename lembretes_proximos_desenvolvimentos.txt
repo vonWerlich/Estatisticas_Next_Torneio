@@ -9,6 +9,6 @@ npm run build
 
 >> secrets github = email e token lichess e token ntfy
 
->> limpar turso e gerar de novo (contém lances > 30 e xadrez 960)
-
 >> senhas e tokens no github secrets não vão para o streamlit! Se o código precisar acessar o token do repositório Turso e o link, isso tem que ser informado ao secrets do streamlit cloud
+
+>> criar módulo de teste (automatizar bug finding de novos features)
