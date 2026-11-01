@@ -3463,5 +3463,49 @@
     "number_of_players": 59,
     "tournament_name": "NexT FullChess Series 26-2 T06 Arena",
     "circuito": null
+  },
+  {
+    "tournament_id": "KPd8uRg8",
+    "tournament_start_datetime": "2026-10-02T21:30:00+00:00",
+    "tournament_system": "arena",
+    "tournament_time_control": "blitz",
+    "tournament_variant": "standard",
+    "tournament_rated": 1,
+    "number_of_players": 66,
+    "tournament_name": "NexT FullChess Series 26-2 T07 Arena",
+    "circuito": null
+  },
+  {
+    "tournament_id": "dgAG61e8",
+    "tournament_start_datetime": "2026-10-09T21:30:00+00:00",
+    "tournament_system": "arena",
+    "tournament_time_control": "chess960",
+    "tournament_variant": "chess960",
+    "tournament_rated": 1,
+    "number_of_players": 50,
+    "tournament_name": "NexT FullChess Series 26-2 T08 Arena",
+    "circuito": null
+  },
+  {
+    "tournament_id": "l3YuqNNT",
+    "tournament_start_datetime": "2026-10-16T21:30:00+00:00",
+    "tournament_system": "arena",
+    "tournament_time_control": "blitz",
+    "tournament_variant": "standard",
+    "tournament_rated": 1,
+    "number_of_players": 58,
+    "tournament_name": "NexT FullChess Series 26-2 T09 Arena",
+    "circuito": null
+  },
+  {
+    "tournament_id": "MGS1c4Wa",
+    "tournament_start_datetime": "2026-10-23T21:30:00+00:00",
+    "tournament_system": "arena",
+    "tournament_time_control": "chess960",
+    "tournament_variant": "chess960",
+    "tournament_rated": 1,
+    "number_of_players": 59,
+    "tournament_name": "NexT FullChess Series 26-2 T10 Arena",
+    "circuito": null
   }
 ]
